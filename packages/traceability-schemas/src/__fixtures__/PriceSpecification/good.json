@@ -1,26 +1,26 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "PriceSpecification",
-    "price": 1928,
-    "priceCurrency": "YER"
+    "price": 483,
+    "priceCurrency": "GNF"
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "PriceSpecification",
-    "price": 2435,
-    "priceCurrency": "MYR"
+    "price": 4756,
+    "priceCurrency": "GBP"
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "PriceSpecification",
-    "price": 590,
-    "priceCurrency": "SOS"
+    "price": 4586,
+    "priceCurrency": "ETB"
   }
 ]

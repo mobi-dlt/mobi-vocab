@@ -1,13 +1,13 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "identifier": "Invoice#654",
     "description": "Invoice For Beau Lowe for Order#258",
     "customer": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": "Customer",
       "name": "Beau Lowe",
@@ -30,7 +30,7 @@
     "referencesOrder": [
       {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "EcommerceOrderRegistrationEvidenceDocument",
         "description": "New Order For Beau Lowe",
@@ -50,7 +50,7 @@
         },
         "customer": {
           "@context": [
-            "https://w3id.org/traceability/v1"
+            "https://mobinet.io/schemas/v1"
           ],
           "type": "Customer",
           "name": "Beau Lowe",
@@ -117,7 +117,7 @@
     "accountId": "xxxx-xxxx-xxxx-8314",
     "customer": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": "Customer",
       "name": "Pamela Bogisich",
@@ -143,7 +143,7 @@
     "referencesOrder": [
       {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "EcommerceOrderRegistrationEvidenceDocument",
         "description": "New Order For Giles Mayert",
@@ -163,7 +163,7 @@
         },
         "customer": {
           "@context": [
-            "https://w3id.org/traceability/v1"
+            "https://mobinet.io/schemas/v1"
           ],
           "type": "Customer",
           "name": "Giles Mayert",

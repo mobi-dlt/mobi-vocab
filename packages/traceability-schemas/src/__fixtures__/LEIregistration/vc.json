@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/traceability/v1"
+    "https://mobinet.io/schemas/v1"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,28 +11,28 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIregistration",
     "initialRegistrationDate": "2020-01-01",
     "lastUpdateDate": "2020-01-01",
-    "status": "IN PROGRESS",
+    "status": "CONFIRMED",
     "nextRenewalDate": "2021-02-02",
-    "managingLou": "AWSIVPUWDLXARBXNLZLS",
-    "validationSources": "NOT_CORROBORATED",
+    "managingLou": "RPKIQCIFPENLARUGAAHN",
+    "validationSources": "FULLY_CORROBORATED",
     "validationAuthority": [
       {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000002",
-        "otherValidationAuthorityID": "LDHMTP2C",
-        "validationAuthorityEntityID": "T3H24LVINQ5I1F5EL06C"
+        "validationAuthorityID": "RA000003",
+        "otherValidationAuthorityID": "2Y74IHJ7",
+        "validationAuthorityEntityID": "126BH5LP5JE5W0ZTZ6VL"
       }
     ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..1oF3_1YN-HDO4R4JXB3a-pXq90Fk8072cyUtpYnzK_aIqYvPngKVGBkjVMV6cIXQ0MCt5WUeLxCuYPE89RsvDA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..pfaL3J9f1zqHfe_S5TRkFimTzF-PliLHmgt6a9nqC3wRrd02tqC4nAo6TVoARsxcGUCkAqsm39WMRv3nXHTsBA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

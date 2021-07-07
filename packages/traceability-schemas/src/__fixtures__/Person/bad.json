@@ -1,48 +1,20 @@
 [
   {
-    "type": "Person",
-    "firstName": "Fritz",
-    "lastName": "Toy",
-    "email": "Queenie55@example.org",
-    "phoneNumber": "555-742-7060",
-    "worksFor": {
-      "type": "Organization",
-      "name": "Luettgen, Marvin and Kassulke",
-      "description": "Stand-alone local knowledge base",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "1092 Edison Drives",
-        "addressLocality": "South Merrittburgh",
-        "addressRegion": "New Hampshire",
-        "postalCode": "15204",
-        "addressCountry": "Azerbaijan"
-      },
-      "email": "Viola5@example.com",
-      "phoneNumber": "555-476-4350",
-      "faxNumber": "555-800-7485"
-    },
-    "transmitter": "bypass",
-    "monitor": "input",
-    "matrix": "synthesize"
+    "phoneNumber": "555-980-8042",
+    "driver": "reboot",
+    "protocol": "compress"
   },
   {
-    "firstName": "Aletha",
-    "email": "Ellsworth_Gottlieb@example.com",
-    "jobTitle": "Lead Communications Designer",
-    "alarm": "parse",
-    "feed": "program"
+    "email": "Savannah_Greenfelder57@example.com",
+    "phoneNumber": "555-831-3094",
+    "system": "transmit",
+    "array": "copy",
+    "bus": "index",
+    "panel": "input"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "Person",
-    "firstName": "Timothy",
-    "lastName": "Pacocha",
-    "jobTitle": "Corporate Division Director",
-    "feed": "transmit",
-    "program": "parse",
-    "pixel": "transmit",
-    "hard drive": "input"
+    "phoneNumber": "555-892-6394",
+    "matrix": "reboot",
+    "hard drive": "generate"
   }
 ]

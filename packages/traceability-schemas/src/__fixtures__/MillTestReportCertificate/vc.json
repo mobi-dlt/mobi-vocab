@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/traceability/v1"
+    "https://mobinet.io/schemas/v1"
   ],
   "id": "https://example.com/credential/123",
   "type": [
@@ -23,19 +23,19 @@
   "issuer": {
     "id": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
     "type": "Organization",
-    "name": "Jakubowski - O'Reilly",
-    "description": "Down-sized composite frame",
+    "name": "Hand - Schimmel",
+    "description": "Multi-tiered executive middleware",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "805 Destinee Burgs",
-      "addressLocality": "Turcotteport",
-      "addressRegion": "Tennessee",
-      "postalCode": "67727",
-      "addressCountry": "Honduras"
+      "streetAddress": "389 McDermott Roads",
+      "addressLocality": "Martychester",
+      "addressRegion": "Washington",
+      "postalCode": "22576-5622",
+      "addressCountry": "San Marino"
     },
-    "email": "Eda15@example.com",
-    "phoneNumber": "555-948-8791",
-    "faxNumber": "555-848-7519"
+    "email": "Gunnar59@example.net",
+    "phoneNumber": "555-628-5970",
+    "faxNumber": "555-816-6948"
   },
   "credentialSubject": {
     "type": [
@@ -45,30 +45,30 @@
       "type": [
         "Organization"
       ],
-      "name": "Mosciski - Cormier",
-      "description": "Right-sized attitude-oriented info-mediaries",
+      "name": "Okuneva Inc",
+      "description": "Intuitive leading edge support",
       "address": {
         "type": [
           "PostalAddress"
         ],
-        "streetAddress": "9329 King Manors",
-        "addressLocality": "North Astridview",
-        "addressRegion": "New Jersey",
-        "postalCode": "51424",
-        "addressCountry": "Denmark"
+        "streetAddress": "644 Gwen Inlet",
+        "addressLocality": "West Robertmouth",
+        "addressRegion": "South Carolina",
+        "postalCode": "14618-4613",
+        "addressCountry": "British Indian Ocean Territory (Chagos Archipelago)"
       },
-      "email": "Toney_Bradtke74@example.org",
-      "phoneNumber": "555-148-7606",
-      "faxNumber": "555-564-1276"
+      "email": "Lowell.Watsica36@example.org",
+      "phoneNumber": "555-690-9393",
+      "faxNumber": "555-289-6444"
     },
     "product": {
       "type": [
         "SteelProduct"
       ],
-      "heatNumber": "36126",
-      "specification": "ASTM-85461",
-      "grade": "21336",
-      "originalCountryOfMeltAndPour": "Denmark",
+      "heatNumber": "28562",
+      "specification": "ASTM-26589",
+      "grade": "27090",
+      "originalCountryOfMeltAndPour": "Jamaica",
       "inspection": {
         "type": [
           "InspectionReport"
@@ -80,16 +80,18 @@
             ],
             "property": {
               "type": [
-                "ChemicalProperty"
+                "MechanicalProperty"
               ],
-              "name": "Phosphorus"
+              "identifier": "ISO 180",
+              "name": "Izod Impact Strength Test",
+              "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
             },
             "measurement": {
               "type": [
                 "MeasuredValue"
               ],
-              "value": "100.00",
-              "unitCode": "P1"
+              "value": "82.277",
+              "unitCode": "B13"
             }
           },
           {
@@ -100,9 +102,9 @@
               "type": [
                 "MechanicalProperty"
               ],
-              "identifier": "ISO 1352",
-              "name": "Torque-controlled fatigue testing",
-              "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
+              "identifier": "ISO 3738",
+              "name": "Rockwell Hardness Test (Scale A)",
+              "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
             },
             "measurement": {
               "type": [
@@ -110,6 +112,24 @@
               ],
               "value": "00.00",
               "unitCode": "UNKNOWN"
+            }
+          },
+          {
+            "type": [
+              "Observation"
+            ],
+            "property": {
+              "type": [
+                "ChemicalProperty"
+              ],
+              "name": "Beryllium"
+            },
+            "measurement": {
+              "type": [
+                "MeasuredValue"
+              ],
+              "value": "100.00",
+              "unitCode": "P1"
             }
           }
         ]
@@ -121,10 +141,10 @@
       ],
       "customer": {
         "type": [
-          "Person"
+          "Organization"
         ],
-        "email": "Buck.Schulist30@example.com",
-        "phoneNumber": "555-350-7955"
+        "email": "Rashad.Sipes1@example.net",
+        "phoneNumber": "555-708-7047"
       }
     },
     "shipment": {
@@ -135,32 +155,32 @@
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Klein - Kozey",
-        "streetAddress": "41710 Evangeline Courts",
-        "addressLocality": "Wintheiserton",
-        "addressRegion": "Montana",
-        "postalCode": "67343",
-        "addressCountry": "India"
+        "organizationName": "Watsica - Spinka",
+        "streetAddress": "482 Myrtice Common",
+        "addressLocality": "Vicenteland",
+        "addressRegion": "North Dakota",
+        "postalCode": "54984-1584",
+        "addressCountry": "Lithuania"
       },
       "originAddress": {
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Kutch LLC",
-        "streetAddress": "1147 Gerlach Skyway",
-        "addressLocality": "South Caesar",
-        "addressRegion": "Wyoming",
-        "postalCode": "67824-2750",
-        "addressCountry": "Canada"
+        "organizationName": "Blanda - Crooks",
+        "streetAddress": "7697 Dean Isle",
+        "addressLocality": "Luettgenside",
+        "addressRegion": "South Carolina",
+        "postalCode": "04605",
+        "addressCountry": "Gibraltar"
       },
-      "deliveryMethod": "Rail freight transport",
-      "trackingNumber": "122919954750"
+      "deliveryMethod": "Truck transport",
+      "trackingNumber": "318159001446"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..7g7Wj4yy555MAQ_WjcUf1Mcw1a-EHsq1XpmURRfp71tNQHXaArRZ-382X6b1vN8NTvPaLG5qfs6cB8rxbhE-Bg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..thy7CJu475SJ9BXpVxlXJMI7ek9rY-_0LNk3e5t-BMK08lS3F7kqi1P4nZw2razZi1v93u5x03bfl5wy4w0cDw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

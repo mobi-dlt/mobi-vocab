@@ -11,7 +11,7 @@ const getChemicalProperty = () => {
   const name = randomElement.title;
   const { symbol } = randomElement;
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://mobinet.io/schemas/v1'],
     type: 'ChemicalProperty',
     name,
     formula: symbol,

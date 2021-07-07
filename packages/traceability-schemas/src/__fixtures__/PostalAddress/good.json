@@ -1,38 +1,38 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "PostalAddress",
-    "organizationName": "Ebert - Langworth",
-    "streetAddress": "6706 Schuppe Glen",
-    "addressLocality": "Arlieberg",
-    "addressRegion": "Texas",
-    "postalCode": "06883",
-    "addressCountry": "Lao People's Democratic Republic"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "PostalAddress",
-    "organizationName": "Hahn, Schmidt and Larkin",
-    "streetAddress": "557 Jermaine Square",
-    "addressLocality": "Elisabury",
+    "organizationName": "Langosh and Sons",
+    "streetAddress": "4854 Aufderhar Radial",
+    "addressLocality": "South Scottiestad",
     "addressRegion": "Florida",
-    "postalCode": "64981",
-    "addressCountry": "Denmark"
+    "postalCode": "46127",
+    "addressCountry": "Georgia"
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "PostalAddress",
-    "organizationName": "Blick - Leuschke",
-    "streetAddress": "04066 Raynor Garden",
-    "addressLocality": "Mertzfurt",
-    "addressRegion": "Kentucky",
-    "postalCode": "04742",
-    "addressCountry": "Bosnia and Herzegovina"
+    "organizationName": "Wunsch, Treutel and McClure",
+    "streetAddress": "039 Albin Villages",
+    "addressLocality": "West Ricardo",
+    "addressRegion": "Vermont",
+    "postalCode": "20283",
+    "addressCountry": "Malta"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "PostalAddress",
+    "organizationName": "Cormier - Rowe",
+    "streetAddress": "75612 Elisa Crossing",
+    "addressLocality": "East Alva",
+    "addressRegion": "New Mexico",
+    "postalCode": "87702",
+    "addressCountry": "Cambodia"
   }
 ]

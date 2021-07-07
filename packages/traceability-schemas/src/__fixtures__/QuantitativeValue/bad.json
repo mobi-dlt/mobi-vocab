@@ -1,23 +1,20 @@
 [
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
     "type": "QuantitativeValue",
-    "unitCode": "hg/ha",
-    "monitor": "generate"
+    "value": "6995",
+    "pixel": "input",
+    "sensor": "program",
+    "interface": "hack"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "QuantitativeValue",
-    "unitCode": "hg/ha",
-    "capacitor": "program"
+    "port": "back up",
+    "bandwidth": "navigate",
+    "array": "generate",
+    "interface": "synthesize"
   },
   {
-    "value": "7315",
-    "alarm": "parse",
-    "application": "quantify"
+    "protocol": "parse",
+    "microchip": "input",
+    "circuit": "index"
   }
 ]

@@ -18,7 +18,7 @@ const getEcommerceWayBillCommodityContent = () => {
   delete totalsCommodityContent['@context'];
 
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://mobinet.io/schemas/v1'],
     type: 'EcommerceWayBillCommodityContent',
     wayBillGrouping,
     totalsCommodityContent,

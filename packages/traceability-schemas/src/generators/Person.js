@@ -12,7 +12,7 @@ const getPerson = () => {
   const phone = `555-${faker.random.number({ min: 100, max: 999 })}-${faker.random.number({ min: 1000, max: 9999 })}`;
 
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://mobinet.io/schemas/v1'],
     type: 'Person',
     firstName: faker.name.firstName(),
     lastName: faker.name.lastName(),

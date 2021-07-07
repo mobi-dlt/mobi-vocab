@@ -7,7 +7,7 @@ const getEcommercePackingListRegistrationCredential = () => {
   items.push(itemlist);
 
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://mobinet.io/schemas/v1'],
     type: 'EcommercePackingListRegistrationCredential',
     packageItems: items,
     certificateName: 'ACME Ecommerce Packing List Registration Certificate',

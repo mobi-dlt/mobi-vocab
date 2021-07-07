@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/traceability/v1"
+    "https://mobinet.io/schemas/v1"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,7 +11,7 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": [
       "Inbond"
@@ -21,103 +21,103 @@
     "inBondType": "IT (61)",
     "portOfEntry": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": [
         "Place"
       ],
-      "globalLocationNumber": "5833751240129",
+      "globalLocationNumber": "4795968533436",
       "geo": {
         "type": [
           "GeoCoordinates"
         ],
-        "latitude": "42.6995",
-        "longitude": "-98.7608"
+        "latitude": "-48.6511",
+        "longitude": "65.0041"
       },
       "address": {
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Effertz - Kozey",
-        "streetAddress": "916 Zoie Centers",
-        "addressLocality": "Albinchester",
-        "addressRegion": "Tennessee",
-        "postalCode": "33885",
-        "addressCountry": "Denmark"
+        "organizationName": "Stokes Inc",
+        "streetAddress": "6727 Feeney Cape",
+        "addressLocality": "Lake Preston",
+        "addressRegion": "Texas",
+        "postalCode": "49409",
+        "addressCountry": "Azerbaijan"
       }
     },
     "carrier": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": [
         "Organization"
       ],
-      "email": "Imogene.Christiansen41@example.net",
-      "phoneNumber": "555-743-3492"
+      "email": "Clay48@example.com",
+      "phoneNumber": "555-484-1746"
     },
     "recipient": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": [
         "Organization"
       ],
-      "email": "Rosamond.Rogahn98@example.com",
-      "phoneNumber": "555-147-2859"
+      "email": "Bettie.Abernathy52@example.net",
+      "phoneNumber": "555-910-5293"
     },
     "portOfArrival": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": [
         "Place"
       ],
-      "globalLocationNumber": "5671195545345",
+      "globalLocationNumber": "5944857135605",
       "geo": {
         "type": [
           "GeoCoordinates"
         ],
-        "latitude": "86.2674",
-        "longitude": "-148.9982"
+        "latitude": "28.1122",
+        "longitude": "-34.9061"
       },
       "address": {
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Macejkovic, Osinski and Kuvalis",
-        "streetAddress": "17473 Jayne Harbors",
-        "addressLocality": "Eleanoratown",
-        "addressRegion": "Illinois",
-        "postalCode": "07235-0072",
-        "addressCountry": "Uzbekistan"
+        "organizationName": "O'Conner - Grady",
+        "streetAddress": "768 Augustus Haven",
+        "addressLocality": "Herthaville",
+        "addressRegion": "Connecticut",
+        "postalCode": "94403",
+        "addressCountry": "Mayotte"
       }
     },
     "portOfDestination": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": [
         "Place"
       ],
-      "globalLocationNumber": "9114681203955",
+      "globalLocationNumber": "2805081934309",
       "geo": {
         "type": [
           "GeoCoordinates"
         ],
-        "latitude": "76.7148",
-        "longitude": "-62.6018"
+        "latitude": "-51.2354",
+        "longitude": "53.4438"
       },
       "address": {
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Ernser Inc",
-        "streetAddress": "286 Angelina Mill",
-        "addressLocality": "Lake Lennie",
-        "addressRegion": "New York",
-        "postalCode": "98593",
-        "addressCountry": "Estonia"
+        "organizationName": "Hoeger Inc",
+        "streetAddress": "369 Aylin Mountain",
+        "addressLocality": "Lake Tracey",
+        "addressRegion": "Utah",
+        "postalCode": "12858",
+        "addressCountry": "Nauru"
       }
     },
     "shipment": {
@@ -126,38 +126,38 @@
       ],
       "originAddress": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Hammes and Sons",
-        "streetAddress": "610 Gus Plains",
-        "addressLocality": "North Marleneborough",
-        "addressRegion": "Wyoming",
-        "postalCode": "66899",
-        "addressCountry": "Estonia"
+        "organizationName": "Mosciski LLC",
+        "streetAddress": "29595 Bobbie Drive",
+        "addressLocality": "Arvidport",
+        "addressRegion": "Virginia",
+        "postalCode": "18434",
+        "addressCountry": "Liechtenstein"
       },
       "deliveryAddress": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Schroeder - Prosacco",
-        "streetAddress": "85302 Nyah View",
-        "addressLocality": "Maeberg",
-        "addressRegion": "Tennessee",
-        "postalCode": "67957",
-        "addressCountry": "Nigeria"
+        "organizationName": "Jacobs - Bernier",
+        "streetAddress": "249 Mary Junction",
+        "addressLocality": "Millstown",
+        "addressRegion": "Colorado",
+        "postalCode": "56729",
+        "addressCountry": "Tunisia"
       },
       "deliveryMethod": "pipeline"
     },
     "billOfLadingNumber": "123456789",
     "expectedDeliveryDate": "2020-10-20",
-    "valuePerItem": "8932",
-    "totalOrderValue": "31613",
+    "valuePerItem": "7896",
+    "totalOrderValue": "44445",
     "product": {
       "type": [
         "Product"
@@ -166,8 +166,8 @@
         "type": [
           "Organization"
         ],
-        "email": "Vivienne.Mueller@example.net",
-        "phoneNumber": "555-341-7422"
+        "email": "Effie.Waters38@example.com",
+        "phoneNumber": "555-293-3106"
       },
       "name": "Crude Oil Barrel",
       "description": "Heavy Sour Dilbit",
@@ -176,22 +176,22 @@
           "QuantitativeValue"
         ],
         "unitCode": "hg/ha",
-        "value": "2889"
+        "value": "3239"
       },
       "weight": {
         "type": [
           "QuantitativeValue"
         ],
         "unitCode": "hg/ha",
-        "value": "6043"
+        "value": "9353"
       },
-      "sku": "430348873737"
+      "sku": "366644036188"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..6_dDsY_75VYW4zkdDuZk67PUE0FiyHzi-1n5SQXZYLvPtwJyvtdyyfmScp8XFn1EwBqz-NMp6MhJCgTiw7J4Ag",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..DrTHK7bDNUWWehioIf3BVBRf2lbNglZwTfY7PcWbxJe7j91PbHphax9v33dEoXwLfu_LnUoORunfL-RNPQ_2AA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

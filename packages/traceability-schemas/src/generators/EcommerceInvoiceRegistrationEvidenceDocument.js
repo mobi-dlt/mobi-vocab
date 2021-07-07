@@ -94,7 +94,7 @@ const getEcommerceInvoiceRegistrationEvidenceDocument = () => {
 
   const referencesOrderNew = [];
   const referencesOrder = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://mobinet.io/schemas/v1'],
     type: 'EcommerceOrderRegistrationEvidenceDocument',
     description: `New Order For ${customer.name}`,
     url: `${faker.internet.url()}?queryid=${orderNumber}`,
@@ -114,7 +114,7 @@ const getEcommerceInvoiceRegistrationEvidenceDocument = () => {
   const invoiceNumber = `Invoice#${faker.random.number({ min: 1, max: 999 })}`;
 
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://mobinet.io/schemas/v1'],
     type: 'EcommerceInvoiceRegistrationEvidenceDocument',
     identifier: invoiceNumber,
     description: `Invoice For ${customer.name} for ${orderNumber}`,

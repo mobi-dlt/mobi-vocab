@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/traceability/v1"
+    "https://mobinet.io/schemas/v1"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,35 +11,35 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "Person",
-    "firstName": "Fritz",
-    "lastName": "Toy",
-    "email": "Queenie55@example.org",
-    "phoneNumber": "555-742-7060",
+    "firstName": "Scottie",
+    "lastName": "Little",
+    "email": "Carey84@example.com",
+    "phoneNumber": "555-980-8042",
     "worksFor": {
       "type": "Organization",
-      "name": "Luettgen, Marvin and Kassulke",
-      "description": "Stand-alone local knowledge base",
+      "name": "Ledner LLC",
+      "description": "Adaptive tangible extranet",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "1092 Edison Drives",
-        "addressLocality": "South Merrittburgh",
-        "addressRegion": "New Hampshire",
-        "postalCode": "15204",
-        "addressCountry": "Azerbaijan"
+        "streetAddress": "0863 McDermott Squares",
+        "addressLocality": "Port Garnett",
+        "addressRegion": "Minnesota",
+        "postalCode": "78619-1741",
+        "addressCountry": "Bhutan"
       },
-      "email": "Viola5@example.com",
-      "phoneNumber": "555-476-4350",
-      "faxNumber": "555-800-7485"
+      "email": "Marianna_Hermann@example.com",
+      "phoneNumber": "555-959-6571",
+      "faxNumber": "555-700-2293"
     },
-    "jobTitle": "Product Implementation Developer"
+    "jobTitle": "Legacy Interactions Assistant"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..3VzuLweDqeF0Mo8_A_8V2wDaHHDP-WRrFPdQ_-OeUuqiUePUjg_fKjjkRqI6LWnP7U6ZvjqWmwIXjMf8-EKtAg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..bbUml9aunjwdRPn7RTB7DpG_PEcQra1hc8K-q5Y29AxubQ2dazNV8dW7X6bPZ-412BYKkNuISLBULN2xHuqUDg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

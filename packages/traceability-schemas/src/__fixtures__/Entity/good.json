@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "Person",
     "firstName": "Thalia",
@@ -28,7 +28,7 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "Organization",
     "name": "Shields - White",
@@ -47,7 +47,7 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "Organization",
     "name": "Lowe, Tillman and Schinner",

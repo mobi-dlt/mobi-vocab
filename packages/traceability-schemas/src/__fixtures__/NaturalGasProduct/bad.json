@@ -1,33 +1,156 @@
 [
   {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "NaturalGasProduct",
+    "HSCode": "270900",
+    "UWI": "100.12-04-091-05-W5.00",
     "productionDate": "2020-03-30",
-    "array": "program",
-    "monitor": "synthesize",
-    "application": "generate"
+    "facility": {
+      "type": "Place",
+      "globalLocationNumber": "3541573560951",
+      "geo": {
+        "type": "GeoCoordinates",
+        "latitude": "60.3552",
+        "longitude": "-50.3489"
+      },
+      "address": {
+        "type": "PostalAddress",
+        "organizationName": "Kohler LLC",
+        "streetAddress": "181 VonRueden Falls",
+        "addressLocality": "Raulfurt",
+        "addressRegion": "Wisconsin",
+        "postalCode": "80231",
+        "addressCountry": "Papua New Guinea"
+      }
+    },
+    "product": {
+      "type": "Product",
+      "manufacturer": {
+        "type": "Person",
+        "firstName": "Makenzie",
+        "lastName": "Zboncak",
+        "email": "Ardella.Paucek@example.com",
+        "phoneNumber": "555-884-3743",
+        "worksFor": {
+          "type": "Organization",
+          "name": "Grady - Corkery",
+          "description": "Mandatory coherent forecast",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "10174 Braun Drive",
+            "addressLocality": "Davidton",
+            "addressRegion": "Maine",
+            "postalCode": "40069-5713",
+            "addressCountry": "Cameroon"
+          },
+          "email": "Antonio.Gerhold82@example.net",
+          "phoneNumber": "555-386-8134",
+          "faxNumber": "555-503-8988"
+        },
+        "jobTitle": "District Mobility Architect"
+      },
+      "name": "Natural Gas",
+      "description": "Natural Gas Stream",
+      "sizeOrAmount": {
+        "type": "QuantitativeValue",
+        "unitCode": "hg/ha",
+        "value": "4582"
+      },
+      "weight": {
+        "type": "QuantitativeValue",
+        "unitCode": "hg/ha",
+        "value": "2594"
+      },
+      "sku": "909265949399"
+    },
+    "circuit": "bypass",
+    "pixel": "bypass",
+    "driver": "back up",
+    "microchip": "index"
   },
   {
-    "capacitor": "parse",
-    "program": "compress",
-    "firewall": "input"
+    "product": {
+      "type": "Product",
+      "manufacturer": {
+        "type": "Person",
+        "firstName": "Kyra",
+        "lastName": "Cronin",
+        "email": "Karl.Williamson@example.org",
+        "phoneNumber": "555-135-3593",
+        "worksFor": {
+          "type": "Organization",
+          "name": "Lynch, Wuckert and Ward",
+          "description": "Optimized exuding throughput",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "2073 Sipes Drive",
+            "addressLocality": "Kianview",
+            "addressRegion": "New Jersey",
+            "postalCode": "24094",
+            "addressCountry": "Croatia"
+          },
+          "email": "Chelsea60@example.com",
+          "phoneNumber": "555-654-5649",
+          "faxNumber": "555-185-7624"
+        },
+        "jobTitle": "Senior Paradigm Developer"
+      },
+      "name": "Natural Gas",
+      "description": "Natural Gas Stream",
+      "sizeOrAmount": {
+        "type": "QuantitativeValue",
+        "unitCode": "hg/ha",
+        "value": "6242"
+      },
+      "weight": {
+        "type": "QuantitativeValue",
+        "unitCode": "hg/ha",
+        "value": "1898"
+      },
+      "sku": "276093323916"
+    },
+    "port": "navigate",
+    "application": "connect"
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
+    "type": "NaturalGasProduct",
     "HSCode": "270900",
-    "UWI": "100.12-04-091-05-W5.00",
+    "productionDate": "2020-03-30",
+    "facility": {
+      "type": "Place",
+      "globalLocationNumber": "2419332768539",
+      "geo": {
+        "type": "GeoCoordinates",
+        "latitude": "-44.5916",
+        "longitude": "-161.6926"
+      },
+      "address": {
+        "type": "PostalAddress",
+        "organizationName": "Ernser Group",
+        "streetAddress": "45310 Welch Crest",
+        "addressLocality": "Lake Annetta",
+        "addressRegion": "Georgia",
+        "postalCode": "44377-6541",
+        "addressCountry": "Cyprus"
+      }
+    },
     "observation": [
       {
         "type": "Observation",
         "property": {
           "type": "MechanicalProperty",
-          "identifier": "ISO 148",
-          "name": "Charpy Impact Strength Test",
-          "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+          "identifier": "ISO 180",
+          "name": "Izod Impact Strength Test",
+          "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
         },
         "measurement": {
           "type": "MeasuredValue",
-          "value": "3.771",
+          "value": "71.263",
           "unitCode": "B13"
         }
       },
@@ -35,48 +158,33 @@
         "type": "Observation",
         "property": {
           "type": "ChemicalProperty",
-          "name": "Meitnerium",
-          "formula": "Mt"
+          "name": "Cesium",
+          "formula": "Cs",
+          "inchi": "InChI=1S/Cs",
+          "inchikey": "TVFDJXOCXUVLDH-UHFFFAOYSA-N"
         },
         "measurement": {
           "type": "MeasuredValue",
-          "value": "00.00",
-          "unitCode": "UNKNOWN"
+          "value": "94.637",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": "Observation",
+        "property": {
+          "type": "ChemicalProperty",
+          "name": "Tellurium",
+          "formula": "Te",
+          "inchi": "InChI=1S/Te",
+          "inchikey": "PORWMNRCUJJQNO-UHFFFAOYSA-N"
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "5.3632",
+          "unitCode": "P1"
         }
       }
     ],
-    "product": {
-      "type": "Product",
-      "manufacturer": {
-        "type": "Organization",
-        "name": "Hermann - Lang",
-        "description": "Intuitive actuating groupware",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "75576 Schimmel Mall",
-          "addressLocality": "West Lexus",
-          "addressRegion": "Washington",
-          "postalCode": "51590",
-          "addressCountry": "Lithuania"
-        },
-        "email": "Karine.Schaden@example.net",
-        "phoneNumber": "555-253-7605",
-        "faxNumber": "555-669-4699"
-      },
-      "name": "Natural Gas",
-      "description": "Natural Gas Stream",
-      "sizeOrAmount": {
-        "type": "QuantitativeValue",
-        "unitCode": "hg/ha",
-        "value": "6347"
-      },
-      "weight": {
-        "type": "QuantitativeValue",
-        "unitCode": "hg/ha",
-        "value": "8185"
-      },
-      "sku": "126144522377"
-    },
-    "pixel": "transmit"
+    "firewall": "input"
   }
 ]

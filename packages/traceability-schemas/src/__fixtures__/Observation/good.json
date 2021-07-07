@@ -1,53 +1,54 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "Observation",
     "property": {
       "type": "MechanicalProperty",
-      "identifier": "ISO 148",
-      "name": "Charpy Impact Strength Test",
-      "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+      "identifier": "ISO 1352",
+      "name": "Torque-controlled fatigue testing",
+      "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
     },
     "measurement": {
       "type": "MeasuredValue",
-      "value": "36.227",
-      "unitCode": "B13"
+      "value": "00.00",
+      "unitCode": "UNKNOWN"
     }
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "Observation",
-    "property": {
-      "type": "MechanicalProperty",
-      "identifier": "ISO 148",
-      "name": "Charpy Impact Strength Test",
-      "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
-    },
-    "measurement": {
-      "type": "MeasuredValue",
-      "value": "18.210",
-      "unitCode": "B13"
-    }
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "Observation",
     "property": {
       "type": "ChemicalProperty",
-      "name": "Rubidium",
-      "formula": "Rb",
-      "inchi": "InChI=1S/Rb",
-      "inchikey": "IGLNJRXAVVLDKE-UHFFFAOYSA-N"
+      "name": "Yttrium",
+      "formula": "Y",
+      "inchi": "InChI=1S/Y",
+      "inchikey": "VWQVUPCCIRVNHF-UHFFFAOYSA-N"
     },
     "measurement": {
       "type": "MeasuredValue",
-      "value": "47.827",
+      "value": "36.566",
+      "unitCode": "P1"
+    }
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "Observation",
+    "property": {
+      "type": "ChemicalProperty",
+      "name": "Germanium",
+      "formula": "Ge",
+      "inchi": "InChI=1S/Ge",
+      "inchikey": "GNPVGFCGXDBREM-UHFFFAOYSA-N"
+    },
+    "measurement": {
+      "type": "MeasuredValue",
+      "value": "6.568",
       "unitCode": "P1"
     }
   }

@@ -1,26 +1,26 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "chargeAndPaymentType",
-    "chargeCollect": 794,
-    "chargePrepaid": 615
+    "chargeCollect": 897,
+    "chargePrepaid": 937
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "chargeAndPaymentType",
-    "chargeCollect": 931,
-    "chargePrepaid": 962
+    "chargeCollect": 268,
+    "chargePrepaid": 741
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "chargeAndPaymentType",
-    "chargeCollect": 622,
-    "chargePrepaid": 675
+    "chargeCollect": 634,
+    "chargePrepaid": 724
   }
 ]

@@ -7,7 +7,7 @@ const ajv = generator.getAjv();
 // https://github.com/w3c-ccg/traceability-vocab/blob/1397920e6e23893577753f7f51e4a9c786a746ee/docs/credentials/CommercialInvoice.json
 const getCommercialInvoice = () => {
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://mobinet.io/schemas/v1'],
     type: ['CommercialInvoice'],
     portOfEntry: {
       type: 'PostalAddress',

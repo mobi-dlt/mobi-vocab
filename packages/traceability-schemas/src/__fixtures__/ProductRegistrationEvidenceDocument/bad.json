@@ -1,34 +1,64 @@
 [
   {
-    "category": "Dietary Supplement",
-    "inProductGroupWithID": "Group779",
-    "productID": "939VPT11N3",
-    "gtin": "35801902491133",
-    "releaseDate": "2020-01-07",
-    "manufacturer": "Wintheiser, Hills and Windler",
-    "globalLocationNumber": "1409951426321",
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "ProductRegistrationEvidenceDocument",
+    "category": "Specialty Goods",
+    "inProductGroupWithID": "Group670",
+    "productID": "94RQO9BGJV",
+    "mpn": "5YGFVUF1UU",
+    "gtin": "59066310813929",
+    "isAccessoryOrSparePartFor": "n/a",
+    "manufacturer": "Dicki - Kuhn",
+    "globalLocationNumber": "6229956203373",
     "leiCode": "",
-    "model": "4c80684b-23d0-4f25-b689-6b767ec817ca",
+    "name": "Tasty Rubber Table",
+    "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+    "model": "8d641c61-1d1a-4614-ae96-9c484bc44f78",
     "color": "magenta",
-    "height": "8.151 m",
-    "depth": "1.36 m",
-    "bus": "back up"
+    "material": "Fresh",
+    "weight": "1.716 kg",
+    "height": "4.285 m",
+    "width": "6.351 m",
+    "depth": "1.902 m",
+    "url": "https://example.com/Tasty Rubber Table",
+    "isBasedOn": "Generic Metal Chicken",
+    "image": "http://placeimg.com/640/480",
+    "system": "override",
+    "card": "calculate"
   },
   {
-    "productID": "B3ESMJ0AWN",
-    "globalLocationNumber": "5759246965637",
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "isAccessoryOrSparePartFor": "n/a",
+    "releaseDate": "2020-01-07",
+    "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+    "material": "Plastic",
+    "width": "9.383 m",
+    "isBasedOn": "Handcrafted Wooden Ball",
+    "matrix": "input",
+    "application": "copy",
+    "hard drive": "transmit"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "ProductRegistrationEvidenceDocument",
+    "category": "Convenience Goods",
+    "productID": "K2KJ5WEOC8",
+    "mpn": "EKRXHQXOAY",
+    "gtin": "41628787271468",
+    "releaseDate": "2020-01-07",
+    "globalLocationNumber": "4128715762868",
     "leiCode": "",
-    "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "width": "5.023 m",
-    "depth": "3.789 m",
-    "isBasedOn": "Gorgeous Fresh Tuna",
-    "driver": "program",
-    "application": "program"
-  },
-  {
-    "sensor": "copy",
-    "capacitor": "generate",
-    "program": "calculate",
-    "interface": "transmit"
+    "name": "Ergonomic Rubber Table",
+    "color": "plum",
+    "weight": "8.694 kg",
+    "url": "https://example.com/Ergonomic Rubber Table",
+    "image": "http://placeimg.com/640/480",
+    "firewall": "override"
   }
 ]

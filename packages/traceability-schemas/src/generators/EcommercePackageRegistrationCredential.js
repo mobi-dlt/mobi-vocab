@@ -40,7 +40,7 @@ const getEcommercePackageRegistrationCredential = () => {
   }
 
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://mobinet.io/schemas/v1'],
     type: 'EcommercePackageRegistrationCredential',
     trackingID: `${faker.random.number({
       min: 100000000000,

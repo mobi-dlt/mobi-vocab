@@ -2,7 +2,7 @@
   {
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "name": "Bill Of Lading Certificate",
     "issuanceDate": "2019-12-11T03:50:55Z",
@@ -11,7 +11,7 @@
   {
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "id": "https://example.com/credential/123",
     "relatedLink": [
@@ -39,7 +39,7 @@
       "relatedDocuments": [
         {
           "@context": [
-            "https://w3id.org/traceability/v1"
+            "https://mobinet.io/schemas/v1"
           ],
           "type": [
             "Purchase"
@@ -55,7 +55,7 @@
       ],
       "freight": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": [
           "ParcelDelivery"
@@ -94,7 +94,7 @@
   {
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "id": "https://example.com/credential/123",
     "type": [

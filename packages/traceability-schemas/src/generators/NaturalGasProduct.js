@@ -48,7 +48,7 @@ const getNaturalGasProduct = () => {
   });
 
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://mobinet.io/schemas/v1'],
     type: 'NaturalGasProduct',
     HSCode: '270900',
     UWI: '100.12-04-091-05-W5.00',

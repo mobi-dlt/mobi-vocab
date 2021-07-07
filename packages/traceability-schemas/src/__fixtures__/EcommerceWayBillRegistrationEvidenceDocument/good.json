@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceWayBillRegistrationEvidenceDocument",
     "issuanceDate": "2021-03-09",
@@ -80,7 +80,7 @@
       "accountingInformation": "Please charge to Account 123 and Account 321",
       "charge": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
         "price": 3424,
@@ -88,7 +88,7 @@
       },
       "declaredValueCarriage": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
         "price": 1842,
@@ -97,7 +97,7 @@
       "declaredValueCarriagePaymentStatus": "PaymentAutomaticallyApplied",
       "declaredValueCustoms": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
         "price": 78,
@@ -106,7 +106,7 @@
       "declaredValueCustomsPaymentStatus": "PaymentAutomaticallyApplied",
       "amountInsurance": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
         "price": 4675,
@@ -314,7 +314,7 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceWayBillRegistrationEvidenceDocument",
     "issuanceDate": "2021-03-09",
@@ -393,7 +393,7 @@
       "accountingInformation": "Please charge to Account 123 and Account 321",
       "charge": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
         "price": 9534,
@@ -401,7 +401,7 @@
       },
       "declaredValueCarriage": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
         "price": 9033,
@@ -410,7 +410,7 @@
       "declaredValueCarriagePaymentStatus": "PaymentDeclined",
       "declaredValueCustoms": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
         "price": 7140,
@@ -419,7 +419,7 @@
       "declaredValueCustomsPaymentStatus": "PaymentDeclined",
       "amountInsurance": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
         "price": 8184,
@@ -534,7 +534,7 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceWayBillRegistrationEvidenceDocument",
     "issuanceDate": "2021-03-09",
@@ -613,7 +613,7 @@
       "accountingInformation": "Please charge to Account 123 and not Account 321",
       "charge": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
         "price": 3141,
@@ -621,7 +621,7 @@
       },
       "declaredValueCarriage": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
         "price": 6209,
@@ -630,7 +630,7 @@
       "declaredValueCarriagePaymentStatus": "PaymentPastDue",
       "declaredValueCustoms": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
         "price": 6387,
@@ -639,7 +639,7 @@
       "declaredValueCustomsPaymentStatus": "PaymentPastDue",
       "amountInsurance": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
         "price": 6997,

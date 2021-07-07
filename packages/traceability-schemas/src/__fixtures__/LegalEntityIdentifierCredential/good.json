@@ -1,26 +1,26 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "LegalEntityIdentifierCredential",
-    "leiCode": "WJG1J5ZTU4D80GMIPRNG",
+    "leiCode": "TI9W85LS2S049EJ6W9U9",
     "certificateName": "US Legal Entity Certificate"
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "LegalEntityIdentifierCredential",
-    "leiCode": "HFOELQJKGDA698IK5FCI",
+    "leiCode": "CZ38ARRCC5TUBB5NFKGG",
     "certificateName": "US Legal Entity Certificate"
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "LegalEntityIdentifierCredential",
-    "leiCode": "OZPBALG3YLR3YYQP6S2P",
+    "leiCode": "34OCWY2I5MPCFBE04IIH",
     "certificateName": "US Legal Entity Certificate"
   }
 ]

@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/traceability/v1"
+    "https://mobinet.io/schemas/v1"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,67 +11,67 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "IssuerAgent",
     "issuerAgentOrg": {
       "type": "Organization",
-      "name": "Gutkowski - Kemmer",
-      "description": "Compatible real-time pricing structure",
+      "name": "Botsford, Kutch and Runte",
+      "description": "Extended optimizing challenge",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "001 King Canyon",
-        "addressLocality": "South Finn",
-        "addressRegion": "Vermont",
-        "postalCode": "19161",
-        "addressCountry": "Angola"
+        "streetAddress": "595 Tracey Mission",
+        "addressLocality": "Joyceshire",
+        "addressRegion": "Iowa",
+        "postalCode": "20991",
+        "addressCountry": "Malawi"
       },
-      "email": "Lempi.Okuneva@example.net",
-      "phoneNumber": "555-126-4871",
-      "faxNumber": "555-164-8875"
+      "email": "Lilla_Haag56@example.org",
+      "phoneNumber": "555-621-6534",
+      "faxNumber": "555-599-5341"
     },
-    "iataCode": "IATA#113",
+    "iataCode": "IATA#741",
     "accountNumber": "",
-    "accountingInformation": "Please charge to Account 123 and not Account 321",
+    "accountingInformation": "Please, only charge Account 123",
     "charge": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": "PriceSpecification",
-      "price": 6229,
-      "priceCurrency": "TTD"
+      "price": 2574,
+      "priceCurrency": "BOB"
     },
     "declaredValueCarriage": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": "PriceSpecification",
-      "price": 2086,
-      "priceCurrency": "LKR"
+      "price": 5934,
+      "priceCurrency": "TWD"
     },
     "declaredValueCarriagePaymentStatus": "PaymentAutomaticallyApplied",
     "declaredValueCustoms": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": "PriceSpecification",
-      "price": 5046,
-      "priceCurrency": "SOS"
+      "price": 9361,
+      "priceCurrency": "MKD"
     },
     "declaredValueCustomsPaymentStatus": "PaymentAutomaticallyApplied",
     "amountInsurance": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": "PriceSpecification",
-      "price": 5453,
-      "priceCurrency": "TND"
+      "price": 6785,
+      "priceCurrency": "BND"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..qVzUmVlNROWggjxyOAzv50J07_lx750_X3RI8Szh-pVQghqtGp2NEKmxf0yt5uNFAa8CP6yk62onJSXUe5PrAg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vJlNjM6-JHNLPCxFTwnepVxkZUoNCnWKm0LxG2vJY5eGFYvUDAEzy9BN9e3920iG0DsxNDjnvDYiEOzgeYViAw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

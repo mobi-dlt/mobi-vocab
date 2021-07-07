@@ -51,7 +51,7 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "upc": "033383401508",
     "gtin": "033383401508",
@@ -94,7 +94,7 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "AgProduct",
     "upc": "033383401508",

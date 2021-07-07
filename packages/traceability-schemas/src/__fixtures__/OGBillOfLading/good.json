@@ -1,14 +1,14 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": [
       "OGBillOfLading"
     ],
     "billOfLading": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": [
         "BillOfLading"
@@ -17,293 +17,7 @@
       "relatedDocuments": [
         {
           "@context": [
-            "https://w3id.org/traceability/v1"
-          ],
-          "type": [
-            "Purchase"
-          ],
-          "customer": {
-            "type": [
-              "Organization"
-            ],
-            "email": "Daisha_Hagenes75@example.org",
-            "phoneNumber": "555-260-8296"
-          }
-        }
-      ],
-      "freight": {
-        "@context": [
-          "https://w3id.org/traceability/v1"
-        ],
-        "type": [
-          "ParcelDelivery"
-        ],
-        "deliveryAddress": {
-          "type": [
-            "PostalAddress"
-          ],
-          "organizationName": "Hoppe - Gerhold",
-          "streetAddress": "140 Timothy Coves",
-          "addressLocality": "South Anachester",
-          "addressRegion": "South Carolina",
-          "postalCode": "10613",
-          "addressCountry": "Liberia"
-        },
-        "originAddress": {
-          "type": [
-            "PostalAddress"
-          ],
-          "organizationName": "Johns, Harvey and Armstrong",
-          "streetAddress": "865 Kulas River",
-          "addressLocality": "Port Isaiahport",
-          "addressRegion": "Georgia",
-          "postalCode": "21538",
-          "addressCountry": "Armenia"
-        },
-        "deliveryMethod": "Rail freight transport",
-        "trackingNumber": "401845668859"
-      }
-    },
-    "shippingDate": "2020-03-15",
-    "arrivalDate": "2020-03-28",
-    "valuePerItem": "500",
-    "totalOrderValue": "1500",
-    "freightChargeTerms": "Freight Prepaid",
-    "batchNumber": "12345678",
-    "openingVolume": "123",
-    "closingVolume": "222",
-    "observation": [
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "ChemicalProperty"
-          ],
-          "name": "Cesium"
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "100.00",
-          "unitCode": "P1"
-        }
-      },
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "MechanicalProperty"
-          ],
-          "identifier": "ISO 180",
-          "name": "Izod Impact Strength Test",
-          "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "98.290",
-          "unitCode": "B13"
-        }
-      },
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "MechanicalProperty"
-          ],
-          "identifier": "ISO 3738",
-          "name": "Rockwell Hardness Test (Scale A)",
-          "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "00.00",
-          "unitCode": "UNKNOWN"
-        }
-      }
-    ]
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": [
-      "OGBillOfLading"
-    ],
-    "billOfLading": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": [
-        "BillOfLading"
-      ],
-      "billOfLadingNumber": "991205182",
-      "relatedDocuments": [
-        {
-          "@context": [
-            "https://w3id.org/traceability/v1"
-          ],
-          "type": [
-            "Purchase"
-          ],
-          "customer": {
-            "type": [
-              "Organization"
-            ],
-            "email": "Kaela_Beahan91@example.com",
-            "phoneNumber": "555-151-3681"
-          }
-        }
-      ],
-      "freight": {
-        "@context": [
-          "https://w3id.org/traceability/v1"
-        ],
-        "type": [
-          "ParcelDelivery"
-        ],
-        "deliveryAddress": {
-          "type": [
-            "PostalAddress"
-          ],
-          "organizationName": "Littel, Torp and Spinka",
-          "streetAddress": "7302 Nia Wells",
-          "addressLocality": "Strackeborough",
-          "addressRegion": "North Carolina",
-          "postalCode": "84153",
-          "addressCountry": "Czech Republic"
-        },
-        "originAddress": {
-          "type": [
-            "PostalAddress"
-          ],
-          "organizationName": "Douglas, Grimes and Block",
-          "streetAddress": "758 Daugherty Passage",
-          "addressLocality": "Ricechester",
-          "addressRegion": "Georgia",
-          "postalCode": "18547-1020",
-          "addressCountry": "Liechtenstein"
-        },
-        "deliveryMethod": "Truck transport",
-        "trackingNumber": "802681135913"
-      }
-    },
-    "shippingDate": "2020-03-15",
-    "arrivalDate": "2020-03-28",
-    "valuePerItem": "500",
-    "totalOrderValue": "1500",
-    "freightChargeTerms": "Freight Prepaid",
-    "batchNumber": "12345678",
-    "openingVolume": "123",
-    "closingVolume": "222",
-    "observation": [
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "ChemicalProperty"
-          ],
-          "name": "Cerium"
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "100.00",
-          "unitCode": "P1"
-        }
-      },
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "MechanicalProperty"
-          ],
-          "identifier": "ISO 148",
-          "name": "Charpy Impact Strength Test",
-          "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "95.580",
-          "unitCode": "B13"
-        }
-      },
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "MechanicalProperty"
-          ],
-          "identifier": "ISO 3738",
-          "name": "Rockwell Hardness Test (Scale A)",
-          "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "00.00",
-          "unitCode": "UNKNOWN"
-        }
-      },
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "ChemicalProperty"
-          ],
-          "name": "Nitrogen"
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "00.00",
-          "unitCode": "UNKNOWN"
-        }
-      }
-    ]
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": [
-      "OGBillOfLading"
-    ],
-    "billOfLading": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": [
-        "BillOfLading"
-      ],
-      "billOfLadingNumber": "991205182",
-      "relatedDocuments": [
-        {
-          "@context": [
-            "https://w3id.org/traceability/v1"
+            "https://mobinet.io/schemas/v1"
           ],
           "type": [
             "Purchase"
@@ -312,14 +26,14 @@
             "type": [
               "Person"
             ],
-            "email": "Maxime.Senger@example.org",
-            "phoneNumber": "555-962-5790"
+            "email": "Abdiel_Weissnat@example.net",
+            "phoneNumber": "555-920-4114"
           }
         }
       ],
       "freight": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": [
           "ParcelDelivery"
@@ -328,26 +42,26 @@
           "type": [
             "PostalAddress"
           ],
-          "organizationName": "Rau, Walsh and Reichert",
-          "streetAddress": "258 Kohler Island",
-          "addressLocality": "Maryland",
-          "addressRegion": "Vermont",
-          "postalCode": "23958",
-          "addressCountry": "Niger"
+          "organizationName": "Von LLC",
+          "streetAddress": "825 Strosin Knoll",
+          "addressLocality": "West Alivia",
+          "addressRegion": "New Mexico",
+          "postalCode": "17004",
+          "addressCountry": "Cuba"
         },
         "originAddress": {
           "type": [
             "PostalAddress"
           ],
-          "organizationName": "Thompson - Blick",
-          "streetAddress": "31616 Morar Glens",
-          "addressLocality": "Lake Nicholausside",
-          "addressRegion": "Colorado",
-          "postalCode": "00014-0536",
-          "addressCountry": "Libyan Arab Jamahiriya"
+          "organizationName": "Huel, Sawayn and Mayert",
+          "streetAddress": "5663 Kassulke Ports",
+          "addressLocality": "West Korey",
+          "addressRegion": "Delaware",
+          "postalCode": "50554-3357",
+          "addressCountry": "Angola"
         },
-        "deliveryMethod": "Truck transport",
-        "trackingNumber": "296070884174"
+        "deliveryMethod": "Ocean transport",
+        "trackingNumber": "74670896395"
       }
     },
     "shippingDate": "2020-03-15",
@@ -356,29 +70,27 @@
     "totalOrderValue": "1500",
     "freightChargeTerms": "Freight Prepaid",
     "batchNumber": "12345678",
-    "openingVolume": "123",
-    "closingVolume": "222",
+    "openingVolume": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": [
+        "MeasuredValue"
+      ],
+      "value": "22.146",
+      "unitCode": "P1"
+    },
+    "closingVolume": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": [
+        "MeasuredValue"
+      ],
+      "value": "50.17",
+      "unitCode": "P1"
+    },
     "observation": [
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "MechanicalProperty"
-          ],
-          "identifier": "ISO 180",
-          "name": "Izod Impact Strength Test",
-          "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "53.217",
-          "unitCode": "B13"
-        }
-      },
       {
         "type": [
           "Observation"
@@ -387,7 +99,119 @@
           "type": [
             "ChemicalProperty"
           ],
-          "name": "Phosphorus"
+          "name": "Vanadium"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "100.00",
+          "unitCode": "P1"
+        }
+      }
+    ]
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": [
+      "OGBillOfLading"
+    ],
+    "billOfLading": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": [
+        "BillOfLading"
+      ],
+      "billOfLadingNumber": "991205182",
+      "relatedDocuments": [
+        {
+          "@context": [
+            "https://mobinet.io/schemas/v1"
+          ],
+          "type": [
+            "Purchase"
+          ],
+          "customer": {
+            "type": [
+              "Organization"
+            ],
+            "email": "Lyla_Nienow86@example.com",
+            "phoneNumber": "555-364-9613"
+          }
+        }
+      ],
+      "freight": {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
+        ],
+        "type": [
+          "ParcelDelivery"
+        ],
+        "deliveryAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Breitenberg - Hickle",
+          "streetAddress": "306 Americo Light",
+          "addressLocality": "Austinmouth",
+          "addressRegion": "North Carolina",
+          "postalCode": "62050",
+          "addressCountry": "Andorra"
+        },
+        "originAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Ruecker LLC",
+          "streetAddress": "0024 Kiarra Mission",
+          "addressLocality": "Walshside",
+          "addressRegion": "North Carolina",
+          "postalCode": "41927",
+          "addressCountry": "San Marino"
+        },
+        "deliveryMethod": "Rail freight transport",
+        "trackingNumber": "200016920537"
+      }
+    },
+    "shippingDate": "2020-03-15",
+    "arrivalDate": "2020-03-28",
+    "valuePerItem": "500",
+    "totalOrderValue": "1500",
+    "freightChargeTerms": "Freight Prepaid",
+    "batchNumber": "12345678",
+    "openingVolume": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": [
+        "MeasuredValue"
+      ],
+      "value": "36.661",
+      "unitCode": "P1"
+    },
+    "closingVolume": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": [
+        "MeasuredValue"
+      ],
+      "value": "25.896",
+      "unitCode": "P1"
+    },
+    "observation": [
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Carbon"
         },
         "measurement": {
           "type": [
@@ -408,6 +232,158 @@
           "identifier": "ISO 1352",
           "name": "Torque-controlled fatigue testing",
           "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "00.00",
+          "unitCode": "UNKNOWN"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "MechanicalProperty"
+          ],
+          "identifier": "ISO 180",
+          "name": "Izod Impact Strength Test",
+          "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "58.537",
+          "unitCode": "B13"
+        }
+      }
+    ]
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": [
+      "OGBillOfLading"
+    ],
+    "billOfLading": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": [
+        "BillOfLading"
+      ],
+      "billOfLadingNumber": "991205182",
+      "relatedDocuments": [
+        {
+          "@context": [
+            "https://mobinet.io/schemas/v1"
+          ],
+          "type": [
+            "Purchase"
+          ],
+          "customer": {
+            "type": [
+              "Organization"
+            ],
+            "email": "Maia9@example.net",
+            "phoneNumber": "555-709-1744"
+          }
+        }
+      ],
+      "freight": {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
+        ],
+        "type": [
+          "ParcelDelivery"
+        ],
+        "deliveryAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Sipes Group",
+          "streetAddress": "70434 Macejkovic Curve",
+          "addressLocality": "Vonborough",
+          "addressRegion": "Maryland",
+          "postalCode": "89061-5033",
+          "addressCountry": "Andorra"
+        },
+        "originAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Boyer Group",
+          "streetAddress": "4419 White Fort",
+          "addressLocality": "West Alethaside",
+          "addressRegion": "Michigan",
+          "postalCode": "25806",
+          "addressCountry": "Macedonia"
+        },
+        "deliveryMethod": "Truck transport",
+        "trackingNumber": "614094598841"
+      }
+    },
+    "shippingDate": "2020-03-15",
+    "arrivalDate": "2020-03-28",
+    "valuePerItem": "500",
+    "totalOrderValue": "1500",
+    "freightChargeTerms": "Freight Prepaid",
+    "batchNumber": "12345678",
+    "openingVolume": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": [
+        "MeasuredValue"
+      ],
+      "value": "57.512",
+      "unitCode": "P1"
+    },
+    "closingVolume": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": [
+        "MeasuredValue"
+      ],
+      "value": "00.00",
+      "unitCode": "UNKNOWN"
+    },
+    "observation": [
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Germanium"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "100.00",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "MechanicalProperty"
+          ],
+          "identifier": "ISO 3738",
+          "name": "Rockwell Hardness Test (Scale A)",
+          "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
         },
         "measurement": {
           "type": [

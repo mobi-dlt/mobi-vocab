@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/traceability/v1"
+    "https://mobinet.io/schemas/v1"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,50 +11,50 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "Inspector",
     "person": {
       "type": "Person",
-      "firstName": "Sadye",
-      "lastName": "Hammes",
-      "email": "Augustus.Langosh@example.com",
-      "phoneNumber": "555-749-6743",
+      "firstName": "Ilene",
+      "lastName": "Legros",
+      "email": "Ellen.Gislason@example.net",
+      "phoneNumber": "555-236-9701",
       "worksFor": {
         "type": "Organization",
-        "name": "Thiel - Morissette",
-        "description": "Optimized 4th generation monitoring",
+        "name": "Ortiz, Bauch and Bins",
+        "description": "Universal dedicated service-desk",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "9409 Walter Center",
-          "addressLocality": "New Eladiobury",
-          "addressRegion": "Florida",
-          "postalCode": "36956-0489",
-          "addressCountry": "Syrian Arab Republic"
+          "streetAddress": "905 Kunde Course",
+          "addressLocality": "Carolinastad",
+          "addressRegion": "Wisconsin",
+          "postalCode": "16433-9681",
+          "addressCountry": "Netherlands"
         },
-        "email": "Georgianna69@example.com",
-        "phoneNumber": "555-143-2549",
-        "faxNumber": "555-289-8654"
+        "email": "Eli.Kshlerin3@example.net",
+        "phoneNumber": "555-487-3636",
+        "faxNumber": "555-347-4361"
       },
-      "jobTitle": "Direct Program Representative"
+      "jobTitle": "Senior Branding Strategist"
     },
     "qualification": [
       {
         "type": "Qualification",
-        "qualificationCategory": "Dynamic Accounts Engineer",
-        "qualificationValue": "Consultant"
+        "qualificationCategory": "Dynamic Creative Analyst",
+        "qualificationValue": "Facilitator"
       },
       {
         "type": "Qualification",
-        "qualificationCategory": "Senior Identity Manager",
-        "qualificationValue": "Engineer"
+        "qualificationCategory": "Global Factors Specialist",
+        "qualificationValue": "Representative"
       }
     ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..qVebhsYlf_Tx6sz-QZCYEovwIfaJVteVCpJk0Dv8BTBb8MMXVvkMlQwj05VsNMMQnLeEobuh6Hg3YQfjXYseBw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..VX9-JQImcTfn2mQJqpqvF49DBWw_ec5oiJ83t7Tq1t1EfBVyPmTEoSLWnyPJo4WKJN_lnklru1Ia5yUkvIaDAA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

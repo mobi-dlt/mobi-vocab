@@ -1,26 +1,26 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "MeasuredValue",
-    "value": "70.986",
+    "value": "29.584",
     "unitCode": "P1"
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "MeasuredValue",
-    "value": "97.420",
-    "unitCode": "B13"
+    "value": "12.733",
+    "unitCode": "P1"
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "MeasuredValue",
-    "value": "7.270",
-    "unitCode": "B13"
+    "value": "00.00",
+    "unitCode": "UNKNOWN"
   }
 ]

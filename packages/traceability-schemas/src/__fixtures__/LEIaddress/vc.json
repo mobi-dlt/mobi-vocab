@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/traceability/v1"
+    "https://mobinet.io/schemas/v1"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,26 +11,26 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIaddress",
-    "language": "en_AU_ocker",
+    "language": "nl_BE",
     "addressLines": [
-      "Buckridge LLC",
-      "36414 Legros Oval"
+      "Klein - Steuber",
+      "4530 Cassin Knolls"
     ],
-    "addressNumber": "222",
-    "addressNumberWithinBuilding": "7",
-    "mailRouting": "73068 Edison Prairie, 41142",
-    "city": "Bahringerhaven",
-    "region": "Bedfordshire",
-    "country": "Nauru",
-    "postalCode": "52820-2019"
+    "addressNumber": "473",
+    "addressNumberWithinBuilding": "2",
+    "mailRouting": "8208 Ondricka Mountain, 26968",
+    "city": "South Santina",
+    "region": "Cambridgeshire",
+    "country": "Sweden",
+    "postalCode": "52470"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..XkYvz3mAg4UmInXbRehLVEfWQYe91jOmG6Clfq-La-Al7vxtjjrrbyDPE4kuAp4GxvWoR9_HwBiaMRNQ5EdHCg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..nEFcg4-TwuyyQOrO7b2u0fbJGI4-h70iYsJGByqgZzeJ8baNoUEUj6Jg8QP3H4Ajba5bP2DzOog4-vgrRkmEBg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

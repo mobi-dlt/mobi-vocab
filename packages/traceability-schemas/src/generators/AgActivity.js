@@ -69,7 +69,7 @@ const getAgActivity = () => {
   // End observation data prep
 
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://mobinet.io/schemas/v1'],
     type: 'AgActivity',
     farm,
     actor: [farmer],

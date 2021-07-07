@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/traceability/v1"
+    "https://mobinet.io/schemas/v1"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,36 +11,36 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "ProductRegistrationEvidenceDocument",
-    "category": "Dietary Supplement",
-    "inProductGroupWithID": "Group779",
-    "productID": "939VPT11N3",
-    "mpn": "712CAI8JJ9",
-    "gtin": "35801902491133",
+    "category": "Specialty Goods",
+    "inProductGroupWithID": "Group670",
+    "productID": "94RQO9BGJV",
+    "mpn": "5YGFVUF1UU",
+    "gtin": "59066310813929",
     "isAccessoryOrSparePartFor": "n/a",
     "releaseDate": "2020-01-07",
-    "manufacturer": "Wintheiser, Hills and Windler",
-    "globalLocationNumber": "1409951426321",
+    "manufacturer": "Dicki - Kuhn",
+    "globalLocationNumber": "6229956203373",
     "leiCode": "",
-    "name": "Rustic Cotton Fish",
-    "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-    "model": "4c80684b-23d0-4f25-b689-6b767ec817ca",
+    "name": "Tasty Rubber Table",
+    "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+    "model": "8d641c61-1d1a-4614-ae96-9c484bc44f78",
     "color": "magenta",
-    "material": "Frozen",
-    "weight": "7.675 kg",
-    "height": "8.151 m",
-    "width": "7.61 m",
-    "depth": "1.36 m",
-    "url": "https://example.com/Rustic Cotton Fish",
-    "isBasedOn": "Sleek Plastic Bike",
+    "material": "Fresh",
+    "weight": "1.716 kg",
+    "height": "4.285 m",
+    "width": "6.351 m",
+    "depth": "1.902 m",
+    "url": "https://example.com/Tasty Rubber Table",
+    "isBasedOn": "Generic Metal Chicken",
     "image": "http://placeimg.com/640/480"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..s9vE5UNYHfJsIzN89Q13kr41e94xQpRUK3up_H2AYDcd9NvcHfYJYQqkSvuFQr-rsx-rXUWYg-O5eH-Mp5UCCA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..10Xf6Qd2WA5oKZaeSrjs0ImojDezsXj_NPipbd92hOl_GLrZjMnwh30yRXV3OD7DoabgAm68MpEwIC0R-2dVBA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -1,26 +1,26 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "Qualification",
-    "qualificationCategory": "Investor Tactics Associate",
+    "qualificationCategory": "Internal Implementation Consultant",
+    "qualificationValue": "Strategist"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "Qualification",
+    "qualificationCategory": "Product Infrastructure Assistant",
+    "qualificationValue": "Engineer"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "Qualification",
+    "qualificationCategory": "Central Applications Director",
     "qualificationValue": "Architect"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "Qualification",
-    "qualificationCategory": "Lead Paradigm Architect",
-    "qualificationValue": "Assistant"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "Qualification",
-    "qualificationCategory": "Lead Infrastructure Producer",
-    "qualificationValue": "Executive"
   }
 ]

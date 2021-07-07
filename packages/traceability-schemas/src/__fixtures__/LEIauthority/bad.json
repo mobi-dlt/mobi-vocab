@@ -1,25 +1,25 @@
 [
   {
-    "validationAuthorityEntityID": "VLKX6U8ZH0Y4RLHTCAJ8",
-    "firewall": "calculate",
-    "hard drive": "parse",
-    "monitor": "reboot"
-  },
-  {
-    "pixel": "index",
-    "matrix": "input",
-    "microchip": "parse",
-    "protocol": "connect"
+    "type": "LEIauthority",
+    "validationAuthorityEntityID": "STE3HTVOEQJF1O0L8ROG",
+    "alarm": "index"
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIauthority",
-    "validationAuthorityID": "RA000661",
-    "validationAuthorityEntityID": "YKEINUGJM9GO6JI8JKTT",
-    "bandwidth": "navigate",
-    "monitor": "copy",
-    "firewall": "index"
+    "otherValidationAuthorityID": "PY612BXB",
+    "validationAuthorityEntityID": "9MU3VMR363TQRBLZC19G",
+    "pixel": "parse",
+    "array": "program"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "circuit": "transmit",
+    "matrix": "hack",
+    "program": "back up"
   }
 ]

@@ -1,26 +1,37 @@
 [
   {
-    "streetAddress": "6706 Schuppe Glen",
-    "postalCode": "06883",
-    "addressCountry": "Lao People's Democratic Republic",
-    "panel": "hack"
-  },
-  {
-    "type": "PostalAddress",
-    "organizationName": "Hahn, Schmidt and Larkin",
-    "streetAddress": "557 Jermaine Square",
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "addressLocality": "South Scottiestad",
     "addressRegion": "Florida",
-    "postalCode": "64981",
-    "addressCountry": "Denmark",
-    "transmitter": "override",
-    "card": "reboot",
-    "port": "program"
+    "postalCode": "46127",
+    "bus": "quantify",
+    "hard drive": "parse"
   },
   {
-    "addressLocality": "Mertzfurt",
-    "driver": "navigate",
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "streetAddress": "039 Albin Villages",
+    "addressCountry": "Malta",
+    "microchip": "synthesize",
     "card": "override",
-    "pixel": "input",
-    "system": "index"
+    "alarm": "reboot",
+    "circuit": "compress"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "PostalAddress",
+    "organizationName": "Cormier - Rowe",
+    "streetAddress": "75612 Elisa Crossing",
+    "addressLocality": "East Alva",
+    "postalCode": "87702",
+    "driver": "calculate",
+    "circuit": "compress",
+    "microchip": "back up",
+    "capacitor": "calculate"
   }
 ]

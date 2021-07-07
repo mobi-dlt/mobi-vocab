@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/traceability/v1"
+    "https://mobinet.io/schemas/v1"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,11 +11,11 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommercePackageRegistrationEvidenceDocument",
     "deliveryStatus": "EventPostponed",
-    "expectedArrivalFrom": "Tue Jan 01 2036 00:00:00 GMT+0000 (Coordinated Universal Time)",
+    "expectedArrivalFrom": "Mon Dec 31 2035 16:00:00 GMT-0800 (Pacific Standard Time)",
     "hasDeliveryMethod": "http://purl.org/goodrelations/v1#UPS",
     "deliveryAddress": {
       "type": "PostalAddress",
@@ -44,7 +44,7 @@
     "partOfOrder": [
       {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PartOfOrder",
         "orderNumber": "Order#85",
@@ -101,7 +101,7 @@
       },
       {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PartOfOrder",
         "orderNumber": "Order#278",
@@ -149,7 +149,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..wLoh4Vf8pW8COrfFBV55XWVDw_3t-aiImPaTevzgzDz05Tm6E77UoI4cvz5hdeihqjrKJavoEiKFCIw3jfqLAA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..1sYxhly6G7iuDoJ-JYTUgyLkxbxY16-27h9g1gsgQgguyWznlyiucJrT-_qWZZCvvmiuvJpBx7QC-iZ0ZWtgBg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

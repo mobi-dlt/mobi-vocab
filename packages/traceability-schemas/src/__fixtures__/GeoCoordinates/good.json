@@ -1,26 +1,26 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "GeoCoordinates",
-    "latitude": "-81.3994",
-    "longitude": "-105.0201"
+    "latitude": "-18.2738",
+    "longitude": "-141.6416"
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "GeoCoordinates",
-    "latitude": "-54.1518",
-    "longitude": "-68.0375"
+    "latitude": "-33.6880",
+    "longitude": "-112.3467"
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "GeoCoordinates",
-    "latitude": "-6.2500",
-    "longitude": "-130.5708"
+    "latitude": "-24.2590",
+    "longitude": "-12.8339"
   }
 ]

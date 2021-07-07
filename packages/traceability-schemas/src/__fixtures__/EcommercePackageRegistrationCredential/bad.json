@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "trackingID": "978429431398",
     "packageItems": [
@@ -20,7 +20,7 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommercePackageRegistrationCredential",
     "trackingID": "325972095830",

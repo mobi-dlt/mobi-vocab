@@ -1,55 +1,38 @@
 [
   {
-    "alarm": "hack",
-    "pixel": "parse"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "iataCode": "IATA#741",
+    "accountingInformation": "Please, only charge Account 123",
+    "charge": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 2574,
+      "priceCurrency": "BOB"
+    },
+    "declaredValueCarriagePaymentStatus": "PaymentAutomaticallyApplied",
+    "declaredValueCustoms": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 9361,
+      "priceCurrency": "MKD"
+    },
+    "monitor": "parse",
+    "bandwidth": "input"
+  },
+  {
+    "alarm": "quantify",
+    "circuit": "generate",
+    "program": "input"
   },
   {
     "type": "IssuerAgent",
-    "accountNumber": "",
-    "accountingInformation": "Please charge to Account 123 and Account 321",
-    "charge": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "PriceSpecification",
-      "price": 9490,
-      "priceCurrency": "GEL"
-    },
-    "declaredValueCarriage": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "PriceSpecification",
-      "price": 2467,
-      "priceCurrency": "TRY"
-    },
-    "declaredValueCustoms": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "PriceSpecification",
-      "price": 5326,
-      "priceCurrency": "CVE"
-    },
-    "amountInsurance": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "PriceSpecification",
-      "price": 4829,
-      "priceCurrency": "MUR"
-    },
-    "program": "calculate",
-    "monitor": "compress",
-    "microchip": "bypass"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "accountNumber": "",
-    "declaredValueCarriagePaymentStatus": "PaymentComplete",
-    "system": "calculate",
-    "firewall": "index"
+    "firewall": "connect",
+    "monitor": "program"
   }
 ]

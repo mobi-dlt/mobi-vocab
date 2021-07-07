@@ -1,26 +1,22 @@
 [
   {
+    "card": "program",
+    "hard drive": "compress",
+    "driver": "program"
+  },
+  {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
-    "value": "70.986",
-    "unitCode": "P1",
-    "panel": "back up",
-    "microchip": "synthesize",
-    "pixel": "back up",
-    "protocol": "compress"
-  },
-  {
     "type": "MeasuredValue",
-    "value": "97.420",
-    "unitCode": "B13",
-    "array": "back up",
-    "monitor": "calculate"
+    "value": "12.733",
+    "alarm": "parse",
+    "system": "calculate",
+    "protocol": "bypass"
   },
   {
-    "value": "7.270",
-    "interface": "compress",
-    "microchip": "quantify",
-    "feed": "compress"
+    "value": "00.00",
+    "unitCode": "UNKNOWN",
+    "feed": "reboot"
   }
 ]

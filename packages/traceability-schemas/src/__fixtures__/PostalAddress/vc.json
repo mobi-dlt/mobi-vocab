@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/traceability/v1"
+    "https://mobinet.io/schemas/v1"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,20 +11,20 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "PostalAddress",
-    "organizationName": "Ebert - Langworth",
-    "streetAddress": "6706 Schuppe Glen",
-    "addressLocality": "Arlieberg",
-    "addressRegion": "Texas",
-    "postalCode": "06883",
-    "addressCountry": "Lao People's Democratic Republic"
+    "organizationName": "Langosh and Sons",
+    "streetAddress": "4854 Aufderhar Radial",
+    "addressLocality": "South Scottiestad",
+    "addressRegion": "Florida",
+    "postalCode": "46127",
+    "addressCountry": "Georgia"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..QXUJmlbptgS_H1PKBF3TO-4YVHcSrYVaXJv1VLXhxDc3qHBJXxGmwNfGqgTwtXZSnn3nO8hZc5ZwrqerDUv-Bw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..zSaQuA7IRLVD3wtGfpy8sMb3M8RZitPbLNMaQzZzgkxUrOijUpzLtcnTWPCmQTSeIkzYCeMhqGE5iAajpBc7Dg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

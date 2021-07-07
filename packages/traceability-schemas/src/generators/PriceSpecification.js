@@ -10,7 +10,7 @@ const getPriceSpecification = () => {
   const currency = currencies[randNum].code;
 
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://mobinet.io/schemas/v1'],
     type: 'PriceSpecification',
     price: faker.random.number({ min: 10, max: 10000 }),
     priceCurrency: currency,

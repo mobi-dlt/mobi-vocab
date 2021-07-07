@@ -1,23 +1,16 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "PriceSpecification",
-    "price": 1928,
-    "microchip": "program",
-    "driver": "back up"
+    "pixel": "reboot"
   },
   {
-    "price": 2435,
-    "circuit": "navigate",
-    "capacitor": "synthesize"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
     "type": "PriceSpecification",
-    "matrix": "parse"
+    "port": "back up"
+  },
+  {
+    "array": "index"
   }
 ]

@@ -1,24 +1,26 @@
 [
   {
+    "qualificationCategory": "Internal Implementation Consultant",
+    "qualificationValue": "Strategist",
+    "capacitor": "copy",
+    "card": "back up",
+    "interface": "reboot",
+    "feed": "hack"
+  },
+  {
     "type": "Qualification",
-    "card": "connect",
-    "hard drive": "compress",
-    "monitor": "program",
-    "protocol": "compress"
+    "qualificationCategory": "Product Infrastructure Assistant",
+    "qualificationValue": "Engineer",
+    "protocol": "connect",
+    "bandwidth": "quantify",
+    "application": "compress"
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
-    "qualificationCategory": "Lead Paradigm Architect",
-    "qualificationValue": "Assistant",
-    "interface": "override",
-    "array": "index",
-    "bandwidth": "override"
-  },
-  {
-    "qualificationValue": "Executive",
-    "capacitor": "parse",
-    "panel": "parse"
+    "type": "Qualification",
+    "circuit": "bypass",
+    "monitor": "hack"
   }
 ]

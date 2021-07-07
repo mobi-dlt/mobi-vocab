@@ -1,65 +1,65 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "Place",
-    "globalLocationNumber": "2658245866653",
+    "globalLocationNumber": "6779162257228",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "-70.8395",
-      "longitude": "8.7329"
+      "latitude": "-84.4585",
+      "longitude": "-62.8542"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Fay, Dooley and Cartwright",
-      "streetAddress": "39255 Althea Squares",
-      "addressLocality": "Kennyhaven",
-      "addressRegion": "Maryland",
-      "postalCode": "74084-4785",
-      "addressCountry": "France"
+      "organizationName": "Dooley, Ullrich and Nader",
+      "streetAddress": "553 Zboncak Ramp",
+      "addressLocality": "North Kaiafurt",
+      "addressRegion": "Virginia",
+      "postalCode": "66768",
+      "addressCountry": "Canada"
     }
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "Place",
-    "globalLocationNumber": "9001831707541",
+    "globalLocationNumber": "7655592394384",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "78.8089",
-      "longitude": "172.4773"
+      "latitude": "51.0549",
+      "longitude": "-4.2983"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Rath LLC",
-      "streetAddress": "3861 Goyette Square",
-      "addressLocality": "South Bella",
-      "addressRegion": "Oklahoma",
-      "postalCode": "15856-4943",
-      "addressCountry": "Bouvet Island (Bouvetoya)"
-    }
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "Place",
-    "globalLocationNumber": "2845495778151",
-    "geo": {
-      "type": "GeoCoordinates",
-      "latitude": "26.2367",
-      "longitude": "9.0369"
-    },
-    "address": {
-      "type": "PostalAddress",
-      "organizationName": "Hills, Kozey and Bergstrom",
-      "streetAddress": "695 Rodriguez Ways",
-      "addressLocality": "Ritchieburgh",
+      "organizationName": "Weissnat LLC",
+      "streetAddress": "63867 Stephen Shore",
+      "addressLocality": "Port Humbertomouth",
       "addressRegion": "Illinois",
-      "postalCode": "85419",
-      "addressCountry": "Ukraine"
+      "postalCode": "10939",
+      "addressCountry": "Burundi"
+    }
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "Place",
+    "globalLocationNumber": "1395744851377",
+    "geo": {
+      "type": "GeoCoordinates",
+      "latitude": "60.5869",
+      "longitude": "-74.1996"
+    },
+    "address": {
+      "type": "PostalAddress",
+      "organizationName": "Bednar and Sons",
+      "streetAddress": "64494 Keebler Glen",
+      "addressLocality": "North Norval",
+      "addressRegion": "Missouri",
+      "postalCode": "64242-7890",
+      "addressCountry": "Estonia"
     }
   }
 ]

@@ -1,0 +1,63 @@
+{
+    "$id": "https://w3id.org/traceability/schemas/VID.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"VID\", \"@id\": \"https://schema.org#VID\"}", 
+    "title": "VID",
+    "description": "A VID",
+    "type": "object",
+    "properties": {
+      "@context": {
+        "type": "array"
+      },
+      "type": {
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "array"
+          }
+        ]
+      },
+      "vehicleID": {
+        "$comment": "{\"term\": \"vehicleID\", \"@id\": \"https://schema.org/identifier\"}",
+        "title": "Vehicle ID",
+        "description": "The unique identity of the vehicle.",
+        "type": "string"
+      },
+      "manufacturer": {
+        "$comment": "{\"term\": \"manufacturer\", \"@id\": \"https://schema.org/manufacturer\"}",
+        "title": "Manufacturer",
+        "description": "The entity manufacturing the vehicle.",
+        "$ref": "https://w3id.org/traceability/schemas/Entity.json"
+      },
+      "make": {
+        "$comment": "{\"term\": \"make\", \"@id\": \"https://schema.org/make\"}",
+        "title": "Make",
+        "description": "Name of the vehicle brand",
+        "type": "string"
+      },
+      "model": {
+        "$comment": "{\"term\": \"model\", \"@id\": \"https://schema.org/model\"}",
+        "title": "Model",
+        "description": "Name of Vehicle Model",
+        "type": "string"
+      },
+      "vin": {
+        "$comment": "{\"term\": \"vin\", \"@id\": \"https://schema.org/vehicleIdentificationNumber\"}",
+        "title": "VIN",
+        "description": "vehicle Identification Number",
+        "type": "string"
+      },
+      "licensePlate": {
+        "$comment": "{\"term\": \"licensePlate\", \"@id\": \"https://schema.org/Number\"}",
+        "title": "License Plate",
+        "description": "The current license plate of the vehicle",
+        "type": "string"
+      }
+      
+    },
+    "additionalProperties": false,
+    "examples": []
+  }
+  

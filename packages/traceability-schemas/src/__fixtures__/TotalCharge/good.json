@@ -1,44 +1,44 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 2317.5,
-    "totalCollect": 772.5,
-    "sourceCurrency": "ZWL",
-    "destinationCurrency": "OMR",
-    "currencyConversionRate": 5,
-    "ccChargesDestinationCurrency": "ZWL",
-    "chargesDestination": 998,
-    "totalCollectCharge": 249.5
+    "totalPrepaid": 5904,
+    "totalCollect": 1968,
+    "sourceCurrency": "CLP",
+    "destinationCurrency": "JPY",
+    "currencyConversionRate": 3,
+    "ccChargesDestinationCurrency": "CLP",
+    "chargesDestination": 803,
+    "totalCollectCharge": 200.75
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 3774.75,
-    "totalCollect": 1258.25,
-    "sourceCurrency": "KRW",
-    "destinationCurrency": "GNF",
-    "currencyConversionRate": 4,
-    "ccChargesDestinationCurrency": "KRW",
-    "chargesDestination": 342,
-    "totalCollectCharge": 85.5
+    "totalPrepaid": 4455.75,
+    "totalCollect": 1485.25,
+    "sourceCurrency": "CAD",
+    "destinationCurrency": "MXN",
+    "currencyConversionRate": 5,
+    "ccChargesDestinationCurrency": "CAD",
+    "chargesDestination": 440,
+    "totalCollectCharge": 110
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 2841,
-    "totalCollect": 947,
-    "sourceCurrency": "BZD",
-    "destinationCurrency": "MYR",
+    "totalPrepaid": 2164.5,
+    "totalCollect": 721.5,
+    "sourceCurrency": "YER",
+    "destinationCurrency": "VEF",
     "currencyConversionRate": 5,
-    "ccChargesDestinationCurrency": "BZD",
-    "chargesDestination": 382,
-    "totalCollectCharge": 95.5
+    "ccChargesDestinationCurrency": "YER",
+    "chargesDestination": 371,
+    "totalCollectCharge": 92.75
   }
 ]

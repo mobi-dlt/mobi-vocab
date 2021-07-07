@@ -1,61 +1,61 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIregistration",
     "initialRegistrationDate": "2020-01-01",
     "lastUpdateDate": "2020-01-01",
-    "status": "IN PROGRESS",
+    "status": "CONFIRMED",
     "nextRenewalDate": "2021-02-02",
-    "managingLou": "AWSIVPUWDLXARBXNLZLS",
-    "validationSources": "NOT_CORROBORATED",
-    "validationAuthority": [
-      {
-        "type": "LEIauthority",
-        "validationAuthorityID": "RA000002",
-        "otherValidationAuthorityID": "LDHMTP2C",
-        "validationAuthorityEntityID": "T3H24LVINQ5I1F5EL06C"
-      }
-    ]
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "LEIregistration",
-    "initialRegistrationDate": "2020-01-01",
-    "lastUpdateDate": "2020-01-01",
-    "status": "REJECTED",
-    "nextRenewalDate": "2021-02-02",
-    "managingLou": "QMZHQAWPYKYHJWCTEWBM",
+    "managingLou": "RPKIQCIFPENLARUGAAHN",
     "validationSources": "FULLY_CORROBORATED",
     "validationAuthority": [
       {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000661",
-        "otherValidationAuthorityID": "UUTMYNP1",
-        "validationAuthorityEntityID": "7T0SH9IP8741L7R6ZCRF"
+        "validationAuthorityID": "RA000003",
+        "otherValidationAuthorityID": "2Y74IHJ7",
+        "validationAuthorityEntityID": "126BH5LP5JE5W0ZTZ6VL"
       }
     ]
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIregistration",
     "initialRegistrationDate": "2020-01-01",
     "lastUpdateDate": "2020-01-01",
-    "status": "REJECTED",
+    "status": "REQUESTED",
     "nextRenewalDate": "2021-02-02",
-    "managingLou": "UOVEODEAMAZWTBVTAWMC",
+    "managingLou": "NARGWXMVIRTSFSKYWVSQ",
     "validationSources": "PARTIALLY_CORROBORATED",
     "validationAuthority": [
       {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000003",
-        "otherValidationAuthorityID": "27TO4PWK",
-        "validationAuthorityEntityID": "VWG3Q6MFS4FKSEGAX6HC"
+        "validationAuthorityID": "RA000005",
+        "otherValidationAuthorityID": "TMBS8N9Q",
+        "validationAuthorityEntityID": "IWQVIO27QMTIAPNTFQWU"
+      }
+    ]
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "LEIregistration",
+    "initialRegistrationDate": "2020-01-01",
+    "lastUpdateDate": "2020-01-01",
+    "status": "REQUESTED",
+    "nextRenewalDate": "2021-02-02",
+    "managingLou": "TCMDYCSPTFFGUEVYJWFF",
+    "validationSources": "PARTIALLY_CORROBORATED",
+    "validationAuthority": [
+      {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000004",
+        "otherValidationAuthorityID": "T9IGZDAZ",
+        "validationAuthorityEntityID": "HEG243FLAL5FAF81QI1I"
       }
     ]
   }

@@ -1,51 +1,43 @@
 [
   {
     "type": "LEIregistration",
-    "initialRegistrationDate": "2020-01-01",
-    "lastUpdateDate": "2020-01-01",
-    "status": "IN PROGRESS",
-    "nextRenewalDate": "2021-02-02",
-    "managingLou": "AWSIVPUWDLXARBXNLZLS",
-    "validationSources": "NOT_CORROBORATED",
-    "validationAuthority": [
-      {
-        "type": "LEIauthority",
-        "validationAuthorityID": "RA000002",
-        "otherValidationAuthorityID": "LDHMTP2C",
-        "validationAuthorityEntityID": "T3H24LVINQ5I1F5EL06C"
-      }
-    ],
-    "firewall": "input"
+    "status": "CONFIRMED",
+    "managingLou": "RPKIQCIFPENLARUGAAHN",
+    "hard drive": "connect",
+    "capacitor": "navigate"
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
-    "initialRegistrationDate": "2020-01-01",
-    "lastUpdateDate": "2020-01-01",
-    "status": "REJECTED",
-    "nextRenewalDate": "2021-02-02",
-    "validationSources": "FULLY_CORROBORATED",
+    "validationSources": "PARTIALLY_CORROBORATED",
     "validationAuthority": [
       {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000661",
-        "otherValidationAuthorityID": "UUTMYNP1",
-        "validationAuthorityEntityID": "7T0SH9IP8741L7R6ZCRF"
+        "validationAuthorityID": "RA000005",
+        "otherValidationAuthorityID": "TMBS8N9Q",
+        "validationAuthorityEntityID": "IWQVIO27QMTIAPNTFQWU"
       }
     ],
-    "microchip": "generate",
-    "system": "synthesize"
+    "panel": "input"
   },
   {
-    "type": "LEIregistration",
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "initialRegistrationDate": "2020-01-01",
-    "lastUpdateDate": "2020-01-01",
-    "status": "REJECTED",
+    "status": "REQUESTED",
     "nextRenewalDate": "2021-02-02",
-    "sensor": "generate",
-    "application": "override",
-    "bus": "copy",
-    "array": "copy"
+    "validationSources": "PARTIALLY_CORROBORATED",
+    "validationAuthority": [
+      {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000004",
+        "otherValidationAuthorityID": "T9IGZDAZ",
+        "validationAuthorityEntityID": "HEG243FLAL5FAF81QI1I"
+      }
+    ],
+    "monitor": "back up",
+    "bandwidth": "synthesize"
   }
 ]

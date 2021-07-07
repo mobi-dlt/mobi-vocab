@@ -1,14 +1,14 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": [
       "AgInspectionReport"
     ],
     "facility": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": [
         "Place"
@@ -35,7 +35,7 @@
     },
     "inspector": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": [
         "Inspector"
@@ -90,14 +90,14 @@
     },
     "shipment": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": [
         "AgParcelDelivery"
       ],
       "deliveryAddress": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": [
           "PostalAddress"
@@ -111,7 +111,7 @@
       },
       "originAddress": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": [
           "PostalAddress"
@@ -125,7 +125,7 @@
       },
       "foreignPortExport": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": [
           "Place"
@@ -152,7 +152,7 @@
       },
       "portOfEntry": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": [
           "Place"
@@ -183,7 +183,7 @@
       "specialInstructions": "The package is top-heavy so handle with appropriate caution.",
       "consignee": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": [
           "Organization"
@@ -207,7 +207,7 @@
       "AgPackage": [
         {
           "@context": [
-            "https://w3id.org/traceability/v1"
+            "https://mobinet.io/schemas/v1"
           ],
           "type": [
             "AgPackage"
@@ -217,7 +217,7 @@
     },
     "applicant": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": [
         "Organization"
@@ -292,14 +292,14 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": [
       "AgInspectionReport"
     ],
     "facility": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": [
         "Place"
@@ -326,7 +326,7 @@
     },
     "inspector": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": [
         "Inspector"
@@ -381,14 +381,14 @@
     },
     "shipment": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": [
         "AgParcelDelivery"
       ],
       "deliveryAddress": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": [
           "PostalAddress"
@@ -402,7 +402,7 @@
       },
       "originAddress": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": [
           "PostalAddress"
@@ -416,7 +416,7 @@
       },
       "foreignPortExport": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": [
           "Place"
@@ -443,7 +443,7 @@
       },
       "portOfEntry": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": [
           "Place"
@@ -474,7 +474,7 @@
       "specialInstructions": "The package is top-heavy so handle with appropriate caution.",
       "consignee": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": [
           "Organization"
@@ -498,7 +498,7 @@
       "AgPackage": [
         {
           "@context": [
-            "https://w3id.org/traceability/v1"
+            "https://mobinet.io/schemas/v1"
           ],
           "type": [
             "AgPackage"
@@ -508,7 +508,7 @@
     },
     "applicant": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": [
         "Organization"
@@ -563,14 +563,14 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": [
       "AgInspectionReport"
     ],
     "facility": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": [
         "Place"
@@ -597,7 +597,7 @@
     },
     "inspector": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": [
         "Inspector"
@@ -652,14 +652,14 @@
     },
     "shipment": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": [
         "AgParcelDelivery"
       ],
       "deliveryAddress": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": [
           "PostalAddress"
@@ -673,7 +673,7 @@
       },
       "originAddress": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": [
           "PostalAddress"
@@ -687,7 +687,7 @@
       },
       "foreignPortExport": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": [
           "Place"
@@ -714,7 +714,7 @@
       },
       "portOfEntry": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": [
           "Place"
@@ -745,7 +745,7 @@
       "specialInstructions": "The package is top-heavy so handle with appropriate caution.",
       "consignee": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": [
           "Organization"
@@ -769,7 +769,7 @@
       "AgPackage": [
         {
           "@context": [
-            "https://w3id.org/traceability/v1"
+            "https://mobinet.io/schemas/v1"
           ],
           "type": [
             "AgPackage"
@@ -779,7 +779,7 @@
     },
     "applicant": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": [
         "Organization"

@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/traceability/v1"
+    "https://mobinet.io/schemas/v1"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,29 +11,29 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "Place",
-    "globalLocationNumber": "2658245866653",
+    "globalLocationNumber": "6779162257228",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "-70.8395",
-      "longitude": "8.7329"
+      "latitude": "-84.4585",
+      "longitude": "-62.8542"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Fay, Dooley and Cartwright",
-      "streetAddress": "39255 Althea Squares",
-      "addressLocality": "Kennyhaven",
-      "addressRegion": "Maryland",
-      "postalCode": "74084-4785",
-      "addressCountry": "France"
+      "organizationName": "Dooley, Ullrich and Nader",
+      "streetAddress": "553 Zboncak Ramp",
+      "addressLocality": "North Kaiafurt",
+      "addressRegion": "Virginia",
+      "postalCode": "66768",
+      "addressCountry": "Canada"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..qUTqcZE9nXS96Nognx2lPR9AMQOt1_SlfVf8wSQxw3LT3aCiZsMKsX9TgUh_sj2M7wiM4TOgUy_6Im6RKktTAw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..RDmZkLqhUwy9YOpHl8gqmzm_QyP-eznuaKKtQKp3MC2IW58pWJw0JyaVILahSGaYjxs7AggJtlWZ-8E3pcGiDQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

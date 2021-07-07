@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceWayBillRegistrationCredential",
     "wayBillID": "ACMEWayBill#102",
@@ -50,7 +50,7 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceWayBillRegistrationCredential",
     "wayBillID": "ACMEWayBill#364",
@@ -103,7 +103,7 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceWayBillRegistrationCredential",
     "wayBillID": "ACMEWayBill#992",

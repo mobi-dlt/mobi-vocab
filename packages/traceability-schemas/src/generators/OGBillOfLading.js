@@ -53,7 +53,7 @@ const getOGBillOfLading = () => {
   });
 
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://mobinet.io/schemas/v1'],
     type: 'OGBillOfLading',
     billOfLading,
     shippingDate: '2020-03-15',

@@ -6,7 +6,7 @@ const getSteelProduct = () => {
   const inspection = getInspectionReport();
   delete inspection['@context'];
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://mobinet.io/schemas/v1'],
     type: 'SteelProduct',
     heatNumber: `${faker.random.number()}`,
     specification: `ASTM-${faker.random.number()}`,

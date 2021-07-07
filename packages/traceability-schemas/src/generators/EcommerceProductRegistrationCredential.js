@@ -7,7 +7,7 @@ const getEcommerceProductRegistrationCredential = () => {
   }
 
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://mobinet.io/schemas/v1'],
     type: 'EcommerceProductRegistrationCredential',
     productCode: faker.random.number(14),
     productCodeType: ProductCodeType,

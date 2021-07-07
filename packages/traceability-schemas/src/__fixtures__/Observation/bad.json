@@ -1,25 +1,30 @@
 [
   {
-    "alarm": "synthesize",
-    "application": "quantify",
-    "driver": "bypass"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "Observation",
+    "property": {
+      "type": "MechanicalProperty",
+      "identifier": "ISO 1352",
+      "name": "Torque-controlled fatigue testing",
+      "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
+    },
+    "application": "connect",
+    "bus": "generate"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
     "measurement": {
       "type": "MeasuredValue",
-      "value": "18.210",
-      "unitCode": "B13"
+      "value": "36.566",
+      "unitCode": "P1"
     },
-    "sensor": "hack",
-    "array": "back up",
-    "bandwidth": "index",
-    "panel": "index"
+    "monitor": "copy"
   },
   {
-    "monitor": "copy",
-    "alarm": "reboot"
+    "system": "program",
+    "microchip": "connect",
+    "sensor": "index",
+    "transmitter": "index"
   }
 ]

@@ -1,17 +1,23 @@
 [
   {
+    "driver": "bypass"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "type": "chargeAndPaymentType",
-    "protocol": "program"
+    "alarm": "generate",
+    "protocol": "transmit",
+    "panel": "program"
   },
   {
-    "chargePrepaid": 962,
-    "circuit": "input",
-    "transmitter": "quantify"
-  },
-  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "monitor": "override",
-    "alarm": "index",
-    "matrix": "copy",
-    "program": "input"
+    "system": "copy",
+    "bandwidth": "compress",
+    "driver": "navigate"
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceBindingDataRegistrationCredential",
     "finalCarrierName": "Crona, Pagac and Hagenes",
@@ -44,7 +44,7 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceBindingDataRegistrationCredential",
     "finalCarrierName": "Funk, Littel and Kirlin",
@@ -87,7 +87,7 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceBindingDataRegistrationCredential",
     "finalCarrierName": "Adams and Sons",

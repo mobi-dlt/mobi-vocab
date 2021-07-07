@@ -1,5 +1,8 @@
 [
   {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "type": [
       "MillTestReport"
     ],
@@ -11,34 +14,195 @@
         "type": [
           "Person"
         ],
-        "email": "Christophe.Torp@example.net",
-        "phoneNumber": "555-424-9243"
+        "email": "Alicia_Smitham@example.net",
+        "phoneNumber": "555-761-6137"
       }
     },
-    "bus": "calculate",
-    "pixel": "index",
-    "array": "generate",
-    "transmitter": "transmit"
+    "shipment": {
+      "type": [
+        "ParcelDelivery"
+      ],
+      "deliveryAddress": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Mertz, Abshire and Medhurst",
+        "streetAddress": "1813 Huels Wall",
+        "addressLocality": "East Mona",
+        "addressRegion": "Florida",
+        "postalCode": "62616",
+        "addressCountry": "Seychelles"
+      },
+      "originAddress": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Trantow LLC",
+        "streetAddress": "3374 Buckridge Vista",
+        "addressLocality": "Haleyside",
+        "addressRegion": "South Dakota",
+        "postalCode": "28278",
+        "addressCountry": "Ukraine"
+      },
+      "deliveryMethod": "Rail freight transport",
+      "trackingNumber": "987082494145"
+    },
+    "port": "index",
+    "transmitter": "override"
   },
   {
-    "array": "program",
-    "port": "copy"
-  },
-  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": [
+      "MillTestReport"
+    ],
+    "product": {
+      "type": [
+        "SteelProduct"
+      ],
+      "heatNumber": "68737",
+      "specification": "ASTM-64377",
+      "grade": "37252",
+      "originalCountryOfMeltAndPour": "Greece",
+      "inspection": {
+        "type": [
+          "InspectionReport"
+        ],
+        "observation": [
+          {
+            "type": [
+              "Observation"
+            ],
+            "property": {
+              "type": [
+                "ChemicalProperty"
+              ],
+              "name": "Magnesium"
+            },
+            "measurement": {
+              "type": [
+                "MeasuredValue"
+              ],
+              "value": "27.315",
+              "unitCode": "P1"
+            }
+          },
+          {
+            "type": [
+              "Observation"
+            ],
+            "property": {
+              "type": [
+                "ChemicalProperty"
+              ],
+              "name": "Rutherfordium"
+            },
+            "measurement": {
+              "type": [
+                "MeasuredValue"
+              ],
+              "value": "72.685",
+              "unitCode": "P1"
+            }
+          },
+          {
+            "type": [
+              "Observation"
+            ],
+            "property": {
+              "type": [
+                "MechanicalProperty"
+              ],
+              "identifier": "ISO 3738",
+              "name": "Rockwell Hardness Test (Scale A)",
+              "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
+            },
+            "measurement": {
+              "type": [
+                "MeasuredValue"
+              ],
+              "value": "00.00",
+              "unitCode": "UNKNOWN"
+            }
+          }
+        ]
+      }
+    },
     "purchase": {
       "type": [
         "Purchase"
       ],
       "customer": {
         "type": [
-          "Organization"
+          "Person"
         ],
-        "email": "Buddy.Medhurst53@example.com",
-        "phoneNumber": "555-298-2223"
+        "email": "Lolita_Macejkovic@example.net",
+        "phoneNumber": "555-325-7524"
       }
     },
-    "alarm": "transmit",
-    "firewall": "copy",
-    "monitor": "calculate"
+    "shipment": {
+      "type": [
+        "ParcelDelivery"
+      ],
+      "deliveryAddress": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Kuphal Inc",
+        "streetAddress": "7293 Okuneva Lodge",
+        "addressLocality": "Port Deondreton",
+        "addressRegion": "Arkansas",
+        "postalCode": "16850-2662",
+        "addressCountry": "Serbia"
+      },
+      "originAddress": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Kuhic LLC",
+        "streetAddress": "15835 Bethel Park",
+        "addressLocality": "Port Braeden",
+        "addressRegion": "Michigan",
+        "postalCode": "32723",
+        "addressCountry": "Mauritania"
+      },
+      "deliveryMethod": "Truck transport",
+      "trackingNumber": "833275973986"
+    },
+    "monitor": "index",
+    "bandwidth": "quantify",
+    "bus": "synthesize"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": [
+      "MillTestReport"
+    ],
+    "manufacturer": {
+      "type": [
+        "Organization"
+      ],
+      "name": "Greenholt - Wiegand",
+      "description": "Grass-roots systematic task-force",
+      "address": {
+        "type": [
+          "PostalAddress"
+        ],
+        "streetAddress": "13494 Klocko Fork",
+        "addressLocality": "Alexaport",
+        "addressRegion": "Maryland",
+        "postalCode": "54995-9835",
+        "addressCountry": "Botswana"
+      },
+      "email": "Merl20@example.org",
+      "phoneNumber": "555-136-8557",
+      "faxNumber": "555-383-9974"
+    },
+    "bus": "compress",
+    "circuit": "index",
+    "sensor": "index"
   }
 ]

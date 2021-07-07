@@ -170,7 +170,7 @@ For example see:
 These attributes are then used to deterministically build a JSON-LD context 
 hosted at:
 
-[https://w3id.org/traceability/v1](https://w3id.org/traceability/v1)
+[https://mobinet.io/schemas/v1](https://mobinet.io/schemas/v1)
 
 This context can then be used to produce verifiable credentials for supply chain
 traceability, for example:
@@ -179,7 +179,7 @@ traceability, for example:
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/traceability/v1"
+    "https://mobinet.io/schemas/v1"
   ],
   "id": "https://example.com/123",
   "type": ["VerifiableCredential"],

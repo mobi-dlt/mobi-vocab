@@ -1,38 +1,34 @@
 [
   {
     "type": "Organization",
+    "name": "Metz, Walter and Kuhn",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "245 Ankunding Hill",
-      "addressLocality": "East Tyraview",
-      "addressRegion": "South Dakota",
-      "postalCode": "15443",
-      "addressCountry": "Saint Vincent and the Grenadines"
+      "streetAddress": "63731 Lenny Drives",
+      "addressLocality": "Kreigerside",
+      "addressRegion": "Utah",
+      "postalCode": "09637",
+      "addressCountry": "Austria"
     },
-    "email": "Candice.Hirthe6@example.org",
-    "phoneNumber": "555-811-6938",
-    "faxNumber": "555-559-5013",
-    "circuit": "back up",
-    "firewall": "input"
+    "email": "Adriana56@example.com",
+    "phoneNumber": "555-783-7866",
+    "faxNumber": "555-897-7331",
+    "port": "quantify",
+    "microchip": "input",
+    "driver": "reboot",
+    "circuit": "quantify"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "phoneNumber": "555-735-7191",
-    "bus": "compress",
-    "protocol": "parse"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
     "type": "Organization",
-    "description": "Progressive full-range productivity",
-    "email": "Justina.Yost@example.net",
-    "phoneNumber": "555-701-3894",
-    "faxNumber": "555-184-2189",
-    "panel": "parse",
-    "program": "synthesize"
+    "email": "Elinor_Lynch@example.org",
+    "phoneNumber": "555-380-3623",
+    "faxNumber": "555-792-6064",
+    "driver": "input"
+  },
+  {
+    "microchip": "calculate",
+    "bandwidth": "copy",
+    "array": "parse",
+    "panel": "compress"
   }
 ]

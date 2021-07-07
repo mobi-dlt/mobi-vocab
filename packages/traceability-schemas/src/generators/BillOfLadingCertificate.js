@@ -17,7 +17,7 @@ const getBillOfLadingCertificate = () => {
   const example = {
     '@context': [
       'https://www.w3.org/2018/credentials/v1',
-      'https://w3id.org/traceability/v1',
+      'https://mobinet.io/schemas/v1',
     ],
     id: 'https://example.com/credential/123',
     type: ['VerifiableCredential', 'BillOfLadingCertificate'],

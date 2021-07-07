@@ -1,30 +1,24 @@
 [
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
     "target": "https://example.com/related/link/123",
-    "hard drive": "program",
-    "firewall": "navigate",
-    "system": "transmit",
-    "program": "program"
+    "linkRelationship": "alternate",
+    "hard drive": "synthesize",
+    "application": "program",
+    "port": "index",
+    "program": "input"
+  },
+  {
+    "linkRelationship": "alternate",
+    "microchip": "quantify",
+    "interface": "bypass",
+    "bus": "back up"
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
-    "target": "https://example.com/related/link/123",
     "linkRelationship": "alternate",
-    "protocol": "generate"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "target": "https://example.com/related/link/123",
-    "linkRelationship": "alternate",
-    "system": "navigate",
-    "matrix": "parse",
-    "array": "input"
+    "monitor": "bypass",
+    "pixel": "input"
   }
 ]

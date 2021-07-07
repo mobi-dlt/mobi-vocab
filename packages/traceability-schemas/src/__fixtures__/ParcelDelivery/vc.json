@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/traceability/v1"
+    "https://mobinet.io/schemas/v1"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,34 +11,34 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "ParcelDelivery",
     "deliveryAddress": {
       "type": "PostalAddress",
-      "organizationName": "Walker - Maggio",
-      "streetAddress": "9919 Reanna Port",
-      "addressLocality": "South Gregg",
-      "addressRegion": "Illinois",
-      "postalCode": "23063-1700",
-      "addressCountry": "Iran"
+      "organizationName": "Douglas - Nader",
+      "streetAddress": "5029 Alaina Union",
+      "addressLocality": "Fatimafurt",
+      "addressRegion": "Oklahoma",
+      "postalCode": "70460",
+      "addressCountry": "Portugal"
     },
     "originAddress": {
       "type": "PostalAddress",
-      "organizationName": "Quigley - Huel",
-      "streetAddress": "545 Gideon Ridges",
-      "addressLocality": "Carolview",
-      "addressRegion": "Maryland",
-      "postalCode": "51950",
-      "addressCountry": "Mongolia"
+      "organizationName": "Berge - Rosenbaum",
+      "streetAddress": "26231 Kuhlman Inlet",
+      "addressLocality": "Wolfffort",
+      "addressRegion": "Wisconsin",
+      "postalCode": "45273",
+      "addressCountry": "Dominica"
     },
-    "deliveryMethod": "Rail freight transport",
-    "trackingNumber": "507399017750"
+    "deliveryMethod": "Ocean transport",
+    "trackingNumber": "268788609794"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vNNy-grcu5p5Zz14ozR-AcRzcI_6rBGJu2hr-Jgp2KqJviMW6E57VJCv_Vv4L6t4L7rc1jV1xfA_wbd7BjM7DA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..EU9mu9BEM-CVF0Zhqf6y7LSBLSij6-4AUbiFQtWnj6E63uqk5-2EA6y5nkKkze5-S9sFwLClhlfUtg3LoRMcDA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

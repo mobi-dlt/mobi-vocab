@@ -17,7 +17,7 @@ const getBillOfLading = () => {
   const purchase = getPurchase();
 
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://mobinet.io/schemas/v1'],
     type: 'BillOfLading',
     billOfLadingNumber: '991205182',
     relatedDocuments: [purchase],

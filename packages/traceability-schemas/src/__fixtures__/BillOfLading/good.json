@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": [
       "BillOfLading"
@@ -10,7 +10,7 @@
     "relatedDocuments": [
       {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": [
           "Purchase"
@@ -26,7 +26,7 @@
     ],
     "freight": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": [
         "ParcelDelivery"
@@ -59,7 +59,7 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": [
       "BillOfLading"
@@ -68,7 +68,7 @@
     "relatedDocuments": [
       {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": [
           "Purchase"
@@ -84,7 +84,7 @@
     ],
     "freight": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": [
         "ParcelDelivery"
@@ -117,7 +117,7 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": [
       "BillOfLading"
@@ -126,7 +126,7 @@
     "relatedDocuments": [
       {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": [
           "Purchase"
@@ -142,7 +142,7 @@
     ],
     "freight": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": [
         "ParcelDelivery"

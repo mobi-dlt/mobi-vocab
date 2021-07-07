@@ -19,7 +19,7 @@ const getParcelDelivery = () => {
   delete originAddress['@context'];
 
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://mobinet.io/schemas/v1'],
     type: 'ParcelDelivery',
     deliveryAddress,
     originAddress,

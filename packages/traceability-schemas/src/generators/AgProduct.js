@@ -33,7 +33,7 @@ const getAgProduct = () => {
   const labelImageHash = CryptoJS.SHA256(binaryImg).toString();
 
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://mobinet.io/schemas/v1'],
     type: 'AgProduct',
     upc: '033383401508', // faker.random.number({ min: 100000000000, max: 999999999999 }).toString(),
     plu: '94225', // faker.random.number({ min: 1000, max: 9999 }).toString(),

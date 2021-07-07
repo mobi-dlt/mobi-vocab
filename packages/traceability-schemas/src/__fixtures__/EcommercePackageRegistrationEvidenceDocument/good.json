@@ -1,11 +1,11 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommercePackageRegistrationEvidenceDocument",
     "deliveryStatus": "EventPostponed",
-    "expectedArrivalFrom": "Tue Jan 01 2036 00:00:00 GMT+0000 (Coordinated Universal Time)",
+    "expectedArrivalFrom": "Mon Dec 31 2035 16:00:00 GMT-0800 (Pacific Standard Time)",
     "hasDeliveryMethod": "http://purl.org/goodrelations/v1#UPS",
     "deliveryAddress": {
       "type": "PostalAddress",
@@ -34,7 +34,7 @@
     "partOfOrder": [
       {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PartOfOrder",
         "orderNumber": "Order#85",
@@ -91,7 +91,7 @@
       },
       {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PartOfOrder",
         "orderNumber": "Order#278",
@@ -138,11 +138,11 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommercePackageRegistrationEvidenceDocument",
     "deliveryStatus": "EventMovedOnline",
-    "expectedArrivalFrom": "Mon Jan 01 2035 00:00:00 GMT+0000 (Coordinated Universal Time)",
+    "expectedArrivalFrom": "Sun Dec 31 2034 16:00:00 GMT-0800 (Pacific Standard Time)",
     "hasDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModePickUp",
     "deliveryAddress": {
       "type": "PostalAddress",
@@ -171,7 +171,7 @@
     "partOfOrder": [
       {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PartOfOrder",
         "orderNumber": "Order#59",
@@ -192,7 +192,7 @@
       },
       {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PartOfOrder",
         "orderNumber": "Order#297",
@@ -251,11 +251,11 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommercePackageRegistrationEvidenceDocument",
     "deliveryStatus": "EventPostponed",
-    "expectedArrivalFrom": "Tue Jan 01 2036 00:00:00 GMT+0000 (Coordinated Universal Time)",
+    "expectedArrivalFrom": "Mon Dec 31 2035 16:00:00 GMT-0800 (Pacific Standard Time)",
     "hasDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModePickUp",
     "deliveryAddress": {
       "type": "PostalAddress",
@@ -284,7 +284,7 @@
     "partOfOrder": [
       {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PartOfOrder",
         "orderNumber": "Order#994",
@@ -341,7 +341,7 @@
       },
       {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PartOfOrder",
         "orderNumber": "Order#208",

@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/traceability/v1"
+    "https://mobinet.io/schemas/v1"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,7 +11,7 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceWayBillRegistrationEvidenceDocument",
     "issuanceDate": "2021-03-09",
@@ -90,7 +90,7 @@
       "accountingInformation": "Please charge to Account 123 and Account 321",
       "charge": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
         "price": 3424,
@@ -98,7 +98,7 @@
       },
       "declaredValueCarriage": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
         "price": 1842,
@@ -107,7 +107,7 @@
       "declaredValueCarriagePaymentStatus": "PaymentAutomaticallyApplied",
       "declaredValueCustoms": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
         "price": 78,
@@ -116,7 +116,7 @@
       "declaredValueCustomsPaymentStatus": "PaymentAutomaticallyApplied",
       "amountInsurance": {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
         "price": 4675,

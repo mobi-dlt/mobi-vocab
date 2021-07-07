@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceOrderRegistrationEvidenceDocument",
     "orderDate": "2020-01-07",
@@ -15,7 +15,7 @@
     "orderedItem": [
       {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "OrderedItem",
         "name": "ACME Laptop 3000",
@@ -44,7 +44,7 @@
     },
     "customer": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": "Customer",
       "name": "Augustus Grimes",
@@ -63,7 +63,7 @@
     "orderedItem": [
       {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "OrderedItem",
         "name": "ACME Bluetooth Computer Keyboard 3801-1",
@@ -74,7 +74,7 @@
       },
       {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "OrderedItem",
         "name": "ACME Bluetooth Computer Mouse 3000-1",
@@ -85,7 +85,7 @@
       },
       {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "OrderedItem",
         "name": "ACME Bluetooth Computer Mouse 3000-1",
@@ -96,7 +96,7 @@
       },
       {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "OrderedItem",
         "name": "ACME Bluetooth Computer Keyboard 3801-1",
@@ -110,7 +110,7 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceOrderRegistrationEvidenceDocument",
     "orderStatus": "OrderProblem",
@@ -126,7 +126,7 @@
     "orderedItem": [
       {
         "@context": [
-          "https://w3id.org/traceability/v1"
+          "https://mobinet.io/schemas/v1"
         ],
         "type": "OrderedItem",
         "name": "ACME Bluetooth Computer Mouse 3000-1",

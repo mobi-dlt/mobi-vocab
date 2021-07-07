@@ -1,7 +1,7 @@
 const context = require('jsonld/lib/context');
 const jsonldLib = require('jsonld/lib');
 
-const ctxIri = 'https://w3id.org/traceability/v1';
+const ctxIri = 'https://mobinet.io/schemas/v1';
 const ctxName = 'traceability-v1.jsonld';
 
 describe('Loading generated json-ld context(s)', () => {

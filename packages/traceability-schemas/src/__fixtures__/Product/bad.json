@@ -1,40 +1,70 @@
 [
   {
+    "pixel": "program"
+  },
+  {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
-    "type": "Product",
-    "sku": "704287225821",
-    "card": "navigate",
-    "interface": "copy",
-    "feed": "override",
-    "circuit": "back up"
-  },
-  {
-    "circuit": "bypass",
-    "sensor": "back up"
-  },
-  {
     "type": "Product",
     "manufacturer": {
       "type": "Organization",
-      "name": "Walsh Inc",
-      "description": "Realigned value-added framework",
+      "name": "Schmidt - Auer",
+      "description": "Customer-focused bandwidth-monitored array",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "87042 Armstrong Expressway",
-        "addressLocality": "West Monserrat",
-        "addressRegion": "California",
-        "postalCode": "09266-2590",
-        "addressCountry": "San Marino"
+        "streetAddress": "153 Precious Roads",
+        "addressLocality": "South Van",
+        "addressRegion": "Colorado",
+        "postalCode": "41815-8731",
+        "addressCountry": "Albania"
       },
-      "email": "Meta49@example.com",
-      "phoneNumber": "555-971-6169",
-      "faxNumber": "555-898-7260"
+      "email": "Theodora.Wisoky58@example.net",
+      "phoneNumber": "555-967-3464",
+      "faxNumber": "555-463-6378"
     },
-    "name": "Rustic Soft Chair",
-    "array": "connect",
-    "pixel": "index",
-    "capacitor": "compress"
+    "name": "Small Soft Mouse",
+    "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+    "weight": {
+      "type": "QuantitativeValue",
+      "unitCode": "hg/ha",
+      "value": "4294"
+    },
+    "system": "quantify"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "Product",
+    "manufacturer": {
+      "type": "Organization",
+      "name": "Haley - Roob",
+      "description": "Innovative mission-critical access",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "295 Schmeler Forest",
+        "addressLocality": "South Brianne",
+        "addressRegion": "Virginia",
+        "postalCode": "41784",
+        "addressCountry": "Pitcairn Islands"
+      },
+      "email": "Modesto.Grady@example.net",
+      "phoneNumber": "555-305-8816",
+      "faxNumber": "555-279-4451"
+    },
+    "name": "Practical Frozen Chips",
+    "sizeOrAmount": {
+      "type": "QuantitativeValue",
+      "unitCode": "hg/ha",
+      "value": "453"
+    },
+    "weight": {
+      "type": "QuantitativeValue",
+      "unitCode": "hg/ha",
+      "value": "8177"
+    },
+    "sku": "356259480519",
+    "card": "calculate"
   }
 ]

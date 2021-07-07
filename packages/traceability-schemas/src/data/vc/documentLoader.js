@@ -24,7 +24,7 @@ const documentLoader = (iri) => {
       document: securityContexts.contexts.get(iri),
     };
   }
-  if (iri.startsWith('https://w3id.org/traceability/v1')) {
+  if (iri.startsWith('https://mobinet.io/schemas/v1')) {
     return {
       documentUrl: iri,
       document: JSON.parse(

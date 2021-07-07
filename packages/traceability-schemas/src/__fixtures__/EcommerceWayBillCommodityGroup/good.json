@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceWayBillCommodityGroup",
     "commodityItemNumber": "hqpruzfkbcxn",
@@ -22,7 +22,7 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceWayBillCommodityGroup",
     "commodityItemNumber": "ulc7vu33rcuo",
@@ -43,7 +43,7 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceWayBillCommodityGroup",
     "commodityItemNumber": "7i1qbukpuxoq",

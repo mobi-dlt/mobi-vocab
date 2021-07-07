@@ -19,7 +19,7 @@ const getIntentToSell = () => {
   // const fDate = new Date(faker.date.future());
 
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://mobinet.io/schemas/v1'],
     type: 'IntentToSell',
     seller,
     purchaser,

@@ -1,29 +1,29 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIauthority",
-    "validationAuthorityID": "RA000661",
-    "otherValidationAuthorityID": "SK8YOE9B",
-    "validationAuthorityEntityID": "VLKX6U8ZH0Y4RLHTCAJ8"
+    "validationAuthorityID": "RA000001",
+    "otherValidationAuthorityID": "SH11ZB4A",
+    "validationAuthorityEntityID": "STE3HTVOEQJF1O0L8ROG"
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIauthority",
-    "validationAuthorityID": "RA000003",
-    "otherValidationAuthorityID": "CSMQL9JU",
-    "validationAuthorityEntityID": "NF993D4U85IGUHP1S7CT"
+    "validationAuthorityID": "RA000001",
+    "otherValidationAuthorityID": "PY612BXB",
+    "validationAuthorityEntityID": "9MU3VMR363TQRBLZC19G"
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIauthority",
-    "validationAuthorityID": "RA000661",
-    "otherValidationAuthorityID": "S89XTLP3",
-    "validationAuthorityEntityID": "YKEINUGJM9GO6JI8JKTT"
+    "validationAuthorityID": "RA000001",
+    "otherValidationAuthorityID": "H1DKNNW7",
+    "validationAuthorityEntityID": "55DW5YMZQSXNACY622LO"
   }
 ]

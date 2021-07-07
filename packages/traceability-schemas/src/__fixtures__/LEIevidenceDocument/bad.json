@@ -1,62 +1,44 @@
 [
   {
+    "type": "LEIevidenceDocument",
+    "lei": "1TB0LNLDHMTP2CT3H24L",
     "registration": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://mobinet.io/schemas/v1"
       ],
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",
       "lastUpdateDate": "2020-01-01",
-      "status": "IN PROGRESS",
+      "status": "CONFIRMED",
       "nextRenewalDate": "2021-02-02",
-      "managingLou": "ATHSUFQFTRLFILMUIUVL",
-      "validationSources": "FULLY_CORROBORATED",
+      "managingLou": "HEHFNOELINIEPRBWVGOM",
+      "validationSources": "NOT_CORROBORATED",
       "validationAuthority": [
         {
           "type": "LEIauthority",
           "validationAuthorityID": "RA000003",
-          "otherValidationAuthorityID": "ZGWL4109",
-          "validationAuthorityEntityID": "O1LFXW8Z3M950W1IW5CX"
+          "otherValidationAuthorityID": "U4D80GMI",
+          "validationAuthorityEntityID": "PRNGYSVMG425HFOELQJK"
         }
       ]
     },
     "bandwidth": "parse",
-    "port": "calculate",
-    "program": "compress"
+    "matrix": "input",
+    "monitor": "override",
+    "application": "bypass"
   },
   {
-    "registration": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "LEIregistration",
-      "initialRegistrationDate": "2020-01-01",
-      "lastUpdateDate": "2020-01-01",
-      "status": "REJECTED",
-      "nextRenewalDate": "2021-02-02",
-      "managingLou": "MDHUZARMKIHTTIGVEPNU",
-      "validationSources": "FULLY_CORROBORATED",
-      "validationAuthority": [
-        {
-          "type": "LEIauthority",
-          "validationAuthorityID": "RA000661",
-          "otherValidationAuthorityID": "WW2E6QF4",
-          "validationAuthorityEntityID": "L8TTZRDD1YSWLY7FH7QM"
-        }
-      ]
-    },
+    "type": "LEIevidenceDocument",
     "bic": [
-      "ZQRDYTLHXS"
+      "UERLBMSPPJ"
     ],
-    "panel": "compress"
+    "application": "index",
+    "feed": "calculate",
+    "alarm": "parse"
   },
   {
-    "bic": [
-      "EZDPGHYVWA"
-    ],
-    "circuit": "back up",
-    "driver": "transmit",
-    "card": "back up",
-    "pixel": "calculate"
+    "microchip": "override",
+    "alarm": "compress",
+    "driver": "transmit"
   }
 ]

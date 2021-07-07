@@ -1,11 +1,11 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommercePackingListRegistrationEvidenceDocument",
     "deliveryStatus": "EventScheduled",
-    "expectedArrivalFrom": "Sun Jan 01 2040 00:00:00 GMT+0000 (Coordinated Universal Time)",
+    "expectedArrivalFrom": "Sat Dec 31 2039 16:00:00 GMT-0800 (Pacific Standard Time)",
     "hasDeliveryMethod": "http://purl.org/goodrelations/v1#DHL",
     "deliveryAddress": {
       "type": "PostalAddress",
@@ -107,11 +107,11 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommercePackingListRegistrationEvidenceDocument",
     "deliveryStatus": "EventScheduled",
-    "expectedArrivalFrom": "Sun Jan 01 2034 00:00:00 GMT+0000 (Coordinated Universal Time)",
+    "expectedArrivalFrom": "Sat Dec 31 2033 16:00:00 GMT-0800 (Pacific Standard Time)",
     "hasDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeFreight",
     "deliveryAddress": {
       "type": "PostalAddress",
@@ -159,11 +159,11 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommercePackingListRegistrationEvidenceDocument",
     "deliveryStatus": "EventCancelled",
-    "expectedArrivalFrom": "Fri Jan 01 2038 00:00:00 GMT+0000 (Coordinated Universal Time)",
+    "expectedArrivalFrom": "Thu Dec 31 2037 16:00:00 GMT-0800 (Pacific Standard Time)",
     "hasDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeMail",
     "deliveryAddress": {
       "type": "PostalAddress",

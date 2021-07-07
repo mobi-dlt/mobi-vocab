@@ -1,0 +1,91 @@
+[
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "VID",
+    "vehicleID": "sample_VID",
+    "manufacturer": {
+      "type": "Person",
+      "firstName": "Elna",
+      "lastName": "Parisian",
+      "email": "Ludwig_Aufderhar48@example.com",
+      "phoneNumber": "555-819-6450",
+      "worksFor": {
+        "type": "Organization",
+        "name": "O'Reilly and Sons",
+        "description": "Polarised value-added migration",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "036 Harris Fords",
+          "addressLocality": "Port Madalineborough",
+          "addressRegion": "Arizona",
+          "postalCode": "34135-1657",
+          "addressCountry": "Svalbard & Jan Mayen Islands"
+        },
+        "email": "Elenor.Gerhold@example.org",
+        "phoneNumber": "555-329-1445",
+        "faxNumber": "555-180-9003"
+      },
+      "jobTitle": "District Research Designer"
+    },
+    "make": "Tesla",
+    "model": "Tesla",
+    "vin": "vin_number_123",
+    "licensePlate": "test_plate_xxx"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "VID",
+    "vehicleID": "sample_VID",
+    "manufacturer": {
+      "type": "Organization",
+      "name": "Labadie LLC",
+      "description": "De-engineered encompassing framework",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "324 Stephon Ranch",
+        "addressLocality": "Howefurt",
+        "addressRegion": "Rhode Island",
+        "postalCode": "72095-1169",
+        "addressCountry": "Malta"
+      },
+      "email": "Ayla.Littel@example.org",
+      "phoneNumber": "555-830-5451",
+      "faxNumber": "555-198-3798"
+    },
+    "make": "Tesla",
+    "model": "Tesla",
+    "vin": "vin_number_123",
+    "licensePlate": "test_plate_xxx"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "VID",
+    "vehicleID": "sample_VID",
+    "manufacturer": {
+      "type": "Organization",
+      "name": "Krajcik, Kessler and Ryan",
+      "description": "Optional responsive knowledge user",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "920 Cordie Fort",
+        "addressLocality": "Norwoodmouth",
+        "addressRegion": "West Virginia",
+        "postalCode": "72846-3304",
+        "addressCountry": "Netherlands Antilles"
+      },
+      "email": "Drew_Koss@example.com",
+      "phoneNumber": "555-167-5456",
+      "faxNumber": "555-128-3476"
+    },
+    "make": "Tesla",
+    "model": "Tesla",
+    "vin": "vin_number_123",
+    "licensePlate": "test_plate_xxx"
+  }
+]

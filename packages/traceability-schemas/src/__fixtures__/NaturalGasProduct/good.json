@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "NaturalGasProduct",
     "HSCode": "270900",
@@ -9,20 +9,20 @@
     "productionDate": "2020-03-30",
     "facility": {
       "type": "Place",
-      "globalLocationNumber": "8371965376953",
+      "globalLocationNumber": "3541573560951",
       "geo": {
         "type": "GeoCoordinates",
-        "latitude": "8.4830",
-        "longitude": "-139.8262"
+        "latitude": "60.3552",
+        "longitude": "-50.3489"
       },
       "address": {
         "type": "PostalAddress",
-        "organizationName": "Spencer and Sons",
-        "streetAddress": "529 Trudie Island",
-        "addressLocality": "New Daisyburgh",
-        "addressRegion": "Hawaii",
-        "postalCode": "99887-7375",
-        "addressCountry": "China"
+        "organizationName": "Kohler LLC",
+        "streetAddress": "181 VonRueden Falls",
+        "addressLocality": "Raulfurt",
+        "addressRegion": "Wisconsin",
+        "postalCode": "80231",
+        "addressCountry": "Papua New Guinea"
       }
     },
     "observation": [
@@ -36,21 +36,7 @@
         },
         "measurement": {
           "type": "MeasuredValue",
-          "value": "27.505",
-          "unitCode": "B13"
-        }
-      },
-      {
-        "type": "Observation",
-        "property": {
-          "type": "MechanicalProperty",
-          "identifier": "ISO 148",
-          "name": "Charpy Impact Strength Test",
-          "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
-        },
-        "measurement": {
-          "type": "MeasuredValue",
-          "value": "36.131",
+          "value": "16.614",
           "unitCode": "B13"
         }
       }
@@ -58,39 +44,47 @@
     "product": {
       "type": "Product",
       "manufacturer": {
-        "type": "Organization",
-        "name": "Considine, Conn and Halvorson",
-        "description": "Managed zero administration hardware",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "9140 Quitzon Inlet",
-          "addressLocality": "West Keirafort",
-          "addressRegion": "Alaska",
-          "postalCode": "57315",
-          "addressCountry": "Suriname"
+        "type": "Person",
+        "firstName": "Makenzie",
+        "lastName": "Zboncak",
+        "email": "Ardella.Paucek@example.com",
+        "phoneNumber": "555-884-3743",
+        "worksFor": {
+          "type": "Organization",
+          "name": "Grady - Corkery",
+          "description": "Mandatory coherent forecast",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "10174 Braun Drive",
+            "addressLocality": "Davidton",
+            "addressRegion": "Maine",
+            "postalCode": "40069-5713",
+            "addressCountry": "Cameroon"
+          },
+          "email": "Antonio.Gerhold82@example.net",
+          "phoneNumber": "555-386-8134",
+          "faxNumber": "555-503-8988"
         },
-        "email": "Haylee.Klocko@example.org",
-        "phoneNumber": "555-732-7621",
-        "faxNumber": "555-670-2905"
+        "jobTitle": "District Mobility Architect"
       },
       "name": "Natural Gas",
       "description": "Natural Gas Stream",
       "sizeOrAmount": {
         "type": "QuantitativeValue",
         "unitCode": "hg/ha",
-        "value": "3978"
+        "value": "4582"
       },
       "weight": {
         "type": "QuantitativeValue",
         "unitCode": "hg/ha",
-        "value": "5718"
+        "value": "2594"
       },
-      "sku": "927562068732"
+      "sku": "909265949399"
     }
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://mobinet.io/schemas/v1"
     ],
     "type": "NaturalGasProduct",
     "HSCode": "270900",
@@ -98,139 +92,20 @@
     "productionDate": "2020-03-30",
     "facility": {
       "type": "Place",
-      "globalLocationNumber": "2218769415821",
+      "globalLocationNumber": "5764921295703",
       "geo": {
         "type": "GeoCoordinates",
-        "latitude": "-37.5671",
-        "longitude": "154.9906"
+        "latitude": "-18.8120",
+        "longitude": "-88.4960"
       },
       "address": {
         "type": "PostalAddress",
-        "organizationName": "Schmidt Group",
-        "streetAddress": "2472 Juliet Village",
-        "addressLocality": "Lindgrenberg",
-        "addressRegion": "Mississippi",
-        "postalCode": "36456",
-        "addressCountry": "India"
-      }
-    },
-    "observation": [
-      {
-        "type": "Observation",
-        "property": {
-          "type": "MechanicalProperty",
-          "identifier": "ISO 1352",
-          "name": "Torque-controlled fatigue testing",
-          "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
-        },
-        "measurement": {
-          "type": "MeasuredValue",
-          "value": "00.00",
-          "unitCode": "UNKNOWN"
-        }
-      },
-      {
-        "type": "Observation",
-        "property": {
-          "type": "MechanicalProperty",
-          "identifier": "ISO 1352",
-          "name": "Torque-controlled fatigue testing",
-          "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
-        },
-        "measurement": {
-          "type": "MeasuredValue",
-          "value": "00.00",
-          "unitCode": "UNKNOWN"
-        }
-      },
-      {
-        "type": "Observation",
-        "property": {
-          "type": "ChemicalProperty",
-          "name": "Gallium",
-          "formula": "Ga",
-          "inchi": "InChI=1S/Ga",
-          "inchikey": "GYHNNYVSQQEPJS-UHFFFAOYSA-N"
-        },
-        "measurement": {
-          "type": "MeasuredValue",
-          "value": "31.283",
-          "unitCode": "P1"
-        }
-      },
-      {
-        "type": "Observation",
-        "property": {
-          "type": "ChemicalProperty",
-          "name": "Roentgenium",
-          "formula": "Rg",
-          "inchi": "InChI=1S/Rg",
-          "inchikey": "LJROPTGWFUZRDB-UHFFFAOYSA-N"
-        },
-        "measurement": {
-          "type": "MeasuredValue",
-          "value": "68.717",
-          "unitCode": "P1"
-        }
-      }
-    ],
-    "product": {
-      "type": "Product",
-      "manufacturer": {
-        "type": "Organization",
-        "name": "Swift, Langworth and Carter",
-        "description": "Synergized heuristic encoding",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "73747 Nicola Highway",
-          "addressLocality": "West Muhammad",
-          "addressRegion": "Connecticut",
-          "postalCode": "38982-0634",
-          "addressCountry": "Antigua and Barbuda"
-        },
-        "email": "Asa_Schultz37@example.net",
-        "phoneNumber": "555-163-1918",
-        "faxNumber": "555-539-6412"
-      },
-      "name": "Natural Gas",
-      "description": "Natural Gas Stream",
-      "sizeOrAmount": {
-        "type": "QuantitativeValue",
-        "unitCode": "hg/ha",
-        "value": "5768"
-      },
-      "weight": {
-        "type": "QuantitativeValue",
-        "unitCode": "hg/ha",
-        "value": "7922"
-      },
-      "sku": "188376352498"
-    }
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "NaturalGasProduct",
-    "HSCode": "270900",
-    "UWI": "100.12-04-091-05-W5.00",
-    "productionDate": "2020-03-30",
-    "facility": {
-      "type": "Place",
-      "globalLocationNumber": "6905000939388",
-      "geo": {
-        "type": "GeoCoordinates",
-        "latitude": "-52.1169",
-        "longitude": "37.7820"
-      },
-      "address": {
-        "type": "PostalAddress",
-        "organizationName": "Okuneva Inc",
-        "streetAddress": "5916 Estell Viaduct",
-        "addressLocality": "East Vicente",
-        "addressRegion": "Missouri",
-        "postalCode": "28513-2122",
-        "addressCountry": "Ethiopia"
+        "organizationName": "Kulas LLC",
+        "streetAddress": "986 Hettinger Glen",
+        "addressLocality": "South Sigrid",
+        "addressRegion": "Wisconsin",
+        "postalCode": "19397",
+        "addressCountry": "Belarus"
       }
     },
     "observation": [
@@ -244,7 +119,21 @@
         },
         "measurement": {
           "type": "MeasuredValue",
-          "value": "3.771",
+          "value": "36.227",
+          "unitCode": "B13"
+        }
+      },
+      {
+        "type": "Observation",
+        "property": {
+          "type": "MechanicalProperty",
+          "identifier": "ISO 148",
+          "name": "Charpy Impact Strength Test",
+          "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "42.20",
           "unitCode": "B13"
         }
       },
@@ -252,8 +141,22 @@
         "type": "Observation",
         "property": {
           "type": "ChemicalProperty",
-          "name": "Meitnerium",
-          "formula": "Mt"
+          "name": "Hassium",
+          "formula": "Hs"
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "00.00",
+          "unitCode": "UNKNOWN"
+        }
+      },
+      {
+        "type": "Observation",
+        "property": {
+          "type": "MechanicalProperty",
+          "identifier": "ISO 3738",
+          "name": "Rockwell Hardness Test (Scale A)",
+          "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
         },
         "measurement": {
           "type": "MeasuredValue",
@@ -265,34 +168,155 @@
     "product": {
       "type": "Product",
       "manufacturer": {
-        "type": "Organization",
-        "name": "Hermann - Lang",
-        "description": "Intuitive actuating groupware",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "75576 Schimmel Mall",
-          "addressLocality": "West Lexus",
-          "addressRegion": "Washington",
-          "postalCode": "51590",
-          "addressCountry": "Lithuania"
+        "type": "Person",
+        "firstName": "Kyra",
+        "lastName": "Cronin",
+        "email": "Karl.Williamson@example.org",
+        "phoneNumber": "555-135-3593",
+        "worksFor": {
+          "type": "Organization",
+          "name": "Lynch, Wuckert and Ward",
+          "description": "Optimized exuding throughput",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "2073 Sipes Drive",
+            "addressLocality": "Kianview",
+            "addressRegion": "New Jersey",
+            "postalCode": "24094",
+            "addressCountry": "Croatia"
+          },
+          "email": "Chelsea60@example.com",
+          "phoneNumber": "555-654-5649",
+          "faxNumber": "555-185-7624"
         },
-        "email": "Karine.Schaden@example.net",
-        "phoneNumber": "555-253-7605",
-        "faxNumber": "555-669-4699"
+        "jobTitle": "Senior Paradigm Developer"
       },
       "name": "Natural Gas",
       "description": "Natural Gas Stream",
       "sizeOrAmount": {
         "type": "QuantitativeValue",
         "unitCode": "hg/ha",
-        "value": "6347"
+        "value": "6242"
       },
       "weight": {
         "type": "QuantitativeValue",
         "unitCode": "hg/ha",
-        "value": "8185"
+        "value": "1898"
       },
-      "sku": "126144522377"
+      "sku": "276093323916"
+    }
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "NaturalGasProduct",
+    "HSCode": "270900",
+    "UWI": "100.12-04-091-05-W5.00",
+    "productionDate": "2020-03-30",
+    "facility": {
+      "type": "Place",
+      "globalLocationNumber": "2419332768539",
+      "geo": {
+        "type": "GeoCoordinates",
+        "latitude": "-44.5916",
+        "longitude": "-161.6926"
+      },
+      "address": {
+        "type": "PostalAddress",
+        "organizationName": "Ernser Group",
+        "streetAddress": "45310 Welch Crest",
+        "addressLocality": "Lake Annetta",
+        "addressRegion": "Georgia",
+        "postalCode": "44377-6541",
+        "addressCountry": "Cyprus"
+      }
+    },
+    "observation": [
+      {
+        "type": "Observation",
+        "property": {
+          "type": "MechanicalProperty",
+          "identifier": "ISO 180",
+          "name": "Izod Impact Strength Test",
+          "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "71.263",
+          "unitCode": "B13"
+        }
+      },
+      {
+        "type": "Observation",
+        "property": {
+          "type": "ChemicalProperty",
+          "name": "Cesium",
+          "formula": "Cs",
+          "inchi": "InChI=1S/Cs",
+          "inchikey": "TVFDJXOCXUVLDH-UHFFFAOYSA-N"
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "94.637",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": "Observation",
+        "property": {
+          "type": "ChemicalProperty",
+          "name": "Tellurium",
+          "formula": "Te",
+          "inchi": "InChI=1S/Te",
+          "inchikey": "PORWMNRCUJJQNO-UHFFFAOYSA-N"
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "5.3632",
+          "unitCode": "P1"
+        }
+      }
+    ],
+    "product": {
+      "type": "Product",
+      "manufacturer": {
+        "type": "Person",
+        "firstName": "Sigurd",
+        "lastName": "Spinka",
+        "email": "Jena40@example.com",
+        "phoneNumber": "555-658-4952",
+        "worksFor": {
+          "type": "Organization",
+          "name": "Sipes, Smitham and Bins",
+          "description": "Persevering needs-based customer loyalty",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "1404 Vena Loop",
+            "addressLocality": "North Mckaylaside",
+            "addressRegion": "Kentucky",
+            "postalCode": "36962-8612",
+            "addressCountry": "Liechtenstein"
+          },
+          "email": "Maia.Hoeger1@example.com",
+          "phoneNumber": "555-556-7273",
+          "faxNumber": "555-807-6281"
+        },
+        "jobTitle": "Human Security Liaison"
+      },
+      "name": "Natural Gas",
+      "description": "Natural Gas Stream",
+      "sizeOrAmount": {
+        "type": "QuantitativeValue",
+        "unitCode": "hg/ha",
+        "value": "2072"
+      },
+      "weight": {
+        "type": "QuantitativeValue",
+        "unitCode": "hg/ha",
+        "value": "6877"
+      },
+      "sku": "717939847035"
     }
   }
 ]
