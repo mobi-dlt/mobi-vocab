@@ -14,26 +14,26 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "Place",
-    "globalLocationNumber": "9145793604866",
+    "globalLocationNumber": "2617237911245",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "66.4813",
-      "longitude": "-128.6640"
+      "latitude": "84.6338",
+      "longitude": "-147.6439"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Lynch Inc",
-      "streetAddress": "63326 Paucek Viaduct",
-      "addressLocality": "East Marlonfurt",
-      "addressRegion": "Hawaii",
-      "postalCode": "84082-1984",
-      "addressCountry": "Maldives"
+      "organizationName": "Cole - Koss",
+      "streetAddress": "9153 Hartmann Prairie",
+      "addressLocality": "Georgiannashire",
+      "addressRegion": "New Jersey",
+      "postalCode": "03251-8015",
+      "addressCountry": "Papua New Guinea"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..i-4fOM1D2gWh722B5uffdqxbeprlz58cMT8VVIO_HcIuNA21MmX_gN68dUrr1xTdOeOnuuukonETygJ5db5yDA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..XYhQLBmi9x9RDuVH3cvgi2iIlA1WhgJGzrP-vsxlOpejrtYGNmK7FCY6odWLQclLouX6ajpCpLtxwpWwTWH4Dw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -16,45 +16,50 @@
     "type": "Inspector",
     "person": {
       "type": "Person",
-      "firstName": "Torey",
-      "lastName": "Ratke",
-      "email": "Terence_Murray67@example.com",
-      "phoneNumber": "555-301-6227",
+      "firstName": "Clementina",
+      "lastName": "Keeling",
+      "email": "Winfield0@example.com",
+      "phoneNumber": "555-975-2646",
       "worksFor": {
         "type": "Organization",
-        "name": "Wilderman - Littel",
-        "description": "Pre-emptive bifurcated orchestration",
+        "name": "Bednar - Greenfelder",
+        "description": "Distributed 24/7 ability",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "55887 Lon Burg",
-          "addressLocality": "West Minaburgh",
-          "addressRegion": "Montana",
-          "postalCode": "83980",
-          "addressCountry": "Faroe Islands"
+          "streetAddress": "840 Adrian Cove",
+          "addressLocality": "West Luluchester",
+          "addressRegion": "Illinois",
+          "postalCode": "82541-4544",
+          "addressCountry": "Denmark"
         },
-        "email": "Eliane.Adams@example.net",
-        "phoneNumber": "555-838-7598",
-        "faxNumber": "555-133-1846"
+        "email": "Liza37@example.com",
+        "phoneNumber": "555-695-2227",
+        "faxNumber": "555-893-2770"
       },
-      "jobTitle": "Regional Markets Producer"
+      "jobTitle": "Investor Configuration Consultant"
     },
     "qualification": [
       {
         "type": "Qualification",
-        "qualificationCategory": "Global Branding Facilitator",
-        "qualificationValue": "Architect"
+        "qualificationCategory": "Regional Applications Facilitator",
+        "qualificationValue": "Administrator"
       },
       {
         "type": "Qualification",
-        "qualificationCategory": "Global Web Engineer",
-        "qualificationValue": "Architect"
+        "qualificationCategory": "Customer Integration Administrator",
+        "qualificationValue": "Producer"
+      },
+      {
+        "type": "Qualification",
+        "qualificationCategory": "Senior Research Architect",
+        "qualificationValue": "Developer"
       }
     ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..-OGfycndQ1B4oCe9JYMYTxnDR0dEQmkoEC7OA9GBnhfzhr4jkfb_A8wraP7tM6-RBcTZ0LNjwz3WjtV4nAcGBQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..lH0tJRAKX7xSPWuCafkaSDkFe67RfBlBFRnQWU9qN0Tl5ibSDhOKSh59g4-a9gLIaYDwJygIeYX2Qq73CnYSCA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

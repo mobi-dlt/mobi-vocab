@@ -14,14 +14,14 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIauthority",
-    "validationAuthorityID": "RA000003",
-    "otherValidationAuthorityID": "98JOT73W",
-    "validationAuthorityEntityID": "X3SP6HPVD4EOSKYH4HFP"
+    "validationAuthorityID": "RA000661",
+    "otherValidationAuthorityID": "1NJE96LO",
+    "validationAuthorityEntityID": "9KZUB48SAOW4MPQFXYW5"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jRws17Jfi6sl5zA5JpvtzMMA9x9lKJHbyCsbi3bL_stEEES5k6mClr5narahqCyvixsDwc7h-eEMGcm1b4mkBA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..9AevYvrz1jYEcYvMJbPALfApUjPsyLVw0OXq8Icf54M1tIT4fJYmP9a7xXUa_JT4oZpXkAA1M5LtPs9otmL8CQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

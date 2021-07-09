@@ -1,32 +1,40 @@
 [
   {
-    "addressLines": [
-      "White - Hyatt",
-      "04238 Marks Locks"
-    ],
-    "program": "quantify",
-    "array": "index",
-    "hard drive": "parse"
-  },
-  {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "type": "LEIaddress",
-    "addressNumberWithinBuilding": "2",
-    "mailRouting": "733 Preston Canyon, 69144-1767",
-    "country": "Turkey",
-    "postalCode": "79064",
-    "transmitter": "override"
+    "addressNumberWithinBuilding": "4",
+    "region": "Cambridgeshire",
+    "country": "Slovenia",
+    "postalCode": "32122",
+    "pixel": "calculate"
   },
   {
     "addressLines": [
-      "Schimmel - Greenfelder",
-      "602 Brekke Hills"
+      "Simonis, Gerlach and Maggio",
+      "25409 Assunta Place"
     ],
-    "region": "Borders",
-    "country": "Yemen",
-    "capacitor": "transmit",
-    "card": "navigate"
+    "addressNumber": "488",
+    "city": "West Toney",
+    "region": "Buckinghamshire",
+    "country": "Lebanon",
+    "postalCode": "58534-8280",
+    "system": "navigate",
+    "matrix": "parse",
+    "array": "input"
+  },
+  {
+    "type": "LEIaddress",
+    "language": "fr",
+    "addressLines": [
+      "Collier, Wilkinson and Beahan",
+      "77135 Murray Mall"
+    ],
+    "addressNumber": "160",
+    "addressNumberWithinBuilding": "6",
+    "country": "Timor-Leste",
+    "postalCode": "94214",
+    "protocol": "compress",
+    "monitor": "override"
   }
 ]

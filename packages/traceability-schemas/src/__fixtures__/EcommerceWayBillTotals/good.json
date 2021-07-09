@@ -4,31 +4,15 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceWayBillTotals",
-    "totalPieces": 330,
-    "weight": 611784,
-    "chargeableWeight": 550605.6,
-    "weightUnit": "kg",
-    "rateCharge": 0.007337375428074107,
-    "totalRateCharge": {
-      "type": "PriceSpecification",
-      "price": 4040,
-      "priceCurrency": "CDF"
-    }
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "EcommerceWayBillTotals",
-    "totalPieces": 554,
-    "weight": 15806,
-    "chargeableWeight": 14225.4,
+    "totalPieces": 94,
+    "weight": 519308,
+    "chargeableWeight": 467377.2,
     "weightUnit": "lb",
-    "rateCharge": 0.05581565368987867,
+    "rateCharge": 0.007094911775756284,
     "totalRateCharge": {
       "type": "PriceSpecification",
-      "price": 794,
-      "priceCurrency": "JOD"
+      "price": 3316,
+      "priceCurrency": "UGX"
     }
   },
   {
@@ -36,15 +20,31 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceWayBillTotals",
-    "totalPieces": 883,
-    "weight": 665491,
-    "chargeableWeight": 598941.9,
+    "totalPieces": 29,
+    "weight": 116174,
+    "chargeableWeight": 104556.6,
     "weightUnit": "kg",
-    "rateCharge": 0.015238539831659799,
+    "rateCharge": 0.048653074028803533,
     "totalRateCharge": {
       "type": "PriceSpecification",
-      "price": 9127,
-      "priceCurrency": "VND"
+      "price": 5087,
+      "priceCurrency": "GEL"
+    }
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "EcommerceWayBillTotals",
+    "totalPieces": 874,
+    "weight": 958189,
+    "chargeableWeight": 862370.1,
+    "weightUnit": "lb",
+    "rateCharge": 0.0009114416188594665,
+    "totalRateCharge": {
+      "type": "PriceSpecification",
+      "price": 786,
+      "priceCurrency": "SEK"
     }
   }
 ]

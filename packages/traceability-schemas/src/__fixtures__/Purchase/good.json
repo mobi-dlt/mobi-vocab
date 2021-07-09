@@ -8,19 +8,19 @@
     ],
     "customer": {
       "type": "Organization",
-      "name": "Wunsch - Hessel",
-      "description": "Business-focused modular superstructure",
+      "name": "Dickens, Ondricka and Lowe",
+      "description": "Monitored 3rd generation moratorium",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "847 Roger Wells",
-        "addressLocality": "Myrtleton",
-        "addressRegion": "Utah",
-        "postalCode": "67802-1006",
-        "addressCountry": "Montenegro"
+        "streetAddress": "1619 Pacocha Burgs",
+        "addressLocality": "West Wilber",
+        "addressRegion": "New Hampshire",
+        "postalCode": "63940-4412",
+        "addressCountry": "Uzbekistan"
       },
-      "email": "Raquel92@example.org",
-      "phoneNumber": "555-491-8980",
-      "faxNumber": "555-483-7035"
+      "email": "Alexandro_McClure@example.net",
+      "phoneNumber": "555-529-4638",
+      "faxNumber": "555-928-8877"
     }
   },
   {
@@ -31,28 +31,20 @@
       "Purchase"
     ],
     "customer": {
-      "type": "Person",
-      "firstName": "Dorris",
-      "lastName": "Nicolas",
-      "email": "Russel_Carter@example.org",
-      "phoneNumber": "555-897-4840",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Krajcik - Harris",
-        "description": "Multi-lateral modular algorithm",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "727 Rhett Plaza",
-          "addressLocality": "New Rahulport",
-          "addressRegion": "Washington",
-          "postalCode": "79160-7076",
-          "addressCountry": "Philippines"
-        },
-        "email": "Dayne80@example.net",
-        "phoneNumber": "555-666-7447",
-        "faxNumber": "555-988-5089"
+      "type": "Organization",
+      "name": "Barrows Group",
+      "description": "Cross-group responsive hardware",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "54625 Nader Shoal",
+        "addressLocality": "Lake Brigitteborough",
+        "addressRegion": "Texas",
+        "postalCode": "68131-3887",
+        "addressCountry": "Australia"
       },
-      "jobTitle": "Dynamic Solutions Officer"
+      "email": "Marquis75@example.org",
+      "phoneNumber": "555-693-4151",
+      "faxNumber": "555-466-2068"
     }
   },
   {
@@ -63,28 +55,20 @@
       "Purchase"
     ],
     "customer": {
-      "type": "Person",
-      "firstName": "Bart",
-      "lastName": "Anderson",
-      "email": "Tiffany_Stiedemann@example.com",
-      "phoneNumber": "555-304-4868",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Legros, Parker and Boyer",
-        "description": "Inverse foreground open system",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "6304 Kutch Coves",
-          "addressLocality": "Hauckberg",
-          "addressRegion": "Iowa",
-          "postalCode": "04856",
-          "addressCountry": "Solomon Islands"
-        },
-        "email": "Nigel_Ziemann47@example.net",
-        "phoneNumber": "555-209-7226",
-        "faxNumber": "555-158-6967"
+      "type": "Organization",
+      "name": "Schinner - Morar",
+      "description": "Proactive didactic firmware",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "4784 Noel Square",
+        "addressLocality": "Hellerburgh",
+        "addressRegion": "Minnesota",
+        "postalCode": "51933-5922",
+        "addressCountry": "Moldova"
       },
-      "jobTitle": "Dynamic Accountability Agent"
+      "email": "Darius.Bruen83@example.org",
+      "phoneNumber": "555-990-6208",
+      "faxNumber": "555-703-2862"
     }
   }
 ]

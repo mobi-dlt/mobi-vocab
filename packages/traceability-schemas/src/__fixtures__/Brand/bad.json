@@ -1,16 +1,19 @@
 [
   {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "logo": "http://placeimg.com/640/480",
-    "firewall": "reboot",
-    "sensor": "navigate",
-    "hard drive": "input"
-  },
-  {
-    "transmitter": "quantify",
-    "application": "quantify"
+    "driver": "bypass",
+    "card": "navigate"
   },
   {
     "type": "Brand",
-    "matrix": "bypass"
+    "capacitor": "bypass",
+    "protocol": "back up"
+  },
+  {
+    "type": "Brand",
+    "bandwidth": "generate"
   }
 ]

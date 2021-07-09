@@ -5,112 +5,112 @@
     ],
     "type": "EcommerceWayBillRegistrationEvidenceDocument",
     "issuanceDate": "2021-03-09",
-    "waybillNumber": "ACMEWayBill#134",
+    "waybillNumber": "ACMEWayBill#136",
     "waybillType": "Single",
     "issuer": {
       "type": "Organization",
-      "name": "Stark, Corkery and Green",
-      "description": "User-centric web-enabled collaboration",
+      "name": "Legros, Altenwerth and MacGyver",
+      "description": "Team-oriented client-driven local area network",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "145 Kub Springs",
-        "addressLocality": "Port Margarettside",
-        "addressRegion": "Ohio",
-        "postalCode": "39288",
-        "addressCountry": "Serbia"
+        "streetAddress": "93027 Dereck Islands",
+        "addressLocality": "South Israelbury",
+        "addressRegion": "Hawaii",
+        "postalCode": "50613-0462",
+        "addressCountry": "Austria"
       },
-      "email": "Kenya_Cormier@example.org",
-      "phoneNumber": "555-295-2808",
-      "faxNumber": "555-587-8246"
+      "email": "Esperanza_Hamill50@example.org",
+      "phoneNumber": "555-432-8527",
+      "faxNumber": "555-243-5607"
     },
     "shipper": {
       "type": "Organization",
-      "name": "Ratke - Kutch",
-      "description": "Sharable analyzing moratorium",
+      "name": "Crist - Connelly",
+      "description": "Ergonomic uniform software",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "0995 Buck Canyon",
-        "addressLocality": "North Maybell",
-        "addressRegion": "New Hampshire",
-        "postalCode": "90658",
-        "addressCountry": "Grenada"
+        "streetAddress": "93028 Ford Bridge",
+        "addressLocality": "North Brice",
+        "addressRegion": "Illinois",
+        "postalCode": "06161",
+        "addressCountry": "Sao Tome and Principe"
       },
-      "email": "Brain_Labadie21@example.net",
-      "phoneNumber": "555-111-9579",
-      "faxNumber": "555-587-9128"
+      "email": "Corine61@example.org",
+      "phoneNumber": "555-999-9437",
+      "faxNumber": "555-101-7227"
     },
     "sidNumber": "",
     "consignee": {
       "type": "Organization",
-      "name": "Kuvalis, DuBuque and Klocko",
-      "description": "Re-engineered radical strategy",
+      "name": "Waters - Rutherford",
+      "description": "Configurable scalable data-warehouse",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "651 Crawford Throughway",
-        "addressLocality": "Lenoraland",
-        "addressRegion": "California",
-        "postalCode": "65705-6220",
-        "addressCountry": "Singapore"
+        "streetAddress": "562 Unique Common",
+        "addressLocality": "Gerlachport",
+        "addressRegion": "Kentucky",
+        "postalCode": "47064",
+        "addressCountry": "Timor-Leste"
       },
-      "email": "Jovan_Lockman81@example.org",
-      "phoneNumber": "555-207-8360",
-      "faxNumber": "555-660-9810"
+      "email": "Josie.Hilll@example.org",
+      "phoneNumber": "555-210-7232",
+      "faxNumber": "555-460-3191"
     },
     "cidNumber": "",
     "issuerAgent": {
       "type": "IssuerAgent",
       "issuerAgentOrg": {
         "type": "Organization",
-        "name": "Feest, Boyer and Nikolaus",
-        "description": "Extended contextually-based firmware",
+        "name": "Abernathy, Luettgen and Kuvalis",
+        "description": "Devolved exuding function",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "80890 Runolfsdottir Valley",
-          "addressLocality": "North Seamus",
-          "addressRegion": "Minnesota",
-          "postalCode": "17016",
-          "addressCountry": "Netherlands Antilles"
+          "streetAddress": "374 Frederik Expressway",
+          "addressLocality": "North Alysha",
+          "addressRegion": "New York",
+          "postalCode": "19907",
+          "addressCountry": "Guatemala"
         },
-        "email": "Norbert.Swift38@example.net",
-        "phoneNumber": "555-964-4204",
-        "faxNumber": "555-912-8100"
+        "email": "Rosa.Cronin@example.net",
+        "phoneNumber": "555-451-5528",
+        "faxNumber": "555-620-5439"
       },
-      "iataCode": "IATA#424",
+      "iataCode": "IATA#425",
       "accountNumber": "",
-      "accountingInformation": "Please charge to Account 123 and Account 321",
+      "accountingInformation": "Please, only charge Account 123",
       "charge": {
         "@context": [
           "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
-        "price": 1279,
-        "priceCurrency": "ALL"
+        "price": 8941,
+        "priceCurrency": "IDR"
       },
       "declaredValueCarriage": {
         "@context": [
           "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
-        "price": 4281,
-        "priceCurrency": "EGP"
+        "price": 9199,
+        "priceCurrency": "NOK"
       },
-      "declaredValueCarriagePaymentStatus": "PaymentPastDue",
+      "declaredValueCarriagePaymentStatus": "PaymentDue",
       "declaredValueCustoms": {
         "@context": [
           "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
-        "price": 1617,
-        "priceCurrency": "JOD"
+        "price": 957,
+        "priceCurrency": "COP"
       },
-      "declaredValueCustomsPaymentStatus": "PaymentPastDue",
+      "declaredValueCustomsPaymentStatus": "PaymentDue",
       "amountInsurance": {
         "@context": [
           "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
-        "price": 7007,
-        "priceCurrency": "BHD"
+        "price": 5446,
+        "priceCurrency": "CRC"
       }
     },
     "shippingRoute": [
@@ -118,61 +118,92 @@
         "type": "ShippingStop",
         "shippingStopAddress": {
           "type": "PostalAddress",
-          "organizationName": "Stehr, Breitenberg and McClure",
-          "streetAddress": "0819 Frances Mall",
-          "addressLocality": "Herzogmouth",
-          "addressRegion": "Nebraska",
-          "postalCode": "58743",
-          "addressCountry": "Kuwait"
+          "organizationName": "Kutch, Rosenbaum and Johns",
+          "streetAddress": "1117 Audie Branch",
+          "addressLocality": "South Jalynhaven",
+          "addressRegion": "Florida",
+          "postalCode": "33014",
+          "addressCountry": "Honduras"
         },
         "carrier": {
           "type": "Organization",
-          "name": "Koelpin and Sons",
-          "description": "Front-line composite algorithm",
+          "name": "Tromp LLC",
+          "description": "User-centric even-keeled moratorium",
           "address": {
             "type": "PostalAddress",
-            "streetAddress": "85453 Reinger View",
-            "addressLocality": "Terrellberg",
-            "addressRegion": "Virginia",
-            "postalCode": "64535-1927",
-            "addressCountry": "United States Minor Outlying Islands"
+            "streetAddress": "668 Tillman Ways",
+            "addressLocality": "South Roxaneport",
+            "addressRegion": "Delaware",
+            "postalCode": "94895",
+            "addressCountry": "Australia"
           },
-          "email": "Enola.Terry@example.net",
-          "phoneNumber": "555-195-3745",
-          "faxNumber": "555-800-2519"
+          "email": "Malika_Bergstrom@example.net",
+          "phoneNumber": "555-983-8772",
+          "faxNumber": "555-187-4068"
         },
-        "vesselNumber": "ACMECarrierVessel#556",
+        "vesselNumber": "ACMECarrierVessel#838",
         "arrivalDate": "2021-03-09",
-        "stopType": "Departure"
+        "stopType": "Destination"
       },
       {
         "type": "ShippingStop",
         "shippingStopAddress": {
           "type": "PostalAddress",
-          "organizationName": "Gusikowski - King",
-          "streetAddress": "933 Denesik Gardens",
-          "addressLocality": "South Jacyntheburgh",
-          "addressRegion": "Pennsylvania",
-          "postalCode": "20760-2447",
-          "addressCountry": "Fiji"
+          "organizationName": "O'Hara, Ryan and Gaylord",
+          "streetAddress": "3688 Reyna Extension",
+          "addressLocality": "Maggioport",
+          "addressRegion": "Rhode Island",
+          "postalCode": "73245",
+          "addressCountry": "Burundi"
         },
         "carrier": {
           "type": "Organization",
-          "name": "Bode Inc",
-          "description": "Distributed bandwidth-monitored throughput",
+          "name": "Bahringer - Kuhic",
+          "description": "Proactive reciprocal challenge",
           "address": {
             "type": "PostalAddress",
-            "streetAddress": "297 Koepp Passage",
-            "addressLocality": "Schuppeville",
-            "addressRegion": "Ohio",
-            "postalCode": "13874-3192",
-            "addressCountry": "British Indian Ocean Territory (Chagos Archipelago)"
+            "streetAddress": "043 Gillian Crossroad",
+            "addressLocality": "Wildermanchester",
+            "addressRegion": "Kansas",
+            "postalCode": "86823-6077",
+            "addressCountry": "Guyana"
           },
-          "email": "Weston.Rice@example.com",
-          "phoneNumber": "555-340-2606",
-          "faxNumber": "555-567-5437"
+          "email": "Kennedi.Kihn@example.com",
+          "phoneNumber": "555-380-1159",
+          "faxNumber": "555-804-7328"
         },
-        "vesselNumber": "ACMECarrierVessel#924",
+        "vesselNumber": "ACMECarrierVessel#23",
+        "arrivalDate": "2021-03-09",
+        "stopType": "Destination"
+      },
+      {
+        "type": "ShippingStop",
+        "shippingStopAddress": {
+          "type": "PostalAddress",
+          "organizationName": "Leffler - Mills",
+          "streetAddress": "838 Osinski Mount",
+          "addressLocality": "Dominicborough",
+          "addressRegion": "Indiana",
+          "postalCode": "91755",
+          "addressCountry": "Gambia"
+        },
+        "carrier": {
+          "type": "Organization",
+          "name": "Raynor, Howe and Lind",
+          "description": "Expanded impactful Graphical User Interface",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "675 Ardith Island",
+            "addressLocality": "West Armani",
+            "addressRegion": "Minnesota",
+            "postalCode": "69346",
+            "addressCountry": "Democratic People's Republic of Korea"
+          },
+          "email": "Aurelie16@example.org",
+          "phoneNumber": "555-884-1474",
+          "faxNumber": "555-313-1338"
+        },
+        "vesselNumber": "ACMECarrierVessel#420",
         "arrivalDate": "2021-03-09",
         "stopType": "Departure"
       }
@@ -184,388 +215,88 @@
       "wayBillGrouping": [
         {
           "type": "EcommerceWayBillCommodityGroup",
-          "commodityItemNumber": "49wphngz19qo",
+          "commodityItemNumber": "gwan83nonmtt",
           "natureQuantityOfGoods": "A lot of laptops that way a lot",
           "totalsCommodityGroup": {
             "type": "EcommerceWayBillTotals",
-            "totalPieces": 533,
-            "weight": 61503,
-            "chargeableWeight": 55352.700000000004,
+            "totalPieces": 423,
+            "weight": 826997,
+            "chargeableWeight": 744297.3,
             "weightUnit": "lb",
-            "rateCharge": 0.020685531148435396,
+            "rateCharge": 0.01166738076303649,
             "totalRateCharge": {
               "type": "PriceSpecification",
-              "price": 1145,
-              "priceCurrency": "CNY"
+              "price": 8684,
+              "priceCurrency": "AUD"
             }
           }
         },
         {
           "type": "EcommerceWayBillCommodityGroup",
-          "commodityItemNumber": "dzusvsliqa45",
-          "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
-          "totalsCommodityGroup": {
-            "type": "EcommerceWayBillTotals",
-            "totalPieces": 592,
-            "weight": 291828,
-            "chargeableWeight": 262645.2,
-            "weightUnit": "lb",
-            "rateCharge": 0.014338735297656306,
-            "totalRateCharge": {
-              "type": "PriceSpecification",
-              "price": 3766,
-              "priceCurrency": "NOK"
-            }
-          }
-        },
-        {
-          "type": "EcommerceWayBillCommodityGroup",
-          "commodityItemNumber": "vj72b0m3mepx",
+          "commodityItemNumber": "zpl9pz06i015",
           "natureQuantityOfGoods": "A lot of laptops that way a lot",
           "totalsCommodityGroup": {
             "type": "EcommerceWayBillTotals",
-            "totalPieces": 121,
-            "weight": 641029,
-            "chargeableWeight": 576926.1,
+            "totalPieces": 574,
+            "weight": 778114,
+            "chargeableWeight": 700302.6,
             "weightUnit": "kg",
-            "rateCharge": 0.013902993814979076,
+            "rateCharge": 0.006387238887875042,
             "totalRateCharge": {
               "type": "PriceSpecification",
-              "price": 8021,
-              "priceCurrency": "TND"
-            }
-          }
-        }
-      ],
-      "totalsCommodityContent": {
-        "type": "EcommerceWayBillTotals",
-        "totalPieces": 477,
-        "weight": 368049,
-        "chargeableWeight": 331244.10000000003,
-        "weightUnit": "kg",
-        "rateCharge": 0.0032996814131934725,
-        "totalRateCharge": {
-          "type": "PriceSpecification",
-          "price": 1093,
-          "priceCurrency": "ZAR"
-        }
-      }
-    },
-    "chargeDeclaration": {
-      "type": "ChargeDeclaration",
-      "weightCharge": {
-        "type": "chargeAndPaymentType",
-        "chargeCollect": 878,
-        "chargePrepaid": 126
-      },
-      "taxCharge": {
-        "type": "chargeAndPaymentType",
-        "chargeCollect": 786,
-        "chargePrepaid": 759
-      },
-      "otherChargesAgent": {
-        "type": "chargeAndPaymentType",
-        "chargeCollect": 176,
-        "chargePrepaid": 104
-      },
-      "otherChargesCarrier": {
-        "type": "chargeAndPaymentType",
-        "chargeCollect": 517,
-        "chargePrepaid": 37
-      },
-      "totalCharge": {
-        "type": "TotalCharge",
-        "totalPrepaid": 4691.25,
-        "totalCollect": 1563.75,
-        "sourceCurrency": "KMF",
-        "destinationCurrency": "INR",
-        "currencyConversionRate": 5,
-        "ccChargesDestinationCurrency": "KMF",
-        "chargesDestination": 994,
-        "totalCollectCharge": 248.5
-      }
-    }
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "EcommerceWayBillRegistrationEvidenceDocument",
-    "issuanceDate": "2021-03-09",
-    "waybillNumber": "ACMEWayBill#723",
-    "waybillType": "Single",
-    "issuer": {
-      "type": "Organization",
-      "name": "Goyette - Becker",
-      "description": "Horizontal stable capacity",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "1930 Gage Forges",
-        "addressLocality": "Gaylordton",
-        "addressRegion": "Missouri",
-        "postalCode": "42950",
-        "addressCountry": "Nigeria"
-      },
-      "email": "Shea56@example.com",
-      "phoneNumber": "555-227-3723",
-      "faxNumber": "555-147-5139"
-    },
-    "shipper": {
-      "type": "Organization",
-      "name": "Wehner, Abernathy and Pouros",
-      "description": "Proactive bottom-line budgetary management",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "37552 Brown Mill",
-        "addressLocality": "Hudsontown",
-        "addressRegion": "Illinois",
-        "postalCode": "07320-1210",
-        "addressCountry": "Peru"
-      },
-      "email": "Thalia20@example.org",
-      "phoneNumber": "555-190-6785",
-      "faxNumber": "555-279-8044"
-    },
-    "sidNumber": "",
-    "consignee": {
-      "type": "Organization",
-      "name": "Heller Group",
-      "description": "Robust attitude-oriented projection",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "48956 Runolfsson Fort",
-        "addressLocality": "Walterberg",
-        "addressRegion": "Missouri",
-        "postalCode": "34706",
-        "addressCountry": "Liberia"
-      },
-      "email": "Candida_Lebsack@example.org",
-      "phoneNumber": "555-899-2109",
-      "faxNumber": "555-723-4608"
-    },
-    "cidNumber": "",
-    "issuerAgent": {
-      "type": "IssuerAgent",
-      "issuerAgentOrg": {
-        "type": "Organization",
-        "name": "Daniel - Hoppe",
-        "description": "Implemented zero administration software",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "737 Schowalter Knolls",
-          "addressLocality": "West Benjamin",
-          "addressRegion": "Arizona",
-          "postalCode": "11990-7335",
-          "addressCountry": "Moldova"
-        },
-        "email": "Luis.Hermann@example.org",
-        "phoneNumber": "555-543-9202",
-        "faxNumber": "555-103-5986"
-      },
-      "iataCode": "IATA#397",
-      "accountNumber": "",
-      "accountingInformation": "Please, only charge Account 123",
-      "charge": {
-        "@context": [
-          "https://mobinet.io/schemas/v1"
-        ],
-        "type": "PriceSpecification",
-        "price": 9199,
-        "priceCurrency": "NOK"
-      },
-      "declaredValueCarriage": {
-        "@context": [
-          "https://mobinet.io/schemas/v1"
-        ],
-        "type": "PriceSpecification",
-        "price": 957,
-        "priceCurrency": "COP"
-      },
-      "declaredValueCarriagePaymentStatus": "PaymentPastDue",
-      "declaredValueCustoms": {
-        "@context": [
-          "https://mobinet.io/schemas/v1"
-        ],
-        "type": "PriceSpecification",
-        "price": 5446,
-        "priceCurrency": "CRC"
-      },
-      "declaredValueCustomsPaymentStatus": "PaymentPastDue",
-      "amountInsurance": {
-        "@context": [
-          "https://mobinet.io/schemas/v1"
-        ],
-        "type": "PriceSpecification",
-        "price": 7408,
-        "priceCurrency": "PKR"
-      }
-    },
-    "shippingRoute": [
-      {
-        "type": "ShippingStop",
-        "shippingStopAddress": {
-          "type": "PostalAddress",
-          "organizationName": "Johns, Moen and Dach",
-          "streetAddress": "17070 Jalyn Club",
-          "addressLocality": "Danielburgh",
-          "addressRegion": "Kentucky",
-          "postalCode": "01435",
-          "addressCountry": "Argentina"
-        },
-        "carrier": {
-          "type": "Organization",
-          "name": "Ward, O'Reilly and Bergstrom",
-          "description": "Multi-channelled intermediate service-desk",
-          "address": {
-            "type": "PostalAddress",
-            "streetAddress": "892 Kozey Trail",
-            "addressLocality": "Leannonland",
-            "addressRegion": "Georgia",
-            "postalCode": "48950-9803",
-            "addressCountry": "French Polynesia"
-          },
-          "email": "Vida.OHara62@example.com",
-          "phoneNumber": "555-909-6744",
-          "faxNumber": "555-946-4150"
-        },
-        "vesselNumber": "ACMECarrierVessel#371",
-        "arrivalDate": "2021-03-09",
-        "stopType": "Destination"
-      },
-      {
-        "type": "ShippingStop",
-        "shippingStopAddress": {
-          "type": "PostalAddress",
-          "organizationName": "Stanton, Dietrich and Lindgren",
-          "streetAddress": "855 Ratke Skyway",
-          "addressLocality": "East Irma",
-          "addressRegion": "New Hampshire",
-          "postalCode": "81459",
-          "addressCountry": "Belgium"
-        },
-        "carrier": {
-          "type": "Organization",
-          "name": "Kuhic LLC",
-          "description": "Robust clear-thinking function",
-          "address": {
-            "type": "PostalAddress",
-            "streetAddress": "399 Zemlak Roads",
-            "addressLocality": "Pricehaven",
-            "addressRegion": "Iowa",
-            "postalCode": "60773",
-            "addressCountry": "Gambia"
-          },
-          "email": "Imelda.Labadie@example.com",
-          "phoneNumber": "555-115-8046",
-          "faxNumber": "555-732-4983"
-        },
-        "vesselNumber": "ACMECarrierVessel#374",
-        "arrivalDate": "2021-03-09",
-        "stopType": "Destination"
-      },
-      {
-        "type": "ShippingStop",
-        "shippingStopAddress": {
-          "type": "PostalAddress",
-          "organizationName": "Mills - Schowalter",
-          "streetAddress": "385 Monserrat Manors",
-          "addressLocality": "West Drew",
-          "addressRegion": "Louisiana",
-          "postalCode": "17553-6006",
-          "addressCountry": "Nauru"
-        },
-        "carrier": {
-          "type": "Organization",
-          "name": "Rodriguez Inc",
-          "description": "De-engineered fresh-thinking collaboration",
-          "address": {
-            "type": "PostalAddress",
-            "streetAddress": "34041 Emerson Radial",
-            "addressLocality": "New Jamil",
-            "addressRegion": "Utah",
-            "postalCode": "20973",
-            "addressCountry": "Maldives"
-          },
-          "email": "Jailyn66@example.net",
-          "phoneNumber": "555-340-5578",
-          "faxNumber": "555-479-3188"
-        },
-        "vesselNumber": "ACMECarrierVessel#255",
-        "arrivalDate": "2021-03-09",
-        "stopType": "Departure"
-      }
-    ],
-    "handlingInstructions": "Hand over to ACME Importer",
-    "handlingInstructionsSCI": "",
-    "wayBillCommodityContent": {
-      "type": "EcommerceWayBillCommodityContent",
-      "wayBillGrouping": [
-        {
-          "type": "EcommerceWayBillCommodityGroup",
-          "commodityItemNumber": "onmttft2v9ez",
-          "natureQuantityOfGoods": "A lot of laptops that way a lot",
-          "totalsCommodityGroup": {
-            "type": "EcommerceWayBillTotals",
-            "totalPieces": 701,
-            "weight": 600296,
-            "chargeableWeight": 540266.4,
-            "weightUnit": "kg",
-            "rateCharge": 0.013141664926784268,
-            "totalRateCharge": {
-              "type": "PriceSpecification",
-              "price": 7100,
-              "priceCurrency": "DOP"
-            }
-          }
-        },
-        {
-          "type": "EcommerceWayBillCommodityGroup",
-          "commodityItemNumber": "6i015krxgygj",
-          "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
-          "totalsCommodityGroup": {
-            "type": "EcommerceWayBillTotals",
-            "totalPieces": 956,
-            "weight": 463623,
-            "chargeableWeight": 417260.7,
-            "weightUnit": "lb",
-            "rateCharge": 0.022650108193750334,
-            "totalRateCharge": {
-              "type": "PriceSpecification",
-              "price": 9451,
+              "price": 4473,
               "priceCurrency": "UYU"
             }
           }
         },
         {
           "type": "EcommerceWayBillCommodityGroup",
-          "commodityItemNumber": "72ugw8jgmg9k",
+          "commodityItemNumber": "jygxybo72ugw",
+          "natureQuantityOfGoods": "A lot of laptops that way a lot",
+          "totalsCommodityGroup": {
+            "type": "EcommerceWayBillTotals",
+            "totalPieces": 248,
+            "weight": 546181,
+            "chargeableWeight": 491562.9,
+            "weightUnit": "lb",
+            "rateCharge": 0.01281219555015238,
+            "totalRateCharge": {
+              "type": "PriceSpecification",
+              "price": 6298,
+              "priceCurrency": "KES"
+            }
+          }
+        },
+        {
+          "type": "EcommerceWayBillCommodityGroup",
+          "commodityItemNumber": "kscm5ii2twnm",
           "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
           "totalsCommodityGroup": {
             "type": "EcommerceWayBillTotals",
-            "totalPieces": 803,
-            "weight": 363203,
-            "chargeableWeight": 326882.7,
+            "totalPieces": 345,
+            "weight": 200764,
+            "chargeableWeight": 180687.6,
             "weightUnit": "kg",
-            "rateCharge": 0.005050741443337319,
+            "rateCharge": 0.03358282472067812,
             "totalRateCharge": {
               "type": "PriceSpecification",
-              "price": 1651,
-              "priceCurrency": "MZN"
+              "price": 6068,
+              "priceCurrency": "VEF"
             }
           }
         }
       ],
       "totalsCommodityContent": {
         "type": "EcommerceWayBillTotals",
-        "totalPieces": 69,
-        "weight": 831901,
-        "chargeableWeight": 748710.9,
+        "totalPieces": 217,
+        "weight": 530513,
+        "chargeableWeight": 477461.7,
         "weightUnit": "kg",
-        "rateCharge": 0.008873919158917012,
+        "rateCharge": 0.015046233027696252,
         "totalRateCharge": {
           "type": "PriceSpecification",
-          "price": 6644,
-          "priceCurrency": "UGX"
+          "price": 7184,
+          "priceCurrency": "AFN"
         }
       }
     },
@@ -573,34 +304,34 @@
       "type": "ChargeDeclaration",
       "weightCharge": {
         "type": "chargeAndPaymentType",
-        "chargeCollect": 345,
-        "chargePrepaid": 200
+        "chargeCollect": 586,
+        "chargePrepaid": 830
       },
       "taxCharge": {
         "type": "chargeAndPaymentType",
-        "chargeCollect": 937,
-        "chargePrepaid": 610
+        "chargeCollect": 949,
+        "chargePrepaid": 969
       },
       "otherChargesAgent": {
         "type": "chargeAndPaymentType",
-        "chargeCollect": 913,
-        "chargePrepaid": 681
+        "chargeCollect": 63,
+        "chargePrepaid": 891
       },
       "otherChargesCarrier": {
         "type": "chargeAndPaymentType",
-        "chargeCollect": 217,
-        "chargePrepaid": 531
+        "chargeCollect": 115,
+        "chargePrepaid": 605
       },
       "totalCharge": {
         "type": "TotalCharge",
-        "totalPrepaid": 5562,
-        "totalCollect": 1854,
-        "sourceCurrency": "AFN",
-        "destinationCurrency": "PHP",
-        "currencyConversionRate": 5,
-        "ccChargesDestinationCurrency": "AFN",
-        "chargesDestination": 586,
-        "totalCollectCharge": 146.5
+        "totalPrepaid": 5178.75,
+        "totalCollect": 1726.25,
+        "sourceCurrency": "BZD",
+        "destinationCurrency": "LTL",
+        "currencyConversionRate": 4,
+        "ccChargesDestinationCurrency": "BZD",
+        "chargesDestination": 37,
+        "totalCollectCharge": 9.25
       }
     }
   },
@@ -610,112 +341,112 @@
     ],
     "type": "EcommerceWayBillRegistrationEvidenceDocument",
     "issuanceDate": "2021-03-09",
-    "waybillNumber": "ACMEWayBill#414",
+    "waybillNumber": "ACMEWayBill#278",
     "waybillType": "Single",
     "issuer": {
       "type": "Organization",
-      "name": "Langworth - Gusikowski",
-      "description": "User-centric optimizing alliance",
+      "name": "DuBuque - Stiedemann",
+      "description": "Digitized foreground benchmark",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "94254 Kihn Summit",
-        "addressLocality": "Port Rusty",
-        "addressRegion": "Minnesota",
-        "postalCode": "58725-8906",
-        "addressCountry": "Timor-Leste"
+        "streetAddress": "44984 Shanon Rapid",
+        "addressLocality": "Doylestad",
+        "addressRegion": "Utah",
+        "postalCode": "06853-0345",
+        "addressCountry": "French Polynesia"
       },
-      "email": "Felton.DuBuque39@example.org",
-      "phoneNumber": "555-570-3961",
-      "faxNumber": "555-121-3831"
+      "email": "Elvera.Kassulke77@example.org",
+      "phoneNumber": "555-946-7732",
+      "faxNumber": "555-143-2874"
     },
     "shipper": {
       "type": "Organization",
-      "name": "Runolfsson - Schaden",
-      "description": "Expanded human-resource matrices",
+      "name": "Weissnat, Funk and Tillman",
+      "description": "Networked incremental approach",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "8379 Phoebe Rue",
-        "addressLocality": "Dominicshire",
-        "addressRegion": "Vermont",
-        "postalCode": "10325",
-        "addressCountry": "Jamaica"
+        "streetAddress": "2984 Hauck Crest",
+        "addressLocality": "New Hubert",
+        "addressRegion": "Colorado",
+        "postalCode": "79377",
+        "addressCountry": "Estonia"
       },
-      "email": "Miracle.Rice88@example.org",
-      "phoneNumber": "555-192-2412",
-      "faxNumber": "555-757-9528"
+      "email": "Lia_MacGyver@example.net",
+      "phoneNumber": "555-543-6317",
+      "faxNumber": "555-262-7493"
     },
     "sidNumber": "",
     "consignee": {
       "type": "Organization",
-      "name": "Keeling - Bergnaum",
-      "description": "Face to face intermediate matrix",
+      "name": "Beatty, Zieme and Botsford",
+      "description": "Mandatory 4th generation firmware",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "656 Buckridge Oval",
-        "addressLocality": "Cassinhaven",
-        "addressRegion": "Nebraska",
-        "postalCode": "27027-6015",
-        "addressCountry": "Cambodia"
+        "streetAddress": "85727 Reichert Brook",
+        "addressLocality": "Alexandroville",
+        "addressRegion": "New Jersey",
+        "postalCode": "59964",
+        "addressCountry": "Italy"
       },
-      "email": "Amari43@example.net",
-      "phoneNumber": "555-585-9995",
-      "faxNumber": "555-971-6601"
+      "email": "Sven6@example.com",
+      "phoneNumber": "555-157-3593",
+      "faxNumber": "555-596-6435"
     },
     "cidNumber": "",
     "issuerAgent": {
       "type": "IssuerAgent",
       "issuerAgentOrg": {
         "type": "Organization",
-        "name": "Lind, Hermiston and Bernier",
-        "description": "Expanded user-facing throughput",
+        "name": "O'Connell - Schinner",
+        "description": "Versatile intermediate paradigm",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "610 Gus Plains",
-          "addressLocality": "North Marleneborough",
-          "addressRegion": "Wyoming",
-          "postalCode": "66899",
-          "addressCountry": "Estonia"
+          "streetAddress": "06392 Sharon Rest",
+          "addressLocality": "Whiteburgh",
+          "addressRegion": "Missouri",
+          "postalCode": "70853-0299",
+          "addressCountry": "Saint Pierre and Miquelon"
         },
-        "email": "Moises82@example.net",
-        "phoneNumber": "555-538-8303",
-        "faxNumber": "555-732-1498"
+        "email": "Thurman_Romaguera@example.com",
+        "phoneNumber": "555-753-6921",
+        "faxNumber": "555-297-8415"
       },
-      "iataCode": "IATA#651",
+      "iataCode": "IATA#545",
       "accountNumber": "",
-      "accountingInformation": "Please, only charge Account 123",
+      "accountingInformation": "Please charge to Account 123 and Account 321",
       "charge": {
         "@context": [
           "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
-        "price": 5475,
-        "priceCurrency": "YER"
+        "price": 1277,
+        "priceCurrency": "QAR"
       },
       "declaredValueCarriage": {
         "@context": [
           "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
-        "price": 6503,
-        "priceCurrency": "PEN"
+        "price": 5929,
+        "priceCurrency": "PKR"
       },
-      "declaredValueCarriagePaymentStatus": "PaymentDeclined",
+      "declaredValueCarriagePaymentStatus": "PaymentAutomaticallyApplied",
       "declaredValueCustoms": {
         "@context": [
           "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
-        "price": 7540,
-        "priceCurrency": "UZS"
+        "price": 4830,
+        "priceCurrency": "MYR"
       },
-      "declaredValueCustomsPaymentStatus": "PaymentDeclined",
+      "declaredValueCustomsPaymentStatus": "PaymentAutomaticallyApplied",
       "amountInsurance": {
         "@context": [
           "https://mobinet.io/schemas/v1"
         ],
         "type": "PriceSpecification",
-        "price": 6224,
-        "priceCurrency": "LBP"
+        "price": 6230,
+        "priceCurrency": "HKD"
       }
     },
     "shippingRoute": [
@@ -723,32 +454,63 @@
         "type": "ShippingStop",
         "shippingStopAddress": {
           "type": "PostalAddress",
-          "organizationName": "Legros - Rohan",
-          "streetAddress": "75643 Altenwerth Plaza",
-          "addressLocality": "Dietrichland",
-          "addressRegion": "Missouri",
-          "postalCode": "94384",
-          "addressCountry": "Cayman Islands"
+          "organizationName": "Witting Inc",
+          "streetAddress": "42943 Cruickshank Street",
+          "addressLocality": "Doylestad",
+          "addressRegion": "Arkansas",
+          "postalCode": "74223",
+          "addressCountry": "Venezuela"
         },
         "carrier": {
           "type": "Organization",
-          "name": "Bashirian Inc",
-          "description": "Profound scalable emulation",
+          "name": "DuBuque Group",
+          "description": "Synergized static algorithm",
           "address": {
             "type": "PostalAddress",
-            "streetAddress": "74223 Christiansen Vista",
-            "addressLocality": "Hilpertbury",
-            "addressRegion": "Alaska",
-            "postalCode": "25792",
-            "addressCountry": "Myanmar"
+            "streetAddress": "4012 Vincent Mount",
+            "addressLocality": "New Arlieshire",
+            "addressRegion": "Mississippi",
+            "postalCode": "00068-2759",
+            "addressCountry": "Falkland Islands (Malvinas)"
           },
-          "email": "Keely85@example.net",
-          "phoneNumber": "555-172-9850",
-          "faxNumber": "555-527-8569"
+          "email": "Aubrey.Lang63@example.net",
+          "phoneNumber": "555-869-4139",
+          "faxNumber": "555-714-9308"
         },
-        "vesselNumber": "ACMECarrierVessel#355",
+        "vesselNumber": "ACMECarrierVessel#847",
         "arrivalDate": "2021-03-09",
         "stopType": "Stopover"
+      },
+      {
+        "type": "ShippingStop",
+        "shippingStopAddress": {
+          "type": "PostalAddress",
+          "organizationName": "Ebert, Wuckert and Lind",
+          "streetAddress": "72624 Cicero Square",
+          "addressLocality": "Annabelleside",
+          "addressRegion": "Wyoming",
+          "postalCode": "07803-3885",
+          "addressCountry": "Denmark"
+        },
+        "carrier": {
+          "type": "Organization",
+          "name": "Macejkovic, Osinski and Kuvalis",
+          "description": "Ergonomic bifurcated portal",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "20928 Towne Radial",
+            "addressLocality": "South Michaelstad",
+            "addressRegion": "New York",
+            "postalCode": "98593",
+            "addressCountry": "Estonia"
+          },
+          "email": "Neoma52@example.com",
+          "phoneNumber": "555-567-5453",
+          "faxNumber": "555-981-1775"
+        },
+        "vesselNumber": "ACMECarrierVessel#489",
+        "arrivalDate": "2021-03-09",
+        "stopType": "Destination"
       }
     ],
     "handlingInstructions": "Hand over to ACME Importer",
@@ -758,88 +520,52 @@
       "wayBillGrouping": [
         {
           "type": "EcommerceWayBillCommodityGroup",
-          "commodityItemNumber": "17svu1s3iu8m",
+          "commodityItemNumber": "09r0padj10ra",
           "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
           "totalsCommodityGroup": {
             "type": "EcommerceWayBillTotals",
-            "totalPieces": 847,
-            "weight": 749764,
-            "chargeableWeight": 674787.6,
-            "weightUnit": "kg",
-            "rateCharge": 0.0031150542778201618,
-            "totalRateCharge": {
-              "type": "PriceSpecification",
-              "price": 2102,
-              "priceCurrency": "PKR"
-            }
-          }
-        },
-        {
-          "type": "EcommerceWayBillCommodityGroup",
-          "commodityItemNumber": "5q8m7gsy6o2w",
-          "natureQuantityOfGoods": "A lot of laptops that way a lot",
-          "totalsCommodityGroup": {
-            "type": "EcommerceWayBillTotals",
-            "totalPieces": 999,
-            "weight": 732473,
-            "chargeableWeight": 659225.7000000001,
-            "weightUnit": "kg",
-            "rateCharge": 0.011161579410511453,
-            "totalRateCharge": {
-              "type": "PriceSpecification",
-              "price": 7358,
-              "priceCurrency": "EUR"
-            }
-          }
-        },
-        {
-          "type": "EcommerceWayBillCommodityGroup",
-          "commodityItemNumber": "dcuuj8w4xb07",
-          "natureQuantityOfGoods": "A lot of laptops that way a lot",
-          "totalsCommodityGroup": {
-            "type": "EcommerceWayBillTotals",
-            "totalPieces": 84,
-            "weight": 926036,
-            "chargeableWeight": 833432.4,
-            "weightUnit": "kg",
-            "rateCharge": 0.010415961750467105,
-            "totalRateCharge": {
-              "type": "PriceSpecification",
-              "price": 8681,
-              "priceCurrency": "DJF"
-            }
-          }
-        },
-        {
-          "type": "EcommerceWayBillCommodityGroup",
-          "commodityItemNumber": "v2gplm6yskyc",
-          "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
-          "totalsCommodityGroup": {
-            "type": "EcommerceWayBillTotals",
-            "totalPieces": 276,
-            "weight": 523831,
-            "chargeableWeight": 471447.9,
+            "totalPieces": 956,
+            "weight": 882597,
+            "chargeableWeight": 794337.3,
             "weightUnit": "lb",
-            "rateCharge": 0.02077217864370591,
+            "rateCharge": 0.007479190515162765,
             "totalRateCharge": {
               "type": "PriceSpecification",
-              "price": 9793,
-              "priceCurrency": "KRW"
+              "price": 5941,
+              "priceCurrency": "CZK"
+            }
+          }
+        },
+        {
+          "type": "EcommerceWayBillCommodityGroup",
+          "commodityItemNumber": "6eko56ctp4kn",
+          "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
+          "totalsCommodityGroup": {
+            "type": "EcommerceWayBillTotals",
+            "totalPieces": 392,
+            "weight": 347738,
+            "chargeableWeight": 312964.2,
+            "weightUnit": "kg",
+            "rateCharge": 0.023894106738086975,
+            "totalRateCharge": {
+              "type": "PriceSpecification",
+              "price": 7478,
+              "priceCurrency": "IRR"
             }
           }
         }
       ],
       "totalsCommodityContent": {
         "type": "EcommerceWayBillTotals",
-        "totalPieces": 564,
-        "weight": 675257,
-        "chargeableWeight": 607731.3,
-        "weightUnit": "lb",
-        "rateCharge": 0.003972150192033881,
+        "totalPieces": 15,
+        "weight": 457829,
+        "chargeableWeight": 412046.10000000003,
+        "weightUnit": "kg",
+        "rateCharge": 0.004130605774450965,
         "totalRateCharge": {
           "type": "PriceSpecification",
-          "price": 2414,
-          "priceCurrency": "KWD"
+          "price": 1702,
+          "priceCurrency": "AZN"
         }
       }
     },
@@ -847,34 +573,365 @@
       "type": "ChargeDeclaration",
       "weightCharge": {
         "type": "chargeAndPaymentType",
-        "chargeCollect": 746,
-        "chargePrepaid": 448
+        "chargeCollect": 641,
+        "chargePrepaid": 87
       },
       "taxCharge": {
         "type": "chargeAndPaymentType",
-        "chargeCollect": 753,
-        "chargePrepaid": 341
+        "chargeCollect": 975,
+        "chargePrepaid": 710
       },
       "otherChargesAgent": {
         "type": "chargeAndPaymentType",
-        "chargeCollect": 324,
-        "chargePrepaid": 527
+        "chargeCollect": 828,
+        "chargePrepaid": 921
       },
       "otherChargesCarrier": {
         "type": "chargeAndPaymentType",
-        "chargeCollect": 489,
-        "chargePrepaid": 590
+        "chargeCollect": 69,
+        "chargePrepaid": 278
       },
       "totalCharge": {
         "type": "TotalCharge",
-        "totalPrepaid": 1945.5,
-        "totalCollect": 648.5,
-        "sourceCurrency": "ERN",
-        "destinationCurrency": "CAD",
+        "totalPrepaid": 6942.75,
+        "totalCollect": 2314.25,
+        "sourceCurrency": "HRK",
+        "destinationCurrency": "HRK",
+        "currencyConversionRate": 3,
+        "ccChargesDestinationCurrency": "HRK",
+        "chargesDestination": 573,
+        "totalCollectCharge": 143.25
+      }
+    }
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "EcommerceWayBillRegistrationEvidenceDocument",
+    "issuanceDate": "2021-03-09",
+    "waybillNumber": "ACMEWayBill#454",
+    "waybillType": "Single",
+    "issuer": {
+      "type": "Organization",
+      "name": "Schuppe LLC",
+      "description": "Total user-facing productivity",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "6847 Upton Junctions",
+        "addressLocality": "North Demondmouth",
+        "addressRegion": "Washington",
+        "postalCode": "54555-9328",
+        "addressCountry": "Macao"
+      },
+      "email": "Cleta76@example.org",
+      "phoneNumber": "555-570-5272",
+      "faxNumber": "555-205-3325"
+    },
+    "shipper": {
+      "type": "Organization",
+      "name": "Grant Group",
+      "description": "Centralized needs-based focus group",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "61576 Gabriella Extensions",
+        "addressLocality": "South Colin",
+        "addressRegion": "Oregon",
+        "postalCode": "15464",
+        "addressCountry": "Sao Tome and Principe"
+      },
+      "email": "Nat.Price@example.com",
+      "phoneNumber": "555-586-7904",
+      "faxNumber": "555-836-9754"
+    },
+    "sidNumber": "",
+    "consignee": {
+      "type": "Organization",
+      "name": "Gleichner and Sons",
+      "description": "Inverse demand-driven superstructure",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "596 Klocko Circle",
+        "addressLocality": "Monahanstad",
+        "addressRegion": "Illinois",
+        "postalCode": "44672",
+        "addressCountry": "Serbia"
+      },
+      "email": "Sophia_Dickens85@example.net",
+      "phoneNumber": "555-641-5451",
+      "faxNumber": "555-727-9052"
+    },
+    "cidNumber": "",
+    "issuerAgent": {
+      "type": "IssuerAgent",
+      "issuerAgentOrg": {
+        "type": "Organization",
+        "name": "Howell - Rogahn",
+        "description": "Secured tertiary encryption",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "434 Fisher Estate",
+          "addressLocality": "Haylieport",
+          "addressRegion": "Illinois",
+          "postalCode": "30172",
+          "addressCountry": "Mauritania"
+        },
+        "email": "Antwan_Hartmann39@example.net",
+        "phoneNumber": "555-615-4231",
+        "faxNumber": "555-497-8275"
+      },
+      "iataCode": "IATA#795",
+      "accountNumber": "",
+      "accountingInformation": "Please charge to Account 123 and not Account 321",
+      "charge": {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
+        ],
+        "type": "PriceSpecification",
+        "price": 3463,
+        "priceCurrency": "EEK"
+      },
+      "declaredValueCarriage": {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
+        ],
+        "type": "PriceSpecification",
+        "price": 8079,
+        "priceCurrency": "NAD"
+      },
+      "declaredValueCarriagePaymentStatus": "PaymentAutomaticallyApplied",
+      "declaredValueCustoms": {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
+        ],
+        "type": "PriceSpecification",
+        "price": 2471,
+        "priceCurrency": "TRY"
+      },
+      "declaredValueCustomsPaymentStatus": "PaymentAutomaticallyApplied",
+      "amountInsurance": {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
+        ],
+        "type": "PriceSpecification",
+        "price": 641,
+        "priceCurrency": "AFN"
+      }
+    },
+    "shippingRoute": [
+      {
+        "type": "ShippingStop",
+        "shippingStopAddress": {
+          "type": "PostalAddress",
+          "organizationName": "Marquardt Group",
+          "streetAddress": "6528 Legros Oval",
+          "addressLocality": "New Sedrick",
+          "addressRegion": "Idaho",
+          "postalCode": "80356-5043",
+          "addressCountry": "French Guiana"
+        },
+        "carrier": {
+          "type": "Organization",
+          "name": "Gutmann and Sons",
+          "description": "Multi-channelled static secured line",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "07782 Ebony Lakes",
+            "addressLocality": "Grahammouth",
+            "addressRegion": "Missouri",
+            "postalCode": "76336-8323",
+            "addressCountry": "Mexico"
+          },
+          "email": "Tod.Gleichner@example.net",
+          "phoneNumber": "555-122-7708",
+          "faxNumber": "555-103-4410"
+        },
+        "vesselNumber": "ACMECarrierVessel#665",
+        "arrivalDate": "2021-03-09",
+        "stopType": "Departure"
+      },
+      {
+        "type": "ShippingStop",
+        "shippingStopAddress": {
+          "type": "PostalAddress",
+          "organizationName": "Hayes, Boyle and Kuphal",
+          "streetAddress": "47281 Johns Terrace",
+          "addressLocality": "North Medaview",
+          "addressRegion": "Illinois",
+          "postalCode": "42578",
+          "addressCountry": "Barbados"
+        },
+        "carrier": {
+          "type": "Organization",
+          "name": "Welch, Daugherty and Abernathy",
+          "description": "Team-oriented content-based help-desk",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "55073 Lubowitz Bridge",
+            "addressLocality": "Stiedemannfort",
+            "addressRegion": "Mississippi",
+            "postalCode": "02094",
+            "addressCountry": "Guadeloupe"
+          },
+          "email": "Bryon.Dach78@example.net",
+          "phoneNumber": "555-239-2448",
+          "faxNumber": "555-698-6068"
+        },
+        "vesselNumber": "ACMECarrierVessel#575",
+        "arrivalDate": "2021-03-09",
+        "stopType": "Destination"
+      },
+      {
+        "type": "ShippingStop",
+        "shippingStopAddress": {
+          "type": "PostalAddress",
+          "organizationName": "Stehr, Kreiger and Rippin",
+          "streetAddress": "864 Zack Circles",
+          "addressLocality": "Jaskolskichester",
+          "addressRegion": "Iowa",
+          "postalCode": "55350",
+          "addressCountry": "Chile"
+        },
+        "carrier": {
+          "type": "Organization",
+          "name": "Thompson - Gleason",
+          "description": "Function-based discrete array",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "81599 Berge Lodge",
+            "addressLocality": "New Carol",
+            "addressRegion": "New Mexico",
+            "postalCode": "02975",
+            "addressCountry": "Tunisia"
+          },
+          "email": "Sarah.Schoen@example.com",
+          "phoneNumber": "555-603-9775",
+          "faxNumber": "555-568-3090"
+        },
+        "vesselNumber": "ACMECarrierVessel#173",
+        "arrivalDate": "2021-03-09",
+        "stopType": "Destination"
+      },
+      {
+        "type": "ShippingStop",
+        "shippingStopAddress": {
+          "type": "PostalAddress",
+          "organizationName": "Schoen - Grant",
+          "streetAddress": "70439 Conn Path",
+          "addressLocality": "West Jaylan",
+          "addressRegion": "Nevada",
+          "postalCode": "53274-8799",
+          "addressCountry": "Singapore"
+        },
+        "carrier": {
+          "type": "Organization",
+          "name": "Murazik Inc",
+          "description": "Horizontal high-level internet solution",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "8331 Halvorson Keys",
+            "addressLocality": "Jamisonberg",
+            "addressRegion": "Iowa",
+            "postalCode": "99310",
+            "addressCountry": "Cameroon"
+          },
+          "email": "Pascale_Schmidt95@example.com",
+          "phoneNumber": "555-574-1888",
+          "faxNumber": "555-151-6218"
+        },
+        "vesselNumber": "ACMECarrierVessel#432",
+        "arrivalDate": "2021-03-09",
+        "stopType": "Stopover"
+      }
+    ],
+    "handlingInstructions": "Forward on to Example Forwarder in the US",
+    "handlingInstructionsSCI": "",
+    "wayBillCommodityContent": {
+      "type": "EcommerceWayBillCommodityContent",
+      "wayBillGrouping": [
+        {
+          "type": "EcommerceWayBillCommodityGroup",
+          "commodityItemNumber": "kb6r3110nsth",
+          "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
+          "totalsCommodityGroup": {
+            "type": "EcommerceWayBillTotals",
+            "totalPieces": 514,
+            "weight": 139572,
+            "chargeableWeight": 125614.8,
+            "weightUnit": "kg",
+            "rateCharge": 0.018811477628432317,
+            "totalRateCharge": {
+              "type": "PriceSpecification",
+              "price": 2363,
+              "priceCurrency": "AMD"
+            }
+          }
+        },
+        {
+          "type": "EcommerceWayBillCommodityGroup",
+          "commodityItemNumber": "xulpthsixzry",
+          "natureQuantityOfGoods": "A lot of laptops that way a lot",
+          "totalsCommodityGroup": {
+            "type": "EcommerceWayBillTotals",
+            "totalPieces": 750,
+            "weight": 223116,
+            "chargeableWeight": 200804.4,
+            "weightUnit": "lb",
+            "rateCharge": 0.04040250114041326,
+            "totalRateCharge": {
+              "type": "PriceSpecification",
+              "price": 8113,
+              "priceCurrency": "CVE"
+            }
+          }
+        }
+      ],
+      "totalsCommodityContent": {
+        "type": "EcommerceWayBillTotals",
+        "totalPieces": 522,
+        "weight": 221402,
+        "chargeableWeight": 199261.80000000002,
+        "weightUnit": "kg",
+        "rateCharge": 0.033945292073041596,
+        "totalRateCharge": {
+          "type": "PriceSpecification",
+          "price": 6764,
+          "priceCurrency": "BIF"
+        }
+      }
+    },
+    "chargeDeclaration": {
+      "type": "ChargeDeclaration",
+      "weightCharge": {
+        "type": "chargeAndPaymentType",
+        "chargeCollect": 411,
+        "chargePrepaid": 297
+      },
+      "taxCharge": {
+        "type": "chargeAndPaymentType",
+        "chargeCollect": 933,
+        "chargePrepaid": 855
+      },
+      "otherChargesAgent": {
+        "type": "chargeAndPaymentType",
+        "chargeCollect": 98,
+        "chargePrepaid": 394
+      },
+      "otherChargesCarrier": {
+        "type": "chargeAndPaymentType",
+        "chargeCollect": 516,
+        "chargePrepaid": 330
+      },
+      "totalCharge": {
+        "type": "TotalCharge",
+        "totalPrepaid": 6781.5,
+        "totalCollect": 2260.5,
+        "sourceCurrency": "UYU",
+        "destinationCurrency": "VEF",
         "currencyConversionRate": 1,
-        "ccChargesDestinationCurrency": "ERN",
-        "chargesDestination": 764,
-        "totalCollectCharge": 191
+        "ccChargesDestinationCurrency": "UYU",
+        "chargesDestination": 370,
+        "totalCollectCharge": 92.5
       }
     }
   }

@@ -1,28 +1,21 @@
 [
   {
-    "qualificationCategory": "Legacy Creative Developer",
-    "qualificationValue": "Manager",
-    "bandwidth": "copy",
-    "monitor": "program",
-    "system": "back up",
-    "card": "back up"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "protocol": "synthesize",
-    "panel": "index",
-    "interface": "navigate",
-    "microchip": "input"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
     "type": "Qualification",
-    "qualificationCategory": "Forward Operations Administrator",
-    "circuit": "bypass",
-    "port": "hack"
+    "application": "override",
+    "program": "connect",
+    "system": "calculate"
+  },
+  {
+    "system": "connect",
+    "capacitor": "hack"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "qualificationCategory": "Senior Branding Assistant",
+    "qualificationValue": "Planner",
+    "driver": "generate",
+    "protocol": "transmit"
   }
 ]

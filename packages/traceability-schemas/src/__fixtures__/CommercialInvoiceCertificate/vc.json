@@ -37,19 +37,19 @@
   "issuer": {
     "id": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
     "type": "Organization",
-    "name": "Ratke - Feest",
-    "description": "Stand-alone disintermediate projection",
+    "name": "Kutch - Streich",
+    "description": "Mandatory homogeneous hub",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "2346 Dibbert Shores",
-      "addressLocality": "Reichelport",
-      "addressRegion": "Utah",
-      "postalCode": "45865",
-      "addressCountry": "Bangladesh"
+      "streetAddress": "12786 Dulce Estates",
+      "addressLocality": "Christiansenshire",
+      "addressRegion": "North Dakota",
+      "postalCode": "92214-7669",
+      "addressCountry": "Aruba"
     },
-    "email": "Katrine.Maggio@example.org",
-    "phoneNumber": "555-673-7143",
-    "faxNumber": "555-573-3177"
+    "email": "Corene_Nicolas@example.org",
+    "phoneNumber": "555-194-4240",
+    "faxNumber": "555-548-9611"
   },
   "credentialSubject": {
     "type": [
@@ -162,7 +162,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..oHspUGBs6d5m5Rg2txdpsN-GuGrdHuDLn3R7G_eQxAGuoWHF6tdFn_SEI7WHOvyaBCBHnWvuE6mUSVtH9xmvCQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..5MsCe7UmYsrV_sIo9drMiUfeqIKb21MwpFjZJuA9NPatj3xGCDrnugg6pcNcN2lUYWgsmjFco5_q461YIwvfBg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

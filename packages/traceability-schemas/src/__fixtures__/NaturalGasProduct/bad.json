@@ -1,141 +1,121 @@
 [
   {
-    "type": "NaturalGasProduct",
-    "HSCode": "270900",
-    "productionDate": "2020-03-30",
-    "observation": [
-      {
-        "type": "Observation",
-        "property": {
-          "type": "MechanicalProperty",
-          "identifier": "ISO 180",
-          "name": "Izod Impact Strength Test",
-          "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
-        },
-        "measurement": {
-          "type": "MeasuredValue",
-          "value": "80.670",
-          "unitCode": "B13"
-        }
-      },
-      {
-        "type": "Observation",
-        "property": {
-          "type": "ChemicalProperty",
-          "name": "Platinum",
-          "formula": "Pt",
-          "inchi": "InChI=1S/Pt",
-          "inchikey": "BASFCYQUMIYNBI-UHFFFAOYSA-N"
-        },
-        "measurement": {
-          "type": "MeasuredValue",
-          "value": "100.00",
-          "unitCode": "P1"
-        }
-      },
-      {
-        "type": "Observation",
-        "property": {
-          "type": "MechanicalProperty",
-          "identifier": "ISO 1352",
-          "name": "Torque-controlled fatigue testing",
-          "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
-        },
-        "measurement": {
-          "type": "MeasuredValue",
-          "value": "00.00",
-          "unitCode": "UNKNOWN"
-        }
-      }
-    ],
-    "product": {
-      "type": "Product",
-      "manufacturer": {
-        "type": "Person",
-        "firstName": "Micah",
-        "lastName": "Satterfield",
-        "email": "Deven96@example.net",
-        "phoneNumber": "555-516-5667",
-        "worksFor": {
-          "type": "Organization",
-          "name": "Auer - Emard",
-          "description": "Re-engineered didactic approach",
-          "address": {
-            "type": "PostalAddress",
-            "streetAddress": "57689 Cesar Hollow",
-            "addressLocality": "Abernathyside",
-            "addressRegion": "Minnesota",
-            "postalCode": "34511-2862",
-            "addressCountry": "Ireland"
-          },
-          "email": "Logan_Raynor13@example.org",
-          "phoneNumber": "555-303-2321",
-          "faxNumber": "555-532-5310"
-        },
-        "jobTitle": "National Creative Designer"
-      },
-      "name": "Natural Gas",
-      "description": "Natural Gas Stream",
-      "sizeOrAmount": {
-        "type": "QuantitativeValue",
-        "unitCode": "hg/ha",
-        "value": "5757"
-      },
-      "weight": {
-        "type": "QuantitativeValue",
-        "unitCode": "hg/ha",
-        "value": "1317"
-      },
-      "sku": "748164311602"
-    },
-    "application": "input",
-    "hard drive": "override"
-  },
-  {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
+    "type": "NaturalGasProduct",
+    "HSCode": "270900",
+    "alarm": "parse",
+    "array": "override",
+    "circuit": "copy",
+    "port": "input"
+  },
+  {
+    "type": "NaturalGasProduct",
+    "HSCode": "270900",
     "productionDate": "2020-03-30",
     "product": {
       "type": "Product",
       "manufacturer": {
         "type": "Organization",
-        "name": "Goldner - Dare",
-        "description": "Digitized full-range neural-net",
+        "name": "Turner, Konopelski and Jast",
+        "description": "Open-architected intangible budgetary management",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "90165 Abbigail Views",
-          "addressLocality": "Lake Wallacefurt",
-          "addressRegion": "West Virginia",
-          "postalCode": "83286-0779",
-          "addressCountry": "Estonia"
+          "streetAddress": "102 Lina Greens",
+          "addressLocality": "Kossstad",
+          "addressRegion": "Colorado",
+          "postalCode": "30076",
+          "addressCountry": "Western Sahara"
         },
-        "email": "Kaci_Kohler@example.net",
-        "phoneNumber": "555-262-5291",
-        "faxNumber": "555-789-8403"
+        "email": "Evan77@example.com",
+        "phoneNumber": "555-903-8289",
+        "faxNumber": "555-896-5141"
       },
       "name": "Natural Gas",
       "description": "Natural Gas Stream",
       "sizeOrAmount": {
         "type": "QuantitativeValue",
         "unitCode": "hg/ha",
-        "value": "9952"
+        "value": "5272"
       },
       "weight": {
         "type": "QuantitativeValue",
         "unitCode": "hg/ha",
-        "value": "3997"
+        "value": "3174"
       },
-      "sku": "905990088762"
+      "sku": "121473557036"
     },
-    "pixel": "parse",
-    "driver": "generate",
-    "port": "hack"
+    "monitor": "calculate"
   },
   {
-    "protocol": "connect",
-    "hard drive": "navigate",
-    "card": "hack",
-    "panel": "index"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "NaturalGasProduct",
+    "HSCode": "270900",
+    "UWI": "100.12-04-091-05-W5.00",
+    "productionDate": "2020-03-30",
+    "facility": {
+      "type": "Place",
+      "globalLocationNumber": "6513335924339",
+      "geo": {
+        "type": "GeoCoordinates",
+        "latitude": "-73.0422",
+        "longitude": "164.9243"
+      },
+      "address": {
+        "type": "PostalAddress",
+        "organizationName": "Altenwerth, Aufderhar and Zboncak",
+        "streetAddress": "68670 Reid Circles",
+        "addressLocality": "South Rodgerhaven",
+        "addressRegion": "Alabama",
+        "postalCode": "66492-2164",
+        "addressCountry": "Kiribati"
+      }
+    },
+    "product": {
+      "type": "Product",
+      "manufacturer": {
+        "type": "Person",
+        "firstName": "Maria",
+        "lastName": "Hammes",
+        "email": "Catherine55@example.com",
+        "phoneNumber": "555-587-5607",
+        "worksFor": {
+          "type": "Organization",
+          "name": "Kuhn - Wunsch",
+          "description": "Intuitive encompassing concept",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "62313 Stamm Islands",
+            "addressLocality": "Shieldsshire",
+            "addressRegion": "Maryland",
+            "postalCode": "52732",
+            "addressCountry": "Estonia"
+          },
+          "email": "Jaylen.Fadel@example.net",
+          "phoneNumber": "555-251-5790",
+          "faxNumber": "555-974-6461"
+        },
+        "jobTitle": "Lead Response Developer"
+      },
+      "name": "Natural Gas",
+      "description": "Natural Gas Stream",
+      "sizeOrAmount": {
+        "type": "QuantitativeValue",
+        "unitCode": "hg/ha",
+        "value": "4926"
+      },
+      "weight": {
+        "type": "QuantitativeValue",
+        "unitCode": "hg/ha",
+        "value": "951"
+      },
+      "sku": "747011032165"
+    },
+    "feed": "quantify",
+    "protocol": "generate",
+    "card": "back up"
   }
 ]

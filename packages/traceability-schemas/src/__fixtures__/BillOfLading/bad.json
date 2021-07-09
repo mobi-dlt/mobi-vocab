@@ -1,93 +1,39 @@
 [
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": [
-      "BillOfLading"
-    ],
-    "freight": {
-      "@context": [
-        "https://mobinet.io/schemas/v1"
-      ],
-      "type": [
-        "ParcelDelivery"
-      ],
-      "deliveryAddress": {
-        "type": [
-          "PostalAddress"
-        ],
-        "organizationName": "Spinka - Koepp",
-        "streetAddress": "48449 Bret Manors",
-        "addressLocality": "Armandtown",
-        "addressRegion": "Oregon",
-        "postalCode": "49477-0701",
-        "addressCountry": "Cyprus"
-      },
-      "originAddress": {
-        "type": [
-          "PostalAddress"
-        ],
-        "organizationName": "Collins and Sons",
-        "streetAddress": "964 Bernhard Ville",
-        "addressLocality": "North Alvena",
-        "addressRegion": "Iowa",
-        "postalCode": "22229",
-        "addressCountry": "Senegal"
-      },
-      "deliveryMethod": "Ocean transport",
-      "trackingNumber": "249553702479"
-    },
-    "matrix": "parse",
-    "port": "hack"
-  },
-  {
-    "firewall": "hack",
-    "pixel": "override",
-    "driver": "override",
-    "array": "reboot"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": [
-      "BillOfLading"
-    ],
     "billOfLadingNumber": "991205182",
-    "freight": {
-      "@context": [
-        "https://mobinet.io/schemas/v1"
-      ],
-      "type": [
-        "ParcelDelivery"
-      ],
-      "deliveryAddress": {
-        "type": [
-          "PostalAddress"
+    "relatedDocuments": [
+      {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
         ],
-        "organizationName": "VonRueden, Lindgren and Brown",
-        "streetAddress": "739 Reilly Mall",
-        "addressLocality": "Jadynburgh",
-        "addressRegion": "Louisiana",
-        "postalCode": "48883",
-        "addressCountry": "Madagascar"
-      },
-      "originAddress": {
         "type": [
-          "PostalAddress"
+          "Purchase"
         ],
-        "organizationName": "Rath Inc",
-        "streetAddress": "017 Conroy Fords",
-        "addressLocality": "Heidenreichmouth",
-        "addressRegion": "Minnesota",
-        "postalCode": "76646",
-        "addressCountry": "Micronesia"
-      },
-      "deliveryMethod": "Rail freight transport",
-      "trackingNumber": "352381422250"
-    },
-    "interface": "calculate",
-    "application": "reboot"
+        "customer": {
+          "type": [
+            "Person"
+          ],
+          "email": "Haylie85@example.org",
+          "phoneNumber": "555-202-1198"
+        }
+      }
+    ],
+    "interface": "input",
+    "hard drive": "generate",
+    "transmitter": "synthesize"
+  },
+  {
+    "monitor": "calculate",
+    "card": "hack",
+    "matrix": "program"
+  },
+  {
+    "type": [
+      "BillOfLading"
+    ],
+    "pixel": "input",
+    "hard drive": "copy",
+    "alarm": "transmit",
+    "firewall": "copy"
   }
 ]

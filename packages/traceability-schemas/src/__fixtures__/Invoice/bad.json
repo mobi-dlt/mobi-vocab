@@ -1,20 +1,22 @@
 [
   {
-    "identifier": "IN-98268",
-    "circuit": "index",
-    "hard drive": "copy"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "Invoice",
+    "transmitter": "override"
   },
   {
-    "protocol": "back up",
-    "matrix": "copy"
+    "monitor": "navigate",
+    "array": "generate",
+    "bandwidth": "quantify"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "Invoice",
-    "interface": "input",
-    "sensor": "transmit",
-    "circuit": "synthesize"
+    "monitor": "input",
+    "capacitor": "program"
   }
 ]

@@ -14,24 +14,24 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "Organization",
-    "name": "Ritchie, Veum and Schoen",
-    "description": "Stand-alone directional benchmark",
+    "name": "Lebsack Inc",
+    "description": "Vision-oriented next generation interface",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "410 Marcel Villages",
-      "addressLocality": "North Joyfurt",
-      "addressRegion": "Alabama",
-      "postalCode": "35634-8978",
-      "addressCountry": "Mali"
+      "streetAddress": "5156 Langosh Shoals",
+      "addressLocality": "North Melyssa",
+      "addressRegion": "Texas",
+      "postalCode": "35931",
+      "addressCountry": "Algeria"
     },
-    "email": "Zoe71@example.com",
-    "phoneNumber": "555-423-2389",
-    "faxNumber": "555-140-3258"
+    "email": "Karina_Kerluke@example.net",
+    "phoneNumber": "555-962-2713",
+    "faxNumber": "555-181-9468"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..uTlWGnbbfkOBsH-idzXDItR553Xn3hqKXySgvMjawsh9S7Tu_2txdCtLWcXXE1Yb7ATGEvjwngXEPuRlAkBEAw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Gcj3ufvi6NIlqqjdN2aw3_M6H_i6ZoqnNVSdJexH3h20D2pJLPg7oQZbeTq0FgeQoCbEdyBf_4VK08sGeDSOCw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

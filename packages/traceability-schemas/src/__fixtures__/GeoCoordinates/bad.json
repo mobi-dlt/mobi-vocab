@@ -1,15 +1,26 @@
 [
   {
-    "sensor": "connect"
-  },
-  {
-    "circuit": "connect",
-    "capacitor": "back up"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "sensor": "index",
+    "firewall": "hack"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "system": "quantify"
+    "longitude": "-135.7482",
+    "feed": "input",
+    "capacitor": "quantify",
+    "card": "calculate"
+  },
+  {
+    "type": "GeoCoordinates",
+    "longitude": "-175.1338",
+    "microchip": "bypass",
+    "application": "synthesize",
+    "matrix": "override",
+    "capacitor": "synthesize"
   }
 ]

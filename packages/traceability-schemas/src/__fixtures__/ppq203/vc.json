@@ -25,31 +25,13 @@
           "type": [
             "ChemicalProperty"
           ],
-          "name": "Iodine"
+          "name": "Rhodium"
         },
         "measurement": {
           "type": [
             "MeasuredValue"
           ],
-          "value": "37.914",
-          "unitCode": "P1"
-        }
-      },
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "ChemicalProperty"
-          ],
-          "name": "Holmium"
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "62.086",
+          "value": "46.525",
           "unitCode": "P1"
         }
       },
@@ -72,13 +54,51 @@
           "value": "00.00",
           "unitCode": "UNKNOWN"
         }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "MechanicalProperty"
+          ],
+          "identifier": "ISO 180",
+          "name": "Izod Impact Strength Test",
+          "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "82.45",
+          "unitCode": "B13"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Iron"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "53.475",
+          "unitCode": "P1"
+        }
       }
     ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..cC-mgFIYlxqS_tymmPud7zWv8z3ZD-dyglOyUux2GFGziTyVxAT0AN87u6zOLywHesdIQ-mGWkJoBI5LNc6mDA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..4VU4K_k8ZYuifaS8I4ruEgvI9IDpjOC0jFFOulAwKWg0lw-PtNS1L4IBAE-yoS2g1Qn-R7RPi_bM_KtZzRZLDQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

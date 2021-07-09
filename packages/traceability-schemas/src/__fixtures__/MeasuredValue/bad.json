@@ -3,26 +3,24 @@
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "value": "3.71",
+    "value": "88.778",
     "unitCode": "P1",
-    "feed": "program",
-    "firewall": "hack",
-    "bus": "connect"
-  },
-  {
-    "transmitter": "hack",
-    "card": "hack",
-    "monitor": "override"
+    "hard drive": "synthesize"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "type": "MeasuredValue",
-    "value": "29.931",
-    "system": "compress",
-    "sensor": "synthesize",
-    "port": "reboot",
-    "feed": "generate"
+    "value": "93.877",
+    "unitCode": "B13",
+    "driver": "override"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "protocol": "program",
+    "circuit": "reboot",
+    "transmitter": "compress"
   }
 ]

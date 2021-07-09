@@ -14,26 +14,26 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceWayBillCommodityGroup",
-    "commodityItemNumber": "th6cxwjkarft",
+    "commodityItemNumber": "ukcknbcbm3vd",
     "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
     "totalsCommodityGroup": {
       "type": "EcommerceWayBillTotals",
-      "totalPieces": 319,
-      "weight": 348430,
-      "chargeableWeight": 313587,
+      "totalPieces": 239,
+      "weight": 108499,
+      "chargeableWeight": 97649.1,
       "weightUnit": "kg",
-      "rateCharge": 0.013849426156058765,
+      "rateCharge": 0.07853631011448134,
       "totalRateCharge": {
         "type": "PriceSpecification",
-        "price": 4343,
-        "priceCurrency": "PKR"
+        "price": 7669,
+        "priceCurrency": "INR"
       }
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..tuP7stogzSO51cEVF0j3VJmyAJ9jwA0AJU8J4KVbG8O52588VY_VRxP4Kd6NC4nD4TaXu2A-7M0_--N-SURrDg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..u8S5nFmB2YobmWZ7dKmX3aMg55i4wJDpCe2GlSxCJ1Gdp_JhMgzRfqellWu5jaVYoWe59D7lFL1U8Z6oG2WCDA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

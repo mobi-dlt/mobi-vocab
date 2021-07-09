@@ -14,20 +14,34 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "SteelProduct",
-    "heatNumber": "3237",
-    "specification": "ASTM-58091",
-    "grade": "58623",
-    "originalCountryOfMeltAndPour": "Netherlands Antilles",
+    "heatNumber": "67967",
+    "specification": "ASTM-87979",
+    "grade": "35121",
+    "originalCountryOfMeltAndPour": "Sweden",
     "inspection": {
       "type": "InspectionReport",
       "observation": [
         {
           "type": "Observation",
           "property": {
-            "type": "MechanicalProperty",
-            "identifier": "ISO 3738",
-            "name": "Rockwell Hardness Test (Scale A)",
-            "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
+            "type": "ChemicalProperty",
+            "name": "Yttrium",
+            "formula": "Y",
+            "inchi": "InChI=1S/Y",
+            "inchikey": "VWQVUPCCIRVNHF-UHFFFAOYSA-N"
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "29.184",
+            "unitCode": "P1"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "ChemicalProperty",
+            "name": "Nihonium",
+            "formula": "Nh"
           },
           "measurement": {
             "type": "MeasuredValue",
@@ -39,15 +53,86 @@
           "type": "Observation",
           "property": {
             "type": "ChemicalProperty",
-            "name": "Bromine",
-            "formula": "Br",
-            "inchi": "InChI=1S/Br",
-            "inchikey": "WKBOTKDWSSQWDR-UHFFFAOYSA-N"
+            "name": "Cobalt",
+            "formula": "Co",
+            "inchi": "InChI=1S/Co",
+            "inchikey": "GUTLYIVDDKVIGB-UHFFFAOYSA-N"
           },
           "measurement": {
             "type": "MeasuredValue",
-            "value": "100.00",
+            "value": "46.028",
             "unitCode": "P1"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "MechanicalProperty",
+            "identifier": "ISO 180",
+            "name": "Izod Impact Strength Test",
+            "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "34.289",
+            "unitCode": "B13"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "MechanicalProperty",
+            "identifier": "ISO 180",
+            "name": "Izod Impact Strength Test",
+            "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "91.990",
+            "unitCode": "B13"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "ChemicalProperty",
+            "name": "Gallium",
+            "formula": "Ga",
+            "inchi": "InChI=1S/Ga",
+            "inchikey": "GYHNNYVSQQEPJS-UHFFFAOYSA-N"
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "24.788",
+            "unitCode": "P1"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "MechanicalProperty",
+            "identifier": "ISO 180",
+            "name": "Izod Impact Strength Test",
+            "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "17.670",
+            "unitCode": "B13"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "MechanicalProperty",
+            "identifier": "ISO 148",
+            "name": "Charpy Impact Strength Test",
+            "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "62.820",
+            "unitCode": "B13"
           }
         }
       ]
@@ -56,7 +141,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..EIClbf--3uSVP5MXY65XzOWT4V_-K-QoPj89dYcz1DcbhkQCcXYM9wI_FNKXV8sy6OSAwIxOwM9ckYJ2EXQ6DA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..R1n8Ont9vnWns5TjIS0EcDIl8I83XL76QA6Z7SmTcucTl-er1O2fqvOw08yQ8bxhQzYPw5eN2l1pGhjjlagGAA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -16,29 +16,29 @@
     "type": "ParcelDelivery",
     "deliveryAddress": {
       "type": "PostalAddress",
-      "organizationName": "Hayes - Mills",
-      "streetAddress": "613 Kayla Walk",
-      "addressLocality": "Christaview",
-      "addressRegion": "Connecticut",
-      "postalCode": "54610-5287",
-      "addressCountry": "San Marino"
+      "organizationName": "Smitham LLC",
+      "streetAddress": "0245 Lexus Pass",
+      "addressLocality": "Gunnerberg",
+      "addressRegion": "Kansas",
+      "postalCode": "63896",
+      "addressCountry": "Jersey"
     },
     "originAddress": {
       "type": "PostalAddress",
-      "organizationName": "Steuber, Quigley and Okuneva",
-      "streetAddress": "48380 Breanne Extension",
-      "addressLocality": "Port Elsehaven",
-      "addressRegion": "New Hampshire",
-      "postalCode": "28458-6459",
-      "addressCountry": "Australia"
+      "organizationName": "Raynor, Rolfson and Runolfsdottir",
+      "streetAddress": "15484 West Mall",
+      "addressLocality": "Cristinaburgh",
+      "addressRegion": "Arkansas",
+      "postalCode": "84849-9639",
+      "addressCountry": "Guinea"
     },
-    "deliveryMethod": "Rail freight transport",
-    "trackingNumber": "847502140048"
+    "deliveryMethod": "Truck transport",
+    "trackingNumber": "826950759273"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..D64Hc7N2wf0RLlEKjP_A-unx7iPV1j3C7fz0Tj6MiE5Mb4KOPJORdsD_e-lJJ9GrA81Wlz1vz1uhgzwgPH4GDA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..xU1Jbi_MjxE89Nhztf_gHh4DQ_yoznisdqD_Suoylaw-PQKeklnmvsWZcVbRsy1T_WCBxKLeB1mguyivyQ8hCw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

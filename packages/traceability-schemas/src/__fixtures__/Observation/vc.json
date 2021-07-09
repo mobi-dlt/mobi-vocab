@@ -15,21 +15,22 @@
     ],
     "type": "Observation",
     "property": {
-      "type": "MechanicalProperty",
-      "identifier": "ISO 180",
-      "name": "Izod Impact Strength Test",
-      "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
+      "type": "ChemicalProperty",
+      "name": "Iodine",
+      "formula": "I",
+      "inchi": "InChI=1S/I",
+      "inchikey": "ZCYVEMRRCGMTRW-UHFFFAOYSA-N"
     },
     "measurement": {
       "type": "MeasuredValue",
-      "value": "33.318",
-      "unitCode": "B13"
+      "value": "80.767",
+      "unitCode": "P1"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..FEsJ8aUaEKwRkda4I3tuUhAFZxpvfkxv1bI_SNGraDUefg-oszi-RUtp12W1wgtkbGhw-phxPNxB_SRZnQ6ZBg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..51EM5vcO-R2jYmSkoPZ6sp5RYKjVRgvT-bW4Tnver6PpqzACTuZAQ5xNu4YnZT2iEPBqF39Onc03jrX5DPDiCw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -7,202 +7,220 @@
     "wayBillGrouping": [
       {
         "type": "EcommerceWayBillCommodityGroup",
-        "commodityItemNumber": "y9yycq1p6ue4",
+        "commodityItemNumber": "mlbe6hjulc7v",
         "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
         "totalsCommodityGroup": {
           "type": "EcommerceWayBillTotals",
-          "totalPieces": 949,
-          "weight": 708897,
-          "chargeableWeight": 638007.3,
-          "weightUnit": "kg",
-          "rateCharge": 0.007902730893517989,
-          "totalRateCharge": {
-            "type": "PriceSpecification",
-            "price": 5042,
-            "priceCurrency": "BOB"
-          }
-        }
-      }
-    ],
-    "totalsCommodityContent": {
-      "type": "EcommerceWayBillTotals",
-      "totalPieces": 117,
-      "weight": 513060,
-      "chargeableWeight": 461754,
-      "weightUnit": "lb",
-      "rateCharge": 0.01344005682679522,
-      "totalRateCharge": {
-        "type": "PriceSpecification",
-        "price": 6206,
-        "priceCurrency": "ZAR"
-      }
-    }
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "EcommerceWayBillCommodityContent",
-    "wayBillGrouping": [
-      {
-        "type": "EcommerceWayBillCommodityGroup",
-        "commodityItemNumber": "5gxjxqvtmptx",
-        "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
-        "totalsCommodityGroup": {
-          "type": "EcommerceWayBillTotals",
-          "totalPieces": 78,
-          "weight": 822121,
-          "chargeableWeight": 739908.9,
+          "totalPieces": 853,
+          "weight": 97253,
+          "chargeableWeight": 87527.7,
           "weightUnit": "lb",
-          "rateCharge": 0.0075995842190842685,
+          "rateCharge": 0.08877189735363776,
           "totalRateCharge": {
             "type": "PriceSpecification",
-            "price": 5623,
-            "priceCurrency": "GHS"
-          }
-        }
-      },
-      {
-        "type": "EcommerceWayBillCommodityGroup",
-        "commodityItemNumber": "mxcm5tlotjd8",
-        "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
-        "totalsCommodityGroup": {
-          "type": "EcommerceWayBillTotals",
-          "totalPieces": 141,
-          "weight": 431737,
-          "chargeableWeight": 388563.3,
-          "weightUnit": "lb",
-          "rateCharge": 0.024907138682423172,
-          "totalRateCharge": {
-            "type": "PriceSpecification",
-            "price": 9678,
-            "priceCurrency": "CLP"
-          }
-        }
-      },
-      {
-        "type": "EcommerceWayBillCommodityGroup",
-        "commodityItemNumber": "aknxllpidrtp",
-        "natureQuantityOfGoods": "A lot of laptops that way a lot",
-        "totalsCommodityGroup": {
-          "type": "EcommerceWayBillTotals",
-          "totalPieces": 212,
-          "weight": 201228,
-          "chargeableWeight": 181105.2,
-          "weightUnit": "kg",
-          "rateCharge": 0.026051157007087593,
-          "totalRateCharge": {
-            "type": "PriceSpecification",
-            "price": 4718,
-            "priceCurrency": "KES"
-          }
-        }
-      }
-    ],
-    "totalsCommodityContent": {
-      "type": "EcommerceWayBillTotals",
-      "totalPieces": 188,
-      "weight": 384442,
-      "chargeableWeight": 345997.8,
-      "weightUnit": "kg",
-      "rateCharge": 0.014965413074880824,
-      "totalRateCharge": {
-        "type": "PriceSpecification",
-        "price": 5178,
-        "priceCurrency": "BHD"
-      }
-    }
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "EcommerceWayBillCommodityContent",
-    "wayBillGrouping": [
-      {
-        "type": "EcommerceWayBillCommodityGroup",
-        "commodityItemNumber": "2qlc83d72j57",
-        "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
-        "totalsCommodityGroup": {
-          "type": "EcommerceWayBillTotals",
-          "totalPieces": 305,
-          "weight": 548533,
-          "chargeableWeight": 493679.7,
-          "weightUnit": "kg",
-          "rateCharge": 0.004705480091646466,
-          "totalRateCharge": {
-            "type": "PriceSpecification",
-            "price": 2323,
+            "price": 7770,
             "priceCurrency": "BAM"
           }
         }
       },
       {
         "type": "EcommerceWayBillCommodityGroup",
-        "commodityItemNumber": "0eh84tbcx45k",
+        "commodityItemNumber": "o69ft5qpsj4m",
         "natureQuantityOfGoods": "A lot of laptops that way a lot",
         "totalsCommodityGroup": {
           "type": "EcommerceWayBillTotals",
-          "totalPieces": 967,
-          "weight": 585749,
-          "chargeableWeight": 527174.1,
+          "totalPieces": 149,
+          "weight": 204522,
+          "chargeableWeight": 184069.80000000002,
           "weightUnit": "kg",
-          "rateCharge": 0.013562881788008933,
+          "rateCharge": 0.011544533649735044,
           "totalRateCharge": {
             "type": "PriceSpecification",
-            "price": 7150,
-            "priceCurrency": "CNY"
+            "price": 2125,
+            "priceCurrency": "EGP"
           }
         }
       },
       {
         "type": "EcommerceWayBillCommodityGroup",
-        "commodityItemNumber": "jfvaj2jv7q5a",
+        "commodityItemNumber": "qbukpuxoqfby",
         "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
         "totalsCommodityGroup": {
           "type": "EcommerceWayBillTotals",
-          "totalPieces": 918,
-          "weight": 603379,
-          "chargeableWeight": 543041.1,
+          "totalPieces": 272,
+          "weight": 722053,
+          "chargeableWeight": 649847.7000000001,
           "weightUnit": "lb",
-          "rateCharge": 0.0037197921114994798,
+          "rateCharge": 0.01431566196202587,
           "totalRateCharge": {
             "type": "PriceSpecification",
-            "price": 2020,
-            "priceCurrency": "GHS"
+            "price": 9303,
+            "priceCurrency": "OMR"
           }
         }
       },
       {
         "type": "EcommerceWayBillCommodityGroup",
-        "commodityItemNumber": "r4c0yiqklkv1",
+        "commodityItemNumber": "39j1tq34satj",
         "natureQuantityOfGoods": "A lot of laptops that way a lot",
         "totalsCommodityGroup": {
           "type": "EcommerceWayBillTotals",
-          "totalPieces": 59,
-          "weight": 320903,
-          "chargeableWeight": 288812.7,
+          "totalPieces": 487,
+          "weight": 568772,
+          "chargeableWeight": 511894.8,
           "weightUnit": "lb",
-          "rateCharge": 0.017301870727983913,
+          "rateCharge": 0.011740693595637229,
           "totalRateCharge": {
             "type": "PriceSpecification",
-            "price": 4997,
-            "priceCurrency": "DKK"
+            "price": 6010,
+            "priceCurrency": "AMD"
           }
         }
       }
     ],
     "totalsCommodityContent": {
       "type": "EcommerceWayBillTotals",
-      "totalPieces": 234,
-      "weight": 873900,
-      "chargeableWeight": 786510,
+      "totalPieces": 711,
+      "weight": 385940,
+      "chargeableWeight": 347346,
       "weightUnit": "kg",
-      "rateCharge": 0.0011188668929829246,
+      "rateCharge": 0.017780541592533092,
       "totalRateCharge": {
         "type": "PriceSpecification",
-        "price": 880,
-        "priceCurrency": "PYG"
+        "price": 6176,
+        "priceCurrency": "PEN"
+      }
+    }
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "EcommerceWayBillCommodityContent",
+    "wayBillGrouping": [
+      {
+        "type": "EcommerceWayBillCommodityGroup",
+        "commodityItemNumber": "66bohm0l8hej",
+        "natureQuantityOfGoods": "A lot of laptops that way a lot",
+        "totalsCommodityGroup": {
+          "type": "EcommerceWayBillTotals",
+          "totalPieces": 287,
+          "weight": 341098,
+          "chargeableWeight": 306988.2,
+          "weightUnit": "kg",
+          "rateCharge": 0.016932246907210114,
+          "totalRateCharge": {
+            "type": "PriceSpecification",
+            "price": 5198,
+            "priceCurrency": "BOB"
+          }
+        }
+      },
+      {
+        "type": "EcommerceWayBillCommodityGroup",
+        "commodityItemNumber": "ts96r3dfinuf",
+        "natureQuantityOfGoods": "A lot of laptops that way a lot",
+        "totalsCommodityGroup": {
+          "type": "EcommerceWayBillTotals",
+          "totalPieces": 753,
+          "weight": 283986,
+          "chargeableWeight": 255587.4,
+          "weightUnit": "lb",
+          "rateCharge": 0.021855537479547115,
+          "totalRateCharge": {
+            "type": "PriceSpecification",
+            "price": 5586,
+            "priceCurrency": "SDG"
+          }
+        }
+      },
+      {
+        "type": "EcommerceWayBillCommodityGroup",
+        "commodityItemNumber": "2xwxdiabqqu1",
+        "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
+        "totalsCommodityGroup": {
+          "type": "EcommerceWayBillTotals",
+          "totalPieces": 864,
+          "weight": 480021,
+          "chargeableWeight": 432018.9,
+          "weightUnit": "kg",
+          "rateCharge": 0.007800584650347473,
+          "totalRateCharge": {
+            "type": "PriceSpecification",
+            "price": 3370,
+            "priceCurrency": "GBP"
+          }
+        }
+      }
+    ],
+    "totalsCommodityContent": {
+      "type": "EcommerceWayBillTotals",
+      "totalPieces": 50,
+      "weight": 21883,
+      "chargeableWeight": 19694.7,
+      "weightUnit": "kg",
+      "rateCharge": 0.2809385266086815,
+      "totalRateCharge": {
+        "type": "PriceSpecification",
+        "price": 5533,
+        "priceCurrency": "ALL"
+      }
+    }
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "EcommerceWayBillCommodityContent",
+    "wayBillGrouping": [
+      {
+        "type": "EcommerceWayBillCommodityGroup",
+        "commodityItemNumber": "i6ma8ghhfs2r",
+        "natureQuantityOfGoods": "A lot of laptops that way a lot",
+        "totalsCommodityGroup": {
+          "type": "EcommerceWayBillTotals",
+          "totalPieces": 115,
+          "weight": 462250,
+          "chargeableWeight": 416025,
+          "weightUnit": "lb",
+          "rateCharge": 0.020332912685535724,
+          "totalRateCharge": {
+            "type": "PriceSpecification",
+            "price": 8459,
+            "priceCurrency": "SYP"
+          }
+        }
+      },
+      {
+        "type": "EcommerceWayBillCommodityGroup",
+        "commodityItemNumber": "79itrd2zkg4s",
+        "natureQuantityOfGoods": "A lot of laptops that way a lot",
+        "totalsCommodityGroup": {
+          "type": "EcommerceWayBillTotals",
+          "totalPieces": 46,
+          "weight": 408284,
+          "chargeableWeight": 367455.60000000003,
+          "weightUnit": "kg",
+          "rateCharge": 0.011579630300912545,
+          "totalRateCharge": {
+            "type": "PriceSpecification",
+            "price": 4255,
+            "priceCurrency": "AMD"
+          }
+        }
+      }
+    ],
+    "totalsCommodityContent": {
+      "type": "EcommerceWayBillTotals",
+      "totalPieces": 126,
+      "weight": 721885,
+      "chargeableWeight": 649696.5,
+      "weightUnit": "lb",
+      "rateCharge": 0.008434707590390281,
+      "totalRateCharge": {
+        "type": "PriceSpecification",
+        "price": 5480,
+        "priceCurrency": "ALL"
       }
     }
   }

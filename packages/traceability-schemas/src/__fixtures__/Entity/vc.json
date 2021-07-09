@@ -14,32 +14,32 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "Person",
-    "firstName": "Anais",
-    "lastName": "Bashirian",
-    "email": "Bart_Lehner19@example.net",
-    "phoneNumber": "555-644-3230",
+    "firstName": "Jaiden",
+    "lastName": "Langosh",
+    "email": "Jasen.Ward75@example.net",
+    "phoneNumber": "555-558-6934",
     "worksFor": {
       "type": "Organization",
-      "name": "Schuppe LLC",
-      "description": "Total user-facing productivity",
+      "name": "Steuber - Welch",
+      "description": "Adaptive user-facing task-force",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "6847 Upton Junctions",
-        "addressLocality": "North Demondmouth",
-        "addressRegion": "Washington",
-        "postalCode": "54555-9328",
-        "addressCountry": "Macao"
+        "streetAddress": "76333 Kerluke Terrace",
+        "addressLocality": "East Chester",
+        "addressRegion": "Georgia",
+        "postalCode": "77207",
+        "addressCountry": "Algeria"
       },
-      "email": "Cleta76@example.org",
-      "phoneNumber": "555-570-5272",
-      "faxNumber": "555-205-3325"
+      "email": "Bennett.Herzog48@example.org",
+      "phoneNumber": "555-285-1676",
+      "faxNumber": "555-389-5820"
     },
-    "jobTitle": "Customer Identity Administrator"
+    "jobTitle": "Central Applications Agent"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..oNBq56c-kVfZzPUWdQMbf_O8LTEVxvnE5mG-t4MWK3U2b0ZN-_oTqMrHBOBOQyfTvng_RxWWaqL28Fdm3YZzAw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..zwXvx5n86BxnZP3Uy06Dd1boHHTwKkGiBjrvSXwvsLK27vLfRz0-zTtxcev9bF3TriRy7FYb9oTRyY8LCejSDg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

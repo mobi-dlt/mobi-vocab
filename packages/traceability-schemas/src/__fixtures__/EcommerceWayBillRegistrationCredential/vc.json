@@ -14,59 +14,62 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceWayBillRegistrationCredential",
-    "wayBillID": "ACMEWayBill#1",
-    "carrierName": "Bernhard - Kuphal",
+    "wayBillID": "ACMEWayBill#126",
+    "carrierName": "Gutkowski LLC",
     "modeOfTransport": "Air",
     "portOfEntry": {
       "type": "ShippingStop",
       "shippingStopAddress": {
         "type": "PostalAddress",
-        "organizationName": "Huels Inc",
-        "streetAddress": "5853 Roxane Falls",
-        "addressLocality": "North Orenborough",
-        "addressRegion": "Texas",
-        "postalCode": "12481-7775",
-        "addressCountry": "Brazil"
+        "organizationName": "Welch - Bauch",
+        "streetAddress": "344 Kihn Forges",
+        "addressLocality": "Stammville",
+        "addressRegion": "Hawaii",
+        "postalCode": "92379",
+        "addressCountry": "Isle of Man"
       },
       "carrier": {
         "type": "Organization",
-        "name": "Bechtelar - Schuster",
-        "description": "Re-contextualized attitude-oriented attitude",
+        "name": "Boyle - Wehner",
+        "description": "Managed didactic migration",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "25073 Mckenna Street",
-          "addressLocality": "Wardfurt",
-          "addressRegion": "Oregon",
-          "postalCode": "39276",
-          "addressCountry": "Uganda"
+          "streetAddress": "00438 Alia Greens",
+          "addressLocality": "South Kaleighbury",
+          "addressRegion": "Virginia",
+          "postalCode": "36811-9917",
+          "addressCountry": "Jersey"
         },
-        "email": "Ella.Schroeder@example.net",
-        "phoneNumber": "555-273-5748",
-        "faxNumber": "555-183-3330"
+        "email": "Cristopher_Prohaska@example.org",
+        "phoneNumber": "555-947-5393",
+        "faxNumber": "555-708-8317"
       },
-      "vesselNumber": "ACMECarrierVessel#569",
+      "vesselNumber": "ACMECarrierVessel#925",
       "arrivalDate": "2021-03-09",
-      "stopType": "Departure"
+      "stopType": "Stopover"
     },
     "masterWayBill": "No",
     "wayBillVCID": [
-      "https://vc.example.com/?queryID=0x9fDD44C3c11CF6b86baCCe6d432b6fBFa4503178EC70Faa731D9a5f7Ff1b22fF"
+      "https://vc.example.com/?queryID=0xdB6BDAd29e0CacAe5aBb50Ce11D9a66b529fFB4322c3aDbbea52Ee9D2CAde162"
     ],
     "packageVCID": [
-      "https://vc.example.com/?queryID=0x33f8fdDFcA2E2Afd447ead0d5a8b673bA4BB54B189beC9A6Bc371EDE8b67fAC0",
-      "https://vc.example.com/?queryID=0xCa67CE001cdA1a71eF7b3d65aaa9B1A2aCC5245bCA81Fca2B0819C82f0c9EC55",
-      "https://vc.example.com/?queryID=0x2980d9Cc7ce776d2D8528AFFDFcDbd6fb6Cdfa6a4A56362E912a3Ecd3c15674C",
-      "https://vc.example.com/?queryID=0xbc2bA2D0AFb8Cdf10f8ECc720cAAB83Dbe4Dfd5266C4aDeA8e66d43A8a44fdE0",
-      "https://vc.example.com/?queryID=0xF79a539FC442E47AF9CcB060098B6D01bb8Ed8dC22FE4A9EaeB72E96d74fdAEE",
-      "https://vc.example.com/?queryID=0xF40B5A61885646FFEe1f7F885Bd9eDC3AEb4e76Ad8ad295A65E1566a83e728E1",
-      "https://vc.example.com/?queryID=0xDccDe30d7eB91f69cb50Ef2eB0b8AF69bbCEaf7cbBfD9aEa68aFAff1DCFa912c"
+      "https://vc.example.com/?queryID=0x40B5A61885646FFEe1f7F885Bd9eDC3AEb4e76Ad8ad295A65E1566a83e728E1D",
+      "https://vc.example.com/?queryID=0xccDe30d7eB91f69cb50Ef2eB0b8AF69bbCEaf7cbBfD9aEa68aFAff1DCFa912c0",
+      "https://vc.example.com/?queryID=0x9fDD44C3c11CF6b86baCCe6d432b6fBFa4503178EC70Faa731D9a5f7Ff1b22fF",
+      "https://vc.example.com/?queryID=0x6d4A0101B024a9dE9a06Bc02AdDc9BbFa58bDDDB7adEE1FEb19c6DF53ac76E6C",
+      "https://vc.example.com/?queryID=0x8fFc1Cc8193A97b151621D6aFfE875c7EB0dBEEe2c3dFEbB005b9ffAA4FD6Fb5",
+      "https://vc.example.com/?queryID=0xbD8231F2C1aCd145b2f6b1Fed28CAB308D7095B0a7BbcB77Bf544Ab55304e4bb",
+      "https://vc.example.com/?queryID=0x9CF1cfCe3Dc5D9cEfe8822a58cDf52FdFc5b7fDCF79D73b3f562A5121C837A61",
+      "https://vc.example.com/?queryID=0xaE7f406AFb9B9bceFB58e0fCd81ae01adFA648Cf0BC9a64E2eE2114a74d5bD21",
+      "https://vc.example.com/?queryID=0x6f554A9ff04b838DFDF9B9561f6755b9B2CAC07ef4651dfF0B9473fDA963BC6B",
+      "https://vc.example.com/?queryID=0x9FfEfCF142ecdbEa38A9cc60a57bcfD3ccdfb91059a66E32be7159ac26EaD3f6"
     ],
     "certificateName": "ACME Carrier Ecommerce Way Bill Registration Certificate"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..sjnlDQ2Pg5r1G-rMY_jxgYEFtNKMOJa-UbLr5n0FgK1jT0wj1HmbM9f8jwuB1izMLUg3JhAWfwHhOjlnMuFaDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..uhEB6UlDqY1cHCsjbao_YHnjJO1S5CcJ0w_cFQun3akk4iyfN9YPp5R0LibdIZeNtGj_eIz-s312adEAHQJQDQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

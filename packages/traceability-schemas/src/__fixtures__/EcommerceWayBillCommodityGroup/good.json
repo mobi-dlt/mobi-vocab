@@ -4,19 +4,19 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceWayBillCommodityGroup",
-    "commodityItemNumber": "th6cxwjkarft",
+    "commodityItemNumber": "ukcknbcbm3vd",
     "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
     "totalsCommodityGroup": {
       "type": "EcommerceWayBillTotals",
-      "totalPieces": 319,
-      "weight": 348430,
-      "chargeableWeight": 313587,
+      "totalPieces": 239,
+      "weight": 108499,
+      "chargeableWeight": 97649.1,
       "weightUnit": "kg",
-      "rateCharge": 0.013849426156058765,
+      "rateCharge": 0.07853631011448134,
       "totalRateCharge": {
         "type": "PriceSpecification",
-        "price": 4343,
-        "priceCurrency": "PKR"
+        "price": 7669,
+        "priceCurrency": "INR"
       }
     }
   },
@@ -25,19 +25,19 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceWayBillCommodityGroup",
-    "commodityItemNumber": "uqeg10e2odgl",
+    "commodityItemNumber": "mogah7r9a6b3",
     "natureQuantityOfGoods": "A lot of laptops that way a lot",
     "totalsCommodityGroup": {
       "type": "EcommerceWayBillTotals",
-      "totalPieces": 752,
-      "weight": 469562,
-      "chargeableWeight": 422605.8,
-      "weightUnit": "kg",
-      "rateCharge": 0.014661417330287469,
+      "totalPieces": 926,
+      "weight": 424945,
+      "chargeableWeight": 382450.5,
+      "weightUnit": "lb",
+      "rateCharge": 0.0029833926220517427,
       "totalRateCharge": {
         "type": "PriceSpecification",
-        "price": 6196,
-        "priceCurrency": "HKD"
+        "price": 1141,
+        "priceCurrency": "AMD"
       }
     }
   },
@@ -46,19 +46,19 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceWayBillCommodityGroup",
-    "commodityItemNumber": "hq0hd73yjpey",
-    "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
+    "commodityItemNumber": "7uik3ir3w0qy",
+    "natureQuantityOfGoods": "A lot of laptops that way a lot",
     "totalsCommodityGroup": {
       "type": "EcommerceWayBillTotals",
-      "totalPieces": 617,
-      "weight": 432834,
-      "chargeableWeight": 389550.60000000003,
-      "weightUnit": "lb",
-      "rateCharge": 0.012208940250637528,
+      "totalPieces": 538,
+      "weight": 383216,
+      "chargeableWeight": 344894.4,
+      "weightUnit": "kg",
+      "rateCharge": 0.017501009004495287,
       "totalRateCharge": {
         "type": "PriceSpecification",
-        "price": 4756,
-        "priceCurrency": "SDG"
+        "price": 6036,
+        "priceCurrency": "TOP"
       }
     }
   }

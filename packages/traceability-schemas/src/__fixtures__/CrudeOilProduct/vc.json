@@ -23,24 +23,24 @@
       "type": [
         "Place"
       ],
-      "globalLocationNumber": "1680445799234",
+      "globalLocationNumber": "8687997529213",
       "geo": {
         "type": [
           "GeoCoordinates"
         ],
-        "latitude": "-24.1775",
-        "longitude": "-106.2068"
+        "latitude": "49.1561",
+        "longitude": "78.5992"
       },
       "address": {
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Reinger Inc",
-        "streetAddress": "1868 Mayert Spur",
-        "addressLocality": "East William",
-        "addressRegion": "South Dakota",
-        "postalCode": "69316-6283",
-        "addressCountry": "United States Minor Outlying Islands"
+        "organizationName": "Franecki Inc",
+        "streetAddress": "4671 Norene Vista",
+        "addressLocality": "Steuberport",
+        "addressRegion": "New Mexico",
+        "postalCode": "80733",
+        "addressCountry": "Tuvalu"
       }
     },
     "observation": [
@@ -52,34 +52,14 @@
           "type": [
             "ChemicalProperty"
           ],
-          "name": "Lithium"
+          "name": "Curium"
         },
         "measurement": {
           "type": [
             "MeasuredValue"
           ],
-          "value": "51.345",
+          "value": "66.703",
           "unitCode": "P1"
-        }
-      },
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "MechanicalProperty"
-          ],
-          "identifier": "ISO 1352",
-          "name": "Torque-controlled fatigue testing",
-          "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "00.00",
-          "unitCode": "UNKNOWN"
         }
       },
       {
@@ -90,13 +70,13 @@
           "type": [
             "ChemicalProperty"
           ],
-          "name": "Terbium"
+          "name": "Berkelium"
         },
         "measurement": {
           "type": [
             "MeasuredValue"
           ],
-          "value": "48.655",
+          "value": "33.297",
           "unitCode": "P1"
         }
       },
@@ -108,16 +88,16 @@
           "type": [
             "MechanicalProperty"
           ],
-          "identifier": "ISO 148",
-          "name": "Charpy Impact Strength Test",
-          "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+          "identifier": "ISO 3738",
+          "name": "Rockwell Hardness Test (Scale A)",
+          "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
         },
         "measurement": {
           "type": [
             "MeasuredValue"
           ],
-          "value": "93.7",
-          "unitCode": "B13"
+          "value": "00.00",
+          "unitCode": "UNKNOWN"
         }
       }
     ],
@@ -127,10 +107,10 @@
       ],
       "manufacturer": {
         "type": [
-          "Organization"
+          "Person"
         ],
-        "email": "Anastasia_McCullough94@example.net",
-        "phoneNumber": "555-739-3054"
+        "email": "Clare_Simonis90@example.org",
+        "phoneNumber": "555-292-6601"
       },
       "name": "Crude Oil Barrel",
       "description": "Heavy Sour Dilbit",
@@ -139,22 +119,22 @@
           "QuantitativeValue"
         ],
         "unitCode": "hg/ha",
-        "value": "7854"
+        "value": "3958"
       },
       "weight": {
         "type": [
           "QuantitativeValue"
         ],
         "unitCode": "hg/ha",
-        "value": "9914"
+        "value": "9530"
       },
-      "sku": "561297936667"
+      "sku": "161679815952"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AKS8HClLXsn6nHQqrsBeNohhQ0pRhs9u0oo8Pma3qT70r2ZU6gQdaJr26mv3fYq8TH0es2A7sXwGCBhsDgaSAA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..q1mUPcMEn9ywWhQwjDpNxMio4oEVKyDrp6tizahuOSgmxDy-5TbngcTOysvCF5uzdvN5KieHMmF-2MxmIt_cCg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

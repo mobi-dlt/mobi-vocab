@@ -1,46 +1,82 @@
 [
   {
-    "type": "ChargeDeclaration",
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "weightCharge": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 68,
-      "chargePrepaid": 856
+      "chargeCollect": 844,
+      "chargePrepaid": 797
+    },
+    "taxCharge": {
+      "type": "chargeAndPaymentType",
+      "chargeCollect": 250,
+      "chargePrepaid": 710
+    },
+    "otherChargesAgent": {
+      "type": "chargeAndPaymentType",
+      "chargeCollect": 483,
+      "chargePrepaid": 59
     },
     "otherChargesCarrier": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 305,
-      "chargePrepaid": 895
+      "chargeCollect": 153,
+      "chargePrepaid": 82
     },
-    "capacitor": "input"
+    "transmitter": "copy",
+    "capacitor": "hack"
   },
   {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "ChargeDeclaration",
+    "weightCharge": {
+      "type": "chargeAndPaymentType",
+      "chargeCollect": 411,
+      "chargePrepaid": 273
+    },
     "taxCharge": {
+      "type": "chargeAndPaymentType",
+      "chargeCollect": 907,
+      "chargePrepaid": 31
+    },
+    "otherChargesCarrier": {
       "type": "chargeAndPaymentType",
       "chargeCollect": 482,
-      "chargePrepaid": 930
+      "chargePrepaid": 844
     },
-    "otherChargesAgent": {
-      "type": "chargeAndPaymentType",
-      "chargeCollect": 691,
-      "chargePrepaid": 40
+    "totalCharge": {
+      "type": "TotalCharge",
+      "totalPrepaid": 4806,
+      "totalCollect": 1602,
+      "sourceCurrency": "CRC",
+      "destinationCurrency": "LYD",
+      "currencyConversionRate": 5,
+      "ccChargesDestinationCurrency": "CRC",
+      "chargesDestination": 227,
+      "totalCollectCharge": 56.75
     },
-    "program": "generate",
-    "capacitor": "transmit",
-    "driver": "parse"
+    "array": "index"
   },
   {
-    "taxCharge": {
+    "type": "ChargeDeclaration",
+    "weightCharge": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 680,
-      "chargePrepaid": 995
+      "chargeCollect": 651,
+      "chargePrepaid": 762
     },
-    "otherChargesAgent": {
-      "type": "chargeAndPaymentType",
-      "chargeCollect": 831,
-      "chargePrepaid": 99
+    "totalCharge": {
+      "type": "TotalCharge",
+      "totalPrepaid": 4397.25,
+      "totalCollect": 1465.75,
+      "sourceCurrency": "JOD",
+      "destinationCurrency": "JPY",
+      "currencyConversionRate": 4,
+      "ccChargesDestinationCurrency": "JOD",
+      "chargesDestination": 824,
+      "totalCollectCharge": 206
     },
-    "application": "program",
-    "alarm": "transmit",
-    "bus": "synthesize"
+    "sensor": "synthesize"
   }
 ]

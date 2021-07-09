@@ -3,24 +3,31 @@
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "organizationName": "Lakin Inc",
-    "addressLocality": "East Rodrigomouth",
-    "addressRegion": "Nevada",
-    "firewall": "generate",
-    "pixel": "input",
-    "feed": "navigate"
+    "organizationName": "Weber - Lang",
+    "streetAddress": "838 Tyreek Club",
+    "addressCountry": "Italy",
+    "circuit": "back up"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "streetAddress": "044 Kassulke Locks",
-    "hard drive": "compress",
-    "bus": "navigate",
-    "transmitter": "connect"
+    "type": "PostalAddress",
+    "addressLocality": "Strosinburgh",
+    "addressRegion": "Georgia",
+    "postalCode": "05183",
+    "addressCountry": "Palau",
+    "matrix": "synthesize",
+    "feed": "input",
+    "monitor": "calculate"
   },
   {
-    "addressCountry": "Saint Lucia",
-    "application": "reboot"
+    "type": "PostalAddress",
+    "streetAddress": "756 Nitzsche Lane",
+    "addressLocality": "Lake Roscoe",
+    "postalCode": "97154-4872",
+    "microchip": "copy",
+    "array": "synthesize",
+    "matrix": "reboot"
   }
 ]

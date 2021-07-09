@@ -1,35 +1,38 @@
 [
   {
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "410 Marcel Villages",
-      "addressLocality": "North Joyfurt",
-      "addressRegion": "Alabama",
-      "postalCode": "35634-8978",
-      "addressCountry": "Mali"
-    },
-    "email": "Zoe71@example.com",
-    "card": "index",
-    "matrix": "copy",
-    "port": "reboot"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "name": "Lebsack Inc",
+    "description": "Vision-oriented next generation interface",
+    "phoneNumber": "555-962-2713",
+    "faxNumber": "555-181-9468",
+    "bus": "connect",
+    "card": "override"
   },
   {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "Organization",
+    "name": "Conn, Kshlerin and Sanford",
+    "description": "Organic modular matrices",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "954 Damon Manor",
-      "addressLocality": "New Patsyville",
-      "addressRegion": "Michigan",
-      "postalCode": "82294-0719",
-      "addressCountry": "Dominican Republic"
+      "streetAddress": "94969 Grant Terrace",
+      "addressLocality": "Deckowbury",
+      "addressRegion": "Maine",
+      "postalCode": "84056-5431",
+      "addressCountry": "Barbados"
     },
-    "email": "Korey33@example.com",
-    "system": "transmit",
-    "array": "copy",
-    "bus": "index",
-    "panel": "input"
+    "phoneNumber": "555-388-9060",
+    "faxNumber": "555-302-8224",
+    "hard drive": "override",
+    "pixel": "synthesize"
   },
   {
-    "interface": "connect",
-    "transmitter": "navigate"
+    "hard drive": "reboot",
+    "driver": "parse",
+    "interface": "calculate"
   }
 ]

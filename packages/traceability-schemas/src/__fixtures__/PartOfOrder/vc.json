@@ -14,26 +14,26 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "PartOfOrder",
-    "orderNumber": "Order#520",
+    "orderNumber": "Order#366",
     "itemsShipped": [
       {
         "type": "ItemShipped",
-        "manufacturer": "Daugherty - Hessel",
-        "name": "Handcrafted Cotton Sausages",
-        "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-        "productID": "S1IFKMUUTO",
-        "weight": "1.528 lp",
-        "height": "2.875 in",
-        "width": "7.425 in",
-        "depth": "5.156 in",
-        "orderQuantity": 5
+        "manufacturer": "Botsford LLC",
+        "name": "Tasty Metal Gloves",
+        "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+        "productID": "V9OUE5DQGI",
+        "weight": "1.708 lp",
+        "height": "9.829 in",
+        "width": "6.706 in",
+        "depth": "5.976 in",
+        "orderQuantity": 4
       }
     ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..E_V5Ocf69ywTnZ5dzfsMEz-2vNVJujhulVgtggF7QeGt6ECNwDO80T1KBs6hkZPyVnXoSLhqmg-P4LUWGYqYBg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..x9aAp5SaOHA36BIyrmSSDopLB9pPgYbZZYsvsHsFZyDuu1MbhQ1X-po5k3Zj9TPBhkOS_GzAb58HIDVUbFN3Dw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -14,13 +14,13 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "Qualification",
-    "qualificationCategory": "Legacy Creative Developer",
-    "qualificationValue": "Manager"
+    "qualificationCategory": "Direct Communications Facilitator",
+    "qualificationValue": "Executive"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ujjFVrHCi6gjgYhwO4TNlpJLcvqOByksRUL-L4seOKMHs497Wu_jfcC4_usAaY-iPgWy3guZ1KbpDUvmu-JYDA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..QmF4AfyUpJ2cImUsEEfqV9y9zK2Q-pRRPjuXKDMlrVxorGeYfCcfv8Evr9xVmEJkrCcr8S_SKjerSfvWalQmCQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -4,53 +4,53 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIaddress",
-    "language": "en_GB",
+    "language": "cz",
     "addressLines": [
-      "White - Hyatt",
-      "04238 Marks Locks"
+      "Crona - Zulauf",
+      "04657 Isadore Skyway"
     ],
-    "addressNumber": "483",
-    "addressNumberWithinBuilding": "2",
-    "mailRouting": "41477 Eryn Circle, 22567-5539",
-    "city": "Port Emanuel",
+    "addressNumber": "67",
+    "addressNumberWithinBuilding": "4",
+    "mailRouting": "786 Berge Lock, 44636",
+    "city": "Kaleighstad",
     "region": "Cambridgeshire",
-    "country": "Chad",
-    "postalCode": "17271"
+    "country": "Slovenia",
+    "postalCode": "32122"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIaddress",
-    "language": "en",
+    "language": "de",
     "addressLines": [
-      "Hammes - Ullrich",
-      "415 Raegan Forge"
+      "Simonis, Gerlach and Maggio",
+      "25409 Assunta Place"
     ],
-    "addressNumber": "205",
-    "addressNumberWithinBuilding": "2",
-    "mailRouting": "733 Preston Canyon, 69144-1767",
-    "city": "Jessycaland",
-    "region": "Avon",
-    "country": "Turkey",
-    "postalCode": "79064"
+    "addressNumber": "488",
+    "addressNumberWithinBuilding": "8",
+    "mailRouting": "977 Aniya Drives, 55342-8893",
+    "city": "West Toney",
+    "region": "Buckinghamshire",
+    "country": "Lebanon",
+    "postalCode": "58534-8280"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIaddress",
-    "language": "it",
+    "language": "fr",
     "addressLines": [
-      "Schimmel - Greenfelder",
-      "602 Brekke Hills"
+      "Collier, Wilkinson and Beahan",
+      "77135 Murray Mall"
     ],
-    "addressNumber": "340",
-    "addressNumberWithinBuilding": "2",
-    "mailRouting": "29880 Orlando Ford, 65943-7610",
-    "city": "West Levi",
-    "region": "Borders",
-    "country": "Yemen",
-    "postalCode": "65428-1474"
+    "addressNumber": "160",
+    "addressNumberWithinBuilding": "6",
+    "mailRouting": "90417 Carroll Groves, 90381-0175",
+    "city": "North Dionhaven",
+    "region": "Buckinghamshire",
+    "country": "Timor-Leste",
+    "postalCode": "94214"
   }
 ]

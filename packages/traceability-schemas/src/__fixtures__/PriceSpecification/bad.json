@@ -3,24 +3,20 @@
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "card": "transmit",
-    "sensor": "bypass",
-    "firewall": "compress"
+    "type": "PriceSpecification",
+    "priceCurrency": "ZWL",
+    "panel": "back up",
+    "monitor": "back up",
+    "feed": "bypass"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "PriceSpecification",
-    "firewall": "calculate",
-    "program": "index",
-    "array": "back up"
+    "system": "hack"
   },
   {
-    "priceCurrency": "TOP",
-    "circuit": "copy",
-    "array": "connect",
-    "card": "transmit",
-    "bus": "input"
+    "application": "input"
   }
 ]

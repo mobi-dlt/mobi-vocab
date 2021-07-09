@@ -1,57 +1,76 @@
 [
   {
+    "bandwidth": "generate",
+    "card": "copy",
+    "protocol": "override"
+  },
+  {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "ShippingStop",
+    "shippingStopAddress": {
+      "type": "PostalAddress",
+      "organizationName": "Konopelski Inc",
+      "streetAddress": "43734 Konopelski Lodge",
+      "addressLocality": "East Kathleenhaven",
+      "addressRegion": "Indiana",
+      "postalCode": "62911",
+      "addressCountry": "Germany"
+    },
     "carrier": {
       "type": "Organization",
-      "name": "Reilly Inc",
-      "description": "Inverse reciprocal access",
+      "name": "Braun LLC",
+      "description": "Diverse 24 hour toolset",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "8440 Jammie Valley",
-        "addressLocality": "Gorczanyfurt",
-        "addressRegion": "Delaware",
-        "postalCode": "01551",
-        "addressCountry": "Iceland"
+        "streetAddress": "96768 Ruecker Mountain",
+        "addressLocality": "Batzton",
+        "addressRegion": "Washington",
+        "postalCode": "08691",
+        "addressCountry": "Benin"
       },
-      "email": "Alexys.Bradtke83@example.net",
-      "phoneNumber": "555-452-4861",
-      "faxNumber": "555-630-9710"
+      "email": "Marcel.OConner77@example.net",
+      "phoneNumber": "555-891-2020",
+      "faxNumber": "555-559-1298"
     },
-    "vesselNumber": "ACMECarrierVessel#961",
-    "arrivalDate": "2021-03-09",
-    "stopType": "Stopover",
-    "driver": "back up",
-    "matrix": "copy",
-    "hard drive": "reboot"
+    "vesselNumber": "ACMECarrierVessel#381",
+    "stopType": "Destination",
+    "pixel": "copy",
+    "card": "quantify",
+    "hard drive": "parse"
   },
   {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "type": "ShippingStop",
+    "shippingStopAddress": {
+      "type": "PostalAddress",
+      "organizationName": "Gusikowski - Senger",
+      "streetAddress": "964 Hugh Forest",
+      "addressLocality": "Lake Orenview",
+      "addressRegion": "Maine",
+      "postalCode": "01376",
+      "addressCountry": "Nigeria"
+    },
     "carrier": {
       "type": "Organization",
-      "name": "Kessler LLC",
-      "description": "Business-focused multi-tasking portal",
+      "name": "Runolfsdottir LLC",
+      "description": "Right-sized reciprocal encoding",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "88288 Muller Ferry",
-        "addressLocality": "North Diegofort",
-        "addressRegion": "Virginia",
-        "postalCode": "90347",
-        "addressCountry": "Micronesia"
+        "streetAddress": "08997 Blick Camp",
+        "addressLocality": "Port Name",
+        "addressRegion": "South Dakota",
+        "postalCode": "66936-4297",
+        "addressCountry": "Croatia"
       },
-      "email": "Kenna_Hodkiewicz@example.org",
-      "phoneNumber": "555-708-8694",
-      "faxNumber": "555-825-9768"
+      "email": "Armani88@example.com",
+      "phoneNumber": "555-681-4760",
+      "faxNumber": "555-987-3626"
     },
-    "vesselNumber": "ACMECarrierVessel#316",
-    "hard drive": "copy",
-    "circuit": "back up",
-    "program": "transmit"
-  },
-  {
-    "interface": "reboot",
-    "circuit": "input"
+    "program": "compress",
+    "matrix": "reboot"
   }
 ]

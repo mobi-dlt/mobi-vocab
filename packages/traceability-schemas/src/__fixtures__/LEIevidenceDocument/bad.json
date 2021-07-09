@@ -1,108 +1,16 @@
 [
   {
-    "interface": "index",
-    "system": "compress",
-    "hard drive": "generate"
-  },
-  {
-    "registration": {
-      "@context": [
-        "https://mobinet.io/schemas/v1"
-      ],
-      "type": "LEIregistration",
-      "initialRegistrationDate": "2020-01-01",
-      "lastUpdateDate": "2020-01-01",
-      "status": "REJECTED",
-      "nextRenewalDate": "2021-02-02",
-      "managingLou": "UNGXGEPUBUADGKNEXGWG",
-      "validationSources": "PARTIALLY_CORROBORATED",
-      "validationAuthority": [
-        {
-          "type": "LEIauthority",
-          "validationAuthorityID": "RA000001",
-          "otherValidationAuthorityID": "R3H4X3PL",
-          "validationAuthorityEntityID": "Q779R6TYDU78DBQ7FHQ0"
-        }
-      ]
-    },
-    "application": "input",
-    "array": "navigate"
+    "lei": "5MPCFBE04IIH45HRRH9C",
+    "pixel": "back up",
+    "transmitter": "generate",
+    "panel": "synthesize"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIevidenceDocument",
-    "lei": "B5NFKGG0H4Q634OCWY2I",
-    "entity": {
-      "@context": [
-        "https://mobinet.io/schemas/v1"
-      ],
-      "type": "LEIentity",
-      "legalName": "Erdman - Runte",
-      "legalNameLanguage": "fr_CH",
-      "otherNames": [
-        "Zemlak LLC",
-        "Romaguera, Spencer and Grady"
-      ],
-      "transliteratedOtherNames": [
-        "Zemlak LLC",
-        "Romaguera, Spencer and Grady"
-      ],
-      "legalAddress": {
-        "type": "LEIaddress",
-        "language": "ar",
-        "addressLines": [
-          "Casper LLC",
-          "036 Quitzon Ports"
-        ],
-        "addressNumber": "201",
-        "addressNumberWithinBuilding": "1",
-        "mailRouting": "57335 Ferry Lodge, 69319",
-        "city": "New Shainaland",
-        "region": "Borders",
-        "country": "Cook Islands",
-        "postalCode": "46335"
-      },
-      "headquartersAddress": {
-        "type": "LEIaddress",
-        "language": "fa",
-        "addressLines": [
-          "Gibson, McCullough and Heathcote",
-          "57960 Elbert Groves"
-        ],
-        "addressNumber": "328",
-        "addressNumberWithinBuilding": "8",
-        "mailRouting": "7970 Eliezer Inlet, 52080-0171",
-        "city": "Langworthfurt",
-        "region": "Berkshire",
-        "country": "Bahamas",
-        "postalCode": "46009-5440"
-      },
-      "registrationAuthority": {
-        "type": "LEIauthority",
-        "validationAuthorityID": "RA000002",
-        "otherValidationAuthorityID": "5OXHF4Z7",
-        "validationAuthorityEntityID": "F2LK3MGI8TUUSMT0QPTF"
-      },
-      "legalJurisdiction": "Borders",
-      "entityCategory": "Jewelery",
-      "legalForm": "CORPORATION",
-      "associatedEntity": {
-        "type": "Organization",
-        "leiCode": "5MPCFBE04IIH45HRRH9C",
-        "name": "Pouros - Heller"
-      },
-      "status": "REJECTED",
-      "expirationDate": "2022-07-11",
-      "expirationReason": "cultivate synergistic platforms",
-      "successorEntity": {
-        "type": "Organization",
-        "leiCode": "8O30XXK453SBWD67TLXF",
-        "name": "Barton, Volkman and Hammes"
-      },
-      "otherAddresses": []
-    },
+    "lei": "4CZ3EF8Q63O7L5NS32WO",
     "registration": {
       "@context": [
         "https://mobinet.io/schemas/v1"
@@ -110,22 +18,28 @@
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",
       "lastUpdateDate": "2020-01-01",
-      "status": "REQUESTED",
+      "status": "CONFIRMED",
       "nextRenewalDate": "2021-02-02",
-      "managingLou": "NYIJEXIUATJPNQWQRQCO",
-      "validationSources": "FULLY_CORROBORATED",
+      "managingLou": "KNOLYZNYVIOCBVIZOHYJ",
+      "validationSources": "NOT_CORROBORATED",
       "validationAuthority": [
         {
           "type": "LEIauthority",
-          "validationAuthorityID": "RA000005",
-          "otherValidationAuthorityID": "JTCO0Q2P",
-          "validationAuthorityEntityID": "FBE369ET6ZUHA0L5IB1K"
+          "validationAuthorityID": "RA000001",
+          "otherValidationAuthorityID": "P8DKT0GI",
+          "validationAuthorityEntityID": "PE3KUPQM7Z54BFZF9FGN"
         }
       ]
     },
-    "program": "back up",
-    "bandwidth": "transmit",
-    "sensor": "hack",
-    "firewall": "parse"
+    "bus": "transmit",
+    "application": "input",
+    "interface": "input",
+    "firewall": "override"
+  },
+  {
+    "type": "LEIevidenceDocument",
+    "interface": "parse",
+    "circuit": "index",
+    "panel": "quantify"
   }
 ]

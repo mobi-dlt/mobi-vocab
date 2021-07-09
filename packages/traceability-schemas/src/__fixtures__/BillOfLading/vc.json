@@ -27,10 +27,10 @@
         ],
         "customer": {
           "type": [
-            "Organization"
+            "Person"
           ],
-          "email": "Glenda.Bechtelar78@example.net",
-          "phoneNumber": "555-909-3131"
+          "email": "Haylie85@example.org",
+          "phoneNumber": "555-202-1198"
         }
       }
     ],
@@ -45,32 +45,32 @@
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Spinka - Koepp",
-        "streetAddress": "48449 Bret Manors",
-        "addressLocality": "Armandtown",
-        "addressRegion": "Oregon",
-        "postalCode": "49477-0701",
-        "addressCountry": "Cyprus"
+        "organizationName": "Beer, Cronin and Fahey",
+        "streetAddress": "1137 Jannie Valleys",
+        "addressLocality": "Ankundington",
+        "addressRegion": "Iowa",
+        "postalCode": "02022",
+        "addressCountry": "Ecuador"
       },
       "originAddress": {
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Collins and Sons",
-        "streetAddress": "964 Bernhard Ville",
-        "addressLocality": "North Alvena",
-        "addressRegion": "Iowa",
-        "postalCode": "22229",
-        "addressCountry": "Senegal"
+        "organizationName": "Schaefer, Fritsch and Wolf",
+        "streetAddress": "37448 Bergnaum Springs",
+        "addressLocality": "South Rozellatown",
+        "addressRegion": "Arizona",
+        "postalCode": "69513",
+        "addressCountry": "Malawi"
       },
-      "deliveryMethod": "Ocean transport",
-      "trackingNumber": "249553702479"
+      "deliveryMethod": "Air transport",
+      "trackingNumber": "315196370097"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..d40fEYJ5j3pe4ie-FHGykIsY1hlhDokbKUC_mOFHz7IPGD3wMJ6QegatenxaNdEO9bbtLTJxAoth0aPJE5ONCA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jLM96qbAABX9n76modjj-4nupDdloPwozgAVlcpV-lLtRNxbWCaOGCzz58Ql3TD20ezxyBzWo6niab0fORuYAw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

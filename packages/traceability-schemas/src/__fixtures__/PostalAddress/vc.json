@@ -14,17 +14,17 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "PostalAddress",
-    "organizationName": "Lakin Inc",
-    "streetAddress": "075 Ethyl Islands",
-    "addressLocality": "East Rodrigomouth",
-    "addressRegion": "Nevada",
-    "postalCode": "62900-1971",
-    "addressCountry": "Guam"
+    "organizationName": "Weber - Lang",
+    "streetAddress": "838 Tyreek Club",
+    "addressLocality": "Josefinachester",
+    "addressRegion": "Arkansas",
+    "postalCode": "85826",
+    "addressCountry": "Italy"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..6eZNYaDAWdUaKhHRVJKEMLRd9M3b2uZDrQQQFqAYW27Sj3NOyEuV2_DP9cbg3AkTjrRMJI-K7bGYllyzRj4mBg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Tvbx4k2DidJ4KjntcGIe3hjZUtUviF7kME-Geq7Q-jYBPLf_fLjKrG1gTwF7JBOo417G42mjoY6IVz4RLWiIDQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

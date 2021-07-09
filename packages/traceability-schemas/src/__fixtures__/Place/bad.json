@@ -1,28 +1,42 @@
 [
   {
-    "globalLocationNumber": "9145793604866",
-    "monitor": "transmit",
-    "card": "quantify",
-    "transmitter": "hack",
-    "pixel": "index"
-  },
-  {
-    "matrix": "synthesize",
-    "card": "parse"
-  },
-  {
+    "geo": {
+      "type": "GeoCoordinates",
+      "latitude": "84.6338",
+      "longitude": "-147.6439"
+    },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Thompson - Little",
-      "streetAddress": "8189 Hayes Divide",
-      "addressLocality": "Ethastad",
-      "addressRegion": "Arizona",
-      "postalCode": "59833",
-      "addressCountry": "Hungary"
+      "organizationName": "Cole - Koss",
+      "streetAddress": "9153 Hartmann Prairie",
+      "addressLocality": "Georgiannashire",
+      "addressRegion": "New Jersey",
+      "postalCode": "03251-8015",
+      "addressCountry": "Papua New Guinea"
     },
-    "panel": "transmit",
-    "monitor": "reboot",
-    "bus": "index",
-    "feed": "synthesize"
+    "interface": "calculate",
+    "protocol": "hack"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "Place",
+    "globalLocationNumber": "7258664566759",
+    "address": {
+      "type": "PostalAddress",
+      "organizationName": "Cruickshank Inc",
+      "streetAddress": "874 Aiden Center",
+      "addressLocality": "Waynebury",
+      "addressRegion": "Georgia",
+      "postalCode": "87512",
+      "addressCountry": "Bolivia"
+    },
+    "program": "index",
+    "card": "synthesize"
+  },
+  {
+    "monitor": "input",
+    "program": "quantify"
   }
 ]

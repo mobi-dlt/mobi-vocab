@@ -18,25 +18,25 @@
     ],
     "customer": {
       "type": "Organization",
-      "name": "Wunsch - Hessel",
-      "description": "Business-focused modular superstructure",
+      "name": "Dickens, Ondricka and Lowe",
+      "description": "Monitored 3rd generation moratorium",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "847 Roger Wells",
-        "addressLocality": "Myrtleton",
-        "addressRegion": "Utah",
-        "postalCode": "67802-1006",
-        "addressCountry": "Montenegro"
+        "streetAddress": "1619 Pacocha Burgs",
+        "addressLocality": "West Wilber",
+        "addressRegion": "New Hampshire",
+        "postalCode": "63940-4412",
+        "addressCountry": "Uzbekistan"
       },
-      "email": "Raquel92@example.org",
-      "phoneNumber": "555-491-8980",
-      "faxNumber": "555-483-7035"
+      "email": "Alexandro_McClure@example.net",
+      "phoneNumber": "555-529-4638",
+      "faxNumber": "555-928-8877"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..NqO3lfFg6Sc1Jmao8d5u74Uh0Q5yJpg1W0xA9X2_Rj-d0tb4wnGZ-qkZPFab-tmXYbIufwv8sUTi4GdqyQufDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..3N4TMhWyBH3HQf2R4nhxwnDS8Zg2mVZcSlViBEO2XXUNT74yv80gyvWjZqbfqOyrF80EvQmkj0gWj4VCSfvBCQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

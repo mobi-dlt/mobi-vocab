@@ -4,13 +4,328 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "SteelProduct",
-    "heatNumber": "3237",
-    "specification": "ASTM-58091",
-    "grade": "58623",
-    "originalCountryOfMeltAndPour": "Netherlands Antilles",
+    "heatNumber": "67967",
+    "specification": "ASTM-87979",
+    "grade": "35121",
+    "originalCountryOfMeltAndPour": "Sweden",
     "inspection": {
       "type": "InspectionReport",
       "observation": [
+        {
+          "type": "Observation",
+          "property": {
+            "type": "ChemicalProperty",
+            "name": "Yttrium",
+            "formula": "Y",
+            "inchi": "InChI=1S/Y",
+            "inchikey": "VWQVUPCCIRVNHF-UHFFFAOYSA-N"
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "29.184",
+            "unitCode": "P1"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "ChemicalProperty",
+            "name": "Nihonium",
+            "formula": "Nh"
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "00.00",
+            "unitCode": "UNKNOWN"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "ChemicalProperty",
+            "name": "Cobalt",
+            "formula": "Co",
+            "inchi": "InChI=1S/Co",
+            "inchikey": "GUTLYIVDDKVIGB-UHFFFAOYSA-N"
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "46.028",
+            "unitCode": "P1"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "MechanicalProperty",
+            "identifier": "ISO 180",
+            "name": "Izod Impact Strength Test",
+            "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "34.289",
+            "unitCode": "B13"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "MechanicalProperty",
+            "identifier": "ISO 180",
+            "name": "Izod Impact Strength Test",
+            "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "91.990",
+            "unitCode": "B13"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "ChemicalProperty",
+            "name": "Gallium",
+            "formula": "Ga",
+            "inchi": "InChI=1S/Ga",
+            "inchikey": "GYHNNYVSQQEPJS-UHFFFAOYSA-N"
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "24.788",
+            "unitCode": "P1"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "MechanicalProperty",
+            "identifier": "ISO 180",
+            "name": "Izod Impact Strength Test",
+            "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "17.670",
+            "unitCode": "B13"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "MechanicalProperty",
+            "identifier": "ISO 148",
+            "name": "Charpy Impact Strength Test",
+            "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "62.820",
+            "unitCode": "B13"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "SteelProduct",
+    "heatNumber": "14032",
+    "specification": "ASTM-820",
+    "grade": "58736",
+    "originalCountryOfMeltAndPour": "Nicaragua",
+    "inspection": {
+      "type": "InspectionReport",
+      "observation": [
+        {
+          "type": "Observation",
+          "property": {
+            "type": "ChemicalProperty",
+            "name": "Francium",
+            "formula": "Fr",
+            "inchi": "InChI=1S/Fr",
+            "inchikey": "KLMCZVJOEAUDNE-UHFFFAOYSA-N"
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "100.00",
+            "unitCode": "P1"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "MechanicalProperty",
+            "identifier": "ISO 1352",
+            "name": "Torque-controlled fatigue testing",
+            "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "00.00",
+            "unitCode": "UNKNOWN"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "ChemicalProperty",
+            "name": "Flerovium",
+            "formula": "Fl"
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "00.00",
+            "unitCode": "UNKNOWN"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "MechanicalProperty",
+            "identifier": "ISO 1352",
+            "name": "Torque-controlled fatigue testing",
+            "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "00.00",
+            "unitCode": "UNKNOWN"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "SteelProduct",
+    "heatNumber": "65030",
+    "specification": "ASTM-15591",
+    "grade": "12009",
+    "originalCountryOfMeltAndPour": "Senegal",
+    "inspection": {
+      "type": "InspectionReport",
+      "observation": [
+        {
+          "type": "Observation",
+          "property": {
+            "type": "MechanicalProperty",
+            "identifier": "ISO 148",
+            "name": "Charpy Impact Strength Test",
+            "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "4.613",
+            "unitCode": "B13"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "ChemicalProperty",
+            "name": "Tennessine",
+            "formula": "Ts"
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "00.00",
+            "unitCode": "UNKNOWN"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "ChemicalProperty",
+            "name": "Gallium",
+            "formula": "Ga",
+            "inchi": "InChI=1S/Ga",
+            "inchikey": "GYHNNYVSQQEPJS-UHFFFAOYSA-N"
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "3.7850",
+            "unitCode": "P1"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "ChemicalProperty",
+            "name": "Tellurium",
+            "formula": "Te",
+            "inchi": "InChI=1S/Te",
+            "inchikey": "PORWMNRCUJJQNO-UHFFFAOYSA-N"
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "26.269",
+            "unitCode": "P1"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "MechanicalProperty",
+            "identifier": "ISO 148",
+            "name": "Charpy Impact Strength Test",
+            "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "41.500",
+            "unitCode": "B13"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "MechanicalProperty",
+            "identifier": "ISO 1352",
+            "name": "Torque-controlled fatigue testing",
+            "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "00.00",
+            "unitCode": "UNKNOWN"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "ChemicalProperty",
+            "name": "Uranium",
+            "formula": "U",
+            "inchi": "InChI=1S/U",
+            "inchikey": "JFALSRSLKYAFGM-UHFFFAOYSA-N"
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "37.504",
+            "unitCode": "P1"
+          }
+        },
+        {
+          "type": "Observation",
+          "property": {
+            "type": "ChemicalProperty",
+            "name": "Thallium",
+            "formula": "Tl",
+            "inchi": "InChI=1S/Tl",
+            "inchikey": "BKVIYDNLLOSFOA-UHFFFAOYSA-N"
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "32.441",
+            "unitCode": "P1"
+          }
+        },
         {
           "type": "Observation",
           "property": {
@@ -28,90 +343,15 @@
         {
           "type": "Observation",
           "property": {
-            "type": "ChemicalProperty",
-            "name": "Bromine",
-            "formula": "Br",
-            "inchi": "InChI=1S/Br",
-            "inchikey": "WKBOTKDWSSQWDR-UHFFFAOYSA-N"
-          },
-          "measurement": {
-            "type": "MeasuredValue",
-            "value": "100.00",
-            "unitCode": "P1"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "SteelProduct",
-    "heatNumber": "61214",
-    "specification": "ASTM-25255",
-    "grade": "54925",
-    "originalCountryOfMeltAndPour": "Saint Barthelemy",
-    "inspection": {
-      "type": "InspectionReport",
-      "observation": [
-        {
-          "type": "Observation",
-          "property": {
             "type": "MechanicalProperty",
-            "identifier": "ISO 148",
-            "name": "Charpy Impact Strength Test",
-            "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+            "identifier": "ISO 180",
+            "name": "Izod Impact Strength Test",
+            "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
           },
           "measurement": {
             "type": "MeasuredValue",
-            "value": "57.440",
+            "value": "6.812",
             "unitCode": "B13"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "SteelProduct",
-    "heatNumber": "11867",
-    "specification": "ASTM-26197",
-    "grade": "2898",
-    "originalCountryOfMeltAndPour": "Virgin Islands, U.S.",
-    "inspection": {
-      "type": "InspectionReport",
-      "observation": [
-        {
-          "type": "Observation",
-          "property": {
-            "type": "ChemicalProperty",
-            "name": "Argon",
-            "formula": "Ar",
-            "inchi": "InChI=1S/Ar",
-            "inchikey": "XKRFYHLGVUSROY-UHFFFAOYSA-N"
-          },
-          "measurement": {
-            "type": "MeasuredValue",
-            "value": "71.933",
-            "unitCode": "P1"
-          }
-        },
-        {
-          "type": "Observation",
-          "property": {
-            "type": "ChemicalProperty",
-            "name": "Roentgenium",
-            "formula": "Rg",
-            "inchi": "InChI=1S/Rg",
-            "inchikey": "LJROPTGWFUZRDB-UHFFFAOYSA-N"
-          },
-          "measurement": {
-            "type": "MeasuredValue",
-            "value": "28.067",
-            "unitCode": "P1"
           }
         }
       ]

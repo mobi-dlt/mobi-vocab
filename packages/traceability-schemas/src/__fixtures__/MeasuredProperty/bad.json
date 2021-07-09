@@ -1,25 +1,18 @@
 [
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "name": "Oxygen",
-    "application": "back up",
-    "monitor": "reboot"
+    "formula": "Mg",
+    "bus": "input"
   },
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
+    "type": "MechanicalProperty",
+    "name": "Charpy Impact Strength Test",
+    "monitor": "override",
+    "protocol": "copy"
+  },
+  {
     "type": "ChemicalProperty",
-    "formula": "Tb",
-    "monitor": "input",
-    "system": "copy"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "driver": "calculate"
+    "hard drive": "index",
+    "application": "calculate",
+    "microchip": "program"
   }
 ]

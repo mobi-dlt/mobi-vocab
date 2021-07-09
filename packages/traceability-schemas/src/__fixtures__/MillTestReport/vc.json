@@ -20,30 +20,30 @@
       "type": [
         "Organization"
       ],
-      "name": "Hermann - Lang",
-      "description": "Intuitive actuating groupware",
+      "name": "Larson, Adams and Walsh",
+      "description": "Down-sized intermediate middleware",
       "address": {
         "type": [
           "PostalAddress"
         ],
-        "streetAddress": "75576 Schimmel Mall",
-        "addressLocality": "West Lexus",
-        "addressRegion": "Washington",
-        "postalCode": "51590",
-        "addressCountry": "Lithuania"
+        "streetAddress": "0225 Metz Causeway",
+        "addressLocality": "Ashleeland",
+        "addressRegion": "Oklahoma",
+        "postalCode": "07013-4806",
+        "addressCountry": "Montserrat"
       },
-      "email": "Karine.Schaden@example.net",
-      "phoneNumber": "555-253-7605",
-      "faxNumber": "555-669-4699"
+      "email": "Garrett_Jacobs3@example.com",
+      "phoneNumber": "555-793-3379",
+      "faxNumber": "555-227-5748"
     },
     "product": {
       "type": [
         "SteelProduct"
       ],
-      "heatNumber": "55692",
-      "specification": "ASTM-90898",
-      "grade": "10822",
-      "originalCountryOfMeltAndPour": "New Zealand",
+      "heatNumber": "38581",
+      "specification": "ASTM-10448",
+      "grade": "71421",
+      "originalCountryOfMeltAndPour": "Djibouti",
       "inspection": {
         "type": [
           "InspectionReport"
@@ -57,16 +57,112 @@
               "type": [
                 "MechanicalProperty"
               ],
-              "identifier": "ISO 148",
-              "name": "Charpy Impact Strength Test",
-              "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+              "identifier": "ISO 180",
+              "name": "Izod Impact Strength Test",
+              "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
             },
             "measurement": {
               "type": [
                 "MeasuredValue"
               ],
-              "value": "82.496",
+              "value": "62.845",
               "unitCode": "B13"
+            }
+          },
+          {
+            "type": [
+              "Observation"
+            ],
+            "property": {
+              "type": [
+                "MechanicalProperty"
+              ],
+              "identifier": "ISO 180",
+              "name": "Izod Impact Strength Test",
+              "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
+            },
+            "measurement": {
+              "type": [
+                "MeasuredValue"
+              ],
+              "value": "6.829",
+              "unitCode": "B13"
+            }
+          },
+          {
+            "type": [
+              "Observation"
+            ],
+            "property": {
+              "type": [
+                "ChemicalProperty"
+              ],
+              "name": "Einsteinium"
+            },
+            "measurement": {
+              "type": [
+                "MeasuredValue"
+              ],
+              "value": "45.314",
+              "unitCode": "P1"
+            }
+          },
+          {
+            "type": [
+              "Observation"
+            ],
+            "property": {
+              "type": [
+                "ChemicalProperty"
+              ],
+              "name": "Gadolinium"
+            },
+            "measurement": {
+              "type": [
+                "MeasuredValue"
+              ],
+              "value": "32.234",
+              "unitCode": "P1"
+            }
+          },
+          {
+            "type": [
+              "Observation"
+            ],
+            "property": {
+              "type": [
+                "MechanicalProperty"
+              ],
+              "identifier": "ISO 180",
+              "name": "Izod Impact Strength Test",
+              "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
+            },
+            "measurement": {
+              "type": [
+                "MeasuredValue"
+              ],
+              "value": "26.296",
+              "unitCode": "B13"
+            }
+          },
+          {
+            "type": [
+              "Observation"
+            ],
+            "property": {
+              "type": [
+                "MechanicalProperty"
+              ],
+              "identifier": "ISO 3738",
+              "name": "Rockwell Hardness Test (Scale A)",
+              "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
+            },
+            "measurement": {
+              "type": [
+                "MeasuredValue"
+              ],
+              "value": "00.00",
+              "unitCode": "UNKNOWN"
             }
           },
           {
@@ -85,7 +181,7 @@
               "type": [
                 "MeasuredValue"
               ],
-              "value": "31.126",
+              "value": "16.0",
               "unitCode": "B13"
             }
           },
@@ -95,53 +191,15 @@
             ],
             "property": {
               "type": [
-                "MechanicalProperty"
-              ],
-              "identifier": "ISO 1352",
-              "name": "Torque-controlled fatigue testing",
-              "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
-            },
-            "measurement": {
-              "type": [
-                "MeasuredValue"
-              ],
-              "value": "00.00",
-              "unitCode": "UNKNOWN"
-            }
-          },
-          {
-            "type": [
-              "Observation"
-            ],
-            "property": {
-              "type": [
                 "ChemicalProperty"
               ],
-              "name": "Hassium"
+              "name": "Dysprosium"
             },
             "measurement": {
               "type": [
                 "MeasuredValue"
               ],
-              "value": "00.00",
-              "unitCode": "UNKNOWN"
-            }
-          },
-          {
-            "type": [
-              "Observation"
-            ],
-            "property": {
-              "type": [
-                "ChemicalProperty"
-              ],
-              "name": "Roentgenium"
-            },
-            "measurement": {
-              "type": [
-                "MeasuredValue"
-              ],
-              "value": "100.00",
+              "value": "22.451",
               "unitCode": "P1"
             }
           }
@@ -154,10 +212,10 @@
       ],
       "customer": {
         "type": [
-          "Organization"
+          "Person"
         ],
-        "email": "Addison42@example.com",
-        "phoneNumber": "555-168-6596"
+        "email": "Sylvia_Grady@example.net",
+        "phoneNumber": "555-332-9591"
       }
     },
     "shipment": {
@@ -168,32 +226,32 @@
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Jaskolski Inc",
-        "streetAddress": "16674 Monserrat Roads",
-        "addressLocality": "North Elvashire",
-        "addressRegion": "Wyoming",
-        "postalCode": "89405-9884",
-        "addressCountry": "Sri Lanka"
+        "organizationName": "Pollich, Cartwright and Torp",
+        "streetAddress": "23958 Gordon Port",
+        "addressLocality": "Blickburgh",
+        "addressRegion": "Maine",
+        "postalCode": "61621",
+        "addressCountry": "Namibia"
       },
       "originAddress": {
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Shields LLC",
-        "streetAddress": "9165 West Parkway",
-        "addressLocality": "Kihnland",
-        "addressRegion": "New Jersey",
-        "postalCode": "45940-1576",
-        "addressCountry": "Uganda"
+        "organizationName": "Romaguera, Tromp and Breitenberg",
+        "streetAddress": "0001 Labadie Light",
+        "addressLocality": "New Jewel",
+        "addressRegion": "Iowa",
+        "postalCode": "73118",
+        "addressCountry": "Niger"
       },
       "deliveryMethod": "Rail freight transport",
-      "trackingNumber": "791908620751"
+      "trackingNumber": "571852613700"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..svJWFPU9Se4yQkE3ucgjuwDA6y7s8kHSwAsmRHCmNxzks2HE42wcXMeONFOUNhrB49FdWCXmJupsJhmFMR-gCw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..6XOcm3fm4SiyLFSHKt6a4u3O2of-7WsmfSnUmW33M5Mtd59tYAnpv1aF4l1c9Mb0k6gwHgVog9rdU7tSHStXBQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

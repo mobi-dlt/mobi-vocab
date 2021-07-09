@@ -14,20 +14,20 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "ItemShipped",
-    "manufacturer": "Bednar Group",
-    "name": "Ergonomic Metal Chicken",
-    "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "productID": "GUME7IOERA",
-    "weight": "2.893 lp",
-    "height": "8.23 in",
-    "width": "6.56 in",
-    "depth": "3.448 in",
-    "orderQuantity": 5
+    "manufacturer": "Schimmel - Lang",
+    "name": "Tasty Plastic Cheese",
+    "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+    "productID": "HZ9N1ULYEX",
+    "weight": "2.194 lp",
+    "height": "4.433 in",
+    "width": "8.803 in",
+    "depth": "1.708 in",
+    "orderQuantity": 8
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..EWunLUTVVZhY1F0Oatygo2VTnGLrjoZlK6T71dVl4loD3C1gcRiVpRCEfhCuUdwpdVAMkYlTZgE7VjtlbKisDg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..aKVQz2flQWuOd0FvC37hB8EwFCnmg7ufhV1im-4Fb3Pl_bB2hoLzeOvVXatTVguvzk8aZvB4Gm62C6o6t1ySDw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

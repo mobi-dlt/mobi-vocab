@@ -14,15 +14,15 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "ChemicalProperty",
-    "name": "Rhodium",
-    "formula": "Rh",
-    "inchi": "InChI=1S/Rh",
-    "inchikey": "MHOVAHRLVXNVSD-UHFFFAOYSA-N"
+    "name": "Chromium",
+    "formula": "Cr",
+    "inchi": "InChI=1S/Cr",
+    "inchikey": "VYZAMTAEIAYCRO-UHFFFAOYSA-N"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..G_7YsT45W8EoagUKYIlaVeIIdYUsbs2Org4AHAjfCBO6p8eEtq8n0u9fslkXXlWVzvQ5qBCknWZVZHBu0dQwCA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..iNBsDco8VL2M30YA18FwuZLHseZbli4peDZcFjKBMXNsCLoj5TWN2MOgpeXTjI1MCp_E8uhENIGVRK9LX7JdCw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

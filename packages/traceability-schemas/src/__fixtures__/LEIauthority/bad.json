@@ -1,18 +1,15 @@
 [
   {
-    "feed": "bypass",
-    "system": "parse",
-    "microchip": "calculate",
-    "transmitter": "calculate"
+    "type": "LEIauthority",
+    "card": "input"
   },
   {
-    "validationAuthorityID": "RA000001",
-    "otherValidationAuthorityID": "S7H8ANMW",
-    "firewall": "copy",
-    "array": "back up"
+    "type": "LEIauthority",
+    "application": "calculate",
+    "panel": "parse",
+    "interface": "back up"
   },
   {
-    "otherValidationAuthorityID": "V4EPC478",
-    "sensor": "copy"
+    "driver": "copy"
   }
 ]

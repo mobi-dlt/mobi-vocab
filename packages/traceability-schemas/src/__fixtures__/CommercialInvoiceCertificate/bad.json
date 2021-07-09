@@ -1,10 +1,5 @@
 [
   {
-    "@context": [
-      "https://www.w3.org/2018/credentials/v1",
-      "https://mobinet.io/schemas/v1"
-    ],
-    "id": "https://example.com/credential/123",
     "type": [
       "VerifiableCredential",
       "CommercialInvoiceCertificate"
@@ -37,40 +32,32 @@
     "issuer": {
       "id": "did:example:123",
       "type": "Organization",
-      "name": "Ratke - Feest",
-      "description": "Stand-alone disintermediate projection",
+      "name": "Kutch - Streich",
+      "description": "Mandatory homogeneous hub",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "2346 Dibbert Shores",
-        "addressLocality": "Reichelport",
-        "addressRegion": "Utah",
-        "postalCode": "45865",
-        "addressCountry": "Bangladesh"
+        "streetAddress": "12786 Dulce Estates",
+        "addressLocality": "Christiansenshire",
+        "addressRegion": "North Dakota",
+        "postalCode": "92214-7669",
+        "addressCountry": "Aruba"
       },
-      "email": "Katrine.Maggio@example.org",
-      "phoneNumber": "555-673-7143",
-      "faxNumber": "555-573-3177"
+      "email": "Corene_Nicolas@example.org",
+      "phoneNumber": "555-194-4240",
+      "faxNumber": "555-548-9611"
     },
-    "port": "program",
-    "sensor": "hack"
-  },
-  {
-    "description": "This document includes recommended commercial invoice fields.",
-    "matrix": "synthesize",
-    "bandwidth": "hack",
-    "feed": "back up",
-    "sensor": "quantify"
+    "interface": "generate"
   },
   {
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
       "https://mobinet.io/schemas/v1"
     ],
+    "id": "https://example.com/credential/123",
     "type": [
       "VerifiableCredential",
       "CommercialInvoiceCertificate"
     ],
-    "name": "Commercial Invoice Certificate",
     "description": "This document includes recommended commercial invoice fields.",
     "relatedLink": [
       {
@@ -99,19 +86,19 @@
     "issuer": {
       "id": "did:example:123",
       "type": "Organization",
-      "name": "Beahan, Braun and Hessel",
-      "description": "Networked web-enabled functionalities",
+      "name": "Bechtelar - Huels",
+      "description": "Public-key non-volatile implementation",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "760 Gaylord Crossing",
-        "addressLocality": "Sebastianfurt",
-        "addressRegion": "Georgia",
-        "postalCode": "27196-7922",
-        "addressCountry": "Bolivia"
+        "streetAddress": "36847 Crystal Trail",
+        "addressLocality": "Pagacmouth",
+        "addressRegion": "New Mexico",
+        "postalCode": "23196",
+        "addressCountry": "British Indian Ocean Territory (Chagos Archipelago)"
       },
-      "email": "Samir.Kemmer@example.com",
-      "phoneNumber": "555-527-8036",
-      "faxNumber": "555-670-6797"
+      "email": "Kole28@example.org",
+      "phoneNumber": "555-764-7633",
+      "faxNumber": "555-384-9771"
     },
     "credentialSubject": {
       "type": [
@@ -221,7 +208,168 @@
         }
       ]
     },
-    "array": "back up",
-    "protocol": "program"
+    "protocol": "transmit",
+    "bandwidth": "transmit",
+    "firewall": "generate"
+  },
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "CommercialInvoiceCertificate"
+    ],
+    "name": "Commercial Invoice Certificate",
+    "relatedLink": [
+      {
+        "type": [
+          "LinkRole"
+        ],
+        "target": "https://www.example.com/template/123",
+        "linkRelationship": "templateLink"
+      },
+      {
+        "type": [
+          "LinkRole"
+        ],
+        "target": "did:example:789",
+        "linkRelationship": "billOfLadingLink"
+      },
+      {
+        "type": [
+          "LinkRole"
+        ],
+        "target": "https://www.example.com/credentials/123",
+        "linkRelationship": "millTestReportLink"
+      }
+    ],
+    "issuer": {
+      "id": "did:example:123",
+      "type": "Organization",
+      "name": "Thiel - Windler",
+      "description": "Automated incremental Graphic Interface",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "023 Smitham Union",
+        "addressLocality": "New Bradleyshire",
+        "addressRegion": "Massachusetts",
+        "postalCode": "47435",
+        "addressCountry": "Tunisia"
+      },
+      "email": "Nona_Hahn@example.net",
+      "phoneNumber": "555-635-3400",
+      "faxNumber": "555-108-7523"
+    },
+    "credentialSubject": {
+      "type": [
+        "CommercialInvoice"
+      ],
+      "portOfEntry": {
+        "type": [
+          "PostalAddress"
+        ],
+        "addressLocality": "Seatle",
+        "addressRegion": "Washington",
+        "addressCountry": "USA"
+      },
+      "destinationCountry": "MEX",
+      "purchaseDate": "2021-02-21",
+      "customer": {
+        "type": [
+          "Organization"
+        ],
+        "address": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Generic Motors of America",
+          "streetAddress": "12 Generic Motors Dr",
+          "addressLocality": "Detroit",
+          "addressRegion": "Michigain",
+          "postalCode": "48232-5170",
+          "addressCountry": "USA"
+        }
+      },
+      "provider": {
+        "type": [
+          "Organization"
+        ],
+        "address": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Aishi Metal Shinzo Co., Ltd.",
+          "streetAddress": "1651, Shimonakano, Yoshida",
+          "addressLocality": "Tsubame-shi",
+          "addressRegion": "Niigata-ken",
+          "postalCode": "959-0215",
+          "addressCountry": "Japan"
+        }
+      },
+      "totalPaymentDue": {
+        "type": [
+          "PriceSpecification"
+        ],
+        "price": 150000,
+        "priceCurrency": "USD"
+      },
+      "merchandise": [
+        {
+          "type": [
+            "Product"
+          ],
+          "manufacturer": {
+            "type": [
+              "Organization"
+            ]
+          },
+          "description": "UNS S30400 chromium-nickel stainless steel rolls.",
+          "weight": {
+            "type": [
+              "QuantitativeValue"
+            ],
+            "unitCode": "lbs",
+            "value": "10000"
+          },
+          "quantity": "5",
+          "priceSpecification": {
+            "type": [
+              "PriceSpecification"
+            ],
+            "price": 10000,
+            "priceCurrency": "USD"
+          }
+        },
+        {
+          "type": [
+            "Product"
+          ],
+          "manufacturer": {
+            "type": [
+              "Organization"
+            ]
+          },
+          "description": "Galvalannealed ASTM A-653 zinc-iron alloy-coated steel sheets.",
+          "weight": {
+            "type": [
+              "QuantitativeValue"
+            ],
+            "unitCode": "lbs",
+            "value": "20000"
+          },
+          "quantity": "10",
+          "priceSpecification": {
+            "type": [
+              "PriceSpecification"
+            ],
+            "price": 10000,
+            "priceCurrency": "USD"
+          }
+        }
+      ]
+    },
+    "matrix": "program"
   }
 ]

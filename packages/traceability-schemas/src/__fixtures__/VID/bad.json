@@ -1,55 +1,51 @@
 [
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "VID": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "make": "Ford",
-    "licensePlate": "8TMF808",
-    "panel": "generate",
-    "array": "override",
-    "hard drive": "transmit"
+    "program": "quantify",
+    "application": "quantify"
   },
   {
     "type": "VID",
     "VID": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "manufacturer": {
       "type": "Person",
-      "firstName": "Constance",
-      "lastName": "Gulgowski",
-      "email": "Jewell_Schneider79@example.net",
-      "phoneNumber": "555-591-3724",
+      "firstName": "Vivienne",
+      "lastName": "Rosenbaum",
+      "email": "Laury19@example.net",
+      "phoneNumber": "555-408-1891",
       "worksFor": {
         "type": "Organization",
-        "name": "D'Amore - Blanda",
-        "description": "Versatile web-enabled interface",
+        "name": "Dicki Inc",
+        "description": "Synchronised homogeneous structure",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "2839 Josianne Ville",
-          "addressLocality": "Jacobsland",
-          "addressRegion": "Nebraska",
-          "postalCode": "73371-5586",
-          "addressCountry": "Isle of Man"
+          "streetAddress": "6245 Chet Trace",
+          "addressLocality": "Littleton",
+          "addressRegion": "West Virginia",
+          "postalCode": "69826",
+          "addressCountry": "Paraguay"
         },
-        "email": "Kay_Mueller62@example.com",
-        "phoneNumber": "555-741-1556",
-        "faxNumber": "555-893-6011"
+        "email": "Eleonore.Farrell35@example.net",
+        "phoneNumber": "555-855-3281",
+        "faxNumber": "555-950-4207"
       },
-      "jobTitle": "Central Usability Executive",
+      "jobTitle": "Future Identity Strategist",
       "name": "Ford"
     },
     "make": "Ford",
     "model": "Mach E",
-    "vin": "JTERU5JR7M5861170",
     "licensePlate": "8TMF808",
-    "array": "bypass",
-    "card": "input"
+    "circuit": "hack",
+    "matrix": "input",
+    "panel": "override",
+    "protocol": "parse"
   },
   {
-    "VID": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "interface": "hack",
-    "application": "program",
-    "program": "connect",
-    "bus": "navigate"
+    "model": "Mach E",
+    "vin": "JTERU5JR7M5861170",
+    "licensePlate": "8TMF808",
+    "hard drive": "index",
+    "feed": "navigate",
+    "microchip": "program"
   }
 ]

@@ -1,45 +1,33 @@
 [
   {
-    "firewall": "program",
-    "capacitor": "input",
-    "circuit": "quantify",
-    "application": "hack"
+    "customer": {
+      "type": "Organization",
+      "name": "Dickens, Ondricka and Lowe",
+      "description": "Monitored 3rd generation moratorium",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "1619 Pacocha Burgs",
+        "addressLocality": "West Wilber",
+        "addressRegion": "New Hampshire",
+        "postalCode": "63940-4412",
+        "addressCountry": "Uzbekistan"
+      },
+      "email": "Alexandro_McClure@example.net",
+      "phoneNumber": "555-529-4638",
+      "faxNumber": "555-928-8877"
+    },
+    "microchip": "bypass"
   },
   {
-    "customer": {
-      "type": "Person",
-      "firstName": "Dorris",
-      "lastName": "Nicolas",
-      "email": "Russel_Carter@example.org",
-      "phoneNumber": "555-897-4840",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Krajcik - Harris",
-        "description": "Multi-lateral modular algorithm",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "727 Rhett Plaza",
-          "addressLocality": "New Rahulport",
-          "addressRegion": "Washington",
-          "postalCode": "79160-7076",
-          "addressCountry": "Philippines"
-        },
-        "email": "Dayne80@example.net",
-        "phoneNumber": "555-666-7447",
-        "faxNumber": "555-988-5089"
-      },
-      "jobTitle": "Dynamic Solutions Officer"
-    },
-    "bus": "bypass",
-    "matrix": "copy"
+    "microchip": "parse",
+    "bandwidth": "input",
+    "monitor": "reboot",
+    "port": "synthesize"
   },
   {
     "type": [
       "Purchase"
     ],
-    "bandwidth": "program",
-    "protocol": "parse",
-    "hard drive": "compress",
-    "program": "program"
+    "pixel": "transmit"
   }
 ]

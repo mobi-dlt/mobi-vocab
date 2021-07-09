@@ -1,18 +1,21 @@
 [
   {
-    "productCodeType": "GTIN",
-    "feed": "override",
-    "microchip": "copy",
-    "system": "generate"
+    "panel": "generate",
+    "monitor": "hack",
+    "bus": "input",
+    "capacitor": "quantify"
   },
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "bandwidth": "generate"
+    "type": "EcommerceProductRegistrationCredential",
+    "card": "navigate",
+    "capacitor": "calculate",
+    "firewall": "bypass"
   },
   {
+    "type": "EcommerceProductRegistrationCredential",
+    "productCode": 13,
+    "productCodeType": "UPC",
     "certificateName": "ACME Ecommerce Product Registration Certificate",
-    "capacitor": "compress"
+    "card": "program"
   }
 ]

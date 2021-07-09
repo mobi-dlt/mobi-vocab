@@ -1,23 +1,32 @@
 [
   {
-    "weight": 611784,
-    "rateCharge": 0.007337375428074107,
-    "alarm": "navigate",
-    "array": "index",
-    "monitor": "quantify"
-  },
-  {
-    "array": "reboot",
-    "hard drive": "generate"
-  },
-  {
     "totalRateCharge": {
       "type": "PriceSpecification",
-      "price": 9127,
-      "priceCurrency": "VND"
+      "price": 3316,
+      "priceCurrency": "UGX"
     },
-    "protocol": "copy",
-    "microchip": "compress",
-    "application": "navigate"
+    "program": "index",
+    "capacitor": "navigate",
+    "circuit": "synthesize",
+    "application": "quantify"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "weightUnit": "kg",
+    "program": "reboot"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "weightUnit": "lb",
+    "totalRateCharge": {
+      "type": "PriceSpecification",
+      "price": 786,
+      "priceCurrency": "SEK"
+    },
+    "card": "quantify"
   }
 ]

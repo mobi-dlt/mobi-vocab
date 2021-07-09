@@ -3,27 +3,20 @@
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
+    "application": "navigate",
+    "protocol": "compress"
+  },
+  {
+    "alarm": "index",
+    "bus": "index"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "type": "LinkRole",
     "linkRelationship": "alternate",
-    "card": "override"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "application": "input",
-    "interface": "input",
-    "firewall": "override",
-    "sensor": "transmit"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "linkRelationship": "alternate",
-    "driver": "navigate",
-    "panel": "program",
-    "circuit": "compress",
-    "application": "generate"
+    "program": "program",
+    "transmitter": "override"
   }
 ]

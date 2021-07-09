@@ -14,74 +14,74 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIentity",
-    "legalName": "Treutel and Sons",
-    "legalNameLanguage": "nl_BE",
+    "legalName": "Beahan, Hammes and Cormier",
+    "legalNameLanguage": "uk",
     "otherNames": [
-      "Ward, Swaniawski and Schneider",
-      "Cruickshank Inc"
+      "Torp LLC",
+      "Ratke - Stiedemann"
     ],
     "transliteratedOtherNames": [
-      "Ward, Swaniawski and Schneider",
-      "Cruickshank Inc"
+      "Torp LLC",
+      "Ratke - Stiedemann"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "en_AU",
+      "language": "fi",
       "addressLines": [
-        "McCullough - Hessel",
-        "5023 Philip Locks"
+        "Kub, Walker and Gislason",
+        "4471 Breitenberg Prairie"
       ],
-      "addressNumber": "381",
-      "addressNumberWithinBuilding": "6",
-      "mailRouting": "51045 Sylvia Forges, 16010-7366",
-      "city": "Lake Hannahview",
-      "region": "Avon",
-      "country": "Virgin Islands, U.S.",
-      "postalCode": "66326"
+      "addressNumber": "424",
+      "addressNumberWithinBuilding": "2",
+      "mailRouting": "4064 Giovanny Mountain, 66990-0354",
+      "city": "Mayermouth",
+      "region": "Berkshire",
+      "country": "Kenya",
+      "postalCode": "31128"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "it",
+      "language": "vi",
       "addressLines": [
-        "Veum and Sons",
-        "702 Jerde Plaza"
+        "Rice - Thiel",
+        "88653 Ray Hill"
       ],
-      "addressNumber": "461",
-      "addressNumberWithinBuilding": "9",
-      "mailRouting": "812 Breana Estate, 37204-1479",
-      "city": "North Reaganborough",
-      "region": "Buckinghamshire",
-      "country": "Seychelles",
-      "postalCode": "56634"
+      "addressNumber": "409",
+      "addressNumberWithinBuilding": "7",
+      "mailRouting": "838 Boyer Junctions, 99036-0414",
+      "city": "Parisianmouth",
+      "region": "Borders",
+      "country": "Northern Mariana Islands",
+      "postalCode": "35272"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000005",
-      "otherValidationAuthorityID": "MTP2CT3H",
-      "validationAuthorityEntityID": "24LVINQ5I1F5EL06C8Z0"
+      "validationAuthorityID": "RA000002",
+      "otherValidationAuthorityID": "TN6FWYNO",
+      "validationAuthorityEntityID": "VSHAJ2XHWBG79YEFD6A7"
     },
-    "legalJurisdiction": "Berkshire",
-    "entityCategory": "Jewelery",
-    "legalForm": "CORPORATION",
+    "legalJurisdiction": "Bedfordshire",
+    "entityCategory": "Industrial",
+    "legalForm": "LLC",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "V5T6ZRX0WKQDDI3KOBZA",
-      "name": "McKenzie, Schinner and Stamm"
+      "leiCode": "VFJBLAXZN5OQS04LCWYA",
+      "name": "Bernier, Gleichner and Pagac"
     },
-    "status": "REQUESTED",
+    "status": "CONFIRMED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "deploy customized synergies",
+    "expirationReason": "leverage world-class action-items",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "O2WIGYFOS236IRUUTMYN",
-      "name": "Barrows, Durgan and Shields"
+      "leiCode": "A2795RBV370GSG4VRRSI",
+      "name": "Osinski - Hagenes"
     },
     "otherAddresses": []
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..F4kEHijcmmqnhITSzoIXi1gw2_-UJPDljK5i7q1S1di7endAEeSWot9jxoVpjZAmSW4GuMhdqbHHHWphI7rWCQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..F1a9qcRZaerUtwfALzsmlFxurCcVO9msehP3r3TT1KVjUFMkFZj6ujoJiRWthJz51UqjDhS3W1X27f5AztXXBA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

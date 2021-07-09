@@ -1,105 +1,109 @@
 [
   {
+    "otherNames": [
+      "Torp LLC",
+      "Ratke - Stiedemann"
+    ],
+    "expirationReason": "leverage world-class action-items",
+    "alarm": "back up",
+    "system": "connect"
+  },
+  {
+    "otherNames": [
+      "Zemlak - Marquardt",
+      "Turner Inc"
+    ],
+    "legalAddress": {
+      "type": "LEIaddress",
+      "language": "pl",
+      "addressLines": [
+        "Langosh Inc",
+        "155 Lou Way"
+      ],
+      "addressNumber": "52",
+      "addressNumberWithinBuilding": "10",
+      "mailRouting": "86723 Graham Trace, 64622",
+      "city": "Bartonmouth",
+      "region": "Avon",
+      "country": "Niger",
+      "postalCode": "92885"
+    },
+    "entityCategory": "Jewelery",
+    "legalForm": "CORPORATION",
+    "expirationDate": "2022-07-11",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "P5JE5W0ZTZ6VLECOLEBN",
+      "name": "Hagenes Inc"
+    },
+    "otherAddresses": [],
+    "pixel": "navigate"
+  },
+  {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "type": "LEIentity",
-    "legalName": "Treutel and Sons",
-    "legalNameLanguage": "nl_BE",
+    "legalName": "Lakin, Green and Raynor",
     "otherNames": [
-      "Ward, Swaniawski and Schneider",
-      "Cruickshank Inc"
+      "Labadie, Pacocha and Bernhard",
+      "Reilly LLC"
     ],
     "transliteratedOtherNames": [
-      "Ward, Swaniawski and Schneider",
-      "Cruickshank Inc"
+      "Labadie, Pacocha and Bernhard",
+      "Reilly LLC"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "en_AU",
+      "language": "ru",
       "addressLines": [
-        "McCullough - Hessel",
-        "5023 Philip Locks"
+        "Roberts - Towne",
+        "62894 Parker Stream"
       ],
-      "addressNumber": "381",
+      "addressNumber": "32",
       "addressNumberWithinBuilding": "6",
-      "mailRouting": "51045 Sylvia Forges, 16010-7366",
-      "city": "Lake Hannahview",
-      "region": "Avon",
-      "country": "Virgin Islands, U.S.",
-      "postalCode": "66326"
+      "mailRouting": "727 Samir Junctions, 76462-2362",
+      "city": "East Candelario",
+      "region": "Cambridgeshire",
+      "country": "Suriname",
+      "postalCode": "82549-3294"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "it",
+      "language": "es_MX",
       "addressLines": [
-        "Veum and Sons",
-        "702 Jerde Plaza"
+        "Block - Cartwright",
+        "1424 Rice Ford"
       ],
-      "addressNumber": "461",
-      "addressNumberWithinBuilding": "9",
-      "mailRouting": "812 Breana Estate, 37204-1479",
-      "city": "North Reaganborough",
-      "region": "Buckinghamshire",
-      "country": "Seychelles",
-      "postalCode": "56634"
-    },
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000005",
-      "otherValidationAuthorityID": "MTP2CT3H",
-      "validationAuthorityEntityID": "24LVINQ5I1F5EL06C8Z0"
-    },
-    "legalJurisdiction": "Berkshire",
-    "entityCategory": "Jewelery",
-    "legalForm": "CORPORATION",
-    "associatedEntity": {
-      "type": "Organization",
-      "leiCode": "V5T6ZRX0WKQDDI3KOBZA",
-      "name": "McKenzie, Schinner and Stamm"
-    },
-    "status": "REQUESTED",
-    "expirationReason": "deploy customized synergies",
-    "successorEntity": {
-      "type": "Organization",
-      "leiCode": "O2WIGYFOS236IRUUTMYN",
-      "name": "Barrows, Durgan and Shields"
-    },
-    "otherAddresses": [],
-    "port": "generate",
-    "monitor": "compress"
-  },
-  {
-    "type": "LEIentity",
-    "legalAddress": {
-      "type": "LEIaddress",
-      "language": "de_AT",
-      "addressLines": [
-        "Denesik LLC",
-        "028 Purdy Ramp"
-      ],
-      "addressNumber": "272",
-      "addressNumberWithinBuilding": "5",
-      "mailRouting": "589 Rodriguez Lodge, 64814",
-      "city": "Pablobury",
-      "region": "Bedfordshire",
-      "country": "Grenada",
-      "postalCode": "29143"
+      "addressNumber": "296",
+      "addressNumberWithinBuilding": "3",
+      "mailRouting": "0561 Kshlerin Skyway, 91767",
+      "city": "East Demetriusmouth",
+      "region": "Berkshire",
+      "country": "Belize",
+      "postalCode": "89382"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
       "validationAuthorityID": "RA000002",
-      "otherValidationAuthorityID": "D80GMIPR",
-      "validationAuthorityEntityID": "NGYSVMG425HFOELQJKGD"
+      "otherValidationAuthorityID": "8DBQ7FHQ",
+      "validationAuthorityEntityID": "04OTI9W85LS2S049EJ6W"
     },
-    "status": "REQUESTED",
-    "card": "reboot",
-    "bus": "quantify"
-  },
-  {
-    "driver": "hack",
-    "pixel": "navigate",
-    "circuit": "parse",
-    "port": "reboot"
+    "legalJurisdiction": "Borders",
+    "entityCategory": "Finance",
+    "legalForm": "CORPORATION",
+    "associatedEntity": {
+      "type": "Organization",
+      "leiCode": "Y2LWGEKGXCTMBS8N9QIW",
+      "name": "Lynch - Bashirian"
+    },
+    "expirationDate": "2022-07-11",
+    "expirationReason": "deliver collaborative models",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "4CZ38ARRCC5TUBB5NFKG",
+      "name": "Armstrong - Kunze"
+    },
+    "otherAddresses": [],
+    "feed": "navigate"
   }
 ]

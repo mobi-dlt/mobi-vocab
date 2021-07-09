@@ -1,35 +1,31 @@
 [
   {
-    "pixel": "navigate",
-    "monitor": "generate",
-    "transmitter": "back up"
+    "feed": "generate",
+    "port": "program"
+  },
+  {
+    "card": "navigate"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceWayBillCommodityGroup",
-    "commodityItemNumber": "uqeg10e2odgl",
+    "commodityItemNumber": "7uik3ir3w0qy",
     "totalsCommodityGroup": {
       "type": "EcommerceWayBillTotals",
-      "totalPieces": 752,
-      "weight": 469562,
-      "chargeableWeight": 422605.8,
+      "totalPieces": 538,
+      "weight": 383216,
+      "chargeableWeight": 344894.4,
       "weightUnit": "kg",
-      "rateCharge": 0.014661417330287469,
+      "rateCharge": 0.017501009004495287,
       "totalRateCharge": {
         "type": "PriceSpecification",
-        "price": 6196,
-        "priceCurrency": "HKD"
+        "price": 6036,
+        "priceCurrency": "TOP"
       }
     },
-    "program": "generate",
-    "bandwidth": "override",
-    "pixel": "copy"
-  },
-  {
-    "system": "synthesize",
-    "bandwidth": "generate",
-    "microchip": "index"
+    "capacitor": "program",
+    "hard drive": "navigate"
   }
 ]

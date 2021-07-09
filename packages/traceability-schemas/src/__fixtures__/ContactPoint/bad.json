@@ -1,37 +1,43 @@
 [
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "ContactPoint",
-    "name": "Rippin, Halvorson and Wiza",
-    "email": "America_Huels46@example.com",
-    "port": "back up"
+    "phoneNumber": "555-681-5935",
+    "circuit": "bypass",
+    "monitor": "compress"
   },
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
     "type": "ContactPoint",
-    "name": "Kunde LLC",
+    "name": "Mraz Inc",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "175 Bradtke Neck",
-      "addressLocality": "Pfeffertown",
-      "addressRegion": "Illinois",
-      "postalCode": "93807",
-      "addressCountry": "British Indian Ocean Territory (Chagos Archipelago)"
+      "streetAddress": "7046 Vernie Center",
+      "addressLocality": "Weissnatberg",
+      "addressRegion": "South Carolina",
+      "postalCode": "96569-5073",
+      "addressCountry": "Costa Rica"
     },
-    "phoneNumber": "555-953-4722",
-    "circuit": "parse",
-    "driver": "generate"
+    "email": "Lily.Stamm57@example.net",
+    "firewall": "calculate",
+    "circuit": "navigate",
+    "panel": "synthesize",
+    "alarm": "compress"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "name": "Hartmann and Sons",
-    "phoneNumber": "555-339-4919",
-    "hard drive": "copy"
+    "type": "ContactPoint",
+    "name": "Hermann LLC",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "2745 Quigley Tunnel",
+      "addressLocality": "Angelochester",
+      "addressRegion": "Delaware",
+      "postalCode": "04624-0149",
+      "addressCountry": "French Polynesia"
+    },
+    "sensor": "generate",
+    "hard drive": "override",
+    "system": "connect",
+    "protocol": "quantify"
   }
 ]

@@ -16,62 +16,62 @@
     "type": "IssuerAgent",
     "issuerAgentOrg": {
       "type": "Organization",
-      "name": "Nader Group",
-      "description": "Configurable systemic migration",
+      "name": "Funk - Prosacco",
+      "description": "Triple-buffered responsive artificial intelligence",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "062 Isabelle Springs",
-        "addressLocality": "South Bethfurt",
-        "addressRegion": "Massachusetts",
-        "postalCode": "64791",
-        "addressCountry": "Argentina"
+        "streetAddress": "83315 Wolf Pass",
+        "addressLocality": "Lake Laishaview",
+        "addressRegion": "Nebraska",
+        "postalCode": "23457",
+        "addressCountry": "Ghana"
       },
-      "email": "Aurore82@example.net",
-      "phoneNumber": "555-171-3844",
-      "faxNumber": "555-946-3826"
+      "email": "Amani71@example.com",
+      "phoneNumber": "555-631-1999",
+      "faxNumber": "555-187-4984"
     },
-    "iataCode": "IATA#772",
+    "iataCode": "IATA#681",
     "accountNumber": "",
-    "accountingInformation": "Please charge to Account 123 and not Account 321",
+    "accountingInformation": "Please charge to Account 123 and Account 321",
     "charge": {
       "@context": [
         "https://mobinet.io/schemas/v1"
       ],
       "type": "PriceSpecification",
-      "price": 9775,
-      "priceCurrency": "MOP"
+      "price": 7307,
+      "priceCurrency": "EUR"
     },
     "declaredValueCarriage": {
       "@context": [
         "https://mobinet.io/schemas/v1"
       ],
       "type": "PriceSpecification",
-      "price": 383,
-      "priceCurrency": "GNF"
+      "price": 4538,
+      "priceCurrency": "INR"
     },
-    "declaredValueCarriagePaymentStatus": "PaymentDue",
+    "declaredValueCarriagePaymentStatus": "PaymentComplete",
     "declaredValueCustoms": {
       "@context": [
         "https://mobinet.io/schemas/v1"
       ],
       "type": "PriceSpecification",
-      "price": 4457,
-      "priceCurrency": "DOP"
+      "price": 6847,
+      "priceCurrency": "GHS"
     },
-    "declaredValueCustomsPaymentStatus": "PaymentDue",
+    "declaredValueCustomsPaymentStatus": "PaymentComplete",
     "amountInsurance": {
       "@context": [
         "https://mobinet.io/schemas/v1"
       ],
       "type": "PriceSpecification",
-      "price": 1140,
-      "priceCurrency": "BIF"
+      "price": 3605,
+      "priceCurrency": "NOK"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..R9Bs3VafwLmUj4SASaPN8dXie3IFel92VbwCtY3-8xVr7ciQfJt__VMe8VVzv9XEjooBnDDFJ3SgYsLk2YABDw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..FmZFwqNrwIiqQQaQjpot0RrpE-kwZXBUZqjzxFLjJ8jOv917eNRHjQa6CSvOfAVZpy0o1xKCapR8_3yl8Hw4Bw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

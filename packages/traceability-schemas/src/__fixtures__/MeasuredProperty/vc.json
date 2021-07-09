@@ -14,15 +14,15 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "ChemicalProperty",
-    "name": "Oxygen",
-    "formula": "O",
-    "inchi": "InChI=1S/O",
-    "inchikey": "QVGXLLKOCUKJST-UHFFFAOYSA-N"
+    "name": "Magnesium",
+    "formula": "Mg",
+    "inchi": "InChI=1S/Mg",
+    "inchikey": "FYYHWMGAXLPEAU-UHFFFAOYSA-N"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..diOTjQV7gDo-FabOiMtyn4c3V-quWMnp87VWawWXdOPmRi7o6C8x94ONOF6rk5p0v0BBzOZrqXyf-rLj5yXeDg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..obpw8EOcI5dtbUCWnmN640dU01i9feg8B9O3Kt9D_PxQGeJNlpXHxM0l4SzAIMOdZO5xNJqEASeH7APYX8d2Cg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

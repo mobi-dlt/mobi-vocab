@@ -1,45 +1,26 @@
 [
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
     "type": "LEIregistration",
     "lastUpdateDate": "2020-01-01",
-    "status": "REJECTED",
     "nextRenewalDate": "2021-02-02",
-    "validationSources": "NOT_CORROBORATED",
-    "bus": "override",
-    "application": "transmit"
-  },
-  {
-    "type": "LEIregistration",
-    "status": "REJECTED",
-    "managingLou": "LRAYOURUPNTEOLBODRPP",
-    "validationSources": "FULLY_CORROBORATED",
+    "validationSources": "PARTIALLY_CORROBORATED",
     "validationAuthority": [
       {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000004",
-        "otherValidationAuthorityID": "XZ8KKA9E",
-        "validationAuthorityEntityID": "T60RKRCVB0NKU7LCUS96"
+        "validationAuthorityID": "RA000003",
+        "otherValidationAuthorityID": "VHIXE25I",
+        "validationAuthorityEntityID": "POXSDK8WJXS20EM0LBBJ"
       }
     ],
-    "feed": "calculate",
-    "alarm": "synthesize"
+    "bandwidth": "input"
   },
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "lastUpdateDate": "2020-01-01",
-    "validationAuthority": [
-      {
-        "type": "LEIauthority",
-        "validationAuthorityID": "RA000004",
-        "otherValidationAuthorityID": "DB9RRNRM",
-        "validationAuthorityEntityID": "GJM0DPPDUXOTILG9N7OC"
-      }
-    ],
-    "sensor": "hack"
+    "alarm": "override",
+    "transmitter": "input"
+  },
+  {
+    "circuit": "back up",
+    "transmitter": "generate",
+    "capacitor": "bypass"
   }
 ]

@@ -4,136 +4,67 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIentity",
-    "legalName": "Treutel and Sons",
-    "legalNameLanguage": "nl_BE",
+    "legalName": "Beahan, Hammes and Cormier",
+    "legalNameLanguage": "uk",
     "otherNames": [
-      "Ward, Swaniawski and Schneider",
-      "Cruickshank Inc"
+      "Torp LLC",
+      "Ratke - Stiedemann"
     ],
     "transliteratedOtherNames": [
-      "Ward, Swaniawski and Schneider",
-      "Cruickshank Inc"
+      "Torp LLC",
+      "Ratke - Stiedemann"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "en_AU",
+      "language": "fi",
       "addressLines": [
-        "McCullough - Hessel",
-        "5023 Philip Locks"
+        "Kub, Walker and Gislason",
+        "4471 Breitenberg Prairie"
       ],
-      "addressNumber": "381",
-      "addressNumberWithinBuilding": "6",
-      "mailRouting": "51045 Sylvia Forges, 16010-7366",
-      "city": "Lake Hannahview",
-      "region": "Avon",
-      "country": "Virgin Islands, U.S.",
-      "postalCode": "66326"
-    },
-    "headquartersAddress": {
-      "type": "LEIaddress",
-      "language": "it",
-      "addressLines": [
-        "Veum and Sons",
-        "702 Jerde Plaza"
-      ],
-      "addressNumber": "461",
-      "addressNumberWithinBuilding": "9",
-      "mailRouting": "812 Breana Estate, 37204-1479",
-      "city": "North Reaganborough",
-      "region": "Buckinghamshire",
-      "country": "Seychelles",
-      "postalCode": "56634"
-    },
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000005",
-      "otherValidationAuthorityID": "MTP2CT3H",
-      "validationAuthorityEntityID": "24LVINQ5I1F5EL06C8Z0"
-    },
-    "legalJurisdiction": "Berkshire",
-    "entityCategory": "Jewelery",
-    "legalForm": "CORPORATION",
-    "associatedEntity": {
-      "type": "Organization",
-      "leiCode": "V5T6ZRX0WKQDDI3KOBZA",
-      "name": "McKenzie, Schinner and Stamm"
-    },
-    "status": "REQUESTED",
-    "expirationDate": "2022-07-11",
-    "expirationReason": "deploy customized synergies",
-    "successorEntity": {
-      "type": "Organization",
-      "leiCode": "O2WIGYFOS236IRUUTMYN",
-      "name": "Barrows, Durgan and Shields"
-    },
-    "otherAddresses": []
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "LEIentity",
-    "legalName": "D'Amore, Stiedemann and Beier",
-    "legalNameLanguage": "it",
-    "otherNames": [
-      "Hyatt, Ward and Gusikowski",
-      "Stroman - Block"
-    ],
-    "transliteratedOtherNames": [
-      "Hyatt, Ward and Gusikowski",
-      "Stroman - Block"
-    ],
-    "legalAddress": {
-      "type": "LEIaddress",
-      "language": "de_AT",
-      "addressLines": [
-        "Denesik LLC",
-        "028 Purdy Ramp"
-      ],
-      "addressNumber": "272",
-      "addressNumberWithinBuilding": "5",
-      "mailRouting": "589 Rodriguez Lodge, 64814",
-      "city": "Pablobury",
-      "region": "Bedfordshire",
-      "country": "Grenada",
-      "postalCode": "29143"
-    },
-    "headquartersAddress": {
-      "type": "LEIaddress",
-      "language": "fr_CA",
-      "addressLines": [
-        "Schaden - Mayer",
-        "04098 Schroeder Shore"
-      ],
-      "addressNumber": "278",
+      "addressNumber": "424",
       "addressNumberWithinBuilding": "2",
-      "mailRouting": "084 Hubert Corners, 90884-5718",
-      "city": "West Earnest",
-      "region": "Avon",
-      "country": "Somalia",
-      "postalCode": "54051-9881"
+      "mailRouting": "4064 Giovanny Mountain, 66990-0354",
+      "city": "Mayermouth",
+      "region": "Berkshire",
+      "country": "Kenya",
+      "postalCode": "31128"
+    },
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "vi",
+      "addressLines": [
+        "Rice - Thiel",
+        "88653 Ray Hill"
+      ],
+      "addressNumber": "409",
+      "addressNumberWithinBuilding": "7",
+      "mailRouting": "838 Boyer Junctions, 99036-0414",
+      "city": "Parisianmouth",
+      "region": "Borders",
+      "country": "Northern Mariana Islands",
+      "postalCode": "35272"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
       "validationAuthorityID": "RA000002",
-      "otherValidationAuthorityID": "D80GMIPR",
-      "validationAuthorityEntityID": "NGYSVMG425HFOELQJKGD"
+      "otherValidationAuthorityID": "TN6FWYNO",
+      "validationAuthorityEntityID": "VSHAJ2XHWBG79YEFD6A7"
     },
-    "legalJurisdiction": "Berkshire",
-    "entityCategory": "Grocery",
-    "legalForm": "CORPORATION",
+    "legalJurisdiction": "Bedfordshire",
+    "entityCategory": "Industrial",
+    "legalForm": "LLC",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "741L7R6ZCRFSIMHZ9N1U",
-      "name": "Kutch LLC"
+      "leiCode": "VFJBLAXZN5OQS04LCWYA",
+      "name": "Bernier, Gleichner and Pagac"
     },
-    "status": "REQUESTED",
+    "status": "CONFIRMED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "strategize virtual relationships",
+    "expirationReason": "leverage world-class action-items",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "B6LN2UT9KHOZPBALG3YL",
-      "name": "Borer, Wisozk and Williamson"
+      "leiCode": "A2795RBV370GSG4VRRSI",
+      "name": "Osinski - Hagenes"
     },
     "otherAddresses": []
   },
@@ -142,67 +73,136 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIentity",
-    "legalName": "Marks Inc",
-    "legalNameLanguage": "pt_BR",
+    "legalName": "Wiegand - Wunsch",
+    "legalNameLanguage": "tr",
     "otherNames": [
-      "Ruecker - Collier",
-      "Beahan, Torphy and Ryan"
+      "Zemlak - Marquardt",
+      "Turner Inc"
     ],
     "transliteratedOtherNames": [
-      "Ruecker - Collier",
-      "Beahan, Torphy and Ryan"
+      "Zemlak - Marquardt",
+      "Turner Inc"
     ],
     "legalAddress": {
       "type": "LEIaddress",
       "language": "pl",
       "addressLines": [
-        "Hodkiewicz LLC",
-        "041 Gleichner Spurs"
+        "Langosh Inc",
+        "155 Lou Way"
       ],
-      "addressNumber": "316",
-      "addressNumberWithinBuilding": "3",
-      "mailRouting": "69038 Dooley Crescent, 50028-4942",
-      "city": "South Estellatown",
-      "region": "Bedfordshire",
-      "country": "Kuwait",
-      "postalCode": "66402-7206"
+      "addressNumber": "52",
+      "addressNumberWithinBuilding": "10",
+      "mailRouting": "86723 Graham Trace, 64622",
+      "city": "Bartonmouth",
+      "region": "Avon",
+      "country": "Niger",
+      "postalCode": "92885"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "hy",
+      "language": "pt_PT",
       "addressLines": [
-        "Gibson - Daugherty",
-        "831 Dulce Forest"
+        "Koch, Labadie and Moen",
+        "4425 Kailey Fort"
       ],
-      "addressNumber": "131",
-      "addressNumberWithinBuilding": "6",
-      "mailRouting": "816 Ila Ridge, 99176-1389",
-      "city": "West Nashshire",
-      "region": "Buckinghamshire",
-      "country": "Mongolia",
-      "postalCode": "97258-6992"
+      "addressNumber": "180",
+      "addressNumberWithinBuilding": "9",
+      "mailRouting": "4349 Miles Common, 26174",
+      "city": "Farrellport",
+      "region": "Borders",
+      "country": "Timor-Leste",
+      "postalCode": "13444-5823"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
       "validationAuthorityID": "RA000003",
-      "otherValidationAuthorityID": "3FBIMAY0",
-      "validationAuthorityEntityID": "370A2F16WVPPO3INSN5Y"
+      "otherValidationAuthorityID": "5YVHFZE0",
+      "validationAuthorityEntityID": "1WHXJYK0P66N90T2Y74I"
     },
-    "legalJurisdiction": "Buckinghamshire",
-    "entityCategory": "Grocery",
+    "legalJurisdiction": "Cambridgeshire",
+    "entityCategory": "Jewelery",
     "legalForm": "CORPORATION",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "UJCGT7U0F82I0DIGCZZC",
-      "name": "Brown Group"
+      "leiCode": "PRVT5VGHEMO28HN5VDFB",
+      "name": "Beier Inc"
     },
     "status": "CONFIRMED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "cultivate granular mindshare",
+    "expirationReason": "target intuitive e-markets",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "1R43RI08X63TS4WGXXV6",
-      "name": "Wolff and Sons"
+      "leiCode": "P5JE5W0ZTZ6VLECOLEBN",
+      "name": "Hagenes Inc"
+    },
+    "otherAddresses": []
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "LEIentity",
+    "legalName": "Lakin, Green and Raynor",
+    "legalNameLanguage": "pl",
+    "otherNames": [
+      "Labadie, Pacocha and Bernhard",
+      "Reilly LLC"
+    ],
+    "transliteratedOtherNames": [
+      "Labadie, Pacocha and Bernhard",
+      "Reilly LLC"
+    ],
+    "legalAddress": {
+      "type": "LEIaddress",
+      "language": "ru",
+      "addressLines": [
+        "Roberts - Towne",
+        "62894 Parker Stream"
+      ],
+      "addressNumber": "32",
+      "addressNumberWithinBuilding": "6",
+      "mailRouting": "727 Samir Junctions, 76462-2362",
+      "city": "East Candelario",
+      "region": "Cambridgeshire",
+      "country": "Suriname",
+      "postalCode": "82549-3294"
+    },
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "es_MX",
+      "addressLines": [
+        "Block - Cartwright",
+        "1424 Rice Ford"
+      ],
+      "addressNumber": "296",
+      "addressNumberWithinBuilding": "3",
+      "mailRouting": "0561 Kshlerin Skyway, 91767",
+      "city": "East Demetriusmouth",
+      "region": "Berkshire",
+      "country": "Belize",
+      "postalCode": "89382"
+    },
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000002",
+      "otherValidationAuthorityID": "8DBQ7FHQ",
+      "validationAuthorityEntityID": "04OTI9W85LS2S049EJ6W"
+    },
+    "legalJurisdiction": "Borders",
+    "entityCategory": "Finance",
+    "legalForm": "CORPORATION",
+    "associatedEntity": {
+      "type": "Organization",
+      "leiCode": "Y2LWGEKGXCTMBS8N9QIW",
+      "name": "Lynch - Bashirian"
+    },
+    "status": "CONFIRMED",
+    "expirationDate": "2022-07-11",
+    "expirationReason": "deliver collaborative models",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "4CZ38ARRCC5TUBB5NFKG",
+      "name": "Armstrong - Kunze"
     },
     "otherAddresses": []
   }
