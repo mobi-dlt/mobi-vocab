@@ -14,15 +14,15 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "ChemicalProperty",
-    "name": "Indium",
-    "formula": "In",
-    "inchi": "InChI=1S/In",
-    "inchikey": "APFVFJFRJDLVQX-UHFFFAOYSA-N"
+    "name": "Oxygen",
+    "formula": "O",
+    "inchi": "InChI=1S/O",
+    "inchikey": "QVGXLLKOCUKJST-UHFFFAOYSA-N"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..fqrizzcRb_kl4mZKsBReB3Fc5CCSFlDxtlcsE-D2iCTtNb-pM9R3LBot4dXGFjrhalRc_MWVRH_vaVpTDiHWAQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..diOTjQV7gDo-FabOiMtyn4c3V-quWMnp87VWawWXdOPmRi7o6C8x94ONOF6rk5p0v0BBzOZrqXyf-rLj5yXeDg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

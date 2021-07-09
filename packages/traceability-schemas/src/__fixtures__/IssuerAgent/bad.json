@@ -1,38 +1,132 @@
 [
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "iataCode": "IATA#741",
-    "accountingInformation": "Please, only charge Account 123",
+    "type": "IssuerAgent",
+    "issuerAgentOrg": {
+      "type": "Organization",
+      "name": "Nader Group",
+      "description": "Configurable systemic migration",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "062 Isabelle Springs",
+        "addressLocality": "South Bethfurt",
+        "addressRegion": "Massachusetts",
+        "postalCode": "64791",
+        "addressCountry": "Argentina"
+      },
+      "email": "Aurore82@example.net",
+      "phoneNumber": "555-171-3844",
+      "faxNumber": "555-946-3826"
+    },
     "charge": {
       "@context": [
         "https://mobinet.io/schemas/v1"
       ],
       "type": "PriceSpecification",
-      "price": 2574,
-      "priceCurrency": "BOB"
+      "price": 9775,
+      "priceCurrency": "MOP"
     },
-    "declaredValueCarriagePaymentStatus": "PaymentAutomaticallyApplied",
+    "declaredValueCarriagePaymentStatus": "PaymentDue",
     "declaredValueCustoms": {
       "@context": [
         "https://mobinet.io/schemas/v1"
       ],
       "type": "PriceSpecification",
-      "price": 9361,
-      "priceCurrency": "MKD"
+      "price": 4457,
+      "priceCurrency": "DOP"
     },
-    "monitor": "parse",
-    "bandwidth": "input"
-  },
-  {
-    "alarm": "quantify",
-    "circuit": "generate",
-    "program": "input"
+    "hard drive": "calculate",
+    "alarm": "reboot"
   },
   {
     "type": "IssuerAgent",
-    "firewall": "connect",
-    "monitor": "program"
+    "issuerAgentOrg": {
+      "type": "Organization",
+      "name": "Corwin, Frami and Batz",
+      "description": "Right-sized system-worthy leverage",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "9196 Patricia Well",
+        "addressLocality": "Ondrickaburgh",
+        "addressRegion": "Louisiana",
+        "postalCode": "10066-0788",
+        "addressCountry": "Malawi"
+      },
+      "email": "Devon.Christiansen89@example.org",
+      "phoneNumber": "555-922-7024",
+      "faxNumber": "555-891-8484"
+    },
+    "iataCode": "IATA#137",
+    "accountNumber": "",
+    "accountingInformation": "Please charge to Account 123 and not Account 321",
+    "charge": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 2756,
+      "priceCurrency": "AED"
+    },
+    "declaredValueCarriagePaymentStatus": "PaymentDeclined",
+    "declaredValueCustoms": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 4209,
+      "priceCurrency": "MOP"
+    },
+    "declaredValueCustomsPaymentStatus": "PaymentDeclined",
+    "panel": "back up",
+    "circuit": "back up"
+  },
+  {
+    "type": "IssuerAgent",
+    "issuerAgentOrg": {
+      "type": "Organization",
+      "name": "Collins, O'Keefe and Pfannerstill",
+      "description": "Enhanced uniform definition",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "9470 Quitzon Row",
+        "addressLocality": "Dooleystad",
+        "addressRegion": "Hawaii",
+        "postalCode": "64234-4737",
+        "addressCountry": "Sri Lanka"
+      },
+      "email": "Emely96@example.com",
+      "phoneNumber": "555-507-3679",
+      "faxNumber": "555-812-6937"
+    },
+    "accountNumber": "",
+    "accountingInformation": "Please charge to Account 123 and not Account 321",
+    "charge": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 4559,
+      "priceCurrency": "DKK"
+    },
+    "declaredValueCarriage": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 9086,
+      "priceCurrency": "EGP"
+    },
+    "declaredValueCustoms": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 1053,
+      "priceCurrency": "PAB"
+    },
+    "declaredValueCustomsPaymentStatus": "PaymentComplete",
+    "bandwidth": "quantify",
+    "interface": "navigate",
+    "protocol": "input",
+    "transmitter": "compress"
   }
 ]

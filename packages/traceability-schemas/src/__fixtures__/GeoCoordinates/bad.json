@@ -1,27 +1,15 @@
 [
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "longitude": "-141.6416",
-    "port": "compress",
-    "matrix": "parse"
+    "sensor": "connect"
   },
   {
-    "type": "GeoCoordinates",
-    "latitude": "-33.6880",
-    "longitude": "-112.3467",
-    "bandwidth": "bypass",
-    "hard drive": "bypass",
-    "alarm": "override"
+    "circuit": "connect",
+    "capacitor": "back up"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "monitor": "parse",
-    "system": "transmit",
-    "array": "quantify",
-    "card": "override"
+    "system": "quantify"
   }
 ]

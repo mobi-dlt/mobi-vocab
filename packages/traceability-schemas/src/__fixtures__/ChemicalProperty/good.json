@@ -4,29 +4,29 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "ChemicalProperty",
-    "name": "Uranium",
-    "formula": "U",
-    "inchi": "InChI=1S/U",
-    "inchikey": "JFALSRSLKYAFGM-UHFFFAOYSA-N"
+    "name": "Rhodium",
+    "formula": "Rh",
+    "inchi": "InChI=1S/Rh",
+    "inchikey": "MHOVAHRLVXNVSD-UHFFFAOYSA-N"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "ChemicalProperty",
-    "name": "Tantalum",
-    "formula": "Ta",
-    "inchi": "InChI=1S/Ta",
-    "inchikey": "GUVRBAGPIYLISA-UHFFFAOYSA-N"
+    "name": "Europium",
+    "formula": "Eu",
+    "inchi": "InChI=1S/Eu",
+    "inchikey": "OGPBJKLSAFTDLK-UHFFFAOYSA-N"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "ChemicalProperty",
-    "name": "Hydrogen",
-    "formula": "H",
-    "inchi": "InChI=1S/H",
-    "inchikey": "YZCKVEUIGOORGS-UHFFFAOYSA-N"
+    "name": "Lead",
+    "formula": "Pb",
+    "inchi": "InChI=1S/Pb",
+    "inchikey": "WABPQHHGFIMREM-UHFFFAOYSA-N"
   }
 ]

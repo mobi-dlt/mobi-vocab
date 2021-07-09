@@ -14,13 +14,13 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "LegalEntityIdentifierCredential",
-    "leiCode": "TI9W85LS2S049EJ6W9U9",
+    "leiCode": "KRAXDG3N1W932R3MTL1A",
     "certificateName": "US Legal Entity Certificate"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..4TEPhBElL-464lMjUhDogZnh3uisP1RmCP846RLpmm0k99ufxke9QuRIHU1o5Dpcl0i4noP0NFvbNeX6HYDoBw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Avp480owhOwiQvtFpqMl3pUTRdhIgsalI06pUoTdyS8S5tWmJW15lR6FSV5iiOEPNWaOYXQin1tswTfELX_MCQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

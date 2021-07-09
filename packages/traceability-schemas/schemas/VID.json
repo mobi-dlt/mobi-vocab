@@ -1,7 +1,7 @@
 {
     "$id": "https://w3id.org/traceability/schemas/VID.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"VID\", \"@id\": \"https://schema.org#VID\"}", 
+    "$comment": "{\"term\": \"VID\", \"@id\": \"https://w3id.org/traceability#VID\"}", 
     "title": "VID",
     "description": "A VID",
     "type": "object",
@@ -19,8 +19,8 @@
           }
         ]
       },
-      "vehicleID": {
-        "$comment": "{\"term\": \"vehicleID\", \"@id\": \"https://schema.org/identifier\"}",
+      "VID": {
+        "$comment": "{\"term\": \"VID\", \"@id\": \"https://schema.org/identifier\"}",
         "title": "Vehicle ID",
         "description": "The unique identity of the vehicle.",
         "type": "string"

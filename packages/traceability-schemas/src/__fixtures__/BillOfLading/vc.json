@@ -27,10 +27,10 @@
         ],
         "customer": {
           "type": [
-            "Person"
+            "Organization"
           ],
-          "email": "Willie78@example.net",
-          "phoneNumber": "555-152-7258"
+          "email": "Glenda.Bechtelar78@example.net",
+          "phoneNumber": "555-909-3131"
         }
       }
     ],
@@ -45,32 +45,32 @@
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Hahn LLC",
-        "streetAddress": "786 Pfeffer Plains",
-        "addressLocality": "West Ottilie",
-        "addressRegion": "Nebraska",
-        "postalCode": "50878-0870",
-        "addressCountry": "Cook Islands"
+        "organizationName": "Spinka - Koepp",
+        "streetAddress": "48449 Bret Manors",
+        "addressLocality": "Armandtown",
+        "addressRegion": "Oregon",
+        "postalCode": "49477-0701",
+        "addressCountry": "Cyprus"
       },
       "originAddress": {
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Rosenbaum, Hills and Pagac",
-        "streetAddress": "71834 Zelma Trail",
-        "addressLocality": "West Gerhardview",
-        "addressRegion": "North Carolina",
-        "postalCode": "78251-3640",
-        "addressCountry": "Paraguay"
+        "organizationName": "Collins and Sons",
+        "streetAddress": "964 Bernhard Ville",
+        "addressLocality": "North Alvena",
+        "addressRegion": "Iowa",
+        "postalCode": "22229",
+        "addressCountry": "Senegal"
       },
       "deliveryMethod": "Ocean transport",
-      "trackingNumber": "178380801954"
+      "trackingNumber": "249553702479"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..dYYmk2wCER0y6__e1kuUZypIh5gZoUZJz54e11TfEmkmbyhZWoRnQX6tMGe7NGpzrg6Hx6oC0235-3d9441LCQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..d40fEYJ5j3pe4ie-FHGykIsY1hlhDokbKUC_mOFHz7IPGD3wMJ6QegatenxaNdEO9bbtLTJxAoth0aPJE5ONCA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

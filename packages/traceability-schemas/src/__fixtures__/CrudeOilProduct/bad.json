@@ -1,45 +1,26 @@
 [
   {
-    "type": [
-      "CrudeOilProduct"
-    ],
     "HSCode": "270900",
     "productionDate": "2020-03-30",
-    "circuit": "transmit",
-    "application": "copy"
-  },
-  {
-    "type": [
-      "CrudeOilProduct"
-    ],
-    "HSCode": "270900",
-    "UWI": "100.12-04-091-05-W5.00",
-    "productionDate": "2020-03-30",
-    "facility": {
-      "type": [
-        "Place"
-      ],
-      "globalLocationNumber": "7524830522981",
-      "geo": {
-        "type": [
-          "GeoCoordinates"
-        ],
-        "latitude": "6.9863",
-        "longitude": "140.4508"
-      },
-      "address": {
-        "type": [
-          "PostalAddress"
-        ],
-        "organizationName": "Quigley LLC",
-        "streetAddress": "61904 King Plaza",
-        "addressLocality": "North Hassanshire",
-        "addressRegion": "Kansas",
-        "postalCode": "72359-6906",
-        "addressCountry": "Faroe Islands"
-      }
-    },
     "observation": [
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Lithium"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "51.345",
+          "unitCode": "P1"
+        }
+      },
       {
         "type": [
           "Observation"
@@ -68,91 +49,16 @@
           "type": [
             "ChemicalProperty"
           ],
-          "name": "Niobium"
+          "name": "Terbium"
         },
         "measurement": {
           "type": [
             "MeasuredValue"
           ],
-          "value": "52.945",
+          "value": "48.655",
           "unitCode": "P1"
         }
       },
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "ChemicalProperty"
-          ],
-          "name": "Francium"
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "4.3762",
-          "unitCode": "P1"
-        }
-      },
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "ChemicalProperty"
-          ],
-          "name": "Lawrencium"
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "42.679",
-          "unitCode": "P1"
-        }
-      }
-    ],
-    "bus": "hack",
-    "matrix": "parse",
-    "transmitter": "generate"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": [
-      "CrudeOilProduct"
-    ],
-    "HSCode": "270900",
-    "productionDate": "2020-03-30",
-    "facility": {
-      "type": [
-        "Place"
-      ],
-      "globalLocationNumber": "7464980378994",
-      "geo": {
-        "type": [
-          "GeoCoordinates"
-        ],
-        "latitude": "-45.4788",
-        "longitude": "-96.4657"
-      },
-      "address": {
-        "type": [
-          "PostalAddress"
-        ],
-        "organizationName": "Koch - Orn",
-        "streetAddress": "195 Rudy Skyway",
-        "addressLocality": "New Adolfo",
-        "addressRegion": "Tennessee",
-        "postalCode": "73395",
-        "addressCountry": "Czech Republic"
-      }
-    },
-    "observation": [
       {
         "type": [
           "Observation"
@@ -169,8 +75,73 @@
           "type": [
             "MeasuredValue"
           ],
-          "value": "22.808",
+          "value": "93.7",
           "unitCode": "B13"
+        }
+      }
+    ],
+    "product": {
+      "type": [
+        "Product"
+      ],
+      "manufacturer": {
+        "type": [
+          "Organization"
+        ],
+        "email": "Anastasia_McCullough94@example.net",
+        "phoneNumber": "555-739-3054"
+      },
+      "name": "Crude Oil Barrel",
+      "description": "Heavy Sour Dilbit",
+      "sizeOrAmount": {
+        "type": [
+          "QuantitativeValue"
+        ],
+        "unitCode": "hg/ha",
+        "value": "7854"
+      },
+      "weight": {
+        "type": [
+          "QuantitativeValue"
+        ],
+        "unitCode": "hg/ha",
+        "value": "9914"
+      },
+      "sku": "561297936667"
+    },
+    "interface": "parse"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": [
+      "CrudeOilProduct"
+    ],
+    "productionDate": "2020-03-30",
+    "bus": "back up"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "observation": [
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Lutetium"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "1.7323",
+          "unitCode": "P1"
         }
       },
       {
@@ -181,27 +152,7 @@
           "type": [
             "ChemicalProperty"
           ],
-          "name": "Arsenic"
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "66.414",
-          "unitCode": "P1"
-        }
-      },
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "MechanicalProperty"
-          ],
-          "identifier": "ISO 1352",
-          "name": "Torque-controlled fatigue testing",
-          "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
+          "name": "Nihonium"
         },
         "measurement": {
           "type": [
@@ -219,13 +170,31 @@
           "type": [
             "ChemicalProperty"
           ],
-          "name": "Phosphorus"
+          "name": "Uranium"
         },
         "measurement": {
           "type": [
             "MeasuredValue"
           ],
-          "value": "33.586",
+          "value": "47.054",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Tungsten"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "51.214",
           "unitCode": "P1"
         }
       }
@@ -238,8 +207,8 @@
         "type": [
           "Organization"
         ],
-        "email": "Maxime_Willms@example.net",
-        "phoneNumber": "555-660-1117"
+        "email": "Jermaine_Bayer@example.net",
+        "phoneNumber": "555-905-6961"
       },
       "name": "Crude Oil Barrel",
       "description": "Heavy Sour Dilbit",
@@ -248,18 +217,19 @@
           "QuantitativeValue"
         ],
         "unitCode": "hg/ha",
-        "value": "9774"
+        "value": "3723"
       },
       "weight": {
         "type": [
           "QuantitativeValue"
         ],
         "unitCode": "hg/ha",
-        "value": "7576"
+        "value": "3931"
       },
-      "sku": "773091312207"
+      "sku": "57712344767"
     },
-    "circuit": "calculate",
-    "driver": "hack"
+    "card": "input",
+    "bus": "copy",
+    "panel": "navigate"
   }
 ]

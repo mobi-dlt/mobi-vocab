@@ -1,25 +1,18 @@
 [
   {
-    "type": "LEIauthority",
-    "validationAuthorityEntityID": "STE3HTVOEQJF1O0L8ROG",
-    "alarm": "index"
+    "feed": "bypass",
+    "system": "parse",
+    "microchip": "calculate",
+    "transmitter": "calculate"
   },
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "LEIauthority",
-    "otherValidationAuthorityID": "PY612BXB",
-    "validationAuthorityEntityID": "9MU3VMR363TQRBLZC19G",
-    "pixel": "parse",
-    "array": "program"
+    "validationAuthorityID": "RA000001",
+    "otherValidationAuthorityID": "S7H8ANMW",
+    "firewall": "copy",
+    "array": "back up"
   },
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "circuit": "transmit",
-    "matrix": "hack",
-    "program": "back up"
+    "otherValidationAuthorityID": "V4EPC478",
+    "sensor": "copy"
   }
 ]

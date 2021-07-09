@@ -1,26 +1,19 @@
 [
   {
-    "identifier": "ISO 180",
-    "name": "Izod Impact Strength Test",
-    "protocol": "quantify",
-    "hard drive": "bypass"
+    "name": "Torque-controlled fatigue testing",
+    "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis.",
+    "pixel": "connect",
+    "hard drive": "quantify"
   },
   {
-    "type": "MechanicalProperty",
-    "name": "Rockwell Hardness Test (Scale A)",
-    "bus": "transmit",
-    "pixel": "transmit",
-    "driver": "input",
-    "feed": "transmit"
+    "interface": "connect",
+    "system": "calculate",
+    "circuit": "reboot",
+    "matrix": "index"
   },
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "name": "Izod Impact Strength Test",
-    "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics.",
-    "feed": "navigate",
-    "alarm": "reboot",
-    "monitor": "hack"
+    "capacitor": "parse",
+    "program": "compress",
+    "firewall": "input"
   }
 ]

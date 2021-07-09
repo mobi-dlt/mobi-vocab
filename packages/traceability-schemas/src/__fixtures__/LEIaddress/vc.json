@@ -14,23 +14,23 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIaddress",
-    "language": "nl_BE",
+    "language": "en_GB",
     "addressLines": [
-      "Klein - Steuber",
-      "4530 Cassin Knolls"
+      "White - Hyatt",
+      "04238 Marks Locks"
     ],
-    "addressNumber": "473",
+    "addressNumber": "483",
     "addressNumberWithinBuilding": "2",
-    "mailRouting": "8208 Ondricka Mountain, 26968",
-    "city": "South Santina",
+    "mailRouting": "41477 Eryn Circle, 22567-5539",
+    "city": "Port Emanuel",
     "region": "Cambridgeshire",
-    "country": "Sweden",
-    "postalCode": "52470"
+    "country": "Chad",
+    "postalCode": "17271"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..nEFcg4-TwuyyQOrO7b2u0fbJGI4-h70iYsJGByqgZzeJ8baNoUEUj6Jg8QP3H4Ajba5bP2DzOog4-vgrRkmEBg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..W-MVs8dK4wY21OfI3SrGqXVXT5yUQWm41EZesQJ-nahzezkXOgBoqBRvX4ALfmtPpt5G-J07a8GvoL6uZQmHCg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

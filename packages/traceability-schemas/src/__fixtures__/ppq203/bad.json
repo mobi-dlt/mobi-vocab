@@ -3,12 +3,12 @@
     "type": [
       "ppq203"
     ],
-    "port": "generate",
-    "bus": "compress"
+    "matrix": "parse",
+    "firewall": "hack"
   },
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
+    "type": [
+      "ppq203"
     ],
     "observation": [
       {
@@ -19,25 +19,7 @@
           "type": [
             "ChemicalProperty"
           ],
-          "name": "Moscovium"
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "00.00",
-          "unitCode": "UNKNOWN"
-        }
-      },
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "ChemicalProperty"
-          ],
-          "name": "Plutonium"
+          "name": "Silver"
         },
         "measurement": {
           "type": [
@@ -45,24 +27,6 @@
           ],
           "value": "100.00",
           "unitCode": "P1"
-        }
-      },
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "ChemicalProperty"
-          ],
-          "name": "Nihonium"
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "00.00",
-          "unitCode": "UNKNOWN"
         }
       },
       {
@@ -81,13 +45,32 @@
           "type": [
             "MeasuredValue"
           ],
-          "value": "89.478",
+          "value": "56.306",
           "unitCode": "B13"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "MechanicalProperty"
+          ],
+          "identifier": "ISO 3738",
+          "name": "Rockwell Hardness Test (Scale A)",
+          "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "00.00",
+          "unitCode": "UNKNOWN"
         }
       }
     ],
-    "microchip": "index",
-    "card": "transmit"
+    "array": "input"
   },
   {
     "@context": [
@@ -96,7 +79,6 @@
     "type": [
       "ppq203"
     ],
-    "protocol": "back up",
-    "card": "transmit"
+    "sensor": "generate"
   }
 ]

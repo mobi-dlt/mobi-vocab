@@ -14,13 +14,27 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "SteelProduct",
-    "heatNumber": "54556",
-    "specification": "ASTM-16009",
-    "grade": "85795",
-    "originalCountryOfMeltAndPour": "Holy See (Vatican City State)",
+    "heatNumber": "3237",
+    "specification": "ASTM-58091",
+    "grade": "58623",
+    "originalCountryOfMeltAndPour": "Netherlands Antilles",
     "inspection": {
       "type": "InspectionReport",
       "observation": [
+        {
+          "type": "Observation",
+          "property": {
+            "type": "MechanicalProperty",
+            "identifier": "ISO 3738",
+            "name": "Rockwell Hardness Test (Scale A)",
+            "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
+          },
+          "measurement": {
+            "type": "MeasuredValue",
+            "value": "00.00",
+            "unitCode": "UNKNOWN"
+          }
+        },
         {
           "type": "Observation",
           "property": {
@@ -32,22 +46,7 @@
           },
           "measurement": {
             "type": "MeasuredValue",
-            "value": "88.939",
-            "unitCode": "P1"
-          }
-        },
-        {
-          "type": "Observation",
-          "property": {
-            "type": "ChemicalProperty",
-            "name": "Carbon",
-            "formula": "C",
-            "inchi": "InChI=1S/C",
-            "inchikey": "OKTJSMMVPCPJKN-UHFFFAOYSA-N"
-          },
-          "measurement": {
-            "type": "MeasuredValue",
-            "value": "11.061",
+            "value": "100.00",
             "unitCode": "P1"
           }
         }
@@ -57,7 +56,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..SYx0cz2-WbufW15vJXfsGmUh6y3-tMc73M7q8JMGwcUojXnLQODQpohbq58wRrcFG7llFoWpDrlsHJZRLNcnBA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..EIClbf--3uSVP5MXY65XzOWT4V_-K-QoPj89dYcz1DcbhkQCcXYM9wI_FNKXV8sy6OSAwIxOwM9ckYJ2EXQ6DA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

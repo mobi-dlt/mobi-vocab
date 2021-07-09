@@ -3,14 +3,24 @@
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "type": "PriceSpecification",
-    "pixel": "reboot"
+    "card": "transmit",
+    "sensor": "bypass",
+    "firewall": "compress"
   },
   {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "type": "PriceSpecification",
-    "port": "back up"
+    "firewall": "calculate",
+    "program": "index",
+    "array": "back up"
   },
   {
-    "array": "index"
+    "priceCurrency": "TOP",
+    "circuit": "copy",
+    "array": "connect",
+    "card": "transmit",
+    "bus": "input"
   }
 ]

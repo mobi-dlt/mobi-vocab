@@ -1,43 +1,45 @@
 [
   {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "type": "LEIregistration",
-    "status": "CONFIRMED",
-    "managingLou": "RPKIQCIFPENLARUGAAHN",
-    "hard drive": "connect",
-    "capacitor": "navigate"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "validationSources": "PARTIALLY_CORROBORATED",
-    "validationAuthority": [
-      {
-        "type": "LEIauthority",
-        "validationAuthorityID": "RA000005",
-        "otherValidationAuthorityID": "TMBS8N9Q",
-        "validationAuthorityEntityID": "IWQVIO27QMTIAPNTFQWU"
-      }
-    ],
-    "panel": "input"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "initialRegistrationDate": "2020-01-01",
-    "status": "REQUESTED",
+    "lastUpdateDate": "2020-01-01",
+    "status": "REJECTED",
     "nextRenewalDate": "2021-02-02",
-    "validationSources": "PARTIALLY_CORROBORATED",
+    "validationSources": "NOT_CORROBORATED",
+    "bus": "override",
+    "application": "transmit"
+  },
+  {
+    "type": "LEIregistration",
+    "status": "REJECTED",
+    "managingLou": "LRAYOURUPNTEOLBODRPP",
+    "validationSources": "FULLY_CORROBORATED",
     "validationAuthority": [
       {
         "type": "LEIauthority",
         "validationAuthorityID": "RA000004",
-        "otherValidationAuthorityID": "T9IGZDAZ",
-        "validationAuthorityEntityID": "HEG243FLAL5FAF81QI1I"
+        "otherValidationAuthorityID": "XZ8KKA9E",
+        "validationAuthorityEntityID": "T60RKRCVB0NKU7LCUS96"
       }
     ],
-    "monitor": "back up",
-    "bandwidth": "synthesize"
+    "feed": "calculate",
+    "alarm": "synthesize"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "lastUpdateDate": "2020-01-01",
+    "validationAuthority": [
+      {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000004",
+        "otherValidationAuthorityID": "DB9RRNRM",
+        "validationAuthorityEntityID": "GJM0DPPDUXOTILG9N7OC"
+      }
+    ],
+    "sensor": "hack"
   }
 ]

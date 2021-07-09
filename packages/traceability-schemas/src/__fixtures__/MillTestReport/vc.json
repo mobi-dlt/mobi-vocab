@@ -20,30 +20,30 @@
       "type": [
         "Organization"
       ],
-      "name": "Keebler, Hahn and Jacobi",
-      "description": "Compatible client-server definition",
+      "name": "Hermann - Lang",
+      "description": "Intuitive actuating groupware",
       "address": {
         "type": [
           "PostalAddress"
         ],
-        "streetAddress": "99511 Estel Corner",
-        "addressLocality": "Hintzville",
-        "addressRegion": "Hawaii",
-        "postalCode": "59490-9358",
-        "addressCountry": "Guatemala"
+        "streetAddress": "75576 Schimmel Mall",
+        "addressLocality": "West Lexus",
+        "addressRegion": "Washington",
+        "postalCode": "51590",
+        "addressCountry": "Lithuania"
       },
-      "email": "Rico_Daniel49@example.com",
-      "phoneNumber": "555-720-1065",
-      "faxNumber": "555-752-1548"
+      "email": "Karine.Schaden@example.net",
+      "phoneNumber": "555-253-7605",
+      "faxNumber": "555-669-4699"
     },
     "product": {
       "type": [
         "SteelProduct"
       ],
-      "heatNumber": "7509",
-      "specification": "ASTM-52722",
-      "grade": "94335",
-      "originalCountryOfMeltAndPour": "Ghana",
+      "heatNumber": "55692",
+      "specification": "ASTM-90898",
+      "grade": "10822",
+      "originalCountryOfMeltAndPour": "New Zealand",
       "inspection": {
         "type": [
           "InspectionReport"
@@ -55,16 +55,18 @@
             ],
             "property": {
               "type": [
-                "ChemicalProperty"
+                "MechanicalProperty"
               ],
-              "name": "Bohrium"
+              "identifier": "ISO 148",
+              "name": "Charpy Impact Strength Test",
+              "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
             },
             "measurement": {
               "type": [
                 "MeasuredValue"
               ],
-              "value": "00.00",
-              "unitCode": "UNKNOWN"
+              "value": "82.496",
+              "unitCode": "B13"
             }
           },
           {
@@ -73,16 +75,18 @@
             ],
             "property": {
               "type": [
-                "ChemicalProperty"
+                "MechanicalProperty"
               ],
-              "name": "Lanthanum"
+              "identifier": "ISO 148",
+              "name": "Charpy Impact Strength Test",
+              "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
             },
             "measurement": {
               "type": [
                 "MeasuredValue"
               ],
-              "value": "100.00",
-              "unitCode": "P1"
+              "value": "31.126",
+              "unitCode": "B13"
             }
           },
           {
@@ -104,6 +108,42 @@
               "value": "00.00",
               "unitCode": "UNKNOWN"
             }
+          },
+          {
+            "type": [
+              "Observation"
+            ],
+            "property": {
+              "type": [
+                "ChemicalProperty"
+              ],
+              "name": "Hassium"
+            },
+            "measurement": {
+              "type": [
+                "MeasuredValue"
+              ],
+              "value": "00.00",
+              "unitCode": "UNKNOWN"
+            }
+          },
+          {
+            "type": [
+              "Observation"
+            ],
+            "property": {
+              "type": [
+                "ChemicalProperty"
+              ],
+              "name": "Roentgenium"
+            },
+            "measurement": {
+              "type": [
+                "MeasuredValue"
+              ],
+              "value": "100.00",
+              "unitCode": "P1"
+            }
           }
         ]
       }
@@ -114,10 +154,10 @@
       ],
       "customer": {
         "type": [
-          "Person"
+          "Organization"
         ],
-        "email": "Alicia_Smitham@example.net",
-        "phoneNumber": "555-761-6137"
+        "email": "Addison42@example.com",
+        "phoneNumber": "555-168-6596"
       }
     },
     "shipment": {
@@ -128,32 +168,32 @@
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Mertz, Abshire and Medhurst",
-        "streetAddress": "1813 Huels Wall",
-        "addressLocality": "East Mona",
-        "addressRegion": "Florida",
-        "postalCode": "62616",
-        "addressCountry": "Seychelles"
+        "organizationName": "Jaskolski Inc",
+        "streetAddress": "16674 Monserrat Roads",
+        "addressLocality": "North Elvashire",
+        "addressRegion": "Wyoming",
+        "postalCode": "89405-9884",
+        "addressCountry": "Sri Lanka"
       },
       "originAddress": {
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Trantow LLC",
-        "streetAddress": "3374 Buckridge Vista",
-        "addressLocality": "Haleyside",
-        "addressRegion": "South Dakota",
-        "postalCode": "28278",
-        "addressCountry": "Ukraine"
+        "organizationName": "Shields LLC",
+        "streetAddress": "9165 West Parkway",
+        "addressLocality": "Kihnland",
+        "addressRegion": "New Jersey",
+        "postalCode": "45940-1576",
+        "addressCountry": "Uganda"
       },
       "deliveryMethod": "Rail freight transport",
-      "trackingNumber": "987082494145"
+      "trackingNumber": "791908620751"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jY6hM95mRdaKCo1Ep8IQFZFf5AswsGK3h_0KzgKfsMsQ3MDxFgFPdlxA9xoh-WpsZyngsORN3JnbmgFUbK_ICw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..svJWFPU9Se4yQkE3ucgjuwDA6y7s8kHSwAsmRHCmNxzks2HE42wcXMeONFOUNhrB49FdWCXmJupsJhmFMR-gCw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

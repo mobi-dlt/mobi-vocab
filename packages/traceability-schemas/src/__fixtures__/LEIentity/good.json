@@ -4,205 +4,205 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIentity",
-    "legalName": "Larson Group",
-    "legalNameLanguage": "en_CA",
+    "legalName": "Treutel and Sons",
+    "legalNameLanguage": "nl_BE",
     "otherNames": [
-      "Boehm, Nienow and Gerlach",
-      "Auer Group"
+      "Ward, Swaniawski and Schneider",
+      "Cruickshank Inc"
     ],
     "transliteratedOtherNames": [
-      "Boehm, Nienow and Gerlach",
-      "Auer Group"
+      "Ward, Swaniawski and Schneider",
+      "Cruickshank Inc"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "es",
+      "language": "en_AU",
       "addressLines": [
-        "Jenkins, Rosenbaum and Auer",
-        "62764 Kessler Fields"
+        "McCullough - Hessel",
+        "5023 Philip Locks"
       ],
-      "addressNumber": "355",
-      "addressNumberWithinBuilding": "9",
-      "mailRouting": "7378 Schiller Locks, 81662-9263",
-      "city": "Beverlyshire",
-      "region": "Bedfordshire",
-      "country": "Romania",
-      "postalCode": "62242"
-    },
-    "headquartersAddress": {
-      "type": "LEIaddress",
-      "language": "tr",
-      "addressLines": [
-        "Braun, Rice and Reichel",
-        "915 Berge Knolls"
-      ],
-      "addressNumber": "173",
-      "addressNumberWithinBuilding": "1",
-      "mailRouting": "820 Aliya Ridge, 86486",
-      "city": "East Joy",
-      "region": "Buckinghamshire",
-      "country": "French Southern Territories",
-      "postalCode": "47348-6247"
-    },
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000001",
-      "otherValidationAuthorityID": "W7H8UCSL",
-      "validationAuthorityEntityID": "EG8QE7T08RITT2CLND8S"
-    },
-    "legalJurisdiction": "Avon",
-    "entityCategory": "Finance",
-    "legalForm": "LLC",
-    "associatedEntity": {
-      "type": "Organization",
-      "leiCode": "RVLB94ZGWL4109O1LFXW",
-      "name": "Boyle, Sanford and Goldner"
-    },
-    "status": "CONFIRMED",
-    "expirationDate": "2022-07-11",
-    "expirationReason": "exploit wireless action-items",
-    "successorEntity": {
-      "type": "Organization",
-      "leiCode": "JZ1ZG9X1VP3GQ3TP91GV",
-      "name": "Conn, Kessler and Champlin"
-    },
-    "otherAddresses": []
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "LEIentity",
-    "legalName": "Rau - Reynolds",
-    "legalNameLanguage": "en_ZA",
-    "otherNames": [
-      "Kirlin, Ebert and Marks",
-      "Kertzmann Inc"
-    ],
-    "transliteratedOtherNames": [
-      "Kirlin, Ebert and Marks",
-      "Kertzmann Inc"
-    ],
-    "legalAddress": {
-      "type": "LEIaddress",
-      "language": "ne",
-      "addressLines": [
-        "Skiles and Sons",
-        "5394 Hessel Villages"
-      ],
-      "addressNumber": "305",
-      "addressNumberWithinBuilding": "8",
-      "mailRouting": "72718 Olson Rapid, 94780-2828",
-      "city": "South Daren",
-      "region": "Borders",
-      "country": "Ecuador",
-      "postalCode": "59153-9904"
-    },
-    "headquartersAddress": {
-      "type": "LEIaddress",
-      "language": "en_AU_ocker",
-      "addressLines": [
-        "Kiehn, Bruen and McDermott",
-        "330 Talon Villages"
-      ],
-      "addressNumber": "404",
-      "addressNumberWithinBuilding": "10",
-      "mailRouting": "9144 Lisette Extensions, 64137-9064",
-      "city": "West Dylan",
-      "region": "Buckinghamshire",
-      "country": "Ecuador",
-      "postalCode": "73281-5572"
-    },
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000001",
-      "otherValidationAuthorityID": "ZMO4ZN1A",
-      "validationAuthorityEntityID": "C0349XUV18ISKLKYHDSO"
-    },
-    "legalJurisdiction": "Avon",
-    "entityCategory": "Grocery",
-    "legalForm": "CORPORATION",
-    "associatedEntity": {
-      "type": "Organization",
-      "leiCode": "8NHBJUM49FYE6XY500H8",
-      "name": "Morissette - Windler"
-    },
-    "status": "REJECTED",
-    "expirationDate": "2022-07-11",
-    "expirationReason": "deliver best-of-breed solutions",
-    "successorEntity": {
-      "type": "Organization",
-      "leiCode": "V4EPEN1DJYP04AAXSBD9",
-      "name": "Lesch LLC"
-    },
-    "otherAddresses": []
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "LEIentity",
-    "legalName": "Bauch Inc",
-    "legalNameLanguage": "nb_NO",
-    "otherNames": [
-      "Vandervort - Green",
-      "Feil, Donnelly and Renner"
-    ],
-    "transliteratedOtherNames": [
-      "Vandervort - Green",
-      "Feil, Donnelly and Renner"
-    ],
-    "legalAddress": {
-      "type": "LEIaddress",
-      "language": "sk",
-      "addressLines": [
-        "Grimes Inc",
-        "2915 Weber Forest"
-      ],
-      "addressNumber": "112",
-      "addressNumberWithinBuilding": "10",
-      "mailRouting": "5330 Huels Trafficway, 31223-3376",
-      "city": "Edythechester",
+      "addressNumber": "381",
+      "addressNumberWithinBuilding": "6",
+      "mailRouting": "51045 Sylvia Forges, 16010-7366",
+      "city": "Lake Hannahview",
       "region": "Avon",
-      "country": "Afghanistan",
-      "postalCode": "50610-4991"
+      "country": "Virgin Islands, U.S.",
+      "postalCode": "66326"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "es_MX",
+      "language": "it",
       "addressLines": [
-        "O'Reilly - Russel",
-        "43818 Noemi Drives"
+        "Veum and Sons",
+        "702 Jerde Plaza"
       ],
-      "addressNumber": "64",
-      "addressNumberWithinBuilding": "10",
-      "mailRouting": "085 Hilll Row, 15639-2779",
-      "city": "Schneiderville",
-      "region": "Berkshire",
-      "country": "El Salvador",
-      "postalCode": "02833"
+      "addressNumber": "461",
+      "addressNumberWithinBuilding": "9",
+      "mailRouting": "812 Breana Estate, 37204-1479",
+      "city": "North Reaganborough",
+      "region": "Buckinghamshire",
+      "country": "Seychelles",
+      "postalCode": "56634"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000001",
-      "otherValidationAuthorityID": "6JKCZ4RL",
-      "validationAuthorityEntityID": "FI07BGISBL33FJ9PWS3M"
+      "validationAuthorityID": "RA000005",
+      "otherValidationAuthorityID": "MTP2CT3H",
+      "validationAuthorityEntityID": "24LVINQ5I1F5EL06C8Z0"
     },
-    "legalJurisdiction": "Avon",
-    "entityCategory": "Grocery",
+    "legalJurisdiction": "Berkshire",
+    "entityCategory": "Jewelery",
     "legalForm": "CORPORATION",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "XD3D01TO3FZ7MTNS7H8A",
-      "name": "Harber, Pagac and Olson"
+      "leiCode": "V5T6ZRX0WKQDDI3KOBZA",
+      "name": "McKenzie, Schinner and Stamm"
     },
     "status": "REQUESTED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "innovate best-of-breed vortals",
+    "expirationReason": "deploy customized synergies",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "BOOC7OL1WESSXSZP07M8",
-      "name": "Zieme - Stokes"
+      "leiCode": "O2WIGYFOS236IRUUTMYN",
+      "name": "Barrows, Durgan and Shields"
+    },
+    "otherAddresses": []
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "LEIentity",
+    "legalName": "D'Amore, Stiedemann and Beier",
+    "legalNameLanguage": "it",
+    "otherNames": [
+      "Hyatt, Ward and Gusikowski",
+      "Stroman - Block"
+    ],
+    "transliteratedOtherNames": [
+      "Hyatt, Ward and Gusikowski",
+      "Stroman - Block"
+    ],
+    "legalAddress": {
+      "type": "LEIaddress",
+      "language": "de_AT",
+      "addressLines": [
+        "Denesik LLC",
+        "028 Purdy Ramp"
+      ],
+      "addressNumber": "272",
+      "addressNumberWithinBuilding": "5",
+      "mailRouting": "589 Rodriguez Lodge, 64814",
+      "city": "Pablobury",
+      "region": "Bedfordshire",
+      "country": "Grenada",
+      "postalCode": "29143"
+    },
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "fr_CA",
+      "addressLines": [
+        "Schaden - Mayer",
+        "04098 Schroeder Shore"
+      ],
+      "addressNumber": "278",
+      "addressNumberWithinBuilding": "2",
+      "mailRouting": "084 Hubert Corners, 90884-5718",
+      "city": "West Earnest",
+      "region": "Avon",
+      "country": "Somalia",
+      "postalCode": "54051-9881"
+    },
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000002",
+      "otherValidationAuthorityID": "D80GMIPR",
+      "validationAuthorityEntityID": "NGYSVMG425HFOELQJKGD"
+    },
+    "legalJurisdiction": "Berkshire",
+    "entityCategory": "Grocery",
+    "legalForm": "CORPORATION",
+    "associatedEntity": {
+      "type": "Organization",
+      "leiCode": "741L7R6ZCRFSIMHZ9N1U",
+      "name": "Kutch LLC"
+    },
+    "status": "REQUESTED",
+    "expirationDate": "2022-07-11",
+    "expirationReason": "strategize virtual relationships",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "B6LN2UT9KHOZPBALG3YL",
+      "name": "Borer, Wisozk and Williamson"
+    },
+    "otherAddresses": []
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "LEIentity",
+    "legalName": "Marks Inc",
+    "legalNameLanguage": "pt_BR",
+    "otherNames": [
+      "Ruecker - Collier",
+      "Beahan, Torphy and Ryan"
+    ],
+    "transliteratedOtherNames": [
+      "Ruecker - Collier",
+      "Beahan, Torphy and Ryan"
+    ],
+    "legalAddress": {
+      "type": "LEIaddress",
+      "language": "pl",
+      "addressLines": [
+        "Hodkiewicz LLC",
+        "041 Gleichner Spurs"
+      ],
+      "addressNumber": "316",
+      "addressNumberWithinBuilding": "3",
+      "mailRouting": "69038 Dooley Crescent, 50028-4942",
+      "city": "South Estellatown",
+      "region": "Bedfordshire",
+      "country": "Kuwait",
+      "postalCode": "66402-7206"
+    },
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "hy",
+      "addressLines": [
+        "Gibson - Daugherty",
+        "831 Dulce Forest"
+      ],
+      "addressNumber": "131",
+      "addressNumberWithinBuilding": "6",
+      "mailRouting": "816 Ila Ridge, 99176-1389",
+      "city": "West Nashshire",
+      "region": "Buckinghamshire",
+      "country": "Mongolia",
+      "postalCode": "97258-6992"
+    },
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000003",
+      "otherValidationAuthorityID": "3FBIMAY0",
+      "validationAuthorityEntityID": "370A2F16WVPPO3INSN5Y"
+    },
+    "legalJurisdiction": "Buckinghamshire",
+    "entityCategory": "Grocery",
+    "legalForm": "CORPORATION",
+    "associatedEntity": {
+      "type": "Organization",
+      "leiCode": "UJCGT7U0F82I0DIGCZZC",
+      "name": "Brown Group"
+    },
+    "status": "CONFIRMED",
+    "expirationDate": "2022-07-11",
+    "expirationReason": "cultivate granular mindshare",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "1R43RI08X63TS4WGXXV6",
+      "name": "Wolff and Sons"
     },
     "otherAddresses": []
   }

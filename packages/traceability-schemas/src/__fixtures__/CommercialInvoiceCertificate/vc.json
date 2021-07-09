@@ -37,19 +37,19 @@
   "issuer": {
     "id": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
     "type": "Organization",
-    "name": "Conroy Inc",
-    "description": "Reverse-engineered user-facing process improvement",
+    "name": "Ratke - Feest",
+    "description": "Stand-alone disintermediate projection",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "832 Lehner Row",
-      "addressLocality": "Schimmeltown",
-      "addressRegion": "Wyoming",
-      "postalCode": "26980-2000",
-      "addressCountry": "Rwanda"
+      "streetAddress": "2346 Dibbert Shores",
+      "addressLocality": "Reichelport",
+      "addressRegion": "Utah",
+      "postalCode": "45865",
+      "addressCountry": "Bangladesh"
     },
-    "email": "Maeve_Schowalter84@example.net",
-    "phoneNumber": "555-407-8507",
-    "faxNumber": "555-669-7664"
+    "email": "Katrine.Maggio@example.org",
+    "phoneNumber": "555-673-7143",
+    "faxNumber": "555-573-3177"
   },
   "credentialSubject": {
     "type": [
@@ -162,7 +162,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..9q_XAEbvhArxREMA61_LdNlZ8ACJsO5rgi3Huisih9feaUxV726lagvutBFAQYfh8kGE6rQZ8Pmpydnkft-lDg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..oHspUGBs6d5m5Rg2txdpsN-GuGrdHuDLn3R7G_eQxAGuoWHF6tdFn_SEI7WHOvyaBCBHnWvuE6mUSVtH9xmvCQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

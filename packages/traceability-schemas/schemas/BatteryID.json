@@ -1,0 +1,57 @@
+{
+    "$id": "https://w3id.org/traceability/schemas/VID.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"BatteryID\", \"@id\": \"https://w3id.org/traceability#BatteryID\"}", 
+    "title": "BatteryID",
+    "description": "A Battery ID",
+    "type": "object",
+    "properties": {
+      "@context": {
+        "type": "array"
+      },
+      "type": {
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "array"
+          }
+        ]
+      },
+      "VID": {
+        "$comment": "{\"term\": \"VID\", \"@id\": \"https://w3id.org/traceability#VID\"}",
+        "title": "Vehicle ID",
+        "description": "The unique identity of the vehicle.",
+        "type": "string"
+      },
+      "BatteryID": {
+        "$comment": "{\"term\": \"BatteryID\", \"@id\": \"https://schema.org/identifier\"}",
+        "title": "Battery ID",
+        "description": "The unique identity of the Battery.",
+        "type": "string"
+      },
+      "manufacturer": {
+        "$comment": "{\"term\": \"manufacturer\", \"@id\": \"https://schema.org/manufacturer\"}",
+        "title": "Manufacturer",
+        "description": "The entity manufacturing the vehicle.",
+        "$ref": "https://w3id.org/traceability/schemas/Entity.json"
+      },
+      "model": {
+        "$comment": "{\"term\": \"model\", \"@id\": \"https://schema.org/model\"}",
+        "title": "Model",
+        "description": "Name of Vehicle Model",
+        "type": "string"
+      },
+      "serialNumber": {
+        "$comment": "{\"term\": \"serialNumber\", \"@id\": \"https://schema.org/serialNumber\"}",
+        "title": "Serial Number",
+        "description": "vehicle Identification Number",
+        "type": "string"
+      }
+      
+    },
+    "additionalProperties": false,
+    "examples": []
+  }
+  

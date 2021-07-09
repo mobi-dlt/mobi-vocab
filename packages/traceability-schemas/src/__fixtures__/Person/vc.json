@@ -14,32 +14,32 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "Person",
-    "firstName": "Scottie",
-    "lastName": "Little",
-    "email": "Carey84@example.com",
-    "phoneNumber": "555-980-8042",
+    "firstName": "Edna",
+    "lastName": "Senger",
+    "email": "Haley_Hoeger47@example.org",
+    "phoneNumber": "555-870-2146",
     "worksFor": {
       "type": "Organization",
-      "name": "Ledner LLC",
-      "description": "Adaptive tangible extranet",
+      "name": "Dicki and Sons",
+      "description": "Enhanced transitional definition",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "0863 McDermott Squares",
-        "addressLocality": "Port Garnett",
-        "addressRegion": "Minnesota",
-        "postalCode": "78619-1741",
-        "addressCountry": "Bhutan"
+        "streetAddress": "310 Bosco Ville",
+        "addressLocality": "Feeneyport",
+        "addressRegion": "Arizona",
+        "postalCode": "75854-3935",
+        "addressCountry": "Egypt"
       },
-      "email": "Marianna_Hermann@example.com",
-      "phoneNumber": "555-959-6571",
-      "faxNumber": "555-700-2293"
+      "email": "Ismael_Wolf@example.net",
+      "phoneNumber": "555-667-4090",
+      "faxNumber": "555-860-5138"
     },
-    "jobTitle": "Legacy Interactions Assistant"
+    "jobTitle": "Lead Infrastructure Technician"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..bbUml9aunjwdRPn7RTB7DpG_PEcQra1hc8K-q5Y29AxubQ2dazNV8dW7X6bPZ-412BYKkNuISLBULN2xHuqUDg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..RNH7stiwiGChP1ms5mgqiYvCLLhRoResVYEMm_Bk2FWSxIRdwHDIFKAw7pwDaphPDCbt3_rZ2saTPphfo-6pDQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

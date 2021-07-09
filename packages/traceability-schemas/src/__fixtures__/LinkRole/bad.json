@@ -1,24 +1,29 @@
 [
   {
-    "target": "https://example.com/related/link/123",
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "LinkRole",
     "linkRelationship": "alternate",
-    "hard drive": "synthesize",
-    "application": "program",
-    "port": "index",
-    "program": "input"
+    "card": "override"
   },
   {
-    "linkRelationship": "alternate",
-    "microchip": "quantify",
-    "interface": "bypass",
-    "bus": "back up"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "application": "input",
+    "interface": "input",
+    "firewall": "override",
+    "sensor": "transmit"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "linkRelationship": "alternate",
-    "monitor": "bypass",
-    "pixel": "input"
+    "driver": "navigate",
+    "panel": "program",
+    "circuit": "compress",
+    "application": "generate"
   }
 ]

@@ -4,16 +4,8 @@
       "https://www.w3.org/2018/credentials/v1",
       "https://mobinet.io/schemas/v1"
     ],
-    "name": "Bill Of Lading Certificate",
-    "issuanceDate": "2019-12-11T03:50:55Z",
-    "program": "synthesize"
-  },
-  {
-    "@context": [
-      "https://www.w3.org/2018/credentials/v1",
-      "https://mobinet.io/schemas/v1"
-    ],
     "id": "https://example.com/credential/123",
+    "description": "This document includes recommended bill of lading fields.",
     "relatedLink": [
       {
         "type": [
@@ -31,6 +23,23 @@
       }
     ],
     "issuanceDate": "2019-12-11T03:50:55Z",
+    "issuer": {
+      "id": "did:example:123",
+      "type": "Organization",
+      "name": "Brown, Kris and Jones",
+      "description": "Advanced 5th generation Graphical User Interface",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "706 O'Conner Turnpike",
+        "addressLocality": "Swiftfurt",
+        "addressRegion": "Alabama",
+        "postalCode": "11343-4283",
+        "addressCountry": "Malta"
+      },
+      "email": "Alejandrin.VonRueden12@example.net",
+      "phoneNumber": "555-215-4423",
+      "faxNumber": "555-471-9791"
+    },
     "credentialSubject": {
       "type": [
         "BillOfLading"
@@ -48,8 +57,8 @@
             "type": [
               "Person"
             ],
-            "email": "Alvena.Zemlak@example.net",
-            "phoneNumber": "555-886-1267"
+            "email": "Abdul47@example.org",
+            "phoneNumber": "555-670-4662"
           }
         }
       ],
@@ -64,38 +73,41 @@
           "type": [
             "PostalAddress"
           ],
-          "organizationName": "Murray, Kilback and McLaughlin",
-          "streetAddress": "762 Brendon Ranch",
-          "addressLocality": "East Gerardomouth",
-          "addressRegion": "Missouri",
-          "postalCode": "62926-4795",
+          "organizationName": "Beahan - Bergnaum",
+          "streetAddress": "888 Medhurst Radial",
+          "addressLocality": "Port Yasmine",
+          "addressRegion": "Georgia",
+          "postalCode": "05287-2045",
           "addressCountry": "Estonia"
         },
         "originAddress": {
           "type": [
             "PostalAddress"
           ],
-          "organizationName": "Bernier - Toy",
-          "streetAddress": "03046 Brooke Canyon",
-          "addressLocality": "East Janessashire",
-          "addressRegion": "Minnesota",
-          "postalCode": "44614",
-          "addressCountry": "Namibia"
+          "organizationName": "Steuber, Marvin and Lebsack",
+          "streetAddress": "0282 Buckridge Pine",
+          "addressLocality": "Aureliaport",
+          "addressRegion": "Virginia",
+          "postalCode": "68808",
+          "addressCountry": "Uzbekistan"
         },
-        "deliveryMethod": "Ocean transport",
-        "trackingNumber": "447473668042"
+        "deliveryMethod": "Truck transport",
+        "trackingNumber": "571776634137"
       }
     },
-    "circuit": "synthesize",
-    "monitor": "compress",
-    "pixel": "synthesize",
-    "card": "copy"
+    "matrix": "connect",
+    "card": "connect"
   },
   {
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
       "https://mobinet.io/schemas/v1"
     ],
+    "circuit": "input",
+    "system": "bypass",
+    "card": "reboot"
+  },
+  {
     "id": "https://example.com/credential/123",
     "type": [
       "VerifiableCredential",
@@ -117,26 +129,25 @@
         "linkRelationship": "millTestReportLink"
       }
     ],
-    "issuanceDate": "2019-12-11T03:50:55Z",
     "issuer": {
       "id": "did:example:123",
       "type": "Organization",
-      "name": "Bosco - Cartwright",
-      "description": "Persistent full-range knowledge user",
+      "name": "Howe - Bernier",
+      "description": "Secured fresh-thinking matrices",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "708 Bechtelar Points",
-        "addressLocality": "Dessiefort",
-        "addressRegion": "Arizona",
-        "postalCode": "68621",
-        "addressCountry": "Norway"
+        "streetAddress": "6073 Garnett Rapids",
+        "addressLocality": "Catalinaville",
+        "addressRegion": "Michigan",
+        "postalCode": "10873-9130",
+        "addressCountry": "Macao"
       },
-      "email": "Stephan.Bernier@example.net",
-      "phoneNumber": "555-445-8203",
-      "faxNumber": "555-510-6963"
+      "email": "Barrett_Pagac53@example.org",
+      "phoneNumber": "555-681-4410",
+      "faxNumber": "555-673-1060"
     },
-    "matrix": "transmit",
-    "hard drive": "parse",
-    "bandwidth": "copy"
+    "sensor": "copy",
+    "card": "navigate",
+    "firewall": "override"
   }
 ]

@@ -1,12 +1,66 @@
 [
   {
-    "type": [
-      "OGBillOfLading"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
     ],
-    "shippingDate": "2020-03-15",
-    "arrivalDate": "2020-03-28",
-    "valuePerItem": "500",
-    "totalOrderValue": "1500",
+    "billOfLading": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": [
+        "BillOfLading"
+      ],
+      "billOfLadingNumber": "991205182",
+      "relatedDocuments": [
+        {
+          "@context": [
+            "https://mobinet.io/schemas/v1"
+          ],
+          "type": [
+            "Purchase"
+          ],
+          "customer": {
+            "type": [
+              "Person"
+            ],
+            "email": "Bernhard.Dare13@example.com",
+            "phoneNumber": "555-426-6089"
+          }
+        }
+      ],
+      "freight": {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
+        ],
+        "type": [
+          "ParcelDelivery"
+        ],
+        "deliveryAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "White Inc",
+          "streetAddress": "0943 Santos Gardens",
+          "addressLocality": "New Jovanystad",
+          "addressRegion": "New York",
+          "postalCode": "20546-9687",
+          "addressCountry": "Tokelau"
+        },
+        "originAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Mante, Brakus and Wunsch",
+          "streetAddress": "80933 Jaquan Court",
+          "addressLocality": "Mariannaton",
+          "addressRegion": "Utah",
+          "postalCode": "76910-0086",
+          "addressCountry": "Belarus"
+        },
+        "deliveryMethod": "Air transport",
+        "trackingNumber": "289359521372"
+      }
+    },
     "freightChargeTerms": "Freight Prepaid",
     "openingVolume": {
       "@context": [
@@ -15,9 +69,18 @@
       "type": [
         "MeasuredValue"
       ],
-      "value": "22.146",
-      "unitCode": "P1"
+      "value": "00.00",
+      "unitCode": "UNKNOWN"
     },
+    "sensor": "copy",
+    "feed": "back up"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "arrivalDate": "2020-03-28",
+    "totalOrderValue": "1500",
     "closingVolume": {
       "@context": [
         "https://mobinet.io/schemas/v1"
@@ -25,7 +88,7 @@
       "type": [
         "MeasuredValue"
       ],
-      "value": "50.17",
+      "value": "26.542",
       "unitCode": "P1"
     },
     "observation": [
@@ -37,54 +100,7 @@
           "type": [
             "ChemicalProperty"
           ],
-          "name": "Vanadium"
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "100.00",
-          "unitCode": "P1"
-        }
-      }
-    ],
-    "alarm": "synthesize"
-  },
-  {
-    "valuePerItem": "500",
-    "totalOrderValue": "1500",
-    "batchNumber": "12345678",
-    "program": "navigate",
-    "monitor": "hack",
-    "transmitter": "parse",
-    "bus": "transmit"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "valuePerItem": "500",
-    "batchNumber": "12345678",
-    "openingVolume": {
-      "@context": [
-        "https://mobinet.io/schemas/v1"
-      ],
-      "type": [
-        "MeasuredValue"
-      ],
-      "value": "57.512",
-      "unitCode": "P1"
-    },
-    "observation": [
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "ChemicalProperty"
-          ],
-          "name": "Germanium"
+          "name": "Zirconium"
         },
         "measurement": {
           "type": [
@@ -94,6 +110,92 @@
           "unitCode": "P1"
         }
       },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "MechanicalProperty"
+          ],
+          "identifier": "ISO 180",
+          "name": "Izod Impact Strength Test",
+          "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "99.408",
+          "unitCode": "B13"
+        }
+      }
+    ],
+    "port": "synthesize"
+  },
+  {
+    "billOfLading": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": [
+        "BillOfLading"
+      ],
+      "billOfLadingNumber": "991205182",
+      "relatedDocuments": [
+        {
+          "@context": [
+            "https://mobinet.io/schemas/v1"
+          ],
+          "type": [
+            "Purchase"
+          ],
+          "customer": {
+            "type": [
+              "Person"
+            ],
+            "email": "Sean.Gibson63@example.net",
+            "phoneNumber": "555-711-3546"
+          }
+        }
+      ],
+      "freight": {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
+        ],
+        "type": [
+          "ParcelDelivery"
+        ],
+        "deliveryAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Kassulke Inc",
+          "streetAddress": "057 Koss Rest",
+          "addressLocality": "Idellchester",
+          "addressRegion": "Minnesota",
+          "postalCode": "44532-3863",
+          "addressCountry": "Lesotho"
+        },
+        "originAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Boyer, Swift and Ankunding",
+          "streetAddress": "41160 Aidan Greens",
+          "addressLocality": "Sibylton",
+          "addressRegion": "Idaho",
+          "postalCode": "97797",
+          "addressCountry": "Norway"
+        },
+        "deliveryMethod": "Rail freight transport",
+        "trackingNumber": "201469483544"
+      }
+    },
+    "valuePerItem": "500",
+    "freightChargeTerms": "Freight Prepaid",
+    "batchNumber": "12345678",
+    "observation": [
       {
         "type": [
           "Observation"
@@ -113,9 +215,47 @@
           "value": "00.00",
           "unitCode": "UNKNOWN"
         }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Bismuth"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "100.00",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "MechanicalProperty"
+          ],
+          "identifier": "ISO 180",
+          "name": "Izod Impact Strength Test",
+          "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "33.589",
+          "unitCode": "B13"
+        }
       }
     ],
-    "monitor": "input",
-    "application": "transmit"
+    "array": "generate",
+    "port": "override"
   }
 ]

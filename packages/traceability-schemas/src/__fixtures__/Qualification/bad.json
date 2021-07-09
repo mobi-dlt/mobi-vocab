@@ -1,26 +1,28 @@
 [
   {
-    "qualificationCategory": "Internal Implementation Consultant",
-    "qualificationValue": "Strategist",
-    "capacitor": "copy",
-    "card": "back up",
-    "interface": "reboot",
-    "feed": "hack"
+    "qualificationCategory": "Legacy Creative Developer",
+    "qualificationValue": "Manager",
+    "bandwidth": "copy",
+    "monitor": "program",
+    "system": "back up",
+    "card": "back up"
   },
   {
-    "type": "Qualification",
-    "qualificationCategory": "Product Infrastructure Assistant",
-    "qualificationValue": "Engineer",
-    "protocol": "connect",
-    "bandwidth": "quantify",
-    "application": "compress"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "protocol": "synthesize",
+    "panel": "index",
+    "interface": "navigate",
+    "microchip": "input"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "Qualification",
+    "qualificationCategory": "Forward Operations Administrator",
     "circuit": "bypass",
-    "monitor": "hack"
+    "port": "hack"
   }
 ]

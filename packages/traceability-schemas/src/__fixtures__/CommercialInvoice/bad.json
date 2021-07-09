@@ -1,8 +1,5 @@
 [
   {
-    "type": [
-      "CommercialInvoice"
-    ],
     "portOfEntry": {
       "type": [
         "PostalAddress"
@@ -27,22 +24,6 @@
         "addressRegion": "Michigain",
         "postalCode": "48232-5170",
         "addressCountry": "USA"
-      }
-    },
-    "provider": {
-      "type": [
-        "Organization"
-      ],
-      "address": {
-        "type": [
-          "PostalAddress"
-        ],
-        "organizationName": "Aishi Metal Shinzo Co., Ltd.",
-        "streetAddress": "1651, Shimonakano, Yoshida",
-        "addressLocality": "Tsubame-shi",
-        "addressRegion": "Niigata-ken",
-        "postalCode": "959-0215",
-        "addressCountry": "Japan"
       }
     },
     "totalPaymentDue": {
@@ -106,19 +87,24 @@
         }
       }
     ],
-    "driver": "index",
-    "alarm": "program",
-    "card": "reboot",
-    "program": "bypass"
+    "bus": "transmit",
+    "program": "synthesize",
+    "sensor": "back up"
   },
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
     "type": [
       "CommercialInvoice"
     ],
+    "portOfEntry": {
+      "type": [
+        "PostalAddress"
+      ],
+      "addressLocality": "Seatle",
+      "addressRegion": "Washington",
+      "addressCountry": "USA"
+    },
     "destinationCountry": "MEX",
+    "purchaseDate": "2021-02-21",
     "customer": {
       "type": [
         "Organization"
@@ -135,21 +121,12 @@
         "addressCountry": "USA"
       }
     },
-    "provider": {
+    "totalPaymentDue": {
       "type": [
-        "Organization"
+        "PriceSpecification"
       ],
-      "address": {
-        "type": [
-          "PostalAddress"
-        ],
-        "organizationName": "Aishi Metal Shinzo Co., Ltd.",
-        "streetAddress": "1651, Shimonakano, Yoshida",
-        "addressLocality": "Tsubame-shi",
-        "addressRegion": "Niigata-ken",
-        "postalCode": "959-0215",
-        "addressCountry": "Japan"
-      }
+      "price": 150000,
+      "priceCurrency": "USD"
     },
     "merchandise": [
       {
@@ -205,27 +182,28 @@
         }
       }
     ],
-    "firewall": "parse"
+    "feed": "copy",
+    "program": "compress"
   },
   {
-    "portOfEntry": {
+    "provider": {
       "type": [
-        "PostalAddress"
+        "Organization"
       ],
-      "addressLocality": "Seatle",
-      "addressRegion": "Washington",
-      "addressCountry": "USA"
+      "address": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Aishi Metal Shinzo Co., Ltd.",
+        "streetAddress": "1651, Shimonakano, Yoshida",
+        "addressLocality": "Tsubame-shi",
+        "addressRegion": "Niigata-ken",
+        "postalCode": "959-0215",
+        "addressCountry": "Japan"
+      }
     },
-    "purchaseDate": "2021-02-21",
-    "totalPaymentDue": {
-      "type": [
-        "PriceSpecification"
-      ],
-      "price": 150000,
-      "priceCurrency": "USD"
-    },
-    "feed": "generate",
-    "monitor": "program",
-    "panel": "calculate"
+    "driver": "copy",
+    "hard drive": "calculate",
+    "bus": "compress"
   }
 ]

@@ -1,74 +1,46 @@
 [
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
     "type": "ChargeDeclaration",
     "weightCharge": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 277,
-      "chargePrepaid": 242
+      "chargeCollect": 68,
+      "chargePrepaid": 856
     },
-    "taxCharge": {
+    "otherChargesCarrier": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 967,
-      "chargePrepaid": 833
+      "chargeCollect": 305,
+      "chargePrepaid": 895
     },
-    "totalCharge": {
-      "type": "TotalCharge",
-      "totalPrepaid": 1050,
-      "totalCollect": 350,
-      "sourceCurrency": "MKD",
-      "destinationCurrency": "MKD",
-      "currencyConversionRate": 3,
-      "ccChargesDestinationCurrency": "MKD",
-      "chargesDestination": 1000,
-      "totalCollectCharge": 250
-    },
-    "microchip": "index",
-    "application": "parse"
+    "capacitor": "input"
   },
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "ChargeDeclaration",
-    "weightCharge": {
-      "type": "chargeAndPaymentType",
-      "chargeCollect": 737,
-      "chargePrepaid": 882
-    },
     "taxCharge": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 307,
-      "chargePrepaid": 627
+      "chargeCollect": 482,
+      "chargePrepaid": 930
     },
     "otherChargesAgent": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 332,
-      "chargePrepaid": 574
+      "chargeCollect": 691,
+      "chargePrepaid": 40
     },
-    "totalCharge": {
-      "type": "TotalCharge",
-      "totalPrepaid": 5483.25,
-      "totalCollect": 1827.75,
-      "sourceCurrency": "JPY",
-      "destinationCurrency": "CLP",
-      "currencyConversionRate": 1,
-      "ccChargesDestinationCurrency": "JPY",
-      "chargesDestination": 401,
-      "totalCollectCharge": 100.25
-    },
-    "monitor": "generate",
-    "circuit": "compress"
+    "program": "generate",
+    "capacitor": "transmit",
+    "driver": "parse"
   },
   {
+    "taxCharge": {
+      "type": "chargeAndPaymentType",
+      "chargeCollect": 680,
+      "chargePrepaid": 995
+    },
     "otherChargesAgent": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 603,
-      "chargePrepaid": 725
+      "chargeCollect": 831,
+      "chargePrepaid": 99
     },
-    "circuit": "back up",
-    "capacitor": "parse"
+    "application": "program",
+    "alarm": "transmit",
+    "bus": "synthesize"
   }
 ]

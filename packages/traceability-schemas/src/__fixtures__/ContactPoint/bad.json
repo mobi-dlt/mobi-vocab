@@ -1,33 +1,37 @@
 [
   {
-    "name": "Christiansen - Glover",
-    "interface": "navigate",
-    "capacitor": "parse",
-    "feed": "bypass",
-    "bandwidth": "synthesize"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "ContactPoint",
+    "name": "Rippin, Halvorson and Wiza",
+    "email": "America_Huels46@example.com",
+    "port": "back up"
   },
   {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "type": "ContactPoint",
-    "name": "Glover Inc",
+    "name": "Kunde LLC",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "9687 Conn Ranch",
-      "addressLocality": "East Metahaven",
-      "addressRegion": "North Dakota",
-      "postalCode": "92719",
-      "addressCountry": "Pakistan"
+      "streetAddress": "175 Bradtke Neck",
+      "addressLocality": "Pfeffertown",
+      "addressRegion": "Illinois",
+      "postalCode": "93807",
+      "addressCountry": "British Indian Ocean Territory (Chagos Archipelago)"
     },
-    "email": "Oswald_Nicolas@example.com",
-    "phoneNumber": "555-732-9495",
-    "sensor": "parse",
-    "interface": "generate"
+    "phoneNumber": "555-953-4722",
+    "circuit": "parse",
+    "driver": "generate"
   },
   {
-    "name": "Pagac, Romaguera and Mohr",
-    "phoneNumber": "555-682-2941",
-    "alarm": "back up",
-    "interface": "synthesize",
-    "monitor": "connect",
-    "microchip": "quantify"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "name": "Hartmann and Sons",
+    "phoneNumber": "555-339-4919",
+    "hard drive": "copy"
   }
 ]

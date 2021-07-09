@@ -15,92 +15,76 @@
     ],
     "type": "IntentToSell",
     "seller": {
-      "type": "Person",
-      "firstName": "Walker",
-      "lastName": "Hartmann",
-      "email": "Antonette42@example.org",
-      "phoneNumber": "555-702-5461",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Pollich - Corwin",
-        "description": "Organized holistic groupware",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "600 Laila Estates",
-          "addressLocality": "Keenanburgh",
-          "addressRegion": "Oregon",
-          "postalCode": "81180",
-          "addressCountry": "Panama"
-        },
-        "email": "Frank51@example.com",
-        "phoneNumber": "555-720-3249",
-        "faxNumber": "555-371-1590"
+      "type": "Organization",
+      "name": "Heaney - Runolfsdottir",
+      "description": "Right-sized client-driven knowledge base",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "171 Jasen Radial",
+        "addressLocality": "New Rosstown",
+        "addressRegion": "Oregon",
+        "postalCode": "87253-3620",
+        "addressCountry": "Nicaragua"
       },
-      "jobTitle": "District Division Director"
+      "email": "Shany_Wiza@example.org",
+      "phoneNumber": "555-753-7235",
+      "faxNumber": "555-852-8838"
     },
     "purchaser": {
-      "type": "Person",
-      "firstName": "Holden",
-      "lastName": "Ebert",
-      "email": "Alba_Spinka21@example.net",
-      "phoneNumber": "555-265-2741",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Rice and Sons",
-        "description": "Balanced multi-tasking success",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "6583 Dickinson Greens",
-          "addressLocality": "North Micahstad",
-          "addressRegion": "Georgia",
-          "postalCode": "61364",
-          "addressCountry": "Cameroon"
-        },
-        "email": "Maynard46@example.com",
-        "phoneNumber": "555-522-5988",
-        "faxNumber": "555-430-5744"
+      "type": "Organization",
+      "name": "Marks, Bins and Ritchie",
+      "description": "Team-oriented bifurcated database",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "592 Becker Circles",
+        "addressLocality": "Wehnerville",
+        "addressRegion": "Nebraska",
+        "postalCode": "65470-4727",
+        "addressCountry": "Chad"
       },
-      "jobTitle": "Internal Integration Supervisor"
+      "email": "Larue.McCullough67@example.net",
+      "phoneNumber": "555-380-6587",
+      "faxNumber": "555-375-7470"
     },
     "product": {
       "type": "Product",
       "manufacturer": {
         "type": "Person",
-        "firstName": "Javonte",
-        "lastName": "Sporer",
-        "email": "Leonor36@example.com",
-        "phoneNumber": "555-331-9966",
+        "firstName": "Velva",
+        "lastName": "Considine",
+        "email": "Maudie42@example.org",
+        "phoneNumber": "555-165-1498",
         "worksFor": {
           "type": "Organization",
-          "name": "Swaniawski - Botsford",
-          "description": "Vision-oriented discrete methodology",
+          "name": "Spencer Inc",
+          "description": "Assimilated eco-centric framework",
           "address": {
             "type": "PostalAddress",
-            "streetAddress": "7041 Vergie Shore",
-            "addressLocality": "Lake Melisa",
-            "addressRegion": "Texas",
-            "postalCode": "72168-1158",
-            "addressCountry": "Jamaica"
+            "streetAddress": "322 Bailey Road",
+            "addressLocality": "Bartolettifurt",
+            "addressRegion": "New Hampshire",
+            "postalCode": "60703",
+            "addressCountry": "Martinique"
           },
-          "email": "Guiseppe32@example.net",
-          "phoneNumber": "555-512-3410",
-          "faxNumber": "555-709-6436"
+          "email": "Dasia_Goyette@example.com",
+          "phoneNumber": "555-105-7858",
+          "faxNumber": "555-531-5836"
         },
-        "jobTitle": "Human Identity Designer"
+        "jobTitle": "Dynamic Metrics Associate"
       },
-      "name": "Handcrafted Fresh Soap",
-      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "name": "Small Wooden Fish",
+      "description": "The Football Is Good For Training And Recreational Purposes",
       "sizeOrAmount": {
         "type": "QuantitativeValue",
         "unitCode": "hg/ha",
-        "value": "8686"
+        "value": "4080"
       },
       "weight": {
         "type": "QuantitativeValue",
         "unitCode": "hg/ha",
-        "value": "8346"
+        "value": "1782"
       },
-      "sku": "334149678782"
+      "sku": "903051622198"
     },
     "declarationDate": "2020-03-21",
     "sellByDate": "2021-06-30"
@@ -108,7 +92,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..yj8PprjroC9qJEIzCl7htwHJZ6dI4RPZk5O782ovhP0YuIH4aoYRYBsv6otrWzeRTZXaSK9TsMDkqHIcbQ7lAg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..DTutWWJ-quFlhZU-V0uwxs3Tvc9SJUp2orJi8QnCNI1JCOuDgOBDZ4bibFWZdMdU-mh1ndGNej05t8ekSfykDg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

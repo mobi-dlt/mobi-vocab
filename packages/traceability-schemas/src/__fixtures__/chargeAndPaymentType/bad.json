@@ -1,23 +1,22 @@
 [
   {
-    "driver": "bypass"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
     "type": "chargeAndPaymentType",
-    "alarm": "generate",
-    "protocol": "transmit",
-    "panel": "program"
+    "bus": "calculate",
+    "program": "synthesize",
+    "system": "reboot"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "monitor": "override",
-    "system": "copy",
-    "bandwidth": "compress",
-    "driver": "navigate"
+    "chargePrepaid": 256,
+    "system": "back up",
+    "firewall": "hack"
+  },
+  {
+    "firewall": "generate",
+    "array": "bypass",
+    "alarm": "copy",
+    "monitor": "navigate"
   }
 ]

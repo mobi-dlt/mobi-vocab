@@ -1,19 +1,20 @@
 [
   {
+    "identifier": "IN-98268",
+    "circuit": "index",
+    "hard drive": "copy"
+  },
+  {
+    "protocol": "back up",
+    "matrix": "copy"
+  },
+  {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "Invoice",
-    "sensor": "hack",
-    "alarm": "program",
-    "driver": "input"
-  },
-  {
-    "array": "synthesize",
-    "port": "back up"
-  },
-  {
-    "array": "input",
-    "application": "override"
+    "interface": "input",
+    "sensor": "transmit",
+    "circuit": "synthesize"
   }
 ]

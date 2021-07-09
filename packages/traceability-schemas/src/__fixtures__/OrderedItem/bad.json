@@ -1,38 +1,24 @@
 [
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "OrderedItem",
+    "name": "ACME Bluetooth Computer Keyboard 3801-1",
     "productID": "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
-    "unitPrice": 6,
-    "orderQuantity": 7,
-    "price": 42,
+    "sensor": "reboot",
+    "interface": "back up",
+    "card": "navigate",
+    "system": "transmit"
+  },
+  {
+    "productID": "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
     "pixel": "calculate",
-    "card": "index",
-    "circuit": "parse"
+    "protocol": "transmit"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "type": "OrderedItem",
-    "unitPrice": 6,
-    "orderQuantity": 7,
-    "price": 42,
-    "feed": "back up",
-    "card": "transmit"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "OrderedItem",
-    "unitPrice": 6,
-    "orderQuantity": 5,
-    "circuit": "hack",
-    "bus": "program",
-    "panel": "reboot",
-    "feed": "parse"
+    "productID": "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
+    "orderQuantity": 4,
+    "capacitor": "input",
+    "transmitter": "synthesize"
   }
 ]

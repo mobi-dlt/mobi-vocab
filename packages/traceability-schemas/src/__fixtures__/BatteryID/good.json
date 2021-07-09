@@ -1,0 +1,89 @@
+[
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "BatteryID",
+    "VID": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "BatteryID": "did:mobi:ebfeb1f712ebc6f1c276e12ec21",
+    "manufacturer": {
+      "type": "Person",
+      "firstName": "Horacio",
+      "lastName": "Cronin",
+      "email": "Jairo81@example.org",
+      "phoneNumber": "555-889-7850",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Lang, Moore and Gulgowski",
+        "description": "Configurable local capability",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "95071 Pfannerstill Court",
+          "addressLocality": "Audreannefort",
+          "addressRegion": "Wisconsin",
+          "postalCode": "45183",
+          "addressCountry": "Romania"
+        },
+        "email": "Augustus_Swift@example.net",
+        "phoneNumber": "555-472-5880",
+        "faxNumber": "555-782-6313"
+      },
+      "jobTitle": "Future Mobility Producer",
+      "name": "Panasonic"
+    },
+    "model": "Panasonic EV",
+    "serialNumber": "H1591BO0732A"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "BatteryID",
+    "VID": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "BatteryID": "did:mobi:ebfeb1f712ebc6f1c276e12ec21",
+    "manufacturer": {
+      "type": "Organization",
+      "name": "Panasonic",
+      "description": "Horizontal exuding hierarchy",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "3755 Stanton Mount",
+        "addressLocality": "Spencertown",
+        "addressRegion": "Tennessee",
+        "postalCode": "02797-3637",
+        "addressCountry": "Cameroon"
+      },
+      "email": "Mireya.Sauer59@example.com",
+      "phoneNumber": "555-857-3750",
+      "faxNumber": "555-523-8889"
+    },
+    "model": "Panasonic EV",
+    "serialNumber": "H1591BO0732A"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "BatteryID",
+    "VID": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "BatteryID": "did:mobi:ebfeb1f712ebc6f1c276e12ec21",
+    "manufacturer": {
+      "type": "Organization",
+      "name": "Panasonic",
+      "description": "Stand-alone eco-centric initiative",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "304 Jayde Path",
+        "addressLocality": "Lucychester",
+        "addressRegion": "Arkansas",
+        "postalCode": "52575",
+        "addressCountry": "Australia"
+      },
+      "email": "Arely69@example.com",
+      "phoneNumber": "555-643-5379",
+      "faxNumber": "555-708-6394"
+    },
+    "model": "Panasonic EV",
+    "serialNumber": "H1591BO0732A"
+  }
+]

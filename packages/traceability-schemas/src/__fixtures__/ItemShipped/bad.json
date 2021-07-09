@@ -3,33 +3,31 @@
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "type": "ItemShipped",
-    "name": "Gorgeous Plastic Gloves",
-    "weight": "1.123 lp",
-    "height": "3.594 in",
-    "width": "8.913 in",
-    "depth": "6.746 in",
-    "bus": "reboot",
-    "firewall": "back up"
+    "name": "Ergonomic Metal Chicken",
+    "height": "8.23 in",
+    "system": "compress",
+    "monitor": "index"
   },
   {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "type": "ItemShipped",
-    "name": "Handcrafted Rubber Shirt",
-    "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "productID": "FLNXQ705XU",
-    "weight": "1.658 lp",
-    "height": "7.128 in",
-    "width": "3.102 in",
+    "manufacturer": "Sanford LLC",
+    "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+    "productID": "T2CLND8S3V",
+    "weight": "4.178 lp",
+    "height": "8.659 in",
     "orderQuantity": 3,
-    "matrix": "synthesize",
-    "card": "copy"
+    "matrix": "connect",
+    "port": "reboot"
   },
   {
-    "type": "ItemShipped",
-    "name": "Ergonomic Cotton Computer",
-    "productID": "9U088E2M3H",
-    "width": "3.069 in",
-    "array": "parse",
-    "interface": "synthesize"
+    "productID": "TP91GVP4F4",
+    "width": "7.353 in",
+    "orderQuantity": 10,
+    "sensor": "copy",
+    "hard drive": "program",
+    "alarm": "hack"
   }
 ]

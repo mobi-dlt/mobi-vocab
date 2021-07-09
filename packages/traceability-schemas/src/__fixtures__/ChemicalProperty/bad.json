@@ -1,19 +1,27 @@
 [
   {
-    "sensor": "copy",
-    "card": "navigate",
-    "firewall": "override"
+    "type": "ChemicalProperty",
+    "name": "Rhodium",
+    "formula": "Rh",
+    "inchi": "InChI=1S/Rh",
+    "inchikey": "MHOVAHRLVXNVSD-UHFFFAOYSA-N",
+    "sensor": "input",
+    "protocol": "copy"
+  },
+  {
+    "inchikey": "OGPBJKLSAFTDLK-UHFFFAOYSA-N",
+    "bandwidth": "calculate",
+    "transmitter": "quantify",
+    "capacitor": "synthesize"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "array": "quantify",
-    "monitor": "program"
-  },
-  {
-    "hard drive": "transmit",
-    "capacitor": "connect",
-    "microchip": "parse"
+    "type": "ChemicalProperty",
+    "name": "Lead",
+    "formula": "Pb",
+    "inchi": "InChI=1S/Pb",
+    "firewall": "program"
   }
 ]

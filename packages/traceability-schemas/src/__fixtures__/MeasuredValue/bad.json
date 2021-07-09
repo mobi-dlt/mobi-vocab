@@ -1,22 +1,28 @@
 [
   {
-    "card": "program",
-    "hard drive": "compress",
-    "driver": "program"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "value": "3.71",
+    "unitCode": "P1",
+    "feed": "program",
+    "firewall": "hack",
+    "bus": "connect"
+  },
+  {
+    "transmitter": "hack",
+    "card": "hack",
+    "monitor": "override"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "MeasuredValue",
-    "value": "12.733",
-    "alarm": "parse",
-    "system": "calculate",
-    "protocol": "bypass"
-  },
-  {
-    "value": "00.00",
-    "unitCode": "UNKNOWN",
-    "feed": "reboot"
+    "value": "29.931",
+    "system": "compress",
+    "sensor": "synthesize",
+    "port": "reboot",
+    "feed": "generate"
   }
 ]

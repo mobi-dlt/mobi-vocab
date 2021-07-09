@@ -16,29 +16,29 @@
     "type": "ParcelDelivery",
     "deliveryAddress": {
       "type": "PostalAddress",
-      "organizationName": "Douglas - Nader",
-      "streetAddress": "5029 Alaina Union",
-      "addressLocality": "Fatimafurt",
-      "addressRegion": "Oklahoma",
-      "postalCode": "70460",
-      "addressCountry": "Portugal"
+      "organizationName": "Hayes - Mills",
+      "streetAddress": "613 Kayla Walk",
+      "addressLocality": "Christaview",
+      "addressRegion": "Connecticut",
+      "postalCode": "54610-5287",
+      "addressCountry": "San Marino"
     },
     "originAddress": {
       "type": "PostalAddress",
-      "organizationName": "Berge - Rosenbaum",
-      "streetAddress": "26231 Kuhlman Inlet",
-      "addressLocality": "Wolfffort",
-      "addressRegion": "Wisconsin",
-      "postalCode": "45273",
-      "addressCountry": "Dominica"
+      "organizationName": "Steuber, Quigley and Okuneva",
+      "streetAddress": "48380 Breanne Extension",
+      "addressLocality": "Port Elsehaven",
+      "addressRegion": "New Hampshire",
+      "postalCode": "28458-6459",
+      "addressCountry": "Australia"
     },
-    "deliveryMethod": "Ocean transport",
-    "trackingNumber": "268788609794"
+    "deliveryMethod": "Rail freight transport",
+    "trackingNumber": "847502140048"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..EU9mu9BEM-CVF0Zhqf6y7LSBLSij6-4AUbiFQtWnj6E63uqk5-2EA6y5nkKkze5-S9sFwLClhlfUtg3LoRMcDA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..D64Hc7N2wf0RLlEKjP_A-unx7iPV1j3C7fz0Tj6MiE5Mb4KOPJORdsD_e-lJJ9GrA81Wlz1vz1uhgzwgPH4GDA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -1,20 +1,27 @@
 [
   {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "type": "QuantitativeValue",
-    "value": "6995",
-    "pixel": "input",
-    "sensor": "program",
-    "interface": "hack"
+    "array": "transmit",
+    "microchip": "navigate",
+    "bandwidth": "compress",
+    "card": "generate"
   },
   {
-    "port": "back up",
-    "bandwidth": "navigate",
-    "array": "generate",
-    "interface": "synthesize"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "QuantitativeValue",
+    "unitCode": "hg/ha",
+    "panel": "back up",
+    "protocol": "hack",
+    "feed": "program"
   },
   {
-    "protocol": "parse",
-    "microchip": "input",
-    "circuit": "index"
+    "firewall": "navigate",
+    "circuit": "back up",
+    "matrix": "hack"
   }
 ]

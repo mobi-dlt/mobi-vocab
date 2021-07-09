@@ -1,132 +1,91 @@
 [
   {
+    "hard drive": "transmit",
+    "firewall": "override"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "type": "IntentToSell",
     "purchaser": {
-      "type": "Person",
-      "firstName": "Holden",
-      "lastName": "Ebert",
-      "email": "Alba_Spinka21@example.net",
-      "phoneNumber": "555-265-2741",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Rice and Sons",
-        "description": "Balanced multi-tasking success",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "6583 Dickinson Greens",
-          "addressLocality": "North Micahstad",
-          "addressRegion": "Georgia",
-          "postalCode": "61364",
-          "addressCountry": "Cameroon"
-        },
-        "email": "Maynard46@example.com",
-        "phoneNumber": "555-522-5988",
-        "faxNumber": "555-430-5744"
+      "type": "Organization",
+      "name": "Walker and Sons",
+      "description": "Enhanced 3rd generation portal",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "06005 Meta Key",
+        "addressLocality": "Okunevashire",
+        "addressRegion": "New York",
+        "postalCode": "27381-6735",
+        "addressCountry": "Republic of Korea"
       },
-      "jobTitle": "Internal Integration Supervisor"
+      "email": "Lon_Schmitt43@example.com",
+      "phoneNumber": "555-737-8721",
+      "faxNumber": "555-324-3686"
     },
     "product": {
       "type": "Product",
       "manufacturer": {
-        "type": "Person",
-        "firstName": "Javonte",
-        "lastName": "Sporer",
-        "email": "Leonor36@example.com",
-        "phoneNumber": "555-331-9966",
-        "worksFor": {
-          "type": "Organization",
-          "name": "Swaniawski - Botsford",
-          "description": "Vision-oriented discrete methodology",
-          "address": {
-            "type": "PostalAddress",
-            "streetAddress": "7041 Vergie Shore",
-            "addressLocality": "Lake Melisa",
-            "addressRegion": "Texas",
-            "postalCode": "72168-1158",
-            "addressCountry": "Jamaica"
-          },
-          "email": "Guiseppe32@example.net",
-          "phoneNumber": "555-512-3410",
-          "faxNumber": "555-709-6436"
+        "type": "Organization",
+        "name": "Reinger, Doyle and Abbott",
+        "description": "Customizable user-facing standardization",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "86029 Jacobs Green",
+          "addressLocality": "Lake Thora",
+          "addressRegion": "Montana",
+          "postalCode": "65352",
+          "addressCountry": "Cuba"
         },
-        "jobTitle": "Human Identity Designer"
+        "email": "Marina26@example.org",
+        "phoneNumber": "555-959-4859",
+        "faxNumber": "555-643-6870"
       },
-      "name": "Handcrafted Fresh Soap",
-      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "name": "Practical Frozen Chicken",
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
       "sizeOrAmount": {
         "type": "QuantitativeValue",
         "unitCode": "hg/ha",
-        "value": "8686"
+        "value": "387"
       },
       "weight": {
         "type": "QuantitativeValue",
         "unitCode": "hg/ha",
-        "value": "8346"
+        "value": "1239"
       },
-      "sku": "334149678782"
+      "sku": "318358841016"
     },
+    "declarationDate": "2020-03-21",
     "sellByDate": "2021-06-30",
-    "bus": "back up",
-    "firewall": "quantify"
+    "matrix": "synthesize"
   },
   {
-    "purchaser": {
+    "seller": {
       "type": "Person",
-      "firstName": "Kyla",
-      "lastName": "Goodwin",
-      "email": "Rosario.Nikolaus@example.com",
-      "phoneNumber": "555-651-7510",
+      "firstName": "Cole",
+      "lastName": "Cassin",
+      "email": "Raphaelle87@example.com",
+      "phoneNumber": "555-185-4646",
       "worksFor": {
         "type": "Organization",
-        "name": "Bednar, Hane and Hills",
-        "description": "Re-contextualized impactful monitoring",
+        "name": "Lynch, Klein and Steuber",
+        "description": "Synchronised upward-trending throughput",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "96423 Kelli Trail",
-          "addressLocality": "Denesikfort",
-          "addressRegion": "Idaho",
-          "postalCode": "40917-6483",
-          "addressCountry": "Fiji"
+          "streetAddress": "22406 Kemmer Course",
+          "addressLocality": "East Francisca",
+          "addressRegion": "Montana",
+          "postalCode": "26969-0563",
+          "addressCountry": "Uruguay"
         },
-        "email": "Vesta.Rempel78@example.com",
-        "phoneNumber": "555-594-3152",
-        "faxNumber": "555-773-8082"
+        "email": "Ethel.Kertzmann@example.org",
+        "phoneNumber": "555-443-5868",
+        "faxNumber": "555-470-7437"
       },
-      "jobTitle": "Future Security Coordinator"
+      "jobTitle": "Global Marketing Technician"
     },
-    "sellByDate": "2021-06-30",
-    "interface": "reboot",
-    "array": "reboot",
-    "transmitter": "back up"
-  },
-  {
-    "purchaser": {
-      "type": "Person",
-      "firstName": "Tierra",
-      "lastName": "Witting",
-      "email": "Hyman_Dickens56@example.net",
-      "phoneNumber": "555-145-7699",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Towne Group",
-        "description": "Switchable foreground info-mediaries",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "723 Dare Radial",
-          "addressLocality": "McClureburgh",
-          "addressRegion": "Virginia",
-          "postalCode": "38681-7683",
-          "addressCountry": "Singapore"
-        },
-        "email": "Alison.Kirlin@example.org",
-        "phoneNumber": "555-290-6422",
-        "faxNumber": "555-381-3662"
-      },
-      "jobTitle": "Direct Marketing Producer"
-    },
-    "sellByDate": "2021-06-30",
-    "protocol": "quantify",
-    "transmitter": "transmit",
-    "application": "override"
+    "sensor": "program",
+    "circuit": "synthesize"
   }
 ]

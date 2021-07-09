@@ -14,74 +14,74 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIentity",
-    "legalName": "Larson Group",
-    "legalNameLanguage": "en_CA",
+    "legalName": "Treutel and Sons",
+    "legalNameLanguage": "nl_BE",
     "otherNames": [
-      "Boehm, Nienow and Gerlach",
-      "Auer Group"
+      "Ward, Swaniawski and Schneider",
+      "Cruickshank Inc"
     ],
     "transliteratedOtherNames": [
-      "Boehm, Nienow and Gerlach",
-      "Auer Group"
+      "Ward, Swaniawski and Schneider",
+      "Cruickshank Inc"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "es",
+      "language": "en_AU",
       "addressLines": [
-        "Jenkins, Rosenbaum and Auer",
-        "62764 Kessler Fields"
+        "McCullough - Hessel",
+        "5023 Philip Locks"
       ],
-      "addressNumber": "355",
-      "addressNumberWithinBuilding": "9",
-      "mailRouting": "7378 Schiller Locks, 81662-9263",
-      "city": "Beverlyshire",
-      "region": "Bedfordshire",
-      "country": "Romania",
-      "postalCode": "62242"
+      "addressNumber": "381",
+      "addressNumberWithinBuilding": "6",
+      "mailRouting": "51045 Sylvia Forges, 16010-7366",
+      "city": "Lake Hannahview",
+      "region": "Avon",
+      "country": "Virgin Islands, U.S.",
+      "postalCode": "66326"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "tr",
+      "language": "it",
       "addressLines": [
-        "Braun, Rice and Reichel",
-        "915 Berge Knolls"
+        "Veum and Sons",
+        "702 Jerde Plaza"
       ],
-      "addressNumber": "173",
-      "addressNumberWithinBuilding": "1",
-      "mailRouting": "820 Aliya Ridge, 86486",
-      "city": "East Joy",
+      "addressNumber": "461",
+      "addressNumberWithinBuilding": "9",
+      "mailRouting": "812 Breana Estate, 37204-1479",
+      "city": "North Reaganborough",
       "region": "Buckinghamshire",
-      "country": "French Southern Territories",
-      "postalCode": "47348-6247"
+      "country": "Seychelles",
+      "postalCode": "56634"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000001",
-      "otherValidationAuthorityID": "W7H8UCSL",
-      "validationAuthorityEntityID": "EG8QE7T08RITT2CLND8S"
+      "validationAuthorityID": "RA000005",
+      "otherValidationAuthorityID": "MTP2CT3H",
+      "validationAuthorityEntityID": "24LVINQ5I1F5EL06C8Z0"
     },
-    "legalJurisdiction": "Avon",
-    "entityCategory": "Finance",
-    "legalForm": "LLC",
+    "legalJurisdiction": "Berkshire",
+    "entityCategory": "Jewelery",
+    "legalForm": "CORPORATION",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "RVLB94ZGWL4109O1LFXW",
-      "name": "Boyle, Sanford and Goldner"
+      "leiCode": "V5T6ZRX0WKQDDI3KOBZA",
+      "name": "McKenzie, Schinner and Stamm"
     },
-    "status": "CONFIRMED",
+    "status": "REQUESTED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "exploit wireless action-items",
+    "expirationReason": "deploy customized synergies",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "JZ1ZG9X1VP3GQ3TP91GV",
-      "name": "Conn, Kessler and Champlin"
+      "leiCode": "O2WIGYFOS236IRUUTMYN",
+      "name": "Barrows, Durgan and Shields"
     },
     "otherAddresses": []
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Ic9RxqrL4vLZ3ZTTScONRiznl7BXSdAq-X-kCgW1BduhjOpSmmJ01lIGtpmgX6kgi1Mg03qkuBnmONAkIvc-BQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..F4kEHijcmmqnhITSzoIXi1gw2_-UJPDljK5i7q1S1di7endAEeSWot9jxoVpjZAmSW4GuMhdqbHHHWphI7rWCQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -14,12 +14,12 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "Invoice",
-    "identifier": "IN-71632"
+    "identifier": "IN-98268"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..fTNFmfhEcX-ifvjA-iIqCjDf3bMKj0T_mgjYh7ikDLZdKxWpinsQ69l9Hw5smn4m9BecjewuGFbmRQcKByltBg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..wkiam6fhSHZ1-Wez86iLdqV3-W0m7KtGYcsrfqiEsXKzn5PtRKmZLfdEmAUjp_KOqccCS6MxRLwocK2AcFRKDQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

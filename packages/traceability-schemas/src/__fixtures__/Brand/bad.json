@@ -1,21 +1,16 @@
 [
   {
     "logo": "http://placeimg.com/640/480",
-    "interface": "parse"
+    "firewall": "reboot",
+    "sensor": "navigate",
+    "hard drive": "input"
   },
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "logo": "http://placeimg.com/640/480",
-    "panel": "connect",
-    "hard drive": "override",
-    "application": "compress"
+    "transmitter": "quantify",
+    "application": "quantify"
   },
   {
-    "port": "synthesize",
-    "microchip": "override",
-    "protocol": "generate",
-    "array": "synthesize"
+    "type": "Brand",
+    "matrix": "bypass"
   }
 ]

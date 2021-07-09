@@ -14,18 +14,16 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceOrderRegistrationCredential",
-    "orderID": "Order#455",
+    "orderID": "Order#201",
     "productInOrder": [
-      "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
-      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
-      "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
+      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e"
     ],
     "certificateName": "ACME Ecommerce Order Registration Certificate"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..H7wHXvQAA1uTqyrPrSt57Y3MVw_B4JYse9Z4uyLUV-Rs2GXT0sPywATvP8uth1tx_1sXmyTC6Zb8p2oBcWBaDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Apv8OHhRMxK-rIEh3MIWsx36ZftIwmZ2dizzED6mvRPLUuc3F7LA8nQfe2_RW1vNkx3r9fUFUUdao4Om7CYFCQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

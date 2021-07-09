@@ -16,37 +16,37 @@
     "type": "ShippingStop",
     "shippingStopAddress": {
       "type": "PostalAddress",
-      "organizationName": "Becker - Wiegand",
-      "streetAddress": "94382 Kaley Isle",
-      "addressLocality": "Toystad",
-      "addressRegion": "Virginia",
-      "postalCode": "27033-5689",
-      "addressCountry": "Panama"
+      "organizationName": "Collins, Hagenes and McKenzie",
+      "streetAddress": "85745 Bradtke Trail",
+      "addressLocality": "Destanyview",
+      "addressRegion": "Pennsylvania",
+      "postalCode": "06383",
+      "addressCountry": "Guyana"
     },
     "carrier": {
       "type": "Organization",
-      "name": "Rohan - Goldner",
-      "description": "Face to face value-added protocol",
+      "name": "Reilly Inc",
+      "description": "Inverse reciprocal access",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "8172 Gracie Well",
-        "addressLocality": "West Daishaville",
-        "addressRegion": "Kansas",
-        "postalCode": "65532",
-        "addressCountry": "Belarus"
+        "streetAddress": "8440 Jammie Valley",
+        "addressLocality": "Gorczanyfurt",
+        "addressRegion": "Delaware",
+        "postalCode": "01551",
+        "addressCountry": "Iceland"
       },
-      "email": "Birdie_Beer9@example.com",
-      "phoneNumber": "555-247-8982",
-      "faxNumber": "555-313-2785"
+      "email": "Alexys.Bradtke83@example.net",
+      "phoneNumber": "555-452-4861",
+      "faxNumber": "555-630-9710"
     },
-    "vesselNumber": "ACMECarrierVessel#335",
+    "vesselNumber": "ACMECarrierVessel#961",
     "arrivalDate": "2021-03-09",
-    "stopType": "Destination"
+    "stopType": "Stopover"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..WhHU11b_gVP4hTU2NiSAISLZWKMgXZkG5oUftCO4XUijt6fzckL40nN31BZKLetK253-PV203APbb9uqyXcgDA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ICPXAUvAHP-lzQgP0a8yRCRcfo2RUcMlrgw93VpDrzId1yrvUYNk-H6Bs4O9LhHQZctZQM7o2Z-WndfSd-2mDg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

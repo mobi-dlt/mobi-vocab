@@ -36,8 +36,8 @@
             "type": [
               "Person"
             ],
-            "email": "Abdiel_Weissnat@example.net",
-            "phoneNumber": "555-920-4114"
+            "email": "Bernhard.Dare13@example.com",
+            "phoneNumber": "555-426-6089"
           }
         }
       ],
@@ -52,26 +52,26 @@
           "type": [
             "PostalAddress"
           ],
-          "organizationName": "Von LLC",
-          "streetAddress": "825 Strosin Knoll",
-          "addressLocality": "West Alivia",
-          "addressRegion": "New Mexico",
-          "postalCode": "17004",
-          "addressCountry": "Cuba"
+          "organizationName": "White Inc",
+          "streetAddress": "0943 Santos Gardens",
+          "addressLocality": "New Jovanystad",
+          "addressRegion": "New York",
+          "postalCode": "20546-9687",
+          "addressCountry": "Tokelau"
         },
         "originAddress": {
           "type": [
             "PostalAddress"
           ],
-          "organizationName": "Huel, Sawayn and Mayert",
-          "streetAddress": "5663 Kassulke Ports",
-          "addressLocality": "West Korey",
-          "addressRegion": "Delaware",
-          "postalCode": "50554-3357",
-          "addressCountry": "Angola"
+          "organizationName": "Mante, Brakus and Wunsch",
+          "streetAddress": "80933 Jaquan Court",
+          "addressLocality": "Mariannaton",
+          "addressRegion": "Utah",
+          "postalCode": "76910-0086",
+          "addressCountry": "Belarus"
         },
-        "deliveryMethod": "Ocean transport",
-        "trackingNumber": "74670896395"
+        "deliveryMethod": "Air transport",
+        "trackingNumber": "289359521372"
       }
     },
     "shippingDate": "2020-03-15",
@@ -87,8 +87,8 @@
       "type": [
         "MeasuredValue"
       ],
-      "value": "22.146",
-      "unitCode": "P1"
+      "value": "00.00",
+      "unitCode": "UNKNOWN"
     },
     "closingVolume": {
       "@context": [
@@ -97,7 +97,7 @@
       "type": [
         "MeasuredValue"
       ],
-      "value": "50.17",
+      "value": "58.603",
       "unitCode": "P1"
     },
     "observation": [
@@ -107,9 +107,69 @@
         ],
         "property": {
           "type": [
+            "MechanicalProperty"
+          ],
+          "identifier": "ISO 1352",
+          "name": "Torque-controlled fatigue testing",
+          "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "00.00",
+          "unitCode": "UNKNOWN"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "MechanicalProperty"
+          ],
+          "identifier": "ISO 148",
+          "name": "Charpy Impact Strength Test",
+          "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "75.443",
+          "unitCode": "B13"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "MechanicalProperty"
+          ],
+          "identifier": "ISO 148",
+          "name": "Charpy Impact Strength Test",
+          "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "47.485",
+          "unitCode": "B13"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
             "ChemicalProperty"
           ],
-          "name": "Vanadium"
+          "name": "Einsteinium"
         },
         "measurement": {
           "type": [
@@ -124,7 +184,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..in9gTDxifpGRHUs14uRDgUKcLPuX-cFKZmE78uVrYwj9w2VaMpEZjquf8k2TKLzLcQP0uhTEBJpZ1XlLzw1xDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ZPIQ3XQKbxt5MgscgtekRSAhBHCmJPYlg9WnhDpQ4Q204uMC3cDgv9vQXu39eqVnKlvpniYO_vdW4O4CoceaBQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

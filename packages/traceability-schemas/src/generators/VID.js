@@ -5,16 +5,17 @@ const { getEntity } = require('./Entity');
 const getVID = () => {
     const manufacturer = getEntity();
     delete manufacturer['@context'];
+    manufacturer.name = 'Ford';
 
     const example = {
         '@context': ['https://mobinet.io/schemas/v1'],
         type: 'VID',
-        vehicleID: 'sample_VID',
+        VID: 'did:mobi:c276e12ec21ebfeb1f712ebc6f',
         manufacturer,
-        make: 'Tesla',
-        model: 'Tesla',
-        vin: 'vin_number_123',
-        licensePlate: 'test_plate_xxx',
+        make: 'Ford',
+        model: 'Mach E',
+        vin: 'JTERU5JR7M5861170',
+        licensePlate: '8TMF808',
     };
     return example;
 };

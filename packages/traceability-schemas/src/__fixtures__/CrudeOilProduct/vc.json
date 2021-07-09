@@ -23,24 +23,24 @@
       "type": [
         "Place"
       ],
-      "globalLocationNumber": "5094269796595",
+      "globalLocationNumber": "1680445799234",
       "geo": {
         "type": [
           "GeoCoordinates"
         ],
-        "latitude": "-41.8946",
-        "longitude": "98.2518"
+        "latitude": "-24.1775",
+        "longitude": "-106.2068"
       },
       "address": {
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Lebsack Inc",
-        "streetAddress": "815 Russel Bridge",
-        "addressLocality": "Lake Fredy",
-        "addressRegion": "Connecticut",
-        "postalCode": "24032",
-        "addressCountry": "Grenada"
+        "organizationName": "Reinger Inc",
+        "streetAddress": "1868 Mayert Spur",
+        "addressLocality": "East William",
+        "addressRegion": "South Dakota",
+        "postalCode": "69316-6283",
+        "addressCountry": "United States Minor Outlying Islands"
       }
     },
     "observation": [
@@ -50,11 +50,29 @@
         ],
         "property": {
           "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Lithium"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "51.345",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
             "MechanicalProperty"
           ],
-          "identifier": "ISO 3738",
-          "name": "Rockwell Hardness Test (Scale A)",
-          "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
+          "identifier": "ISO 1352",
+          "name": "Torque-controlled fatigue testing",
+          "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
         },
         "measurement": {
           "type": [
@@ -72,13 +90,13 @@
           "type": [
             "ChemicalProperty"
           ],
-          "name": "Beryllium"
+          "name": "Terbium"
         },
         "measurement": {
           "type": [
             "MeasuredValue"
           ],
-          "value": "100.00",
+          "value": "48.655",
           "unitCode": "P1"
         }
       },
@@ -98,28 +116,8 @@
           "type": [
             "MeasuredValue"
           ],
-          "value": "57.300",
+          "value": "93.7",
           "unitCode": "B13"
-        }
-      },
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "MechanicalProperty"
-          ],
-          "identifier": "ISO 3738",
-          "name": "Rockwell Hardness Test (Scale A)",
-          "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "00.00",
-          "unitCode": "UNKNOWN"
         }
       }
     ],
@@ -131,8 +129,8 @@
         "type": [
           "Organization"
         ],
-        "email": "Lauriane72@example.net",
-        "phoneNumber": "555-738-2119"
+        "email": "Anastasia_McCullough94@example.net",
+        "phoneNumber": "555-739-3054"
       },
       "name": "Crude Oil Barrel",
       "description": "Heavy Sour Dilbit",
@@ -141,22 +139,22 @@
           "QuantitativeValue"
         ],
         "unitCode": "hg/ha",
-        "value": "8778"
+        "value": "7854"
       },
       "weight": {
         "type": [
           "QuantitativeValue"
         ],
         "unitCode": "hg/ha",
-        "value": "426"
+        "value": "9914"
       },
-      "sku": "311870740312"
+      "sku": "561297936667"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..fLyANTSHm-Xm0WEPfUqid3NHCMED9YQNEw1lIdnv77OlDgLEm8J0zdEBAwbj7oCkifCeFkF3el4nGQOWeJVcDw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AKS8HClLXsn6nHQqrsBeNohhQ0pRhs9u0oo8Pma3qT70r2ZU6gQdaJr26mv3fYq8TH0es2A7sXwGCBhsDgaSAA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

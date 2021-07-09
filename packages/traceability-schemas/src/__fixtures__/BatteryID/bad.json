@@ -1,0 +1,46 @@
+[
+  {
+    "microchip": "copy",
+    "hard drive": "input",
+    "monitor": "transmit"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "BatteryID",
+    "BatteryID": "did:mobi:ebfeb1f712ebc6f1c276e12ec21",
+    "manufacturer": {
+      "type": "Organization",
+      "name": "Panasonic",
+      "description": "Horizontal exuding hierarchy",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "3755 Stanton Mount",
+        "addressLocality": "Spencertown",
+        "addressRegion": "Tennessee",
+        "postalCode": "02797-3637",
+        "addressCountry": "Cameroon"
+      },
+      "email": "Mireya.Sauer59@example.com",
+      "phoneNumber": "555-857-3750",
+      "faxNumber": "555-523-8889"
+    },
+    "model": "Panasonic EV",
+    "serialNumber": "H1591BO0732A",
+    "interface": "back up",
+    "feed": "override",
+    "driver": "back up"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "BatteryID",
+    "VID": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "BatteryID": "did:mobi:ebfeb1f712ebc6f1c276e12ec21",
+    "program": "transmit",
+    "transmitter": "generate",
+    "firewall": "index"
+  }
+]

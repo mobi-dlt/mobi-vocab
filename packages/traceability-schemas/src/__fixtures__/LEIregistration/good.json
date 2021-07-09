@@ -6,16 +6,36 @@
     "type": "LEIregistration",
     "initialRegistrationDate": "2020-01-01",
     "lastUpdateDate": "2020-01-01",
-    "status": "CONFIRMED",
+    "status": "REJECTED",
     "nextRenewalDate": "2021-02-02",
-    "managingLou": "RPKIQCIFPENLARUGAAHN",
+    "managingLou": "ECRFPDQUCBXRKJITMZKC",
+    "validationSources": "NOT_CORROBORATED",
+    "validationAuthority": [
+      {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000002",
+        "otherValidationAuthorityID": "TLFQK3IV",
+        "validationAuthorityEntityID": "1UMNTI5PL0LL5U4CZ3EF"
+      }
+    ]
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "LEIregistration",
+    "initialRegistrationDate": "2020-01-01",
+    "lastUpdateDate": "2020-01-01",
+    "status": "REJECTED",
+    "nextRenewalDate": "2021-02-02",
+    "managingLou": "LRAYOURUPNTEOLBODRPP",
     "validationSources": "FULLY_CORROBORATED",
     "validationAuthority": [
       {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000003",
-        "otherValidationAuthorityID": "2Y74IHJ7",
-        "validationAuthorityEntityID": "126BH5LP5JE5W0ZTZ6VL"
+        "validationAuthorityID": "RA000004",
+        "otherValidationAuthorityID": "XZ8KKA9E",
+        "validationAuthorityEntityID": "T60RKRCVB0NKU7LCUS96"
       }
     ]
   },
@@ -26,36 +46,16 @@
     "type": "LEIregistration",
     "initialRegistrationDate": "2020-01-01",
     "lastUpdateDate": "2020-01-01",
-    "status": "REQUESTED",
+    "status": "CONFIRMED",
     "nextRenewalDate": "2021-02-02",
-    "managingLou": "NARGWXMVIRTSFSKYWVSQ",
-    "validationSources": "PARTIALLY_CORROBORATED",
-    "validationAuthority": [
-      {
-        "type": "LEIauthority",
-        "validationAuthorityID": "RA000005",
-        "otherValidationAuthorityID": "TMBS8N9Q",
-        "validationAuthorityEntityID": "IWQVIO27QMTIAPNTFQWU"
-      }
-    ]
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "LEIregistration",
-    "initialRegistrationDate": "2020-01-01",
-    "lastUpdateDate": "2020-01-01",
-    "status": "REQUESTED",
-    "nextRenewalDate": "2021-02-02",
-    "managingLou": "TCMDYCSPTFFGUEVYJWFF",
-    "validationSources": "PARTIALLY_CORROBORATED",
+    "managingLou": "QHCNYEUZJCOYBXBNGSRL",
+    "validationSources": "NOT_CORROBORATED",
     "validationAuthority": [
       {
         "type": "LEIauthority",
         "validationAuthorityID": "RA000004",
-        "otherValidationAuthorityID": "T9IGZDAZ",
-        "validationAuthorityEntityID": "HEG243FLAL5FAF81QI1I"
+        "otherValidationAuthorityID": "DB9RRNRM",
+        "validationAuthorityEntityID": "GJM0DPPDUXOTILG9N7OC"
       }
     ]
   }

@@ -6,32 +6,32 @@
     "type": "ShippingStop",
     "shippingStopAddress": {
       "type": "PostalAddress",
-      "organizationName": "Becker - Wiegand",
-      "streetAddress": "94382 Kaley Isle",
-      "addressLocality": "Toystad",
-      "addressRegion": "Virginia",
-      "postalCode": "27033-5689",
-      "addressCountry": "Panama"
+      "organizationName": "Collins, Hagenes and McKenzie",
+      "streetAddress": "85745 Bradtke Trail",
+      "addressLocality": "Destanyview",
+      "addressRegion": "Pennsylvania",
+      "postalCode": "06383",
+      "addressCountry": "Guyana"
     },
     "carrier": {
       "type": "Organization",
-      "name": "Rohan - Goldner",
-      "description": "Face to face value-added protocol",
+      "name": "Reilly Inc",
+      "description": "Inverse reciprocal access",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "8172 Gracie Well",
-        "addressLocality": "West Daishaville",
-        "addressRegion": "Kansas",
-        "postalCode": "65532",
-        "addressCountry": "Belarus"
+        "streetAddress": "8440 Jammie Valley",
+        "addressLocality": "Gorczanyfurt",
+        "addressRegion": "Delaware",
+        "postalCode": "01551",
+        "addressCountry": "Iceland"
       },
-      "email": "Birdie_Beer9@example.com",
-      "phoneNumber": "555-247-8982",
-      "faxNumber": "555-313-2785"
+      "email": "Alexys.Bradtke83@example.net",
+      "phoneNumber": "555-452-4861",
+      "faxNumber": "555-630-9710"
     },
-    "vesselNumber": "ACMECarrierVessel#335",
+    "vesselNumber": "ACMECarrierVessel#961",
     "arrivalDate": "2021-03-09",
-    "stopType": "Destination"
+    "stopType": "Stopover"
   },
   {
     "@context": [
@@ -40,30 +40,30 @@
     "type": "ShippingStop",
     "shippingStopAddress": {
       "type": "PostalAddress",
-      "organizationName": "Walter Inc",
-      "streetAddress": "905 Kunze Crescent",
-      "addressLocality": "Breitenbergmouth",
-      "addressRegion": "Louisiana",
-      "postalCode": "13639-5903",
-      "addressCountry": "El Salvador"
+      "organizationName": "Halvorson LLC",
+      "streetAddress": "8062 Arvel Roads",
+      "addressLocality": "Bennieside",
+      "addressRegion": "Connecticut",
+      "postalCode": "98547",
+      "addressCountry": "Virgin Islands, U.S."
     },
     "carrier": {
       "type": "Organization",
-      "name": "Jenkins, Dickinson and Dickinson",
-      "description": "Stand-alone optimizing knowledge base",
+      "name": "Kessler LLC",
+      "description": "Business-focused multi-tasking portal",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "15654 Glover Junction",
-        "addressLocality": "New Ardella",
-        "addressRegion": "Connecticut",
-        "postalCode": "52731-1787",
-        "addressCountry": "Lesotho"
+        "streetAddress": "88288 Muller Ferry",
+        "addressLocality": "North Diegofort",
+        "addressRegion": "Virginia",
+        "postalCode": "90347",
+        "addressCountry": "Micronesia"
       },
-      "email": "Dillan71@example.org",
-      "phoneNumber": "555-153-6149",
-      "faxNumber": "555-116-6124"
+      "email": "Kenna_Hodkiewicz@example.org",
+      "phoneNumber": "555-708-8694",
+      "faxNumber": "555-825-9768"
     },
-    "vesselNumber": "ACMECarrierVessel#502",
+    "vesselNumber": "ACMECarrierVessel#316",
     "arrivalDate": "2021-03-09",
     "stopType": "Departure"
   },
@@ -74,31 +74,31 @@
     "type": "ShippingStop",
     "shippingStopAddress": {
       "type": "PostalAddress",
-      "organizationName": "Ward, Greenholt and Koch",
-      "streetAddress": "74533 Raquel Way",
-      "addressLocality": "East Carrietown",
-      "addressRegion": "Vermont",
-      "postalCode": "02817",
-      "addressCountry": "Malaysia"
+      "organizationName": "Rolfson, Lynch and Durgan",
+      "streetAddress": "16634 Jace Streets",
+      "addressLocality": "Lake Leonelton",
+      "addressRegion": "Oregon",
+      "postalCode": "99682",
+      "addressCountry": "Cayman Islands"
     },
     "carrier": {
       "type": "Organization",
-      "name": "Nikolaus and Sons",
-      "description": "Monitored motivating monitoring",
+      "name": "Dickens - Waters",
+      "description": "Assimilated global neural-net",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "725 Joesph Keys",
-        "addressLocality": "Schroederborough",
-        "addressRegion": "Tennessee",
-        "postalCode": "99556",
-        "addressCountry": "Barbados"
+        "streetAddress": "56877 John Shoals",
+        "addressLocality": "Lake Guillermo",
+        "addressRegion": "Michigan",
+        "postalCode": "10559",
+        "addressCountry": "Cote d'Ivoire"
       },
-      "email": "Meghan.Bechtelar95@example.org",
-      "phoneNumber": "555-200-8349",
-      "faxNumber": "555-608-8816"
+      "email": "Greta_Wolff@example.org",
+      "phoneNumber": "555-813-2874",
+      "faxNumber": "555-620-2128"
     },
-    "vesselNumber": "ACMECarrierVessel#31",
+    "vesselNumber": "ACMECarrierVessel#641",
     "arrivalDate": "2021-03-09",
-    "stopType": "Destination"
+    "stopType": "Departure"
   }
 ]
