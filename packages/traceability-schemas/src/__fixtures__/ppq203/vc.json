@@ -23,44 +23,6 @@
         ],
         "property": {
           "type": [
-            "ChemicalProperty"
-          ],
-          "name": "Rhodium"
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "46.525",
-          "unitCode": "P1"
-        }
-      },
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "MechanicalProperty"
-          ],
-          "identifier": "ISO 1352",
-          "name": "Torque-controlled fatigue testing",
-          "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "00.00",
-          "unitCode": "UNKNOWN"
-        }
-      },
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
             "MechanicalProperty"
           ],
           "identifier": "ISO 180",
@@ -71,26 +33,8 @@
           "type": [
             "MeasuredValue"
           ],
-          "value": "82.45",
+          "value": "8.538",
           "unitCode": "B13"
-        }
-      },
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "ChemicalProperty"
-          ],
-          "name": "Iron"
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "53.475",
-          "unitCode": "P1"
         }
       }
     ]
@@ -98,7 +42,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..4VU4K_k8ZYuifaS8I4ruEgvI9IDpjOC0jFFOulAwKWg0lw-PtNS1L4IBAE-yoS2g1Qn-R7RPi_bM_KtZzRZLDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..SSkGJMvh-62hyLrIUrt7py6ueCPFojO57bgLbze-7L_p0Akji_tnNzGwtb3g2qku7W084ZsfUbBFVbPUAWXAAg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

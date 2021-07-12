@@ -1,25 +1,26 @@
 [
   {
     "type": "Person",
-    "lastName": "Willms",
-    "email": "Katelynn_Lakin4@example.org",
-    "jobTitle": "Customer Infrastructure Agent",
-    "interface": "connect",
-    "transmitter": "program",
-    "firewall": "copy",
-    "hard drive": "hack"
+    "array": "navigate",
+    "pixel": "transmit"
   },
   {
-    "bus": "generate",
-    "interface": "bypass"
+    "type": "Person",
+    "lastName": "Marks",
+    "phoneNumber": "555-978-3785",
+    "interface": "calculate",
+    "system": "generate",
+    "alarm": "connect"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "type": "Person",
-    "lastName": "Lind",
-    "email": "Payton_OKon@example.net",
-    "program": "override"
+    "lastName": "Dibbert",
+    "email": "Isaiah_Kris@example.org",
+    "phoneNumber": "555-678-6033",
+    "jobTitle": "National Implementation Consultant",
+    "bus": "copy",
+    "bandwidth": "navigate"
   }
 ]

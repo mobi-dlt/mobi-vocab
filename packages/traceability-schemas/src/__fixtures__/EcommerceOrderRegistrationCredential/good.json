@@ -4,9 +4,8 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceOrderRegistrationCredential",
-    "orderID": "Order#940",
+    "orderID": "Order#199",
     "productInOrder": [
-      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
       "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e"
     ],
     "certificateName": "ACME Ecommerce Order Registration Certificate"
@@ -16,9 +15,9 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceOrderRegistrationCredential",
-    "orderID": "Order#362",
+    "orderID": "Order#273",
     "productInOrder": [
-      "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
+      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
     ],
     "certificateName": "ACME Ecommerce Order Registration Certificate"
   },
@@ -27,9 +26,11 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceOrderRegistrationCredential",
-    "orderID": "Order#903",
+    "orderID": "Order#61",
     "productInOrder": [
-      "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
+      "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
+      "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
+      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
     ],
     "certificateName": "ACME Ecommerce Order Registration Certificate"
   }

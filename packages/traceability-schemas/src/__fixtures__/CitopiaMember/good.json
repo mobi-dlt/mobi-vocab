@@ -1,0 +1,53 @@
+[
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "Customer",
+    "name": "Maria Borer",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "12786 Dulce Estates",
+      "addressLocality": "Christiansenshire",
+      "addressRegion": "North Dakota",
+      "postalCode": "92214-7669",
+      "addressCountry": "Aruba"
+    },
+    "telephone": "555-942-9676",
+    "email": "Marquis_Baumbach@example.org"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "Customer",
+    "name": "Golda Parker",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "175 Bradtke Neck",
+      "addressLocality": "Pfeffertown",
+      "addressRegion": "Illinois",
+      "postalCode": "93807",
+      "addressCountry": "British Indian Ocean Territory (Chagos Archipelago)"
+    },
+    "telephone": "555-680-1469",
+    "email": "Jan_Dooley@example.net"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "Customer",
+    "name": "Abbie Mante",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "767 DuBuque Glens",
+      "addressLocality": "East Ella",
+      "addressRegion": "Vermont",
+      "postalCode": "72926",
+      "addressCountry": "Latvia"
+    },
+    "telephone": "555-434-6135",
+    "email": "Makenna_Oberbrunner@example.org"
+  }
+]

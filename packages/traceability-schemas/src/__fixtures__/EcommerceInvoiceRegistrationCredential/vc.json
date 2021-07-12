@@ -14,20 +14,17 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceInvoiceRegistrationCredential",
-    "invoiceID": "Invoice#659",
+    "invoiceID": "Invoice#776",
     "orderID": [],
     "productInOrder": [
-      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
-      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
-      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
-      "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
+      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
     ],
     "certificateName": "ACME Ecommerce Invoice Registration Certificate"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..eY3k0Nuwwl3fEpdPaOeY_N8zI44GPaR6SKOH5ppCHrmC8T79KMOmbEauQtegFcnHPz5gZtTaKY01Um2B3O_WCw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..lFVmVto5m6h9cV6_AdUUO5_vW8EuEB05lVvjAb_uJ8VLEoPLrB8KFOIZXjrcIat__zGzLMozFnQKWhKSkXVGBg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

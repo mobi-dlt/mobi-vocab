@@ -1,29 +1,23 @@
 [
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "invoiceID": "Invoice#659",
-    "program": "copy",
-    "firewall": "compress",
-    "transmitter": "override"
-  },
-  {
-    "invoiceID": "Invoice#463",
-    "certificateName": "ACME Ecommerce Invoice Registration Certificate",
-    "transmitter": "transmit",
-    "application": "parse",
-    "microchip": "transmit"
-  },
-  {
-    "invoiceID": "Invoice#89",
+    "type": "EcommerceInvoiceRegistrationCredential",
+    "invoiceID": "Invoice#776",
     "productInOrder": [
-      "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
-      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
-      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e"
+      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
     ],
+    "transmitter": "synthesize",
+    "bus": "reboot"
+  },
+  {
+    "type": "EcommerceInvoiceRegistrationCredential",
+    "orderID": [],
     "certificateName": "ACME Ecommerce Invoice Registration Certificate",
-    "port": "back up",
-    "interface": "program"
+    "microchip": "compress"
+  },
+  {
+    "matrix": "input",
+    "panel": "parse",
+    "bandwidth": "index",
+    "driver": "copy"
   }
 ]

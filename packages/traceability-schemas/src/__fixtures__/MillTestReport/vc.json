@@ -20,30 +20,30 @@
       "type": [
         "Organization"
       ],
-      "name": "Larson, Adams and Walsh",
-      "description": "Down-sized intermediate middleware",
+      "name": "Marquardt, Brown and Legros",
+      "description": "Synergistic 4th generation software",
       "address": {
         "type": [
           "PostalAddress"
         ],
-        "streetAddress": "0225 Metz Causeway",
-        "addressLocality": "Ashleeland",
-        "addressRegion": "Oklahoma",
-        "postalCode": "07013-4806",
-        "addressCountry": "Montserrat"
+        "streetAddress": "8666 Caleb Courts",
+        "addressLocality": "Keeblerchester",
+        "addressRegion": "Georgia",
+        "postalCode": "08820-0841",
+        "addressCountry": "Luxembourg"
       },
-      "email": "Garrett_Jacobs3@example.com",
-      "phoneNumber": "555-793-3379",
-      "faxNumber": "555-227-5748"
+      "email": "Macy.Shields@example.com",
+      "phoneNumber": "555-977-8462",
+      "faxNumber": "555-643-4994"
     },
     "product": {
       "type": [
         "SteelProduct"
       ],
-      "heatNumber": "38581",
-      "specification": "ASTM-10448",
-      "grade": "71421",
-      "originalCountryOfMeltAndPour": "Djibouti",
+      "heatNumber": "46236",
+      "specification": "ASTM-96438",
+      "grade": "39006",
+      "originalCountryOfMeltAndPour": "Botswana",
       "inspection": {
         "type": [
           "InspectionReport"
@@ -57,35 +57,15 @@
               "type": [
                 "MechanicalProperty"
               ],
-              "identifier": "ISO 180",
-              "name": "Izod Impact Strength Test",
-              "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
+              "identifier": "ISO 148",
+              "name": "Charpy Impact Strength Test",
+              "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
             },
             "measurement": {
               "type": [
                 "MeasuredValue"
               ],
-              "value": "62.845",
-              "unitCode": "B13"
-            }
-          },
-          {
-            "type": [
-              "Observation"
-            ],
-            "property": {
-              "type": [
-                "MechanicalProperty"
-              ],
-              "identifier": "ISO 180",
-              "name": "Izod Impact Strength Test",
-              "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
-            },
-            "measurement": {
-              "type": [
-                "MeasuredValue"
-              ],
-              "value": "6.829",
+              "value": "59.593",
               "unitCode": "B13"
             }
           },
@@ -97,72 +77,14 @@
               "type": [
                 "ChemicalProperty"
               ],
-              "name": "Einsteinium"
+              "name": "Mendelevium"
             },
             "measurement": {
               "type": [
                 "MeasuredValue"
               ],
-              "value": "45.314",
+              "value": "8.1346",
               "unitCode": "P1"
-            }
-          },
-          {
-            "type": [
-              "Observation"
-            ],
-            "property": {
-              "type": [
-                "ChemicalProperty"
-              ],
-              "name": "Gadolinium"
-            },
-            "measurement": {
-              "type": [
-                "MeasuredValue"
-              ],
-              "value": "32.234",
-              "unitCode": "P1"
-            }
-          },
-          {
-            "type": [
-              "Observation"
-            ],
-            "property": {
-              "type": [
-                "MechanicalProperty"
-              ],
-              "identifier": "ISO 180",
-              "name": "Izod Impact Strength Test",
-              "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
-            },
-            "measurement": {
-              "type": [
-                "MeasuredValue"
-              ],
-              "value": "26.296",
-              "unitCode": "B13"
-            }
-          },
-          {
-            "type": [
-              "Observation"
-            ],
-            "property": {
-              "type": [
-                "MechanicalProperty"
-              ],
-              "identifier": "ISO 3738",
-              "name": "Rockwell Hardness Test (Scale A)",
-              "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
-            },
-            "measurement": {
-              "type": [
-                "MeasuredValue"
-              ],
-              "value": "00.00",
-              "unitCode": "UNKNOWN"
             }
           },
           {
@@ -181,7 +103,7 @@
               "type": [
                 "MeasuredValue"
               ],
-              "value": "16.0",
+              "value": "39.421",
               "unitCode": "B13"
             }
           },
@@ -193,13 +115,89 @@
               "type": [
                 "ChemicalProperty"
               ],
-              "name": "Dysprosium"
+              "name": "Erbium"
             },
             "measurement": {
               "type": [
                 "MeasuredValue"
               ],
-              "value": "22.451",
+              "value": "11.261",
+              "unitCode": "P1"
+            }
+          },
+          {
+            "type": [
+              "Observation"
+            ],
+            "property": {
+              "type": [
+                "MechanicalProperty"
+              ],
+              "identifier": "ISO 148",
+              "name": "Charpy Impact Strength Test",
+              "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+            },
+            "measurement": {
+              "type": [
+                "MeasuredValue"
+              ],
+              "value": "61.147",
+              "unitCode": "B13"
+            }
+          },
+          {
+            "type": [
+              "Observation"
+            ],
+            "property": {
+              "type": [
+                "MechanicalProperty"
+              ],
+              "identifier": "ISO 1352",
+              "name": "Torque-controlled fatigue testing",
+              "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
+            },
+            "measurement": {
+              "type": [
+                "MeasuredValue"
+              ],
+              "value": "00.00",
+              "unitCode": "UNKNOWN"
+            }
+          },
+          {
+            "type": [
+              "Observation"
+            ],
+            "property": {
+              "type": [
+                "ChemicalProperty"
+              ],
+              "name": "Iodine"
+            },
+            "measurement": {
+              "type": [
+                "MeasuredValue"
+              ],
+              "value": "59.699",
+              "unitCode": "P1"
+            }
+          },
+          {
+            "type": [
+              "Observation"
+            ],
+            "property": {
+              "type": [
+                "ChemicalProperty"
+              ],
+              "name": "Antimony"
+            },
+            "measurement": {
+              "type": [
+                "MeasuredValue"
+              ],
+              "value": "20.905",
               "unitCode": "P1"
             }
           }
@@ -212,10 +210,10 @@
       ],
       "customer": {
         "type": [
-          "Person"
+          "Organization"
         ],
-        "email": "Sylvia_Grady@example.net",
-        "phoneNumber": "555-332-9591"
+        "email": "Owen51@example.net",
+        "phoneNumber": "555-405-8876"
       }
     },
     "shipment": {
@@ -226,32 +224,32 @@
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Pollich, Cartwright and Torp",
-        "streetAddress": "23958 Gordon Port",
-        "addressLocality": "Blickburgh",
-        "addressRegion": "Maine",
-        "postalCode": "61621",
-        "addressCountry": "Namibia"
+        "organizationName": "Klein - O'Keefe",
+        "streetAddress": "95768 Myah Pike",
+        "addressLocality": "South Herminaton",
+        "addressRegion": "Nevada",
+        "postalCode": "65623",
+        "addressCountry": "Belarus"
       },
       "originAddress": {
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Romaguera, Tromp and Breitenberg",
-        "streetAddress": "0001 Labadie Light",
-        "addressLocality": "New Jewel",
-        "addressRegion": "Iowa",
-        "postalCode": "73118",
-        "addressCountry": "Niger"
+        "organizationName": "Cummings - Luettgen",
+        "streetAddress": "367 Gail Rapids",
+        "addressLocality": "East Nico",
+        "addressRegion": "Pennsylvania",
+        "postalCode": "76456-0367",
+        "addressCountry": "Haiti"
       },
-      "deliveryMethod": "Rail freight transport",
-      "trackingNumber": "571852613700"
+      "deliveryMethod": "Air transport",
+      "trackingNumber": "835723236599"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..6XOcm3fm4SiyLFSHKt6a4u3O2of-7WsmfSnUmW33M5Mtd59tYAnpv1aF4l1c9Mb0k6gwHgVog9rdU7tSHStXBQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Vmzck-tOLH5RtHtu3PwLVWcw5h_5sBX7yZ7q0TAa7b_J2l0rU06W36si2egeY98hsEvlcOGCE26Zn8kLsZtiAA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -1,40 +1,35 @@
 [
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "addressNumberWithinBuilding": "4",
-    "region": "Cambridgeshire",
-    "country": "Slovenia",
-    "postalCode": "32122",
-    "pixel": "calculate"
-  },
-  {
+    "language": "en_CA",
     "addressLines": [
-      "Simonis, Gerlach and Maggio",
-      "25409 Assunta Place"
+      "Collins - Tillman",
+      "00564 Wiza Harbors"
     ],
-    "addressNumber": "488",
-    "city": "West Toney",
-    "region": "Buckinghamshire",
-    "country": "Lebanon",
-    "postalCode": "58534-8280",
-    "system": "navigate",
-    "matrix": "parse",
-    "array": "input"
+    "addressNumber": "28",
+    "city": "Adriennefurt",
+    "country": "Comoros",
+    "postalCode": "32630",
+    "circuit": "quantify",
+    "bandwidth": "connect",
+    "transmitter": "input"
   },
   {
     "type": "LEIaddress",
-    "language": "fr",
+    "language": "en_BORK",
     "addressLines": [
-      "Collier, Wilkinson and Beahan",
-      "77135 Murray Mall"
+      "Huels - Welch",
+      "85280 Jennifer Loaf"
     ],
-    "addressNumber": "160",
-    "addressNumberWithinBuilding": "6",
-    "country": "Timor-Leste",
-    "postalCode": "94214",
-    "protocol": "compress",
-    "monitor": "override"
+    "addressNumber": "201",
+    "city": "Glovermouth",
+    "region": "Berkshire",
+    "monitor": "generate",
+    "system": "back up"
+  },
+  {
+    "sensor": "back up",
+    "array": "quantify",
+    "alarm": "calculate",
+    "circuit": "override"
   }
 ]

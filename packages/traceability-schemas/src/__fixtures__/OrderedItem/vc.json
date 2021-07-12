@@ -16,14 +16,14 @@
     "type": "OrderedItem",
     "name": "ACME Laptop 3000",
     "productID": "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
-    "unitPrice": 10,
-    "orderQuantity": 5,
-    "price": 50
+    "unitPrice": 8,
+    "orderQuantity": 8,
+    "price": 64
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..mAwmHX30RHBU29rmO5oVTUfnIfrp9ztxociYtiv3WHrYBrjq1IvA-1-Fq8o1rxzwFdZNlzYJ7ISY2-FiH89aBA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..JwkoKAgXcnYpltcycpBeYvR4q0645GuRdWL-gNNt5cDQXj3-29lBspC4HJf0P2E0speor942PGJ7fYZaK8sqAQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

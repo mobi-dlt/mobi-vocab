@@ -4,23 +4,23 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "chargeAndPaymentType",
-    "chargeCollect": 190,
-    "chargePrepaid": 578
+    "chargeCollect": 382,
+    "chargePrepaid": 605
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "chargeAndPaymentType",
-    "chargeCollect": 811,
-    "chargePrepaid": 887
+    "chargeCollect": 629,
+    "chargePrepaid": 423
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "chargeAndPaymentType",
-    "chargeCollect": 388,
-    "chargePrepaid": 956
+    "chargeCollect": 464,
+    "chargePrepaid": 278
   }
 ]

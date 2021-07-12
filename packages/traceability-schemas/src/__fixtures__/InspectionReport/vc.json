@@ -32,15 +32,31 @@
       {
         "type": "Observation",
         "property": {
-          "type": "MechanicalProperty",
-          "identifier": "ISO 148",
-          "name": "Charpy Impact Strength Test",
-          "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+          "type": "ChemicalProperty",
+          "name": "Niobium",
+          "formula": "Nb",
+          "inchi": "InChI=1S/Nb",
+          "inchikey": "GUCVJGMIXFAOAE-UHFFFAOYSA-N"
         },
         "measurement": {
           "type": "MeasuredValue",
-          "value": "0.147",
-          "unitCode": "B13"
+          "value": "39.077",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": "Observation",
+        "property": {
+          "type": "ChemicalProperty",
+          "name": "Platinum",
+          "formula": "Pt",
+          "inchi": "InChI=1S/Pt",
+          "inchikey": "BASFCYQUMIYNBI-UHFFFAOYSA-N"
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "60.923",
+          "unitCode": "P1"
         }
       },
       {
@@ -56,73 +72,13 @@
           "value": "00.00",
           "unitCode": "UNKNOWN"
         }
-      },
-      {
-        "type": "Observation",
-        "property": {
-          "type": "ChemicalProperty",
-          "name": "Promethium",
-          "formula": "Pm",
-          "inchi": "InChI=1S/Pm",
-          "inchikey": "VQMWBBYLQSCNPO-UHFFFAOYSA-N"
-        },
-        "measurement": {
-          "type": "MeasuredValue",
-          "value": "16.797",
-          "unitCode": "P1"
-        }
-      },
-      {
-        "type": "Observation",
-        "property": {
-          "type": "ChemicalProperty",
-          "name": "Copper",
-          "formula": "Cu",
-          "inchi": "InChI=1S/Cu",
-          "inchikey": "RYGMFSIKBFXOCR-UHFFFAOYSA-N"
-        },
-        "measurement": {
-          "type": "MeasuredValue",
-          "value": "2.7536",
-          "unitCode": "P1"
-        }
-      },
-      {
-        "type": "Observation",
-        "property": {
-          "type": "ChemicalProperty",
-          "name": "Rubidium",
-          "formula": "Rb",
-          "inchi": "InChI=1S/Rb",
-          "inchikey": "IGLNJRXAVVLDKE-UHFFFAOYSA-N"
-        },
-        "measurement": {
-          "type": "MeasuredValue",
-          "value": "72.205",
-          "unitCode": "P1"
-        }
-      },
-      {
-        "type": "Observation",
-        "property": {
-          "type": "ChemicalProperty",
-          "name": "Indium",
-          "formula": "In",
-          "inchi": "InChI=1S/In",
-          "inchikey": "APFVFJFRJDLVQX-UHFFFAOYSA-N"
-        },
-        "measurement": {
-          "type": "MeasuredValue",
-          "value": "8.2448",
-          "unitCode": "P1"
-        }
       }
     ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..TdqN8q3g_0SNasovRQ0r5EFSKO7Dw-3TrIuXrTiaRLiOZZRd4mmBn9AseiWCRatT9lHQYRPFA7SriWNfKPFDCg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..uOWl0bkC6Yzod8i-ocvgHk-0FXM2yA2SlhWd_oPwgm4CpQSBQtS4PNzKJLaJ8ZKpRgcHRjjGDp9cPhGMyTpRAw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

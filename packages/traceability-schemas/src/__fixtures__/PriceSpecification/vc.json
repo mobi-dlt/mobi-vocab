@@ -14,13 +14,13 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "PriceSpecification",
-    "price": 5784,
-    "priceCurrency": "ZWL"
+    "price": 8398,
+    "priceCurrency": "AMD"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..W5FYPca0P4bBBd541VCqUn_zp89URiptVoeTbNAfBbUAZow171AcptTzfZulBwzE_luEXc6FPK9yOGsXdsx9BQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..WjB3hFBiWNhAiNR8VMnQlf5tMeFqzwaHvSJTditlWdPp92yF570H67-mHMv5i3T1a6Lo2_tdbxl5O6cs3q5SAw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

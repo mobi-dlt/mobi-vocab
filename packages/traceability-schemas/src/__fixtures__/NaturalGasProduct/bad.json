@@ -1,121 +1,170 @@
 [
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
     "type": "NaturalGasProduct",
     "HSCode": "270900",
-    "alarm": "parse",
-    "array": "override",
-    "circuit": "copy",
-    "port": "input"
-  },
-  {
-    "type": "NaturalGasProduct",
-    "HSCode": "270900",
-    "productionDate": "2020-03-30",
-    "product": {
-      "type": "Product",
-      "manufacturer": {
-        "type": "Organization",
-        "name": "Turner, Konopelski and Jast",
-        "description": "Open-architected intangible budgetary management",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "102 Lina Greens",
-          "addressLocality": "Kossstad",
-          "addressRegion": "Colorado",
-          "postalCode": "30076",
-          "addressCountry": "Western Sahara"
-        },
-        "email": "Evan77@example.com",
-        "phoneNumber": "555-903-8289",
-        "faxNumber": "555-896-5141"
-      },
-      "name": "Natural Gas",
-      "description": "Natural Gas Stream",
-      "sizeOrAmount": {
-        "type": "QuantitativeValue",
-        "unitCode": "hg/ha",
-        "value": "5272"
-      },
-      "weight": {
-        "type": "QuantitativeValue",
-        "unitCode": "hg/ha",
-        "value": "3174"
-      },
-      "sku": "121473557036"
-    },
-    "monitor": "calculate"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "NaturalGasProduct",
-    "HSCode": "270900",
-    "UWI": "100.12-04-091-05-W5.00",
     "productionDate": "2020-03-30",
     "facility": {
       "type": "Place",
-      "globalLocationNumber": "6513335924339",
+      "globalLocationNumber": "6493544969485",
       "geo": {
         "type": "GeoCoordinates",
-        "latitude": "-73.0422",
-        "longitude": "164.9243"
+        "latitude": "79.0396",
+        "longitude": "119.6057"
       },
       "address": {
         "type": "PostalAddress",
-        "organizationName": "Altenwerth, Aufderhar and Zboncak",
-        "streetAddress": "68670 Reid Circles",
-        "addressLocality": "South Rodgerhaven",
-        "addressRegion": "Alabama",
-        "postalCode": "66492-2164",
-        "addressCountry": "Kiribati"
+        "organizationName": "Graham, Blanda and Hettinger",
+        "streetAddress": "4890 Florence Drive",
+        "addressLocality": "Rennerton",
+        "addressRegion": "Wisconsin",
+        "postalCode": "13282-4046",
+        "addressCountry": "New Caledonia"
       }
     },
     "product": {
       "type": "Product",
       "manufacturer": {
-        "type": "Person",
-        "firstName": "Maria",
-        "lastName": "Hammes",
-        "email": "Catherine55@example.com",
-        "phoneNumber": "555-587-5607",
-        "worksFor": {
-          "type": "Organization",
-          "name": "Kuhn - Wunsch",
-          "description": "Intuitive encompassing concept",
-          "address": {
-            "type": "PostalAddress",
-            "streetAddress": "62313 Stamm Islands",
-            "addressLocality": "Shieldsshire",
-            "addressRegion": "Maryland",
-            "postalCode": "52732",
-            "addressCountry": "Estonia"
-          },
-          "email": "Jaylen.Fadel@example.net",
-          "phoneNumber": "555-251-5790",
-          "faxNumber": "555-974-6461"
+        "type": "Organization",
+        "name": "Lemke, Conroy and Blanda",
+        "description": "Front-line neutral secured line",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "40942 Aurore Plains",
+          "addressLocality": "Valentinemouth",
+          "addressRegion": "Wyoming",
+          "postalCode": "53941-0060",
+          "addressCountry": "Finland"
         },
-        "jobTitle": "Lead Response Developer"
+        "email": "Dagmar46@example.com",
+        "phoneNumber": "555-628-2442",
+        "faxNumber": "555-155-5900"
       },
       "name": "Natural Gas",
       "description": "Natural Gas Stream",
       "sizeOrAmount": {
         "type": "QuantitativeValue",
         "unitCode": "hg/ha",
-        "value": "4926"
+        "value": "7206"
       },
       "weight": {
         "type": "QuantitativeValue",
         "unitCode": "hg/ha",
-        "value": "951"
+        "value": "5299"
       },
-      "sku": "747011032165"
+      "sku": "490652591111"
     },
-    "feed": "quantify",
-    "protocol": "generate",
-    "card": "back up"
+    "protocol": "bypass",
+    "interface": "hack"
+  },
+  {
+    "HSCode": "270900",
+    "productionDate": "2020-03-30",
+    "observation": [
+      {
+        "type": "Observation",
+        "property": {
+          "type": "MechanicalProperty",
+          "identifier": "ISO 3738",
+          "name": "Rockwell Hardness Test (Scale A)",
+          "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "00.00",
+          "unitCode": "UNKNOWN"
+        }
+      }
+    ],
+    "product": {
+      "type": "Product",
+      "manufacturer": {
+        "type": "Person",
+        "firstName": "Jerrell",
+        "lastName": "Kuhn",
+        "email": "Elvie.Jacobson15@example.net",
+        "phoneNumber": "555-901-8589",
+        "worksFor": {
+          "type": "Organization",
+          "name": "Pollich - Friesen",
+          "description": "Operative multi-state function",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "901 Eugenia River",
+            "addressLocality": "Eltafurt",
+            "addressRegion": "Washington",
+            "postalCode": "28612-5567",
+            "addressCountry": "Mongolia"
+          },
+          "email": "Eva.Anderson@example.net",
+          "phoneNumber": "555-893-8495",
+          "faxNumber": "555-854-1650"
+        },
+        "jobTitle": "Senior Implementation Associate"
+      },
+      "name": "Natural Gas",
+      "description": "Natural Gas Stream",
+      "sizeOrAmount": {
+        "type": "QuantitativeValue",
+        "unitCode": "hg/ha",
+        "value": "3808"
+      },
+      "weight": {
+        "type": "QuantitativeValue",
+        "unitCode": "hg/ha",
+        "value": "3379"
+      },
+      "sku": "252276573283"
+    },
+    "sensor": "bypass",
+    "array": "back up",
+    "program": "override",
+    "interface": "reboot"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "productionDate": "2020-03-30",
+    "product": {
+      "type": "Product",
+      "manufacturer": {
+        "type": "Person",
+        "firstName": "Naomie",
+        "lastName": "Howell",
+        "email": "Kelsi_Harris42@example.com",
+        "phoneNumber": "555-450-9260",
+        "worksFor": {
+          "type": "Organization",
+          "name": "Weimann Inc",
+          "description": "Re-contextualized upward-trending collaboration",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "20463 Raquel Springs",
+            "addressLocality": "South Deeville",
+            "addressRegion": "Delaware",
+            "postalCode": "86424-9419",
+            "addressCountry": "Wallis and Futuna"
+          },
+          "email": "Iliana47@example.com",
+          "phoneNumber": "555-865-8742",
+          "faxNumber": "555-735-7191"
+        },
+        "jobTitle": "Human Integration Associate"
+      },
+      "name": "Natural Gas",
+      "description": "Natural Gas Stream",
+      "sizeOrAmount": {
+        "type": "QuantitativeValue",
+        "unitCode": "hg/ha",
+        "value": "3861"
+      },
+      "weight": {
+        "type": "QuantitativeValue",
+        "unitCode": "hg/ha",
+        "value": "1590"
+      },
+      "sku": "294872674693"
+    },
+    "capacitor": "compress"
   }
 ]

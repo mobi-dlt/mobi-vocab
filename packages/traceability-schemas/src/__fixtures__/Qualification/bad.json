@@ -1,21 +1,27 @@
 [
   {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "type": "Qualification",
-    "application": "override",
-    "program": "connect",
-    "system": "calculate"
-  },
-  {
-    "system": "connect",
-    "capacitor": "hack"
+    "driver": "hack",
+    "panel": "back up",
+    "circuit": "back up",
+    "protocol": "compress"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "qualificationCategory": "Senior Branding Assistant",
-    "qualificationValue": "Planner",
-    "driver": "generate",
-    "protocol": "transmit"
+    "type": "Qualification",
+    "qualificationCategory": "Human Research Developer",
+    "monitor": "input",
+    "program": "quantify"
+  },
+  {
+    "firewall": "generate",
+    "feed": "bypass",
+    "bandwidth": "transmit",
+    "hard drive": "program"
   }
 ]

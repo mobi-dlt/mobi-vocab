@@ -1,25 +1,34 @@
 [
   {
-    "transmitter": "synthesize"
+    "name": "Bart Kuphal",
+    "program": "navigate"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "607 Jenkins Square",
+      "addressLocality": "Scotberg",
+      "addressRegion": "New York",
+      "postalCode": "84445-6197",
+      "addressCountry": "Bahamas"
+    },
+    "email": "Thalia_DuBuque@example.com",
+    "system": "quantify",
+    "driver": "override",
+    "card": "quantify",
+    "firewall": "index"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "Customer",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "960 Carson Forge",
-      "addressLocality": "East Katelynntown",
-      "addressRegion": "Iowa",
-      "postalCode": "31346",
-      "addressCountry": "United Arab Emirates"
-    },
-    "pixel": "bypass",
-    "program": "transmit"
-  },
-  {
-    "pixel": "bypass",
-    "alarm": "generate"
+    "array": "program",
+    "sensor": "input",
+    "interface": "index",
+    "driver": "quantify"
   }
 ]

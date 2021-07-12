@@ -1,15 +1,24 @@
 [
   {
-    "type": "LEIauthority",
-    "card": "input"
-  },
-  {
-    "type": "LEIauthority",
-    "application": "calculate",
+    "card": "compress",
     "panel": "parse",
-    "interface": "back up"
+    "sensor": "reboot"
   },
   {
-    "driver": "copy"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "LEIauthority",
+    "validationAuthorityID": "RA000661",
+    "pixel": "override"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "otherValidationAuthorityID": "ROG7BFHS",
+    "validationAuthorityEntityID": "BSUGASNU4NO8W9LBK4Y9",
+    "circuit": "synthesize",
+    "bandwidth": "input"
   }
 ]

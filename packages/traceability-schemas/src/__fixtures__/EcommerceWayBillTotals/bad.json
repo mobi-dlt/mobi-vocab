@@ -1,32 +1,16 @@
 [
   {
-    "totalRateCharge": {
-      "type": "PriceSpecification",
-      "price": 3316,
-      "priceCurrency": "UGX"
-    },
-    "program": "index",
-    "capacitor": "navigate",
-    "circuit": "synthesize",
-    "application": "quantify"
+    "firewall": "back up"
   },
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "weightUnit": "kg",
-    "program": "reboot"
+    "program": "reboot",
+    "sensor": "input",
+    "alarm": "generate"
   },
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "weightUnit": "lb",
-    "totalRateCharge": {
-      "type": "PriceSpecification",
-      "price": 786,
-      "priceCurrency": "SEK"
-    },
-    "card": "quantify"
+    "type": "EcommerceWayBillTotals",
+    "feed": "hack",
+    "matrix": "index",
+    "port": "quantify"
   }
 ]

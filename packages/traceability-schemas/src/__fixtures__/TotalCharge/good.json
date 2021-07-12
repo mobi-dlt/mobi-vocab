@@ -4,41 +4,41 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 6413.25,
-    "totalCollect": 2137.75,
-    "sourceCurrency": "NIO",
-    "destinationCurrency": "UGX",
-    "currencyConversionRate": 2,
-    "ccChargesDestinationCurrency": "NIO",
-    "chargesDestination": 233,
-    "totalCollectCharge": 58.25
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "TotalCharge",
-    "totalPrepaid": 1895.25,
-    "totalCollect": 631.75,
-    "sourceCurrency": "ISK",
-    "destinationCurrency": "GNF",
-    "currencyConversionRate": 2,
-    "ccChargesDestinationCurrency": "ISK",
-    "chargesDestination": 637,
-    "totalCollectCharge": 159.25
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "TotalCharge",
-    "totalPrepaid": 5739.75,
-    "totalCollect": 1913.25,
-    "sourceCurrency": "IRR",
-    "destinationCurrency": "EEK",
+    "totalPrepaid": 4421.25,
+    "totalCollect": 1473.75,
+    "sourceCurrency": "BOB",
+    "destinationCurrency": "ETB",
     "currencyConversionRate": 5,
-    "ccChargesDestinationCurrency": "IRR",
-    "chargesDestination": 843,
-    "totalCollectCharge": 210.75
+    "ccChargesDestinationCurrency": "BOB",
+    "chargesDestination": 204,
+    "totalCollectCharge": 51
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "TotalCharge",
+    "totalPrepaid": 2908.5,
+    "totalCollect": 969.5,
+    "sourceCurrency": "GEL",
+    "destinationCurrency": "TRY",
+    "currencyConversionRate": 4,
+    "ccChargesDestinationCurrency": "GEL",
+    "chargesDestination": 379,
+    "totalCollectCharge": 94.75
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "TotalCharge",
+    "totalPrepaid": 2942.25,
+    "totalCollect": 980.75,
+    "sourceCurrency": "BGN",
+    "destinationCurrency": "ILS",
+    "currencyConversionRate": 3,
+    "ccChargesDestinationCurrency": "BGN",
+    "chargesDestination": 435,
+    "totalCollectCharge": 108.75
   }
 ]

@@ -1,133 +1,16 @@
 [
   {
-    "type": "IssuerAgent",
-    "issuerAgentOrg": {
-      "type": "Organization",
-      "name": "Funk - Prosacco",
-      "description": "Triple-buffered responsive artificial intelligence",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "83315 Wolf Pass",
-        "addressLocality": "Lake Laishaview",
-        "addressRegion": "Nebraska",
-        "postalCode": "23457",
-        "addressCountry": "Ghana"
-      },
-      "email": "Amani71@example.com",
-      "phoneNumber": "555-631-1999",
-      "faxNumber": "555-187-4984"
-    },
-    "iataCode": "IATA#681",
-    "accountNumber": "",
-    "accountingInformation": "Please charge to Account 123 and Account 321",
-    "declaredValueCarriage": {
-      "@context": [
-        "https://mobinet.io/schemas/v1"
-      ],
-      "type": "PriceSpecification",
-      "price": 4538,
-      "priceCurrency": "INR"
-    },
-    "declaredValueCustoms": {
-      "@context": [
-        "https://mobinet.io/schemas/v1"
-      ],
-      "type": "PriceSpecification",
-      "price": 6847,
-      "priceCurrency": "GHS"
-    },
-    "declaredValueCustomsPaymentStatus": "PaymentComplete",
-    "amountInsurance": {
-      "@context": [
-        "https://mobinet.io/schemas/v1"
-      ],
-      "type": "PriceSpecification",
-      "price": 3605,
-      "priceCurrency": "NOK"
-    },
-    "interface": "transmit",
-    "application": "reboot",
-    "transmitter": "parse",
-    "monitor": "back up"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "IssuerAgent",
-    "issuerAgentOrg": {
-      "type": "Organization",
-      "name": "O'Kon - Moen",
-      "description": "Horizontal homogeneous methodology",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "9812 Breana Estate",
-        "addressLocality": "Erinfort",
-        "addressRegion": "Hawaii",
-        "postalCode": "41479",
-        "addressCountry": "Angola"
-      },
-      "email": "Maurice_Berge@example.net",
-      "phoneNumber": "555-131-8351",
-      "faxNumber": "555-387-1125"
-    },
-    "iataCode": "IATA#500",
-    "accountNumber": "",
-    "charge": {
-      "@context": [
-        "https://mobinet.io/schemas/v1"
-      ],
-      "type": "PriceSpecification",
-      "price": 5894,
-      "priceCurrency": "BND"
-    },
-    "declaredValueCarriage": {
-      "@context": [
-        "https://mobinet.io/schemas/v1"
-      ],
-      "type": "PriceSpecification",
-      "price": 5211,
-      "priceCurrency": "TWD"
-    },
-    "declaredValueCarriagePaymentStatus": "PaymentAutomaticallyApplied",
-    "declaredValueCustoms": {
-      "@context": [
-        "https://mobinet.io/schemas/v1"
-      ],
-      "type": "PriceSpecification",
-      "price": 7425,
-      "priceCurrency": "NGN"
-    },
-    "declaredValueCustomsPaymentStatus": "PaymentAutomaticallyApplied",
-    "amountInsurance": {
-      "@context": [
-        "https://mobinet.io/schemas/v1"
-      ],
-      "type": "PriceSpecification",
-      "price": 5102,
-      "priceCurrency": "BYN"
-    },
-    "interface": "quantify"
+    "alarm": "quantify",
+    "circuit": "generate",
+    "program": "input"
   },
   {
     "type": "IssuerAgent",
-    "issuerAgentOrg": {
-      "type": "Organization",
-      "name": "Dickens LLC",
-      "description": "Robust stable software",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "90873 Philip Station",
-        "addressLocality": "Champlinview",
-        "addressRegion": "Virginia",
-        "postalCode": "60854",
-        "addressCountry": "Vietnam"
-      },
-      "email": "Lia_Will@example.net",
-      "phoneNumber": "555-493-7238",
-      "faxNumber": "555-806-1638"
-    },
-    "iataCode": "IATA#215",
+    "firewall": "connect",
+    "monitor": "program"
+  },
+  {
+    "type": "IssuerAgent",
     "accountNumber": "",
     "accountingInformation": "Please, only charge Account 123",
     "charge": {
@@ -135,27 +18,37 @@
         "https://mobinet.io/schemas/v1"
       ],
       "type": "PriceSpecification",
-      "price": 7885,
-      "priceCurrency": "EUR"
+      "price": 17,
+      "priceCurrency": "CNY"
     },
-    "declaredValueCarriagePaymentStatus": "PaymentAutomaticallyApplied",
+    "declaredValueCarriage": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 9370,
+      "priceCurrency": "BRL"
+    },
+    "declaredValueCarriagePaymentStatus": "PaymentDue",
     "declaredValueCustoms": {
       "@context": [
         "https://mobinet.io/schemas/v1"
       ],
       "type": "PriceSpecification",
-      "price": 7090,
-      "priceCurrency": "LBP"
+      "price": 1653,
+      "priceCurrency": "TND"
     },
-    "declaredValueCustomsPaymentStatus": "PaymentAutomaticallyApplied",
+    "declaredValueCustomsPaymentStatus": "PaymentDue",
     "amountInsurance": {
       "@context": [
         "https://mobinet.io/schemas/v1"
       ],
       "type": "PriceSpecification",
-      "price": 2156,
-      "priceCurrency": "CZK"
+      "price": 2343,
+      "priceCurrency": "NZD"
     },
-    "application": "override"
+    "bandwidth": "navigate",
+    "matrix": "synthesize",
+    "card": "copy"
   }
 ]

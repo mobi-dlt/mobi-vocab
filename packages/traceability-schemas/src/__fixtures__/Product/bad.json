@@ -1,57 +1,68 @@
 [
   {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "type": "Product",
-    "name": "Generic Rubber Table",
-    "transmitter": "parse"
-  },
-  {
+    "name": "Sleek Cotton Table",
+    "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+    "sizeOrAmount": {
+      "type": "QuantitativeValue",
+      "unitCode": "hg/ha",
+      "value": "6223"
+    },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "2757"
+      "value": "259"
     },
-    "sku": "490614782820",
-    "bus": "bypass",
-    "matrix": "copy"
+    "sku": "648119365402",
+    "program": "copy",
+    "sensor": "reboot"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "manufacturer": {
-      "type": "Person",
-      "firstName": "Bart",
-      "lastName": "Anderson",
-      "email": "Tiffany_Stiedemann@example.com",
-      "phoneNumber": "555-304-4868",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Legros, Parker and Boyer",
-        "description": "Inverse foreground open system",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "6304 Kutch Coves",
-          "addressLocality": "Hauckberg",
-          "addressRegion": "Iowa",
-          "postalCode": "04856",
-          "addressCountry": "Solomon Islands"
-        },
-        "email": "Nigel_Ziemann47@example.net",
-        "phoneNumber": "555-209-7226",
-        "faxNumber": "555-158-6967"
-      },
-      "jobTitle": "Dynamic Accountability Agent"
-    },
-    "name": "Ergonomic Fresh Car",
-    "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "sizeOrAmount": {
+    "name": "Ergonomic Rubber Towels",
+    "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "9151"
+      "value": "5581"
     },
-    "sku": "567084304935",
-    "transmitter": "synthesize",
-    "program": "copy",
-    "bandwidth": "override"
+    "sku": "889186805681",
+    "application": "reboot",
+    "sensor": "input",
+    "capacitor": "synthesize"
+  },
+  {
+    "manufacturer": {
+      "type": "Person",
+      "firstName": "Rudolph",
+      "lastName": "Hessel",
+      "email": "Gracie62@example.com",
+      "phoneNumber": "555-638-9380",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Tillman Group",
+        "description": "De-engineered human-resource focus group",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "53590 Brown Meadows",
+          "addressLocality": "South Zora",
+          "addressRegion": "Ohio",
+          "postalCode": "98365",
+          "addressCountry": "Grenada"
+        },
+        "email": "Etha0@example.com",
+        "phoneNumber": "555-891-5891",
+        "faxNumber": "555-419-8564"
+      },
+      "jobTitle": "Regional Identity Assistant"
+    },
+    "name": "Refined Cotton Chicken",
+    "sku": "17888304264",
+    "application": "navigate",
+    "bandwidth": "compress"
   }
 ]

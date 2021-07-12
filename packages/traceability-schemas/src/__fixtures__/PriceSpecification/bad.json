@@ -1,22 +1,22 @@
 [
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "PriceSpecification",
-    "priceCurrency": "ZWL",
-    "panel": "back up",
-    "monitor": "back up",
-    "feed": "bypass"
+    "circuit": "generate",
+    "bus": "index",
+    "card": "hack"
   },
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
     "type": "PriceSpecification",
-    "system": "hack"
+    "price": 4173,
+    "priceCurrency": "SAR",
+    "bandwidth": "synthesize",
+    "interface": "bypass",
+    "card": "synthesize",
+    "capacitor": "quantify"
   },
   {
-    "application": "input"
+    "port": "compress",
+    "capacitor": "connect",
+    "firewall": "synthesize",
+    "transmitter": "bypass"
   }
 ]

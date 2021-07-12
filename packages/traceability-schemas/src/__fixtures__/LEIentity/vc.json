@@ -14,74 +14,74 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIentity",
-    "legalName": "Beahan, Hammes and Cormier",
-    "legalNameLanguage": "uk",
+    "legalName": "Jacobs, Rutherford and Gutkowski",
+    "legalNameLanguage": "ru",
     "otherNames": [
-      "Torp LLC",
-      "Ratke - Stiedemann"
+      "King, Spinka and Nienow",
+      "Ernser - Lebsack"
     ],
     "transliteratedOtherNames": [
-      "Torp LLC",
-      "Ratke - Stiedemann"
+      "King, Spinka and Nienow",
+      "Ernser - Lebsack"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "fi",
+      "language": "pt_PT",
       "addressLines": [
-        "Kub, Walker and Gislason",
-        "4471 Breitenberg Prairie"
+        "Goldner - Klocko",
+        "83854 Rodriguez Locks"
       ],
-      "addressNumber": "424",
-      "addressNumberWithinBuilding": "2",
-      "mailRouting": "4064 Giovanny Mountain, 66990-0354",
-      "city": "Mayermouth",
-      "region": "Berkshire",
-      "country": "Kenya",
-      "postalCode": "31128"
+      "addressNumber": "104",
+      "addressNumberWithinBuilding": "5",
+      "mailRouting": "2802 Reilly Springs, 03663-2718",
+      "city": "Starkton",
+      "region": "Cambridgeshire",
+      "country": "Qatar",
+      "postalCode": "22883-5909"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "vi",
+      "language": "fr_CA",
       "addressLines": [
-        "Rice - Thiel",
-        "88653 Ray Hill"
+        "Weissnat Inc",
+        "187 Kozey Garden"
       ],
-      "addressNumber": "409",
-      "addressNumberWithinBuilding": "7",
-      "mailRouting": "838 Boyer Junctions, 99036-0414",
-      "city": "Parisianmouth",
-      "region": "Borders",
-      "country": "Northern Mariana Islands",
-      "postalCode": "35272"
+      "addressNumber": "52",
+      "addressNumberWithinBuilding": "5",
+      "mailRouting": "714 Dare Creek, 99668-7333",
+      "city": "East Ludieport",
+      "region": "Buckinghamshire",
+      "country": "Timor-Leste",
+      "postalCode": "58612"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000002",
-      "otherValidationAuthorityID": "TN6FWYNO",
-      "validationAuthorityEntityID": "VSHAJ2XHWBG79YEFD6A7"
+      "validationAuthorityID": "RA000004",
+      "otherValidationAuthorityID": "FYE6XY50",
+      "validationAuthorityEntityID": "0H8CTG7K8F4EPQ2OBTA8"
     },
-    "legalJurisdiction": "Bedfordshire",
-    "entityCategory": "Industrial",
+    "legalJurisdiction": "Berkshire",
+    "entityCategory": "Jewelery",
     "legalForm": "LLC",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "VFJBLAXZN5OQS04LCWYA",
-      "name": "Bernier, Gleichner and Pagac"
+      "leiCode": "PAOC3ZX3KED2RT93OO12",
+      "name": "Lesch - Hills"
     },
-    "status": "CONFIRMED",
+    "status": "IN PROGRESS",
     "expirationDate": "2022-07-11",
-    "expirationReason": "leverage world-class action-items",
+    "expirationReason": "target collaborative e-services",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "A2795RBV370GSG4VRRSI",
-      "name": "Osinski - Hagenes"
+      "leiCode": "D5R7Q3WOGNJYEQU18V8V",
+      "name": "Kihn - Fay"
     },
     "otherAddresses": []
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..F1a9qcRZaerUtwfALzsmlFxurCcVO9msehP3r3TT1KVjUFMkFZj6ujoJiRWthJz51UqjDhS3W1X27f5AztXXBA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..RKEjd_ZCwSY21pHClFfq1g2TUJjbXqJGyEQQOqFXr2XIxaD6Q4g8FMQTmdtvjHhrii-Dlj8j0CW3-xv3E1-WDA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

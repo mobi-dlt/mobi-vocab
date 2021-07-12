@@ -14,23 +14,23 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIaddress",
-    "language": "cz",
+    "language": "en_CA",
     "addressLines": [
-      "Crona - Zulauf",
-      "04657 Isadore Skyway"
+      "Collins - Tillman",
+      "00564 Wiza Harbors"
     ],
-    "addressNumber": "67",
-    "addressNumberWithinBuilding": "4",
-    "mailRouting": "786 Berge Lock, 44636",
-    "city": "Kaleighstad",
-    "region": "Cambridgeshire",
-    "country": "Slovenia",
-    "postalCode": "32122"
+    "addressNumber": "28",
+    "addressNumberWithinBuilding": "3",
+    "mailRouting": "14393 Miller Green, 70793-8658",
+    "city": "Adriennefurt",
+    "region": "Berkshire",
+    "country": "Comoros",
+    "postalCode": "32630"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..SYzhZW2vlJyMN5LzmXBCs_g_VjeRRT9_ekxhVgMmhc7C2HSdIvdebq_86OJIO8vDpFyYWg4U3ADXTeSpWY6WAA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..3mOcOC-0XxvULU3KTEX9Hq5_j-0VcvvE-Xn0r2DydeIien-SLOv1PWc21qv9Wh1DTEwugWZpKq4fHCOI3904Dg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

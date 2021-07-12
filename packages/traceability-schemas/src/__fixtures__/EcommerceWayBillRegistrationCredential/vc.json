@@ -14,62 +14,55 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceWayBillRegistrationCredential",
-    "wayBillID": "ACMEWayBill#126",
-    "carrierName": "Gutkowski LLC",
-    "modeOfTransport": "Air",
+    "wayBillID": "ACMEWayBill#131",
+    "carrierName": "Cartwright, Collier and Wolff",
+    "modeOfTransport": "Rail",
     "portOfEntry": {
       "type": "ShippingStop",
       "shippingStopAddress": {
         "type": "PostalAddress",
-        "organizationName": "Welch - Bauch",
-        "streetAddress": "344 Kihn Forges",
-        "addressLocality": "Stammville",
-        "addressRegion": "Hawaii",
-        "postalCode": "92379",
-        "addressCountry": "Isle of Man"
+        "organizationName": "Wehner and Sons",
+        "streetAddress": "63276 Tobin Spring",
+        "addressLocality": "Doyletown",
+        "addressRegion": "South Carolina",
+        "postalCode": "73033",
+        "addressCountry": "Dominican Republic"
       },
       "carrier": {
         "type": "Organization",
-        "name": "Boyle - Wehner",
-        "description": "Managed didactic migration",
+        "name": "Huels - Kuhn",
+        "description": "Phased bi-directional hierarchy",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "00438 Alia Greens",
-          "addressLocality": "South Kaleighbury",
-          "addressRegion": "Virginia",
-          "postalCode": "36811-9917",
-          "addressCountry": "Jersey"
+          "streetAddress": "996 Eulah Canyon",
+          "addressLocality": "Jakubowskibury",
+          "addressRegion": "Idaho",
+          "postalCode": "64688-1795",
+          "addressCountry": "Cuba"
         },
-        "email": "Cristopher_Prohaska@example.org",
-        "phoneNumber": "555-947-5393",
-        "faxNumber": "555-708-8317"
+        "email": "Narciso92@example.org",
+        "phoneNumber": "555-688-3935",
+        "faxNumber": "555-346-7805"
       },
-      "vesselNumber": "ACMECarrierVessel#925",
+      "vesselNumber": "ACMECarrierVessel#67",
       "arrivalDate": "2021-03-09",
-      "stopType": "Stopover"
+      "stopType": "Departure"
     },
     "masterWayBill": "No",
     "wayBillVCID": [
-      "https://vc.example.com/?queryID=0xdB6BDAd29e0CacAe5aBb50Ce11D9a66b529fFB4322c3aDbbea52Ee9D2CAde162"
+      "https://vc.example.com/?queryID=0xF53ac76E6C8fFc1Cc8193A97b151621D6aFfE875c7EB0dBEEe2c3dFEbB005b9f"
     ],
     "packageVCID": [
-      "https://vc.example.com/?queryID=0x40B5A61885646FFEe1f7F885Bd9eDC3AEb4e76Ad8ad295A65E1566a83e728E1D",
-      "https://vc.example.com/?queryID=0xccDe30d7eB91f69cb50Ef2eB0b8AF69bbCEaf7cbBfD9aEa68aFAff1DCFa912c0",
-      "https://vc.example.com/?queryID=0x9fDD44C3c11CF6b86baCCe6d432b6fBFa4503178EC70Faa731D9a5f7Ff1b22fF",
-      "https://vc.example.com/?queryID=0x6d4A0101B024a9dE9a06Bc02AdDc9BbFa58bDDDB7adEE1FEb19c6DF53ac76E6C",
-      "https://vc.example.com/?queryID=0x8fFc1Cc8193A97b151621D6aFfE875c7EB0dBEEe2c3dFEbB005b9ffAA4FD6Fb5",
-      "https://vc.example.com/?queryID=0xbD8231F2C1aCd145b2f6b1Fed28CAB308D7095B0a7BbcB77Bf544Ab55304e4bb",
-      "https://vc.example.com/?queryID=0x9CF1cfCe3Dc5D9cEfe8822a58cDf52FdFc5b7fDCF79D73b3f562A5121C837A61",
-      "https://vc.example.com/?queryID=0xaE7f406AFb9B9bceFB58e0fCd81ae01adFA648Cf0BC9a64E2eE2114a74d5bD21",
-      "https://vc.example.com/?queryID=0x6f554A9ff04b838DFDF9B9561f6755b9B2CAC07ef4651dfF0B9473fDA963BC6B",
-      "https://vc.example.com/?queryID=0x9FfEfCF142ecdbEa38A9cc60a57bcfD3ccdfb91059a66E32be7159ac26EaD3f6"
+      "https://vc.example.com/?queryID=0x6a83e728E1DccDe30d7eB91f69cb50Ef2eB0b8AF69bbCEaf7cbBfD9aEa68aFAf",
+      "https://vc.example.com/?queryID=0xf1DCFa912c09fDD44C3c11CF6b86baCCe6d432b6fBFa4503178EC70Faa731D9a",
+      "https://vc.example.com/?queryID=0x5f7Ff1b22fF6d4A0101B024a9dE9a06Bc02AdDc9BbFa58bDDDB7adEE1FEb19c6"
     ],
     "certificateName": "ACME Carrier Ecommerce Way Bill Registration Certificate"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..uhEB6UlDqY1cHCsjbao_YHnjJO1S5CcJ0w_cFQun3akk4iyfN9YPp5R0LibdIZeNtGj_eIz-s312adEAHQJQDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..VnwqpAbx28K_3lo4s7ozSnuBI6gMmHnIhc5eNZhjy164KdEZqXZKzYZt_D8S466rDLUVB__v8fHpwx4G_T7ODQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

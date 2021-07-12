@@ -1,25 +1,63 @@
 [
   {
-    "application": "synthesize"
+    "pixel": "input",
+    "protocol": "connect",
+    "card": "bypass"
   },
   {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "totalsCommodityContent": {
       "type": "EcommerceWayBillTotals",
-      "totalPieces": 50,
-      "weight": 21883,
-      "chargeableWeight": 19694.7,
-      "weightUnit": "kg",
-      "rateCharge": 0.2809385266086815,
+      "totalPieces": 582,
+      "weight": 352735,
+      "chargeableWeight": 317461.5,
+      "weightUnit": "lb",
+      "rateCharge": 0.020604073249827146,
       "totalRateCharge": {
         "type": "PriceSpecification",
-        "price": 5533,
-        "priceCurrency": "ALL"
+        "price": 6541,
+        "priceCurrency": "MDL"
       }
     },
-    "feed": "parse"
+    "circuit": "navigate"
   },
   {
-    "interface": "back up",
-    "pixel": "connect"
+    "wayBillGrouping": [
+      {
+        "type": "EcommerceWayBillCommodityGroup",
+        "commodityItemNumber": "3erzyvykvila",
+        "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
+        "totalsCommodityGroup": {
+          "type": "EcommerceWayBillTotals",
+          "totalPieces": 704,
+          "weight": 522037,
+          "chargeableWeight": 469833.3,
+          "weightUnit": "kg",
+          "rateCharge": 0.018057468468071547,
+          "totalRateCharge": {
+            "type": "PriceSpecification",
+            "price": 8484,
+            "priceCurrency": "EEK"
+          }
+        }
+      }
+    ],
+    "totalsCommodityContent": {
+      "type": "EcommerceWayBillTotals",
+      "totalPieces": 461,
+      "weight": 297143,
+      "chargeableWeight": 267428.7,
+      "weightUnit": "kg",
+      "rateCharge": 0.007560893800852339,
+      "totalRateCharge": {
+        "type": "PriceSpecification",
+        "price": 2022,
+        "priceCurrency": "KMF"
+      }
+    },
+    "bandwidth": "reboot",
+    "system": "bypass"
   }
 ]

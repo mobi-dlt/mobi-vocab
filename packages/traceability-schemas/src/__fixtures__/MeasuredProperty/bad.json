@@ -1,18 +1,24 @@
 [
   {
-    "formula": "Mg",
-    "bus": "input"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "inchi": "InChI=1S/Re",
+    "protocol": "reboot"
+  },
+  {
+    "identifier": "ISO 180",
+    "name": "Izod Impact Strength Test",
+    "sensor": "index",
+    "bandwidth": "parse",
+    "program": "index",
+    "protocol": "quantify"
   },
   {
     "type": "MechanicalProperty",
-    "name": "Charpy Impact Strength Test",
-    "monitor": "override",
-    "protocol": "copy"
-  },
-  {
-    "type": "ChemicalProperty",
-    "hard drive": "index",
-    "application": "calculate",
-    "microchip": "program"
+    "bus": "transmit",
+    "pixel": "transmit",
+    "driver": "input",
+    "feed": "transmit"
   }
 ]

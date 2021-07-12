@@ -14,13 +14,13 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "MeasuredValue",
-    "value": "88.778",
+    "value": "57.452",
     "unitCode": "P1"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..bUJtkNvJvDTPEMocDAUzDs4lhAZ0oeaBibv4sz3DR3XbWdBvLSZz9fk0pZfybN6rLJW2cC31kBPFlrhbpC1KCw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..zVFnes33ZsuuFCnEj0vJoQmQ9U0ni7Iqd5GAehv4l0tZv_tQ0AgkiWLlXKryhpsRTZzQmihj7nMgxT8GujhiBg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -1,41 +1,21 @@
 [
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "currencyConversionRate": 2,
-    "ccChargesDestinationCurrency": "NIO",
-    "chargesDestination": 233,
-    "sensor": "connect",
-    "application": "input"
-  },
-  {
     "type": "TotalCharge",
-    "totalPrepaid": 1895.25,
-    "totalCollect": 631.75,
-    "sourceCurrency": "ISK",
-    "destinationCurrency": "GNF",
-    "currencyConversionRate": 2,
-    "ccChargesDestinationCurrency": "ISK",
-    "chargesDestination": 637,
-    "totalCollectCharge": 159.25,
-    "sensor": "hack",
-    "panel": "transmit",
-    "transmitter": "navigate"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "TotalCharge",
-    "totalPrepaid": 5739.75,
-    "totalCollect": 1913.25,
-    "sourceCurrency": "IRR",
-    "destinationCurrency": "EEK",
+    "totalCollect": 1473.75,
     "currencyConversionRate": 5,
-    "ccChargesDestinationCurrency": "IRR",
-    "totalCollectCharge": 210.75,
-    "capacitor": "navigate",
-    "hard drive": "copy"
+    "chargesDestination": 204,
+    "port": "index",
+    "application": "compress",
+    "bandwidth": "synthesize"
+  },
+  {
+    "currencyConversionRate": 4,
+    "port": "calculate",
+    "panel": "hack",
+    "driver": "bypass",
+    "firewall": "quantify"
+  },
+  {
+    "bus": "parse"
   }
 ]

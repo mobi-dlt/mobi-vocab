@@ -1,42 +1,37 @@
 [
   {
-    "geo": {
-      "type": "GeoCoordinates",
-      "latitude": "84.6338",
-      "longitude": "-147.6439"
-    },
-    "address": {
-      "type": "PostalAddress",
-      "organizationName": "Cole - Koss",
-      "streetAddress": "9153 Hartmann Prairie",
-      "addressLocality": "Georgiannashire",
-      "addressRegion": "New Jersey",
-      "postalCode": "03251-8015",
-      "addressCountry": "Papua New Guinea"
-    },
-    "interface": "calculate",
-    "protocol": "hack"
-  },
-  {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "Place",
-    "globalLocationNumber": "7258664566759",
-    "address": {
-      "type": "PostalAddress",
-      "organizationName": "Cruickshank Inc",
-      "streetAddress": "874 Aiden Center",
-      "addressLocality": "Waynebury",
-      "addressRegion": "Georgia",
-      "postalCode": "87512",
-      "addressCountry": "Bolivia"
+    "globalLocationNumber": "4691473292649",
+    "geo": {
+      "type": "GeoCoordinates",
+      "latitude": "-27.4202",
+      "longitude": "-24.1736"
     },
-    "program": "index",
-    "card": "synthesize"
+    "application": "input",
+    "pixel": "calculate",
+    "system": "hack",
+    "array": "calculate"
   },
   {
-    "monitor": "input",
-    "program": "quantify"
+    "type": "Place",
+    "globalLocationNumber": "9523787794937",
+    "address": {
+      "type": "PostalAddress",
+      "organizationName": "Ankunding - Feeney",
+      "streetAddress": "009 Nicolas Road",
+      "addressLocality": "East Bethel",
+      "addressRegion": "Rhode Island",
+      "postalCode": "00882-1689",
+      "addressCountry": "Romania"
+    },
+    "sensor": "copy",
+    "panel": "override",
+    "pixel": "program"
+  },
+  {
+    "panel": "hack"
   }
 ]

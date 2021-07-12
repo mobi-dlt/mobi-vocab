@@ -4,25 +4,9 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceInvoiceRegistrationCredential",
-    "invoiceID": "Invoice#659",
+    "invoiceID": "Invoice#776",
     "orderID": [],
     "productInOrder": [
-      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
-      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
-      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
-      "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
-    ],
-    "certificateName": "ACME Ecommerce Invoice Registration Certificate"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "EcommerceInvoiceRegistrationCredential",
-    "invoiceID": "Invoice#463",
-    "orderID": [],
-    "productInOrder": [
-      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
       "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
     ],
     "certificateName": "ACME Ecommerce Invoice Registration Certificate"
@@ -32,11 +16,21 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceInvoiceRegistrationCredential",
-    "invoiceID": "Invoice#89",
+    "invoiceID": "Invoice#938",
     "orderID": [],
     "productInOrder": [
-      "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
-      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
+      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
+    ],
+    "certificateName": "ACME Ecommerce Invoice Registration Certificate"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "EcommerceInvoiceRegistrationCredential",
+    "invoiceID": "Invoice#475",
+    "orderID": [],
+    "productInOrder": [
       "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e"
     ],
     "certificateName": "ACME Ecommerce Invoice Registration Certificate"

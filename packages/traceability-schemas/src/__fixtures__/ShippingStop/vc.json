@@ -16,37 +16,37 @@
     "type": "ShippingStop",
     "shippingStopAddress": {
       "type": "PostalAddress",
-      "organizationName": "Kuhic - Schowalter",
-      "streetAddress": "52885 Harmony Orchard",
-      "addressLocality": "North Renee",
-      "addressRegion": "Oklahoma",
-      "postalCode": "76685-0495",
-      "addressCountry": "Colombia"
+      "organizationName": "Erdman, Gulgowski and Haag",
+      "streetAddress": "9777 Aurelio Road",
+      "addressLocality": "Reynoldshaven",
+      "addressRegion": "Oregon",
+      "postalCode": "64264-8806",
+      "addressCountry": "Zambia"
     },
     "carrier": {
       "type": "Organization",
-      "name": "Trantow - Herman",
-      "description": "Robust contextually-based paradigm",
+      "name": "Cronin, Bechtelar and Rau",
+      "description": "Assimilated neutral artificial intelligence",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "59384 Roselyn Unions",
-        "addressLocality": "South Eldaside",
-        "addressRegion": "North Dakota",
-        "postalCode": "35711-6790",
-        "addressCountry": "Taiwan"
+        "streetAddress": "8720 Brennan Manor",
+        "addressLocality": "Huelsmouth",
+        "addressRegion": "Florida",
+        "postalCode": "32369",
+        "addressCountry": "Tokelau"
       },
-      "email": "Dillon_Lang@example.com",
-      "phoneNumber": "555-111-8756",
-      "faxNumber": "555-908-9404"
+      "email": "Virgil_Gusikowski19@example.net",
+      "phoneNumber": "555-995-6201",
+      "faxNumber": "555-203-5746"
     },
-    "vesselNumber": "ACMECarrierVessel#526",
+    "vesselNumber": "ACMECarrierVessel#440",
     "arrivalDate": "2021-03-09",
-    "stopType": "Stopover"
+    "stopType": "Departure"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..1ZAaIfUgNRVAgx7y8XTycwFym44jO9Pu5ibKYGTLuRO45jITVfzh-T8QiHcwMHfA_VUqa0S8HAWTabT_TvYYDg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..2Cm0hNjqZidExViYe_VmPyBOMaY9sZpMbb4y-FekyeNfpus-Sia01tVKlw5ZDNFzTUGkpTy8Lx5K8Z5CvIBWAA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

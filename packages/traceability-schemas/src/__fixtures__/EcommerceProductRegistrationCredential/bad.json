@@ -1,21 +1,21 @@
 [
   {
-    "panel": "generate",
-    "monitor": "hack",
-    "bus": "input",
-    "capacitor": "quantify"
+    "firewall": "connect",
+    "hard drive": "bypass",
+    "pixel": "override",
+    "panel": "synthesize"
   },
   {
-    "type": "EcommerceProductRegistrationCredential",
-    "card": "navigate",
-    "capacitor": "calculate",
-    "firewall": "bypass"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "capacitor": "hack"
   },
   {
-    "type": "EcommerceProductRegistrationCredential",
-    "productCode": 13,
-    "productCodeType": "UPC",
+    "productCodeType": "GTIN",
     "certificateName": "ACME Ecommerce Product Registration Certificate",
-    "card": "program"
+    "sensor": "calculate",
+    "driver": "quantify",
+    "program": "connect"
   }
 ]

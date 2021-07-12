@@ -1,18 +1,23 @@
 [
   {
-    "leiCode": "309SH9UCI2Q65R9HQV5E",
     "certificateName": "US Legal Entity Certificate",
-    "array": "synthesize",
-    "feed": "generate"
+    "interface": "back up",
+    "panel": "generate"
   },
   {
-    "leiCode": "DWJL3HSSDYNCQ87MVHMZ",
-    "certificateName": "US Legal Entity Certificate",
-    "capacitor": "parse"
+    "microchip": "quantify",
+    "interface": "bypass",
+    "bus": "back up"
   },
   {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "type": "LegalEntityIdentifierCredential",
-    "feed": "connect",
-    "array": "synthesize"
+    "certificateName": "US Legal Entity Certificate",
+    "panel": "copy",
+    "system": "calculate",
+    "interface": "copy",
+    "firewall": "index"
   }
 ]

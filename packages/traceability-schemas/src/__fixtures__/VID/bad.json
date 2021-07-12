@@ -1,51 +1,102 @@
 [
   {
-    "make": "Ford",
-    "program": "quantify",
-    "application": "quantify"
-  },
-  {
-    "type": "VID",
-    "VID": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "manufacturer": {
-      "type": "Person",
-      "firstName": "Vivienne",
-      "lastName": "Rosenbaum",
-      "email": "Laury19@example.net",
-      "phoneNumber": "555-408-1891",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Dicki Inc",
-        "description": "Synchronised homogeneous structure",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "6245 Chet Trace",
-          "addressLocality": "Littleton",
-          "addressRegion": "West Virginia",
-          "postalCode": "69826",
-          "addressCountry": "Paraguay"
-        },
-        "email": "Eleonore.Farrell35@example.net",
-        "phoneNumber": "555-855-3281",
-        "faxNumber": "555-950-4207"
+      "type": "Organization",
+      "name": "Ford",
+      "description": "Secured stable moratorium",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "5471 Karley Islands",
+        "addressLocality": "South Audieton",
+        "addressRegion": "Pennsylvania",
+        "postalCode": "10310",
+        "addressCountry": "Slovenia"
       },
-      "jobTitle": "Future Identity Strategist",
-      "name": "Ford"
+      "email": "Marcelo.Swift51@example.com",
+      "phoneNumber": "555-223-8464",
+      "faxNumber": "555-255-8217"
     },
     "make": "Ford",
     "model": "Mach E",
     "licensePlate": "8TMF808",
-    "circuit": "hack",
-    "matrix": "input",
-    "panel": "override",
-    "protocol": "parse"
+    "card": "index",
+    "hard drive": "calculate",
+    "system": "input"
   },
   {
+    "VID": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "manufacturer": {
+      "type": "Person",
+      "firstName": "Pink",
+      "lastName": "Pouros",
+      "email": "Maude.Wyman@example.org",
+      "phoneNumber": "555-588-4505",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Kshlerin Inc",
+        "description": "Public-key bandwidth-monitored superstructure",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "93213 Kyleigh Stream",
+          "addressLocality": "Lesleyville",
+          "addressRegion": "Tennessee",
+          "postalCode": "34141",
+          "addressCountry": "China"
+        },
+        "email": "Bridgette1@example.com",
+        "phoneNumber": "555-759-9319",
+        "faxNumber": "555-652-7860"
+      },
+      "jobTitle": "International Identity Designer",
+      "name": "Ford"
+    },
+    "make": "Ford",
     "model": "Mach E",
     "vin": "JTERU5JR7M5861170",
+    "pixel": "parse",
+    "sensor": "index",
+    "microchip": "parse",
+    "monitor": "transmit"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "VID",
+    "manufacturer": {
+      "type": "Person",
+      "firstName": "Vida",
+      "lastName": "Hirthe",
+      "email": "Cole.Langworth@example.com",
+      "phoneNumber": "555-813-9841",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Moore LLC",
+        "description": "Configurable disintermediate Graphic Interface",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "4254 Predovic Center",
+          "addressLocality": "Amiemouth",
+          "addressRegion": "South Dakota",
+          "postalCode": "85283",
+          "addressCountry": "Bosnia and Herzegovina"
+        },
+        "email": "Joel.Abernathy17@example.org",
+        "phoneNumber": "555-533-5256",
+        "faxNumber": "555-636-7753"
+      },
+      "jobTitle": "Investor Infrastructure Manager",
+      "name": "Ford"
+    },
+    "make": "Ford",
+    "vin": "JTERU5JR7M5861170",
     "licensePlate": "8TMF808",
-    "hard drive": "index",
-    "feed": "navigate",
-    "microchip": "program"
+    "capacitor": "parse",
+    "microchip": "copy",
+    "application": "hack",
+    "driver": "transmit"
   }
 ]

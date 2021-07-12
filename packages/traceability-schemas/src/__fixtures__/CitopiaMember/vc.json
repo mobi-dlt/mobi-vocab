@@ -1,0 +1,36 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://mobinet.io/schemas/v1"
+  ],
+  "id": "http://example.org/credentials/",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuanceDate": "2021-02-04T20:29:37+00:00",
+  "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
+  "credentialSubject": {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "Customer",
+    "name": "Maria Borer",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "12786 Dulce Estates",
+      "addressLocality": "Christiansenshire",
+      "addressRegion": "North Dakota",
+      "postalCode": "92214-7669",
+      "addressCountry": "Aruba"
+    },
+    "telephone": "555-942-9676",
+    "email": "Marquis_Baumbach@example.org"
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2019-12-11T03:50:55Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..0p8fByciU2Li30PbJAJLt_IIhCRO3Ph07TKTkn4uHKdF1qQIgZKacNI_5O6w1qRtH06lJgFyKzi8GUKUInSwBg",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
+  }
+}

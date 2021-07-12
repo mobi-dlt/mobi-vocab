@@ -15,13 +15,13 @@
     ],
     "type": "EcommerceProductRegistrationCredential",
     "productCode": 0,
-    "productCodeType": "UPC",
+    "productCodeType": "GTIN",
     "certificateName": "ACME Ecommerce Product Registration Certificate"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..3AHhKMWf26D7o_hivlyQnuDryWVGvoaNCxvVdkd7aw_N43n4JzGoehB-XklJQ7zKREHlf5JGMqt9VYFjB7b_DA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..pUcItkZN1BQP7SP_3Z9bM3Rt-DUwcsyogmNpBZf6EkfOYB2YNM2sCvBy-KVEcGiqUuT511XupTSAR0YF8QNRBQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

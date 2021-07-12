@@ -14,26 +14,38 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "PartOfOrder",
-    "orderNumber": "Order#366",
+    "orderNumber": "Order#476",
     "itemsShipped": [
       {
         "type": "ItemShipped",
-        "manufacturer": "Botsford LLC",
-        "name": "Tasty Metal Gloves",
-        "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-        "productID": "V9OUE5DQGI",
-        "weight": "1.708 lp",
-        "height": "9.829 in",
-        "width": "6.706 in",
-        "depth": "5.976 in",
-        "orderQuantity": 4
+        "manufacturer": "Wisoky - Christiansen",
+        "name": "Incredible Metal Ball",
+        "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+        "productID": "RS3ZU0XPB9",
+        "weight": "4.705 lp",
+        "height": "1.364 in",
+        "width": "8.137 in",
+        "depth": "4.626 in",
+        "orderQuantity": 10
+      },
+      {
+        "type": "ItemShipped",
+        "manufacturer": "McKenzie Group",
+        "name": "Unbranded Metal Chair",
+        "description": "The Football Is Good For Training And Recreational Purposes",
+        "productID": "6V739OAOIO",
+        "weight": "3.854 lp",
+        "height": "9.481 in",
+        "width": "9.336 in",
+        "depth": "8.408 in",
+        "orderQuantity": 1
       }
     ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..x9aAp5SaOHA36BIyrmSSDopLB9pPgYbZZYsvsHsFZyDuu1MbhQ1X-po5k3Zj9TPBhkOS_GzAb58HIDVUbFN3Dw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..K46ijuL2I_zS5OpPlVchl8YAbkfBLiK5LJjgWQ_KQT-N3vPHwDtNG2Msfr1y4lQWNNix_PwJFvhfdmQPjGRmCQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

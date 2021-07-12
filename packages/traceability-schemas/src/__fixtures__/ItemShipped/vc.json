@@ -14,20 +14,20 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "ItemShipped",
-    "manufacturer": "Schimmel - Lang",
-    "name": "Tasty Plastic Cheese",
-    "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "productID": "HZ9N1ULYEX",
-    "weight": "2.194 lp",
-    "height": "4.433 in",
-    "width": "8.803 in",
-    "depth": "1.708 in",
-    "orderQuantity": 8
+    "manufacturer": "Steuber LLC",
+    "name": "Ergonomic Frozen Fish",
+    "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+    "productID": "U088E2M3HF",
+    "weight": "2.838 lp",
+    "height": "3.069 in",
+    "width": "4.262 in",
+    "depth": "5.644 in",
+    "orderQuantity": 6
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..aKVQz2flQWuOd0FvC37hB8EwFCnmg7ufhV1im-4Fb3Pl_bB2hoLzeOvVXatTVguvzk8aZvB4Gm62C6o6t1ySDw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..7i9-b1_4WYltxWZQIGc-ZvxTt70vHA62KNt2f3faXbhl_AMmcfJ3BaBARwrDM6vNX7mIoV380sCtvhoz9vnRBA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

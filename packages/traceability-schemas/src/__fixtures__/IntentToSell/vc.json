@@ -15,84 +15,76 @@
     ],
     "type": "IntentToSell",
     "seller": {
-      "type": "Person",
-      "firstName": "Louisa",
-      "lastName": "Gerlach",
-      "email": "Aiden51@example.org",
-      "phoneNumber": "555-984-1759",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Metz, Champlin and Bartell",
-        "description": "Ameliorated didactic open architecture",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "6078 Tatum Stream",
-          "addressLocality": "Shanelfort",
-          "addressRegion": "Wyoming",
-          "postalCode": "20785",
-          "addressCountry": "Gambia"
-        },
-        "email": "Leila_Johnston23@example.org",
-        "phoneNumber": "555-335-2160",
-        "faxNumber": "555-983-5216"
-      },
-      "jobTitle": "Chief Marketing Director"
-    },
-    "purchaser": {
       "type": "Organization",
-      "name": "Collins, O'Keefe and Pfannerstill",
-      "description": "Enhanced uniform definition",
+      "name": "Kuphal - Swaniawski",
+      "description": "Compatible zero tolerance encoding",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "278 Cortney Fall",
-        "addressLocality": "Pfefferview",
-        "addressRegion": "Hawaii",
-        "postalCode": "44737",
-        "addressCountry": "Sri Lanka"
+        "streetAddress": "1769 Melisa Hills",
+        "addressLocality": "Lynchmouth",
+        "addressRegion": "Illinois",
+        "postalCode": "68115",
+        "addressCountry": "Togo"
       },
-      "email": "Emely96@example.com",
-      "phoneNumber": "555-507-3679",
-      "faxNumber": "555-812-6937"
+      "email": "Wilson.Jakubowski32@example.com",
+      "phoneNumber": "555-493-5127",
+      "faxNumber": "555-341-7092"
+    },
+    "purchaser": {
+      "type": "Person",
+      "firstName": "Mohammad",
+      "lastName": "Kessler",
+      "email": "Jerrell.Rau@example.org",
+      "phoneNumber": "555-148-2244",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Stehr - Orn",
+        "description": "Customizable 24/7 intranet",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "9039 Gerald Isle",
+          "addressLocality": "Smithfort",
+          "addressRegion": "North Carolina",
+          "postalCode": "66328-3038",
+          "addressCountry": "Andorra"
+        },
+        "email": "Addie34@example.net",
+        "phoneNumber": "555-561-6243",
+        "faxNumber": "555-458-7289"
+      },
+      "jobTitle": "Dynamic Accountability Administrator"
     },
     "product": {
       "type": "Product",
       "manufacturer": {
-        "type": "Person",
-        "firstName": "Donnell",
-        "lastName": "Klocko",
-        "email": "Skylar.DuBuque@example.net",
-        "phoneNumber": "555-822-6559",
-        "worksFor": {
-          "type": "Organization",
-          "name": "King, Spinka and Nienow",
-          "description": "Integrated context-sensitive interface",
-          "address": {
-            "type": "PostalAddress",
-            "streetAddress": "2971 Ellie Rue",
-            "addressLocality": "Ezekielton",
-            "addressRegion": "Wyoming",
-            "postalCode": "15430-7820",
-            "addressCountry": "Paraguay"
-          },
-          "email": "Greta47@example.net",
-          "phoneNumber": "555-706-1357",
-          "faxNumber": "555-150-8554"
+        "type": "Organization",
+        "name": "Sipes - Witting",
+        "description": "Cross-platform didactic benchmark",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "918 Ethyl Keys",
+          "addressLocality": "South Donnellhaven",
+          "addressRegion": "Hawaii",
+          "postalCode": "60588",
+          "addressCountry": "Cote d'Ivoire"
         },
-        "jobTitle": "Internal Tactics Assistant"
+        "email": "Kaylie_Fahey41@example.net",
+        "phoneNumber": "555-957-7018",
+        "faxNumber": "555-464-5885"
       },
-      "name": "Handmade Cotton Bike",
-      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "name": "Awesome Frozen Mouse",
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
       "sizeOrAmount": {
         "type": "QuantitativeValue",
         "unitCode": "hg/ha",
-        "value": "4111"
+        "value": "3276"
       },
       "weight": {
         "type": "QuantitativeValue",
         "unitCode": "hg/ha",
-        "value": "2308"
+        "value": "6071"
       },
-      "sku": "10682183853"
+      "sku": "224376928082"
     },
     "declarationDate": "2020-03-21",
     "sellByDate": "2021-06-30"
@@ -100,7 +92,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..kibIhn8HmYwQ5cBRPzfK3nssLXHGMDwCVLJkglnxL--R8HXcUf1V54ztzfiveBIup4_oAk7PLIaoquL5R2_qDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..cvLZVTY1rAd1nqCQGox4fLraspAZWScyAbj6vWSoFTL0fznkq8vj3IK-EaYzHOXh80aobjzijt7OQalOH55eAw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -14,22 +14,22 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "ContactPoint",
-    "name": "Thiel, Stamm and Padberg",
+    "name": "Dicki, Terry and VonRueden",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "73831 Kerluke Estate",
-      "addressLocality": "West Eldonborough",
-      "addressRegion": "Rhode Island",
-      "postalCode": "52363-5052",
-      "addressCountry": "Northern Mariana Islands"
+      "streetAddress": "70909 Dorthy Loaf",
+      "addressLocality": "New Paris",
+      "addressRegion": "Wyoming",
+      "postalCode": "35534",
+      "addressCountry": "Norfolk Island"
     },
-    "email": "Kasandra_Tromp60@example.org",
-    "phoneNumber": "555-681-5935"
+    "email": "Bart_Barrows@example.net",
+    "phoneNumber": "555-862-3163"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..GCBCVlxntZZxDn8wTiQyOB9H9M0sprCpnqATXFrqMit4lTNtv9JYIxFWbC3KTbN5Ae7YGLa_vZr2ah5JyK8XAQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..E8MEJbVkVZh14NT_6OpaWwJDhTVQJhY_cksemIVOxfe9n_-4MrteM6iKlWxP7---OMooPHk8CDghUBpfpo_zDg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

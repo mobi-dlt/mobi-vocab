@@ -1,325 +1,196 @@
 [
   {
-    "wayBillCommodityContent": {
-      "type": "EcommerceWayBillCommodityContent",
-      "wayBillGrouping": [
-        {
-          "type": "EcommerceWayBillCommodityGroup",
-          "commodityItemNumber": "gwan83nonmtt",
-          "natureQuantityOfGoods": "A lot of laptops that way a lot",
-          "totalsCommodityGroup": {
-            "type": "EcommerceWayBillTotals",
-            "totalPieces": 423,
-            "weight": 826997,
-            "chargeableWeight": 744297.3,
-            "weightUnit": "lb",
-            "rateCharge": 0.01166738076303649,
-            "totalRateCharge": {
-              "type": "PriceSpecification",
-              "price": 8684,
-              "priceCurrency": "AUD"
-            }
-          }
-        },
-        {
-          "type": "EcommerceWayBillCommodityGroup",
-          "commodityItemNumber": "zpl9pz06i015",
-          "natureQuantityOfGoods": "A lot of laptops that way a lot",
-          "totalsCommodityGroup": {
-            "type": "EcommerceWayBillTotals",
-            "totalPieces": 574,
-            "weight": 778114,
-            "chargeableWeight": 700302.6,
-            "weightUnit": "kg",
-            "rateCharge": 0.006387238887875042,
-            "totalRateCharge": {
-              "type": "PriceSpecification",
-              "price": 4473,
-              "priceCurrency": "UYU"
-            }
-          }
-        },
-        {
-          "type": "EcommerceWayBillCommodityGroup",
-          "commodityItemNumber": "jygxybo72ugw",
-          "natureQuantityOfGoods": "A lot of laptops that way a lot",
-          "totalsCommodityGroup": {
-            "type": "EcommerceWayBillTotals",
-            "totalPieces": 248,
-            "weight": 546181,
-            "chargeableWeight": 491562.9,
-            "weightUnit": "lb",
-            "rateCharge": 0.01281219555015238,
-            "totalRateCharge": {
-              "type": "PriceSpecification",
-              "price": 6298,
-              "priceCurrency": "KES"
-            }
-          }
-        },
-        {
-          "type": "EcommerceWayBillCommodityGroup",
-          "commodityItemNumber": "kscm5ii2twnm",
-          "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
-          "totalsCommodityGroup": {
-            "type": "EcommerceWayBillTotals",
-            "totalPieces": 345,
-            "weight": 200764,
-            "chargeableWeight": 180687.6,
-            "weightUnit": "kg",
-            "rateCharge": 0.03358282472067812,
-            "totalRateCharge": {
-              "type": "PriceSpecification",
-              "price": 6068,
-              "priceCurrency": "VEF"
-            }
-          }
-        }
-      ],
-      "totalsCommodityContent": {
-        "type": "EcommerceWayBillTotals",
-        "totalPieces": 217,
-        "weight": 530513,
-        "chargeableWeight": 477461.7,
-        "weightUnit": "kg",
-        "rateCharge": 0.015046233027696252,
-        "totalRateCharge": {
-          "type": "PriceSpecification",
-          "price": 7184,
-          "priceCurrency": "AFN"
-        }
-      }
-    },
-    "application": "calculate",
-    "feed": "hack",
-    "matrix": "index"
+    "system": "input"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
+    "type": "EcommerceWayBillRegistrationEvidenceDocument",
     "issuanceDate": "2021-03-09",
-    "cidNumber": "",
-    "shippingRoute": [
-      {
-        "type": "ShippingStop",
-        "shippingStopAddress": {
-          "type": "PostalAddress",
-          "organizationName": "Witting Inc",
-          "streetAddress": "42943 Cruickshank Street",
-          "addressLocality": "Doylestad",
-          "addressRegion": "Arkansas",
-          "postalCode": "74223",
-          "addressCountry": "Venezuela"
-        },
-        "carrier": {
-          "type": "Organization",
-          "name": "DuBuque Group",
-          "description": "Synergized static algorithm",
-          "address": {
-            "type": "PostalAddress",
-            "streetAddress": "4012 Vincent Mount",
-            "addressLocality": "New Arlieshire",
-            "addressRegion": "Mississippi",
-            "postalCode": "00068-2759",
-            "addressCountry": "Falkland Islands (Malvinas)"
-          },
-          "email": "Aubrey.Lang63@example.net",
-          "phoneNumber": "555-869-4139",
-          "faxNumber": "555-714-9308"
-        },
-        "vesselNumber": "ACMECarrierVessel#847",
-        "arrivalDate": "2021-03-09",
-        "stopType": "Stopover"
-      },
-      {
-        "type": "ShippingStop",
-        "shippingStopAddress": {
-          "type": "PostalAddress",
-          "organizationName": "Ebert, Wuckert and Lind",
-          "streetAddress": "72624 Cicero Square",
-          "addressLocality": "Annabelleside",
-          "addressRegion": "Wyoming",
-          "postalCode": "07803-3885",
-          "addressCountry": "Denmark"
-        },
-        "carrier": {
-          "type": "Organization",
-          "name": "Macejkovic, Osinski and Kuvalis",
-          "description": "Ergonomic bifurcated portal",
-          "address": {
-            "type": "PostalAddress",
-            "streetAddress": "20928 Towne Radial",
-            "addressLocality": "South Michaelstad",
-            "addressRegion": "New York",
-            "postalCode": "98593",
-            "addressCountry": "Estonia"
-          },
-          "email": "Neoma52@example.com",
-          "phoneNumber": "555-567-5453",
-          "faxNumber": "555-981-1775"
-        },
-        "vesselNumber": "ACMECarrierVessel#489",
-        "arrivalDate": "2021-03-09",
-        "stopType": "Destination"
-      }
-    ],
-    "wayBillCommodityContent": {
-      "type": "EcommerceWayBillCommodityContent",
-      "wayBillGrouping": [
-        {
-          "type": "EcommerceWayBillCommodityGroup",
-          "commodityItemNumber": "09r0padj10ra",
-          "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
-          "totalsCommodityGroup": {
-            "type": "EcommerceWayBillTotals",
-            "totalPieces": 956,
-            "weight": 882597,
-            "chargeableWeight": 794337.3,
-            "weightUnit": "lb",
-            "rateCharge": 0.007479190515162765,
-            "totalRateCharge": {
-              "type": "PriceSpecification",
-              "price": 5941,
-              "priceCurrency": "CZK"
-            }
-          }
-        },
-        {
-          "type": "EcommerceWayBillCommodityGroup",
-          "commodityItemNumber": "6eko56ctp4kn",
-          "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
-          "totalsCommodityGroup": {
-            "type": "EcommerceWayBillTotals",
-            "totalPieces": 392,
-            "weight": 347738,
-            "chargeableWeight": 312964.2,
-            "weightUnit": "kg",
-            "rateCharge": 0.023894106738086975,
-            "totalRateCharge": {
-              "type": "PriceSpecification",
-              "price": 7478,
-              "priceCurrency": "IRR"
-            }
-          }
-        }
-      ],
-      "totalsCommodityContent": {
-        "type": "EcommerceWayBillTotals",
-        "totalPieces": 15,
-        "weight": 457829,
-        "chargeableWeight": 412046.10000000003,
-        "weightUnit": "kg",
-        "rateCharge": 0.004130605774450965,
-        "totalRateCharge": {
-          "type": "PriceSpecification",
-          "price": 1702,
-          "priceCurrency": "AZN"
-        }
-      }
-    },
-    "protocol": "copy",
-    "microchip": "compress",
-    "application": "navigate"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "issuanceDate": "2021-03-09",
+    "waybillNumber": "ACMEWayBill#753",
     "waybillType": "Single",
+    "issuer": {
+      "type": "Organization",
+      "name": "Bradtke LLC",
+      "description": "Pre-emptive well-modulated frame",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "580 Gulgowski Forks",
+        "addressLocality": "Abbotthaven",
+        "addressRegion": "Wisconsin",
+        "postalCode": "90720",
+        "addressCountry": "Tajikistan"
+      },
+      "email": "Pat9@example.net",
+      "phoneNumber": "555-502-2160",
+      "faxNumber": "555-191-7479"
+    },
     "shipper": {
       "type": "Organization",
-      "name": "Grant Group",
-      "description": "Centralized needs-based focus group",
+      "name": "Schultz Inc",
+      "description": "Upgradable holistic instruction set",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "61576 Gabriella Extensions",
-        "addressLocality": "South Colin",
-        "addressRegion": "Oregon",
-        "postalCode": "15464",
-        "addressCountry": "Sao Tome and Principe"
+        "streetAddress": "77881 Haylie Junction",
+        "addressLocality": "Alvahland",
+        "addressRegion": "Iowa",
+        "postalCode": "41174",
+        "addressCountry": "Saint Martin"
       },
-      "email": "Nat.Price@example.com",
-      "phoneNumber": "555-586-7904",
-      "faxNumber": "555-836-9754"
+      "email": "Valentina_Herzog@example.com",
+      "phoneNumber": "555-867-1952",
+      "faxNumber": "555-623-5555"
     },
-    "sidNumber": "",
     "consignee": {
       "type": "Organization",
-      "name": "Gleichner and Sons",
-      "description": "Inverse demand-driven superstructure",
+      "name": "Kuhlman - Legros",
+      "description": "Fundamental leading edge array",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "596 Klocko Circle",
-        "addressLocality": "Monahanstad",
-        "addressRegion": "Illinois",
-        "postalCode": "44672",
-        "addressCountry": "Serbia"
+        "streetAddress": "434 Hayes Station",
+        "addressLocality": "Bednarfort",
+        "addressRegion": "Nevada",
+        "postalCode": "53947",
+        "addressCountry": "Mexico"
       },
-      "email": "Sophia_Dickens85@example.net",
-      "phoneNumber": "555-641-5451",
-      "faxNumber": "555-727-9052"
+      "email": "Davonte.Rutherford30@example.net",
+      "phoneNumber": "555-925-3145",
+      "faxNumber": "555-917-8145"
     },
-    "cidNumber": "",
-    "handlingInstructions": "Forward on to Example Forwarder in the US",
+    "issuerAgent": {
+      "type": "IssuerAgent",
+      "issuerAgentOrg": {
+        "type": "Organization",
+        "name": "Gorczany - Rowe",
+        "description": "Re-engineered cohesive approach",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "3206 Karine Haven",
+          "addressLocality": "South Arne",
+          "addressRegion": "Louisiana",
+          "postalCode": "46933",
+          "addressCountry": "Faroe Islands"
+        },
+        "email": "Malcolm41@example.net",
+        "phoneNumber": "555-332-2659",
+        "faxNumber": "555-319-5477"
+      },
+      "iataCode": "IATA#778",
+      "accountNumber": "",
+      "accountingInformation": "Please charge to Account 123 and not Account 321",
+      "charge": {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
+        ],
+        "type": "PriceSpecification",
+        "price": 7231,
+        "priceCurrency": "GNF"
+      },
+      "declaredValueCarriage": {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
+        ],
+        "type": "PriceSpecification",
+        "price": 9454,
+        "priceCurrency": "MDL"
+      },
+      "declaredValueCarriagePaymentStatus": "PaymentDeclined",
+      "declaredValueCustoms": {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
+        ],
+        "type": "PriceSpecification",
+        "price": 9172,
+        "priceCurrency": "CNY"
+      },
+      "declaredValueCustomsPaymentStatus": "PaymentDeclined",
+      "amountInsurance": {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
+        ],
+        "type": "PriceSpecification",
+        "price": 5839,
+        "priceCurrency": "PYG"
+      }
+    },
+    "handlingInstructions": "Hand over to ACME Importer",
     "handlingInstructionsSCI": "",
     "wayBillCommodityContent": {
       "type": "EcommerceWayBillCommodityContent",
       "wayBillGrouping": [
         {
           "type": "EcommerceWayBillCommodityGroup",
-          "commodityItemNumber": "kb6r3110nsth",
+          "commodityItemNumber": "rvj72b0m3mep",
           "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
           "totalsCommodityGroup": {
             "type": "EcommerceWayBillTotals",
-            "totalPieces": 514,
-            "weight": 139572,
-            "chargeableWeight": 125614.8,
+            "totalPieces": 934,
+            "weight": 120891,
+            "chargeableWeight": 108801.90000000001,
             "weightUnit": "kg",
-            "rateCharge": 0.018811477628432317,
+            "rateCharge": 0.07808687164470472,
             "totalRateCharge": {
               "type": "PriceSpecification",
-              "price": 2363,
-              "priceCurrency": "AMD"
-            }
-          }
-        },
-        {
-          "type": "EcommerceWayBillCommodityGroup",
-          "commodityItemNumber": "xulpthsixzry",
-          "natureQuantityOfGoods": "A lot of laptops that way a lot",
-          "totalsCommodityGroup": {
-            "type": "EcommerceWayBillTotals",
-            "totalPieces": 750,
-            "weight": 223116,
-            "chargeableWeight": 200804.4,
-            "weightUnit": "lb",
-            "rateCharge": 0.04040250114041326,
-            "totalRateCharge": {
-              "type": "PriceSpecification",
-              "price": 8113,
-              "priceCurrency": "CVE"
+              "price": 8496,
+              "priceCurrency": "MZN"
             }
           }
         }
       ],
       "totalsCommodityContent": {
         "type": "EcommerceWayBillTotals",
-        "totalPieces": 522,
-        "weight": 221402,
-        "chargeableWeight": 199261.80000000002,
-        "weightUnit": "kg",
-        "rateCharge": 0.033945292073041596,
+        "totalPieces": 472,
+        "weight": 476609,
+        "chargeableWeight": 428948.10000000003,
+        "weightUnit": "lb",
+        "rateCharge": 0.022874562213936835,
         "totalRateCharge": {
           "type": "PriceSpecification",
-          "price": 6764,
-          "priceCurrency": "BIF"
+          "price": 9812,
+          "priceCurrency": "HNL"
         }
       }
     },
-    "circuit": "quantify",
-    "microchip": "synthesize",
-    "bandwidth": "input"
+    "chargeDeclaration": {
+      "type": "ChargeDeclaration",
+      "weightCharge": {
+        "type": "chargeAndPaymentType",
+        "chargeCollect": 743,
+        "chargePrepaid": 878
+      },
+      "taxCharge": {
+        "type": "chargeAndPaymentType",
+        "chargeCollect": 126,
+        "chargePrepaid": 786
+      },
+      "otherChargesAgent": {
+        "type": "chargeAndPaymentType",
+        "chargeCollect": 759,
+        "chargePrepaid": 176
+      },
+      "otherChargesCarrier": {
+        "type": "chargeAndPaymentType",
+        "chargeCollect": 104,
+        "chargePrepaid": 517
+      },
+      "totalCharge": {
+        "type": "TotalCharge",
+        "totalPrepaid": 3031.5,
+        "totalCollect": 1010.5,
+        "sourceCurrency": "AED",
+        "destinationCurrency": "KMF",
+        "currencyConversionRate": 5,
+        "ccChargesDestinationCurrency": "AED",
+        "chargesDestination": 629,
+        "totalCollectCharge": 157.25
+      }
+    },
+    "protocol": "input"
+  },
+  {
+    "system": "compress",
+    "hard drive": "transmit",
+    "array": "calculate"
   }
 ]

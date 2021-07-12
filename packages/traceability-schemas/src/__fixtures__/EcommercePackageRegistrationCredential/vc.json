@@ -14,15 +14,18 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommercePackageRegistrationCredential",
-    "trackingID": "728049503429",
+    "trackingID": "457253180467",
     "packageItems": [
       {
         "type": "EcommercePackageItem",
-        "productReceiptID": "https://vc.example.com/?queryID=0xDaF46e4BAB5dDb2126F2eFC273eDdEdAf0c09863A04afE57deAe451e24d2Cf02",
-        "packingListID": "https://vc.example.com/?queryID=0xAF74adE972a00d1B5C0adB9ecf3a6deBF81BDdc3c0b71c1Cd27BEC833CfF6fbB",
+        "productReceiptID": "https://vc.example.com/?queryID=0xcFb26a6c6bA1e1C2Fcab151e6CE0ba5f85d6ed3DFBbc2AD81eDaF4ffAc77EEb0",
+        "packingListID": "https://vc.example.com/?queryID=0xA6E1FACf67Fed8EAe9698Ec5B26ccF78B1a71b331eaF2927E8D29DF908ded9ae",
         "orderID": "https://vc.example.com/?queryID=AB06f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a",
         "productInOrder": [
-          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
+          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
+          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
+          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
+          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e"
         ]
       }
     ],
@@ -31,7 +34,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..EzpZICpzcjVcwD3ViflA3CLXnkHBRGgr7OqxM3dnL2Z4mGX-64SZ7gJ7teuR3uTqrs5pESwiv-KdLOf_OsHtDg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..QtYsHFTl2WqsqpWGZgUtVHvjn9yhT2SiQiv2KqWQoNODp0jpNPvcuxsbQQ_I0dqUrzFj4Rn_xnHW6ngxij_LDQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -5,7 +5,7 @@
     ],
     "type": "EcommerceProductRegistrationCredential",
     "productCode": 0,
-    "productCodeType": "UPC",
+    "productCodeType": "GTIN",
     "certificateName": "ACME Ecommerce Product Registration Certificate"
   },
   {
@@ -22,8 +22,8 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceProductRegistrationCredential",
-    "productCode": 13,
-    "productCodeType": "UPC",
+    "productCode": 10,
+    "productCodeType": "GTIN",
     "certificateName": "ACME Ecommerce Product Registration Certificate"
   }
 ]

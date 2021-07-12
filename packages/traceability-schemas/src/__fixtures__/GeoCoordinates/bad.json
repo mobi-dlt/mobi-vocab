@@ -1,26 +1,19 @@
 [
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "sensor": "index",
-    "firewall": "hack"
+    "latitude": "-9.2068",
+    "system": "reboot"
+  },
+  {
+    "latitude": "-20.5022",
+    "card": "generate"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "longitude": "-135.7482",
-    "feed": "input",
-    "capacitor": "quantify",
-    "card": "calculate"
-  },
-  {
     "type": "GeoCoordinates",
-    "longitude": "-175.1338",
-    "microchip": "bypass",
-    "application": "synthesize",
-    "matrix": "override",
-    "capacitor": "synthesize"
+    "alarm": "navigate",
+    "protocol": "compress",
+    "circuit": "program"
   }
 ]

@@ -1,33 +1,18 @@
 [
   {
-    "customer": {
-      "type": "Organization",
-      "name": "Dickens, Ondricka and Lowe",
-      "description": "Monitored 3rd generation moratorium",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "1619 Pacocha Burgs",
-        "addressLocality": "West Wilber",
-        "addressRegion": "New Hampshire",
-        "postalCode": "63940-4412",
-        "addressCountry": "Uzbekistan"
-      },
-      "email": "Alexandro_McClure@example.net",
-      "phoneNumber": "555-529-4638",
-      "faxNumber": "555-928-8877"
-    },
-    "microchip": "bypass"
+    "monitor": "bypass",
+    "card": "connect",
+    "alarm": "input",
+    "port": "override"
   },
   {
-    "microchip": "parse",
-    "bandwidth": "input",
-    "monitor": "reboot",
-    "port": "synthesize"
+    "hard drive": "index",
+    "interface": "override",
+    "port": "index"
   },
   {
-    "type": [
-      "Purchase"
-    ],
-    "pixel": "transmit"
+    "bus": "synthesize",
+    "capacitor": "copy",
+    "sensor": "copy"
   }
 ]

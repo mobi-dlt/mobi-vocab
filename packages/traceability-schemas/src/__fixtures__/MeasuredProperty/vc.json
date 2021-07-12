@@ -14,15 +14,15 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "ChemicalProperty",
-    "name": "Magnesium",
-    "formula": "Mg",
-    "inchi": "InChI=1S/Mg",
-    "inchikey": "FYYHWMGAXLPEAU-UHFFFAOYSA-N"
+    "name": "Rhenium",
+    "formula": "Re",
+    "inchi": "InChI=1S/Re",
+    "inchikey": "WUAPFZMCVAUBPE-UHFFFAOYSA-N"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..obpw8EOcI5dtbUCWnmN640dU01i9feg8B9O3Kt9D_PxQGeJNlpXHxM0l4SzAIMOdZO5xNJqEASeH7APYX8d2Cg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..BPYA2Oi8_YcjPibVY9-CcpJ9BXse2nTVFrWRR5_bLuo5ySVYk9b644piCdSNA7ysCXBlsw-pz7Zr_Qu9sKXgAQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

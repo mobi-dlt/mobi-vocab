@@ -14,26 +14,26 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "Place",
-    "globalLocationNumber": "2617237911245",
+    "globalLocationNumber": "4691473292649",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "84.6338",
-      "longitude": "-147.6439"
+      "latitude": "-27.4202",
+      "longitude": "-24.1736"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Cole - Koss",
-      "streetAddress": "9153 Hartmann Prairie",
-      "addressLocality": "Georgiannashire",
-      "addressRegion": "New Jersey",
-      "postalCode": "03251-8015",
-      "addressCountry": "Papua New Guinea"
+      "organizationName": "Donnelly Inc",
+      "streetAddress": "7160 Grimes Gateway",
+      "addressLocality": "Welchland",
+      "addressRegion": "Wyoming",
+      "postalCode": "40817-5240",
+      "addressCountry": "Uruguay"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..XYhQLBmi9x9RDuVH3cvgi2iIlA1WhgJGzrP-vsxlOpejrtYGNmK7FCY6odWLQclLouX6ajpCpLtxwpWwTWH4Dw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..SUV9iml7th8iijqX8NnzbKhr9JooYwYAQOVWoTfqlL7pdB6Fvz83dUTY0ZT4c1UOXqkSBxbGu_Wx4KOf8kzgDQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -3,23 +3,28 @@
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "type": "QuantitativeValue",
-    "value": "8387",
-    "interface": "calculate",
-    "capacitor": "generate"
+    "value": "6398",
+    "port": "synthesize",
+    "protocol": "reboot",
+    "driver": "parse"
   },
   {
-    "driver": "input",
-    "system": "generate",
-    "port": "navigate",
-    "bandwidth": "navigate"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "QuantitativeValue",
+    "unitCode": "hg/ha",
+    "matrix": "compress"
   },
   {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "type": "QuantitativeValue",
-    "value": "8796",
-    "bus": "calculate",
-    "microchip": "synthesize",
-    "system": "back up",
-    "interface": "quantify"
+    "unitCode": "hg/ha",
+    "card": "override",
+    "panel": "back up",
+    "hard drive": "hack",
+    "bus": "navigate"
   }
 ]

@@ -14,13 +14,13 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "chargeAndPaymentType",
-    "chargeCollect": 190,
-    "chargePrepaid": 578
+    "chargeCollect": 382,
+    "chargePrepaid": 605
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..KZ65yllTEWOagus8OS0EyNqPueMZZQHD2SPsAiyX-Mc06O_Dv6GlJTroHYzBItyGGd86dG7GSUm3KXIjElwkCw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vMlk0anhtCfbxM8X8Kei0FGEzlf8GURi7UZdVj_Gb8ZsfLwlYhCdw9hr8AxqUwPMuApcuw5uRjYcr6p2C6W2AA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

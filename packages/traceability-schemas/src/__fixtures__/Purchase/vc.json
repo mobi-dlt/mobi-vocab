@@ -18,25 +18,25 @@
     ],
     "customer": {
       "type": "Organization",
-      "name": "Dickens, Ondricka and Lowe",
-      "description": "Monitored 3rd generation moratorium",
+      "name": "Block Inc",
+      "description": "Team-oriented contextually-based complexity",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "1619 Pacocha Burgs",
-        "addressLocality": "West Wilber",
-        "addressRegion": "New Hampshire",
-        "postalCode": "63940-4412",
-        "addressCountry": "Uzbekistan"
+        "streetAddress": "3568 Arely Villages",
+        "addressLocality": "North Ethylhaven",
+        "addressRegion": "Delaware",
+        "postalCode": "29930-4213",
+        "addressCountry": "Bouvet Island (Bouvetoya)"
       },
-      "email": "Alexandro_McClure@example.net",
-      "phoneNumber": "555-529-4638",
-      "faxNumber": "555-928-8877"
+      "email": "Nelda94@example.com",
+      "phoneNumber": "555-655-6208",
+      "faxNumber": "555-580-4278"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..3N4TMhWyBH3HQf2R4nhxwnDS8Zg2mVZcSlViBEO2XXUNT74yv80gyvWjZqbfqOyrF80EvQmkj0gWj4VCSfvBCQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..O3VpuJvmiXF6TWpySzP4I88n49Ajg5ArDzDh8rcMWzPyS87wjqFGJ5izVRGMqa4nzR9s4skT4kYG9Tz-n6UZDw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

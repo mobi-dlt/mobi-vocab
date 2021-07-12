@@ -4,67 +4,67 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIentity",
-    "legalName": "Beahan, Hammes and Cormier",
-    "legalNameLanguage": "uk",
+    "legalName": "Jacobs, Rutherford and Gutkowski",
+    "legalNameLanguage": "ru",
     "otherNames": [
-      "Torp LLC",
-      "Ratke - Stiedemann"
+      "King, Spinka and Nienow",
+      "Ernser - Lebsack"
     ],
     "transliteratedOtherNames": [
-      "Torp LLC",
-      "Ratke - Stiedemann"
+      "King, Spinka and Nienow",
+      "Ernser - Lebsack"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "fi",
+      "language": "pt_PT",
       "addressLines": [
-        "Kub, Walker and Gislason",
-        "4471 Breitenberg Prairie"
+        "Goldner - Klocko",
+        "83854 Rodriguez Locks"
       ],
-      "addressNumber": "424",
-      "addressNumberWithinBuilding": "2",
-      "mailRouting": "4064 Giovanny Mountain, 66990-0354",
-      "city": "Mayermouth",
-      "region": "Berkshire",
-      "country": "Kenya",
-      "postalCode": "31128"
+      "addressNumber": "104",
+      "addressNumberWithinBuilding": "5",
+      "mailRouting": "2802 Reilly Springs, 03663-2718",
+      "city": "Starkton",
+      "region": "Cambridgeshire",
+      "country": "Qatar",
+      "postalCode": "22883-5909"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "vi",
+      "language": "fr_CA",
       "addressLines": [
-        "Rice - Thiel",
-        "88653 Ray Hill"
+        "Weissnat Inc",
+        "187 Kozey Garden"
       ],
-      "addressNumber": "409",
-      "addressNumberWithinBuilding": "7",
-      "mailRouting": "838 Boyer Junctions, 99036-0414",
-      "city": "Parisianmouth",
-      "region": "Borders",
-      "country": "Northern Mariana Islands",
-      "postalCode": "35272"
+      "addressNumber": "52",
+      "addressNumberWithinBuilding": "5",
+      "mailRouting": "714 Dare Creek, 99668-7333",
+      "city": "East Ludieport",
+      "region": "Buckinghamshire",
+      "country": "Timor-Leste",
+      "postalCode": "58612"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000002",
-      "otherValidationAuthorityID": "TN6FWYNO",
-      "validationAuthorityEntityID": "VSHAJ2XHWBG79YEFD6A7"
+      "validationAuthorityID": "RA000004",
+      "otherValidationAuthorityID": "FYE6XY50",
+      "validationAuthorityEntityID": "0H8CTG7K8F4EPQ2OBTA8"
     },
-    "legalJurisdiction": "Bedfordshire",
-    "entityCategory": "Industrial",
+    "legalJurisdiction": "Berkshire",
+    "entityCategory": "Jewelery",
     "legalForm": "LLC",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "VFJBLAXZN5OQS04LCWYA",
-      "name": "Bernier, Gleichner and Pagac"
+      "leiCode": "PAOC3ZX3KED2RT93OO12",
+      "name": "Lesch - Hills"
     },
-    "status": "CONFIRMED",
+    "status": "IN PROGRESS",
     "expirationDate": "2022-07-11",
-    "expirationReason": "leverage world-class action-items",
+    "expirationReason": "target collaborative e-services",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "A2795RBV370GSG4VRRSI",
-      "name": "Osinski - Hagenes"
+      "leiCode": "D5R7Q3WOGNJYEQU18V8V",
+      "name": "Kihn - Fay"
     },
     "otherAddresses": []
   },
@@ -73,136 +73,136 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIentity",
-    "legalName": "Wiegand - Wunsch",
-    "legalNameLanguage": "tr",
+    "legalName": "Harris - Goyette",
+    "legalNameLanguage": "de_CH",
     "otherNames": [
-      "Zemlak - Marquardt",
-      "Turner Inc"
+      "Schaefer Group",
+      "Ondricka and Sons"
     ],
     "transliteratedOtherNames": [
-      "Zemlak - Marquardt",
-      "Turner Inc"
+      "Schaefer Group",
+      "Ondricka and Sons"
+    ],
+    "legalAddress": {
+      "type": "LEIaddress",
+      "language": "nl_BE",
+      "addressLines": [
+        "Flatley Group",
+        "96619 Grady Ports"
+      ],
+      "addressNumber": "265",
+      "addressNumberWithinBuilding": "8",
+      "mailRouting": "0112 Sandrine View, 25756",
+      "city": "Wallaceport",
+      "region": "Borders",
+      "country": "Chad",
+      "postalCode": "76103"
+    },
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "fa",
+      "addressLines": [
+        "Windler - Pollich",
+        "47460 Valerie Isle"
+      ],
+      "addressNumber": "144",
+      "addressNumberWithinBuilding": "9",
+      "mailRouting": "013 Osvaldo Grove, 32256",
+      "city": "Donnellyton",
+      "region": "Berkshire",
+      "country": "Maldives",
+      "postalCode": "91771-4783"
+    },
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000002",
+      "otherValidationAuthorityID": "4EOSKYH4",
+      "validationAuthorityEntityID": "HFPHXD3D01TO3FZ7MTNS"
+    },
+    "legalJurisdiction": "Buckinghamshire",
+    "entityCategory": "Industrial",
+    "legalForm": "CORPORATION",
+    "associatedEntity": {
+      "type": "Organization",
+      "leiCode": "TZRDD1YSWLY7FH7QMROH",
+      "name": "Okuneva LLC"
+    },
+    "status": "IN PROGRESS",
+    "expirationDate": "2022-07-11",
+    "expirationReason": "empower holistic communities",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "7Q4123V0A5028ZCAZ5I8",
+      "name": "Weber and Sons"
+    },
+    "otherAddresses": []
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "LEIentity",
+    "legalName": "Crona, Schroeder and Daniel",
+    "legalNameLanguage": "en_GB",
+    "otherNames": [
+      "Champlin - West",
+      "Koss and Sons"
+    ],
+    "transliteratedOtherNames": [
+      "Champlin - West",
+      "Koss and Sons"
     ],
     "legalAddress": {
       "type": "LEIaddress",
       "language": "pl",
       "addressLines": [
-        "Langosh Inc",
-        "155 Lou Way"
+        "Armstrong, Treutel and Lynch",
+        "56392 Tito Route"
       ],
-      "addressNumber": "52",
-      "addressNumberWithinBuilding": "10",
-      "mailRouting": "86723 Graham Trace, 64622",
-      "city": "Bartonmouth",
-      "region": "Avon",
-      "country": "Niger",
-      "postalCode": "92885"
+      "addressNumber": "184",
+      "addressNumberWithinBuilding": "6",
+      "mailRouting": "811 Treutel Corner, 31553",
+      "city": "Cassinmouth",
+      "region": "Berkshire",
+      "country": "Romania",
+      "postalCode": "45023-4573"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "pt_PT",
+      "language": "it",
       "addressLines": [
-        "Koch, Labadie and Moen",
-        "4425 Kailey Fort"
+        "Boyer and Sons",
+        "160 Quitzon Dale"
       ],
-      "addressNumber": "180",
-      "addressNumberWithinBuilding": "9",
-      "mailRouting": "4349 Miles Common, 26174",
-      "city": "Farrellport",
-      "region": "Borders",
-      "country": "Timor-Leste",
-      "postalCode": "13444-5823"
+      "addressNumber": "352",
+      "addressNumberWithinBuilding": "10",
+      "mailRouting": "66074 Paucek Locks, 32650-9377",
+      "city": "Schmittshire",
+      "region": "Bedfordshire",
+      "country": "Malta",
+      "postalCode": "02624-9812"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000003",
-      "otherValidationAuthorityID": "5YVHFZE0",
-      "validationAuthorityEntityID": "1WHXJYK0P66N90T2Y74I"
+      "validationAuthorityID": "RA000661",
+      "otherValidationAuthorityID": "6Z4MBS73",
+      "validationAuthorityEntityID": "H6HRW01TB0LNLDHMTP2C"
     },
     "legalJurisdiction": "Cambridgeshire",
-    "entityCategory": "Jewelery",
+    "entityCategory": "Grocery",
     "legalForm": "CORPORATION",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "PRVT5VGHEMO28HN5VDFB",
-      "name": "Beier Inc"
+      "leiCode": "BROKAOKK2O60EXX3DENR",
+      "name": "Collier LLC"
     },
-    "status": "CONFIRMED",
+    "status": "IN PROGRESS",
     "expirationDate": "2022-07-11",
-    "expirationReason": "target intuitive e-markets",
+    "expirationReason": "synthesize world-class deliverables",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "P5JE5W0ZTZ6VLECOLEBN",
-      "name": "Hagenes Inc"
-    },
-    "otherAddresses": []
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "LEIentity",
-    "legalName": "Lakin, Green and Raynor",
-    "legalNameLanguage": "pl",
-    "otherNames": [
-      "Labadie, Pacocha and Bernhard",
-      "Reilly LLC"
-    ],
-    "transliteratedOtherNames": [
-      "Labadie, Pacocha and Bernhard",
-      "Reilly LLC"
-    ],
-    "legalAddress": {
-      "type": "LEIaddress",
-      "language": "ru",
-      "addressLines": [
-        "Roberts - Towne",
-        "62894 Parker Stream"
-      ],
-      "addressNumber": "32",
-      "addressNumberWithinBuilding": "6",
-      "mailRouting": "727 Samir Junctions, 76462-2362",
-      "city": "East Candelario",
-      "region": "Cambridgeshire",
-      "country": "Suriname",
-      "postalCode": "82549-3294"
-    },
-    "headquartersAddress": {
-      "type": "LEIaddress",
-      "language": "es_MX",
-      "addressLines": [
-        "Block - Cartwright",
-        "1424 Rice Ford"
-      ],
-      "addressNumber": "296",
-      "addressNumberWithinBuilding": "3",
-      "mailRouting": "0561 Kshlerin Skyway, 91767",
-      "city": "East Demetriusmouth",
-      "region": "Berkshire",
-      "country": "Belize",
-      "postalCode": "89382"
-    },
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000002",
-      "otherValidationAuthorityID": "8DBQ7FHQ",
-      "validationAuthorityEntityID": "04OTI9W85LS2S049EJ6W"
-    },
-    "legalJurisdiction": "Borders",
-    "entityCategory": "Finance",
-    "legalForm": "CORPORATION",
-    "associatedEntity": {
-      "type": "Organization",
-      "leiCode": "Y2LWGEKGXCTMBS8N9QIW",
-      "name": "Lynch - Bashirian"
-    },
-    "status": "CONFIRMED",
-    "expirationDate": "2022-07-11",
-    "expirationReason": "deliver collaborative models",
-    "successorEntity": {
-      "type": "Organization",
-      "leiCode": "4CZ38ARRCC5TUBB5NFKG",
-      "name": "Armstrong - Kunze"
+      "leiCode": "5I1F5EL06C8Z0VQBTLSU",
+      "name": "Kiehn Group"
     },
     "otherAddresses": []
   }

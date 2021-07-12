@@ -3,72 +3,28 @@
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "type": "Inspector",
-    "qualification": [
-      {
-        "type": "Qualification",
-        "qualificationCategory": "Regional Applications Facilitator",
-        "qualificationValue": "Administrator"
-      },
-      {
-        "type": "Qualification",
-        "qualificationCategory": "Customer Integration Administrator",
-        "qualificationValue": "Producer"
-      },
-      {
-        "type": "Qualification",
-        "qualificationCategory": "Senior Research Architect",
-        "qualificationValue": "Developer"
-      }
-    ],
-    "card": "reboot",
-    "pixel": "generate",
-    "bus": "generate",
-    "driver": "calculate"
+    "sensor": "input"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "person": {
-      "type": "Person",
-      "firstName": "Ephraim",
-      "lastName": "Ernser",
-      "email": "Domingo.Rowe4@example.net",
-      "phoneNumber": "555-467-6193",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Kub - Stanton",
-        "description": "Total next generation website",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "8514 Cornell Stream",
-          "addressLocality": "West Tyrell",
-          "addressRegion": "Kansas",
-          "postalCode": "45185",
-          "addressCountry": "Faroe Islands"
-        },
-        "email": "Grayson_Gerhold@example.com",
-        "phoneNumber": "555-821-1676",
-        "faxNumber": "555-497-7370"
-      },
-      "jobTitle": "Lead Metrics Specialist"
-    },
+    "type": "Inspector",
     "qualification": [
       {
         "type": "Qualification",
-        "qualificationCategory": "Regional Integration Technician",
-        "qualificationValue": "Coordinator"
+        "qualificationCategory": "Corporate Optimization Facilitator",
+        "qualificationValue": "Planner"
       },
       {
         "type": "Qualification",
-        "qualificationCategory": "Lead Group Associate",
-        "qualificationValue": "Producer"
+        "qualificationCategory": "Global Directives Executive",
+        "qualificationValue": "Agent"
       }
     ],
-    "transmitter": "program",
-    "bandwidth": "connect",
-    "feed": "index"
+    "program": "copy",
+    "protocol": "calculate",
+    "feed": "hack"
   },
   {
     "@context": [
@@ -77,30 +33,30 @@
     "type": "Inspector",
     "person": {
       "type": "Person",
-      "firstName": "Frank",
-      "lastName": "Maggio",
-      "email": "Lyda16@example.com",
-      "phoneNumber": "555-527-1434",
+      "firstName": "Mandy",
+      "lastName": "Prosacco",
+      "email": "Crystel19@example.org",
+      "phoneNumber": "555-697-8990",
       "worksFor": {
         "type": "Organization",
-        "name": "Gislason and Sons",
-        "description": "Cross-platform background instruction set",
+        "name": "O'Hara - Johns",
+        "description": "Customizable holistic knowledge user",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "64791 Halvorson Bypass",
-          "addressLocality": "Haleyberg",
-          "addressRegion": "New York",
-          "postalCode": "18670-1087",
-          "addressCountry": "Saint Vincent and the Grenadines"
+          "streetAddress": "05044 Gaylord Lock",
+          "addressLocality": "Revaburgh",
+          "addressRegion": "Missouri",
+          "postalCode": "58321-1017",
+          "addressCountry": "Nauru"
         },
-        "email": "Kurtis_Zulauf@example.com",
-        "phoneNumber": "555-391-6370",
-        "faxNumber": "555-979-4034"
+        "email": "Julie.Bradtke5@example.com",
+        "phoneNumber": "555-276-4994",
+        "faxNumber": "555-721-2692"
       },
-      "jobTitle": "Corporate Markets Agent"
+      "jobTitle": "District Implementation Assistant"
     },
-    "matrix": "input",
-    "application": "reboot",
-    "alarm": "copy"
+    "firewall": "override",
+    "bus": "compress",
+    "driver": "hack"
   }
 ]

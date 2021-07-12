@@ -3,24 +3,17 @@
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "value": "88.778",
-    "unitCode": "P1",
-    "hard drive": "synthesize"
+    "monitor": "hack",
+    "program": "synthesize",
+    "bandwidth": "back up",
+    "capacitor": "reboot"
   },
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "value": "93.877",
-    "unitCode": "B13",
-    "driver": "override"
+    "transmitter": "quantify"
   },
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "protocol": "program",
-    "circuit": "reboot",
-    "transmitter": "compress"
+    "driver": "input",
+    "protocol": "synthesize",
+    "system": "copy"
   }
 ]

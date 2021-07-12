@@ -4,12 +4,343 @@
       "https://www.w3.org/2018/credentials/v1",
       "https://mobinet.io/schemas/v1"
     ],
-    "id": "https://example.com/credential/123",
     "type": [
       "VerifiableCredential",
       "MillTestReportCertificate"
     ],
-    "name": "Certified Mill Test Report",
+    "description": "This document includes recommended mill certificate fields.",
+    "relatedLink": [
+      {
+        "type": [
+          "LinkRole"
+        ],
+        "target": "https://www.example.com/template/123",
+        "linkRelationship": "templateLink"
+      }
+    ],
+    "issuer": {
+      "id": "did:example:123",
+      "type": "Organization",
+      "name": "Koelpin, Reichel and Zemlak",
+      "description": "Re-contextualized context-sensitive ability",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "07062 Lockman Pines",
+        "addressLocality": "New Pierceside",
+        "addressRegion": "New Hampshire",
+        "postalCode": "00414",
+        "addressCountry": "Central African Republic"
+      },
+      "email": "Velma_Wyman90@example.org",
+      "phoneNumber": "555-202-2630",
+      "faxNumber": "555-708-7047"
+    },
+    "credentialSubject": {
+      "type": [
+        "MillTestReport"
+      ],
+      "manufacturer": {
+        "type": [
+          "Organization"
+        ],
+        "name": "Langworth - Watsica",
+        "description": "Intuitive analyzing capacity",
+        "address": {
+          "type": [
+            "PostalAddress"
+          ],
+          "streetAddress": "884 Botsford Street",
+          "addressLocality": "Ritchiemouth",
+          "addressRegion": "West Virginia",
+          "postalCode": "65549",
+          "addressCountry": "Tajikistan"
+        },
+        "email": "May_Pfannerstill37@example.com",
+        "phoneNumber": "555-498-2134",
+        "faxNumber": "555-639-8876"
+      },
+      "product": {
+        "type": [
+          "SteelProduct"
+        ],
+        "heatNumber": "39252",
+        "specification": "ASTM-53211",
+        "grade": "29138",
+        "originalCountryOfMeltAndPour": "Eritrea",
+        "inspection": {
+          "type": [
+            "InspectionReport"
+          ],
+          "observation": [
+            {
+              "type": [
+                "Observation"
+              ],
+              "property": {
+                "type": [
+                  "ChemicalProperty"
+                ],
+                "name": "Iridium"
+              },
+              "measurement": {
+                "type": [
+                  "MeasuredValue"
+                ],
+                "value": "31.290",
+                "unitCode": "P1"
+              }
+            },
+            {
+              "type": [
+                "Observation"
+              ],
+              "property": {
+                "type": [
+                  "MechanicalProperty"
+                ],
+                "identifier": "ISO 148",
+                "name": "Charpy Impact Strength Test",
+                "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+              },
+              "measurement": {
+                "type": [
+                  "MeasuredValue"
+                ],
+                "value": "0.402",
+                "unitCode": "B13"
+              }
+            },
+            {
+              "type": [
+                "Observation"
+              ],
+              "property": {
+                "type": [
+                  "MechanicalProperty"
+                ],
+                "identifier": "ISO 148",
+                "name": "Charpy Impact Strength Test",
+                "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+              },
+              "measurement": {
+                "type": [
+                  "MeasuredValue"
+                ],
+                "value": "60.329",
+                "unitCode": "B13"
+              }
+            },
+            {
+              "type": [
+                "Observation"
+              ],
+              "property": {
+                "type": [
+                  "ChemicalProperty"
+                ],
+                "name": "Hafnium"
+              },
+              "measurement": {
+                "type": [
+                  "MeasuredValue"
+                ],
+                "value": "25.229",
+                "unitCode": "P1"
+              }
+            },
+            {
+              "type": [
+                "Observation"
+              ],
+              "property": {
+                "type": [
+                  "ChemicalProperty"
+                ],
+                "name": "Mendelevium"
+              },
+              "measurement": {
+                "type": [
+                  "MeasuredValue"
+                ],
+                "value": "43.481",
+                "unitCode": "P1"
+              }
+            },
+            {
+              "type": [
+                "Observation"
+              ],
+              "property": {
+                "type": [
+                  "MechanicalProperty"
+                ],
+                "identifier": "ISO 148",
+                "name": "Charpy Impact Strength Test",
+                "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+              },
+              "measurement": {
+                "type": [
+                  "MeasuredValue"
+                ],
+                "value": "53.589",
+                "unitCode": "B13"
+              }
+            }
+          ]
+        }
+      },
+      "purchase": {
+        "type": [
+          "Purchase"
+        ],
+        "customer": {
+          "type": [
+            "Organization"
+          ],
+          "email": "Mckayla.Conn@example.com",
+          "phoneNumber": "555-404-5465"
+        }
+      },
+      "shipment": {
+        "type": [
+          "ParcelDelivery"
+        ],
+        "deliveryAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "King, Kuhn and Dickens",
+          "streetAddress": "2153 Jacobson Street",
+          "addressLocality": "Miguelberg",
+          "addressRegion": "Utah",
+          "postalCode": "27837",
+          "addressCountry": "Dominican Republic"
+        },
+        "originAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Zboncak Group",
+          "streetAddress": "12475 Erwin Light",
+          "addressLocality": "Chayafort",
+          "addressRegion": "Rhode Island",
+          "postalCode": "72529",
+          "addressCountry": "Cambodia"
+        },
+        "deliveryMethod": "Air transport",
+        "trackingNumber": "318170092456"
+      }
+    },
+    "application": "calculate",
+    "program": "navigate",
+    "protocol": "synthesize"
+  },
+  {
+    "credentialSubject": {
+      "type": [
+        "MillTestReport"
+      ],
+      "manufacturer": {
+        "type": [
+          "Organization"
+        ],
+        "name": "Glover - Gleason",
+        "description": "Future-proofed even-keeled paradigm",
+        "address": {
+          "type": [
+            "PostalAddress"
+          ],
+          "streetAddress": "000 Jermey Fort",
+          "addressLocality": "Lake Evalyn",
+          "addressRegion": "Montana",
+          "postalCode": "71172",
+          "addressCountry": "Lesotho"
+        },
+        "email": "Kayla_Hilll60@example.net",
+        "phoneNumber": "555-758-8926",
+        "faxNumber": "555-248-4575"
+      },
+      "product": {
+        "type": [
+          "SteelProduct"
+        ],
+        "heatNumber": "94753",
+        "specification": "ASTM-64853",
+        "grade": "35584",
+        "originalCountryOfMeltAndPour": "Qatar",
+        "inspection": {
+          "type": [
+            "InspectionReport"
+          ],
+          "observation": [
+            {
+              "type": [
+                "Observation"
+              ],
+              "property": {
+                "type": [
+                  "ChemicalProperty"
+                ],
+                "name": "Curium"
+              },
+              "measurement": {
+                "type": [
+                  "MeasuredValue"
+                ],
+                "value": "100.00",
+                "unitCode": "P1"
+              }
+            }
+          ]
+        }
+      },
+      "purchase": {
+        "type": [
+          "Purchase"
+        ],
+        "customer": {
+          "type": [
+            "Person"
+          ],
+          "email": "Shawna_Spinka@example.com",
+          "phoneNumber": "555-514-4094"
+        }
+      },
+      "shipment": {
+        "type": [
+          "ParcelDelivery"
+        ],
+        "deliveryAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Mitchell, Rolfson and Thompson",
+          "streetAddress": "363 Bruen Terrace",
+          "addressLocality": "Fannyberg",
+          "addressRegion": "Utah",
+          "postalCode": "22077-5851",
+          "addressCountry": "China"
+        },
+        "originAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Pfannerstill, Dickens and Leannon",
+          "streetAddress": "85471 Bernhard Cape",
+          "addressLocality": "Priscillamouth",
+          "addressRegion": "South Dakota",
+          "postalCode": "27654-7618",
+          "addressCountry": "Australia"
+        },
+        "deliveryMethod": "Truck transport",
+        "trackingNumber": "79865621138"
+      }
+    },
+    "circuit": "bypass",
+    "card": "parse",
+    "driver": "override"
+  },
+  {
     "relatedLink": [
       {
         "type": [
@@ -28,35 +359,93 @@
         "type": [
           "Organization"
         ],
-        "name": "Jones Inc",
-        "description": "Customizable homogeneous info-mediaries",
+        "name": "Russel - Gleason",
+        "description": "Customizable intangible service-desk",
         "address": {
           "type": [
             "PostalAddress"
           ],
-          "streetAddress": "271 Micheal Field",
-          "addressLocality": "Pollyside",
-          "addressRegion": "Louisiana",
-          "postalCode": "19094-8345",
-          "addressCountry": "Burundi"
+          "streetAddress": "0331 Boyer Branch",
+          "addressLocality": "West Kaelaton",
+          "addressRegion": "Georgia",
+          "postalCode": "50176-0701",
+          "addressCountry": "French Southern Territories"
         },
-        "email": "Ahmad.Emard7@example.com",
-        "phoneNumber": "555-269-2961",
-        "faxNumber": "555-873-6829"
+        "email": "Addie54@example.com",
+        "phoneNumber": "555-521-9069",
+        "faxNumber": "555-163-6772"
       },
       "product": {
         "type": [
           "SteelProduct"
         ],
-        "heatNumber": "13264",
-        "specification": "ASTM-46232",
-        "grade": "51863",
-        "originalCountryOfMeltAndPour": "Portugal",
+        "heatNumber": "29064",
+        "specification": "ASTM-99949",
+        "grade": "29749",
+        "originalCountryOfMeltAndPour": "Eritrea",
         "inspection": {
           "type": [
             "InspectionReport"
           ],
           "observation": [
+            {
+              "type": [
+                "Observation"
+              ],
+              "property": {
+                "type": [
+                  "MechanicalProperty"
+                ],
+                "identifier": "ISO 180",
+                "name": "Izod Impact Strength Test",
+                "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
+              },
+              "measurement": {
+                "type": [
+                  "MeasuredValue"
+                ],
+                "value": "40.985",
+                "unitCode": "B13"
+              }
+            },
+            {
+              "type": [
+                "Observation"
+              ],
+              "property": {
+                "type": [
+                  "MechanicalProperty"
+                ],
+                "identifier": "ISO 148",
+                "name": "Charpy Impact Strength Test",
+                "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+              },
+              "measurement": {
+                "type": [
+                  "MeasuredValue"
+                ],
+                "value": "78.999",
+                "unitCode": "B13"
+              }
+            },
+            {
+              "type": [
+                "Observation"
+              ],
+              "property": {
+                "type": [
+                  "ChemicalProperty"
+                ],
+                "name": "Meitnerium"
+              },
+              "measurement": {
+                "type": [
+                  "MeasuredValue"
+                ],
+                "value": "00.00",
+                "unitCode": "UNKNOWN"
+              }
+            },
             {
               "type": [
                 "Observation"
@@ -83,6 +472,24 @@
               ],
               "property": {
                 "type": [
+                  "ChemicalProperty"
+                ],
+                "name": "Iodine"
+              },
+              "measurement": {
+                "type": [
+                  "MeasuredValue"
+                ],
+                "value": "54.096",
+                "unitCode": "P1"
+              }
+            },
+            {
+              "type": [
+                "Observation"
+              ],
+              "property": {
+                "type": [
                   "MechanicalProperty"
                 ],
                 "identifier": "ISO 1352",
@@ -96,112 +503,7 @@
                 "value": "00.00",
                 "unitCode": "UNKNOWN"
               }
-            }
-          ]
-        }
-      },
-      "purchase": {
-        "type": [
-          "Purchase"
-        ],
-        "customer": {
-          "type": [
-            "Organization"
-          ],
-          "email": "Roxanne_Larson26@example.com",
-          "phoneNumber": "555-559-1165"
-        }
-      },
-      "shipment": {
-        "type": [
-          "ParcelDelivery"
-        ],
-        "deliveryAddress": {
-          "type": [
-            "PostalAddress"
-          ],
-          "organizationName": "Pfeffer - Heller",
-          "streetAddress": "636 Torey Bypass",
-          "addressLocality": "Hegmannfurt",
-          "addressRegion": "Colorado",
-          "postalCode": "47752",
-          "addressCountry": "Western Sahara"
-        },
-        "originAddress": {
-          "type": [
-            "PostalAddress"
-          ],
-          "organizationName": "Flatley Inc",
-          "streetAddress": "016 Tiana Parkways",
-          "addressLocality": "East Mohammedshire",
-          "addressRegion": "North Carolina",
-          "postalCode": "78328-6077",
-          "addressCountry": "Western Sahara"
-        },
-        "deliveryMethod": "Air transport",
-        "trackingNumber": "267079270682"
-      }
-    },
-    "array": "compress",
-    "microchip": "override",
-    "system": "synthesize",
-    "transmitter": "generate"
-  },
-  {
-    "issuer": {
-      "id": "did:example:123",
-      "type": "Organization",
-      "name": "Larson, McDermott and Armstrong",
-      "description": "Assimilated demand-driven infrastructure",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "90346 Ullrich Course",
-        "addressLocality": "North Maureen",
-        "addressRegion": "Michigan",
-        "postalCode": "05076-0620",
-        "addressCountry": "Libyan Arab Jamahiriya"
-      },
-      "email": "Merritt_Marvin93@example.com",
-      "phoneNumber": "555-101-1180",
-      "faxNumber": "555-170-3275"
-    },
-    "credentialSubject": {
-      "type": [
-        "MillTestReport"
-      ],
-      "manufacturer": {
-        "type": [
-          "Organization"
-        ],
-        "name": "Sanford and Sons",
-        "description": "User-friendly system-worthy open system",
-        "address": {
-          "type": [
-            "PostalAddress"
-          ],
-          "streetAddress": "92772 Konopelski Walk",
-          "addressLocality": "Elmiramouth",
-          "addressRegion": "Michigan",
-          "postalCode": "37265-9052",
-          "addressCountry": "Botswana"
-        },
-        "email": "Laurine_Bahringer@example.net",
-        "phoneNumber": "555-695-8454",
-        "faxNumber": "555-128-3266"
-      },
-      "product": {
-        "type": [
-          "SteelProduct"
-        ],
-        "heatNumber": "97998",
-        "specification": "ASTM-79164",
-        "grade": "88216",
-        "originalCountryOfMeltAndPour": "Kyrgyz Republic",
-        "inspection": {
-          "type": [
-            "InspectionReport"
-          ],
-          "observation": [
+            },
             {
               "type": [
                 "Observation"
@@ -216,65 +518,7 @@
                 "type": [
                   "MeasuredValue"
                 ],
-                "value": "39.509",
-                "unitCode": "P1"
-              }
-            },
-            {
-              "type": [
-                "Observation"
-              ],
-              "property": {
-                "type": [
-                  "MechanicalProperty"
-                ],
-                "identifier": "ISO 1352",
-                "name": "Torque-controlled fatigue testing",
-                "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
-              },
-              "measurement": {
-                "type": [
-                  "MeasuredValue"
-                ],
-                "value": "00.00",
-                "unitCode": "UNKNOWN"
-              }
-            },
-            {
-              "type": [
-                "Observation"
-              ],
-              "property": {
-                "type": [
-                  "MechanicalProperty"
-                ],
-                "identifier": "ISO 3738",
-                "name": "Rockwell Hardness Test (Scale A)",
-                "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
-              },
-              "measurement": {
-                "type": [
-                  "MeasuredValue"
-                ],
-                "value": "00.00",
-                "unitCode": "UNKNOWN"
-              }
-            },
-            {
-              "type": [
-                "Observation"
-              ],
-              "property": {
-                "type": [
-                  "ChemicalProperty"
-                ],
-                "name": "Carbon"
-              },
-              "measurement": {
-                "type": [
-                  "MeasuredValue"
-                ],
-                "value": "60.491",
+                "value": "45.904",
                 "unitCode": "P1"
               }
             }
@@ -287,10 +531,10 @@
         ],
         "customer": {
           "type": [
-            "Organization"
+            "Person"
           ],
-          "email": "Bettie_Schamberger@example.net",
-          "phoneNumber": "555-756-2065"
+          "email": "Ardella.Paucek@example.com",
+          "phoneNumber": "555-884-3743"
         }
       },
       "shipment": {
@@ -301,35 +545,28 @@
           "type": [
             "PostalAddress"
           ],
-          "organizationName": "Bogan, Hilll and Mueller",
-          "streetAddress": "0506 Julien Underpass",
-          "addressLocality": "Lake Kierafort",
-          "addressRegion": "Utah",
-          "postalCode": "48045-3311",
-          "addressCountry": "Iceland"
+          "organizationName": "Koch - Schulist",
+          "streetAddress": "97979 Robin Gateway",
+          "addressLocality": "West Jamarcus",
+          "addressRegion": "Oregon",
+          "postalCode": "18123-9586",
+          "addressCountry": "Virgin Islands, U.S."
         },
         "originAddress": {
           "type": [
             "PostalAddress"
           ],
-          "organizationName": "Lebsack - Macejkovic",
-          "streetAddress": "689 Abigayle Rest",
-          "addressLocality": "Hettieborough",
-          "addressRegion": "Georgia",
-          "postalCode": "92172",
-          "addressCountry": "Costa Rica"
+          "organizationName": "Blick, Goyette and Hintz",
+          "streetAddress": "61621 Schneider Plains",
+          "addressLocality": "Trompland",
+          "addressRegion": "New York",
+          "postalCode": "00140",
+          "addressCountry": "Libyan Arab Jamahiriya"
         },
-        "deliveryMethod": "Truck transport",
-        "trackingNumber": "516841598018"
+        "deliveryMethod": "Air transport",
+        "trackingNumber": "363330839203"
       }
     },
-    "protocol": "index",
-    "array": "transmit"
-  },
-  {
-    "interface": "parse",
-    "pixel": "calculate",
-    "bandwidth": "navigate",
-    "hard drive": "quantify"
+    "transmitter": "calculate"
   }
 ]

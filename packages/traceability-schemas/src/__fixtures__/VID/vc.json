@@ -18,18 +18,18 @@
     "manufacturer": {
       "type": "Organization",
       "name": "Ford",
-      "description": "Extended exuding algorithm",
+      "description": "Secured stable moratorium",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "9938 Veum Falls",
-        "addressLocality": "Chandlerville",
-        "addressRegion": "Tennessee",
-        "postalCode": "19651-9945",
-        "addressCountry": "Zimbabwe"
+        "streetAddress": "5471 Karley Islands",
+        "addressLocality": "South Audieton",
+        "addressRegion": "Pennsylvania",
+        "postalCode": "10310",
+        "addressCountry": "Slovenia"
       },
-      "email": "Reginald41@example.org",
-      "phoneNumber": "555-396-6212",
-      "faxNumber": "555-226-1380"
+      "email": "Marcelo.Swift51@example.com",
+      "phoneNumber": "555-223-8464",
+      "faxNumber": "555-255-8217"
     },
     "make": "Ford",
     "model": "Mach E",
@@ -39,7 +39,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..EAVIQxN5hjQEgdHQn5-_fN1_JBbxyvr0eUYc6H-jyDOA8x1WgNeNdopd7-Lizi0OGI8CAG2k3V5UrqA6TPMdAQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..rhjgDB2Jku3rEuXrm7uW3K35FUGDi-o_ILZwfWdOGpYwCZNh38pxlhgtm9JpELXNYq0DcGdWBjcthFCw7_OdAQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

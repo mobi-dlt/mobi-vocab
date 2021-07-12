@@ -16,21 +16,21 @@
     "type": "IssuerAgent",
     "issuerAgentOrg": {
       "type": "Organization",
-      "name": "Funk - Prosacco",
-      "description": "Triple-buffered responsive artificial intelligence",
+      "name": "Walker, Conroy and Kautzer",
+      "description": "Proactive zero defect analyzer",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "83315 Wolf Pass",
-        "addressLocality": "Lake Laishaview",
-        "addressRegion": "Nebraska",
-        "postalCode": "23457",
-        "addressCountry": "Ghana"
+        "streetAddress": "070 Adah Hills",
+        "addressLocality": "Krismouth",
+        "addressRegion": "Alabama",
+        "postalCode": "00334-2245",
+        "addressCountry": "Bangladesh"
       },
-      "email": "Amani71@example.com",
-      "phoneNumber": "555-631-1999",
-      "faxNumber": "555-187-4984"
+      "email": "Gwen0@example.com",
+      "phoneNumber": "555-149-9587",
+      "faxNumber": "555-230-3009"
     },
-    "iataCode": "IATA#681",
+    "iataCode": "IATA#751",
     "accountNumber": "",
     "accountingInformation": "Please charge to Account 123 and Account 321",
     "charge": {
@@ -38,40 +38,40 @@
         "https://mobinet.io/schemas/v1"
       ],
       "type": "PriceSpecification",
-      "price": 7307,
-      "priceCurrency": "EUR"
+      "price": 9285,
+      "priceCurrency": "UAH"
     },
     "declaredValueCarriage": {
       "@context": [
         "https://mobinet.io/schemas/v1"
       ],
       "type": "PriceSpecification",
-      "price": 4538,
-      "priceCurrency": "INR"
+      "price": 557,
+      "priceCurrency": "BOB"
     },
-    "declaredValueCarriagePaymentStatus": "PaymentComplete",
+    "declaredValueCarriagePaymentStatus": "PaymentAutomaticallyApplied",
     "declaredValueCustoms": {
       "@context": [
         "https://mobinet.io/schemas/v1"
       ],
       "type": "PriceSpecification",
-      "price": 6847,
-      "priceCurrency": "GHS"
+      "price": 4221,
+      "priceCurrency": "BDT"
     },
-    "declaredValueCustomsPaymentStatus": "PaymentComplete",
+    "declaredValueCustomsPaymentStatus": "PaymentAutomaticallyApplied",
     "amountInsurance": {
       "@context": [
         "https://mobinet.io/schemas/v1"
       ],
       "type": "PriceSpecification",
-      "price": 3605,
-      "priceCurrency": "NOK"
+      "price": 7078,
+      "priceCurrency": "IRR"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..FmZFwqNrwIiqQQaQjpot0RrpE-kwZXBUZqjzxFLjJ8jOv917eNRHjQa6CSvOfAVZpy0o1xKCapR8_3yl8Hw4Bw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Q2eXKLO-JKw7Gju-JWQLPdtBxYEVlbHl7hWp8Nx1zUGf6c5dw0yl9qdVC_1nPqhw_Mp5IfKiyYyIbEvejIE_Dg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -1,0 +1,39 @@
+[
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "Customer",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "12786 Dulce Estates",
+      "addressLocality": "Christiansenshire",
+      "addressRegion": "North Dakota",
+      "postalCode": "92214-7669",
+      "addressCountry": "Aruba"
+    },
+    "telephone": "555-942-9676",
+    "email": "Marquis_Baumbach@example.org",
+    "capacitor": "navigate",
+    "firewall": "program"
+  },
+  {
+    "circuit": "quantify",
+    "port": "back up",
+    "monitor": "connect"
+  },
+  {
+    "type": "Customer",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "767 DuBuque Glens",
+      "addressLocality": "East Ella",
+      "addressRegion": "Vermont",
+      "postalCode": "72926",
+      "addressCountry": "Latvia"
+    },
+    "email": "Makenna_Oberbrunner@example.org",
+    "protocol": "quantify",
+    "capacitor": "compress"
+  }
+]

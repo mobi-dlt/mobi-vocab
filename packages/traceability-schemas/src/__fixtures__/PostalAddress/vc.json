@@ -14,17 +14,17 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "PostalAddress",
-    "organizationName": "Weber - Lang",
-    "streetAddress": "838 Tyreek Club",
-    "addressLocality": "Josefinachester",
-    "addressRegion": "Arkansas",
-    "postalCode": "85826",
-    "addressCountry": "Italy"
+    "organizationName": "Sauer Group",
+    "streetAddress": "735 Foster Bypass",
+    "addressLocality": "North Nils",
+    "addressRegion": "Georgia",
+    "postalCode": "72970",
+    "addressCountry": "Ireland"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Tvbx4k2DidJ4KjntcGIe3hjZUtUviF7kME-Geq7Q-jYBPLf_fLjKrG1gTwF7JBOo417G42mjoY6IVz4RLWiIDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..26_u9vxSio0j6-Tb32iDcTgOtH58eLZ4RYipTSG8quRm8tOhEXoVHwz-keCFi4wHW_tVTNzv_RfRswchtmcSCQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -1,21 +1,5 @@
 [
   {
-    "feed": "calculate",
-    "capacitor": "quantify",
-    "card": "compress",
-    "driver": "input"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "EcommercePackageRegistrationCredential",
-    "trackingID": "706331562530",
-    "certificateName": "ACME Carrier Ecommerce Package Registration Certificate",
-    "card": "index",
-    "sensor": "calculate"
-  },
-  {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
@@ -39,5 +23,33 @@
     "monitor": "calculate",
     "panel": "parse",
     "microchip": "hack"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "trackingID": "776915829186",
+    "packageItems": [
+      {
+        "type": "EcommercePackageItem",
+        "productReceiptID": "https://vc.example.com/?queryID=0xbc28D76238e30Ad4f14c0d8D2c275B6bb1ecdD3836D3c3D98dd1bE7AacbC416a",
+        "packingListID": "https://vc.example.com/?queryID=0xBdEC7B664Ee27DFF738fd0B8ab9cFE0eDa3BBEd07FD10B46c279de08212d4Da8",
+        "orderID": "https://vc.example.com/?queryID=AB06f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a",
+        "productInOrder": [
+          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
+          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
+        ]
+      }
+    ],
+    "protocol": "override",
+    "transmitter": "override",
+    "pixel": "compress"
+  },
+  {
+    "certificateName": "ACME Carrier Ecommerce Package Registration Certificate",
+    "sensor": "index",
+    "interface": "calculate",
+    "driver": "quantify",
+    "array": "back up"
   }
 ]

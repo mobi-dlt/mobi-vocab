@@ -4,53 +4,53 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIaddress",
-    "language": "cz",
+    "language": "en_CA",
     "addressLines": [
-      "Crona - Zulauf",
-      "04657 Isadore Skyway"
+      "Collins - Tillman",
+      "00564 Wiza Harbors"
     ],
-    "addressNumber": "67",
-    "addressNumberWithinBuilding": "4",
-    "mailRouting": "786 Berge Lock, 44636",
-    "city": "Kaleighstad",
-    "region": "Cambridgeshire",
-    "country": "Slovenia",
-    "postalCode": "32122"
+    "addressNumber": "28",
+    "addressNumberWithinBuilding": "3",
+    "mailRouting": "14393 Miller Green, 70793-8658",
+    "city": "Adriennefurt",
+    "region": "Berkshire",
+    "country": "Comoros",
+    "postalCode": "32630"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIaddress",
-    "language": "de",
+    "language": "en_BORK",
     "addressLines": [
-      "Simonis, Gerlach and Maggio",
-      "25409 Assunta Place"
+      "Huels - Welch",
+      "85280 Jennifer Loaf"
     ],
-    "addressNumber": "488",
-    "addressNumberWithinBuilding": "8",
-    "mailRouting": "977 Aniya Drives, 55342-8893",
-    "city": "West Toney",
-    "region": "Buckinghamshire",
-    "country": "Lebanon",
-    "postalCode": "58534-8280"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "LEIaddress",
-    "language": "fr",
-    "addressLines": [
-      "Collier, Wilkinson and Beahan",
-      "77135 Murray Mall"
-    ],
-    "addressNumber": "160",
+    "addressNumber": "201",
     "addressNumberWithinBuilding": "6",
-    "mailRouting": "90417 Carroll Groves, 90381-0175",
-    "city": "North Dionhaven",
+    "mailRouting": "8879 Gerhold Meadows, 84532",
+    "city": "Glovermouth",
+    "region": "Berkshire",
+    "country": "Georgia",
+    "postalCode": "40093-1278"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "LEIaddress",
+    "language": "ne",
+    "addressLines": [
+      "Monahan Inc",
+      "1641 Rath Port"
+    ],
+    "addressNumber": "224",
+    "addressNumberWithinBuilding": "2",
+    "mailRouting": "100 Emelia Harbors, 68186",
+    "city": "Botsfordville",
     "region": "Buckinghamshire",
-    "country": "Timor-Leste",
-    "postalCode": "94214"
+    "country": "Saint Vincent and the Grenadines",
+    "postalCode": "87735"
   }
 ]

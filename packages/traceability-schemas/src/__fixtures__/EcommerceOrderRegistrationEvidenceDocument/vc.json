@@ -14,40 +14,40 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceOrderRegistrationEvidenceDocument",
-    "orderNumber": "Order#237",
+    "orderNumber": "Order#657",
     "orderDate": "2020-01-07",
-    "orderStatus": "OrderReturned",
-    "description": "New Order For Darion Corwin",
-    "url": "https://uriah.com?queryid=Order#237",
+    "orderStatus": "OrderCancelled",
+    "description": "New Order For Cyril Reynolds",
+    "url": "https://stanford.info?queryid=Order#657",
     "seller": {
       "type": "Organization",
-      "name": "Kulas Inc",
-      "leiCode": "23451406556782545522"
+      "name": "Friesen - Jenkins",
+      "leiCode": "23451717120568733662"
     },
     "broker": {
       "type": "Organization",
-      "name": "Turner, Grant and Mitchell",
-      "leiCode": "54321927123784087598"
+      "name": "Steuber - Torp",
+      "leiCode": "54321356768708908930"
     },
     "customer": {
       "@context": [
         "https://mobinet.io/schemas/v1"
       ],
       "type": "Customer",
-      "name": "Johnathon Farrell",
+      "name": "Elenora MacGyver",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "58498 Schinner Wells",
-        "addressLocality": "Lake Ismaelberg",
-        "addressRegion": "Idaho",
-        "postalCode": "04771",
-        "addressCountry": "Turkmenistan"
+        "streetAddress": "1010 Judah Burg",
+        "addressLocality": "East Daniella",
+        "addressRegion": "Wyoming",
+        "postalCode": "52156-3887",
+        "addressCountry": "Somalia"
       },
-      "telephone": "555-406-6819",
-      "email": "Marcelo_Vandervort@example.com"
+      "telephone": "555-611-7733",
+      "email": "Delbert_Schuppe@example.net"
     },
     "paymentDueDate": "2021-03-09",
-    "paymentMethod": "http://purl.org/goodrelations/v1#COD",
+    "paymentMethod": "http://purl.org/goodrelations/v1#PayPal",
     "orderedItem": [
       {
         "@context": [
@@ -56,39 +56,6 @@
         "type": "OrderedItem",
         "name": "ACME Bluetooth Computer Mouse 3000-1",
         "productID": "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
-        "unitPrice": 8,
-        "orderQuantity": 8,
-        "price": 64
-      },
-      {
-        "@context": [
-          "https://mobinet.io/schemas/v1"
-        ],
-        "type": "OrderedItem",
-        "name": "ACME Laptop 3000",
-        "productID": "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
-        "unitPrice": 2,
-        "orderQuantity": 2,
-        "price": 4
-      },
-      {
-        "@context": [
-          "https://mobinet.io/schemas/v1"
-        ],
-        "type": "OrderedItem",
-        "name": "ACME Bluetooth Computer Mouse 3000-1",
-        "productID": "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
-        "unitPrice": 2,
-        "orderQuantity": 9,
-        "price": 18
-      },
-      {
-        "@context": [
-          "https://mobinet.io/schemas/v1"
-        ],
-        "type": "OrderedItem",
-        "name": "ACME Laptop 3000",
-        "productID": "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
         "unitPrice": 10,
         "orderQuantity": 3,
         "price": 30
@@ -98,7 +65,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..uYdg815UXEiA8LD6v0q0KB6eQWkKnYArT_qxBFXBKaQVJsA89SQSOTlgkrpZaRinu5TSIp5DxmgZrHxyIA8DAg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..c6V_r6a88S-CqlT-48AbjlkPGNArSbwuywKhVqKMMHKOshv32cTzxg3Zd5WJl-RjbBHbkLa_25QHEfyxSVEDDg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

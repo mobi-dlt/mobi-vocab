@@ -1,22 +1,19 @@
 [
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "application": "navigate",
-    "protocol": "compress"
+    "alarm": "synthesize",
+    "driver": "generate"
   },
   {
-    "alarm": "index",
-    "bus": "index"
+    "card": "quantify",
+    "transmitter": "reboot",
+    "application": "back up"
   },
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
     "type": "LinkRole",
     "linkRelationship": "alternate",
-    "program": "program",
-    "transmitter": "override"
+    "hard drive": "compress",
+    "driver": "program",
+    "protocol": "back up",
+    "panel": "input"
   }
 ]

@@ -14,32 +14,32 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "Person",
-    "firstName": "Jaiden",
-    "lastName": "Langosh",
-    "email": "Jasen.Ward75@example.net",
-    "phoneNumber": "555-558-6934",
+    "firstName": "Dominic",
+    "lastName": "Yundt",
+    "email": "Jamel33@example.net",
+    "phoneNumber": "555-817-5546",
     "worksFor": {
       "type": "Organization",
-      "name": "Steuber - Welch",
-      "description": "Adaptive user-facing task-force",
+      "name": "Dickens, Hyatt and Cassin",
+      "description": "Distributed dynamic hardware",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "76333 Kerluke Terrace",
-        "addressLocality": "East Chester",
-        "addressRegion": "Georgia",
-        "postalCode": "77207",
-        "addressCountry": "Algeria"
+        "streetAddress": "846 Petra Orchard",
+        "addressLocality": "New Schuylershire",
+        "addressRegion": "Arizona",
+        "postalCode": "85303-4529",
+        "addressCountry": "Saint Helena"
       },
-      "email": "Bennett.Herzog48@example.org",
-      "phoneNumber": "555-285-1676",
-      "faxNumber": "555-389-5820"
+      "email": "Germaine_Ryan76@example.net",
+      "phoneNumber": "555-143-2874",
+      "faxNumber": "555-417-2846"
     },
-    "jobTitle": "Central Applications Agent"
+    "jobTitle": "Future Intranet Administrator"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..zwXvx5n86BxnZP3Uy06Dd1boHHTwKkGiBjrvSXwvsLK27vLfRz0-zTtxcev9bF3TriRy7FYb9oTRyY8LCejSDg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Y10v9A_mgUY1An-QI-xsJLmQC24K0QqL4IaOB_zYnWU0N5Rxywj8SV7H4Lhzm_cDcwNVZ0zFZRe7oZ75xVWhAA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

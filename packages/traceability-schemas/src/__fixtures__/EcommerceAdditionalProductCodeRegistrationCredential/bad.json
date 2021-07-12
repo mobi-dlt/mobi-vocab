@@ -1,28 +1,30 @@
 [
   {
+    "type": "EcommerceAdditionalProductCodeRegistrationCredential",
+    "addProductCode": 24432886829599,
+    "certificateName": "ACME Ecommerce Universal Product Code Product Registration Certificate",
+    "feed": "navigate",
+    "program": "connect",
+    "bandwidth": "index"
+  },
+  {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceAdditionalProductCodeRegistrationCredential",
     "productVCid": "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a",
-    "addProductCode": 67746872203424,
-    "certificateName": "ACME Ecommerce Universal Product Code Product Registration Certificate",
-    "array": "compress",
-    "hard drive": "synthesize",
-    "system": "synthesize",
-    "feed": "quantify"
+    "addProductCode": 76656353860162,
+    "addProductCodeType": "UPC",
+    "firewall": "input",
+    "application": "generate",
+    "card": "hack"
   },
   {
-    "addProductCode": 38161665294319,
+    "productVCid": "https://vc.example.com/?queryID=AB06f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a",
+    "addProductCodeType": "CO",
     "certificateName": "ACME Ecommerce Country of Origin Code Product Registration Certificate",
-    "microchip": "parse",
-    "bandwidth": "bypass",
-    "system": "hack",
-    "pixel": "parse"
-  },
-  {
-    "array": "synthesize",
-    "protocol": "index",
-    "alarm": "back up"
+    "circuit": "program",
+    "program": "hack",
+    "array": "calculate"
   }
 ]

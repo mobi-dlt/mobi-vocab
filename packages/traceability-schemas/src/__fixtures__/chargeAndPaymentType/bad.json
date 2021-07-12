@@ -1,23 +1,24 @@
 [
   {
-    "chargePrepaid": 578,
-    "monitor": "parse",
-    "feed": "reboot",
-    "array": "back up"
-  },
-  {
     "type": "chargeAndPaymentType",
-    "chargeCollect": 811,
-    "chargePrepaid": 887,
-    "capacitor": "connect",
-    "port": "navigate"
+    "chargeCollect": 382,
+    "chargePrepaid": 605,
+    "capacitor": "override",
+    "protocol": "navigate"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
+    "chargePrepaid": 423,
+    "program": "reboot",
+    "feed": "index",
+    "matrix": "override"
+  },
+  {
     "type": "chargeAndPaymentType",
-    "chargePrepaid": 956,
-    "firewall": "input"
+    "system": "generate",
+    "panel": "transmit",
+    "port": "parse"
   }
 ]

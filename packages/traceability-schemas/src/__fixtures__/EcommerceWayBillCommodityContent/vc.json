@@ -17,95 +17,59 @@
     "wayBillGrouping": [
       {
         "type": "EcommerceWayBillCommodityGroup",
-        "commodityItemNumber": "mlbe6hjulc7v",
+        "commodityItemNumber": "jac4iq7ts96r",
         "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
         "totalsCommodityGroup": {
           "type": "EcommerceWayBillTotals",
-          "totalPieces": 853,
-          "weight": 97253,
-          "chargeableWeight": 87527.7,
-          "weightUnit": "lb",
-          "rateCharge": 0.08877189735363776,
-          "totalRateCharge": {
-            "type": "PriceSpecification",
-            "price": 7770,
-            "priceCurrency": "BAM"
-          }
-        }
-      },
-      {
-        "type": "EcommerceWayBillCommodityGroup",
-        "commodityItemNumber": "o69ft5qpsj4m",
-        "natureQuantityOfGoods": "A lot of laptops that way a lot",
-        "totalsCommodityGroup": {
-          "type": "EcommerceWayBillTotals",
-          "totalPieces": 149,
-          "weight": 204522,
-          "chargeableWeight": 184069.80000000002,
+          "totalPieces": 94,
+          "weight": 391698,
+          "chargeableWeight": 352528.2,
           "weightUnit": "kg",
-          "rateCharge": 0.011544533649735044,
+          "rateCharge": 0.01438750148215093,
           "totalRateCharge": {
             "type": "PriceSpecification",
-            "price": 2125,
-            "priceCurrency": "EGP"
+            "price": 5072,
+            "priceCurrency": "ISK"
           }
         }
       },
       {
         "type": "EcommerceWayBillCommodityGroup",
-        "commodityItemNumber": "qbukpuxoqfby",
+        "commodityItemNumber": "fq9sk4c2xwxd",
         "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
         "totalsCommodityGroup": {
           "type": "EcommerceWayBillTotals",
-          "totalPieces": 272,
-          "weight": 722053,
-          "chargeableWeight": 649847.7000000001,
-          "weightUnit": "lb",
-          "rateCharge": 0.01431566196202587,
+          "totalPieces": 507,
+          "weight": 295001,
+          "chargeableWeight": 265500.9,
+          "weightUnit": "kg",
+          "rateCharge": 0.027306875419254698,
           "totalRateCharge": {
             "type": "PriceSpecification",
-            "price": 9303,
-            "priceCurrency": "OMR"
-          }
-        }
-      },
-      {
-        "type": "EcommerceWayBillCommodityGroup",
-        "commodityItemNumber": "39j1tq34satj",
-        "natureQuantityOfGoods": "A lot of laptops that way a lot",
-        "totalsCommodityGroup": {
-          "type": "EcommerceWayBillTotals",
-          "totalPieces": 487,
-          "weight": 568772,
-          "chargeableWeight": 511894.8,
-          "weightUnit": "lb",
-          "rateCharge": 0.011740693595637229,
-          "totalRateCharge": {
-            "type": "PriceSpecification",
-            "price": 6010,
-            "priceCurrency": "AMD"
+            "price": 7250,
+            "priceCurrency": "GHS"
           }
         }
       }
     ],
     "totalsCommodityContent": {
       "type": "EcommerceWayBillTotals",
-      "totalPieces": 711,
-      "weight": 385940,
-      "chargeableWeight": 347346,
-      "weightUnit": "kg",
-      "rateCharge": 0.017780541592533092,
+      "totalPieces": 46,
+      "weight": 863865,
+      "chargeableWeight": 777478.5,
+      "weightUnit": "lb",
+      "rateCharge": 0.004073424538427751,
       "totalRateCharge": {
         "type": "PriceSpecification",
-        "price": 6176,
-        "priceCurrency": "PEN"
+        "price": 3167,
+        "priceCurrency": "KHR"
       }
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..LW5YQriibkWW3uacJ0xtXtQn4EMDEegJtdspo38HKYQ6RWYb-9RIsVHMA_k-TNuYFZeh0Mo9NhYf829TyavCCA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..BqRukXJmo2SD3bGDYYkGzMtlbLEFcu89LWU3aHncW_Yy-snvv2T0tVqhJAaKMy6ZoOsunOpBGNDsMXowoAgKAg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }
