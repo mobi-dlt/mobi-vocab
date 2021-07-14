@@ -1,5 +1,9 @@
 const faker = require('faker');
 
+const { generator, schemas } = require('../data/util/data');
+
+const ajv = generator.getAjv();
+
 const { getEntity } = require('./Entity');
 const { getProduct } = require('./Product');
 
@@ -16,6 +20,11 @@ const getBatteryID = () => {
         model: 'Panasonic EV',
         serialNumber: 'H1591BO0732A',
     };
+    const validate = ajv.compile(schemas.BatteryID);
+    const validateResult = validate(example);
+    if (process.env.VERBOSE_BUILD_GENERAL) {
+        console.log('Early Validation results from BatteryID:', validateResult);
+    }
     return example;
 };
 

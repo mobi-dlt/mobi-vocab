@@ -14,18 +14,18 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommercePackageRegistrationCredential",
-    "trackingID": "457253180467",
+    "trackingID": "274746586405",
     "packageItems": [
       {
         "type": "EcommercePackageItem",
-        "productReceiptID": "https://vc.example.com/?queryID=0xcFb26a6c6bA1e1C2Fcab151e6CE0ba5f85d6ed3DFBbc2AD81eDaF4ffAc77EEb0",
-        "packingListID": "https://vc.example.com/?queryID=0xA6E1FACf67Fed8EAe9698Ec5B26ccF78B1a71b331eaF2927E8D29DF908ded9ae",
+        "productReceiptID": "https://vc.example.com/?queryID=0xFF738fd0B8ab9cFE0eDa3BBEd07FD10B46c279de08212d4Da8A4D9C14C9C4c57",
+        "packingListID": "https://vc.example.com/?queryID=0xbB1c4CEdaB9d095FDb3d940dac04C1CdBA6bC4be81d90334A458d188CbEaD85C",
         "orderID": "https://vc.example.com/?queryID=AB06f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a",
         "productInOrder": [
+          "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
           "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
           "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
-          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
-          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e"
+          "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
         ]
       }
     ],
@@ -34,7 +34,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..QtYsHFTl2WqsqpWGZgUtVHvjn9yhT2SiQiv2KqWQoNODp0jpNPvcuxsbQQ_I0dqUrzFj4Rn_xnHW6ngxij_LDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..MeWhuLB2x9ztZizuTIieCM--8CScBcqqJuqTtC4OYC-IrTCn_pDxcwpzbvF8ANXUrrLvXrGXJmbCXfYdY5nAAQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

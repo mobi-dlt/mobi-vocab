@@ -7,49 +7,50 @@
     "packageItems": [
       {
         "type": "EcommercePackageItem",
-        "productReceiptID": "https://vc.example.com/?queryID=0xcFb26a6c6bA1e1C2Fcab151e6CE0ba5f85d6ed3DFBbc2AD81eDaF4ffAc77EEb0",
-        "packingListID": "https://vc.example.com/?queryID=0xA6E1FACf67Fed8EAe9698Ec5B26ccF78B1a71b331eaF2927E8D29DF908ded9ae",
+        "productReceiptID": "https://vc.example.com/?queryID=0xFF738fd0B8ab9cFE0eDa3BBEd07FD10B46c279de08212d4Da8A4D9C14C9C4c57",
+        "packingListID": "https://vc.example.com/?queryID=0xbB1c4CEdaB9d095FDb3d940dac04C1CdBA6bC4be81d90334A458d188CbEaD85C",
         "orderID": "https://vc.example.com/?queryID=AB06f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a",
         "productInOrder": [
+          "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
           "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
           "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
-          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
-          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e"
+          "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
         ]
       }
     ],
     "certificateName": "ACME Carrier Ecommerce Package Registration Certificate",
-    "interface": "reboot",
-    "monitor": "calculate",
-    "panel": "parse",
-    "microchip": "hack"
+    "driver": "bypass",
+    "hard drive": "quantify"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "trackingID": "776915829186",
+    "type": "EcommercePackageRegistrationCredential",
+    "certificateName": "ACME Carrier Ecommerce Package Registration Certificate",
+    "array": "transmit",
+    "firewall": "transmit",
+    "protocol": "program"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "EcommercePackageRegistrationCredential",
     "packageItems": [
       {
         "type": "EcommercePackageItem",
-        "productReceiptID": "https://vc.example.com/?queryID=0xbc28D76238e30Ad4f14c0d8D2c275B6bb1ecdD3836D3c3D98dd1bE7AacbC416a",
-        "packingListID": "https://vc.example.com/?queryID=0xBdEC7B664Ee27DFF738fd0B8ab9cFE0eDa3BBEd07FD10B46c279de08212d4Da8",
+        "productReceiptID": "https://vc.example.com/?queryID=0xfD3e9ace8dbcF12deA8F203AEcD9D2F84776eAaf9c7Ed7c53ea4c6c441AC057a",
+        "packingListID": "https://vc.example.com/?queryID=0xB0cf57fAc9B4Abd2a9265E91dfb46709aD65A207c2E23ca120dfc782b5De460a",
         "orderID": "https://vc.example.com/?queryID=AB06f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a",
         "productInOrder": [
-          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
-          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
+          "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
         ]
       }
     ],
-    "protocol": "override",
-    "transmitter": "override",
-    "pixel": "compress"
-  },
-  {
     "certificateName": "ACME Carrier Ecommerce Package Registration Certificate",
-    "sensor": "index",
-    "interface": "calculate",
-    "driver": "quantify",
-    "array": "back up"
+    "circuit": "copy",
+    "pixel": "calculate",
+    "transmitter": "transmit"
   }
 ]

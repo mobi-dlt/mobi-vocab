@@ -7,24 +7,24 @@
     "VID": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "manufacturer": {
       "type": "Organization",
-      "name": "Ford",
-      "description": "Secured stable moratorium",
+      "name": "Littel - Gottlieb",
+      "description": "User-friendly value-added capacity",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "5471 Karley Islands",
-        "addressLocality": "South Audieton",
-        "addressRegion": "Pennsylvania",
-        "postalCode": "10310",
-        "addressCountry": "Slovenia"
+        "streetAddress": "4435 VonRueden Ports",
+        "addressLocality": "Gregoriashire",
+        "addressRegion": "Georgia",
+        "postalCode": "25825",
+        "addressCountry": "Togo"
       },
-      "email": "Marcelo.Swift51@example.com",
-      "phoneNumber": "555-223-8464",
-      "faxNumber": "555-255-8217"
+      "email": "Jaunita_Boehm@example.net",
+      "phoneNumber": "555-509-9740",
+      "faxNumber": "555-234-8076"
     },
     "make": "Ford",
-    "model": "Mach E",
+    "model": "Mach_E",
     "vin": "JTERU5JR7M5861170",
-    "licensePlate": "8TMF808"
+    "licensePlate": "8888808"
   },
   {
     "@context": [
@@ -34,33 +34,32 @@
     "VID": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "manufacturer": {
       "type": "Person",
-      "firstName": "Pink",
-      "lastName": "Pouros",
-      "email": "Maude.Wyman@example.org",
-      "phoneNumber": "555-588-4505",
+      "firstName": "Constance",
+      "lastName": "Gulgowski",
+      "email": "Jewell_Schneider79@example.net",
+      "phoneNumber": "555-591-3724",
       "worksFor": {
         "type": "Organization",
-        "name": "Kshlerin Inc",
-        "description": "Public-key bandwidth-monitored superstructure",
+        "name": "D'Amore - Blanda",
+        "description": "Versatile web-enabled interface",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "93213 Kyleigh Stream",
-          "addressLocality": "Lesleyville",
-          "addressRegion": "Tennessee",
-          "postalCode": "34141",
-          "addressCountry": "China"
+          "streetAddress": "2839 Josianne Ville",
+          "addressLocality": "Jacobsland",
+          "addressRegion": "Nebraska",
+          "postalCode": "73371-5586",
+          "addressCountry": "Isle of Man"
         },
-        "email": "Bridgette1@example.com",
-        "phoneNumber": "555-759-9319",
-        "faxNumber": "555-652-7860"
+        "email": "Kay_Mueller62@example.com",
+        "phoneNumber": "555-741-1556",
+        "faxNumber": "555-893-6011"
       },
-      "jobTitle": "International Identity Designer",
-      "name": "Ford"
+      "jobTitle": "Central Usability Executive"
     },
     "make": "Ford",
-    "model": "Mach E",
+    "model": "Mach_E",
     "vin": "JTERU5JR7M5861170",
-    "licensePlate": "8TMF808"
+    "licensePlate": "8888808"
   },
   {
     "@context": [
@@ -69,33 +68,24 @@
     "type": "VID",
     "VID": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "manufacturer": {
-      "type": "Person",
-      "firstName": "Vida",
-      "lastName": "Hirthe",
-      "email": "Cole.Langworth@example.com",
-      "phoneNumber": "555-813-9841",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Moore LLC",
-        "description": "Configurable disintermediate Graphic Interface",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "4254 Predovic Center",
-          "addressLocality": "Amiemouth",
-          "addressRegion": "South Dakota",
-          "postalCode": "85283",
-          "addressCountry": "Bosnia and Herzegovina"
-        },
-        "email": "Joel.Abernathy17@example.org",
-        "phoneNumber": "555-533-5256",
-        "faxNumber": "555-636-7753"
+      "type": "Organization",
+      "name": "Batz, Corkery and Stanton",
+      "description": "Triple-buffered systemic emulation",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "5541 Jed Road",
+        "addressLocality": "West Benny",
+        "addressRegion": "Michigan",
+        "postalCode": "88383",
+        "addressCountry": "Algeria"
       },
-      "jobTitle": "Investor Infrastructure Manager",
-      "name": "Ford"
+      "email": "Stefan_Marvin58@example.com",
+      "phoneNumber": "555-404-8976",
+      "faxNumber": "555-276-3443"
     },
     "make": "Ford",
-    "model": "Mach E",
+    "model": "Mach_E",
     "vin": "JTERU5JR7M5861170",
-    "licensePlate": "8TMF808"
+    "licensePlate": "8888808"
   }
 ]

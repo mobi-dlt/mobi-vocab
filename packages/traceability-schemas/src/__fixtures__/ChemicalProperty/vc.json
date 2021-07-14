@@ -14,15 +14,15 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "ChemicalProperty",
-    "name": "Chromium",
-    "formula": "Cr",
-    "inchi": "InChI=1S/Cr",
-    "inchikey": "VYZAMTAEIAYCRO-UHFFFAOYSA-N"
+    "name": "Iodine",
+    "formula": "I",
+    "inchi": "InChI=1S/I",
+    "inchikey": "ZCYVEMRRCGMTRW-UHFFFAOYSA-N"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..iNBsDco8VL2M30YA18FwuZLHseZbli4peDZcFjKBMXNsCLoj5TWN2MOgpeXTjI1MCp_E8uhENIGVRK9LX7JdCw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UL7iluLkRM5TGsttnPSU6lgbXlNvM80dG5sHbWYFOtmR49z9nxGk69v5dQb4pSm4CrnqM-6eH9P8Xt8S2rNKBA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

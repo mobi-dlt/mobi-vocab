@@ -1,35 +1,32 @@
 [
   {
-    "language": "en_CA",
     "addressLines": [
-      "Collins - Tillman",
-      "00564 Wiza Harbors"
+      "White - Hyatt",
+      "04238 Marks Locks"
     ],
-    "addressNumber": "28",
-    "city": "Adriennefurt",
-    "country": "Comoros",
-    "postalCode": "32630",
-    "circuit": "quantify",
-    "bandwidth": "connect",
-    "transmitter": "input"
+    "program": "quantify",
+    "array": "index",
+    "hard drive": "parse"
   },
   {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "type": "LEIaddress",
-    "language": "en_BORK",
-    "addressLines": [
-      "Huels - Welch",
-      "85280 Jennifer Loaf"
-    ],
-    "addressNumber": "201",
-    "city": "Glovermouth",
-    "region": "Berkshire",
-    "monitor": "generate",
-    "system": "back up"
+    "addressNumberWithinBuilding": "2",
+    "mailRouting": "733 Preston Canyon, 69144-1767",
+    "country": "Turkey",
+    "postalCode": "79064",
+    "transmitter": "override"
   },
   {
-    "sensor": "back up",
-    "array": "quantify",
-    "alarm": "calculate",
-    "circuit": "override"
+    "addressLines": [
+      "Schimmel - Greenfelder",
+      "602 Brekke Hills"
+    ],
+    "region": "Borders",
+    "country": "Yemen",
+    "capacitor": "transmit",
+    "card": "navigate"
   }
 ]

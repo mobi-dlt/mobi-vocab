@@ -1,16 +1,38 @@
 [
   {
-    "firewall": "back up"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "chargeableWeight": 166898.7,
+    "totalRateCharge": {
+      "type": "PriceSpecification",
+      "price": 6954,
+      "priceCurrency": "ERN"
+    },
+    "bandwidth": "back up",
+    "port": "input",
+    "capacitor": "reboot",
+    "hard drive": "connect"
   },
   {
-    "program": "reboot",
-    "sensor": "input",
-    "alarm": "generate"
-  },
-  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "type": "EcommerceWayBillTotals",
-    "feed": "hack",
-    "matrix": "index",
-    "port": "quantify"
+    "totalPieces": 538,
+    "chargeableWeight": 499665.60000000003,
+    "weightUnit": "lb",
+    "totalRateCharge": {
+      "type": "PriceSpecification",
+      "price": 9446,
+      "priceCurrency": "MMK"
+    },
+    "sensor": "hack",
+    "port": "hack",
+    "transmitter": "generate"
+  },
+  {
+    "weightUnit": "lb",
+    "firewall": "input"
   }
 ]

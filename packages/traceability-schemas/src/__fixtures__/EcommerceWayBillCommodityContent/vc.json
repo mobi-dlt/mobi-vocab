@@ -17,59 +17,41 @@
     "wayBillGrouping": [
       {
         "type": "EcommerceWayBillCommodityGroup",
-        "commodityItemNumber": "jac4iq7ts96r",
-        "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
+        "commodityItemNumber": "crzfukt0b10g",
+        "natureQuantityOfGoods": "A lot of laptops that way a lot",
         "totalsCommodityGroup": {
           "type": "EcommerceWayBillTotals",
-          "totalPieces": 94,
-          "weight": 391698,
-          "chargeableWeight": 352528.2,
-          "weightUnit": "kg",
-          "rateCharge": 0.01438750148215093,
+          "totalPieces": 388,
+          "weight": 818489,
+          "chargeableWeight": 736640.1,
+          "weightUnit": "lb",
+          "rateCharge": 0.012019437986066738,
           "totalRateCharge": {
             "type": "PriceSpecification",
-            "price": 5072,
-            "priceCurrency": "ISK"
-          }
-        }
-      },
-      {
-        "type": "EcommerceWayBillCommodityGroup",
-        "commodityItemNumber": "fq9sk4c2xwxd",
-        "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
-        "totalsCommodityGroup": {
-          "type": "EcommerceWayBillTotals",
-          "totalPieces": 507,
-          "weight": 295001,
-          "chargeableWeight": 265500.9,
-          "weightUnit": "kg",
-          "rateCharge": 0.027306875419254698,
-          "totalRateCharge": {
-            "type": "PriceSpecification",
-            "price": 7250,
-            "priceCurrency": "GHS"
+            "price": 8854,
+            "priceCurrency": "ERN"
           }
         }
       }
     ],
     "totalsCommodityContent": {
       "type": "EcommerceWayBillTotals",
-      "totalPieces": 46,
-      "weight": 863865,
-      "chargeableWeight": 777478.5,
-      "weightUnit": "lb",
-      "rateCharge": 0.004073424538427751,
+      "totalPieces": 510,
+      "weight": 542980,
+      "chargeableWeight": 488682,
+      "weightUnit": "kg",
+      "rateCharge": 0.018691091548287023,
       "totalRateCharge": {
         "type": "PriceSpecification",
-        "price": 3167,
-        "priceCurrency": "KHR"
+        "price": 9134,
+        "priceCurrency": "ILS"
       }
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..BqRukXJmo2SD3bGDYYkGzMtlbLEFcu89LWU3aHncW_Yy-snvv2T0tVqhJAaKMy6ZoOsunOpBGNDsMXowoAgKAg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..6lB7c2mcZyZ2EKIBWKwL4Vw6ReT3SVsU4cyfJWkQxBlQAlLtKQi2MKjemeQYzf0ra-QvprKiLxmZYtreoxgWDA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

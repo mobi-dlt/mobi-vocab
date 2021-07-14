@@ -1,24 +1,18 @@
 [
   {
-    "card": "compress",
-    "panel": "parse",
-    "sensor": "reboot"
+    "feed": "bypass",
+    "system": "parse",
+    "microchip": "calculate",
+    "transmitter": "calculate"
   },
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "LEIauthority",
-    "validationAuthorityID": "RA000661",
-    "pixel": "override"
+    "validationAuthorityID": "RA000001",
+    "otherValidationAuthorityID": "S7H8ANMW",
+    "firewall": "copy",
+    "array": "back up"
   },
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "otherValidationAuthorityID": "ROG7BFHS",
-    "validationAuthorityEntityID": "BSUGASNU4NO8W9LBK4Y9",
-    "circuit": "synthesize",
-    "bandwidth": "input"
+    "otherValidationAuthorityID": "V4EPC478",
+    "sensor": "copy"
   }
 ]

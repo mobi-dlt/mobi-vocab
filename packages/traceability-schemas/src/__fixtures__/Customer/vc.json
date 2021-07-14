@@ -14,22 +14,22 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "Customer",
-    "name": "Bart Kuphal",
+    "name": "Adonis Monahan",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "84574 Laisha Branch",
-      "addressLocality": "New Kasandrafurt",
-      "addressRegion": "North Dakota",
-      "postalCode": "77206",
-      "addressCountry": "Congo"
+      "streetAddress": "1708 Moshe Roads",
+      "addressLocality": "Larkinburgh",
+      "addressRegion": "Florida",
+      "postalCode": "03041-7882",
+      "addressCountry": "Brazil"
     },
-    "telephone": "555-979-6984",
-    "email": "Nash9@example.org"
+    "telephone": "555-473-4952",
+    "email": "Carole.Koelpin17@example.org"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..6TxphvrWl5nZM3hfoQ49UQUK8Z0svNoSu8LrL-6prXbGOCuw31Si8S1lvObOT_yTPbazaG_KkecTCRax41MpCQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..OMSdd3JXuCt5dUaSe82izNvNiW-ksVN2XoxWYjJZn_LB9b4Ok5ZsKZar7lWZ1CEobsCy7r7e_5BBhNL6aN8EBQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

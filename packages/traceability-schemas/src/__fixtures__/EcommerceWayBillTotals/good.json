@@ -4,47 +4,47 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceWayBillTotals",
-    "totalPieces": 172,
-    "weight": 508478,
-    "chargeableWeight": 457630.2,
-    "weightUnit": "kg",
-    "rateCharge": 0.0013329539877394456,
-    "totalRateCharge": {
-      "type": "PriceSpecification",
-      "price": 610,
-      "priceCurrency": "KWD"
-    }
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "EcommerceWayBillTotals",
-    "totalPieces": 721,
-    "weight": 743896,
-    "chargeableWeight": 669506.4,
-    "weightUnit": "kg",
-    "rateCharge": 0.012364332887631843,
-    "totalRateCharge": {
-      "type": "PriceSpecification",
-      "price": 8278,
-      "priceCurrency": "MKD"
-    }
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "EcommerceWayBillTotals",
-    "totalPieces": 562,
-    "weight": 991914,
-    "chargeableWeight": 892722.6,
+    "totalPieces": 459,
+    "weight": 185443,
+    "chargeableWeight": 166898.7,
     "weightUnit": "lb",
-    "rateCharge": 0.002988610347716077,
+    "rateCharge": 0.04166599260509518,
     "totalRateCharge": {
       "type": "PriceSpecification",
-      "price": 2668,
-      "priceCurrency": "PYG"
+      "price": 6954,
+      "priceCurrency": "ERN"
+    }
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "EcommerceWayBillTotals",
+    "totalPieces": 538,
+    "weight": 555184,
+    "chargeableWeight": 499665.60000000003,
+    "weightUnit": "lb",
+    "rateCharge": 0.018904643425522987,
+    "totalRateCharge": {
+      "type": "PriceSpecification",
+      "price": 9446,
+      "priceCurrency": "MMK"
+    }
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "EcommerceWayBillTotals",
+    "totalPieces": 901,
+    "weight": 937205,
+    "chargeableWeight": 843484.5,
+    "weightUnit": "lb",
+    "rateCharge": 0.0036633749642109607,
+    "totalRateCharge": {
+      "type": "PriceSpecification",
+      "price": 3090,
+      "priceCurrency": "RWF"
     }
   }
 ]

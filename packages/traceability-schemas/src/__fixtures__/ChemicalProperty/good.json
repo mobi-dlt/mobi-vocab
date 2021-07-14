@@ -4,29 +4,29 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "ChemicalProperty",
-    "name": "Chromium",
-    "formula": "Cr",
-    "inchi": "InChI=1S/Cr",
-    "inchikey": "VYZAMTAEIAYCRO-UHFFFAOYSA-N"
+    "name": "Iodine",
+    "formula": "I",
+    "inchi": "InChI=1S/I",
+    "inchikey": "ZCYVEMRRCGMTRW-UHFFFAOYSA-N"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "ChemicalProperty",
-    "name": "Barium",
-    "formula": "Ba",
-    "inchi": "InChI=1S/Ba",
-    "inchikey": "DSAJWYNOEDNPEQ-UHFFFAOYSA-N"
+    "name": "Fluorine",
+    "formula": "F",
+    "inchi": "InChI=1S/F",
+    "inchikey": "YCKRFDGAMUMZLT-UHFFFAOYSA-N"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "ChemicalProperty",
-    "name": "Erbium",
-    "formula": "Er",
-    "inchi": "InChI=1S/Er",
-    "inchikey": "UYAHIZSMUZPPFV-UHFFFAOYSA-N"
+    "name": "Neptunium",
+    "formula": "Np",
+    "inchi": "InChI=1S/Np",
+    "inchikey": "LFNLGNPSGWYGGD-UHFFFAOYSA-N"
   }
 ]

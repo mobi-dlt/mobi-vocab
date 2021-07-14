@@ -16,45 +16,45 @@
     "type": "Inspector",
     "person": {
       "type": "Person",
-      "firstName": "Winifred",
-      "lastName": "Dare",
-      "email": "Miguel_Donnelly23@example.net",
-      "phoneNumber": "555-784-7109",
+      "firstName": "Torey",
+      "lastName": "Ratke",
+      "email": "Terence_Murray67@example.com",
+      "phoneNumber": "555-301-6227",
       "worksFor": {
         "type": "Organization",
-        "name": "Harber - Oberbrunner",
-        "description": "Automated 24/7 initiative",
+        "name": "Wilderman - Littel",
+        "description": "Pre-emptive bifurcated orchestration",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "216 Brycen Vista",
-          "addressLocality": "Langbury",
-          "addressRegion": "Tennessee",
-          "postalCode": "34451-2146",
-          "addressCountry": "Republic of Korea"
+          "streetAddress": "55887 Lon Burg",
+          "addressLocality": "West Minaburgh",
+          "addressRegion": "Montana",
+          "postalCode": "83980",
+          "addressCountry": "Faroe Islands"
         },
-        "email": "Karl7@example.org",
-        "phoneNumber": "555-707-7359",
-        "faxNumber": "555-799-9465"
+        "email": "Eliane.Adams@example.net",
+        "phoneNumber": "555-838-7598",
+        "faxNumber": "555-133-1846"
       },
-      "jobTitle": "International Functionality Architect"
+      "jobTitle": "Regional Markets Producer"
     },
     "qualification": [
       {
         "type": "Qualification",
-        "qualificationCategory": "Internal Directives Representative",
-        "qualificationValue": "Associate"
+        "qualificationCategory": "Global Branding Facilitator",
+        "qualificationValue": "Architect"
       },
       {
         "type": "Qualification",
-        "qualificationCategory": "Global Brand Director",
-        "qualificationValue": "Strategist"
+        "qualificationCategory": "Global Web Engineer",
+        "qualificationValue": "Architect"
       }
     ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..IGWgWjWv0nYSRmH5WCRk82ypqpYHM-MC5AhkqHO2agyP9gaIgbXGZeSBy96aOKtdQvFYQjZBd85GWOw1AW4bCA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..-OGfycndQ1B4oCe9JYMYTxnDR0dEQmkoEC7OA9GBnhfzhr4jkfb_A8wraP7tM6-RBcTZ0LNjwz3WjtV4nAcGBQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

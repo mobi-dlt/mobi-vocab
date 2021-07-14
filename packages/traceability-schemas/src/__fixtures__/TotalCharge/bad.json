@@ -1,21 +1,30 @@
 [
   {
-    "type": "TotalCharge",
-    "totalCollect": 1473.75,
-    "currencyConversionRate": 5,
-    "chargesDestination": 204,
-    "port": "index",
-    "application": "compress",
-    "bandwidth": "synthesize"
+    "program": "bypass",
+    "array": "connect",
+    "application": "transmit",
+    "system": "transmit"
   },
   {
-    "currencyConversionRate": 4,
-    "port": "calculate",
-    "panel": "hack",
-    "driver": "bypass",
-    "firewall": "quantify"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "totalPrepaid": 6583.5,
+    "sourceCurrency": "SYP",
+    "currencyConversionRate": 2,
+    "ccChargesDestinationCurrency": "SYP",
+    "firewall": "reboot",
+    "program": "compress"
   },
   {
-    "bus": "parse"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "totalCollect": 1447.75,
+    "sourceCurrency": "MGA",
+    "chargesDestination": 674,
+    "totalCollectCharge": 168.5,
+    "program": "hack",
+    "circuit": "hack"
   }
 ]

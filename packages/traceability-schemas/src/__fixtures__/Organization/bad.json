@@ -1,25 +1,35 @@
 [
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "Organization",
-    "name": "Berge - Rosenbaum",
-    "description": "Configurable context-sensitive moderator",
-    "interface": "quantify",
-    "port": "synthesize"
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "410 Marcel Villages",
+      "addressLocality": "North Joyfurt",
+      "addressRegion": "Alabama",
+      "postalCode": "35634-8978",
+      "addressCountry": "Mali"
+    },
+    "email": "Zoe71@example.com",
+    "card": "index",
+    "matrix": "copy",
+    "port": "reboot"
   },
   {
-    "name": "Purdy Inc",
-    "description": "Networked modular archive",
-    "email": "Celestino74@example.org",
-    "matrix": "compress"
-  },
-  {
-    "type": "Organization",
-    "name": "Mante, Bergnaum and Lueilwitz",
-    "description": "Front-line 4th generation emulation",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "954 Damon Manor",
+      "addressLocality": "New Patsyville",
+      "addressRegion": "Michigan",
+      "postalCode": "82294-0719",
+      "addressCountry": "Dominican Republic"
+    },
+    "email": "Korey33@example.com",
+    "system": "transmit",
+    "array": "copy",
     "bus": "index",
-    "sensor": "program"
+    "panel": "input"
+  },
+  {
+    "interface": "connect",
+    "transmitter": "navigate"
   }
 ]

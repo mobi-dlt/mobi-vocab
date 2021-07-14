@@ -1,8 +1,31 @@
 [
   {
-    "pixel": "input",
-    "protocol": "connect",
-    "card": "bypass"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "EcommerceWayBillCommodityContent",
+    "panel": "parse"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "EcommerceWayBillCommodityContent",
+    "totalsCommodityContent": {
+      "type": "EcommerceWayBillTotals",
+      "totalPieces": 238,
+      "weight": 306930,
+      "chargeableWeight": 276237,
+      "weightUnit": "lb",
+      "rateCharge": 0.017188139170350097,
+      "totalRateCharge": {
+        "type": "PriceSpecification",
+        "price": 4748,
+        "priceCurrency": "EGP"
+      }
+    },
+    "bandwidth": "index",
+    "capacitor": "bypass"
   },
   {
     "@context": [
@@ -10,54 +33,18 @@
     ],
     "totalsCommodityContent": {
       "type": "EcommerceWayBillTotals",
-      "totalPieces": 582,
-      "weight": 352735,
-      "chargeableWeight": 317461.5,
-      "weightUnit": "lb",
-      "rateCharge": 0.020604073249827146,
-      "totalRateCharge": {
-        "type": "PriceSpecification",
-        "price": 6541,
-        "priceCurrency": "MDL"
-      }
-    },
-    "circuit": "navigate"
-  },
-  {
-    "wayBillGrouping": [
-      {
-        "type": "EcommerceWayBillCommodityGroup",
-        "commodityItemNumber": "3erzyvykvila",
-        "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
-        "totalsCommodityGroup": {
-          "type": "EcommerceWayBillTotals",
-          "totalPieces": 704,
-          "weight": 522037,
-          "chargeableWeight": 469833.3,
-          "weightUnit": "kg",
-          "rateCharge": 0.018057468468071547,
-          "totalRateCharge": {
-            "type": "PriceSpecification",
-            "price": 8484,
-            "priceCurrency": "EEK"
-          }
-        }
-      }
-    ],
-    "totalsCommodityContent": {
-      "type": "EcommerceWayBillTotals",
-      "totalPieces": 461,
-      "weight": 297143,
-      "chargeableWeight": 267428.7,
+      "totalPieces": 562,
+      "weight": 71583,
+      "chargeableWeight": 64424.700000000004,
       "weightUnit": "kg",
-      "rateCharge": 0.007560893800852339,
+      "rateCharge": 0.12773051329691873,
       "totalRateCharge": {
         "type": "PriceSpecification",
-        "price": 2022,
-        "priceCurrency": "KMF"
+        "price": 8229,
+        "priceCurrency": "AMD"
       }
     },
-    "bandwidth": "reboot",
-    "system": "bypass"
+    "firewall": "connect",
+    "bus": "program"
   }
 ]

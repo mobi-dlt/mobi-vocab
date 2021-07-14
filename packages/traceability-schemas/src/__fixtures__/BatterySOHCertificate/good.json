@@ -1,0 +1,257 @@
+[
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://mobinet.io/schemas/v1"
+    ],
+    "id": "https://example.com/credential/123",
+    "type": [
+      "VerifiableCredential",
+      "BatterySOHCertificate"
+    ],
+    "name": "Battery SOH Certificate",
+    "description": "This document includes recommended Battery ID fields.",
+    "relatedLink": [
+      {
+        "type": [
+          "LinkRole"
+        ],
+        "target": "did:example:789",
+        "linkRelationship": "commercialInvoiceLink"
+      },
+      {
+        "type": [
+          "LinkRole"
+        ],
+        "target": "https://www.example.com/template/123",
+        "linkRelationship": "BatteryIDLink"
+      }
+    ],
+    "issuanceDate": "2019-12-11T03:50:55Z",
+    "issuer": {
+      "id": "did:example:123",
+      "type": "Organization",
+      "name": "Kshlerin Group",
+      "description": "Mandatory high-level task-force",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "15393 Prohaska Drive",
+        "addressLocality": "New Rickystad",
+        "addressRegion": "Indiana",
+        "postalCode": "59279-0284",
+        "addressCountry": "Czech Republic"
+      },
+      "email": "Megane.Collier@example.com",
+      "phoneNumber": "555-885-4392",
+      "faxNumber": "555-857-5155"
+    },
+    "credentialSubject": {
+      "type": [
+        "BatteryID"
+      ],
+      "VID": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+      "BatteryID": "did:mobi:ebfeb1f712ebc6f1c276e12ec21",
+      "ProductInfo": {
+        "type": [
+          "Product"
+        ],
+        "manufacturer": {
+          "type": [
+            "Person"
+          ],
+          "email": "Rozella6@example.com",
+          "phoneNumber": "555-799-3413"
+        },
+        "name": "Fantastic Soft Pants",
+        "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+        "sizeOrAmount": {
+          "type": [
+            "QuantitativeValue"
+          ],
+          "unitCode": "hg/ha",
+          "value": "3466"
+        },
+        "weight": {
+          "type": [
+            "QuantitativeValue"
+          ],
+          "unitCode": "hg/ha",
+          "value": "3159"
+        },
+        "sku": "899834352574"
+      },
+      "model": "Panasonic EV",
+      "serialNumber": "H1591BO0732A"
+    }
+  },
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://mobinet.io/schemas/v1"
+    ],
+    "id": "https://example.com/credential/123",
+    "type": [
+      "VerifiableCredential",
+      "BatterySOHCertificate"
+    ],
+    "name": "Battery SOH Certificate",
+    "description": "This document includes recommended Battery ID fields.",
+    "relatedLink": [
+      {
+        "type": [
+          "LinkRole"
+        ],
+        "target": "did:example:789",
+        "linkRelationship": "commercialInvoiceLink"
+      },
+      {
+        "type": [
+          "LinkRole"
+        ],
+        "target": "https://www.example.com/template/123",
+        "linkRelationship": "BatteryIDLink"
+      }
+    ],
+    "issuanceDate": "2019-12-11T03:50:55Z",
+    "issuer": {
+      "id": "did:example:123",
+      "type": "Organization",
+      "name": "Bruen Inc",
+      "description": "Decentralized non-volatile contingency",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "267 Wilfrid Mews",
+        "addressLocality": "East Madeline",
+        "addressRegion": "Oregon",
+        "postalCode": "15343",
+        "addressCountry": "Virgin Islands, British"
+      },
+      "email": "Demario_Borer56@example.com",
+      "phoneNumber": "555-952-6476",
+      "faxNumber": "555-970-4145"
+    },
+    "credentialSubject": {
+      "type": [
+        "BatteryID"
+      ],
+      "VID": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+      "BatteryID": "did:mobi:ebfeb1f712ebc6f1c276e12ec21",
+      "ProductInfo": {
+        "type": [
+          "Product"
+        ],
+        "manufacturer": {
+          "type": [
+            "Organization"
+          ],
+          "email": "Karli78@example.net",
+          "phoneNumber": "555-697-8649"
+        },
+        "name": "Practical Frozen Car",
+        "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "sizeOrAmount": {
+          "type": [
+            "QuantitativeValue"
+          ],
+          "unitCode": "hg/ha",
+          "value": "1128"
+        },
+        "weight": {
+          "type": [
+            "QuantitativeValue"
+          ],
+          "unitCode": "hg/ha",
+          "value": "3566"
+        },
+        "sku": "786280339882"
+      },
+      "model": "Panasonic EV",
+      "serialNumber": "H1591BO0732A"
+    }
+  },
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://mobinet.io/schemas/v1"
+    ],
+    "id": "https://example.com/credential/123",
+    "type": [
+      "VerifiableCredential",
+      "BatterySOHCertificate"
+    ],
+    "name": "Battery SOH Certificate",
+    "description": "This document includes recommended Battery ID fields.",
+    "relatedLink": [
+      {
+        "type": [
+          "LinkRole"
+        ],
+        "target": "did:example:789",
+        "linkRelationship": "commercialInvoiceLink"
+      },
+      {
+        "type": [
+          "LinkRole"
+        ],
+        "target": "https://www.example.com/template/123",
+        "linkRelationship": "BatteryIDLink"
+      }
+    ],
+    "issuanceDate": "2019-12-11T03:50:55Z",
+    "issuer": {
+      "id": "did:example:123",
+      "type": "Organization",
+      "name": "Klein - Schuster",
+      "description": "Integrated exuding archive",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "8182 Iva Fords",
+        "addressLocality": "Winifredmouth",
+        "addressRegion": "Rhode Island",
+        "postalCode": "05004-3925",
+        "addressCountry": "Hong Kong"
+      },
+      "email": "Ike20@example.net",
+      "phoneNumber": "555-548-8185",
+      "faxNumber": "555-194-4347"
+    },
+    "credentialSubject": {
+      "type": [
+        "BatteryID"
+      ],
+      "VID": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+      "BatteryID": "did:mobi:ebfeb1f712ebc6f1c276e12ec21",
+      "ProductInfo": {
+        "type": [
+          "Product"
+        ],
+        "manufacturer": {
+          "type": [
+            "Person"
+          ],
+          "email": "Ignacio_Schmeler@example.org",
+          "phoneNumber": "555-759-6888"
+        },
+        "name": "Incredible Frozen Chips",
+        "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+        "sizeOrAmount": {
+          "type": [
+            "QuantitativeValue"
+          ],
+          "unitCode": "hg/ha",
+          "value": "8038"
+        },
+        "weight": {
+          "type": [
+            "QuantitativeValue"
+          ],
+          "unitCode": "hg/ha",
+          "value": "5057"
+        },
+        "sku": "485364125031"
+      },
+      "model": "Panasonic EV",
+      "serialNumber": "H1591BO0732A"
+    }
+  }
+]

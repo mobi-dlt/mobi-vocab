@@ -15,12 +15,12 @@
     ],
     "type": "chargeAndPaymentType",
     "chargeCollect": 382,
-    "chargePrepaid": 605
+    "chargePrepaid": 617
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vMlk0anhtCfbxM8X8Kei0FGEzlf8GURi7UZdVj_Gb8ZsfLwlYhCdw9hr8AxqUwPMuApcuw5uRjYcr6p2C6W2AA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..dw7bdDcKLGqzsWsVWeRsL8Ea9sxjVN8Z--39j8W-PrmUB6jro00fXZRPgVQeug2IJRWbCLSmHeL7ztmBesBfBw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

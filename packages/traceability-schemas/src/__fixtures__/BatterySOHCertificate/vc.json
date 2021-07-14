@@ -1,0 +1,92 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://mobinet.io/schemas/v1"
+  ],
+  "id": "https://example.com/credential/123",
+  "type": [
+    "VerifiableCredential",
+    "BatterySOHCertificate"
+  ],
+  "name": "Battery SOH Certificate",
+  "description": "This document includes recommended Battery ID fields.",
+  "relatedLink": [
+    {
+      "type": [
+        "LinkRole"
+      ],
+      "target": "did:example:789",
+      "linkRelationship": "commercialInvoiceLink"
+    },
+    {
+      "type": [
+        "LinkRole"
+      ],
+      "target": "https://www.example.com/template/123",
+      "linkRelationship": "BatteryIDLink"
+    }
+  ],
+  "issuanceDate": "2019-12-11T03:50:55Z",
+  "issuer": {
+    "id": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
+    "type": "Organization",
+    "name": "Kshlerin Group",
+    "description": "Mandatory high-level task-force",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "15393 Prohaska Drive",
+      "addressLocality": "New Rickystad",
+      "addressRegion": "Indiana",
+      "postalCode": "59279-0284",
+      "addressCountry": "Czech Republic"
+    },
+    "email": "Megane.Collier@example.com",
+    "phoneNumber": "555-885-4392",
+    "faxNumber": "555-857-5155"
+  },
+  "credentialSubject": {
+    "type": [
+      "BatteryID"
+    ],
+    "VID": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "BatteryID": "did:mobi:ebfeb1f712ebc6f1c276e12ec21",
+    "ProductInfo": {
+      "type": [
+        "Product"
+      ],
+      "manufacturer": {
+        "type": [
+          "Person"
+        ],
+        "email": "Rozella6@example.com",
+        "phoneNumber": "555-799-3413"
+      },
+      "name": "Fantastic Soft Pants",
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "sizeOrAmount": {
+        "type": [
+          "QuantitativeValue"
+        ],
+        "unitCode": "hg/ha",
+        "value": "3466"
+      },
+      "weight": {
+        "type": [
+          "QuantitativeValue"
+        ],
+        "unitCode": "hg/ha",
+        "value": "3159"
+      },
+      "sku": "899834352574"
+    },
+    "model": "Panasonic EV",
+    "serialNumber": "H1591BO0732A"
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2019-12-11T03:50:55Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..beLeq1sWIWsAn7OWBr0IQIOBPqvgTzj_H-_hhlovLSiqxLc3SXqugIZ6dyxi2uUZKofTfOeCeOClqVO1bxxMCA",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
+  }
+}

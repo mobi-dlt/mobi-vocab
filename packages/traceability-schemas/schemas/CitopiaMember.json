@@ -1,7 +1,7 @@
 {
     "$id": "https://w3id.org/traceability/schemas/CitopiaMember.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"Customer\", \"@id\": \"https://w3id.org/traceability#CitopiaMember\"}",
+    "$comment": "{\"term\": \"CitopiaMember\", \"@id\": \"https://w3id.org/traceability#CitopiaMember\"}",
     "title": "CitopiaMember",
     "description": "Citopia Member",
     "type": "object",

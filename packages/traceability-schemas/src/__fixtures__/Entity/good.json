@@ -3,73 +3,57 @@
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "type": "Person",
-    "firstName": "Dominic",
-    "lastName": "Yundt",
-    "email": "Jamel33@example.net",
-    "phoneNumber": "555-817-5546",
-    "worksFor": {
-      "type": "Organization",
-      "name": "Dickens, Hyatt and Cassin",
-      "description": "Distributed dynamic hardware",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "846 Petra Orchard",
-        "addressLocality": "New Schuylershire",
-        "addressRegion": "Arizona",
-        "postalCode": "85303-4529",
-        "addressCountry": "Saint Helena"
-      },
-      "email": "Germaine_Ryan76@example.net",
-      "phoneNumber": "555-143-2874",
-      "faxNumber": "555-417-2846"
+    "type": "Organization",
+    "name": "Lowe LLC",
+    "description": "Up-sized incremental throughput",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "5273 Gust Courts",
+      "addressLocality": "Jazmynmouth",
+      "addressRegion": "Nevada",
+      "postalCode": "89128-0635",
+      "addressCountry": "Saint Barthelemy"
     },
-    "jobTitle": "Future Intranet Administrator"
+    "email": "Ansel_Hauck@example.com",
+    "phoneNumber": "555-729-4943",
+    "faxNumber": "555-470-8360"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "Organization",
-    "name": "O'Kon, Bartoletti and Donnelly",
-    "description": "Persistent bifurcated intranet",
+    "name": "Gulgowski, Macejkovic and Marquardt",
+    "description": "Grass-roots grid-enabled protocol",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "284 Ryan Mission",
-      "addressLocality": "Kellyfurt",
-      "addressRegion": "Nevada",
-      "postalCode": "19185",
-      "addressCountry": "Pitcairn Islands"
+      "streetAddress": "2878 Simeon Expressway",
+      "addressLocality": "Keelington",
+      "addressRegion": "Georgia",
+      "postalCode": "43414-2545",
+      "addressCountry": "Egypt"
     },
-    "email": "Vivienne.Mueller@example.net",
-    "phoneNumber": "555-341-7422",
-    "faxNumber": "555-118-3271"
+    "email": "Gideon_Rogahn30@example.com",
+    "phoneNumber": "555-234-3885",
+    "faxNumber": "555-159-2214"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "type": "Person",
-    "firstName": "Nick",
-    "lastName": "Larson",
-    "email": "Bianka_Lindgren@example.com",
-    "phoneNumber": "555-684-9321",
-    "worksFor": {
-      "type": "Organization",
-      "name": "West, Runolfsson and Reinger",
-      "description": "Profound context-sensitive secured line",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "1067 Bauch Knolls",
-        "addressLocality": "Fannieshire",
-        "addressRegion": "Indiana",
-        "postalCode": "68992-4870",
-        "addressCountry": "Svalbard & Jan Mayen Islands"
-      },
-      "email": "Luz_Schinner71@example.com",
-      "phoneNumber": "555-584-4209",
-      "faxNumber": "555-163-3352"
+    "type": "Organization",
+    "name": "Jacobs and Sons",
+    "description": "Focused even-keeled neural-net",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "81586 Deon Point",
+      "addressLocality": "Luettgentown",
+      "addressRegion": "Nebraska",
+      "postalCode": "68278",
+      "addressCountry": "Andorra"
     },
-    "jobTitle": "Direct Assurance Planner"
+    "email": "Cordelia_Bins80@example.com",
+    "phoneNumber": "555-378-5653",
+    "faxNumber": "555-724-5766"
   }
 ]

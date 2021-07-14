@@ -37,19 +37,19 @@
   "issuer": {
     "id": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
     "type": "Organization",
-    "name": "Davis - Kemmer",
-    "description": "Multi-channelled 5th generation knowledge base",
+    "name": "Kertzmann Inc",
+    "description": "Team-oriented 24 hour analyzer",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "046 Bayer Flats",
-      "addressLocality": "West Vernieburgh",
-      "addressRegion": "Nebraska",
-      "postalCode": "23596-9062",
-      "addressCountry": "Uganda"
+      "streetAddress": "5022 Alia Landing",
+      "addressLocality": "North Karson",
+      "addressRegion": "Rhode Island",
+      "postalCode": "05405-3079",
+      "addressCountry": "Congo"
     },
-    "email": "Salvador.Kilback@example.org",
-    "phoneNumber": "555-826-7847",
-    "faxNumber": "555-513-5921"
+    "email": "Claud22@example.net",
+    "phoneNumber": "555-303-2832",
+    "faxNumber": "555-373-1090"
   },
   "credentialSubject": {
     "type": [
@@ -162,7 +162,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..BEgeNAV-DdUrxrG9wpFPuDtAxFLQ8yB6v1_mPq0gdFof-Q8LZM0504Gf_VZmjSxTWQ3CbX689tj41lQnU6TXCg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..B4xfkXQ9Rpvq-mOpREgBoLQ8qBQWOKOFLJDhjqMequ-NlLzc7HdlPbodllAxctd66_qGjlo0X4qpmicEln_QCA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

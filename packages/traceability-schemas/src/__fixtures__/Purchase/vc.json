@@ -18,25 +18,25 @@
     ],
     "customer": {
       "type": "Organization",
-      "name": "Block Inc",
-      "description": "Team-oriented contextually-based complexity",
+      "name": "Wunsch - Hessel",
+      "description": "Business-focused modular superstructure",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "3568 Arely Villages",
-        "addressLocality": "North Ethylhaven",
-        "addressRegion": "Delaware",
-        "postalCode": "29930-4213",
-        "addressCountry": "Bouvet Island (Bouvetoya)"
+        "streetAddress": "847 Roger Wells",
+        "addressLocality": "Myrtleton",
+        "addressRegion": "Utah",
+        "postalCode": "67802-1006",
+        "addressCountry": "Montenegro"
       },
-      "email": "Nelda94@example.com",
-      "phoneNumber": "555-655-6208",
-      "faxNumber": "555-580-4278"
+      "email": "Raquel92@example.org",
+      "phoneNumber": "555-491-8980",
+      "faxNumber": "555-483-7035"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..O3VpuJvmiXF6TWpySzP4I88n49Ajg5ArDzDh8rcMWzPyS87wjqFGJ5izVRGMqa4nzR9s4skT4kYG9Tz-n6UZDw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..NqO3lfFg6Sc1Jmao8d5u74Uh0Q5yJpg1W0xA9X2_Rj-d0tb4wnGZ-qkZPFab-tmXYbIufwv8sUTi4GdqyQufDQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

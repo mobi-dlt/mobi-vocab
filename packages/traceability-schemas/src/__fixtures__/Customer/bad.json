@@ -1,34 +1,31 @@
 [
   {
-    "name": "Bart Kuphal",
-    "program": "navigate"
+    "type": "Customer",
+    "name": "Adonis Monahan",
+    "email": "Carole.Koelpin17@example.org",
+    "bandwidth": "generate"
   },
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "607 Jenkins Square",
-      "addressLocality": "Scotberg",
-      "addressRegion": "New York",
-      "postalCode": "84445-6197",
-      "addressCountry": "Bahamas"
-    },
-    "email": "Thalia_DuBuque@example.com",
-    "system": "quantify",
-    "driver": "override",
-    "card": "quantify",
-    "firewall": "index"
+    "name": "Bianka Watsica",
+    "firewall": "input",
+    "bus": "connect",
+    "transmitter": "program"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "Customer",
-    "array": "program",
-    "sensor": "input",
-    "interface": "index",
-    "driver": "quantify"
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "2037 Annette Islands",
+      "addressLocality": "Friedrichbury",
+      "addressRegion": "Mississippi",
+      "postalCode": "70637",
+      "addressCountry": "Uganda"
+    },
+    "telephone": "555-591-6834",
+    "email": "Garrick_Langworth43@example.com",
+    "transmitter": "calculate"
   }
 ]

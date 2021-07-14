@@ -1,38 +1,30 @@
 [
   {
+    "certificateName": "ACME Ecommerce Packing List Registration Certificate",
+    "transmitter": "connect",
+    "microchip": "override",
+    "sensor": "connect"
+  },
+  {
+    "driver": "bypass",
+    "feed": "quantify"
+  },
+  {
     "type": "EcommercePackingListRegistrationCredential",
     "packageItems": [
       {
         "type": "EcommercePackingListItem",
         "orderID": "https://vc.example.com/?queryID=AB06f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a",
         "productInOrder": [
+          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
           "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
-          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e"
-        ]
-      }
-    ],
-    "certificateName": "ACME Ecommerce Packing List Registration Certificate",
-    "array": "synthesize",
-    "bus": "calculate",
-    "program": "compress",
-    "feed": "compress"
-  },
-  {
-    "circuit": "generate"
-  },
-  {
-    "packageItems": [
-      {
-        "type": "EcommercePackingListItem",
-        "orderID": "https://vc.example.com/?queryID=AB06f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a",
-        "productInOrder": [
-          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
           "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
-          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
           "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
         ]
       }
     ],
-    "system": "connect"
+    "certificateName": "ACME Ecommerce Packing List Registration Certificate",
+    "microchip": "bypass",
+    "hard drive": "hack"
   }
 ]

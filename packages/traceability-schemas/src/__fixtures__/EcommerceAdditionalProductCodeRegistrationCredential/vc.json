@@ -15,14 +15,14 @@
     ],
     "type": "EcommerceAdditionalProductCodeRegistrationCredential",
     "productVCid": "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a",
-    "addProductCode": 24432886829599,
-    "addProductCodeType": "UPC",
-    "certificateName": "ACME Ecommerce Universal Product Code Product Registration Certificate"
+    "addProductCode": 53559043221175,
+    "addProductCodeType": "HTS",
+    "certificateName": "ACME Ecommerce HTS Code Product Registration Certificate"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..M-NqtvaljHKC3I_KX7B6r82CjUYHcWi3raw7HI1BC57gjgZs_qsSwIMLXC7mHEo-2A2cUm3q5S_8KCk0GkfjDg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..yFOF9uI0aQRb9ZKGqzu8_ZTntzQmFLujR6fhqKvhHuSgKntWc4EyQ-L-wUwOGeaBHwQXHOg287wI2evksS37DA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -1,7 +1,152 @@
 [
   {
-    "circuit": "reboot",
-    "feed": "synthesize"
+    "type": [
+      "VerifiableCredential",
+      "BillOfLadingCertificate"
+    ],
+    "name": "Bill Of Lading Certificate",
+    "relatedLink": [
+      {
+        "type": [
+          "LinkRole"
+        ],
+        "target": "did:example:789",
+        "linkRelationship": "commercialInvoiceLink"
+      },
+      {
+        "type": [
+          "LinkRole"
+        ],
+        "target": "https://www.example.com/template/123",
+        "linkRelationship": "millTestReportLink"
+      }
+    ],
+    "credentialSubject": {
+      "type": [
+        "BillOfLading"
+      ],
+      "billOfLadingNumber": "991205182",
+      "relatedDocuments": [
+        {
+          "@context": [
+            "https://mobinet.io/schemas/v1"
+          ],
+          "type": [
+            "Purchase"
+          ],
+          "customer": {
+            "type": [
+              "Person"
+            ],
+            "email": "Dannie_Cole90@example.net",
+            "phoneNumber": "555-867-5279"
+          }
+        }
+      ],
+      "freight": {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
+        ],
+        "type": [
+          "ParcelDelivery"
+        ],
+        "deliveryAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Haley Group",
+          "streetAddress": "44219 Hilpert Street",
+          "addressLocality": "Hirtheburgh",
+          "addressRegion": "Mississippi",
+          "postalCode": "46985-9026",
+          "addressCountry": "Vanuatu"
+        },
+        "originAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Bartell - Howe",
+          "streetAddress": "375 Kris Wall",
+          "addressLocality": "Juvenalmouth",
+          "addressRegion": "Florida",
+          "postalCode": "28843-3827",
+          "addressCountry": "Comoros"
+        },
+        "deliveryMethod": "Rail freight transport",
+        "trackingNumber": "177179158953"
+      }
+    },
+    "hard drive": "hack",
+    "protocol": "transmit",
+    "feed": "compress",
+    "sensor": "program"
+  },
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://mobinet.io/schemas/v1"
+    ],
+    "name": "Bill Of Lading Certificate",
+    "issuanceDate": "2019-12-11T03:50:55Z",
+    "credentialSubject": {
+      "type": [
+        "BillOfLading"
+      ],
+      "billOfLadingNumber": "991205182",
+      "relatedDocuments": [
+        {
+          "@context": [
+            "https://mobinet.io/schemas/v1"
+          ],
+          "type": [
+            "Purchase"
+          ],
+          "customer": {
+            "type": [
+              "Organization"
+            ],
+            "email": "Susie58@example.org",
+            "phoneNumber": "555-290-3091"
+          }
+        }
+      ],
+      "freight": {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
+        ],
+        "type": [
+          "ParcelDelivery"
+        ],
+        "deliveryAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Schimmel, Altenwerth and Zboncak",
+          "streetAddress": "269 Grimes Stream",
+          "addressLocality": "North Alvamouth",
+          "addressRegion": "Louisiana",
+          "postalCode": "67010-7978",
+          "addressCountry": "Norfolk Island"
+        },
+        "originAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Torp, Stamm and Prohaska",
+          "streetAddress": "1034 Goyette Roads",
+          "addressLocality": "New Gwen",
+          "addressRegion": "Alaska",
+          "postalCode": "33516",
+          "addressCountry": "Slovakia (Slovak Republic)"
+        },
+        "deliveryMethod": "Truck transport",
+        "trackingNumber": "577044889788"
+      }
+    },
+    "driver": "quantify",
+    "program": "navigate",
+    "interface": "calculate",
+    "application": "hack"
   },
   {
     "@context": [
@@ -9,10 +154,8 @@
       "https://mobinet.io/schemas/v1"
     ],
     "id": "https://example.com/credential/123",
-    "type": [
-      "VerifiableCredential",
-      "BillOfLadingCertificate"
-    ],
+    "name": "Bill Of Lading Certificate",
+    "description": "This document includes recommended bill of lading fields.",
     "relatedLink": [
       {
         "type": [
@@ -33,32 +176,75 @@
     "issuer": {
       "id": "did:example:123",
       "type": "Organization",
-      "name": "Bosco - Cartwright",
-      "description": "Persistent full-range knowledge user",
+      "name": "Von Group",
+      "description": "Re-contextualized didactic Graphic Interface",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "28799 Abbie Stravenue",
-        "addressLocality": "Nienowtown",
-        "addressRegion": "Arizona",
-        "postalCode": "28006-8621",
-        "addressCountry": "Norway"
+        "streetAddress": "8445 Kayden Stravenue",
+        "addressLocality": "New Maritzaport",
+        "addressRegion": "Illinois",
+        "postalCode": "72838",
+        "addressCountry": "Finland"
       },
-      "email": "Stephan.Bernier@example.net",
-      "phoneNumber": "555-445-8203",
-      "faxNumber": "555-510-6963"
+      "email": "Carmella.Graham82@example.com",
+      "phoneNumber": "555-597-6069",
+      "faxNumber": "555-568-2079"
     },
-    "matrix": "transmit",
-    "hard drive": "parse",
-    "bandwidth": "copy"
-  },
-  {
-    "@context": [
-      "https://www.w3.org/2018/credentials/v1",
-      "https://mobinet.io/schemas/v1"
-    ],
-    "id": "https://example.com/credential/123",
-    "bandwidth": "bypass",
-    "interface": "connect",
-    "monitor": "bypass"
+    "credentialSubject": {
+      "type": [
+        "BillOfLading"
+      ],
+      "billOfLadingNumber": "991205182",
+      "relatedDocuments": [
+        {
+          "@context": [
+            "https://mobinet.io/schemas/v1"
+          ],
+          "type": [
+            "Purchase"
+          ],
+          "customer": {
+            "type": [
+              "Organization"
+            ],
+            "email": "Jan_Dooley@example.net",
+            "phoneNumber": "555-686-2131"
+          }
+        }
+      ],
+      "freight": {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
+        ],
+        "type": [
+          "ParcelDelivery"
+        ],
+        "deliveryAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Pfannerstill Inc",
+          "streetAddress": "5396 Mariam Streets",
+          "addressLocality": "North Caterinaberg",
+          "addressRegion": "Oklahoma",
+          "postalCode": "61927-1967",
+          "addressCountry": "United States of America"
+        },
+        "originAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Braun and Sons",
+          "streetAddress": "669 Hessel Canyon",
+          "addressLocality": "Port Gerhard",
+          "addressRegion": "Montana",
+          "postalCode": "44412-6373",
+          "addressCountry": "Afghanistan"
+        },
+        "deliveryMethod": "Air transport",
+        "trackingNumber": "52364496523"
+      }
+    },
+    "array": "synthesize"
   }
 ]

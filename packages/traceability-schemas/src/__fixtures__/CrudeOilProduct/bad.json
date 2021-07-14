@@ -1,173 +1,51 @@
 [
   {
-    "observation": [
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "MechanicalProperty"
-          ],
-          "identifier": "ISO 180",
-          "name": "Izod Impact Strength Test",
-          "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "83.159",
-          "unitCode": "B13"
-        }
-      },
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "MechanicalProperty"
-          ],
-          "identifier": "ISO 148",
-          "name": "Charpy Impact Strength Test",
-          "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "72.98",
-          "unitCode": "B13"
-        }
-      },
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "ChemicalProperty"
-          ],
-          "name": "Curium"
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "100.00",
-          "unitCode": "P1"
-        }
-      },
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "MechanicalProperty"
-          ],
-          "identifier": "ISO 148",
-          "name": "Charpy Impact Strength Test",
-          "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "73.851",
-          "unitCode": "B13"
-        }
-      }
-    ],
-    "program": "navigate",
-    "alarm": "parse"
-  },
-  {
-    "array": "synthesize",
-    "feed": "copy"
+    "HSCode": "270900",
+    "sensor": "back up"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
+    "type": [
+      "CrudeOilProduct"
+    ],
+    "HSCode": "270900",
     "UWI": "100.12-04-091-05-W5.00",
     "facility": {
       "type": [
         "Place"
       ],
-      "globalLocationNumber": "6432734635823",
+      "globalLocationNumber": "4822943759465",
       "geo": {
         "type": [
           "GeoCoordinates"
         ],
-        "latitude": "-76.1437",
-        "longitude": "-118.0402"
+        "latitude": "-51.2380",
+        "longitude": "38.4234"
       },
       "address": {
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Walsh Group",
-        "streetAddress": "24065 Audreanne Lodge",
-        "addressLocality": "Kayburgh",
-        "addressRegion": "North Carolina",
-        "postalCode": "79325",
-        "addressCountry": "Pakistan"
+        "organizationName": "Pacocha - Mertz",
+        "streetAddress": "39388 Senger Station",
+        "addressLocality": "Port Ebba",
+        "addressRegion": "Nevada",
+        "postalCode": "23657-2795",
+        "addressCountry": "France"
       }
     },
-    "observation": [
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "MechanicalProperty"
-          ],
-          "identifier": "ISO 3738",
-          "name": "Rockwell Hardness Test (Scale A)",
-          "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "00.00",
-          "unitCode": "UNKNOWN"
-        }
-      },
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "MechanicalProperty"
-          ],
-          "identifier": "ISO 3738",
-          "name": "Rockwell Hardness Test (Scale A)",
-          "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "00.00",
-          "unitCode": "UNKNOWN"
-        }
-      }
-    ],
     "product": {
       "type": [
         "Product"
       ],
       "manufacturer": {
         "type": [
-          "Person"
+          "Organization"
         ],
-        "email": "Grady60@example.com",
-        "phoneNumber": "555-623-4804"
+        "email": "Adrian35@example.net",
+        "phoneNumber": "555-730-7426"
       },
       "name": "Crude Oil Barrel",
       "description": "Heavy Sour Dilbit",
@@ -176,19 +54,82 @@
           "QuantitativeValue"
         ],
         "unitCode": "hg/ha",
-        "value": "2692"
+        "value": "167"
       },
       "weight": {
         "type": [
           "QuantitativeValue"
         ],
         "unitCode": "hg/ha",
-        "value": "2882"
+        "value": "780"
       },
-      "sku": "143950475476"
+      "sku": "458945930546"
     },
-    "driver": "program",
-    "microchip": "parse",
-    "bandwidth": "bypass"
+    "array": "compress",
+    "bus": "navigate",
+    "circuit": "reboot"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": [
+      "CrudeOilProduct"
+    ],
+    "productionDate": "2020-03-30",
+    "facility": {
+      "type": [
+        "Place"
+      ],
+      "globalLocationNumber": "6896563467893",
+      "geo": {
+        "type": [
+          "GeoCoordinates"
+        ],
+        "latitude": "-43.1574",
+        "longitude": "152.6497"
+      },
+      "address": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Brown Inc",
+        "streetAddress": "0719 Shannon Prairie",
+        "addressLocality": "Rashadfort",
+        "addressRegion": "Ohio",
+        "postalCode": "18203",
+        "addressCountry": "Tuvalu"
+      }
+    },
+    "product": {
+      "type": [
+        "Product"
+      ],
+      "manufacturer": {
+        "type": [
+          "Organization"
+        ],
+        "email": "Gwendolyn.Bednar@example.com",
+        "phoneNumber": "555-477-8422"
+      },
+      "name": "Crude Oil Barrel",
+      "description": "Heavy Sour Dilbit",
+      "sizeOrAmount": {
+        "type": [
+          "QuantitativeValue"
+        ],
+        "unitCode": "hg/ha",
+        "value": "9272"
+      },
+      "weight": {
+        "type": [
+          "QuantitativeValue"
+        ],
+        "unitCode": "hg/ha",
+        "value": "1062"
+      },
+      "sku": "11502354656"
+    },
+    "transmitter": "program"
   }
 ]

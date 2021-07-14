@@ -15,47 +15,39 @@
     ],
     "type": "Product",
     "manufacturer": {
-      "type": "Person",
-      "firstName": "Ricky",
-      "lastName": "Purdy",
-      "email": "Hayley.Johns39@example.net",
-      "phoneNumber": "555-535-5987",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Turcotte, Schaden and Boyle",
-        "description": "Focused background intranet",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "603 Dickinson Mall",
-          "addressLocality": "New Raheem",
-          "addressRegion": "Wisconsin",
-          "postalCode": "49865",
-          "addressCountry": "Timor-Leste"
-        },
-        "email": "Dan_Williamson@example.org",
-        "phoneNumber": "555-546-4836",
-        "faxNumber": "555-937-3990"
+      "type": "Organization",
+      "name": "Sipes Inc",
+      "description": "Secured well-modulated frame",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "72269 Smith Junction",
+        "addressLocality": "Port Amparo",
+        "addressRegion": "South Dakota",
+        "postalCode": "38763-9110",
+        "addressCountry": "Belize"
       },
-      "jobTitle": "Internal Creative Officer"
+      "email": "Cydney.Schaden30@example.org",
+      "phoneNumber": "555-447-8545",
+      "faxNumber": "555-913-8699"
     },
-    "name": "Sleek Cotton Table",
-    "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+    "name": "Rustic Plastic Towels",
+    "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "6223"
+      "value": "3990"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "259"
+      "value": "6999"
     },
-    "sku": "648119365402"
+    "sku": "274061473350"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..5BQABtsQbAIdww6bx7ChxA2brtYtQoax6KUgvb0hLQYhk7gmmO0dRvzst6EecjyXLy6JXgnrx7R4xD-xq5JSDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..PA58aTjNf7N4OqGGyQICkXz5fm90S1neJO9P-rIIAeGrTTKckXv5pVOCp44py-v5ZAFrewklL8oiDaYxQ3H9Aw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

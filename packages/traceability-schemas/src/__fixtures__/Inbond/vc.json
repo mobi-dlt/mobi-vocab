@@ -26,24 +26,24 @@
       "type": [
         "Place"
       ],
-      "globalLocationNumber": "7774544318657",
+      "globalLocationNumber": "7633571756903",
       "geo": {
         "type": [
           "GeoCoordinates"
         ],
-        "latitude": "-4.7208",
-        "longitude": "147.0115"
+        "latitude": "-77.3818",
+        "longitude": "-32.0642"
       },
       "address": {
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Botsford - Adams",
-        "streetAddress": "8836 Pagac Mountains",
-        "addressLocality": "New Garret",
-        "addressRegion": "West Virginia",
-        "postalCode": "53399-9682",
-        "addressCountry": "Ireland"
+        "organizationName": "Murphy, Kutch and Price",
+        "streetAddress": "7606 Koch Throughway",
+        "addressLocality": "Gislasonburgh",
+        "addressRegion": "Illinois",
+        "postalCode": "48833-8730",
+        "addressCountry": "Bhutan"
       }
     },
     "carrier": {
@@ -53,8 +53,8 @@
       "type": [
         "Organization"
       ],
-      "email": "Mireya.Nienow65@example.net",
-      "phoneNumber": "555-609-8900"
+      "email": "Clint_Murazik73@example.net",
+      "phoneNumber": "555-514-5987"
     },
     "recipient": {
       "@context": [
@@ -63,8 +63,8 @@
       "type": [
         "Organization"
       ],
-      "email": "Shanon79@example.net",
-      "phoneNumber": "555-104-1422"
+      "email": "Morris58@example.com",
+      "phoneNumber": "555-966-3524"
     },
     "portOfArrival": {
       "@context": [
@@ -73,24 +73,24 @@
       "type": [
         "Place"
       ],
-      "globalLocationNumber": "7941187219225",
+      "globalLocationNumber": "2017476537761",
       "geo": {
         "type": [
           "GeoCoordinates"
         ],
-        "latitude": "-83.0137",
-        "longitude": "62.0218"
+        "latitude": "46.3365",
+        "longitude": "1.7758"
       },
       "address": {
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Lang LLC",
-        "streetAddress": "938 Jaquan Heights",
-        "addressLocality": "Port Hillard",
-        "addressRegion": "Arizona",
-        "postalCode": "81308",
-        "addressCountry": "United States Minor Outlying Islands"
+        "organizationName": "Dare, Schroeder and Schulist",
+        "streetAddress": "521 Jamel Flat",
+        "addressLocality": "Gleasonside",
+        "addressRegion": "Oregon",
+        "postalCode": "61850",
+        "addressCountry": "Botswana"
       }
     },
     "portOfDestination": {
@@ -100,24 +100,24 @@
       "type": [
         "Place"
       ],
-      "globalLocationNumber": "2138178722177",
+      "globalLocationNumber": "5284510965690",
       "geo": {
         "type": [
           "GeoCoordinates"
         ],
-        "latitude": "61.6598",
-        "longitude": "145.0186"
+        "latitude": "88.5036",
+        "longitude": "54.9367"
       },
       "address": {
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Stark - Olson",
-        "streetAddress": "4110 Angela Pines",
-        "addressLocality": "Harmonhaven",
-        "addressRegion": "Nevada",
-        "postalCode": "41738",
-        "addressCountry": "Guatemala"
+        "organizationName": "Klocko, Ebert and Jacobi",
+        "streetAddress": "3294 Emely Crest",
+        "addressLocality": "Kuhicberg",
+        "addressRegion": "Mississippi",
+        "postalCode": "45131-5269",
+        "addressCountry": "Mauritania"
       }
     },
     "shipment": {
@@ -131,12 +131,12 @@
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Herzog Group",
-        "streetAddress": "45645 Ward Turnpike",
-        "addressLocality": "Hoppemouth",
-        "addressRegion": "Missouri",
-        "postalCode": "81810",
-        "addressCountry": "Sierra Leone"
+        "organizationName": "Smith Group",
+        "streetAddress": "62289 Douglas Branch",
+        "addressLocality": "Williamsonshire",
+        "addressRegion": "New Mexico",
+        "postalCode": "23040",
+        "addressCountry": "Norway"
       },
       "deliveryAddress": {
         "@context": [
@@ -145,19 +145,19 @@
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Lehner and Sons",
-        "streetAddress": "2618 Lue Bypass",
-        "addressLocality": "Gislasonmouth",
-        "addressRegion": "Arizona",
-        "postalCode": "22888",
-        "addressCountry": "Heard Island and McDonald Islands"
+        "organizationName": "Legros Group",
+        "streetAddress": "477 Ben Ferry",
+        "addressLocality": "New Claude",
+        "addressRegion": "Delaware",
+        "postalCode": "79383-0067",
+        "addressCountry": "Mexico"
       },
       "deliveryMethod": "pipeline"
     },
     "billOfLadingNumber": "123456789",
     "expectedDeliveryDate": "2020-10-20",
-    "valuePerItem": "8219",
-    "totalOrderValue": "31664",
+    "valuePerItem": "9235",
+    "totalOrderValue": "94058",
     "product": {
       "type": [
         "Product"
@@ -166,8 +166,8 @@
         "type": [
           "Organization"
         ],
-        "email": "Oceane7@example.org",
-        "phoneNumber": "555-356-4912"
+        "email": "Arvilla48@example.org",
+        "phoneNumber": "555-367-6832"
       },
       "name": "Crude Oil Barrel",
       "description": "Heavy Sour Dilbit",
@@ -176,22 +176,22 @@
           "QuantitativeValue"
         ],
         "unitCode": "hg/ha",
-        "value": "5361"
+        "value": "7563"
       },
       "weight": {
         "type": [
           "QuantitativeValue"
         ],
         "unitCode": "hg/ha",
-        "value": "8546"
+        "value": "4529"
       },
-      "sku": "206879807075"
+      "sku": "592487073671"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..C4F1cYTzrCts1t01zR2tGr4r1iyelxLgmJZKZ0qSS44Y5KiUgL2OQMGW899EXaLu1mvPlqHIFVfUQ6a8M4pvDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..LZMcyWM6Expmq-g4K0AH84Y_MIZHYgjEVYxMsXmtS-VFNKP4b8ctVXK7TIQHc9vvXy-gN_hgxGoWyLCI4ASzBQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

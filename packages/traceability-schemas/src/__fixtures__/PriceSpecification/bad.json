@@ -1,22 +1,26 @@
 [
   {
-    "circuit": "generate",
-    "bus": "index",
-    "card": "hack"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "card": "transmit",
+    "sensor": "bypass",
+    "firewall": "compress"
   },
   {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "type": "PriceSpecification",
-    "price": 4173,
-    "priceCurrency": "SAR",
-    "bandwidth": "synthesize",
-    "interface": "bypass",
-    "card": "synthesize",
-    "capacitor": "quantify"
+    "firewall": "calculate",
+    "program": "index",
+    "array": "back up"
   },
   {
-    "port": "compress",
-    "capacitor": "connect",
-    "firewall": "synthesize",
-    "transmitter": "bypass"
+    "priceCurrency": "TOP",
+    "circuit": "copy",
+    "array": "connect",
+    "card": "transmit",
+    "bus": "input"
   }
 ]

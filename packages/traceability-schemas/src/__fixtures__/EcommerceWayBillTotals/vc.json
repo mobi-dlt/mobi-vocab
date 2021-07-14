@@ -14,21 +14,21 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceWayBillTotals",
-    "totalPieces": 172,
-    "weight": 508478,
-    "chargeableWeight": 457630.2,
-    "weightUnit": "kg",
-    "rateCharge": 0.0013329539877394456,
+    "totalPieces": 459,
+    "weight": 185443,
+    "chargeableWeight": 166898.7,
+    "weightUnit": "lb",
+    "rateCharge": 0.04166599260509518,
     "totalRateCharge": {
       "type": "PriceSpecification",
-      "price": 610,
-      "priceCurrency": "KWD"
+      "price": 6954,
+      "priceCurrency": "ERN"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..lAAsiZymxKQuplAoeLxZDA0NrmrImqEasI-vOfl4aXt3h3RG13dXjkC1ssxrlcSPx0VPQpC4GFlG5tPcXxeABQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..3SRHqFB_uL_rnr18JvAXRVC71GVofV7rdVAMi2FPcFwLzmzg5FGxWN0qQmGcd6Vr8mLnJT0900suShrGCKt_AA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -14,22 +14,22 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "ContactPoint",
-    "name": "Dicki, Terry and VonRueden",
+    "name": "Willms Group",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "70909 Dorthy Loaf",
-      "addressLocality": "New Paris",
-      "addressRegion": "Wyoming",
-      "postalCode": "35534",
-      "addressCountry": "Norfolk Island"
+      "streetAddress": "07769 Boyle Streets",
+      "addressLocality": "South Meaganport",
+      "addressRegion": "South Dakota",
+      "postalCode": "55950-4537",
+      "addressCountry": "Lao People's Democratic Republic"
     },
-    "email": "Bart_Barrows@example.net",
-    "phoneNumber": "555-862-3163"
+    "email": "Katrine.Wilderman@example.net",
+    "phoneNumber": "555-876-2066"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..E8MEJbVkVZh14NT_6OpaWwJDhTVQJhY_cksemIVOxfe9n_-4MrteM6iKlWxP7---OMooPHk8CDghUBpfpo_zDg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..BTV5vTQecoNT92EtK6e65_InfDrGxAFhrqrzWT69UX55uKcXhZj0lyI8vzDRM3hM_fe9OCjqs8Ce2PzEi3ZaDg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

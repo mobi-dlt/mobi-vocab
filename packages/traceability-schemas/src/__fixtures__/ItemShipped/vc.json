@@ -14,20 +14,20 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "ItemShipped",
-    "manufacturer": "Steuber LLC",
-    "name": "Ergonomic Frozen Fish",
-    "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "productID": "U088E2M3HF",
-    "weight": "2.838 lp",
-    "height": "3.069 in",
-    "width": "4.262 in",
-    "depth": "5.644 in",
-    "orderQuantity": 6
+    "manufacturer": "Bednar Group",
+    "name": "Ergonomic Metal Chicken",
+    "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+    "productID": "GUME7IOERA",
+    "weight": "2.893 lp",
+    "height": "8.23 in",
+    "width": "6.56 in",
+    "depth": "3.448 in",
+    "orderQuantity": 5
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..7i9-b1_4WYltxWZQIGc-ZvxTt70vHA62KNt2f3faXbhl_AMmcfJ3BaBARwrDM6vNX7mIoV380sCtvhoz9vnRBA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..EWunLUTVVZhY1F0Oatygo2VTnGLrjoZlK6T71dVl4loD3C1gcRiVpRCEfhCuUdwpdVAMkYlTZgE7VjtlbKisDg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

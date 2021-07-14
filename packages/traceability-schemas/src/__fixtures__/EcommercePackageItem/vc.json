@@ -14,17 +14,18 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommercePackageItem",
-    "productReceiptID": "https://vc.example.com/?queryID=0x47Ae1DaA9A7a8fbc34c4B6AE3c3A577882e31C0c87fB45eF57D7D662529e5DeB",
-    "packingListID": "https://vc.example.com/?queryID=0xC3ecC2803eAb71e05F10F93bF2F3B7eAcbDe6FaAd9999d7ecbCe40E9f6C2c2Bd",
+    "productReceiptID": "https://vc.example.com/?queryID=0xdE972a00d1B5C0adB9ecf3a6deBF81BDdc3c0b71c1Cd27BEC833CfF6fbBfFDdB",
+    "packingListID": "https://vc.example.com/?queryID=0x6eCedEc650A514Ee7d2d900Af7DeCc2722B2ECaEae72D8eA6B62D00f77c5302b",
     "orderID": "https://vc.example.com/?queryID=AB06f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a",
     "productInOrder": [
-      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e"
+      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
+      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
     ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..W4pYDS9Oz_WtADT7tiBTWwgI8er0JYY9gk4TEROWOavob475ud9T0xJnjkF8eurkWgFbslJY252gjvdbQmNYBw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..as-KV6Fou7vuCG86-9hozRPdXp0n0XCjC0-QLbiEQFYMssgB9GxVs2K-8DHL3zu8sbmPn-aRIMCbIU7JUWusDg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

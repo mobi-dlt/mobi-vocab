@@ -4,35 +4,42 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIregistration",
-    "initialRegistrationDate": "2020-01-01",
     "lastUpdateDate": "2020-01-01",
+    "status": "REJECTED",
     "nextRenewalDate": "2021-02-02",
-    "managingLou": "NXTWNRBFSQUNHSRVLTXW",
     "validationSources": "NOT_CORROBORATED",
-    "validationAuthority": [
-      {
-        "type": "LEIauthority",
-        "validationAuthorityID": "RA000002",
-        "otherValidationAuthorityID": "F0NS900A",
-        "validationAuthorityEntityID": "I0LDY2LWGEKGXCTMBS8N"
-      }
-    ],
-    "feed": "compress"
-  },
-  {
-    "lastUpdateDate": "2020-01-01",
-    "validationSources": "FULLY_CORROBORATED",
-    "bandwidth": "synthesize"
+    "bus": "override",
+    "application": "transmit"
   },
   {
     "type": "LEIregistration",
     "status": "REJECTED",
-    "nextRenewalDate": "2021-02-02",
-    "managingLou": "UBUADGKNEXGWGMOAKNYS",
+    "managingLou": "LRAYOURUPNTEOLBODRPP",
     "validationSources": "FULLY_CORROBORATED",
-    "application": "navigate",
-    "array": "hack",
-    "transmitter": "program",
-    "card": "copy"
+    "validationAuthority": [
+      {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000004",
+        "otherValidationAuthorityID": "XZ8KKA9E",
+        "validationAuthorityEntityID": "T60RKRCVB0NKU7LCUS96"
+      }
+    ],
+    "feed": "calculate",
+    "alarm": "synthesize"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "lastUpdateDate": "2020-01-01",
+    "validationAuthority": [
+      {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000004",
+        "otherValidationAuthorityID": "DB9RRNRM",
+        "validationAuthorityEntityID": "GJM0DPPDUXOTILG9N7OC"
+      }
+    ],
+    "sensor": "hack"
   }
 ]

@@ -14,13 +14,13 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "GeoCoordinates",
-    "latitude": "-9.2068",
-    "longitude": "2.7033"
+    "latitude": "-45.5463",
+    "longitude": "20.1283"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..sorexGcMr4QSsL1Az55vH5lz9e1JavjkvTSqorTeEmUnw4tRi9cog4l8xKJBxm5yHm7DceKRK3OptLgHV9oSAw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Ai-SltUiURqBdn3gTnu0xybK7Q5MJpJ_RGIzgR4ViUDfJAfvJyFBZqIyPxXH1xiH-GBWsOjR0OeS_vXoZ-KNBw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -4,16 +4,7 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceProductRegistrationCredential",
-    "productCode": 0,
-    "productCodeType": "GTIN",
-    "certificateName": "ACME Ecommerce Product Registration Certificate"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "EcommerceProductRegistrationCredential",
-    "productCode": 10,
+    "productCode": 13,
     "productCodeType": "UPC",
     "certificateName": "ACME Ecommerce Product Registration Certificate"
   },
@@ -22,8 +13,17 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceProductRegistrationCredential",
-    "productCode": 10,
-    "productCodeType": "GTIN",
+    "productCode": 7,
+    "productCodeType": "UPC",
+    "certificateName": "ACME Ecommerce Product Registration Certificate"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "EcommerceProductRegistrationCredential",
+    "productCode": 2,
+    "productCodeType": "UPC",
     "certificateName": "ACME Ecommerce Product Registration Certificate"
   }
 ]

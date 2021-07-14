@@ -14,32 +14,32 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "Person",
-    "firstName": "Gaston",
-    "lastName": "Runte",
-    "email": "Carlo_Nader59@example.org",
-    "phoneNumber": "555-807-6874",
+    "firstName": "Edna",
+    "lastName": "Senger",
+    "email": "Haley_Hoeger47@example.org",
+    "phoneNumber": "555-870-2146",
     "worksFor": {
       "type": "Organization",
-      "name": "Pollich and Sons",
-      "description": "Configurable real-time secured line",
+      "name": "Dicki and Sons",
+      "description": "Enhanced transitional definition",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "7328 Ritchie Knoll",
-        "addressLocality": "Vivienland",
-        "addressRegion": "Minnesota",
-        "postalCode": "89948-4290",
-        "addressCountry": "Macedonia"
+        "streetAddress": "310 Bosco Ville",
+        "addressLocality": "Feeneyport",
+        "addressRegion": "Arizona",
+        "postalCode": "75854-3935",
+        "addressCountry": "Egypt"
       },
-      "email": "Howell62@example.com",
-      "phoneNumber": "555-542-5388",
-      "faxNumber": "555-578-6204"
+      "email": "Ismael_Wolf@example.net",
+      "phoneNumber": "555-667-4090",
+      "faxNumber": "555-860-5138"
     },
-    "jobTitle": "Human Brand Representative"
+    "jobTitle": "Lead Infrastructure Technician"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..S6XEmYKK9x2tEMcUjqCBTVEHAH0xPZTH7QSLSh6gd8MCIxlbTcXrlS71SXxiGmv6QR1ci1h7xuUqLHswMWaiBg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..RNH7stiwiGChP1ms5mgqiYvCLLhRoResVYEMm_Bk2FWSxIRdwHDIFKAw7pwDaphPDCbt3_rZ2saTPphfo-6pDQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

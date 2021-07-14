@@ -1,19 +1,17 @@
 [
   {
-    "latitude": "-9.2068",
-    "system": "reboot"
+    "firewall": "copy"
   },
   {
-    "latitude": "-20.5022",
-    "card": "generate"
+    "driver": "navigate",
+    "sensor": "compress"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "GeoCoordinates",
-    "alarm": "navigate",
-    "protocol": "compress",
-    "circuit": "program"
+    "longitude": "152.8180",
+    "driver": "calculate"
   }
 ]

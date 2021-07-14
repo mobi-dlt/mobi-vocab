@@ -3,10 +3,11 @@
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "value": "6398",
-    "port": "synthesize",
-    "protocol": "reboot",
-    "driver": "parse"
+    "type": "QuantitativeValue",
+    "array": "transmit",
+    "microchip": "navigate",
+    "bandwidth": "compress",
+    "card": "generate"
   },
   {
     "@context": [
@@ -14,17 +15,13 @@
     ],
     "type": "QuantitativeValue",
     "unitCode": "hg/ha",
-    "matrix": "compress"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "QuantitativeValue",
-    "unitCode": "hg/ha",
-    "card": "override",
     "panel": "back up",
-    "hard drive": "hack",
-    "bus": "navigate"
+    "protocol": "hack",
+    "feed": "program"
+  },
+  {
+    "firewall": "navigate",
+    "circuit": "back up",
+    "matrix": "hack"
   }
 ]

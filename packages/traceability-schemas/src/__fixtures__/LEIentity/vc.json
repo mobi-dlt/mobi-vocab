@@ -14,74 +14,74 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "LEIentity",
-    "legalName": "Jacobs, Rutherford and Gutkowski",
-    "legalNameLanguage": "ru",
+    "legalName": "Treutel and Sons",
+    "legalNameLanguage": "nl_BE",
     "otherNames": [
-      "King, Spinka and Nienow",
-      "Ernser - Lebsack"
+      "Ward, Swaniawski and Schneider",
+      "Cruickshank Inc"
     ],
     "transliteratedOtherNames": [
-      "King, Spinka and Nienow",
-      "Ernser - Lebsack"
+      "Ward, Swaniawski and Schneider",
+      "Cruickshank Inc"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "pt_PT",
+      "language": "en_AU",
       "addressLines": [
-        "Goldner - Klocko",
-        "83854 Rodriguez Locks"
+        "McCullough - Hessel",
+        "5023 Philip Locks"
       ],
-      "addressNumber": "104",
-      "addressNumberWithinBuilding": "5",
-      "mailRouting": "2802 Reilly Springs, 03663-2718",
-      "city": "Starkton",
-      "region": "Cambridgeshire",
-      "country": "Qatar",
-      "postalCode": "22883-5909"
+      "addressNumber": "381",
+      "addressNumberWithinBuilding": "6",
+      "mailRouting": "51045 Sylvia Forges, 16010-7366",
+      "city": "Lake Hannahview",
+      "region": "Avon",
+      "country": "Virgin Islands, U.S.",
+      "postalCode": "66326"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "fr_CA",
+      "language": "it",
       "addressLines": [
-        "Weissnat Inc",
-        "187 Kozey Garden"
+        "Veum and Sons",
+        "702 Jerde Plaza"
       ],
-      "addressNumber": "52",
-      "addressNumberWithinBuilding": "5",
-      "mailRouting": "714 Dare Creek, 99668-7333",
-      "city": "East Ludieport",
+      "addressNumber": "461",
+      "addressNumberWithinBuilding": "9",
+      "mailRouting": "812 Breana Estate, 37204-1479",
+      "city": "North Reaganborough",
       "region": "Buckinghamshire",
-      "country": "Timor-Leste",
-      "postalCode": "58612"
+      "country": "Seychelles",
+      "postalCode": "56634"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000004",
-      "otherValidationAuthorityID": "FYE6XY50",
-      "validationAuthorityEntityID": "0H8CTG7K8F4EPQ2OBTA8"
+      "validationAuthorityID": "RA000005",
+      "otherValidationAuthorityID": "MTP2CT3H",
+      "validationAuthorityEntityID": "24LVINQ5I1F5EL06C8Z0"
     },
     "legalJurisdiction": "Berkshire",
     "entityCategory": "Jewelery",
-    "legalForm": "LLC",
+    "legalForm": "CORPORATION",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "PAOC3ZX3KED2RT93OO12",
-      "name": "Lesch - Hills"
+      "leiCode": "V5T6ZRX0WKQDDI3KOBZA",
+      "name": "McKenzie, Schinner and Stamm"
     },
-    "status": "IN PROGRESS",
+    "status": "REQUESTED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "target collaborative e-services",
+    "expirationReason": "deploy customized synergies",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "D5R7Q3WOGNJYEQU18V8V",
-      "name": "Kihn - Fay"
+      "leiCode": "O2WIGYFOS236IRUUTMYN",
+      "name": "Barrows, Durgan and Shields"
     },
     "otherAddresses": []
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..RKEjd_ZCwSY21pHClFfq1g2TUJjbXqJGyEQQOqFXr2XIxaD6Q4g8FMQTmdtvjHhrii-Dlj8j0CW3-xv3E1-WDA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..F4kEHijcmmqnhITSzoIXi1gw2_-UJPDljK5i7q1S1di7endAEeSWot9jxoVpjZAmSW4GuMhdqbHHHWphI7rWCQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

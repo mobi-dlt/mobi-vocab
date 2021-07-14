@@ -1,63 +1,18 @@
 [
   {
-    "type": "EcommerceBindingDataRegistrationCredential",
-    "finalDateOfArrival": "2022-05-11",
-    "finalModeOfTransport": "Sea",
-    "application": "bypass"
+    "finalVesselID": "ACMEVessel#890",
+    "wayBillVCID": [
+      "https://vc.example.com/?queryID=0xB79D4Db7AD9FeC2CA5Bcf1F2CFD7EABBeC0Fa5c06962F0D7CB8c061e65000AEd"
+    ],
+    "hard drive": "reboot"
   },
   {
-    "type": "EcommerceBindingDataRegistrationCredential",
-    "finalDateOfArrival": "2022-05-11",
-    "wayBillVCID": [
-      "https://vc.example.com/?queryID=0xaAF4B1BfA83940a5509DD5Ccd0CeB79D4Db7AD9FeC2CA5Bcf1F2CFD7EABBeC0F"
-    ],
-    "certificateName": "ACME Carrier Ecommerce Binding Data Registration Certificate",
-    "panel": "parse",
-    "driver": "reboot"
+    "sensor": "connect"
   },
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "finalCarrierName": "McClure - Bernhard",
-    "finalVesselID": "ACMEVessel#361",
-    "finalDateOfArrival": "2022-05-11",
-    "finalModeOfTransport": "Truck",
-    "finalPortOfEntry": {
-      "type": "ShippingStop",
-      "shippingStopAddress": {
-        "type": "PostalAddress",
-        "organizationName": "Fay - Marks",
-        "streetAddress": "8939 Mosciski Islands",
-        "addressLocality": "Loraineberg",
-        "addressRegion": "Mississippi",
-        "postalCode": "49468-8479",
-        "addressCountry": "Montenegro"
-      },
-      "carrier": {
-        "type": "Organization",
-        "name": "Daugherty - Doyle",
-        "description": "Reactive 5th generation hub",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "8636 Brown Trace",
-          "addressLocality": "Walshville",
-          "addressRegion": "New York",
-          "postalCode": "06669-6025",
-          "addressCountry": "Cape Verde"
-        },
-        "email": "Marc_Kling16@example.com",
-        "phoneNumber": "555-773-6723",
-        "faxNumber": "555-829-6393"
-      },
-      "stopType": "Departure"
-    },
-    "wayBillVCID": [
-      "https://vc.example.com/?queryID=0xB0d3f9CaBfFEbeaE8D3ccC6eE1cAd27d1f01951EddD5Dfed4bCFDf48AB6DB2F4"
-    ],
-    "certificateName": "ACME Carrier Ecommerce Binding Data Registration Certificate",
-    "feed": "calculate",
-    "pixel": "connect",
-    "capacitor": "program"
+    "capacitor": "navigate",
+    "circuit": "bypass",
+    "array": "quantify",
+    "monitor": "program"
   }
 ]

@@ -14,13 +14,13 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "Qualification",
-    "qualificationCategory": "Legacy Division Planner",
-    "qualificationValue": "Specialist"
+    "qualificationCategory": "Legacy Creative Developer",
+    "qualificationValue": "Manager"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..v3-NH1ajdrtYDs-zWF3xrhEqgtzvFxT2FDAOLNpTr5S4KffKb67xa4wo-WInQE2w-pCwXP6wX5rvNr_KGEm-AQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ujjFVrHCi6gjgYhwO4TNlpJLcvqOByksRUL-L4seOKMHs497Wu_jfcC4_usAaY-iPgWy3guZ1KbpDUvmu-JYDA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

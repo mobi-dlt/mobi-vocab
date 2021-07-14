@@ -1,111 +1,91 @@
 [
   {
-    "array": "copy",
-    "hard drive": "compress",
-    "monitor": "transmit",
-    "application": "bypass"
+    "hard drive": "transmit",
+    "firewall": "override"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "purchaser": {
-      "type": "Organization",
-      "name": "Greenholt, Kutch and Huel",
-      "description": "Total encompassing synergy",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "545 Jamar Prairie",
-        "addressLocality": "Lonberg",
-        "addressRegion": "Minnesota",
-        "postalCode": "15525-5887",
-        "addressCountry": "Anguilla"
-      },
-      "email": "Amy_Goodwin3@example.net",
-      "phoneNumber": "555-697-6677",
-      "faxNumber": "555-202-4146"
-    },
-    "bus": "override",
-    "application": "calculate",
-    "circuit": "navigate"
-  },
-  {
     "type": "IntentToSell",
-    "seller": {
+    "purchaser": {
       "type": "Organization",
-      "name": "O'Conner, Hintz and Towne",
-      "description": "Customizable grid-enabled groupware",
+      "name": "Walker and Sons",
+      "description": "Enhanced 3rd generation portal",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "18983 Batz Mall",
-        "addressLocality": "New Emmett",
-        "addressRegion": "Arizona",
-        "postalCode": "99941-8650",
-        "addressCountry": "Cape Verde"
+        "streetAddress": "06005 Meta Key",
+        "addressLocality": "Okunevashire",
+        "addressRegion": "New York",
+        "postalCode": "27381-6735",
+        "addressCountry": "Republic of Korea"
       },
-      "email": "Bertram.Rolfson@example.net",
-      "phoneNumber": "555-756-7215",
-      "faxNumber": "555-412-5620"
-    },
-    "purchaser": {
-      "type": "Person",
-      "firstName": "Antonina",
-      "lastName": "Aufderhar",
-      "email": "Sigmund_Bins@example.org",
-      "phoneNumber": "555-632-8011",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Cruickshank Group",
-        "description": "Public-key motivating instruction set",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "986 Walker Trail",
-          "addressLocality": "North Lincoln",
-          "addressRegion": "Connecticut",
-          "postalCode": "50849",
-          "addressCountry": "Greece"
-        },
-        "email": "Colby68@example.org",
-        "phoneNumber": "555-141-4944",
-        "faxNumber": "555-420-3364"
-      },
-      "jobTitle": "Forward Mobility Assistant"
+      "email": "Lon_Schmitt43@example.com",
+      "phoneNumber": "555-737-8721",
+      "faxNumber": "555-324-3686"
     },
     "product": {
       "type": "Product",
       "manufacturer": {
         "type": "Organization",
-        "name": "Johns, Heaney and Runolfsdottir",
-        "description": "Right-sized client-driven knowledge base",
+        "name": "Reinger, Doyle and Abbott",
+        "description": "Customizable user-facing standardization",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "741 Alisa Port",
-          "addressLocality": "Lillianafort",
-          "addressRegion": "Rhode Island",
-          "postalCode": "53362",
-          "addressCountry": "Antarctica (the territory South of 60 deg S)"
+          "streetAddress": "86029 Jacobs Green",
+          "addressLocality": "Lake Thora",
+          "addressRegion": "Montana",
+          "postalCode": "65352",
+          "addressCountry": "Cuba"
         },
-        "email": "Shany_Wiza@example.org",
-        "phoneNumber": "555-678-7538",
-        "faxNumber": "555-723-8522"
+        "email": "Marina26@example.org",
+        "phoneNumber": "555-959-4859",
+        "faxNumber": "555-643-6870"
       },
-      "name": "Handmade Granite Chips",
+      "name": "Practical Frozen Chicken",
       "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
       "sizeOrAmount": {
         "type": "QuantitativeValue",
         "unitCode": "hg/ha",
-        "value": "5131"
+        "value": "387"
       },
       "weight": {
         "type": "QuantitativeValue",
         "unitCode": "hg/ha",
-        "value": "9344"
+        "value": "1239"
       },
-      "sku": "73572619387"
+      "sku": "318358841016"
     },
     "declarationDate": "2020-03-21",
-    "microchip": "generate",
-    "hard drive": "connect",
-    "monitor": "bypass"
+    "sellByDate": "2021-06-30",
+    "matrix": "synthesize"
+  },
+  {
+    "seller": {
+      "type": "Person",
+      "firstName": "Cole",
+      "lastName": "Cassin",
+      "email": "Raphaelle87@example.com",
+      "phoneNumber": "555-185-4646",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Lynch, Klein and Steuber",
+        "description": "Synchronised upward-trending throughput",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "22406 Kemmer Course",
+          "addressLocality": "East Francisca",
+          "addressRegion": "Montana",
+          "postalCode": "26969-0563",
+          "addressCountry": "Uruguay"
+        },
+        "email": "Ethel.Kertzmann@example.org",
+        "phoneNumber": "555-443-5868",
+        "faxNumber": "555-470-7437"
+      },
+      "jobTitle": "Global Marketing Technician"
+    },
+    "sensor": "program",
+    "circuit": "synthesize"
   }
 ]

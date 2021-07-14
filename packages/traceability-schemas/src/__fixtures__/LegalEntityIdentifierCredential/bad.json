@@ -1,23 +1,25 @@
 [
   {
-    "certificateName": "US Legal Entity Certificate",
-    "interface": "back up",
-    "panel": "generate"
+    "type": "LegalEntityIdentifierCredential",
+    "bandwidth": "generate",
+    "firewall": "copy",
+    "bus": "navigate"
   },
   {
-    "microchip": "quantify",
-    "interface": "bypass",
-    "bus": "back up"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
     "type": "LegalEntityIdentifierCredential",
     "certificateName": "US Legal Entity Certificate",
-    "panel": "copy",
-    "system": "calculate",
-    "interface": "copy",
-    "firewall": "index"
+    "feed": "input",
+    "alarm": "override",
+    "matrix": "hack",
+    "panel": "copy"
+  },
+  {
+    "type": "LegalEntityIdentifierCredential",
+    "leiCode": "FZF9FGN1HEIKFYZIXTBJ",
+    "certificateName": "US Legal Entity Certificate",
+    "card": "parse",
+    "hard drive": "copy",
+    "capacitor": "navigate",
+    "bus": "reboot"
   }
 ]

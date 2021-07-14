@@ -1,39 +1,32 @@
 [
   {
+    "type": "Customer",
+    "bus": "index",
+    "program": "calculate",
+    "matrix": "bypass"
+  },
+  {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "Customer",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "12786 Dulce Estates",
-      "addressLocality": "Christiansenshire",
-      "addressRegion": "North Dakota",
-      "postalCode": "92214-7669",
-      "addressCountry": "Aruba"
+      "streetAddress": "073 Katlynn Isle",
+      "addressLocality": "Lake Lorenzatown",
+      "addressRegion": "Idaho",
+      "postalCode": "31857-8024",
+      "addressCountry": "Dominican Republic"
     },
-    "telephone": "555-942-9676",
-    "email": "Marquis_Baumbach@example.org",
-    "capacitor": "navigate",
-    "firewall": "program"
+    "telephone": "555-746-3789",
+    "email": "Jada.Orn96@example.com",
+    "circuit": "calculate",
+    "driver": "hack"
   },
   {
-    "circuit": "quantify",
-    "port": "back up",
-    "monitor": "connect"
-  },
-  {
-    "type": "Customer",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "767 DuBuque Glens",
-      "addressLocality": "East Ella",
-      "addressRegion": "Vermont",
-      "postalCode": "72926",
-      "addressCountry": "Latvia"
-    },
-    "email": "Makenna_Oberbrunner@example.org",
-    "protocol": "quantify",
-    "capacitor": "compress"
+    "bus": "reboot",
+    "interface": "index",
+    "application": "transmit",
+    "transmitter": "connect"
   }
 ]

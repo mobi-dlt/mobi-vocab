@@ -1,21 +1,22 @@
 [
   {
-    "firewall": "connect",
-    "hard drive": "bypass",
-    "pixel": "override",
-    "panel": "synthesize"
+    "productCode": 13,
+    "alarm": "override",
+    "panel": "input"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "capacitor": "hack"
+    "productCode": 7,
+    "certificateName": "ACME Ecommerce Product Registration Certificate",
+    "capacitor": "back up",
+    "matrix": "copy",
+    "system": "connect"
   },
   {
-    "productCodeType": "GTIN",
-    "certificateName": "ACME Ecommerce Product Registration Certificate",
-    "sensor": "calculate",
-    "driver": "quantify",
-    "program": "connect"
+    "type": "EcommerceProductRegistrationCredential",
+    "productCode": 2,
+    "panel": "parse"
   }
 ]

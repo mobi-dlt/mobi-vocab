@@ -13,33 +13,25 @@
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "type": "Person",
-    "firstName": "Dominic",
-    "lastName": "Yundt",
-    "email": "Jamel33@example.net",
-    "phoneNumber": "555-817-5546",
-    "worksFor": {
-      "type": "Organization",
-      "name": "Dickens, Hyatt and Cassin",
-      "description": "Distributed dynamic hardware",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "846 Petra Orchard",
-        "addressLocality": "New Schuylershire",
-        "addressRegion": "Arizona",
-        "postalCode": "85303-4529",
-        "addressCountry": "Saint Helena"
-      },
-      "email": "Germaine_Ryan76@example.net",
-      "phoneNumber": "555-143-2874",
-      "faxNumber": "555-417-2846"
+    "type": "Organization",
+    "name": "Lowe LLC",
+    "description": "Up-sized incremental throughput",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "5273 Gust Courts",
+      "addressLocality": "Jazmynmouth",
+      "addressRegion": "Nevada",
+      "postalCode": "89128-0635",
+      "addressCountry": "Saint Barthelemy"
     },
-    "jobTitle": "Future Intranet Administrator"
+    "email": "Ansel_Hauck@example.com",
+    "phoneNumber": "555-729-4943",
+    "faxNumber": "555-470-8360"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Y10v9A_mgUY1An-QI-xsJLmQC24K0QqL4IaOB_zYnWU0N5Rxywj8SV7H4Lhzm_cDcwNVZ0zFZRe7oZ75xVWhAA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..TJLigI0c4amwEeaKkCbK57tNttunoJIzXL41MGp-LRDJper0sp81RPQoIhEDByT51IkCIpNwIE3pvkZgP1m3Cg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

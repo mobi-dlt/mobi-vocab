@@ -16,40 +16,40 @@
     "type": "ChargeDeclaration",
     "weightCharge": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 844,
-      "chargePrepaid": 797
+      "chargeCollect": 41,
+      "chargePrepaid": 498
     },
     "taxCharge": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 250,
-      "chargePrepaid": 710
+      "chargeCollect": 739,
+      "chargePrepaid": 410
     },
     "otherChargesAgent": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 483,
-      "chargePrepaid": 59
+      "chargeCollect": 337,
+      "chargePrepaid": 536
     },
     "otherChargesCarrier": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 153,
-      "chargePrepaid": 82
+      "chargeCollect": 907,
+      "chargePrepaid": 599
     },
     "totalCharge": {
       "type": "TotalCharge",
-      "totalPrepaid": 5004,
-      "totalCollect": 1668,
-      "sourceCurrency": "PEN",
-      "destinationCurrency": "ILS",
-      "currencyConversionRate": 2,
-      "ccChargesDestinationCurrency": "PEN",
-      "chargesDestination": 302,
-      "totalCollectCharge": 75.5
+      "totalPrepaid": 5439,
+      "totalCollect": 1813,
+      "sourceCurrency": "DOP",
+      "destinationCurrency": "CAD",
+      "currencyConversionRate": 5,
+      "ccChargesDestinationCurrency": "DOP",
+      "chargesDestination": 469,
+      "totalCollectCharge": 117.25
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..NnYSRgs9fDOoZkST8zw2afA9jKTsfHZkGJkksoEVaCXUNEfOLhHIJ25nQiuujBhu7Xk3scttBx8fcdHrxPRgDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..EU4HUQNZkPzdp5l_W0_Bzm3ct36EPGdqDAGSNssY50tWveX2T88L6A9c9RRguObZZCg9ENW6vhqe03vS_VeNBw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

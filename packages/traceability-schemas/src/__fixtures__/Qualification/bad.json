@@ -1,27 +1,28 @@
 [
   {
+    "qualificationCategory": "Legacy Creative Developer",
+    "qualificationValue": "Manager",
+    "bandwidth": "copy",
+    "monitor": "program",
+    "system": "back up",
+    "card": "back up"
+  },
+  {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "type": "Qualification",
-    "driver": "hack",
-    "panel": "back up",
-    "circuit": "back up",
-    "protocol": "compress"
+    "protocol": "synthesize",
+    "panel": "index",
+    "interface": "navigate",
+    "microchip": "input"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "Qualification",
-    "qualificationCategory": "Human Research Developer",
-    "monitor": "input",
-    "program": "quantify"
-  },
-  {
-    "firewall": "generate",
-    "feed": "bypass",
-    "bandwidth": "transmit",
-    "hard drive": "program"
+    "qualificationCategory": "Forward Operations Administrator",
+    "circuit": "bypass",
+    "port": "hack"
   }
 ]

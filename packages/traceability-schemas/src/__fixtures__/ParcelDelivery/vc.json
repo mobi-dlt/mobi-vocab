@@ -16,29 +16,29 @@
     "type": "ParcelDelivery",
     "deliveryAddress": {
       "type": "PostalAddress",
-      "organizationName": "Fisher and Sons",
-      "streetAddress": "40475 Fay Lakes",
-      "addressLocality": "East Hortense",
-      "addressRegion": "Virginia",
-      "postalCode": "84586",
-      "addressCountry": "South Georgia and the South Sandwich Islands"
+      "organizationName": "Hayes - Mills",
+      "streetAddress": "613 Kayla Walk",
+      "addressLocality": "Christaview",
+      "addressRegion": "Connecticut",
+      "postalCode": "54610-5287",
+      "addressCountry": "San Marino"
     },
     "originAddress": {
       "type": "PostalAddress",
-      "organizationName": "Huel - Leannon",
-      "streetAddress": "016 Heathcote Land",
-      "addressLocality": "South Scot",
-      "addressRegion": "Minnesota",
-      "postalCode": "50125",
-      "addressCountry": "Kyrgyz Republic"
+      "organizationName": "Steuber, Quigley and Okuneva",
+      "streetAddress": "48380 Breanne Extension",
+      "addressLocality": "Port Elsehaven",
+      "addressRegion": "New Hampshire",
+      "postalCode": "28458-6459",
+      "addressCountry": "Australia"
     },
-    "deliveryMethod": "Air transport",
-    "trackingNumber": "242426387701"
+    "deliveryMethod": "Rail freight transport",
+    "trackingNumber": "847502140048"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Q5Pxo5GCEYm5CT4vSSDp3WV8EqDmI0OTf7ygFD9PnEKTME4TdnDI7Cnjv1bN9eh5WhBxPk-2Pr1N7J854rRWDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..D64Hc7N2wf0RLlEKjP_A-unx7iPV1j3C7fz0Tj6MiE5Mb4KOPJORdsD_e-lJJ9GrA81Wlz1vz1uhgzwgPH4GDA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

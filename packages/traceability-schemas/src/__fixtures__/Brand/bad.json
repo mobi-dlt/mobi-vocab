@@ -3,17 +3,22 @@
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
+    "type": "Brand",
     "logo": "http://placeimg.com/640/480",
-    "driver": "bypass",
-    "card": "navigate"
+    "application": "generate"
   },
   {
-    "type": "Brand",
-    "capacitor": "bypass",
-    "protocol": "back up"
+    "logo": "http://placeimg.com/640/480",
+    "driver": "compress",
+    "interface": "reboot",
+    "array": "program"
   },
   {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "type": "Brand",
-    "bandwidth": "generate"
+    "url": "https://brand.example.com",
+    "capacitor": "index"
   }
 ]

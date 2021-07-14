@@ -1,82 +1,47 @@
 [
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "weightCharge": {
-      "type": "chargeAndPaymentType",
-      "chargeCollect": 844,
-      "chargePrepaid": 797
-    },
-    "taxCharge": {
-      "type": "chargeAndPaymentType",
-      "chargeCollect": 250,
-      "chargePrepaid": 710
-    },
-    "otherChargesAgent": {
-      "type": "chargeAndPaymentType",
-      "chargeCollect": 483,
-      "chargePrepaid": 59
-    },
-    "otherChargesCarrier": {
-      "type": "chargeAndPaymentType",
-      "chargeCollect": 153,
-      "chargePrepaid": 82
-    },
-    "transmitter": "copy",
-    "capacitor": "hack"
+    "port": "input",
+    "program": "generate",
+    "panel": "parse",
+    "bus": "hack"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "ChargeDeclaration",
-    "weightCharge": {
-      "type": "chargeAndPaymentType",
-      "chargeCollect": 411,
-      "chargePrepaid": 273
-    },
     "taxCharge": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 907,
-      "chargePrepaid": 31
-    },
-    "otherChargesCarrier": {
-      "type": "chargeAndPaymentType",
-      "chargeCollect": 482,
-      "chargePrepaid": 844
+      "chargeCollect": 85,
+      "chargePrepaid": 773
     },
     "totalCharge": {
       "type": "TotalCharge",
-      "totalPrepaid": 4806,
-      "totalCollect": 1602,
-      "sourceCurrency": "CRC",
-      "destinationCurrency": "LYD",
+      "totalPrepaid": 3270.75,
+      "totalCollect": 1090.25,
+      "sourceCurrency": "CDF",
+      "destinationCurrency": "DOP",
+      "currencyConversionRate": 2,
+      "ccChargesDestinationCurrency": "CDF",
+      "chargesDestination": 27,
+      "totalCollectCharge": 6.75
+    },
+    "program": "navigate",
+    "alarm": "navigate",
+    "hard drive": "back up"
+  },
+  {
+    "totalCharge": {
+      "type": "TotalCharge",
+      "totalPrepaid": 4105.5,
+      "totalCollect": 1368.5,
+      "sourceCurrency": "NPR",
+      "destinationCurrency": "EUR",
       "currencyConversionRate": 5,
-      "ccChargesDestinationCurrency": "CRC",
-      "chargesDestination": 227,
-      "totalCollectCharge": 56.75
+      "ccChargesDestinationCurrency": "NPR",
+      "chargesDestination": 900,
+      "totalCollectCharge": 225
     },
-    "array": "index"
-  },
-  {
-    "type": "ChargeDeclaration",
-    "weightCharge": {
-      "type": "chargeAndPaymentType",
-      "chargeCollect": 651,
-      "chargePrepaid": 762
-    },
-    "totalCharge": {
-      "type": "TotalCharge",
-      "totalPrepaid": 4397.25,
-      "totalCollect": 1465.75,
-      "sourceCurrency": "JOD",
-      "destinationCurrency": "JPY",
-      "currencyConversionRate": 4,
-      "ccChargesDestinationCurrency": "JOD",
-      "chargesDestination": 824,
-      "totalCollectCharge": 206
-    },
-    "sensor": "synthesize"
+    "card": "reboot"
   }
 ]

@@ -14,22 +14,22 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "Customer",
-    "name": "Maria Borer",
+    "name": "Bria Johns",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "12786 Dulce Estates",
-      "addressLocality": "Christiansenshire",
-      "addressRegion": "North Dakota",
-      "postalCode": "92214-7669",
-      "addressCountry": "Aruba"
+      "streetAddress": "874 Chesley Orchard",
+      "addressLocality": "South Alva",
+      "addressRegion": "New Hampshire",
+      "postalCode": "84428",
+      "addressCountry": "Australia"
     },
-    "telephone": "555-942-9676",
-    "email": "Marquis_Baumbach@example.org"
+    "telephone": "555-502-1401",
+    "email": "Elissa.Lehner35@example.net"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..0p8fByciU2Li30PbJAJLt_IIhCRO3Ph07TKTkn4uHKdF1qQIgZKacNI_5O6w1qRtH06lJgFyKzi8GUKUInSwBg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..3qmiRc5Ibvdud7tMWxQAAqm69F0mVFeY00PWOFH3XRaohiaZqXcQB7IvY9Nh2yR1GQXZmWsQK6vvNe5GPsWOBw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

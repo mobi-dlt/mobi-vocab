@@ -14,26 +14,26 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "Place",
-    "globalLocationNumber": "4691473292649",
+    "globalLocationNumber": "9145793604866",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "-27.4202",
-      "longitude": "-24.1736"
+      "latitude": "66.4813",
+      "longitude": "-128.6640"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Donnelly Inc",
-      "streetAddress": "7160 Grimes Gateway",
-      "addressLocality": "Welchland",
-      "addressRegion": "Wyoming",
-      "postalCode": "40817-5240",
-      "addressCountry": "Uruguay"
+      "organizationName": "Lynch Inc",
+      "streetAddress": "63326 Paucek Viaduct",
+      "addressLocality": "East Marlonfurt",
+      "addressRegion": "Hawaii",
+      "postalCode": "84082-1984",
+      "addressCountry": "Maldives"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..SUV9iml7th8iijqX8NnzbKhr9JooYwYAQOVWoTfqlL7pdB6Fvz83dUTY0ZT4c1UOXqkSBxbGu_Wx4KOf8kzgDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..i-4fOM1D2gWh722B5uffdqxbeprlz58cMT8VVIO_HcIuNA21MmX_gN68dUrr1xTdOeOnuuukonETygJ5db5yDA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

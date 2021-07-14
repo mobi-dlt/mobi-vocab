@@ -1,39 +1,88 @@
 [
   {
-    "billOfLadingNumber": "991205182",
-    "relatedDocuments": [
-      {
-        "@context": [
-          "https://mobinet.io/schemas/v1"
-        ],
-        "type": [
-          "Purchase"
-        ],
-        "customer": {
-          "type": [
-            "Person"
-          ],
-          "email": "Haylie85@example.org",
-          "phoneNumber": "555-202-1198"
-        }
-      }
-    ],
-    "interface": "input",
-    "hard drive": "generate",
-    "transmitter": "synthesize"
-  },
-  {
-    "monitor": "calculate",
-    "card": "hack",
-    "matrix": "program"
+    "feed": "transmit",
+    "bus": "back up",
+    "matrix": "parse",
+    "pixel": "input"
   },
   {
     "type": [
       "BillOfLading"
     ],
-    "pixel": "input",
-    "hard drive": "copy",
-    "alarm": "transmit",
-    "firewall": "copy"
+    "freight": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": [
+        "ParcelDelivery"
+      ],
+      "deliveryAddress": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Smitham Group",
+        "streetAddress": "04529 Kiel Square",
+        "addressLocality": "Mafaldaton",
+        "addressRegion": "Illinois",
+        "postalCode": "25417-0590",
+        "addressCountry": "Oman"
+      },
+      "originAddress": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Bergnaum, Thiel and Will",
+        "streetAddress": "0564 Vandervort Cliffs",
+        "addressLocality": "South Omer",
+        "addressRegion": "Connecticut",
+        "postalCode": "38141-6964",
+        "addressCountry": "Montenegro"
+      },
+      "deliveryMethod": "Truck transport",
+      "trackingNumber": "788804376235"
+    },
+    "system": "copy",
+    "sensor": "override",
+    "pixel": "generate"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "freight": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": [
+        "ParcelDelivery"
+      ],
+      "deliveryAddress": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Osinski, Ratke and Gerlach",
+        "streetAddress": "6328 Velma Roads",
+        "addressLocality": "Reicherttown",
+        "addressRegion": "Utah",
+        "postalCode": "00728-0068",
+        "addressCountry": "Panama"
+      },
+      "originAddress": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "O'Reilly and Sons",
+        "streetAddress": "463 Metz Common",
+        "addressLocality": "South Nettie",
+        "addressRegion": "Virginia",
+        "postalCode": "40337",
+        "addressCountry": "United Kingdom"
+      },
+      "deliveryMethod": "Air transport",
+      "trackingNumber": "412681194581"
+    },
+    "transmitter": "calculate",
+    "protocol": "program",
+    "interface": "synthesize"
   }
 ]

@@ -1,37 +1,28 @@
 [
   {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "Place",
-    "globalLocationNumber": "4691473292649",
-    "geo": {
-      "type": "GeoCoordinates",
-      "latitude": "-27.4202",
-      "longitude": "-24.1736"
-    },
-    "application": "input",
-    "pixel": "calculate",
-    "system": "hack",
-    "array": "calculate"
+    "globalLocationNumber": "9145793604866",
+    "monitor": "transmit",
+    "card": "quantify",
+    "transmitter": "hack",
+    "pixel": "index"
   },
   {
-    "type": "Place",
-    "globalLocationNumber": "9523787794937",
+    "matrix": "synthesize",
+    "card": "parse"
+  },
+  {
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Ankunding - Feeney",
-      "streetAddress": "009 Nicolas Road",
-      "addressLocality": "East Bethel",
-      "addressRegion": "Rhode Island",
-      "postalCode": "00882-1689",
-      "addressCountry": "Romania"
+      "organizationName": "Thompson - Little",
+      "streetAddress": "8189 Hayes Divide",
+      "addressLocality": "Ethastad",
+      "addressRegion": "Arizona",
+      "postalCode": "59833",
+      "addressCountry": "Hungary"
     },
-    "sensor": "copy",
-    "panel": "override",
-    "pixel": "program"
-  },
-  {
-    "panel": "hack"
+    "panel": "transmit",
+    "monitor": "reboot",
+    "bus": "index",
+    "feed": "synthesize"
   }
 ]

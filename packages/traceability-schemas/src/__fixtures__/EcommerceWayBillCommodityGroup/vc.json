@@ -14,26 +14,26 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "EcommerceWayBillCommodityGroup",
-    "commodityItemNumber": "4h6wjl5j28bc",
-    "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
+    "commodityItemNumber": "nam664iapszg",
+    "natureQuantityOfGoods": "A lot of laptops that way a lot",
     "totalsCommodityGroup": {
       "type": "EcommerceWayBillTotals",
-      "totalPieces": 228,
-      "weight": 853528,
-      "chargeableWeight": 768175.2000000001,
+      "totalPieces": 209,
+      "weight": 235207,
+      "chargeableWeight": 211686.30000000002,
       "weightUnit": "lb",
-      "rateCharge": 0.007286098275497568,
+      "rateCharge": 0.007889032025218448,
       "totalRateCharge": {
         "type": "PriceSpecification",
-        "price": 5597,
-        "priceCurrency": "LBP"
+        "price": 1670,
+        "priceCurrency": "CAD"
       }
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ISY3ipoxFDjBohFDagIvMgnYASdYerlelrAc4JdbJsSOtU5i8rBOaa877B1zD007gmYnpyrPqcvn7_9J3cEvCw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..tcp0IlDqw2UkC_S2rfH9s6m4CclTT8A9nfYYsVINDsD0n5VCP8KW4Ldkdvu13mKOK7YVgZQ2ua1vPAHMVuOrAA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

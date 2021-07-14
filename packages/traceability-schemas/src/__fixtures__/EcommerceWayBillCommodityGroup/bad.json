@@ -1,30 +1,24 @@
 [
   {
-    "commodityItemNumber": "4h6wjl5j28bc",
-    "firewall": "navigate",
-    "bus": "quantify",
-    "feed": "bypass",
-    "driver": "synthesize"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "EcommerceWayBillCommodityGroup",
+    "commodityItemNumber": "nam664iapszg",
+    "driver": "parse",
+    "system": "connect"
   },
   {
-    "totalsCommodityGroup": {
-      "type": "EcommerceWayBillTotals",
-      "totalPieces": 169,
-      "weight": 881040,
-      "chargeableWeight": 792936,
-      "weightUnit": "lb",
-      "rateCharge": 0.008184771532633152,
-      "totalRateCharge": {
-        "type": "PriceSpecification",
-        "price": 6490,
-        "priceCurrency": "LTL"
-      }
-    },
-    "bus": "override",
-    "sensor": "reboot"
+    "natureQuantityOfGoods": "A lot of laptops that way a lot",
+    "protocol": "input"
   },
   {
-    "matrix": "program",
-    "program": "override"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "natureQuantityOfGoods": "A lot fo stuffed animals, and toys and other useless stuff that weighs a lot",
+    "sensor": "compress",
+    "interface": "generate",
+    "circuit": "transmit"
   }
 ]

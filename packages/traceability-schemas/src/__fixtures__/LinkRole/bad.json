@@ -1,19 +1,29 @@
 [
   {
-    "alarm": "synthesize",
-    "driver": "generate"
-  },
-  {
-    "card": "quantify",
-    "transmitter": "reboot",
-    "application": "back up"
-  },
-  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "type": "LinkRole",
     "linkRelationship": "alternate",
-    "hard drive": "compress",
-    "driver": "program",
-    "protocol": "back up",
-    "panel": "input"
+    "card": "override"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "application": "input",
+    "interface": "input",
+    "firewall": "override",
+    "sensor": "transmit"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "linkRelationship": "alternate",
+    "driver": "navigate",
+    "panel": "program",
+    "circuit": "compress",
+    "application": "generate"
   }
 ]

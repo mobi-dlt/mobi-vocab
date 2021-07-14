@@ -3,17 +3,26 @@
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "monitor": "hack",
-    "program": "synthesize",
-    "bandwidth": "back up",
-    "capacitor": "reboot"
+    "value": "3.71",
+    "unitCode": "P1",
+    "feed": "program",
+    "firewall": "hack",
+    "bus": "connect"
   },
   {
-    "transmitter": "quantify"
+    "transmitter": "hack",
+    "card": "hack",
+    "monitor": "override"
   },
   {
-    "driver": "input",
-    "protocol": "synthesize",
-    "system": "copy"
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": "MeasuredValue",
+    "value": "29.931",
+    "system": "compress",
+    "sensor": "synthesize",
+    "port": "reboot",
+    "feed": "generate"
   }
 ]

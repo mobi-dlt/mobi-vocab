@@ -4,7 +4,7 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "MeasuredValue",
-    "value": "57.452",
+    "value": "3.71",
     "unitCode": "P1"
   },
   {
@@ -12,15 +12,15 @@
       "https://mobinet.io/schemas/v1"
     ],
     "type": "MeasuredValue",
-    "value": "15.94",
-    "unitCode": "B13"
+    "value": "8.815",
+    "unitCode": "P1"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
     "type": "MeasuredValue",
-    "value": "94.34",
-    "unitCode": "B13"
+    "value": "29.931",
+    "unitCode": "P1"
   }
 ]

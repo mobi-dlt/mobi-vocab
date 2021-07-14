@@ -26,8 +26,8 @@
             "type": [
               "Person"
             ],
-            "email": "Lorenz_Bayer98@example.net",
-            "phoneNumber": "555-759-8961"
+            "email": "Bernhard.Dare13@example.com",
+            "phoneNumber": "555-426-6089"
           }
         }
       ],
@@ -42,26 +42,26 @@
           "type": [
             "PostalAddress"
           ],
-          "organizationName": "Emard LLC",
-          "streetAddress": "01677 Koepp Springs",
-          "addressLocality": "Micahmouth",
-          "addressRegion": "Oregon",
-          "postalCode": "11938",
-          "addressCountry": "Martinique"
+          "organizationName": "White Inc",
+          "streetAddress": "0943 Santos Gardens",
+          "addressLocality": "New Jovanystad",
+          "addressRegion": "New York",
+          "postalCode": "20546-9687",
+          "addressCountry": "Tokelau"
         },
         "originAddress": {
           "type": [
             "PostalAddress"
           ],
-          "organizationName": "Dibbert - Christiansen",
-          "streetAddress": "41278 Sawayn Loop",
-          "addressLocality": "Rodriguezview",
-          "addressRegion": "New Mexico",
-          "postalCode": "65063-3670",
-          "addressCountry": "Isle of Man"
+          "organizationName": "Mante, Brakus and Wunsch",
+          "streetAddress": "80933 Jaquan Court",
+          "addressLocality": "Mariannaton",
+          "addressRegion": "Utah",
+          "postalCode": "76910-0086",
+          "addressCountry": "Belarus"
         },
-        "deliveryMethod": "Rail freight transport",
-        "trackingNumber": "32986611203"
+        "deliveryMethod": "Air transport",
+        "trackingNumber": "289359521372"
       }
     },
     "shippingDate": "2020-03-15",
@@ -77,7 +77,179 @@
       "type": [
         "MeasuredValue"
       ],
-      "value": "41.616",
+      "value": "00.00",
+      "unitCode": "UNKNOWN"
+    },
+    "closingVolume": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": [
+        "MeasuredValue"
+      ],
+      "value": "58.603",
+      "unitCode": "P1"
+    },
+    "observation": [
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "MechanicalProperty"
+          ],
+          "identifier": "ISO 1352",
+          "name": "Torque-controlled fatigue testing",
+          "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "00.00",
+          "unitCode": "UNKNOWN"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "MechanicalProperty"
+          ],
+          "identifier": "ISO 148",
+          "name": "Charpy Impact Strength Test",
+          "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "75.443",
+          "unitCode": "B13"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "MechanicalProperty"
+          ],
+          "identifier": "ISO 148",
+          "name": "Charpy Impact Strength Test",
+          "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "47.485",
+          "unitCode": "B13"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Einsteinium"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "100.00",
+          "unitCode": "P1"
+        }
+      }
+    ]
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": [
+      "OGBillOfLading"
+    ],
+    "billOfLading": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": [
+        "BillOfLading"
+      ],
+      "billOfLadingNumber": "991205182",
+      "relatedDocuments": [
+        {
+          "@context": [
+            "https://mobinet.io/schemas/v1"
+          ],
+          "type": [
+            "Purchase"
+          ],
+          "customer": {
+            "type": [
+              "Organization"
+            ],
+            "email": "Laila.Gleason24@example.com",
+            "phoneNumber": "555-381-2452"
+          }
+        }
+      ],
+      "freight": {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
+        ],
+        "type": [
+          "ParcelDelivery"
+        ],
+        "deliveryAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Koelpin, Price and Turner",
+          "streetAddress": "4551 King Manor",
+          "addressLocality": "Lake Reidmouth",
+          "addressRegion": "Virginia",
+          "postalCode": "52701",
+          "addressCountry": "Monaco"
+        },
+        "originAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Prosacco Inc",
+          "streetAddress": "6268 Joana Shore",
+          "addressLocality": "Trantowfort",
+          "addressRegion": "Washington",
+          "postalCode": "81603-3912",
+          "addressCountry": "Macedonia"
+        },
+        "deliveryMethod": "Ocean transport",
+        "trackingNumber": "202664891403"
+      }
+    },
+    "shippingDate": "2020-03-15",
+    "arrivalDate": "2020-03-28",
+    "valuePerItem": "500",
+    "totalOrderValue": "1500",
+    "freightChargeTerms": "Freight Prepaid",
+    "batchNumber": "12345678",
+    "openingVolume": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": [
+        "MeasuredValue"
+      ],
+      "value": "71.482",
       "unitCode": "P1"
     },
     "closingVolume": {
@@ -87,10 +259,28 @@
       "type": [
         "MeasuredValue"
       ],
-      "value": "91.393",
+      "value": "26.542",
       "unitCode": "P1"
     },
     "observation": [
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Zirconium"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "100.00",
+          "unitCode": "P1"
+        }
+      },
       {
         "type": [
           "Observation"
@@ -107,8 +297,122 @@
           "type": [
             "MeasuredValue"
           ],
-          "value": "27.175",
+          "value": "99.408",
           "unitCode": "B13"
+        }
+      }
+    ]
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
+    "type": [
+      "OGBillOfLading"
+    ],
+    "billOfLading": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": [
+        "BillOfLading"
+      ],
+      "billOfLadingNumber": "991205182",
+      "relatedDocuments": [
+        {
+          "@context": [
+            "https://mobinet.io/schemas/v1"
+          ],
+          "type": [
+            "Purchase"
+          ],
+          "customer": {
+            "type": [
+              "Person"
+            ],
+            "email": "Sean.Gibson63@example.net",
+            "phoneNumber": "555-711-3546"
+          }
+        }
+      ],
+      "freight": {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
+        ],
+        "type": [
+          "ParcelDelivery"
+        ],
+        "deliveryAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Kassulke Inc",
+          "streetAddress": "057 Koss Rest",
+          "addressLocality": "Idellchester",
+          "addressRegion": "Minnesota",
+          "postalCode": "44532-3863",
+          "addressCountry": "Lesotho"
+        },
+        "originAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Boyer, Swift and Ankunding",
+          "streetAddress": "41160 Aidan Greens",
+          "addressLocality": "Sibylton",
+          "addressRegion": "Idaho",
+          "postalCode": "97797",
+          "addressCountry": "Norway"
+        },
+        "deliveryMethod": "Rail freight transport",
+        "trackingNumber": "201469483544"
+      }
+    },
+    "shippingDate": "2020-03-15",
+    "arrivalDate": "2020-03-28",
+    "valuePerItem": "500",
+    "totalOrderValue": "1500",
+    "freightChargeTerms": "Freight Prepaid",
+    "batchNumber": "12345678",
+    "openingVolume": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": [
+        "MeasuredValue"
+      ],
+      "value": "00.00",
+      "unitCode": "UNKNOWN"
+    },
+    "closingVolume": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": [
+        "MeasuredValue"
+      ],
+      "value": "80.969",
+      "unitCode": "P1"
+    },
+    "observation": [
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "MechanicalProperty"
+          ],
+          "identifier": "ISO 3738",
+          "name": "Rockwell Hardness Test (Scale A)",
+          "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "00.00",
+          "unitCode": "UNKNOWN"
         }
       },
       {
@@ -145,252 +449,8 @@
           "type": [
             "MeasuredValue"
           ],
-          "value": "51.538",
+          "value": "33.589",
           "unitCode": "B13"
-        }
-      },
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "ChemicalProperty"
-          ],
-          "name": "Oganesson"
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "00.00",
-          "unitCode": "UNKNOWN"
-        }
-      }
-    ]
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": [
-      "OGBillOfLading"
-    ],
-    "billOfLading": {
-      "@context": [
-        "https://mobinet.io/schemas/v1"
-      ],
-      "type": [
-        "BillOfLading"
-      ],
-      "billOfLadingNumber": "991205182",
-      "relatedDocuments": [
-        {
-          "@context": [
-            "https://mobinet.io/schemas/v1"
-          ],
-          "type": [
-            "Purchase"
-          ],
-          "customer": {
-            "type": [
-              "Person"
-            ],
-            "email": "Monte96@example.net",
-            "phoneNumber": "555-991-8306"
-          }
-        }
-      ],
-      "freight": {
-        "@context": [
-          "https://mobinet.io/schemas/v1"
-        ],
-        "type": [
-          "ParcelDelivery"
-        ],
-        "deliveryAddress": {
-          "type": [
-            "PostalAddress"
-          ],
-          "organizationName": "Zemlak, Jast and Grimes",
-          "streetAddress": "761 Schultz Square",
-          "addressLocality": "Boganborough",
-          "addressRegion": "New York",
-          "postalCode": "05069-9507",
-          "addressCountry": "Micronesia"
-        },
-        "originAddress": {
-          "type": [
-            "PostalAddress"
-          ],
-          "organizationName": "Wiegand, Kshlerin and Strosin",
-          "streetAddress": "45331 Stanton Dale",
-          "addressLocality": "South Keely",
-          "addressRegion": "Washington",
-          "postalCode": "89670-6431",
-          "addressCountry": "Antigua and Barbuda"
-        },
-        "deliveryMethod": "Truck transport",
-        "trackingNumber": "910798803717"
-      }
-    },
-    "shippingDate": "2020-03-15",
-    "arrivalDate": "2020-03-28",
-    "valuePerItem": "500",
-    "totalOrderValue": "1500",
-    "freightChargeTerms": "Freight Prepaid",
-    "batchNumber": "12345678",
-    "openingVolume": {
-      "@context": [
-        "https://mobinet.io/schemas/v1"
-      ],
-      "type": [
-        "MeasuredValue"
-      ],
-      "value": "2.414",
-      "unitCode": "P1"
-    },
-    "closingVolume": {
-      "@context": [
-        "https://mobinet.io/schemas/v1"
-      ],
-      "type": [
-        "MeasuredValue"
-      ],
-      "value": "15.411",
-      "unitCode": "P1"
-    },
-    "observation": [
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "MechanicalProperty"
-          ],
-          "identifier": "ISO 1352",
-          "name": "Torque-controlled fatigue testing",
-          "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "00.00",
-          "unitCode": "UNKNOWN"
-        }
-      }
-    ]
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": [
-      "OGBillOfLading"
-    ],
-    "billOfLading": {
-      "@context": [
-        "https://mobinet.io/schemas/v1"
-      ],
-      "type": [
-        "BillOfLading"
-      ],
-      "billOfLadingNumber": "991205182",
-      "relatedDocuments": [
-        {
-          "@context": [
-            "https://mobinet.io/schemas/v1"
-          ],
-          "type": [
-            "Purchase"
-          ],
-          "customer": {
-            "type": [
-              "Person"
-            ],
-            "email": "Alexandrine.Labadie@example.org",
-            "phoneNumber": "555-756-6381"
-          }
-        }
-      ],
-      "freight": {
-        "@context": [
-          "https://mobinet.io/schemas/v1"
-        ],
-        "type": [
-          "ParcelDelivery"
-        ],
-        "deliveryAddress": {
-          "type": [
-            "PostalAddress"
-          ],
-          "organizationName": "Kulas and Sons",
-          "streetAddress": "7751 Elliot Drives",
-          "addressLocality": "West Annabellemouth",
-          "addressRegion": "Wisconsin",
-          "postalCode": "99074-8144",
-          "addressCountry": "Hong Kong"
-        },
-        "originAddress": {
-          "type": [
-            "PostalAddress"
-          ],
-          "organizationName": "Wiegand - Morissette",
-          "streetAddress": "1356 Kessler Prairie",
-          "addressLocality": "Wildermanhaven",
-          "addressRegion": "New Mexico",
-          "postalCode": "23426-0380",
-          "addressCountry": "Jordan"
-        },
-        "deliveryMethod": "Truck transport",
-        "trackingNumber": "583439798397"
-      }
-    },
-    "shippingDate": "2020-03-15",
-    "arrivalDate": "2020-03-28",
-    "valuePerItem": "500",
-    "totalOrderValue": "1500",
-    "freightChargeTerms": "Freight Prepaid",
-    "batchNumber": "12345678",
-    "openingVolume": {
-      "@context": [
-        "https://mobinet.io/schemas/v1"
-      ],
-      "type": [
-        "MeasuredValue"
-      ],
-      "value": "61.177",
-      "unitCode": "B13"
-    },
-    "closingVolume": {
-      "@context": [
-        "https://mobinet.io/schemas/v1"
-      ],
-      "type": [
-        "MeasuredValue"
-      ],
-      "value": "94.910",
-      "unitCode": "B13"
-    },
-    "observation": [
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "ChemicalProperty"
-          ],
-          "name": "Nitrogen"
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "00.00",
-          "unitCode": "UNKNOWN"
         }
       }
     ]

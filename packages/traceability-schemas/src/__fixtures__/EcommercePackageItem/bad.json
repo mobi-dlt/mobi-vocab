@@ -3,31 +3,24 @@
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "type": "EcommercePackageItem",
-    "productReceiptID": "https://vc.example.com/?queryID=0x47Ae1DaA9A7a8fbc34c4B6AE3c3A577882e31C0c87fB45eF57D7D662529e5DeB",
-    "orderID": "https://vc.example.com/?queryID=AB06f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a",
-    "productInOrder": [
-      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e"
-    ],
-    "port": "back up",
-    "sensor": "parse",
-    "microchip": "copy"
-  },
-  {
-    "orderID": "https://vc.example.com/?queryID=AB06f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a",
-    "application": "compress"
+    "firewall": "generate",
+    "bandwidth": "transmit",
+    "hard drive": "navigate",
+    "interface": "calculate"
   },
   {
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
-    "type": "EcommercePackageItem",
-    "productReceiptID": "https://vc.example.com/?queryID=0xe7d2d900Af7DeCc2722B2ECaEae72D8eA6B62D00f77c5302bBCDFCcDbc1Bc88e",
-    "packingListID": "https://vc.example.com/?queryID=0xdF84582a63213CFF98b1D1FDcaB77a678aeCfd6f28dA2ec2fcf5ABD9aFA2dB4e",
-    "productInOrder": [
-      "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
-    ],
-    "card": "index",
-    "sensor": "calculate"
+    "packingListID": "https://vc.example.com/?queryID=0xdBC5442cFb26a6c6bA1e1C2Fcab151e6CE0ba5f85d6ed3DFBbc2AD81eDaF4ffA",
+    "driver": "input",
+    "card": "reboot",
+    "protocol": "parse"
+  },
+  {
+    "productReceiptID": "https://vc.example.com/?queryID=0xed8EAe9698Ec5B26ccF78B1a71b331eaF2927E8D29DF908ded9ae81aB9EAe2F4",
+    "circuit": "transmit",
+    "array": "transmit",
+    "card": "compress"
   }
 ]

@@ -27,10 +27,10 @@
         ],
         "customer": {
           "type": [
-            "Person"
+            "Organization"
           ],
-          "email": "Haylie85@example.org",
-          "phoneNumber": "555-202-1198"
+          "email": "Alejandrin.VonRueden12@example.net",
+          "phoneNumber": "555-215-4423"
         }
       }
     ],
@@ -45,32 +45,32 @@
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Beer, Cronin and Fahey",
-        "streetAddress": "1137 Jannie Valleys",
-        "addressLocality": "Ankundington",
-        "addressRegion": "Iowa",
-        "postalCode": "02022",
-        "addressCountry": "Ecuador"
+        "organizationName": "Dicki - Rohan",
+        "streetAddress": "6465 Ron Inlet",
+        "addressLocality": "Kovacekhaven",
+        "addressRegion": "Wisconsin",
+        "postalCode": "60176",
+        "addressCountry": "Bolivia"
       },
       "originAddress": {
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Schaefer, Fritsch and Wolf",
-        "streetAddress": "37448 Bergnaum Springs",
-        "addressLocality": "South Rozellatown",
-        "addressRegion": "Arizona",
-        "postalCode": "69513",
-        "addressCountry": "Malawi"
+        "organizationName": "Pfannerstill Inc",
+        "streetAddress": "61186 Roderick Flats",
+        "addressLocality": "East Arelyfurt",
+        "addressRegion": "Louisiana",
+        "postalCode": "85233-2007",
+        "addressCountry": "French Southern Territories"
       },
       "deliveryMethod": "Air transport",
-      "trackingNumber": "315196370097"
+      "trackingNumber": "408312259486"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jLM96qbAABX9n76modjj-4nupDdloPwozgAVlcpV-lLtRNxbWCaOGCzz58Ql3TD20ezxyBzWo6niab0fORuYAw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..k3PFgp_O9s-j3rGH3ka2F1E40eUXYRKdgG-KOXjHdz76CHxmfrxh7hW4U1vVQ61v1KTbZuib6QIEsNrNuKQoDQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

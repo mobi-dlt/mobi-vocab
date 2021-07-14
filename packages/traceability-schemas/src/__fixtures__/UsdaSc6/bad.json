@@ -3,6 +3,146 @@
     "@context": [
       "https://mobinet.io/schemas/v1"
     ],
+    "type": "UsdaSc6",
+    "shipment": {
+      "@context": [
+        "https://mobinet.io/schemas/v1"
+      ],
+      "type": [
+        "AgParcelDelivery"
+      ],
+      "deliveryAddress": {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
+        ],
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Bins - Senger",
+        "streetAddress": "976 Johnathan Plains",
+        "addressLocality": "South Susiestad",
+        "addressRegion": "Georgia",
+        "postalCode": "29059",
+        "addressCountry": "Gabon"
+      },
+      "originAddress": {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
+        ],
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Kunze - Miller",
+        "streetAddress": "0932 McKenzie Village",
+        "addressLocality": "West Edyth",
+        "addressRegion": "New York",
+        "postalCode": "99285",
+        "addressCountry": "Gibraltar"
+      },
+      "foreignPortExport": {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
+        ],
+        "type": [
+          "Place"
+        ],
+        "globalLocationNumber": "8668097504713",
+        "geo": {
+          "type": [
+            "GeoCoordinates"
+          ],
+          "latitude": "74.3733",
+          "longitude": "110.0466"
+        },
+        "address": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Crooks, Kris and Greenholt",
+          "streetAddress": "693 Charity Mills",
+          "addressLocality": "New Norashire",
+          "addressRegion": "Arkansas",
+          "postalCode": "08895-8372",
+          "addressCountry": "Puerto Rico"
+        }
+      },
+      "portOfEntry": {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
+        ],
+        "type": [
+          "Place"
+        ],
+        "globalLocationNumber": "6551972338294",
+        "geo": {
+          "type": [
+            "GeoCoordinates"
+          ],
+          "latitude": "1.6204",
+          "longitude": "43.6824"
+        },
+        "address": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Lebsack, Wyman and Stoltenberg",
+          "streetAddress": "4414 Mariano Avenue",
+          "addressLocality": "South Ernaborough",
+          "addressRegion": "Arkansas",
+          "postalCode": "04114",
+          "addressCountry": "Greenland"
+        }
+      },
+      "deliveryMethod": "Ocean transport",
+      "trackingNumber": "958691065717",
+      "expectedArrival": "2021-03-14",
+      "specialInstructions": "The package is top-heavy so handle with appropriate caution.",
+      "consignee": {
+        "@context": [
+          "https://mobinet.io/schemas/v1"
+        ],
+        "type": [
+          "Organization"
+        ],
+        "name": "Hartmann - Ruecker",
+        "description": "Vision-oriented 4th generation artificial intelligence",
+        "address": {
+          "type": [
+            "PostalAddress"
+          ],
+          "streetAddress": "4025 Hermiston Summit",
+          "addressLocality": "Daphneyshire",
+          "addressRegion": "Florida",
+          "postalCode": "32040",
+          "addressCountry": "Vietnam"
+        },
+        "email": "Amina_Botsford92@example.net",
+        "phoneNumber": "555-644-7946",
+        "faxNumber": "555-657-9084"
+      },
+      "AgPackage": [
+        {
+          "@context": [
+            "https://mobinet.io/schemas/v1"
+          ],
+          "type": [
+            "AgPackage"
+          ]
+        }
+      ]
+    },
+    "serialNumber": "342605341497",
+    "customsEntryNumber": "688490909837",
+    "lotId": "830838941383",
+    "dateOfEntry": "2021-02-14",
+    "intendedUse": "Processing",
+    "capacitor": "calculate",
+    "bus": "connect"
+  },
+  {
+    "@context": [
+      "https://mobinet.io/schemas/v1"
+    ],
     "facility": {
       "@context": [
         "https://mobinet.io/schemas/v1"
@@ -10,26 +150,35 @@
       "type": [
         "Place"
       ],
-      "globalLocationNumber": "1280221104186",
+      "globalLocationNumber": "3032419327413",
       "geo": {
         "type": [
           "GeoCoordinates"
         ],
-        "latitude": "84.1323",
-        "longitude": "134.5208"
+        "latitude": "8.4710",
+        "longitude": "-62.2110"
       },
       "address": {
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Hackett, Lowe and Wehner",
-        "streetAddress": "35680 Reichel Ranch",
-        "addressLocality": "Boganmouth",
-        "addressRegion": "Colorado",
-        "postalCode": "14985-4791",
-        "addressCountry": "Vanuatu"
+        "organizationName": "Lind, Kunze and Effertz",
+        "streetAddress": "8477 Kohler Crossroad",
+        "addressLocality": "Ryanview",
+        "addressRegion": "Kentucky",
+        "postalCode": "63006",
+        "addressCountry": "Liberia"
       }
     },
+    "inspectionDate": "2020-03-15",
+    "serialNumber": "662433348252",
+    "intendedUseCert": "Processing",
+    "circuit": "transmit",
+    "interface": "synthesize",
+    "application": "reboot"
+  },
+  {
+    "type": "UsdaSc6",
     "inspector": {
       "@context": [
         "https://mobinet.io/schemas/v1"
@@ -41,100 +190,39 @@
         "type": [
           "Person"
         ],
-        "firstName": "Lincoln",
-        "lastName": "Nitzsche",
-        "email": "Jada.Sporer2@example.com",
-        "phoneNumber": "555-286-2771",
+        "firstName": "Sonia",
+        "lastName": "Weber",
+        "email": "Orin27@example.net",
+        "phoneNumber": "555-643-6389",
         "worksFor": {
           "type": [
             "Organization"
           ],
-          "name": "Emmerich - Terry",
-          "description": "Automated interactive encoding",
+          "name": "Kreiger - Mayer",
+          "description": "Multi-layered exuding functionalities",
           "address": {
             "type": [
               "PostalAddress"
             ],
-            "streetAddress": "34756 Webster Terrace",
-            "addressLocality": "South John",
-            "addressRegion": "Arkansas",
-            "postalCode": "70534-6325",
-            "addressCountry": "Uzbekistan"
+            "streetAddress": "284 Howell Points",
+            "addressLocality": "West Lionelton",
+            "addressRegion": "Missouri",
+            "postalCode": "26447",
+            "addressCountry": "Marshall Islands"
           },
-          "email": "Palma_Stark20@example.org",
-          "phoneNumber": "555-404-1271",
-          "faxNumber": "555-781-9622"
+          "email": "Reggie_Howe@example.org",
+          "phoneNumber": "555-821-6018",
+          "faxNumber": "555-684-3496"
         },
-        "jobTitle": "International Communications Executive"
+        "jobTitle": "Corporate Program Executive"
       },
       "qualification": [
         {
           "type": "Qualification",
-          "qualificationCategory": "National Creative Agent",
-          "qualificationValue": "Manager"
-        },
-        {
-          "type": "Qualification",
-          "qualificationCategory": "Internal Accountability Manager",
-          "qualificationValue": "Engineer"
-        },
-        {
-          "type": "Qualification",
-          "qualificationCategory": "Investor Implementation Associate",
-          "qualificationValue": "Engineer"
+          "qualificationCategory": "Investor Implementation Developer",
+          "qualificationValue": "Consultant"
         }
       ]
-    },
-    "applicant": {
-      "@context": [
-        "https://mobinet.io/schemas/v1"
-      ],
-      "type": [
-        "Organization"
-      ],
-      "email": "Emelie_Marquardt@example.org",
-      "phoneNumber": "555-701-6855"
-    },
-    "customsEntryNumber": "299473717267",
-    "tariffCodeNumber": "823454814412",
-    "lotId": "990237979981",
-    "carrierId": "981727397956",
-    "intendedUse": "Processing",
-    "intendedUseCert": "Processing",
-    "protocol": "back up",
-    "microchip": "navigate"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "UsdaSc6",
-    "facility": {
-      "@context": [
-        "https://mobinet.io/schemas/v1"
-      ],
-      "type": [
-        "Place"
-      ],
-      "globalLocationNumber": "1367983396742",
-      "geo": {
-        "type": [
-          "GeoCoordinates"
-        ],
-        "latitude": "-75.9543",
-        "longitude": "-39.3299"
-      },
-      "address": {
-        "type": [
-          "PostalAddress"
-        ],
-        "organizationName": "Robel, Schultz and Mills",
-        "streetAddress": "6936 Zboncak Meadow",
-        "addressLocality": "Cristianfurt",
-        "addressRegion": "Massachusetts",
-        "postalCode": "22757-7230",
-        "addressCountry": "Heard Island and McDonald Islands"
-      }
     },
     "shipment": {
       "@context": [
@@ -150,12 +238,12 @@
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Koelpin Inc",
-        "streetAddress": "984 Shayne Vista",
-        "addressLocality": "North Kyrafurt",
-        "addressRegion": "Hawaii",
-        "postalCode": "72751",
-        "addressCountry": "Peru"
+        "organizationName": "Ritchie and Sons",
+        "streetAddress": "996 Shanahan Mount",
+        "addressLocality": "New Carleyhaven",
+        "addressRegion": "New York",
+        "postalCode": "76859-7243",
+        "addressCountry": "Bermuda"
       },
       "originAddress": {
         "@context": [
@@ -164,12 +252,12 @@
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Terry - Schiller",
-        "streetAddress": "405 Elisabeth Stravenue",
-        "addressLocality": "Cameronborough",
-        "addressRegion": "Idaho",
-        "postalCode": "47482",
-        "addressCountry": "Vietnam"
+        "organizationName": "Treutel LLC",
+        "streetAddress": "02053 Alfreda Squares",
+        "addressLocality": "Wilsonview",
+        "addressRegion": "Minnesota",
+        "postalCode": "35291-1769",
+        "addressCountry": "Lebanon"
       },
       "foreignPortExport": {
         "@context": [
@@ -178,24 +266,24 @@
         "type": [
           "Place"
         ],
-        "globalLocationNumber": "9208580689160",
+        "globalLocationNumber": "3162905135984",
         "geo": {
           "type": [
             "GeoCoordinates"
           ],
-          "latitude": "-54.9667",
-          "longitude": "-162.3390"
+          "latitude": "-25.4229",
+          "longitude": "-7.5515"
         },
         "address": {
           "type": [
             "PostalAddress"
           ],
-          "organizationName": "Braun - Yost",
-          "streetAddress": "80913 Simonis Rapids",
-          "addressLocality": "West Jettchester",
-          "addressRegion": "South Carolina",
-          "postalCode": "19633",
-          "addressCountry": "Suriname"
+          "organizationName": "Miller, Mayer and Block",
+          "streetAddress": "243 Anita Burg",
+          "addressLocality": "South Austin",
+          "addressRegion": "Oklahoma",
+          "postalCode": "21788",
+          "addressCountry": "Fiji"
         }
       },
       "portOfEntry": {
@@ -205,28 +293,28 @@
         "type": [
           "Place"
         ],
-        "globalLocationNumber": "4070818950824",
+        "globalLocationNumber": "4707077743224",
         "geo": {
           "type": [
             "GeoCoordinates"
           ],
-          "latitude": "29.1452",
-          "longitude": "131.2971"
+          "latitude": "44.3555",
+          "longitude": "24.4220"
         },
         "address": {
           "type": [
             "PostalAddress"
           ],
-          "organizationName": "Bergstrom - Schulist",
-          "streetAddress": "1170 Dickinson Centers",
-          "addressLocality": "O'Konside",
-          "addressRegion": "Texas",
-          "postalCode": "25395",
-          "addressCountry": "Liberia"
+          "organizationName": "Wolff - Pagac",
+          "streetAddress": "71903 Paucek Forest",
+          "addressLocality": "North Connieberg",
+          "addressRegion": "Ohio",
+          "postalCode": "95301-0204",
+          "addressCountry": "United Kingdom"
         }
       },
-      "deliveryMethod": "Air transport",
-      "trackingNumber": "172226596379",
+      "deliveryMethod": "Ocean transport",
+      "trackingNumber": "413650616948",
       "expectedArrival": "2021-03-14",
       "specialInstructions": "The package is top-heavy so handle with appropriate caution.",
       "consignee": {
@@ -236,21 +324,21 @@
         "type": [
           "Organization"
         ],
-        "name": "Runolfsdottir Group",
-        "description": "User-friendly 6th generation solution",
+        "name": "Brakus - Erdman",
+        "description": "Centralized methodical archive",
         "address": {
           "type": [
             "PostalAddress"
           ],
-          "streetAddress": "7714 Onie Lodge",
-          "addressLocality": "West Demond",
-          "addressRegion": "New York",
-          "postalCode": "00641",
-          "addressCountry": "Cameroon"
+          "streetAddress": "790 Delilah Mills",
+          "addressLocality": "Jacobsburgh",
+          "addressRegion": "Oklahoma",
+          "postalCode": "86465-4931",
+          "addressCountry": "Spain"
         },
-        "email": "Van.Hilpert@example.com",
-        "phoneNumber": "555-847-8303",
-        "faxNumber": "555-419-4785"
+        "email": "Kristoffer86@example.com",
+        "phoneNumber": "555-876-7826",
+        "faxNumber": "555-243-3891"
       },
       "AgPackage": [
         {
@@ -268,106 +356,18 @@
         "https://mobinet.io/schemas/v1"
       ],
       "type": [
-        "Organization"
-      ],
-      "email": "Perry_Simonis@example.org",
-      "phoneNumber": "555-713-5914"
-    },
-    "inspectionDate": "2020-03-15",
-    "serialNumber": "383587419051",
-    "customsEntryNumber": "219758106039",
-    "tariffCodeNumber": "15726425603",
-    "lotId": "64781549090",
-    "carrierId": "457840683124",
-    "dateOfEntry": "2021-02-14",
-    "signatureDate": "2021-02-16",
-    "importerSignatureDate": "2021-02-15",
-    "intendedUse": "Processing",
-    "intendedUseCert": "Processing",
-    "interface": "generate",
-    "protocol": "program",
-    "program": "quantify"
-  },
-  {
-    "@context": [
-      "https://mobinet.io/schemas/v1"
-    ],
-    "type": "UsdaSc6",
-    "inspector": {
-      "@context": [
-        "https://mobinet.io/schemas/v1"
-      ],
-      "type": [
-        "Inspector"
-      ],
-      "person": {
-        "type": [
-          "Person"
-        ],
-        "firstName": "Kory",
-        "lastName": "Dickinson",
-        "email": "Kaitlin.Reichert4@example.com",
-        "phoneNumber": "555-234-4565",
-        "worksFor": {
-          "type": [
-            "Organization"
-          ],
-          "name": "Dickens and Sons",
-          "description": "Distributed web-enabled moderator",
-          "address": {
-            "type": [
-              "PostalAddress"
-            ],
-            "streetAddress": "466 Heaney Tunnel",
-            "addressLocality": "Kohlerfurt",
-            "addressRegion": "Vermont",
-            "postalCode": "20958",
-            "addressCountry": "American Samoa"
-          },
-          "email": "Amira40@example.org",
-          "phoneNumber": "555-982-1010",
-          "faxNumber": "555-391-6544"
-        },
-        "jobTitle": "Senior Accountability Associate"
-      },
-      "qualification": [
-        {
-          "type": "Qualification",
-          "qualificationCategory": "Regional Paradigm Coordinator",
-          "qualificationValue": "Strategist"
-        },
-        {
-          "type": "Qualification",
-          "qualificationCategory": "Future Marketing Specialist",
-          "qualificationValue": "Analyst"
-        },
-        {
-          "type": "Qualification",
-          "qualificationCategory": "National Data Strategist",
-          "qualificationValue": "Administrator"
-        }
-      ]
-    },
-    "applicant": {
-      "@context": [
-        "https://mobinet.io/schemas/v1"
-      ],
-      "type": [
         "Person"
       ],
-      "email": "Maxime_Lakin81@example.org",
-      "phoneNumber": "555-255-9133"
+      "email": "Jon61@example.org",
+      "phoneNumber": "555-984-9652"
     },
-    "inspectionDate": "2020-03-15",
-    "serialNumber": "569712157339",
-    "customsEntryNumber": "327266672385",
-    "lotId": "218084605025",
+    "serialNumber": "291446167384",
+    "customsEntryNumber": "611218217112",
+    "tariffCodeNumber": "854547951878",
+    "carrierId": "999009473375",
     "signatureDate": "2021-02-16",
-    "importerSignatureDate": "2021-02-15",
     "intendedUse": "Processing",
-    "sensor": "quantify",
-    "program": "input",
-    "pixel": "parse",
-    "capacitor": "bypass"
+    "intendedUseCert": "Processing",
+    "bandwidth": "navigate"
   }
 ]
