@@ -3,62 +3,24 @@
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "email": "Judson.Stark@example.net",
-    "worksFor": {
-      "type": "Organization",
-      "name": "Aufderhar, Hagenes and Marks",
-      "description": "Virtual empowering attitude",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "684 Cronin Green",
-        "addressLocality": "South Karianne",
-        "addressRegion": "Massachusetts",
-        "postalCode": "51567",
-        "addressCountry": "Bangladesh"
-      },
-      "email": "Vernon94@example.org",
-      "phoneNumber": "555-558-4403",
-      "faxNumber": "555-194-7390"
-    },
-    "microchip": "navigate",
-    "program": "reboot"
+    "email": "Brendon.Pfannerstill81@example.org",
+    "jobTitle": "Principal Implementation Analyst",
+    "application": "quantify",
+    "monitor": "generate",
+    "pixel": "copy"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "phoneNumber": "555-328-5460",
-    "worksFor": {
-      "type": "Organization",
-      "name": "Schmitt Group",
-      "description": "Customer-focused homogeneous product",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "698 Senger Creek",
-        "addressLocality": "West Generalshire",
-        "addressRegion": "Vermont",
-        "postalCode": "05654",
-        "addressCountry": "Germany"
-      },
-      "email": "Lionel_Medhurst@example.com",
-      "phoneNumber": "555-244-1675",
-      "faxNumber": "555-388-9060"
-    },
-    "jobTitle": "Dynamic Security Associate",
-    "alarm": "navigate",
-    "circuit": "copy",
-    "interface": "reboot",
-    "microchip": "index"
+    "lastName": "Ledner",
+    "bus": "copy"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "Person",
-    "firstName": "Judge",
-    "lastName": "Mayert",
-    "phoneNumber": "555-287-5398",
-    "capacitor": "input",
-    "monitor": "input"
+    "firstName": "Bell",
+    "lastName": "McClure",
+    "phoneNumber": "555-751-1583",
+    "sensor": "calculate",
+    "protocol": "hack"
   }
 ]

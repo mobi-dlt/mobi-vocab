@@ -1,74 +1,44 @@
 [
   {
-    "transmitter": "calculate",
-    "microchip": "copy",
-    "hard drive": "input",
-    "monitor": "transmit"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "vid": {
-      "type": "VID",
-      "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-      "manufacturer": {
-        "type": "Organization",
-        "name": "Zieme - Casper",
-        "description": "Horizontal exuding hierarchy",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "3755 Stanton Mount",
-          "addressLocality": "Spencertown",
-          "addressRegion": "Tennessee",
-          "postalCode": "02797-3637",
-          "addressCountry": "Cameroon"
-        },
-        "email": "Mireya.Sauer59@example.com",
-        "phoneNumber": "555-857-3750",
-        "faxNumber": "555-523-8889"
-      },
-      "make": "Ford",
-      "model": "Mach_E",
-      "vin": "JTERU5JR7M5861170"
-    },
-    "batteryid": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
-    "serialNumber": "snumber",
-    "interface": "back up",
-    "feed": "override",
-    "driver": "back up"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
     "type": "BatteryID",
+    "sensor": "back up",
+    "bus": "quantify",
+    "feed": "override"
+  },
+  {
+    "transmitter": "quantify",
+    "array": "parse",
+    "port": "quantify"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
     "vid": {
       "type": "VID",
       "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
       "manufacturer": {
         "type": "Organization",
-        "name": "Mills, Glover and Bahringer",
-        "description": "Stand-alone eco-centric initiative",
+        "name": "O'Conner - Buckridge",
+        "description": "Universal systemic solution",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "304 Jayde Path",
-          "addressLocality": "Lucychester",
-          "addressRegion": "Arkansas",
-          "postalCode": "52575",
-          "addressCountry": "Australia"
+          "streetAddress": "100 Rutherford Ways",
+          "addressLocality": "East Eldora",
+          "addressRegion": "Alabama",
+          "postalCode": "81777",
+          "addressCountry": "Senegal"
         },
-        "email": "Arely69@example.com",
-        "phoneNumber": "555-643-5379",
-        "faxNumber": "555-708-6394"
+        "email": "Isobel6@example.com",
+        "phoneNumber": "555-794-6453",
+        "faxNumber": "555-166-9336"
       },
       "make": "Ford",
       "model": "Mach_E",
       "vin": "JTERU5JR7M5861170"
     },
-    "feed": "override",
-    "application": "transmit",
-    "firewall": "generate",
-    "system": "navigate"
+    "serialNumber": "snumber",
+    "alarm": "input",
+    "pixel": "calculate"
   }
 ]

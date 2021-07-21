@@ -4,49 +4,59 @@
       "https://w3id.org/traceability/v1"
     ],
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "vin": "JTERU5JR7M5861170",
-    "panel": "generate",
-    "array": "override",
-    "hard drive": "transmit"
-  },
-  {
-    "type": "VID",
-    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "manufacturer": {
       "type": "Person",
-      "firstName": "Constance",
-      "lastName": "Gulgowski",
-      "email": "Jewell_Schneider79@example.net",
-      "phoneNumber": "555-591-3724",
+      "firstName": "Kaya",
+      "lastName": "Lemke",
+      "email": "Cathryn83@example.com",
+      "phoneNumber": "555-238-5300",
       "worksFor": {
         "type": "Organization",
-        "name": "D'Amore - Blanda",
-        "description": "Versatile web-enabled interface",
+        "name": "Mohr Group",
+        "description": "Decentralized fault-tolerant algorithm",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "2839 Josianne Ville",
-          "addressLocality": "Jacobsland",
-          "addressRegion": "Nebraska",
-          "postalCode": "73371-5586",
-          "addressCountry": "Isle of Man"
+          "streetAddress": "37144 Tromp Glens",
+          "addressLocality": "Buckridgebury",
+          "addressRegion": "West Virginia",
+          "postalCode": "34846",
+          "addressCountry": "Zambia"
         },
-        "email": "Kay_Mueller62@example.com",
-        "phoneNumber": "555-741-1556",
-        "faxNumber": "555-893-6011"
+        "email": "Wallace_Heaney98@example.com",
+        "phoneNumber": "555-844-5908",
+        "faxNumber": "555-985-1793"
       },
-      "jobTitle": "Central Usability Executive"
+      "jobTitle": "Internal Division Director"
     },
-    "make": "Ford",
-    "model": "Mach_E",
     "vin": "JTERU5JR7M5861170",
-    "array": "bypass",
-    "card": "input"
+    "microchip": "bypass"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "matrix": "index",
-    "bandwidth": "input"
+    "driver": "hack",
+    "monitor": "transmit",
+    "hard drive": "hack",
+    "protocol": "transmit"
+  },
+  {
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "manufacturer": {
+      "type": "Organization",
+      "name": "Mayert - Reinger",
+      "description": "Synergistic tertiary utilisation",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "99194 Augustus Mission",
+        "addressLocality": "Lake Salma",
+        "addressRegion": "Missouri",
+        "postalCode": "33425-2574",
+        "addressCountry": "Honduras"
+      },
+      "email": "Gwendolyn_Kihn76@example.com",
+      "phoneNumber": "555-645-5601",
+      "faxNumber": "555-926-5430"
+    },
+    "bandwidth": "bypass",
+    "bus": "copy",
+    "system": "calculate"
   }
 ]

@@ -4,9 +4,18 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIauthority",
-    "validationAuthorityID": "RA000004",
-    "otherValidationAuthorityID": "RLFI07BG",
-    "validationAuthorityEntityID": "ISBL33FJ9PWS3M150PBO"
+    "validationAuthorityID": "RA000661",
+    "otherValidationAuthorityID": "D99WNIES",
+    "validationAuthorityEntityID": "0Z5UPVNE0J7987OI0L3C"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIauthority",
+    "validationAuthorityID": "RA000003",
+    "otherValidationAuthorityID": "QLUTTYEX",
+    "validationAuthorityEntityID": "O57EABW30M3Q7U046VKN"
   },
   {
     "@context": [
@@ -14,16 +23,7 @@
     ],
     "type": "LEIauthority",
     "validationAuthorityID": "RA000002",
-    "otherValidationAuthorityID": "C7OL1WES",
-    "validationAuthorityEntityID": "SXSZP07M8EZU396Z4MBS"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "LEIauthority",
-    "validationAuthorityID": "RA000001",
-    "otherValidationAuthorityID": "W01TB0LN",
-    "validationAuthorityEntityID": "LDHMTP2CT3H24LVINQ5I"
+    "otherValidationAuthorityID": "DL19TMCE",
+    "validationAuthorityEntityID": "RJDFUA7YZRS54VKHZWGS"
   }
 ]

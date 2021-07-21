@@ -1,26 +1,21 @@
 [
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
     "type": "LEIauthority",
-    "validationAuthorityID": "RA000004",
-    "validationAuthorityEntityID": "ISBL33FJ9PWS3M150PBO",
-    "system": "copy",
-    "feed": "synthesize"
+    "otherValidationAuthorityID": "D99WNIES",
+    "program": "parse",
+    "bandwidth": "transmit"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "type": "LEIauthority",
-    "otherValidationAuthorityID": "C7OL1WES",
-    "validationAuthorityEntityID": "SXSZP07M8EZU396Z4MBS",
-    "sensor": "input"
+    "array": "compress",
+    "transmitter": "navigate"
   },
   {
     "type": "LEIauthority",
-    "validationAuthorityEntityID": "LDHMTP2CT3H24LVINQ5I",
-    "microchip": "navigate"
+    "validationAuthorityEntityID": "RJDFUA7YZRS54VKHZWGS",
+    "monitor": "generate",
+    "feed": "calculate"
   }
 ]

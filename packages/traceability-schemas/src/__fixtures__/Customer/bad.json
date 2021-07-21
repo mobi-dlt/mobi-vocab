@@ -1,30 +1,44 @@
 [
   {
-    "name": "Adolfo Friesen",
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "email": "Clair34@example.com",
+    "program": "connect",
+    "monitor": "back up",
+    "card": "override"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "6934 Guiseppe Row",
-      "addressLocality": "Annettaberg",
-      "addressRegion": "South Carolina",
-      "postalCode": "20436",
-      "addressCountry": "Palau"
+      "streetAddress": "934 Kiana Oval",
+      "addressLocality": "Wuckerthaven",
+      "addressRegion": "Arkansas",
+      "postalCode": "33182",
+      "addressCountry": "Georgia"
     },
-    "telephone": "555-915-6651",
-    "email": "Carson54@example.net",
-    "array": "navigate"
+    "email": "Charlie.Ziemann95@example.org",
+    "capacitor": "program",
+    "feed": "reboot"
   },
   {
-    "name": "Grady Blanda",
-    "email": "Leland.DuBuque@example.org",
-    "matrix": "navigate",
-    "port": "quantify",
-    "feed": "connect"
-  },
-  {
-    "email": "Margaretta_Emard10@example.net",
-    "circuit": "back up",
-    "monitor": "reboot",
-    "driver": "back up",
-    "program": "navigate"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Customer",
+    "name": "Sheridan Hauck",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "9285 Fritsch Throughway",
+      "addressLocality": "North Remingtonburgh",
+      "addressRegion": "Maine",
+      "postalCode": "13587-2296",
+      "addressCountry": "Kenya"
+    },
+    "telephone": "555-145-9010",
+    "microchip": "generate"
   }
 ]

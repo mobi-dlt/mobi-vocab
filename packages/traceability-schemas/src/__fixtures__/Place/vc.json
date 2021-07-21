@@ -14,26 +14,26 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Place",
-    "globalLocationNumber": "3819914139952",
+    "globalLocationNumber": "1526958725875",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "17.6654",
-      "longitude": "114.3117"
+      "latitude": "-29.8371",
+      "longitude": "88.5331"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Zboncak - Wuckert",
-      "streetAddress": "3061 Yolanda Harbor",
-      "addressLocality": "Irwinmouth",
-      "addressRegion": "New York",
-      "postalCode": "17762",
-      "addressCountry": "Germany"
+      "organizationName": "Wunsch, Quigley and Ebert",
+      "streetAddress": "855 Corkery Loaf",
+      "addressLocality": "West Mustafaview",
+      "addressRegion": "Idaho",
+      "postalCode": "32058",
+      "addressCountry": "Russian Federation"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..joT8jhH2SHA_JFVbi2aB1fkpOwzO_DK-M7K6aCvE3PYBarqN8IN3QOnwDn9gAhyDjS2ML10LTjLQ21HyxvwOCA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..v3WUJQ6ePTx3fmWRO9aceL3IylvxL5dNOE3odg5vB3fBhDqRUzPAxzfVlJYKjGLwYRkLVAlg_239qyIUVXjyCg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -1,15 +1,24 @@
 [
   {
-    "panel": "quantify",
-    "protocol": "transmit",
-    "driver": "input",
-    "alarm": "synthesize"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "QuantitativeValue",
+    "value": "6015",
+    "feed": "generate",
+    "array": "generate"
   },
   {
-    "pixel": "back up",
-    "transmitter": "compress"
+    "type": "QuantitativeValue",
+    "value": "1664",
+    "circuit": "input"
   },
   {
-    "bus": "hack"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "unitCode": "hg/ha",
+    "value": "9467",
+    "firewall": "calculate"
   }
 ]

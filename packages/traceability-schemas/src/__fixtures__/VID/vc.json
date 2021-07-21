@@ -16,20 +16,28 @@
     "type": "VID",
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "manufacturer": {
-      "type": "Organization",
-      "name": "Littel - Gottlieb",
-      "description": "User-friendly value-added capacity",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "4435 VonRueden Ports",
-        "addressLocality": "Gregoriashire",
-        "addressRegion": "Georgia",
-        "postalCode": "25825",
-        "addressCountry": "Togo"
+      "type": "Person",
+      "firstName": "Kaya",
+      "lastName": "Lemke",
+      "email": "Cathryn83@example.com",
+      "phoneNumber": "555-238-5300",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Mohr Group",
+        "description": "Decentralized fault-tolerant algorithm",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "37144 Tromp Glens",
+          "addressLocality": "Buckridgebury",
+          "addressRegion": "West Virginia",
+          "postalCode": "34846",
+          "addressCountry": "Zambia"
+        },
+        "email": "Wallace_Heaney98@example.com",
+        "phoneNumber": "555-844-5908",
+        "faxNumber": "555-985-1793"
       },
-      "email": "Jaunita_Boehm@example.net",
-      "phoneNumber": "555-509-9740",
-      "faxNumber": "555-234-8076"
+      "jobTitle": "Internal Division Director"
     },
     "make": "Ford",
     "model": "Mach_E",
@@ -38,7 +46,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..fXORhHHXRQD7UdjCEq9Q1F4AT2RVyDO_rgdjNsbboWNmAoRdNfMSRDAW7XKzUFdl4QNcVSgwEVw82I1h0uXUAA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..n0_g28EV6oEvkVhuOgEZXCW_Ic0Ca34mho7SLqTkWYeTtDyvx6CPmhju4nqA6rjv7FY0nE3mcU2l4TdDdPB6BQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

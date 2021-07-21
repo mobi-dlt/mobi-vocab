@@ -3,24 +3,29 @@
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "name": "Beatty, Pacocha and Sporer",
+    "type": "ContactPoint",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "062 Noemi Via",
-      "addressLocality": "South Karson",
-      "addressRegion": "Georgia",
-      "postalCode": "40518",
-      "addressCountry": "Jersey"
+      "streetAddress": "6912 Lindgren Pines",
+      "addressLocality": "Doyleberg",
+      "addressRegion": "West Virginia",
+      "postalCode": "52618",
+      "addressCountry": "Uganda"
     },
-    "microchip": "calculate"
+    "transmitter": "hack",
+    "circuit": "navigate"
   },
   {
-    "application": "synthesize",
-    "card": "compress"
+    "card": "hack",
+    "port": "parse",
+    "driver": "compress"
   },
   {
-    "phoneNumber": "555-824-6709",
-    "sensor": "reboot",
-    "alarm": "back up"
+    "type": "ContactPoint",
+    "email": "Fredy_Kovacek@example.net",
+    "bus": "hack",
+    "card": "generate",
+    "microchip": "synthesize",
+    "driver": "program"
   }
 ]

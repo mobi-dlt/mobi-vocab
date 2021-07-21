@@ -1,42 +1,19 @@
 [
   {
     "type": "Place",
-    "geo": {
-      "type": "GeoCoordinates",
-      "latitude": "17.6654",
-      "longitude": "114.3117"
-    },
-    "system": "back up",
-    "circuit": "program",
-    "bus": "program"
+    "microchip": "index",
+    "alarm": "calculate",
+    "sensor": "transmit"
   },
   {
-    "globalLocationNumber": "6312280666550",
-    "port": "compress",
-    "capacitor": "connect",
-    "firewall": "synthesize",
-    "transmitter": "bypass"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
     "type": "Place",
-    "geo": {
-      "type": "GeoCoordinates",
-      "latitude": "-71.9620",
-      "longitude": "32.1755"
-    },
-    "address": {
-      "type": "PostalAddress",
-      "organizationName": "Paucek, Adams and Hills",
-      "streetAddress": "4136 Breanne Station",
-      "addressLocality": "Port Reba",
-      "addressRegion": "New York",
-      "postalCode": "84493-8970",
-      "addressCountry": "French Guiana"
-    },
-    "program": "parse",
-    "system": "calculate"
+    "protocol": "compress",
+    "bus": "index",
+    "program": "program",
+    "interface": "program"
+  },
+  {
+    "protocol": "back up",
+    "port": "back up"
   }
 ]

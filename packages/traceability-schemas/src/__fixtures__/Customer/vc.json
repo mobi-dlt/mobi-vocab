@@ -14,22 +14,22 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Customer",
-    "name": "Adolfo Friesen",
+    "name": "Stephan Tillman",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "6934 Guiseppe Row",
-      "addressLocality": "Annettaberg",
-      "addressRegion": "South Carolina",
-      "postalCode": "20436",
-      "addressCountry": "Palau"
+      "streetAddress": "868 Carolyne Cliffs",
+      "addressLocality": "Trompfurt",
+      "addressRegion": "New Mexico",
+      "postalCode": "03196-9021",
+      "addressCountry": "French Southern Territories"
     },
-    "telephone": "555-915-6651",
-    "email": "Carson54@example.net"
+    "telephone": "555-907-6024",
+    "email": "Clair34@example.com"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..CLjvFCIgisKXFbed6akT2RHcJztDFzAEcOld5DZPum5StnJznJrzzXCYczbTvdCHscxCrl_twR1bocMCgjeBAg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..8jK6j62IwpaEdTVaMo17IuUu1j052rlZVVh_YfndXpgRdrPrCob6MSzshCbLYzl8z_uqjaL8ekF33Vah7A1hAg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

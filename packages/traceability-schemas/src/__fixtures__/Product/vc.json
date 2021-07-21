@@ -15,39 +15,47 @@
     ],
     "type": "Product",
     "manufacturer": {
-      "type": "Organization",
-      "name": "Carter Group",
-      "description": "Seamless bandwidth-monitored forecast",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "705 Ansel Field",
-        "addressLocality": "Keyonborough",
-        "addressRegion": "Pennsylvania",
-        "postalCode": "12855",
-        "addressCountry": "Venezuela"
+      "type": "Person",
+      "firstName": "Madison",
+      "lastName": "Klein",
+      "email": "Graciela77@example.net",
+      "phoneNumber": "555-194-4347",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Bergnaum - Botsford",
+        "description": "Multi-lateral encompassing support",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "153 Nicklaus Shores",
+          "addressLocality": "Ahmedville",
+          "addressRegion": "Connecticut",
+          "postalCode": "68182-2945",
+          "addressCountry": "Western Sahara"
+        },
+        "email": "Kaley_Hudson@example.org",
+        "phoneNumber": "555-775-7948",
+        "faxNumber": "555-602-1244"
       },
-      "email": "Dana_Stark@example.com",
-      "phoneNumber": "555-720-2800",
-      "faxNumber": "555-974-1857"
+      "jobTitle": "District Usability Officer"
     },
-    "name": "Handmade Metal Pants",
+    "name": "Gorgeous Plastic Bacon",
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "5069"
+      "value": "1875"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "5945"
+      "value": "949"
     },
-    "sku": "452034057861"
+    "sku": "577597588586"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Tz8hMzancbi9oWpv_yNtcpyraRWbdwhwBiV9NWZgq7LW0_GFux_Yg3L0ZgG1FufWdTUj5pfD2MaoT6-g4F9mAQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..J0l9FJsScNFkGHFbTR7VBRFgFGmrZgdMjxd3wUumWvnWv21j2rbjVCMwt7_1DdpMt3aD5EeRek7VML2wL-eTBw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

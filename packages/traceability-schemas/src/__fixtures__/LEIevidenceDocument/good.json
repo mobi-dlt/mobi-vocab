@@ -4,172 +4,172 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIevidenceDocument",
-    "lei": "A2795RBV370GSG4VRRSI",
+    "lei": "51FQXWFUMYER9FZBEBWQ",
     "entity": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": "LEIentity",
-      "legalName": "Senger, Crist and Thiel",
-      "legalNameLanguage": "fa",
+      "legalName": "Schinner - Cole",
+      "legalNameLanguage": "pt_BR",
       "otherNames": [
-        "Abbott - Johnson",
-        "Ratke - Romaguera"
+        "Russel and Sons",
+        "Lehner, Rowe and Auer"
       ],
       "transliteratedOtherNames": [
-        "Abbott - Johnson",
-        "Ratke - Romaguera"
+        "Russel and Sons",
+        "Lehner, Rowe and Auer"
       ],
       "legalAddress": {
         "type": "LEIaddress",
-        "language": "fr_CH",
+        "language": "ar",
         "addressLines": [
-          "Murray - Pfeffer",
-          "83439 Khalil Landing"
+          "Waelchi, Wisoky and Morissette",
+          "15166 Macejkovic Forge"
         ],
-        "addressNumber": "245",
-        "addressNumberWithinBuilding": "7",
-        "mailRouting": "92399 Axel Ville, 06119-8155",
-        "city": "Stantonfurt",
-        "region": "Bedfordshire",
-        "country": "Belarus",
-        "postalCode": "86723"
+        "addressNumber": "232",
+        "addressNumberWithinBuilding": "5",
+        "mailRouting": "24106 Glover Pass, 74394-1040",
+        "city": "Gladycebury",
+        "region": "Buckinghamshire",
+        "country": "Cocos (Keeling) Islands",
+        "postalCode": "96726"
       },
       "headquartersAddress": {
         "type": "LEIaddress",
-        "language": "sk",
+        "language": "ne",
         "addressLines": [
-          "Graham and Sons",
-          "80549 Rahul Glens"
+          "Stokes, Wilderman and Satterfield",
+          "112 Keyshawn Course"
         ],
-        "addressNumber": "338",
-        "addressNumberWithinBuilding": "3",
-        "mailRouting": "8945 Leilani Place, 83442",
-        "city": "Dillonmouth",
-        "region": "Berkshire",
-        "country": "Panama",
-        "postalCode": "44349-0574"
-      },
-      "registrationAuthority": {
-        "type": "LEIauthority",
-        "validationAuthorityID": "RA000003",
-        "otherValidationAuthorityID": "7N7REY8H",
-        "validationAuthorityEntityID": "L4DFGHJW7E5YVHFZE01W"
-      },
-      "legalJurisdiction": "Berkshire",
-      "entityCategory": "Finance",
-      "legalForm": "LLC",
-      "associatedEntity": {
-        "type": "Organization",
-        "leiCode": "JOBU50QELWNQ0JXJ2CDI",
-        "name": "Macejkovic, Ankunding and Quigley"
-      },
-      "status": "REQUESTED",
-      "expirationDate": "2022-07-11",
-      "expirationReason": "leverage world-class ROI",
-      "successorEntity": {
-        "type": "Organization",
-        "leiCode": "0T2Y74IHJ7126BH5LP5J",
-        "name": "Considine - Turner"
-      },
-      "otherAddresses": []
-    },
-    "registration": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "LEIregistration",
-      "initialRegistrationDate": "2020-01-01",
-      "lastUpdateDate": "2020-01-01",
-      "status": "REQUESTED",
-      "nextRenewalDate": "2021-02-02",
-      "managingLou": "PJZBPXMKOLYJVQIUGQGT",
-      "validationSources": "PARTIALLY_CORROBORATED",
-      "validationAuthority": [
-        {
-          "type": "LEIauthority",
-          "validationAuthorityID": "RA000004",
-          "otherValidationAuthorityID": "0ZTZ6VLE",
-          "validationAuthorityEntityID": "COLEBN3B8L6IF0NS900A"
-        }
-      ]
-    },
-    "bic": [
-      "XTWNNPIERI"
-    ]
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "LEIevidenceDocument",
-    "lei": "UU2I1O9VWHTBORP7QDXV",
-    "entity": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "LEIentity",
-      "legalName": "McLaughlin - Green",
-      "legalNameLanguage": "en_IE",
-      "otherNames": [
-        "Kshlerin, Hudson and King",
-        "Cartwright Inc"
-      ],
-      "transliteratedOtherNames": [
-        "Kshlerin, Hudson and King",
-        "Cartwright Inc"
-      ],
-      "legalAddress": {
-        "type": "LEIaddress",
-        "language": "en_AU",
-        "addressLines": [
-          "Grady - Kemmer",
-          "56171 Waters Manors"
-        ],
-        "addressNumber": "368",
-        "addressNumberWithinBuilding": "6",
-        "mailRouting": "76711 Chadd Forges, 93822-3372",
-        "city": "South Myles",
+        "addressNumber": "363",
+        "addressNumberWithinBuilding": "5",
+        "mailRouting": "04462 Macejkovic River, 09305-5083",
+        "city": "North Rettaton",
         "region": "Avon",
-        "country": "Denmark",
-        "postalCode": "16852"
-      },
-      "headquartersAddress": {
-        "type": "LEIaddress",
-        "language": "tr",
-        "addressLines": [
-          "Cruickshank LLC",
-          "23519 Diamond Fork"
-        ],
-        "addressNumber": "396",
-        "addressNumberWithinBuilding": "1",
-        "mailRouting": "5045 Brando Village, 91227",
-        "city": "Hayesborough",
-        "region": "Avon",
-        "country": "Singapore",
-        "postalCode": "88331"
+        "country": "Tunisia",
+        "postalCode": "33195"
       },
       "registrationAuthority": {
         "type": "LEIauthority",
         "validationAuthorityID": "RA000004",
-        "otherValidationAuthorityID": "NFKGG0H4",
-        "validationAuthorityEntityID": "Q634OCWY2I5MPCFBE04I"
+        "otherValidationAuthorityID": "7OOST716",
+        "validationAuthorityEntityID": "O3YM4PW1LXM1MJAPXVYP"
       },
-      "legalJurisdiction": "Borders",
-      "entityCategory": "Industrial",
-      "legalForm": "CORPORATION",
+      "legalJurisdiction": "Bedfordshire",
+      "entityCategory": "Finance",
+      "legalForm": "LLC",
       "associatedEntity": {
         "type": "Organization",
-        "leiCode": "TQMEN77CNAF65QT9IGZD",
-        "name": "Kreiger Group"
+        "leiCode": "8Q771VNPDKVGHJY567V3",
+        "name": "Moore - Schultz"
       },
-      "status": "IN PROGRESS",
+      "status": "CONFIRMED",
       "expirationDate": "2022-07-11",
-      "expirationReason": "target end-to-end action-items",
+      "expirationReason": "optimize world-class functionalities",
       "successorEntity": {
         "type": "Organization",
-        "leiCode": "H5ZJORUAE7RI154N7LE3",
-        "name": "Bashirian, Hegmann and Mraz"
+        "leiCode": "JJLTSGHN1I5QF2Q2L8N5",
+        "name": "Swaniawski - Morissette"
+      },
+      "otherAddresses": []
+    },
+    "registration": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "LEIregistration",
+      "initialRegistrationDate": "2020-01-01",
+      "lastUpdateDate": "2020-01-01",
+      "status": "REQUESTED",
+      "nextRenewalDate": "2021-02-02",
+      "managingLou": "BKAFGVMEWYSKTWLQITJT",
+      "validationSources": "NOT_CORROBORATED",
+      "validationAuthority": [
+        {
+          "type": "LEIauthority",
+          "validationAuthorityID": "RA000661",
+          "otherValidationAuthorityID": "7BZGCQ6V",
+          "validationAuthorityEntityID": "SFN1H5J0PN8BZJZHN27E"
+        }
+      ]
+    },
+    "bic": [
+      "NBOWLCHWYZ"
+    ]
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIevidenceDocument",
+    "lei": "9ZLAWC7DMGMUQ84RPEWL",
+    "entity": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "LEIentity",
+      "legalName": "Wisozk and Sons",
+      "legalNameLanguage": "es",
+      "otherNames": [
+        "Medhurst - Boyer",
+        "O'Hara and Sons"
+      ],
+      "transliteratedOtherNames": [
+        "Medhurst - Boyer",
+        "O'Hara and Sons"
+      ],
+      "legalAddress": {
+        "type": "LEIaddress",
+        "language": "sk",
+        "addressLines": [
+          "Altenwerth - Hane",
+          "9242 Anya Fords"
+        ],
+        "addressNumber": "300",
+        "addressNumberWithinBuilding": "2",
+        "mailRouting": "1354 Rhoda Hill, 44256",
+        "city": "Quigleyberg",
+        "region": "Buckinghamshire",
+        "country": "Mongolia",
+        "postalCode": "31306"
+      },
+      "headquartersAddress": {
+        "type": "LEIaddress",
+        "language": "nl_BE",
+        "addressLines": [
+          "Ondricka - Lesch",
+          "458 Constantin Track"
+        ],
+        "addressNumber": "423",
+        "addressNumberWithinBuilding": "8",
+        "mailRouting": "1029 Lemke Causeway, 90061",
+        "city": "South Chelsieside",
+        "region": "Buckinghamshire",
+        "country": "Kuwait",
+        "postalCode": "31550"
+      },
+      "registrationAuthority": {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000001",
+        "otherValidationAuthorityID": "O5EZHYO0",
+        "validationAuthorityEntityID": "0YBNZVKG9IIHCOJ5414B"
+      },
+      "legalJurisdiction": "Bedfordshire",
+      "entityCategory": "Jewelery",
+      "legalForm": "LLC",
+      "associatedEntity": {
+        "type": "Organization",
+        "leiCode": "6M8DYI6EU2HF83VEGLIK",
+        "name": "Reynolds LLC"
+      },
+      "status": "REQUESTED",
+      "expirationDate": "2022-07-11",
+      "expirationReason": "redefine mission-critical partnerships",
+      "successorEntity": {
+        "type": "Organization",
+        "leiCode": "QO5F8VY69ONUZYDO0H8M",
+        "name": "Stroman, Stracke and Marks"
       },
       "otherAddresses": []
     },
@@ -182,19 +182,19 @@
       "lastUpdateDate": "2020-01-01",
       "status": "IN PROGRESS",
       "nextRenewalDate": "2021-02-02",
-      "managingLou": "GPIBKRSANUYRBINHPUXU",
+      "managingLou": "TUCOHTCWQKTIYRLVXTWU",
       "validationSources": "FULLY_CORROBORATED",
       "validationAuthority": [
         {
           "type": "LEIauthority",
-          "validationAuthorityID": "RA000003",
-          "otherValidationAuthorityID": "NAP3LRCB",
-          "validationAuthorityEntityID": "KGC83MZA4Y2PV4AFNDBJ"
+          "validationAuthorityID": "RA000005",
+          "otherValidationAuthorityID": "R14XSOXO",
+          "validationAuthorityEntityID": "L7XNTEONK3CN5ZL1BZVE"
         }
       ]
     },
     "bic": [
-      "JOHWMEVLTX"
+      "LWVJBQXUKR"
     ]
   },
   {
@@ -202,73 +202,73 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIevidenceDocument",
-    "lei": "NZFN12XIGH15OXHF4Z7F",
+    "lei": "KPDDJGL8JDF802LL6ONM",
     "entity": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": "LEIentity",
-      "legalName": "Collier, Fahey and Osinski",
-      "legalNameLanguage": "id_ID",
+      "legalName": "Rogahn, Raynor and Rau",
+      "legalNameLanguage": "en_GB",
       "otherNames": [
-        "O'Conner - Pouros",
-        "Nienow - Von"
+        "Kreiger - Mohr",
+        "Runolfsdottir - Lowe"
       ],
       "transliteratedOtherNames": [
-        "O'Conner - Pouros",
-        "Nienow - Von"
+        "Kreiger - Mohr",
+        "Runolfsdottir - Lowe"
       ],
       "legalAddress": {
         "type": "LEIaddress",
-        "language": "az",
+        "language": "ge",
         "addressLines": [
-          "Walsh, Macejkovic and Bruen",
-          "312 Torrey Stravenue"
+          "Schuster Inc",
+          "89269 Donnelly Isle"
         ],
-        "addressNumber": "397",
-        "addressNumberWithinBuilding": "4",
-        "mailRouting": "9093 Fleta Neck, 07064-3301",
-        "city": "West Rico",
+        "addressNumber": "449",
+        "addressNumberWithinBuilding": "7",
+        "mailRouting": "431 Kuhic Corners, 25263-9855",
+        "city": "Elvieton",
         "region": "Avon",
-        "country": "Canada",
-        "postalCode": "98420"
+        "country": "Italy",
+        "postalCode": "77329-4815"
       },
       "headquartersAddress": {
         "type": "LEIaddress",
-        "language": "it",
+        "language": "en_AU_ocker",
         "addressLines": [
-          "Kuvalis and Sons",
-          "9331 Sauer Unions"
+          "Parker Group",
+          "217 Gerhold Parks"
         ],
-        "addressNumber": "472",
-        "addressNumberWithinBuilding": "1",
-        "mailRouting": "73656 Marquise Trafficway, 15194-7170",
-        "city": "Schneiderberg",
-        "region": "Borders",
-        "country": "Australia",
-        "postalCode": "08415"
+        "addressNumber": "263",
+        "addressNumberWithinBuilding": "2",
+        "mailRouting": "944 Raven Club, 30561-9066",
+        "city": "Larkinhaven",
+        "region": "Buckinghamshire",
+        "country": "Christmas Island",
+        "postalCode": "27266-1438"
       },
       "registrationAuthority": {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000003",
-        "otherValidationAuthorityID": "ZTLFQK3I",
-        "validationAuthorityEntityID": "V1UMNTI5PL0LL5U4CZ3E"
+        "validationAuthorityID": "RA000005",
+        "otherValidationAuthorityID": "WWRCK89S",
+        "validationAuthorityEntityID": "A9QTUFOOT3RM5GFL568Q"
       },
-      "legalJurisdiction": "Avon",
-      "entityCategory": "Grocery",
-      "legalForm": "LLC",
+      "legalJurisdiction": "Cambridgeshire",
+      "entityCategory": "Finance",
+      "legalForm": "CORPORATION",
       "associatedEntity": {
         "type": "Organization",
-        "leiCode": "2LK3MGI8TUUSMT0QPTF7",
-        "name": "Breitenberg LLC"
+        "leiCode": "RGIDJVYIUHW0TC3D5EIK",
+        "name": "Leuschke Inc"
       },
       "status": "REQUESTED",
       "expirationDate": "2022-07-11",
-      "expirationReason": "maximize intuitive systems",
+      "expirationReason": "utilize granular systems",
       "successorEntity": {
         "type": "Organization",
-        "leiCode": "S32WOEDBRGYE4VBXTA9V",
-        "name": "Sauer Group"
+        "leiCode": "8L7JM89EML2H5Z94LPOE",
+        "name": "Keebler - Kilback"
       },
       "otherAddresses": []
     },
@@ -281,19 +281,19 @@
       "lastUpdateDate": "2020-01-01",
       "status": "REJECTED",
       "nextRenewalDate": "2021-02-02",
-      "managingLou": "LRAYOURUPNTEOLBODRPP",
+      "managingLou": "BLNVBRUBGQOHWPQRNGIL",
       "validationSources": "FULLY_CORROBORATED",
       "validationAuthority": [
         {
           "type": "LEIauthority",
-          "validationAuthorityID": "RA000004",
-          "otherValidationAuthorityID": "XZ8KKA9E",
-          "validationAuthorityEntityID": "T60RKRCVB0NKU7LCUS96"
+          "validationAuthorityID": "RA000003",
+          "otherValidationAuthorityID": "PQO0ZC4T",
+          "validationAuthorityEntityID": "3LQCKW9R293NWL6EBD8C"
         }
       ]
     },
     "bic": [
-      "KCGLCGTEYN"
+      "ERBZHKQJPK"
     ]
   }
 ]

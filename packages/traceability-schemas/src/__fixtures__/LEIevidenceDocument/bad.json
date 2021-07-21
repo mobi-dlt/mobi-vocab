@@ -1,177 +1,6 @@
 [
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "lei": "A2795RBV370GSG4VRRSI",
-    "entity": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "LEIentity",
-      "legalName": "Senger, Crist and Thiel",
-      "legalNameLanguage": "fa",
-      "otherNames": [
-        "Abbott - Johnson",
-        "Ratke - Romaguera"
-      ],
-      "transliteratedOtherNames": [
-        "Abbott - Johnson",
-        "Ratke - Romaguera"
-      ],
-      "legalAddress": {
-        "type": "LEIaddress",
-        "language": "fr_CH",
-        "addressLines": [
-          "Murray - Pfeffer",
-          "83439 Khalil Landing"
-        ],
-        "addressNumber": "245",
-        "addressNumberWithinBuilding": "7",
-        "mailRouting": "92399 Axel Ville, 06119-8155",
-        "city": "Stantonfurt",
-        "region": "Bedfordshire",
-        "country": "Belarus",
-        "postalCode": "86723"
-      },
-      "headquartersAddress": {
-        "type": "LEIaddress",
-        "language": "sk",
-        "addressLines": [
-          "Graham and Sons",
-          "80549 Rahul Glens"
-        ],
-        "addressNumber": "338",
-        "addressNumberWithinBuilding": "3",
-        "mailRouting": "8945 Leilani Place, 83442",
-        "city": "Dillonmouth",
-        "region": "Berkshire",
-        "country": "Panama",
-        "postalCode": "44349-0574"
-      },
-      "registrationAuthority": {
-        "type": "LEIauthority",
-        "validationAuthorityID": "RA000003",
-        "otherValidationAuthorityID": "7N7REY8H",
-        "validationAuthorityEntityID": "L4DFGHJW7E5YVHFZE01W"
-      },
-      "legalJurisdiction": "Berkshire",
-      "entityCategory": "Finance",
-      "legalForm": "LLC",
-      "associatedEntity": {
-        "type": "Organization",
-        "leiCode": "JOBU50QELWNQ0JXJ2CDI",
-        "name": "Macejkovic, Ankunding and Quigley"
-      },
-      "status": "REQUESTED",
-      "expirationDate": "2022-07-11",
-      "expirationReason": "leverage world-class ROI",
-      "successorEntity": {
-        "type": "Organization",
-        "leiCode": "0T2Y74IHJ7126BH5LP5J",
-        "name": "Considine - Turner"
-      },
-      "otherAddresses": []
-    },
-    "registration": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "LEIregistration",
-      "initialRegistrationDate": "2020-01-01",
-      "lastUpdateDate": "2020-01-01",
-      "status": "REQUESTED",
-      "nextRenewalDate": "2021-02-02",
-      "managingLou": "PJZBPXMKOLYJVQIUGQGT",
-      "validationSources": "PARTIALLY_CORROBORATED",
-      "validationAuthority": [
-        {
-          "type": "LEIauthority",
-          "validationAuthorityID": "RA000004",
-          "otherValidationAuthorityID": "0ZTZ6VLE",
-          "validationAuthorityEntityID": "COLEBN3B8L6IF0NS900A"
-        }
-      ]
-    },
-    "bic": [
-      "XTWNNPIERI"
-    ],
-    "alarm": "transmit",
-    "firewall": "copy",
-    "monitor": "calculate"
-  },
-  {
     "type": "LEIevidenceDocument",
-    "lei": "UU2I1O9VWHTBORP7QDXV",
-    "entity": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "LEIentity",
-      "legalName": "McLaughlin - Green",
-      "legalNameLanguage": "en_IE",
-      "otherNames": [
-        "Kshlerin, Hudson and King",
-        "Cartwright Inc"
-      ],
-      "transliteratedOtherNames": [
-        "Kshlerin, Hudson and King",
-        "Cartwright Inc"
-      ],
-      "legalAddress": {
-        "type": "LEIaddress",
-        "language": "en_AU",
-        "addressLines": [
-          "Grady - Kemmer",
-          "56171 Waters Manors"
-        ],
-        "addressNumber": "368",
-        "addressNumberWithinBuilding": "6",
-        "mailRouting": "76711 Chadd Forges, 93822-3372",
-        "city": "South Myles",
-        "region": "Avon",
-        "country": "Denmark",
-        "postalCode": "16852"
-      },
-      "headquartersAddress": {
-        "type": "LEIaddress",
-        "language": "tr",
-        "addressLines": [
-          "Cruickshank LLC",
-          "23519 Diamond Fork"
-        ],
-        "addressNumber": "396",
-        "addressNumberWithinBuilding": "1",
-        "mailRouting": "5045 Brando Village, 91227",
-        "city": "Hayesborough",
-        "region": "Avon",
-        "country": "Singapore",
-        "postalCode": "88331"
-      },
-      "registrationAuthority": {
-        "type": "LEIauthority",
-        "validationAuthorityID": "RA000004",
-        "otherValidationAuthorityID": "NFKGG0H4",
-        "validationAuthorityEntityID": "Q634OCWY2I5MPCFBE04I"
-      },
-      "legalJurisdiction": "Borders",
-      "entityCategory": "Industrial",
-      "legalForm": "CORPORATION",
-      "associatedEntity": {
-        "type": "Organization",
-        "leiCode": "TQMEN77CNAF65QT9IGZD",
-        "name": "Kreiger Group"
-      },
-      "status": "IN PROGRESS",
-      "expirationDate": "2022-07-11",
-      "expirationReason": "target end-to-end action-items",
-      "successorEntity": {
-        "type": "Organization",
-        "leiCode": "H5ZJORUAE7RI154N7LE3",
-        "name": "Bashirian, Hegmann and Mraz"
-      },
-      "otherAddresses": []
-    },
     "registration": {
       "@context": [
         "https://w3id.org/traceability/v1"
@@ -179,28 +8,39 @@
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",
       "lastUpdateDate": "2020-01-01",
-      "status": "IN PROGRESS",
+      "status": "REQUESTED",
       "nextRenewalDate": "2021-02-02",
-      "managingLou": "GPIBKRSANUYRBINHPUXU",
-      "validationSources": "FULLY_CORROBORATED",
+      "managingLou": "BKAFGVMEWYSKTWLQITJT",
+      "validationSources": "NOT_CORROBORATED",
       "validationAuthority": [
         {
           "type": "LEIauthority",
-          "validationAuthorityID": "RA000003",
-          "otherValidationAuthorityID": "NAP3LRCB",
-          "validationAuthorityEntityID": "KGC83MZA4Y2PV4AFNDBJ"
+          "validationAuthorityID": "RA000661",
+          "otherValidationAuthorityID": "7BZGCQ6V",
+          "validationAuthorityEntityID": "SFN1H5J0PN8BZJZHN27E"
         }
       ]
     },
-    "driver": "hack"
+    "sensor": "quantify",
+    "bus": "quantify"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "lei": "NZFN12XIGH15OXHF4Z7F",
-    "alarm": "navigate",
-    "card": "compress",
-    "application": "input"
+    "type": "LEIevidenceDocument",
+    "lei": "9ZLAWC7DMGMUQ84RPEWL",
+    "bic": [
+      "LWVJBQXUKR"
+    ],
+    "card": "copy"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIevidenceDocument",
+    "sensor": "navigate",
+    "protocol": "quantify"
   }
 ]

@@ -3,21 +3,19 @@
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "price": 1125,
-    "card": "parse",
-    "circuit": "copy",
-    "feed": "generate"
+    "type": "PriceSpecification",
+    "priceCurrency": "NOK",
+    "sensor": "program"
   },
   {
-    "price": 8798,
-    "capacitor": "hack",
-    "sensor": "navigate",
-    "firewall": "navigate",
-    "pixel": "back up"
+    "priceCurrency": "IQD",
+    "application": "generate"
   },
   {
-    "microchip": "calculate",
-    "interface": "navigate",
-    "transmitter": "hack"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "price": 8066,
+    "transmitter": "transmit"
   }
 ]

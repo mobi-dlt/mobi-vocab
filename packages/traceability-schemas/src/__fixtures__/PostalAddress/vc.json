@@ -14,17 +14,17 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "PostalAddress",
-    "organizationName": "Luettgen - Sipes",
-    "streetAddress": "844 Huel Shores",
-    "addressLocality": "Shanahanville",
+    "organizationName": "Gorczany Inc",
+    "streetAddress": "97292 Hilda Islands",
+    "addressLocality": "Lake Oren",
     "addressRegion": "Indiana",
-    "postalCode": "20534-9613",
-    "addressCountry": "Isle of Man"
+    "postalCode": "14800",
+    "addressCountry": "Bahamas"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..EVNoIinPpAVCYN1-LZcPx5Nxoaz-mt3Mhm6YpKPHpPEf4zdRRej7CbMBViTlTgAsstjVUoR5ThZ3XGjPm-4sBg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..6TxNR5IGP4XmOjCBSJ6437A2I8TwhO8hip7WUKdNgUFW9jXZoS8gbvaqGdU-I7DWkSEtYbfKJRNssuEVIOYQAA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

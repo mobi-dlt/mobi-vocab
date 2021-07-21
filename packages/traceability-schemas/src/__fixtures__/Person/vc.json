@@ -14,32 +14,32 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Person",
-    "firstName": "Alycia",
-    "lastName": "Zieme",
-    "email": "Judson.Stark@example.net",
-    "phoneNumber": "555-307-5690",
+    "firstName": "Monique",
+    "lastName": "Cruickshank",
+    "email": "Brendon.Pfannerstill81@example.org",
+    "phoneNumber": "555-585-1388",
     "worksFor": {
       "type": "Organization",
-      "name": "Aufderhar, Hagenes and Marks",
-      "description": "Virtual empowering attitude",
+      "name": "Sanford - Davis",
+      "description": "Profound 6th generation circuit",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "684 Cronin Green",
-        "addressLocality": "South Karianne",
-        "addressRegion": "Massachusetts",
-        "postalCode": "51567",
-        "addressCountry": "Bangladesh"
+        "streetAddress": "148 Zachery Branch",
+        "addressLocality": "New Ray",
+        "addressRegion": "Kansas",
+        "postalCode": "88295-2672",
+        "addressCountry": "Kiribati"
       },
-      "email": "Vernon94@example.org",
-      "phoneNumber": "555-558-4403",
-      "faxNumber": "555-194-7390"
+      "email": "Karlee.Romaguera93@example.org",
+      "phoneNumber": "555-980-8577",
+      "faxNumber": "555-773-7556"
     },
-    "jobTitle": "Regional Factors Specialist"
+    "jobTitle": "Principal Implementation Analyst"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..8iW28EzRMuVfP4BjG9YaPqXZLBhjos7h_exJeyt1Ic1GP_1nlMGkQNxwwfbGbxclaBHaQlzOGm2budmA8GsBAA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..31XJTbYCY4q0NWpSSWah33CK72f4UOur2kAAXOfKPdWVYAVwF7vRZY0Z6J3NaqyU0ur5cQLUIITIlQjg1j-dBA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

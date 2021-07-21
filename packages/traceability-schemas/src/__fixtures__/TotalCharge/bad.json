@@ -4,25 +4,34 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "TotalCharge",
-    "totalCollect": 476,
-    "ccChargesDestinationCurrency": "BIF",
-    "chargesDestination": 932,
-    "alarm": "copy",
-    "matrix": "connect",
-    "protocol": "index",
-    "system": "hack"
+    "totalPrepaid": 57.75,
+    "totalCollect": 19.25,
+    "sourceCurrency": "HUF",
+    "destinationCurrency": "MZN",
+    "currencyConversionRate": 2,
+    "chargesDestination": 347,
+    "totalCollectCharge": 86.75,
+    "pixel": "copy",
+    "bandwidth": "synthesize"
   },
   {
-    "destinationCurrency": "XAF",
-    "pixel": "calculate",
-    "hard drive": "back up",
-    "array": "override"
-  },
-  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
     "type": "TotalCharge",
-    "totalCollect": 2019.5,
-    "totalCollectCharge": 74,
-    "alarm": "compress",
-    "application": "hack"
+    "totalPrepaid": 3987,
+    "totalCollect": 1329,
+    "currencyConversionRate": 5,
+    "ccChargesDestinationCurrency": "THB",
+    "chargesDestination": 371,
+    "bandwidth": "synthesize",
+    "microchip": "hack"
+  },
+  {
+    "sourceCurrency": "YER",
+    "currencyConversionRate": 5,
+    "ccChargesDestinationCurrency": "YER",
+    "chargesDestination": 37,
+    "driver": "reboot"
   }
 ]

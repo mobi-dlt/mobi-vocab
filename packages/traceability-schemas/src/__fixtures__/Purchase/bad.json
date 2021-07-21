@@ -1,6 +1,13 @@
 [
   {
-    "bus": "input"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": [
+      "Purchase"
+    ],
+    "transmitter": "bypass",
+    "driver": "quantify"
   },
   {
     "@context": [
@@ -9,18 +16,12 @@
     "type": [
       "Purchase"
     ],
-    "card": "reboot",
-    "application": "override",
-    "system": "hack",
-    "hard drive": "compress"
+    "monitor": "calculate"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "bandwidth": "compress",
-    "microchip": "bypass",
-    "driver": "calculate",
-    "pixel": "index"
+    "application": "index",
+    "bandwidth": "copy",
+    "circuit": "quantify",
+    "driver": "navigate"
   }
 ]

@@ -14,13 +14,13 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LegalEntityIdentifierCredential",
-    "leiCode": "7PCQGSBQRFBQ4MEUZS81",
+    "leiCode": "KS6G72HZR2MPAZF86524",
     "certificateName": "US Legal Entity Certificate"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..bGF06r3y3bbsAjjFWFXMe2O0NEXTYivVCS0BYbJ-pKGUlzXEW_qhjEdSevFWPM1kuDEYe-jUVMda-cd-27bfAA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..lZLc9cXzRudzZO5RDHSX-S6Aamw3ucLkQg9Rlp6ZAP5B7UYQ1cOySE6AQ0zuuAYa_kG_ok0MlWpnnq2nfAHqAw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -1,103 +1,173 @@
 [
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
     "type": "LEIentity",
-    "legalName": "Spinka, Simonis and Mosciski",
+    "legalName": "Kuphal - Simonis",
+    "transliteratedOtherNames": [
+      "Kuphal - Goodwin",
+      "Luettgen and Sons"
+    ],
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "uk",
+      "addressLines": [
+        "Reichert, Gulgowski and Monahan",
+        "9917 Glover Manors"
+      ],
+      "addressNumber": "239",
+      "addressNumberWithinBuilding": "4",
+      "mailRouting": "52158 Jerrell Cape, 51367-4130",
+      "city": "Lake Harley",
+      "region": "Cambridgeshire",
+      "country": "Mayotte",
+      "postalCode": "76544"
+    },
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000005",
+      "otherValidationAuthorityID": "82T2S0PY",
+      "validationAuthorityEntityID": "90L3CB3TXY4SYOGI63JY"
+    },
+    "legalJurisdiction": "Buckinghamshire",
+    "entityCategory": "Finance",
+    "legalForm": "LLC",
+    "expirationDate": "2022-07-11",
+    "expirationReason": "innovate cross-platform systems",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "UZ8WHN7OZ1XO11PLXZ6K",
+      "name": "Kozey - Von"
+    },
+    "otherAddresses": [],
+    "bandwidth": "parse",
+    "system": "reboot",
+    "transmitter": "connect",
+    "monitor": "program"
+  },
+  {
+    "legalName": "Schiller - Olson",
     "legalNameLanguage": "fr",
     "otherNames": [
-      "Schaden, Bernier and Botsford",
-      "Lebsack Group"
-    ],
-    "transliteratedOtherNames": [
-      "Schaden, Bernier and Botsford",
-      "Lebsack Group"
+      "Jakubowski, Bergnaum and Marquardt",
+      "Schneider LLC"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "ko",
+      "language": "nl_BE",
       "addressLines": [
-        "Barrows, Durgan and Shields",
-        "7221 Colin Camp"
+        "Lebsack - Torphy",
+        "0489 Swift Brook"
       ],
-      "addressNumber": "240",
+      "addressNumber": "439",
       "addressNumberWithinBuilding": "3",
-      "mailRouting": "193 Schimmel Shores, 64926-0869",
-      "city": "Port Eliezer",
-      "region": "Buckinghamshire",
-      "country": "Andorra",
-      "postalCode": "80718"
+      "mailRouting": "53997 Adele Circle, 07040",
+      "city": "South Liza",
+      "region": "Borders",
+      "country": "Israel",
+      "postalCode": "82937-0434"
     },
-    "legalJurisdiction": "Cambridgeshire",
-    "entityCategory": "Grocery",
-    "legalForm": "LLC",
-    "associatedEntity": {
-      "type": "Organization",
-      "leiCode": "8Z0VQBTLSU4FW0O2WIGY",
-      "name": "Heidenreich and Sons"
-    },
-    "expirationDate": "2022-07-11",
-    "expirationReason": "synthesize web-enabled paradigms",
-    "successorEntity": {
-      "type": "Organization",
-      "leiCode": "J5ZTU4D80GMIPRNGYSVM",
-      "name": "Bruen - Berge"
-    },
-    "otherAddresses": [],
-    "pixel": "input",
-    "firewall": "quantify"
-  },
-  {
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "vi",
+      "language": "hy",
       "addressLines": [
-        "Torphy Group",
-        "135 Murray Mall"
+        "Reynolds, Ferry and Abernathy",
+        "82725 Auer Camp"
       ],
-      "addressNumber": "83",
-      "addressNumberWithinBuilding": "8",
-      "mailRouting": "90417 Carroll Groves, 90381-0175",
-      "city": "North Dionhaven",
-      "region": "Borders",
-      "country": "Georgia",
-      "postalCode": "94214"
+      "addressNumber": "178",
+      "addressNumberWithinBuilding": "3",
+      "mailRouting": "904 Huel Court, 12997-7205",
+      "city": "Port Shana",
+      "region": "Berkshire",
+      "country": "Bosnia and Herzegovina",
+      "postalCode": "96496-9179"
     },
-    "entityCategory": "Grocery",
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000004",
+      "otherValidationAuthorityID": "28EXUN8L",
+      "validationAuthorityEntityID": "TI4816D716YSTCS2MY7V"
+    },
+    "entityCategory": "Finance",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "GDA698IK5FCIB6LN2UT9",
-      "name": "Renner, Kiehn and VonRueden"
+      "leiCode": "1UGBITN1NLD8K4H2VPJC",
+      "name": "Leffler, Daniel and Gibson"
     },
-    "status": "IN PROGRESS",
-    "expirationDate": "2022-07-11",
-    "expirationReason": "iterate intuitive deliverables",
-    "monitor": "synthesize",
-    "feed": "bypass",
-    "firewall": "calculate",
-    "application": "calculate"
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "PZ5WTG8M8QJ1LWKU3GVE",
+      "name": "Goodwin Inc"
+    },
+    "hard drive": "input",
+    "bandwidth": "copy",
+    "interface": "compress",
+    "array": "back up"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIentity",
+    "legalName": "Stracke - Gleichner",
+    "legalNameLanguage": "it",
     "otherNames": [
-      "Bogan Group",
-      "Collier, Tromp and Koss"
+      "Shanahan, Marquardt and Heidenreich",
+      "Pagac - Little"
     ],
-    "legalJurisdiction": "Bedfordshire",
-    "entityCategory": "Industrial",
-    "legalForm": "LLC",
+    "transliteratedOtherNames": [
+      "Shanahan, Marquardt and Heidenreich",
+      "Pagac - Little"
+    ],
+    "legalAddress": {
+      "type": "LEIaddress",
+      "language": "sv",
+      "addressLines": [
+        "Schmeler - Stroman",
+        "173 Predovic Street"
+      ],
+      "addressNumber": "426",
+      "addressNumberWithinBuilding": "2",
+      "mailRouting": "616 Claire Ridges, 88984",
+      "city": "Port Reytown",
+      "region": "Bedfordshire",
+      "country": "Norfolk Island",
+      "postalCode": "83279"
+    },
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "en_AU",
+      "addressLines": [
+        "Schumm LLC",
+        "12063 Lonnie Wall"
+      ],
+      "addressNumber": "254",
+      "addressNumberWithinBuilding": "3",
+      "mailRouting": "23605 Brant Stravenue, 27054",
+      "city": "Spencerborough",
+      "region": "Buckinghamshire",
+      "country": "Spain",
+      "postalCode": "61971"
+    },
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000004",
+      "otherValidationAuthorityID": "SX6OR2YA",
+      "validationAuthorityEntityID": "5PR2PKHC2M21UVZZOYGQ"
+    },
+    "legalJurisdiction": "Buckinghamshire",
+    "entityCategory": "Grocery",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "5YE0H83XFXBP1R43RI08",
-      "name": "Maggio, Bergstrom and Hermiston"
+      "leiCode": "9PQ1HJ2Y73OW2ZU2HVHI",
+      "name": "Hoppe, Bailey and Bergstrom"
     },
-    "status": "REJECTED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "empower integrated ROI",
-    "port": "synthesize"
+    "expirationReason": "revolutionize frictionless portals",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "HTR9O0G59GZXF3GU5IST",
+      "name": "Gusikowski, Ernser and Spencer"
+    },
+    "otherAddresses": [],
+    "alarm": "hack"
   }
 ]

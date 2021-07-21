@@ -14,73 +14,73 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIevidenceDocument",
-    "lei": "A2795RBV370GSG4VRRSI",
+    "lei": "51FQXWFUMYER9FZBEBWQ",
     "entity": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": "LEIentity",
-      "legalName": "Senger, Crist and Thiel",
-      "legalNameLanguage": "fa",
+      "legalName": "Schinner - Cole",
+      "legalNameLanguage": "pt_BR",
       "otherNames": [
-        "Abbott - Johnson",
-        "Ratke - Romaguera"
+        "Russel and Sons",
+        "Lehner, Rowe and Auer"
       ],
       "transliteratedOtherNames": [
-        "Abbott - Johnson",
-        "Ratke - Romaguera"
+        "Russel and Sons",
+        "Lehner, Rowe and Auer"
       ],
       "legalAddress": {
         "type": "LEIaddress",
-        "language": "fr_CH",
+        "language": "ar",
         "addressLines": [
-          "Murray - Pfeffer",
-          "83439 Khalil Landing"
+          "Waelchi, Wisoky and Morissette",
+          "15166 Macejkovic Forge"
         ],
-        "addressNumber": "245",
-        "addressNumberWithinBuilding": "7",
-        "mailRouting": "92399 Axel Ville, 06119-8155",
-        "city": "Stantonfurt",
-        "region": "Bedfordshire",
-        "country": "Belarus",
-        "postalCode": "86723"
+        "addressNumber": "232",
+        "addressNumberWithinBuilding": "5",
+        "mailRouting": "24106 Glover Pass, 74394-1040",
+        "city": "Gladycebury",
+        "region": "Buckinghamshire",
+        "country": "Cocos (Keeling) Islands",
+        "postalCode": "96726"
       },
       "headquartersAddress": {
         "type": "LEIaddress",
-        "language": "sk",
+        "language": "ne",
         "addressLines": [
-          "Graham and Sons",
-          "80549 Rahul Glens"
+          "Stokes, Wilderman and Satterfield",
+          "112 Keyshawn Course"
         ],
-        "addressNumber": "338",
-        "addressNumberWithinBuilding": "3",
-        "mailRouting": "8945 Leilani Place, 83442",
-        "city": "Dillonmouth",
-        "region": "Berkshire",
-        "country": "Panama",
-        "postalCode": "44349-0574"
+        "addressNumber": "363",
+        "addressNumberWithinBuilding": "5",
+        "mailRouting": "04462 Macejkovic River, 09305-5083",
+        "city": "North Rettaton",
+        "region": "Avon",
+        "country": "Tunisia",
+        "postalCode": "33195"
       },
       "registrationAuthority": {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000003",
-        "otherValidationAuthorityID": "7N7REY8H",
-        "validationAuthorityEntityID": "L4DFGHJW7E5YVHFZE01W"
+        "validationAuthorityID": "RA000004",
+        "otherValidationAuthorityID": "7OOST716",
+        "validationAuthorityEntityID": "O3YM4PW1LXM1MJAPXVYP"
       },
-      "legalJurisdiction": "Berkshire",
+      "legalJurisdiction": "Bedfordshire",
       "entityCategory": "Finance",
       "legalForm": "LLC",
       "associatedEntity": {
         "type": "Organization",
-        "leiCode": "JOBU50QELWNQ0JXJ2CDI",
-        "name": "Macejkovic, Ankunding and Quigley"
+        "leiCode": "8Q771VNPDKVGHJY567V3",
+        "name": "Moore - Schultz"
       },
-      "status": "REQUESTED",
+      "status": "CONFIRMED",
       "expirationDate": "2022-07-11",
-      "expirationReason": "leverage world-class ROI",
+      "expirationReason": "optimize world-class functionalities",
       "successorEntity": {
         "type": "Organization",
-        "leiCode": "0T2Y74IHJ7126BH5LP5J",
-        "name": "Considine - Turner"
+        "leiCode": "JJLTSGHN1I5QF2Q2L8N5",
+        "name": "Swaniawski - Morissette"
       },
       "otherAddresses": []
     },
@@ -93,25 +93,25 @@
       "lastUpdateDate": "2020-01-01",
       "status": "REQUESTED",
       "nextRenewalDate": "2021-02-02",
-      "managingLou": "PJZBPXMKOLYJVQIUGQGT",
-      "validationSources": "PARTIALLY_CORROBORATED",
+      "managingLou": "BKAFGVMEWYSKTWLQITJT",
+      "validationSources": "NOT_CORROBORATED",
       "validationAuthority": [
         {
           "type": "LEIauthority",
-          "validationAuthorityID": "RA000004",
-          "otherValidationAuthorityID": "0ZTZ6VLE",
-          "validationAuthorityEntityID": "COLEBN3B8L6IF0NS900A"
+          "validationAuthorityID": "RA000661",
+          "otherValidationAuthorityID": "7BZGCQ6V",
+          "validationAuthorityEntityID": "SFN1H5J0PN8BZJZHN27E"
         }
       ]
     },
     "bic": [
-      "XTWNNPIERI"
+      "NBOWLCHWYZ"
     ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..45bMbEk4w8VN3BC094d4bgTaFqM6coNZHih9bIaut8s6BntBkSfsMZORZn2u2KQEe7pkLoUQlVvqizSXtoH3Bg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..mV_F0kGud5W86FIvPBRlfykysZeGjXOHdDeD5twO8Q07vK618yIXbrGx1i8YAkdWGYrpQSnDcMP3nkODnT6IAg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

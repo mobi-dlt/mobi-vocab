@@ -1,20 +1,19 @@
 [
   {
-    "alarm": "program",
-    "circuit": "parse"
-  },
-  {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
     "type": "LinkRole",
-    "interface": "quantify",
-    "pixel": "synthesize",
-    "monitor": "reboot"
+    "target": "https://example.com/related/link/123",
+    "matrix": "back up"
   },
   {
-    "firewall": "synthesize",
-    "port": "compress",
-    "application": "quantify"
+    "target": "https://example.com/related/link/123",
+    "linkRelationship": "alternate",
+    "hard drive": "calculate",
+    "system": "connect"
+  },
+  {
+    "panel": "program"
   }
 ]

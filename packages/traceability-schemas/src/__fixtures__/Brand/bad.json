@@ -1,17 +1,21 @@
 [
   {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
     "logo": "http://placeimg.com/640/480",
-    "card": "bypass",
-    "driver": "override"
+    "interface": "hack",
+    "matrix": "synthesize"
   },
   {
-    "type": "Brand",
-    "pixel": "synthesize",
-    "circuit": "bypass"
+    "port": "connect",
+    "driver": "generate",
+    "monitor": "index",
+    "bandwidth": "back up"
   },
   {
     "logo": "http://placeimg.com/640/480",
-    "program": "reboot",
-    "monitor": "bypass"
+    "url": "https://brand.example.com",
+    "circuit": "calculate"
   }
 ]

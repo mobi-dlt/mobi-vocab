@@ -14,23 +14,23 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIaddress",
-    "language": "fa",
+    "language": "vi",
     "addressLines": [
-      "Bashirian - Hintz",
-      "33973 Flatley Islands"
+      "Cremin - Veum",
+      "2078 Bartholome Pike"
     ],
-    "addressNumber": "355",
-    "addressNumberWithinBuilding": "1",
-    "mailRouting": "6811 Benedict Turnpike, 71478-3146",
-    "city": "Marquardtshire",
-    "region": "Cambridgeshire",
-    "country": "Marshall Islands",
-    "postalCode": "14474"
+    "addressNumber": "253",
+    "addressNumberWithinBuilding": "2",
+    "mailRouting": "9679 Macey Brooks, 75360",
+    "city": "North Mylene",
+    "region": "Avon",
+    "country": "Mongolia",
+    "postalCode": "98994"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..lOEdDswgDRfMkgJVygfJurSgMqzbnFkDof5YLkJ5mcP96mLE78khUup13rLf9AJ2hh5XUuBJhhWMkuOhUNXwBA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vKyf1yf9ZUEHzJegPaB0dHpujaBirAyZTe-YR1uVxlCac484bIGdFaJH5xUyRet_7iG8fNj0tLdBTkWSH1uJDw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

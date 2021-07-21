@@ -14,22 +14,22 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "ContactPoint",
-    "name": "Beatty, Pacocha and Sporer",
+    "name": "Nader Inc",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "062 Noemi Via",
-      "addressLocality": "South Karson",
-      "addressRegion": "Georgia",
-      "postalCode": "40518",
-      "addressCountry": "Jersey"
+      "streetAddress": "6912 Lindgren Pines",
+      "addressLocality": "Doyleberg",
+      "addressRegion": "West Virginia",
+      "postalCode": "52618",
+      "addressCountry": "Uganda"
     },
-    "email": "Willard_Ziemann85@example.org",
-    "phoneNumber": "555-533-2882"
+    "email": "Jacky18@example.net",
+    "phoneNumber": "555-661-8273"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..2Z9wgHIssMdXokZbPv_4QJIfCmp44Q4B6kLDRwBfRofQ5LFrmnywr0dHTatQkBeGByFAOF1Z3eLQn_s_pWn5BQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..qevSD12v9yzv8JnCi16LZgXolHikV1058CDi2giklEb_1-1WjeuJrYAaoTv0UbN_4aoVdZxlGMz7KmAvcS5lCw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

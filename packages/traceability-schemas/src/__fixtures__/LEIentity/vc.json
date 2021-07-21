@@ -14,74 +14,74 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIentity",
-    "legalName": "Spinka, Simonis and Mosciski",
-    "legalNameLanguage": "fr",
+    "legalName": "Kuphal - Simonis",
+    "legalNameLanguage": "ro",
     "otherNames": [
-      "Schaden, Bernier and Botsford",
-      "Lebsack Group"
+      "Kuphal - Goodwin",
+      "Luettgen and Sons"
     ],
     "transliteratedOtherNames": [
-      "Schaden, Bernier and Botsford",
-      "Lebsack Group"
+      "Kuphal - Goodwin",
+      "Luettgen and Sons"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "ko",
+      "language": "en_BORK",
       "addressLines": [
-        "Barrows, Durgan and Shields",
-        "7221 Colin Camp"
+        "Anderson Inc",
+        "752 Mallie Pines"
       ],
-      "addressNumber": "240",
+      "addressNumber": "451",
       "addressNumberWithinBuilding": "3",
-      "mailRouting": "193 Schimmel Shores, 64926-0869",
-      "city": "Port Eliezer",
-      "region": "Buckinghamshire",
-      "country": "Andorra",
-      "postalCode": "80718"
+      "mailRouting": "1598 Hoppe Land, 54031-9710",
+      "city": "New Oleberg",
+      "region": "Bedfordshire",
+      "country": "Burkina Faso",
+      "postalCode": "38243"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "cz",
+      "language": "uk",
       "addressLines": [
-        "Braun - Christiansen",
-        "4702 Brandi Stream"
+        "Reichert, Gulgowski and Monahan",
+        "9917 Glover Manors"
       ],
-      "addressNumber": "171",
-      "addressNumberWithinBuilding": "3",
-      "mailRouting": "958 Brown Underpass, 16481-4573",
-      "city": "East Triston",
-      "region": "Buckinghamshire",
-      "country": "Cocos (Keeling) Islands",
-      "postalCode": "43467"
+      "addressNumber": "239",
+      "addressNumberWithinBuilding": "4",
+      "mailRouting": "52158 Jerrell Cape, 51367-4130",
+      "city": "Lake Harley",
+      "region": "Cambridgeshire",
+      "country": "Mayotte",
+      "postalCode": "76544"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000661",
-      "otherValidationAuthorityID": "KT5J460G",
-      "validationAuthorityEntityID": "0YVR1TQ1VG3NFTY1UUHJ"
+      "validationAuthorityID": "RA000005",
+      "otherValidationAuthorityID": "82T2S0PY",
+      "validationAuthorityEntityID": "90L3CB3TXY4SYOGI63JY"
     },
-    "legalJurisdiction": "Cambridgeshire",
-    "entityCategory": "Grocery",
+    "legalJurisdiction": "Buckinghamshire",
+    "entityCategory": "Finance",
     "legalForm": "LLC",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "8Z0VQBTLSU4FW0O2WIGY",
-      "name": "Heidenreich and Sons"
+      "leiCode": "E975NUFZ4IW6O9O0TWJ4",
+      "name": "Schoen - Rowe"
     },
-    "status": "IN PROGRESS",
+    "status": "REJECTED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "synthesize web-enabled paradigms",
+    "expirationReason": "innovate cross-platform systems",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "J5ZTU4D80GMIPRNGYSVM",
-      "name": "Bruen - Berge"
+      "leiCode": "UZ8WHN7OZ1XO11PLXZ6K",
+      "name": "Kozey - Von"
     },
     "otherAddresses": []
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..sQKCTg19nbzfTmBL3GvD4zXXA1iHZp1rLLyElezjnOAJENVw8D5w168gAI72s5-68n9o-wwy7w3-k1XfGDJsCg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..zhOKinvcHw2p7IPa4FDnpd6Gh11KmSY5dQq5qeeQvzzGCcmups4qSQteRlVLCBbmXtBDpySpksLBOQhQL8rlCQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -18,21 +18,21 @@
     "lastUpdateDate": "2020-01-01",
     "status": "IN PROGRESS",
     "nextRenewalDate": "2021-02-02",
-    "managingLou": "EUZJCOYBXBNGSRLWQOIN",
-    "validationSources": "FULLY_CORROBORATED",
+    "managingLou": "DAZTYTOGVRNCQGCUTWDP",
+    "validationSources": "NOT_CORROBORATED",
     "validationAuthority": [
       {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000004",
-        "otherValidationAuthorityID": "NRMGJM0D",
-        "validationAuthorityEntityID": "PPDUXOTILG9N7OCKHMA3"
+        "validationAuthorityID": "RA000003",
+        "otherValidationAuthorityID": "K3YY6MOR",
+        "validationAuthorityEntityID": "76JE3FGTR0CANZSHXD84"
       }
     ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..CZG99opksAXDhwFbIecIAENJB3_yZXeHRGm8eQQKGvzgJQLolrp1D_bw4B3hOk73hAiKABxhiXP3jlJ79M64DA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..nN2UZvWUPajOu_BgdisWGOZCxbJ09PjAkVmP1_MPsn7ZvFb5f-DpG8ydcLkHkIk9NU1ye8a6jYv6OrT_7tg-Dg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }
