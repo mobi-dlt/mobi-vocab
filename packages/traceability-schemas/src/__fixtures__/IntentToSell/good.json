@@ -6,155 +6,67 @@
     "type": "IntentToSell",
     "seller": {
       "type": "Organization",
-      "name": "Heaney - Runolfsdottir",
-      "description": "Right-sized client-driven knowledge base",
+      "name": "Crona and Sons",
+      "description": "Public-key secondary benchmark",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "171 Jasen Radial",
-        "addressLocality": "New Rosstown",
-        "addressRegion": "Oregon",
-        "postalCode": "87253-3620",
-        "addressCountry": "Nicaragua"
+        "streetAddress": "5016 Collier Ramp",
+        "addressLocality": "Rachaelburgh",
+        "addressRegion": "Wyoming",
+        "postalCode": "35410",
+        "addressCountry": "Rwanda"
       },
-      "email": "Shany_Wiza@example.org",
-      "phoneNumber": "555-753-7235",
-      "faxNumber": "555-852-8838"
-    },
-    "purchaser": {
-      "type": "Organization",
-      "name": "Marks, Bins and Ritchie",
-      "description": "Team-oriented bifurcated database",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "592 Becker Circles",
-        "addressLocality": "Wehnerville",
-        "addressRegion": "Nebraska",
-        "postalCode": "65470-4727",
-        "addressCountry": "Chad"
-      },
-      "email": "Larue.McCullough67@example.net",
-      "phoneNumber": "555-380-6587",
-      "faxNumber": "555-375-7470"
-    },
-    "product": {
-      "type": "Product",
-      "manufacturer": {
-        "type": "Person",
-        "firstName": "Velva",
-        "lastName": "Considine",
-        "email": "Maudie42@example.org",
-        "phoneNumber": "555-165-1498",
-        "worksFor": {
-          "type": "Organization",
-          "name": "Spencer Inc",
-          "description": "Assimilated eco-centric framework",
-          "address": {
-            "type": "PostalAddress",
-            "streetAddress": "322 Bailey Road",
-            "addressLocality": "Bartolettifurt",
-            "addressRegion": "New Hampshire",
-            "postalCode": "60703",
-            "addressCountry": "Martinique"
-          },
-          "email": "Dasia_Goyette@example.com",
-          "phoneNumber": "555-105-7858",
-          "faxNumber": "555-531-5836"
-        },
-        "jobTitle": "Dynamic Metrics Associate"
-      },
-      "name": "Small Wooden Fish",
-      "description": "The Football Is Good For Training And Recreational Purposes",
-      "sizeOrAmount": {
-        "type": "QuantitativeValue",
-        "unitCode": "hg/ha",
-        "value": "4080"
-      },
-      "weight": {
-        "type": "QuantitativeValue",
-        "unitCode": "hg/ha",
-        "value": "1782"
-      },
-      "sku": "903051622198"
-    },
-    "declarationDate": "2020-03-21",
-    "sellByDate": "2021-06-30"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "IntentToSell",
-    "seller": {
-      "type": "Person",
-      "firstName": "Raul",
-      "lastName": "Champlin",
       "email": "Hermina56@example.net",
-      "phoneNumber": "555-501-7193",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Kilback - D'Amore",
-        "description": "Automated optimal access",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "0865 Cordie Unions",
-          "addressLocality": "Mallorystad",
-          "addressRegion": "Arkansas",
-          "postalCode": "66117",
-          "addressCountry": "Singapore"
-        },
-        "email": "Thelma15@example.org",
-        "phoneNumber": "555-371-9907",
-        "faxNumber": "555-517-4396"
-      },
-      "jobTitle": "Legacy Branding Engineer"
+      "phoneNumber": "555-112-3723",
+      "faxNumber": "555-929-6961"
     },
     "purchaser": {
       "type": "Organization",
-      "name": "Walker and Sons",
-      "description": "Enhanced 3rd generation portal",
+      "name": "Stiedemann, Friesen and Gusikowski",
+      "description": "Function-based upward-trending flexibility",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "06005 Meta Key",
-        "addressLocality": "Okunevashire",
-        "addressRegion": "New York",
-        "postalCode": "27381-6735",
-        "addressCountry": "Republic of Korea"
+        "streetAddress": "8510 Bogisich Plains",
+        "addressLocality": "Giovannyside",
+        "addressRegion": "Oklahoma",
+        "postalCode": "69652-7381",
+        "addressCountry": "Nigeria"
       },
-      "email": "Lon_Schmitt43@example.com",
-      "phoneNumber": "555-737-8721",
-      "faxNumber": "555-324-3686"
+      "email": "Alden_Rohan@example.org",
+      "phoneNumber": "555-747-4048",
+      "faxNumber": "555-553-5229"
     },
     "product": {
       "type": "Product",
       "manufacturer": {
         "type": "Organization",
-        "name": "Reinger, Doyle and Abbott",
-        "description": "Customizable user-facing standardization",
+        "name": "Wilkinson and Sons",
+        "description": "Phased multimedia task-force",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "86029 Jacobs Green",
-          "addressLocality": "Lake Thora",
-          "addressRegion": "Montana",
-          "postalCode": "65352",
-          "addressCountry": "Cuba"
+          "streetAddress": "460 Loy Glen",
+          "addressLocality": "West Tyrelburgh",
+          "addressRegion": "Missouri",
+          "postalCode": "38950",
+          "addressCountry": "Palau"
         },
-        "email": "Marina26@example.org",
-        "phoneNumber": "555-959-4859",
-        "faxNumber": "555-643-6870"
+        "email": "Concepcion93@example.net",
+        "phoneNumber": "555-623-4527",
+        "faxNumber": "555-594-3372"
       },
-      "name": "Practical Frozen Chicken",
-      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "name": "Intelligent Concrete Ball",
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
       "sizeOrAmount": {
         "type": "QuantitativeValue",
         "unitCode": "hg/ha",
-        "value": "387"
+        "value": "1653"
       },
       "weight": {
         "type": "QuantitativeValue",
         "unitCode": "hg/ha",
-        "value": "1239"
+        "value": "2343"
       },
-      "sku": "318358841016"
+      "sku": "800665940953"
     },
     "declarationDate": "2020-03-21",
     "sellByDate": "2021-06-30"
@@ -251,6 +163,86 @@
         "value": "9451"
       },
       "sku": "150503990459"
+    },
+    "declarationDate": "2020-03-21",
+    "sellByDate": "2021-06-30"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "IntentToSell",
+    "seller": {
+      "type": "Organization",
+      "name": "Ortiz, Jerde and Reynolds",
+      "description": "Operative global analyzer",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "8453 Domingo Fields",
+        "addressLocality": "Schmittport",
+        "addressRegion": "Arizona",
+        "postalCode": "93127",
+        "addressCountry": "Slovakia (Slovak Republic)"
+      },
+      "email": "Abdiel76@example.net",
+      "phoneNumber": "555-455-1788",
+      "faxNumber": "555-542-8251"
+    },
+    "purchaser": {
+      "type": "Organization",
+      "name": "Runte, Hane and Metz",
+      "description": "Virtual encompassing algorithm",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "64164 Chauncey Road",
+        "addressLocality": "North Emieside",
+        "addressRegion": "Kansas",
+        "postalCode": "68186",
+        "addressCountry": "Samoa"
+      },
+      "email": "Irwin50@example.org",
+      "phoneNumber": "555-185-2519",
+      "faxNumber": "555-185-8396"
+    },
+    "product": {
+      "type": "Product",
+      "manufacturer": {
+        "type": "Person",
+        "firstName": "Shanel",
+        "lastName": "Sipes",
+        "email": "Camila76@example.net",
+        "phoneNumber": "555-922-7024",
+        "worksFor": {
+          "type": "Organization",
+          "name": "Wiegand - D'Amore",
+          "description": "Business-focused analyzing matrix",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "403 Lyda Park",
+            "addressLocality": "Ebertville",
+            "addressRegion": "Delaware",
+            "postalCode": "91969",
+            "addressCountry": "Reunion"
+          },
+          "email": "Anais_Schaden52@example.net",
+          "phoneNumber": "555-810-9387",
+          "faxNumber": "555-697-3509"
+        },
+        "jobTitle": "Human Intranet Specialist"
+      },
+      "name": "Unbranded Rubber Keyboard",
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "sizeOrAmount": {
+        "type": "QuantitativeValue",
+        "unitCode": "hg/ha",
+        "value": "1298"
+      },
+      "weight": {
+        "type": "QuantitativeValue",
+        "unitCode": "hg/ha",
+        "value": "4690"
+      },
+      "sku": "26168083814"
     },
     "declarationDate": "2020-03-21",
     "sellByDate": "2021-06-30"

@@ -3,33 +3,6 @@
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "type": "Person",
-    "firstName": "Anais",
-    "lastName": "Bashirian",
-    "email": "Bart_Lehner19@example.net",
-    "phoneNumber": "555-644-3230",
-    "worksFor": {
-      "type": "Organization",
-      "name": "Schuppe LLC",
-      "description": "Total user-facing productivity",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "6847 Upton Junctions",
-        "addressLocality": "North Demondmouth",
-        "addressRegion": "Washington",
-        "postalCode": "54555-9328",
-        "addressCountry": "Macao"
-      },
-      "email": "Cleta76@example.org",
-      "phoneNumber": "555-570-5272",
-      "faxNumber": "555-205-3325"
-    },
-    "jobTitle": "Customer Identity Administrator"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
     "type": "Organization",
     "name": "Pagac - Roob",
     "description": "Enhanced responsive matrix",
@@ -71,5 +44,32 @@
       "faxNumber": "555-939-7699"
     },
     "jobTitle": "Human Infrastructure Associate"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Person",
+    "firstName": "Stewart",
+    "lastName": "Hayes",
+    "email": "Jessica_Feeney@example.org",
+    "phoneNumber": "555-695-3045",
+    "worksFor": {
+      "type": "Organization",
+      "name": "Gutmann and Sons",
+      "description": "Multi-channelled static secured line",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "07782 Ebony Lakes",
+        "addressLocality": "Grahammouth",
+        "addressRegion": "Missouri",
+        "postalCode": "76336-8323",
+        "addressCountry": "Mexico"
+      },
+      "email": "Tod.Gleichner@example.net",
+      "phoneNumber": "555-122-7708",
+      "faxNumber": "555-103-4410"
+    },
+    "jobTitle": "Dynamic Creative Liaison"
   }
 ]

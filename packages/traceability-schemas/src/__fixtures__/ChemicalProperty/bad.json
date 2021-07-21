@@ -1,27 +1,22 @@
 [
   {
-    "type": "ChemicalProperty",
-    "name": "Rhodium",
-    "formula": "Rh",
-    "inchi": "InChI=1S/Rh",
-    "inchikey": "MHOVAHRLVXNVSD-UHFFFAOYSA-N",
-    "sensor": "input",
-    "protocol": "copy"
-  },
-  {
-    "inchikey": "OGPBJKLSAFTDLK-UHFFFAOYSA-N",
-    "bandwidth": "calculate",
-    "transmitter": "quantify",
-    "capacitor": "synthesize"
-  },
-  {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
     "type": "ChemicalProperty",
-    "name": "Lead",
-    "formula": "Pb",
-    "inchi": "InChI=1S/Pb",
-    "firewall": "program"
+    "inchi": "InChI=1S/Pa",
+    "inchikey": "XLROVYAPLOFLNU-UHFFFAOYSA-N",
+    "interface": "program",
+    "monitor": "override",
+    "array": "calculate",
+    "bus": "connect"
+  },
+  {
+    "card": "index"
+  },
+  {
+    "protocol": "index",
+    "feed": "synthesize",
+    "sensor": "override"
   }
 ]

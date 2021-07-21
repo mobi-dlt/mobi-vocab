@@ -1,117 +1,24 @@
 [
   {
-    "@context": [
-      "https://www.w3.org/2018/credentials/v1",
-      "https://w3id.org/traceability/v1"
-    ],
     "id": "https://example.com/credential/123",
-    "type": [
-      "VerifiableCredential",
-      "CommercialInvoiceCertificate"
-    ],
     "name": "Commercial Invoice Certificate",
-    "description": "This document includes recommended commercial invoice fields.",
-    "relatedLink": [
-      {
-        "type": [
-          "LinkRole"
-        ],
-        "target": "https://www.example.com/template/123",
-        "linkRelationship": "templateLink"
-      },
-      {
-        "type": [
-          "LinkRole"
-        ],
-        "target": "did:example:789",
-        "linkRelationship": "billOfLadingLink"
-      },
-      {
-        "type": [
-          "LinkRole"
-        ],
-        "target": "https://www.example.com/credentials/123",
-        "linkRelationship": "millTestReportLink"
-      }
-    ],
-    "issuer": {
-      "id": "did:example:123",
-      "type": "Organization",
-      "name": "Ratke - Feest",
-      "description": "Stand-alone disintermediate projection",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "2346 Dibbert Shores",
-        "addressLocality": "Reichelport",
-        "addressRegion": "Utah",
-        "postalCode": "45865",
-        "addressCountry": "Bangladesh"
-      },
-      "email": "Katrine.Maggio@example.org",
-      "phoneNumber": "555-673-7143",
-      "faxNumber": "555-573-3177"
-    },
-    "port": "program",
-    "sensor": "hack"
-  },
-  {
-    "description": "This document includes recommended commercial invoice fields.",
-    "matrix": "synthesize",
-    "bandwidth": "hack",
-    "feed": "back up",
-    "sensor": "quantify"
-  },
-  {
-    "@context": [
-      "https://www.w3.org/2018/credentials/v1",
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": [
-      "VerifiableCredential",
-      "CommercialInvoiceCertificate"
-    ],
-    "name": "Commercial Invoice Certificate",
-    "description": "This document includes recommended commercial invoice fields.",
-    "relatedLink": [
-      {
-        "type": [
-          "LinkRole"
-        ],
-        "target": "https://www.example.com/template/123",
-        "linkRelationship": "templateLink"
-      },
-      {
-        "type": [
-          "LinkRole"
-        ],
-        "target": "did:example:789",
-        "linkRelationship": "billOfLadingLink"
-      },
-      {
-        "type": [
-          "LinkRole"
-        ],
-        "target": "https://www.example.com/credentials/123",
-        "linkRelationship": "millTestReportLink"
-      }
-    ],
     "issuanceDate": "2019-12-11T03:50:55Z",
     "issuer": {
       "id": "did:example:123",
       "type": "Organization",
-      "name": "Beahan, Braun and Hessel",
-      "description": "Networked web-enabled functionalities",
+      "name": "Gleason and Sons",
+      "description": "Advanced empowering encoding",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "760 Gaylord Crossing",
-        "addressLocality": "Sebastianfurt",
-        "addressRegion": "Georgia",
-        "postalCode": "27196-7922",
-        "addressCountry": "Bolivia"
+        "streetAddress": "905 Nona Keys",
+        "addressLocality": "South Omer",
+        "addressRegion": "Indiana",
+        "postalCode": "25198-1500",
+        "addressCountry": "Saint Vincent and the Grenadines"
       },
-      "email": "Samir.Kemmer@example.com",
-      "phoneNumber": "555-527-8036",
-      "faxNumber": "555-670-6797"
+      "email": "Ollie.Ritchie@example.com",
+      "phoneNumber": "555-444-8264",
+      "faxNumber": "555-430-2081"
     },
     "credentialSubject": {
       "type": [
@@ -221,7 +128,97 @@
         }
       ]
     },
-    "array": "back up",
-    "protocol": "program"
+    "card": "calculate",
+    "alarm": "generate",
+    "matrix": "program"
+  },
+  {
+    "name": "Commercial Invoice Certificate",
+    "relatedLink": [
+      {
+        "type": [
+          "LinkRole"
+        ],
+        "target": "https://www.example.com/template/123",
+        "linkRelationship": "templateLink"
+      },
+      {
+        "type": [
+          "LinkRole"
+        ],
+        "target": "did:example:789",
+        "linkRelationship": "billOfLadingLink"
+      },
+      {
+        "type": [
+          "LinkRole"
+        ],
+        "target": "https://www.example.com/credentials/123",
+        "linkRelationship": "millTestReportLink"
+      }
+    ],
+    "issuer": {
+      "id": "did:example:123",
+      "type": "Organization",
+      "name": "Beer, McCullough and Williamson",
+      "description": "Vision-oriented value-added core",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "876 Koch Spur",
+        "addressLocality": "West Candaceburgh",
+        "addressRegion": "Vermont",
+        "postalCode": "72926",
+        "addressCountry": "Latvia"
+      },
+      "email": "Justina_Zboncak@example.net",
+      "phoneNumber": "555-526-7726",
+      "faxNumber": "555-153-5264"
+    },
+    "monitor": "override"
+  },
+  {
+    "name": "Commercial Invoice Certificate",
+    "relatedLink": [
+      {
+        "type": [
+          "LinkRole"
+        ],
+        "target": "https://www.example.com/template/123",
+        "linkRelationship": "templateLink"
+      },
+      {
+        "type": [
+          "LinkRole"
+        ],
+        "target": "did:example:789",
+        "linkRelationship": "billOfLadingLink"
+      },
+      {
+        "type": [
+          "LinkRole"
+        ],
+        "target": "https://www.example.com/credentials/123",
+        "linkRelationship": "millTestReportLink"
+      }
+    ],
+    "issuer": {
+      "id": "did:example:123",
+      "type": "Organization",
+      "name": "Kovacek, Lind and Toy",
+      "description": "Business-focused next generation open architecture",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "8735 Wunsch Gardens",
+        "addressLocality": "Legrosfurt",
+        "addressRegion": "Virginia",
+        "postalCode": "16628",
+        "addressCountry": "Guadeloupe"
+      },
+      "email": "Maryam.Corkery49@example.org",
+      "phoneNumber": "555-952-9257",
+      "faxNumber": "555-403-3614"
+    },
+    "firewall": "input",
+    "program": "navigate"
   }
 ]

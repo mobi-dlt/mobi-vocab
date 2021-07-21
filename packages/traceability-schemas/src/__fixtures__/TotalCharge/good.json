@@ -4,41 +4,41 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 2233.5,
-    "totalCollect": 744.5,
-    "sourceCurrency": "RON",
-    "destinationCurrency": "TND",
-    "currencyConversionRate": 3,
-    "ccChargesDestinationCurrency": "RON",
-    "chargesDestination": 443,
-    "totalCollectCharge": 110.75
+    "totalPrepaid": 1428,
+    "totalCollect": 476,
+    "sourceCurrency": "BIF",
+    "destinationCurrency": "NAD",
+    "currencyConversionRate": 1,
+    "ccChargesDestinationCurrency": "BIF",
+    "chargesDestination": 932,
+    "totalCollectCharge": 233
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 6583.5,
-    "totalCollect": 2194.5,
-    "sourceCurrency": "SYP",
-    "destinationCurrency": "RON",
-    "currencyConversionRate": 2,
-    "ccChargesDestinationCurrency": "SYP",
-    "chargesDestination": 355,
-    "totalCollectCharge": 88.75
+    "totalPrepaid": 3579,
+    "totalCollect": 1193,
+    "sourceCurrency": "DJF",
+    "destinationCurrency": "XAF",
+    "currencyConversionRate": 5,
+    "ccChargesDestinationCurrency": "DJF",
+    "chargesDestination": 410,
+    "totalCollectCharge": 102.5
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 4343.25,
-    "totalCollect": 1447.75,
-    "sourceCurrency": "MGA",
-    "destinationCurrency": "ZMK",
-    "currencyConversionRate": 2,
-    "ccChargesDestinationCurrency": "MGA",
-    "chargesDestination": 674,
-    "totalCollectCharge": 168.5
+    "totalPrepaid": 6058.5,
+    "totalCollect": 2019.5,
+    "sourceCurrency": "CLP",
+    "destinationCurrency": "AUD",
+    "currencyConversionRate": 1,
+    "ccChargesDestinationCurrency": "CLP",
+    "chargesDestination": 296,
+    "totalCollectCharge": 74
   }
 ]

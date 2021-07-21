@@ -16,62 +16,62 @@
     "type": "IssuerAgent",
     "issuerAgentOrg": {
       "type": "Organization",
-      "name": "Nader Group",
-      "description": "Configurable systemic migration",
+      "name": "Hegmann, Boyer and Zboncak",
+      "description": "Up-sized attitude-oriented local area network",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "062 Isabelle Springs",
-        "addressLocality": "South Bethfurt",
-        "addressRegion": "Massachusetts",
-        "postalCode": "64791",
-        "addressCountry": "Argentina"
+        "streetAddress": "681 Dante Ports",
+        "addressLocality": "Goodwinstad",
+        "addressRegion": "Kansas",
+        "postalCode": "19262-2429",
+        "addressCountry": "Pitcairn Islands"
       },
-      "email": "Aurore82@example.net",
-      "phoneNumber": "555-171-3844",
-      "faxNumber": "555-946-3826"
+      "email": "Frank_Berge25@example.com",
+      "phoneNumber": "555-194-7618",
+      "faxNumber": "555-748-3731"
     },
-    "iataCode": "IATA#772",
+    "iataCode": "IATA#697",
     "accountNumber": "",
-    "accountingInformation": "Please charge to Account 123 and not Account 321",
+    "accountingInformation": "Please, only charge Account 123",
     "charge": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": "PriceSpecification",
-      "price": 9775,
-      "priceCurrency": "MOP"
+      "price": 574,
+      "priceCurrency": "AFN"
     },
     "declaredValueCarriage": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": "PriceSpecification",
-      "price": 383,
-      "priceCurrency": "GNF"
+      "price": 6732,
+      "priceCurrency": "SYP"
     },
-    "declaredValueCarriagePaymentStatus": "PaymentDue",
+    "declaredValueCarriagePaymentStatus": "PaymentAutomaticallyApplied",
     "declaredValueCustoms": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": "PriceSpecification",
-      "price": 4457,
-      "priceCurrency": "DOP"
+      "price": 8432,
+      "priceCurrency": "JOD"
     },
-    "declaredValueCustomsPaymentStatus": "PaymentDue",
+    "declaredValueCustomsPaymentStatus": "PaymentAutomaticallyApplied",
     "amountInsurance": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": "PriceSpecification",
-      "price": 1140,
-      "priceCurrency": "BIF"
+      "price": 3994,
+      "priceCurrency": "MZN"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..R9Bs3VafwLmUj4SASaPN8dXie3IFel92VbwCtY3-8xVr7ciQfJt__VMe8VVzv9XEjooBnDDFJ3SgYsLk2YABDw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jnfPtqCspY7BC5MPrygSboeVgiKVKgKYKmRT1pdNJf6VO4OX_e_Kd09fg_2lUo-fOdZ2a9NXuIEdEs-Sp7tcBw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -4,271 +4,73 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIevidenceDocument",
-    "lei": "PUO1B59EYHX9GCU5GHFS",
+    "lei": "A2795RBV370GSG4VRRSI",
     "entity": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": "LEIentity",
-      "legalName": "Collins and Sons",
-      "legalNameLanguage": "hr",
+      "legalName": "Senger, Crist and Thiel",
+      "legalNameLanguage": "fa",
       "otherNames": [
-        "Schaefer - Mayer",
-        "Corwin - Hane"
+        "Abbott - Johnson",
+        "Ratke - Romaguera"
       ],
       "transliteratedOtherNames": [
-        "Schaefer - Mayer",
-        "Corwin - Hane"
+        "Abbott - Johnson",
+        "Ratke - Romaguera"
       ],
       "legalAddress": {
         "type": "LEIaddress",
-        "language": "vi",
+        "language": "fr_CH",
         "addressLines": [
-          "Rice - Thiel",
-          "88653 Ray Hill"
+          "Murray - Pfeffer",
+          "83439 Khalil Landing"
         ],
-        "addressNumber": "409",
+        "addressNumber": "245",
         "addressNumberWithinBuilding": "7",
-        "mailRouting": "838 Boyer Junctions, 99036-0414",
-        "city": "Parisianmouth",
-        "region": "Borders",
-        "country": "Northern Mariana Islands",
-        "postalCode": "35272"
+        "mailRouting": "92399 Axel Ville, 06119-8155",
+        "city": "Stantonfurt",
+        "region": "Bedfordshire",
+        "country": "Belarus",
+        "postalCode": "86723"
       },
       "headquartersAddress": {
         "type": "LEIaddress",
-        "language": "ru",
+        "language": "sk",
         "addressLines": [
-          "Dach - Johnston",
-          "742 VonRueden Mountains"
+          "Graham and Sons",
+          "80549 Rahul Glens"
         ],
-        "addressNumber": "329",
-        "addressNumberWithinBuilding": "7",
-        "mailRouting": "8342 Glen Garden, 31212",
-        "city": "Port Zola",
-        "region": "Cambridgeshire",
-        "country": "Tokelau",
-        "postalCode": "26316"
+        "addressNumber": "338",
+        "addressNumberWithinBuilding": "3",
+        "mailRouting": "8945 Leilani Place, 83442",
+        "city": "Dillonmouth",
+        "region": "Berkshire",
+        "country": "Panama",
+        "postalCode": "44349-0574"
       },
       "registrationAuthority": {
         "type": "LEIauthority",
         "validationAuthorityID": "RA000003",
-        "otherValidationAuthorityID": "CA2795RB",
-        "validationAuthorityEntityID": "V370GSG4VRRSIJOBU50Q"
+        "otherValidationAuthorityID": "7N7REY8H",
+        "validationAuthorityEntityID": "L4DFGHJW7E5YVHFZE01W"
       },
-      "legalJurisdiction": "Cambridgeshire",
-      "entityCategory": "Jewelery",
+      "legalJurisdiction": "Berkshire",
+      "entityCategory": "Finance",
       "legalForm": "LLC",
       "associatedEntity": {
         "type": "Organization",
-        "leiCode": "5NF3JH0PFJSEOMMYW30E",
-        "name": "Robel - Altenwerth"
+        "leiCode": "JOBU50QELWNQ0JXJ2CDI",
+        "name": "Macejkovic, Ankunding and Quigley"
       },
-      "status": "REJECTED",
+      "status": "REQUESTED",
       "expirationDate": "2022-07-11",
-      "expirationReason": "cultivate back-end paradigms",
+      "expirationReason": "leverage world-class ROI",
       "successorEntity": {
         "type": "Organization",
-        "leiCode": "CDIEN0FHPRVT5VGHEMO2",
-        "name": "Kuhlman LLC"
-      },
-      "otherAddresses": []
-    },
-    "registration": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "LEIregistration",
-      "initialRegistrationDate": "2020-01-01",
-      "lastUpdateDate": "2020-01-01",
-      "status": "IN PROGRESS",
-      "nextRenewalDate": "2021-02-02",
-      "managingLou": "QAVPUHIWGHLRMRGFXAOK",
-      "validationSources": "NOT_CORROBORATED",
-      "validationAuthority": [
-        {
-          "type": "LEIauthority",
-          "validationAuthorityID": "RA000005",
-          "otherValidationAuthorityID": "5VDFBWFZ",
-          "validationAuthorityEntityID": "K3W8EYZYR3I0N53ZU6KI"
-        }
-      ]
-    },
-    "bic": [
-      "HVVOSIEWQL"
-    ]
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "LEIevidenceDocument",
-    "lei": "X3LPE7N7REY8HL4DFGHJ",
-    "entity": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "LEIentity",
-      "legalName": "Ernser, Collins and Langworth",
-      "legalNameLanguage": "en_AU",
-      "otherNames": [
-        "O'Keefe and Sons",
-        "Schroeder Inc"
-      ],
-      "transliteratedOtherNames": [
-        "O'Keefe and Sons",
-        "Schroeder Inc"
-      ],
-      "legalAddress": {
-        "type": "LEIaddress",
-        "language": "hr",
-        "addressLines": [
-          "Barton Inc",
-          "7153 Adelbert Crossroad"
-        ],
-        "addressNumber": "250",
-        "addressNumberWithinBuilding": "2",
-        "mailRouting": "891 Gloria Trail, 65436",
-        "city": "West Damienstad",
-        "region": "Bedfordshire",
-        "country": "Chad",
-        "postalCode": "54067"
-      },
-      "headquartersAddress": {
-        "type": "LEIaddress",
-        "language": "en_IE",
-        "addressLines": [
-          "Anderson and Sons",
-          "059 Marvin Mall"
-        ],
-        "addressNumber": "303",
-        "addressNumberWithinBuilding": "4",
-        "mailRouting": "9386 Dave Haven, 27597-8560",
-        "city": "Lake Louveniafort",
-        "region": "Avon",
-        "country": "Macao",
-        "postalCode": "27684-7888"
-      },
-      "registrationAuthority": {
-        "type": "LEIauthority",
-        "validationAuthorityID": "RA000003",
-        "otherValidationAuthorityID": "2I1O9VWH",
-        "validationAuthorityEntityID": "TBORP7QDXVTQMEN77CNA"
-      },
-      "legalJurisdiction": "Berkshire",
-      "entityCategory": "Grocery",
-      "legalForm": "CORPORATION",
-      "associatedEntity": {
-        "type": "Organization",
-        "leiCode": "W7E5YVHFZE01WHXJYK0P",
-        "name": "Schoen, Funk and Langosh"
-      },
-      "status": "CONFIRMED",
-      "expirationDate": "2022-07-11",
-      "expirationReason": "redefine 24/365 solutions",
-      "successorEntity": {
-        "type": "Organization",
-        "leiCode": "ZHEG243FLAL5FAF81QI1",
-        "name": "Mosciski - Cormier"
-      },
-      "otherAddresses": []
-    },
-    "registration": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "LEIregistration",
-      "initialRegistrationDate": "2020-01-01",
-      "lastUpdateDate": "2020-01-01",
-      "status": "REJECTED",
-      "nextRenewalDate": "2021-02-02",
-      "managingLou": "UNGXGEPUBUADGKNEXGWG",
-      "validationSources": "PARTIALLY_CORROBORATED",
-      "validationAuthority": [
-        {
-          "type": "LEIauthority",
-          "validationAuthorityID": "RA000001",
-          "otherValidationAuthorityID": "R3H4X3PL",
-          "validationAuthorityEntityID": "Q779R6TYDU78DBQ7FHQ0"
-        }
-      ]
-    },
-    "bic": [
-      "OAKNVAMLHL"
-    ]
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "LEIevidenceDocument",
-    "lei": "B5NFKGG0H4Q634OCWY2I",
-    "entity": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "LEIentity",
-      "legalName": "Erdman - Runte",
-      "legalNameLanguage": "fr_CH",
-      "otherNames": [
-        "Zemlak LLC",
-        "Romaguera, Spencer and Grady"
-      ],
-      "transliteratedOtherNames": [
-        "Zemlak LLC",
-        "Romaguera, Spencer and Grady"
-      ],
-      "legalAddress": {
-        "type": "LEIaddress",
-        "language": "ar",
-        "addressLines": [
-          "Casper LLC",
-          "036 Quitzon Ports"
-        ],
-        "addressNumber": "201",
-        "addressNumberWithinBuilding": "1",
-        "mailRouting": "57335 Ferry Lodge, 69319",
-        "city": "New Shainaland",
-        "region": "Borders",
-        "country": "Cook Islands",
-        "postalCode": "46335"
-      },
-      "headquartersAddress": {
-        "type": "LEIaddress",
-        "language": "fa",
-        "addressLines": [
-          "Gibson, McCullough and Heathcote",
-          "57960 Elbert Groves"
-        ],
-        "addressNumber": "328",
-        "addressNumberWithinBuilding": "8",
-        "mailRouting": "7970 Eliezer Inlet, 52080-0171",
-        "city": "Langworthfurt",
-        "region": "Berkshire",
-        "country": "Bahamas",
-        "postalCode": "46009-5440"
-      },
-      "registrationAuthority": {
-        "type": "LEIauthority",
-        "validationAuthorityID": "RA000002",
-        "otherValidationAuthorityID": "5OXHF4Z7",
-        "validationAuthorityEntityID": "F2LK3MGI8TUUSMT0QPTF"
-      },
-      "legalJurisdiction": "Borders",
-      "entityCategory": "Jewelery",
-      "legalForm": "CORPORATION",
-      "associatedEntity": {
-        "type": "Organization",
-        "leiCode": "5MPCFBE04IIH45HRRH9C",
-        "name": "Pouros - Heller"
-      },
-      "status": "REJECTED",
-      "expirationDate": "2022-07-11",
-      "expirationReason": "cultivate synergistic platforms",
-      "successorEntity": {
-        "type": "Organization",
-        "leiCode": "8O30XXK453SBWD67TLXF",
-        "name": "Barton, Volkman and Hammes"
+        "leiCode": "0T2Y74IHJ7126BH5LP5J",
+        "name": "Considine - Turner"
       },
       "otherAddresses": []
     },
@@ -281,19 +83,217 @@
       "lastUpdateDate": "2020-01-01",
       "status": "REQUESTED",
       "nextRenewalDate": "2021-02-02",
-      "managingLou": "NYIJEXIUATJPNQWQRQCO",
-      "validationSources": "FULLY_CORROBORATED",
+      "managingLou": "PJZBPXMKOLYJVQIUGQGT",
+      "validationSources": "PARTIALLY_CORROBORATED",
       "validationAuthority": [
         {
           "type": "LEIauthority",
-          "validationAuthorityID": "RA000005",
-          "otherValidationAuthorityID": "JTCO0Q2P",
-          "validationAuthorityEntityID": "FBE369ET6ZUHA0L5IB1K"
+          "validationAuthorityID": "RA000004",
+          "otherValidationAuthorityID": "0ZTZ6VLE",
+          "validationAuthorityEntityID": "COLEBN3B8L6IF0NS900A"
         }
       ]
     },
     "bic": [
-      "ZLTFSBDVWI"
+      "XTWNNPIERI"
+    ]
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIevidenceDocument",
+    "lei": "UU2I1O9VWHTBORP7QDXV",
+    "entity": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "LEIentity",
+      "legalName": "McLaughlin - Green",
+      "legalNameLanguage": "en_IE",
+      "otherNames": [
+        "Kshlerin, Hudson and King",
+        "Cartwright Inc"
+      ],
+      "transliteratedOtherNames": [
+        "Kshlerin, Hudson and King",
+        "Cartwright Inc"
+      ],
+      "legalAddress": {
+        "type": "LEIaddress",
+        "language": "en_AU",
+        "addressLines": [
+          "Grady - Kemmer",
+          "56171 Waters Manors"
+        ],
+        "addressNumber": "368",
+        "addressNumberWithinBuilding": "6",
+        "mailRouting": "76711 Chadd Forges, 93822-3372",
+        "city": "South Myles",
+        "region": "Avon",
+        "country": "Denmark",
+        "postalCode": "16852"
+      },
+      "headquartersAddress": {
+        "type": "LEIaddress",
+        "language": "tr",
+        "addressLines": [
+          "Cruickshank LLC",
+          "23519 Diamond Fork"
+        ],
+        "addressNumber": "396",
+        "addressNumberWithinBuilding": "1",
+        "mailRouting": "5045 Brando Village, 91227",
+        "city": "Hayesborough",
+        "region": "Avon",
+        "country": "Singapore",
+        "postalCode": "88331"
+      },
+      "registrationAuthority": {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000004",
+        "otherValidationAuthorityID": "NFKGG0H4",
+        "validationAuthorityEntityID": "Q634OCWY2I5MPCFBE04I"
+      },
+      "legalJurisdiction": "Borders",
+      "entityCategory": "Industrial",
+      "legalForm": "CORPORATION",
+      "associatedEntity": {
+        "type": "Organization",
+        "leiCode": "TQMEN77CNAF65QT9IGZD",
+        "name": "Kreiger Group"
+      },
+      "status": "IN PROGRESS",
+      "expirationDate": "2022-07-11",
+      "expirationReason": "target end-to-end action-items",
+      "successorEntity": {
+        "type": "Organization",
+        "leiCode": "H5ZJORUAE7RI154N7LE3",
+        "name": "Bashirian, Hegmann and Mraz"
+      },
+      "otherAddresses": []
+    },
+    "registration": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "LEIregistration",
+      "initialRegistrationDate": "2020-01-01",
+      "lastUpdateDate": "2020-01-01",
+      "status": "IN PROGRESS",
+      "nextRenewalDate": "2021-02-02",
+      "managingLou": "GPIBKRSANUYRBINHPUXU",
+      "validationSources": "FULLY_CORROBORATED",
+      "validationAuthority": [
+        {
+          "type": "LEIauthority",
+          "validationAuthorityID": "RA000003",
+          "otherValidationAuthorityID": "NAP3LRCB",
+          "validationAuthorityEntityID": "KGC83MZA4Y2PV4AFNDBJ"
+        }
+      ]
+    },
+    "bic": [
+      "JOHWMEVLTX"
+    ]
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIevidenceDocument",
+    "lei": "NZFN12XIGH15OXHF4Z7F",
+    "entity": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "LEIentity",
+      "legalName": "Collier, Fahey and Osinski",
+      "legalNameLanguage": "id_ID",
+      "otherNames": [
+        "O'Conner - Pouros",
+        "Nienow - Von"
+      ],
+      "transliteratedOtherNames": [
+        "O'Conner - Pouros",
+        "Nienow - Von"
+      ],
+      "legalAddress": {
+        "type": "LEIaddress",
+        "language": "az",
+        "addressLines": [
+          "Walsh, Macejkovic and Bruen",
+          "312 Torrey Stravenue"
+        ],
+        "addressNumber": "397",
+        "addressNumberWithinBuilding": "4",
+        "mailRouting": "9093 Fleta Neck, 07064-3301",
+        "city": "West Rico",
+        "region": "Avon",
+        "country": "Canada",
+        "postalCode": "98420"
+      },
+      "headquartersAddress": {
+        "type": "LEIaddress",
+        "language": "it",
+        "addressLines": [
+          "Kuvalis and Sons",
+          "9331 Sauer Unions"
+        ],
+        "addressNumber": "472",
+        "addressNumberWithinBuilding": "1",
+        "mailRouting": "73656 Marquise Trafficway, 15194-7170",
+        "city": "Schneiderberg",
+        "region": "Borders",
+        "country": "Australia",
+        "postalCode": "08415"
+      },
+      "registrationAuthority": {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000003",
+        "otherValidationAuthorityID": "ZTLFQK3I",
+        "validationAuthorityEntityID": "V1UMNTI5PL0LL5U4CZ3E"
+      },
+      "legalJurisdiction": "Avon",
+      "entityCategory": "Grocery",
+      "legalForm": "LLC",
+      "associatedEntity": {
+        "type": "Organization",
+        "leiCode": "2LK3MGI8TUUSMT0QPTF7",
+        "name": "Breitenberg LLC"
+      },
+      "status": "REQUESTED",
+      "expirationDate": "2022-07-11",
+      "expirationReason": "maximize intuitive systems",
+      "successorEntity": {
+        "type": "Organization",
+        "leiCode": "S32WOEDBRGYE4VBXTA9V",
+        "name": "Sauer Group"
+      },
+      "otherAddresses": []
+    },
+    "registration": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "LEIregistration",
+      "initialRegistrationDate": "2020-01-01",
+      "lastUpdateDate": "2020-01-01",
+      "status": "REJECTED",
+      "nextRenewalDate": "2021-02-02",
+      "managingLou": "LRAYOURUPNTEOLBODRPP",
+      "validationSources": "FULLY_CORROBORATED",
+      "validationAuthority": [
+        {
+          "type": "LEIauthority",
+          "validationAuthorityID": "RA000004",
+          "otherValidationAuthorityID": "XZ8KKA9E",
+          "validationAuthorityEntityID": "T60RKRCVB0NKU7LCUS96"
+        }
+      ]
+    },
+    "bic": [
+      "KCGLCGTEYN"
     ]
   }
 ]

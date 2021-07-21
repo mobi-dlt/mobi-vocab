@@ -6,34 +6,34 @@
     "type": "ChargeDeclaration",
     "weightCharge": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 68,
-      "chargePrepaid": 856
+      "chargeCollect": 323,
+      "chargePrepaid": 932
     },
     "taxCharge": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 13,
-      "chargePrepaid": 445
+      "chargeCollect": 110,
+      "chargePrepaid": 829
     },
     "otherChargesAgent": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 644,
-      "chargePrepaid": 849
+      "chargeCollect": 366,
+      "chargePrepaid": 138
     },
     "otherChargesCarrier": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 305,
-      "chargePrepaid": 895
+      "chargeCollect": 277,
+      "chargePrepaid": 569
     },
     "totalCharge": {
       "type": "TotalCharge",
-      "totalPrepaid": 2344.5,
-      "totalCollect": 781.5,
-      "sourceCurrency": "CZK",
-      "destinationCurrency": "ARS",
-      "currencyConversionRate": 2,
-      "ccChargesDestinationCurrency": "CZK",
-      "chargesDestination": 885,
-      "totalCollectCharge": 221.25
+      "totalPrepaid": 2355,
+      "totalCollect": 785,
+      "sourceCurrency": "THB",
+      "destinationCurrency": "TRY",
+      "currencyConversionRate": 4,
+      "ccChargesDestinationCurrency": "THB",
+      "chargesDestination": 576,
+      "totalCollectCharge": 144
     }
   },
   {
@@ -43,34 +43,34 @@
     "type": "ChargeDeclaration",
     "weightCharge": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 28,
-      "chargePrepaid": 765
+      "chargeCollect": 394,
+      "chargePrepaid": 931
     },
     "taxCharge": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 482,
-      "chargePrepaid": 930
+      "chargeCollect": 637,
+      "chargePrepaid": 846
     },
     "otherChargesAgent": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 691,
-      "chargePrepaid": 40
+      "chargeCollect": 707,
+      "chargePrepaid": 679
     },
     "otherChargesCarrier": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 726,
-      "chargePrepaid": 874
+      "chargeCollect": 14,
+      "chargePrepaid": 147
     },
     "totalCharge": {
       "type": "TotalCharge",
-      "totalPrepaid": 1014.75,
-      "totalCollect": 338.25,
-      "sourceCurrency": "OMR",
-      "destinationCurrency": "LKR",
-      "currencyConversionRate": 2,
-      "ccChargesDestinationCurrency": "OMR",
-      "chargesDestination": 636,
-      "totalCollectCharge": 159
+      "totalPrepaid": 5350.5,
+      "totalCollect": 1783.5,
+      "sourceCurrency": "BYN",
+      "destinationCurrency": "DKK",
+      "currencyConversionRate": 4,
+      "ccChargesDestinationCurrency": "BYN",
+      "chargesDestination": 877,
+      "totalCollectCharge": 219.25
     }
   },
   {
@@ -80,34 +80,34 @@
     "type": "ChargeDeclaration",
     "weightCharge": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 998,
-      "chargePrepaid": 208
+      "chargeCollect": 481,
+      "chargePrepaid": 784
     },
     "taxCharge": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 680,
-      "chargePrepaid": 995
+      "chargeCollect": 638,
+      "chargePrepaid": 648
     },
     "otherChargesAgent": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 831,
-      "chargePrepaid": 99
+      "chargeCollect": 1000,
+      "chargePrepaid": 57
     },
     "otherChargesCarrier": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 301,
-      "chargePrepaid": 12
+      "chargeCollect": 113,
+      "chargePrepaid": 366
     },
     "totalCharge": {
       "type": "TotalCharge",
-      "totalPrepaid": 5536.5,
-      "totalCollect": 1845.5,
-      "sourceCurrency": "CAD",
-      "destinationCurrency": "ALL",
+      "totalPrepaid": 2892.75,
+      "totalCollect": 964.25,
+      "sourceCurrency": "KWD",
+      "destinationCurrency": "XAF",
       "currencyConversionRate": 5,
-      "ccChargesDestinationCurrency": "CAD",
-      "chargesDestination": 348,
-      "totalCollectCharge": 87
+      "ccChargesDestinationCurrency": "KWD",
+      "chargesDestination": 505,
+      "totalCollectCharge": 126.25
     }
   }
 ]

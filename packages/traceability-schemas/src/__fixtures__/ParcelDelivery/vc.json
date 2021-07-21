@@ -16,29 +16,29 @@
     "type": "ParcelDelivery",
     "deliveryAddress": {
       "type": "PostalAddress",
-      "organizationName": "Hayes - Mills",
-      "streetAddress": "613 Kayla Walk",
-      "addressLocality": "Christaview",
-      "addressRegion": "Connecticut",
-      "postalCode": "54610-5287",
-      "addressCountry": "San Marino"
+      "organizationName": "Sanford, Beatty and Schaefer",
+      "streetAddress": "762 Fabian Light",
+      "addressLocality": "Aufderharville",
+      "addressRegion": "Tennessee",
+      "postalCode": "19385",
+      "addressCountry": "Togo"
     },
     "originAddress": {
       "type": "PostalAddress",
-      "organizationName": "Steuber, Quigley and Okuneva",
-      "streetAddress": "48380 Breanne Extension",
-      "addressLocality": "Port Elsehaven",
-      "addressRegion": "New Hampshire",
-      "postalCode": "28458-6459",
-      "addressCountry": "Australia"
+      "organizationName": "Kuphal, Littel and Schowalter",
+      "streetAddress": "4590 Estel Summit",
+      "addressLocality": "Gregfurt",
+      "addressRegion": "Michigan",
+      "postalCode": "64219-2613",
+      "addressCountry": "Comoros"
     },
     "deliveryMethod": "Rail freight transport",
-    "trackingNumber": "847502140048"
+    "trackingNumber": "645013361869"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..D64Hc7N2wf0RLlEKjP_A-unx7iPV1j3C7fz0Tj6MiE5Mb4KOPJORdsD_e-lJJ9GrA81Wlz1vz1uhgzwgPH4GDA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..73vHBD2rEKoPsq8TDCeboH0x91DK4mengdvUnFUDNhAO-S6gru77pVR7uHS6IlePAHy0t6FYybci7JZRheg0Cg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

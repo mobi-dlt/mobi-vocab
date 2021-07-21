@@ -4,14 +4,17 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "EcommercePackageRegistrationCredential",
-    "trackingID": "114580359333",
+    "trackingID": "197240104689",
     "packageItems": [
       {
         "type": "EcommercePackageItem",
-        "productReceiptID": "https://vc.example.com/?queryID=0x47Ae1DaA9A7a8fbc34c4B6AE3c3A577882e31C0c87fB45eF57D7D662529e5DeB",
-        "packingListID": "https://vc.example.com/?queryID=0xC3ecC2803eAb71e05F10F93bF2F3B7eAcbDe6FaAd9999d7ecbCe40E9f6C2c2Bd",
+        "productReceiptID": "https://vc.example.com/?queryID=0x722B2ECaEae72D8eA6B62D00f77c5302bBCDFCcDbc1Bc88edF84582a63213CFF",
+        "packingListID": "https://vc.example.com/?queryID=0x98b1D1FDcaB77a678aeCfd6f28dA2ec2fcf5ABD9aFA2dB4e0A669adBC5442cFb",
         "orderID": "https://vc.example.com/?queryID=AB06f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a",
         "productInOrder": [
+          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
+          "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
+          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
           "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e"
         ]
       }
@@ -23,16 +26,14 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "EcommercePackageRegistrationCredential",
-    "trackingID": "653037197398",
+    "trackingID": "623562987800",
     "packageItems": [
       {
         "type": "EcommercePackageItem",
-        "productReceiptID": "https://vc.example.com/?queryID=0xB5dDb2126F2eFC273eDdEdAf0c09863A04afE57deAe451e24d2Cf02AF74adE97",
-        "packingListID": "https://vc.example.com/?queryID=0x2a00d1B5C0adB9ecf3a6deBF81BDdc3c0b71c1Cd27BEC833CfF6fbBfFDdB6eCe",
+        "productReceiptID": "https://vc.example.com/?queryID=0xcab151e6CE0ba5f85d6ed3DFBbc2AD81eDaF4ffAc77EEb0A6E1FACf67Fed8EAe",
+        "packingListID": "https://vc.example.com/?queryID=0x9698Ec5B26ccF78B1a71b331eaF2927E8D29DF908ded9ae81aB9EAe2F433a5db",
         "orderID": "https://vc.example.com/?queryID=AB06f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a",
         "productInOrder": [
-          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
-          "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
           "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
         ]
       }
@@ -44,17 +45,17 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "EcommercePackageRegistrationCredential",
-    "trackingID": "655395348835",
+    "trackingID": "296356891305",
     "packageItems": [
       {
         "type": "EcommercePackageItem",
-        "productReceiptID": "https://vc.example.com/?queryID=0x00Af7DeCc2722B2ECaEae72D8eA6B62D00f77c5302bBCDFCcDbc1Bc88edF8458",
-        "packingListID": "https://vc.example.com/?queryID=0x2a63213CFF98b1D1FDcaB77a678aeCfd6f28dA2ec2fcf5ABD9aFA2dB4e0A669a",
+        "productReceiptID": "https://vc.example.com/?queryID=0x4c0d8D2c275B6bb1ecdD3836D3c3D98dd1bE7AacbC416aBdEC7B664Ee27DFF73",
+        "packingListID": "https://vc.example.com/?queryID=0x8fd0B8ab9cFE0eDa3BBEd07FD10B46c279de08212d4Da8A4D9C14C9C4c57bB1c",
         "orderID": "https://vc.example.com/?queryID=AB06f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a",
         "productInOrder": [
           "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
-          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
-          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
+          "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
+          "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e"
         ]
       }
     ],

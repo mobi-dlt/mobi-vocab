@@ -3,31 +3,30 @@
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "name": "Ergonomic Metal Chicken",
-    "height": "8.23 in",
-    "system": "compress",
-    "monitor": "index"
+    "productID": "VDF8LKZ4JB",
+    "protocol": "parse",
+    "transmitter": "reboot"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "productID": "MROH4ASZ0N",
+    "feed": "hack",
+    "matrix": "calculate",
+    "driver": "copy"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
     "type": "ItemShipped",
-    "manufacturer": "Sanford LLC",
-    "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "productID": "T2CLND8S3V",
-    "weight": "4.178 lp",
-    "height": "8.659 in",
-    "orderQuantity": 3,
-    "matrix": "connect",
-    "port": "reboot"
-  },
-  {
-    "productID": "TP91GVP4F4",
-    "width": "7.353 in",
-    "orderQuantity": 10,
-    "sensor": "copy",
-    "hard drive": "program",
-    "alarm": "hack"
+    "manufacturer": "Gislason Group",
+    "name": "Incredible Steel Computer",
+    "productID": "V18ISKLKYH",
+    "width": "7.133 in",
+    "depth": "2.202 in",
+    "interface": "synthesize",
+    "circuit": "hack"
   }
 ]

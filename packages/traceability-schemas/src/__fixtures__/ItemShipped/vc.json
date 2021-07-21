@@ -14,20 +14,20 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "ItemShipped",
-    "manufacturer": "Bednar Group",
-    "name": "Ergonomic Metal Chicken",
-    "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "productID": "GUME7IOERA",
-    "weight": "2.893 lp",
-    "height": "8.23 in",
-    "width": "6.56 in",
-    "depth": "3.448 in",
-    "orderQuantity": 5
+    "manufacturer": "Bechtelar, Fay and Torp",
+    "name": "Tasty Cotton Fish",
+    "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+    "productID": "VDF8LKZ4JB",
+    "weight": "4.622 lp",
+    "height": "9.221 in",
+    "width": "1.747 in",
+    "depth": "4.683 in",
+    "orderQuantity": 2
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..EWunLUTVVZhY1F0Oatygo2VTnGLrjoZlK6T71dVl4loD3C1gcRiVpRCEfhCuUdwpdVAMkYlTZgE7VjtlbKisDg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..94fTBZ8vLaIoMjOmx4vljHa7_TFHaizl_mjHfQAc3zUkZuI6iEnxPtwauLf97DtAT3XKF7gpmwiopowrFT3gAw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

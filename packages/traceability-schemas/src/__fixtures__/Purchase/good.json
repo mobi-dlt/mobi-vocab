@@ -7,20 +7,52 @@
       "Purchase"
     ],
     "customer": {
+      "type": "Person",
+      "firstName": "Carolanne",
+      "lastName": "Stiedemann",
+      "email": "Mariano30@example.com",
+      "phoneNumber": "555-138-5910",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Wintheiser Inc",
+        "description": "Decentralized context-sensitive access",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "80995 Ara Motorway",
+          "addressLocality": "Lake Kennahaven",
+          "addressRegion": "Illinois",
+          "postalCode": "44662-7080",
+          "addressCountry": "Uzbekistan"
+        },
+        "email": "Santiago12@example.net",
+        "phoneNumber": "555-119-5628",
+        "faxNumber": "555-107-8186"
+      },
+      "jobTitle": "Customer Metrics Developer"
+    }
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": [
+      "Purchase"
+    ],
+    "customer": {
       "type": "Organization",
-      "name": "Wunsch - Hessel",
-      "description": "Business-focused modular superstructure",
+      "name": "Tremblay, Ziemann and Mayert",
+      "description": "Cross-group intangible parallelism",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "847 Roger Wells",
-        "addressLocality": "Myrtleton",
+        "streetAddress": "64880 Mossie Radial",
+        "addressLocality": "New Janiceview",
         "addressRegion": "Utah",
-        "postalCode": "67802-1006",
-        "addressCountry": "Montenegro"
+        "postalCode": "20461-9371",
+        "addressCountry": "Finland"
       },
-      "email": "Raquel92@example.org",
-      "phoneNumber": "555-491-8980",
-      "faxNumber": "555-483-7035"
+      "email": "Amely70@example.org",
+      "phoneNumber": "555-427-3500",
+      "faxNumber": "555-436-7004"
     }
   },
   {
@@ -31,60 +63,20 @@
       "Purchase"
     ],
     "customer": {
-      "type": "Person",
-      "firstName": "Dorris",
-      "lastName": "Nicolas",
-      "email": "Russel_Carter@example.org",
-      "phoneNumber": "555-897-4840",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Krajcik - Harris",
-        "description": "Multi-lateral modular algorithm",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "727 Rhett Plaza",
-          "addressLocality": "New Rahulport",
-          "addressRegion": "Washington",
-          "postalCode": "79160-7076",
-          "addressCountry": "Philippines"
-        },
-        "email": "Dayne80@example.net",
-        "phoneNumber": "555-666-7447",
-        "faxNumber": "555-988-5089"
+      "type": "Organization",
+      "name": "Schaefer - Schmidt",
+      "description": "Multi-lateral real-time workforce",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "2775 Walker Groves",
+        "addressLocality": "New Kyler",
+        "addressRegion": "Michigan",
+        "postalCode": "71882-1329",
+        "addressCountry": "Dominican Republic"
       },
-      "jobTitle": "Dynamic Solutions Officer"
-    }
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": [
-      "Purchase"
-    ],
-    "customer": {
-      "type": "Person",
-      "firstName": "Bart",
-      "lastName": "Anderson",
-      "email": "Tiffany_Stiedemann@example.com",
-      "phoneNumber": "555-304-4868",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Legros, Parker and Boyer",
-        "description": "Inverse foreground open system",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "6304 Kutch Coves",
-          "addressLocality": "Hauckberg",
-          "addressRegion": "Iowa",
-          "postalCode": "04856",
-          "addressCountry": "Solomon Islands"
-        },
-        "email": "Nigel_Ziemann47@example.net",
-        "phoneNumber": "555-209-7226",
-        "faxNumber": "555-158-6967"
-      },
-      "jobTitle": "Dynamic Accountability Agent"
+      "email": "Roger.Lesch87@example.net",
+      "phoneNumber": "555-248-8897",
+      "faxNumber": "555-137-2791"
     }
   }
 ]

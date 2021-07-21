@@ -1,18 +1,20 @@
 [
   {
-    "productCodeType": "GTIN",
-    "feed": "override",
-    "microchip": "copy",
-    "system": "generate"
+    "pixel": "quantify",
+    "card": "index",
+    "microchip": "connect",
+    "hard drive": "program"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "bandwidth": "generate"
+    "type": "EcommerceProductRegistrationCredential",
+    "productCode": 5,
+    "bandwidth": "input"
   },
   {
-    "certificateName": "ACME Ecommerce Product Registration Certificate",
-    "capacitor": "compress"
+    "type": "EcommerceProductRegistrationCredential",
+    "monitor": "synthesize"
   }
 ]

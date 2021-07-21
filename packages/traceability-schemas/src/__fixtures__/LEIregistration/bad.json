@@ -1,45 +1,42 @@
 [
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "LEIregistration",
+    "initialRegistrationDate": "2020-01-01",
     "lastUpdateDate": "2020-01-01",
-    "status": "REJECTED",
-    "nextRenewalDate": "2021-02-02",
-    "validationSources": "NOT_CORROBORATED",
-    "bus": "override",
-    "application": "transmit"
-  },
-  {
-    "type": "LEIregistration",
-    "status": "REJECTED",
-    "managingLou": "LRAYOURUPNTEOLBODRPP",
+    "managingLou": "EUZJCOYBXBNGSRLWQOIN",
     "validationSources": "FULLY_CORROBORATED",
     "validationAuthority": [
       {
         "type": "LEIauthority",
         "validationAuthorityID": "RA000004",
-        "otherValidationAuthorityID": "XZ8KKA9E",
-        "validationAuthorityEntityID": "T60RKRCVB0NKU7LCUS96"
+        "otherValidationAuthorityID": "NRMGJM0D",
+        "validationAuthorityEntityID": "PPDUXOTILG9N7OCKHMA3"
       }
     ],
-    "feed": "calculate",
-    "alarm": "synthesize"
+    "application": "copy",
+    "capacitor": "navigate",
+    "system": "bypass"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
     "lastUpdateDate": "2020-01-01",
+    "validationSources": "NOT_CORROBORATED",
+    "system": "connect",
+    "alarm": "back up",
+    "sensor": "index"
+  },
+  {
+    "type": "LEIregistration",
+    "initialRegistrationDate": "2020-01-01",
+    "status": "IN PROGRESS",
+    "validationSources": "PARTIALLY_CORROBORATED",
     "validationAuthority": [
       {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000004",
-        "otherValidationAuthorityID": "DB9RRNRM",
-        "validationAuthorityEntityID": "GJM0DPPDUXOTILG9N7OC"
+        "validationAuthorityID": "RA000005",
+        "otherValidationAuthorityID": "IKFYZIXT",
+        "validationAuthorityEntityID": "BJ41UBZKAYCUX8P7A7KX"
       }
     ],
-    "sensor": "hack"
+    "monitor": "reboot",
+    "application": "back up"
   }
 ]

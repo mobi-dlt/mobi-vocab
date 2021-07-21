@@ -1,25 +1,22 @@
 [
   {
-    "type": "LegalEntityIdentifierCredential",
-    "bandwidth": "generate",
-    "firewall": "copy",
-    "bus": "navigate"
+    "certificateName": "US Legal Entity Certificate",
+    "bandwidth": "connect"
   },
   {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
     "type": "LegalEntityIdentifierCredential",
     "certificateName": "US Legal Entity Certificate",
-    "feed": "input",
-    "alarm": "override",
-    "matrix": "hack",
-    "panel": "copy"
+    "panel": "navigate"
   },
   {
-    "type": "LegalEntityIdentifierCredential",
-    "leiCode": "FZF9FGN1HEIKFYZIXTBJ",
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
     "certificateName": "US Legal Entity Certificate",
-    "card": "parse",
-    "hard drive": "copy",
-    "capacitor": "navigate",
-    "bus": "reboot"
+    "matrix": "calculate",
+    "capacitor": "generate"
   }
 ]

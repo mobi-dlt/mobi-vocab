@@ -14,26 +14,50 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "PartOfOrder",
-    "orderNumber": "Order#520",
+    "orderNumber": "Order#436",
     "itemsShipped": [
       {
         "type": "ItemShipped",
-        "manufacturer": "Daugherty - Hessel",
-        "name": "Handcrafted Cotton Sausages",
-        "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-        "productID": "S1IFKMUUTO",
-        "weight": "1.528 lp",
-        "height": "2.875 in",
-        "width": "7.425 in",
-        "depth": "5.156 in",
-        "orderQuantity": 5
+        "manufacturer": "Parker, Cole and Durgan",
+        "name": "Generic Fresh Pizza",
+        "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+        "productID": "GFWAB1HHYC",
+        "weight": "3.939 lp",
+        "height": "3.263 in",
+        "width": "7.73 in",
+        "depth": "7.252 in",
+        "orderQuantity": 3
+      },
+      {
+        "type": "ItemShipped",
+        "manufacturer": "Beatty LLC",
+        "name": "Licensed Cotton Bike",
+        "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+        "productID": "30UXTMJB58",
+        "weight": "1.102 lp",
+        "height": "1.081 in",
+        "width": "8.171 in",
+        "depth": "3.119 in",
+        "orderQuantity": 7
+      },
+      {
+        "type": "ItemShipped",
+        "manufacturer": "Cummerata LLC",
+        "name": "Rustic Metal Soap",
+        "description": "The Football Is Good For Training And Recreational Purposes",
+        "productID": "QLGAL1S170",
+        "weight": "1.263 lp",
+        "height": "7.652 in",
+        "width": "5.786 in",
+        "depth": "3.862 in",
+        "orderQuantity": 1
       }
     ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..E_V5Ocf69ywTnZ5dzfsMEz-2vNVJujhulVgtggF7QeGt6ECNwDO80T1KBs6hkZPyVnXoSLhqmg-P4LUWGYqYBg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ObsT65NyD-FxLJCAmLAGqTOofaVSssXF-B5zZlxhnglkAUDwBNJpb6gqLyNZXo0QZ3p05KEhvW-iqtk7WX4bAg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

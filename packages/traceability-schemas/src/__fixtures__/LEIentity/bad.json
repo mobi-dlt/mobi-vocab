@@ -4,102 +4,100 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIentity",
-    "legalName": "Treutel and Sons",
-    "legalNameLanguage": "nl_BE",
+    "legalName": "Spinka, Simonis and Mosciski",
+    "legalNameLanguage": "fr",
     "otherNames": [
-      "Ward, Swaniawski and Schneider",
-      "Cruickshank Inc"
+      "Schaden, Bernier and Botsford",
+      "Lebsack Group"
     ],
     "transliteratedOtherNames": [
-      "Ward, Swaniawski and Schneider",
-      "Cruickshank Inc"
+      "Schaden, Bernier and Botsford",
+      "Lebsack Group"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "en_AU",
+      "language": "ko",
       "addressLines": [
-        "McCullough - Hessel",
-        "5023 Philip Locks"
+        "Barrows, Durgan and Shields",
+        "7221 Colin Camp"
       ],
-      "addressNumber": "381",
-      "addressNumberWithinBuilding": "6",
-      "mailRouting": "51045 Sylvia Forges, 16010-7366",
-      "city": "Lake Hannahview",
-      "region": "Avon",
-      "country": "Virgin Islands, U.S.",
-      "postalCode": "66326"
-    },
-    "headquartersAddress": {
-      "type": "LEIaddress",
-      "language": "it",
-      "addressLines": [
-        "Veum and Sons",
-        "702 Jerde Plaza"
-      ],
-      "addressNumber": "461",
-      "addressNumberWithinBuilding": "9",
-      "mailRouting": "812 Breana Estate, 37204-1479",
-      "city": "North Reaganborough",
+      "addressNumber": "240",
+      "addressNumberWithinBuilding": "3",
+      "mailRouting": "193 Schimmel Shores, 64926-0869",
+      "city": "Port Eliezer",
       "region": "Buckinghamshire",
-      "country": "Seychelles",
-      "postalCode": "56634"
+      "country": "Andorra",
+      "postalCode": "80718"
     },
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000005",
-      "otherValidationAuthorityID": "MTP2CT3H",
-      "validationAuthorityEntityID": "24LVINQ5I1F5EL06C8Z0"
-    },
-    "legalJurisdiction": "Berkshire",
-    "entityCategory": "Jewelery",
-    "legalForm": "CORPORATION",
+    "legalJurisdiction": "Cambridgeshire",
+    "entityCategory": "Grocery",
+    "legalForm": "LLC",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "V5T6ZRX0WKQDDI3KOBZA",
-      "name": "McKenzie, Schinner and Stamm"
+      "leiCode": "8Z0VQBTLSU4FW0O2WIGY",
+      "name": "Heidenreich and Sons"
     },
-    "status": "REQUESTED",
-    "expirationReason": "deploy customized synergies",
+    "expirationDate": "2022-07-11",
+    "expirationReason": "synthesize web-enabled paradigms",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "O2WIGYFOS236IRUUTMYN",
-      "name": "Barrows, Durgan and Shields"
+      "leiCode": "J5ZTU4D80GMIPRNGYSVM",
+      "name": "Bruen - Berge"
     },
     "otherAddresses": [],
-    "port": "generate",
-    "monitor": "compress"
+    "pixel": "input",
+    "firewall": "quantify"
   },
   {
-    "type": "LEIentity",
-    "legalAddress": {
+    "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "de_AT",
+      "language": "vi",
       "addressLines": [
-        "Denesik LLC",
-        "028 Purdy Ramp"
+        "Torphy Group",
+        "135 Murray Mall"
       ],
-      "addressNumber": "272",
-      "addressNumberWithinBuilding": "5",
-      "mailRouting": "589 Rodriguez Lodge, 64814",
-      "city": "Pablobury",
-      "region": "Bedfordshire",
-      "country": "Grenada",
-      "postalCode": "29143"
+      "addressNumber": "83",
+      "addressNumberWithinBuilding": "8",
+      "mailRouting": "90417 Carroll Groves, 90381-0175",
+      "city": "North Dionhaven",
+      "region": "Borders",
+      "country": "Georgia",
+      "postalCode": "94214"
     },
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000002",
-      "otherValidationAuthorityID": "D80GMIPR",
-      "validationAuthorityEntityID": "NGYSVMG425HFOELQJKGD"
+    "entityCategory": "Grocery",
+    "associatedEntity": {
+      "type": "Organization",
+      "leiCode": "GDA698IK5FCIB6LN2UT9",
+      "name": "Renner, Kiehn and VonRueden"
     },
-    "status": "REQUESTED",
-    "card": "reboot",
-    "bus": "quantify"
+    "status": "IN PROGRESS",
+    "expirationDate": "2022-07-11",
+    "expirationReason": "iterate intuitive deliverables",
+    "monitor": "synthesize",
+    "feed": "bypass",
+    "firewall": "calculate",
+    "application": "calculate"
   },
   {
-    "driver": "hack",
-    "pixel": "navigate",
-    "circuit": "parse",
-    "port": "reboot"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIentity",
+    "otherNames": [
+      "Bogan Group",
+      "Collier, Tromp and Koss"
+    ],
+    "legalJurisdiction": "Bedfordshire",
+    "entityCategory": "Industrial",
+    "legalForm": "LLC",
+    "associatedEntity": {
+      "type": "Organization",
+      "leiCode": "5YE0H83XFXBP1R43RI08",
+      "name": "Maggio, Bergstrom and Hermiston"
+    },
+    "status": "REJECTED",
+    "expirationDate": "2022-07-11",
+    "expirationReason": "empower integrated ROI",
+    "port": "synthesize"
   }
 ]

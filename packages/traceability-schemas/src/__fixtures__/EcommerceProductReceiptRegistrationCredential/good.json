@@ -4,7 +4,7 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "EcommerceProductReceiptRegistrationCredential",
-    "receiptID": "Receipt#61",
+    "receiptID": "Receipt#531",
     "packingListID": [
       "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a"
     ],
@@ -12,10 +12,10 @@
       "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a"
     ],
     "productInOrder": [
-      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
-      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
-      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
-      "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
+      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
+      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
+      "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
+      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
     ],
     "certificateName": "ACME Carrier Ecommerce Product Receipt Registration Certificate"
   },
@@ -24,7 +24,7 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "EcommerceProductReceiptRegistrationCredential",
-    "receiptID": "Receipt#909",
+    "receiptID": "Receipt#124",
     "packingListID": [
       "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a"
     ],
@@ -32,7 +32,8 @@
       "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a"
     ],
     "productInOrder": [
-      "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
+      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e",
+      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58599e"
     ],
     "certificateName": "ACME Carrier Ecommerce Product Receipt Registration Certificate"
   },
@@ -41,7 +42,7 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "EcommerceProductReceiptRegistrationCredential",
-    "receiptID": "Receipt#14",
+    "receiptID": "Receipt#738",
     "packingListID": [
       "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a"
     ],
@@ -49,7 +50,9 @@
       "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a"
     ],
     "productInOrder": [
-      "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
+      "https://vc.example.com/?queryID=6206f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
+      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a",
+      "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58598a"
     ],
     "certificateName": "ACME Carrier Ecommerce Product Receipt Registration Certificate"
   }

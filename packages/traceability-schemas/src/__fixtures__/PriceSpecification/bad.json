@@ -3,24 +3,21 @@
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "card": "transmit",
-    "sensor": "bypass",
-    "firewall": "compress"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "PriceSpecification",
-    "firewall": "calculate",
-    "program": "index",
-    "array": "back up"
-  },
-  {
-    "priceCurrency": "TOP",
+    "price": 1125,
+    "card": "parse",
     "circuit": "copy",
-    "array": "connect",
-    "card": "transmit",
-    "bus": "input"
+    "feed": "generate"
+  },
+  {
+    "price": 8798,
+    "capacitor": "hack",
+    "sensor": "navigate",
+    "firewall": "navigate",
+    "pixel": "back up"
+  },
+  {
+    "microchip": "calculate",
+    "interface": "navigate",
+    "transmitter": "hack"
   }
 ]

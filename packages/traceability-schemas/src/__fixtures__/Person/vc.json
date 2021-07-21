@@ -14,32 +14,32 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Person",
-    "firstName": "Edna",
-    "lastName": "Senger",
-    "email": "Haley_Hoeger47@example.org",
-    "phoneNumber": "555-870-2146",
+    "firstName": "Alycia",
+    "lastName": "Zieme",
+    "email": "Judson.Stark@example.net",
+    "phoneNumber": "555-307-5690",
     "worksFor": {
       "type": "Organization",
-      "name": "Dicki and Sons",
-      "description": "Enhanced transitional definition",
+      "name": "Aufderhar, Hagenes and Marks",
+      "description": "Virtual empowering attitude",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "310 Bosco Ville",
-        "addressLocality": "Feeneyport",
-        "addressRegion": "Arizona",
-        "postalCode": "75854-3935",
-        "addressCountry": "Egypt"
+        "streetAddress": "684 Cronin Green",
+        "addressLocality": "South Karianne",
+        "addressRegion": "Massachusetts",
+        "postalCode": "51567",
+        "addressCountry": "Bangladesh"
       },
-      "email": "Ismael_Wolf@example.net",
-      "phoneNumber": "555-667-4090",
-      "faxNumber": "555-860-5138"
+      "email": "Vernon94@example.org",
+      "phoneNumber": "555-558-4403",
+      "faxNumber": "555-194-7390"
     },
-    "jobTitle": "Lead Infrastructure Technician"
+    "jobTitle": "Regional Factors Specialist"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..RNH7stiwiGChP1ms5mgqiYvCLLhRoResVYEMm_Bk2FWSxIRdwHDIFKAw7pwDaphPDCbt3_rZ2saTPphfo-6pDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..8iW28EzRMuVfP4BjG9YaPqXZLBhjos7h_exJeyt1Ic1GP_1nlMGkQNxwwfbGbxclaBHaQlzOGm2budmA8GsBAA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

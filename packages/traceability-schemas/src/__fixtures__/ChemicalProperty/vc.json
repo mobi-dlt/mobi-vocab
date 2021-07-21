@@ -14,15 +14,15 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "ChemicalProperty",
-    "name": "Rhodium",
-    "formula": "Rh",
-    "inchi": "InChI=1S/Rh",
-    "inchikey": "MHOVAHRLVXNVSD-UHFFFAOYSA-N"
+    "name": "Protactinium",
+    "formula": "Pa",
+    "inchi": "InChI=1S/Pa",
+    "inchikey": "XLROVYAPLOFLNU-UHFFFAOYSA-N"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..G_7YsT45W8EoagUKYIlaVeIIdYUsbs2Org4AHAjfCBO6p8eEtq8n0u9fslkXXlWVzvQ5qBCknWZVZHBu0dQwCA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..gzcKkHYeM-zn1V2O0WHYxTBm6P5xznB0nx6U51DyIOqsZN9M8b2jeBTSH-aQveqgqYvLLjLAvlvjit1VRROTCA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -1,0 +1,57 @@
+{
+    "$id": "https://w3id.org/traceability/schemas/BatterySOH.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"BatterySOH\", \"@id\": \"https://w3id.org/traceability#BatterySOH\"}",
+    "title": "BatterySOH",
+    "description": "Battery SOH information for vehicle.",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+
+        "batteryid": {
+            "$comment": "{\"term\": \"batteryid\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "batteryid",
+            "description": "Logo of the entity.",
+            "$ref": "https://w3id.org/traceability/schemas/BatteryID.json"
+        },
+        "previousSOHVal": {
+            "$comment": "{\"term\": \"previousSOHVal\", \"@id\": \"https://schema.org/value\"}",
+            "title": "previousSOHVal",
+            "description": "previous SOH Val",
+            "type": "string"
+        },
+        "previousSOHTimeStamp": {
+            "$comment": "{\"term\": \"previousSOHTimeStamp\", \"@id\": \"https://schema.org/Date\"}",
+            "title": "previousSOHTimeStamp",
+            "description": "previous SOH TimeStamp",
+            "type": "string"
+        },
+        "newSOHVal": {
+            "$comment": "{\"term\": \"newSOHVal\", \"@id\": \"https://schema.org/Number\"}",
+            "title": "newSOHVal",
+            "description": "previous SOH Val",
+            "type": "string"
+        },
+        "newSOHTimeStamp": {
+            "$comment": "{\"term\": \"newSOHTimeStamp\", \"@id\": \"https://schema.org/Text\"}",
+            "title": "newSOHTimeStamp",
+            "description": "previous SOH TimeStamp",
+            "type": "string"
+        }
+        
+    },
+    "additionalProperties": false,
+    "examples": []
+}

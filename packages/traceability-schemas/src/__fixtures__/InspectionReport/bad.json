@@ -1,16 +1,164 @@
 [
   {
-    "alarm": "index",
-    "port": "compress",
-    "bandwidth": "program"
+    "feed": "hack"
   },
   {
-    "protocol": "input",
-    "pixel": "index",
-    "matrix": "input",
-    "microchip": "parse"
+    "microchip": "override",
+    "application": "quantify",
+    "card": "reboot"
   },
   {
-    "capacitor": "quantify"
+    "observation": [
+      {
+        "type": "Observation",
+        "property": {
+          "type": "ChemicalProperty",
+          "name": "Mendelevium",
+          "formula": "Md",
+          "inchi": "InChI=1S/Md",
+          "inchikey": "MQVSLOYRCXQRPM-UHFFFAOYSA-N"
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "21.485",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": "Observation",
+        "property": {
+          "type": "ChemicalProperty",
+          "name": "Neptunium",
+          "formula": "Np",
+          "inchi": "InChI=1S/Np",
+          "inchikey": "LFNLGNPSGWYGGD-UHFFFAOYSA-N"
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "20.229",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": "Observation",
+        "property": {
+          "type": "ChemicalProperty",
+          "name": "Berkelium",
+          "formula": "Bk",
+          "inchi": "InChI=1S/Bk",
+          "inchikey": "PWVKJRSRVJTHTR-UHFFFAOYSA-N"
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "6.8410",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": "Observation",
+        "property": {
+          "type": "ChemicalProperty",
+          "name": "Lithium",
+          "formula": "Li",
+          "inchi": "InChI=1S/Li",
+          "inchikey": "WHXSMMKQMYFTQS-UHFFFAOYSA-N"
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "5.9815",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": "Observation",
+        "property": {
+          "type": "MechanicalProperty",
+          "identifier": "ISO 1352",
+          "name": "Torque-controlled fatigue testing",
+          "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "00.00",
+          "unitCode": "UNKNOWN"
+        }
+      },
+      {
+        "type": "Observation",
+        "property": {
+          "type": "ChemicalProperty",
+          "name": "Strontium",
+          "formula": "Sr",
+          "inchi": "InChI=1S/Sr",
+          "inchikey": "CIOAGBVUUVVLOB-UHFFFAOYSA-N"
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "7.7235",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": "Observation",
+        "property": {
+          "type": "ChemicalProperty",
+          "name": "Platinum",
+          "formula": "Pt",
+          "inchi": "InChI=1S/Pt",
+          "inchikey": "BASFCYQUMIYNBI-UHFFFAOYSA-N"
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "10.292",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": "Observation",
+        "property": {
+          "type": "MechanicalProperty",
+          "identifier": "ISO 1352",
+          "name": "Torque-controlled fatigue testing",
+          "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "00.00",
+          "unitCode": "UNKNOWN"
+        }
+      },
+      {
+        "type": "Observation",
+        "property": {
+          "type": "MechanicalProperty",
+          "identifier": "ISO 1352",
+          "name": "Torque-controlled fatigue testing",
+          "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "00.00",
+          "unitCode": "UNKNOWN"
+        }
+      },
+      {
+        "type": "Observation",
+        "property": {
+          "type": "ChemicalProperty",
+          "name": "Silicon",
+          "formula": "Si",
+          "inchi": "InChI=1S/Si",
+          "inchikey": "XUIMIQQOPSSXEZ-UHFFFAOYSA-N"
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "27.448",
+          "unitCode": "P1"
+        }
+      }
+    ],
+    "feed": "navigate",
+    "firewall": "synthesize",
+    "alarm": "navigate"
   }
 ]

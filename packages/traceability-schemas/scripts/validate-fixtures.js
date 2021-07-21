@@ -113,6 +113,8 @@ Object.keys(schemas).forEach((schemaName) => {
       }
     }
     if (warnExists) {
+      console.log(ajv.getSchema()); // added
+
       validationResults.push({
         obj: schemaName,
         status: 'FAILED',

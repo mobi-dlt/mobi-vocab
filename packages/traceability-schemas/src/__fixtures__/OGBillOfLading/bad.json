@@ -1,86 +1,8 @@
 [
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "billOfLading": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": [
-        "BillOfLading"
-      ],
-      "billOfLadingNumber": "991205182",
-      "relatedDocuments": [
-        {
-          "@context": [
-            "https://w3id.org/traceability/v1"
-          ],
-          "type": [
-            "Purchase"
-          ],
-          "customer": {
-            "type": [
-              "Person"
-            ],
-            "email": "Bernhard.Dare13@example.com",
-            "phoneNumber": "555-426-6089"
-          }
-        }
-      ],
-      "freight": {
-        "@context": [
-          "https://w3id.org/traceability/v1"
-        ],
-        "type": [
-          "ParcelDelivery"
-        ],
-        "deliveryAddress": {
-          "type": [
-            "PostalAddress"
-          ],
-          "organizationName": "White Inc",
-          "streetAddress": "0943 Santos Gardens",
-          "addressLocality": "New Jovanystad",
-          "addressRegion": "New York",
-          "postalCode": "20546-9687",
-          "addressCountry": "Tokelau"
-        },
-        "originAddress": {
-          "type": [
-            "PostalAddress"
-          ],
-          "organizationName": "Mante, Brakus and Wunsch",
-          "streetAddress": "80933 Jaquan Court",
-          "addressLocality": "Mariannaton",
-          "addressRegion": "Utah",
-          "postalCode": "76910-0086",
-          "addressCountry": "Belarus"
-        },
-        "deliveryMethod": "Air transport",
-        "trackingNumber": "289359521372"
-      }
-    },
-    "freightChargeTerms": "Freight Prepaid",
-    "openingVolume": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": [
-        "MeasuredValue"
-      ],
-      "value": "00.00",
-      "unitCode": "UNKNOWN"
-    },
-    "sensor": "copy",
-    "feed": "back up"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "arrivalDate": "2020-03-28",
+    "shippingDate": "2020-03-15",
     "totalOrderValue": "1500",
+    "freightChargeTerms": "Freight Prepaid",
     "closingVolume": {
       "@context": [
         "https://w3id.org/traceability/v1"
@@ -88,50 +10,13 @@
       "type": [
         "MeasuredValue"
       ],
-      "value": "26.542",
-      "unitCode": "P1"
+      "value": "94.910",
+      "unitCode": "B13"
     },
-    "observation": [
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "ChemicalProperty"
-          ],
-          "name": "Zirconium"
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "100.00",
-          "unitCode": "P1"
-        }
-      },
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "MechanicalProperty"
-          ],
-          "identifier": "ISO 180",
-          "name": "Izod Impact Strength Test",
-          "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "99.408",
-          "unitCode": "B13"
-        }
-      }
-    ],
-    "port": "synthesize"
+    "hard drive": "calculate",
+    "microchip": "synthesize",
+    "port": "back up",
+    "firewall": "parse"
   },
   {
     "billOfLading": {
@@ -152,10 +37,10 @@
           ],
           "customer": {
             "type": [
-              "Person"
+              "Organization"
             ],
-            "email": "Sean.Gibson63@example.net",
-            "phoneNumber": "555-711-3546"
+            "email": "Adrienne_Mills@example.net",
+            "phoneNumber": "555-901-6791"
           }
         }
       ],
@@ -170,92 +55,116 @@
           "type": [
             "PostalAddress"
           ],
-          "organizationName": "Kassulke Inc",
-          "streetAddress": "057 Koss Rest",
-          "addressLocality": "Idellchester",
-          "addressRegion": "Minnesota",
-          "postalCode": "44532-3863",
-          "addressCountry": "Lesotho"
+          "organizationName": "Armstrong - Rau",
+          "streetAddress": "4071 Dallin Flats",
+          "addressLocality": "East Fatima",
+          "addressRegion": "Maine",
+          "postalCode": "89893",
+          "addressCountry": "Iraq"
         },
         "originAddress": {
           "type": [
             "PostalAddress"
           ],
-          "organizationName": "Boyer, Swift and Ankunding",
-          "streetAddress": "41160 Aidan Greens",
-          "addressLocality": "Sibylton",
-          "addressRegion": "Idaho",
-          "postalCode": "97797",
-          "addressCountry": "Norway"
+          "organizationName": "Reichel and Sons",
+          "streetAddress": "21596 Wunsch Plains",
+          "addressLocality": "West Cory",
+          "addressRegion": "Oklahoma",
+          "postalCode": "23255",
+          "addressCountry": "Pakistan"
         },
-        "deliveryMethod": "Rail freight transport",
-        "trackingNumber": "201469483544"
+        "deliveryMethod": "Ocean transport",
+        "trackingNumber": "319624925073"
       }
     },
-    "valuePerItem": "500",
-    "freightChargeTerms": "Freight Prepaid",
-    "batchNumber": "12345678",
-    "observation": [
-      {
-        "type": [
-          "Observation"
-        ],
-        "property": {
-          "type": [
-            "MechanicalProperty"
+    "shippingDate": "2020-03-15",
+    "totalOrderValue": "1500",
+    "openingVolume": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": [
+        "MeasuredValue"
+      ],
+      "value": "1.625",
+      "unitCode": "P1"
+    },
+    "closingVolume": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": [
+        "MeasuredValue"
+      ],
+      "value": "65.679",
+      "unitCode": "P1"
+    },
+    "bus": "index",
+    "array": "calculate",
+    "protocol": "transmit",
+    "circuit": "transmit"
+  },
+  {
+    "billOfLading": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": [
+        "BillOfLading"
+      ],
+      "billOfLadingNumber": "991205182",
+      "relatedDocuments": [
+        {
+          "@context": [
+            "https://w3id.org/traceability/v1"
           ],
-          "identifier": "ISO 3738",
-          "name": "Rockwell Hardness Test (Scale A)",
-          "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
-        },
-        "measurement": {
           "type": [
-            "MeasuredValue"
+            "Purchase"
           ],
-          "value": "00.00",
-          "unitCode": "UNKNOWN"
+          "customer": {
+            "type": [
+              "Organization"
+            ],
+            "email": "Karolann50@example.com",
+            "phoneNumber": "555-819-9718"
+          }
         }
-      },
-      {
-        "type": [
-          "Observation"
+      ],
+      "freight": {
+        "@context": [
+          "https://w3id.org/traceability/v1"
         ],
-        "property": {
-          "type": [
-            "ChemicalProperty"
-          ],
-          "name": "Bismuth"
-        },
-        "measurement": {
-          "type": [
-            "MeasuredValue"
-          ],
-          "value": "100.00",
-          "unitCode": "P1"
-        }
-      },
-      {
         "type": [
-          "Observation"
+          "ParcelDelivery"
         ],
-        "property": {
+        "deliveryAddress": {
           "type": [
-            "MechanicalProperty"
+            "PostalAddress"
           ],
-          "identifier": "ISO 180",
-          "name": "Izod Impact Strength Test",
-          "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
+          "organizationName": "Ruecker, Orn and Douglas",
+          "streetAddress": "27551 Stark Ferry",
+          "addressLocality": "West Carol",
+          "addressRegion": "Wisconsin",
+          "postalCode": "77617",
+          "addressCountry": "Anguilla"
         },
-        "measurement": {
+        "originAddress": {
           "type": [
-            "MeasuredValue"
+            "PostalAddress"
           ],
-          "value": "33.589",
-          "unitCode": "B13"
-        }
+          "organizationName": "Labadie - Wolf",
+          "streetAddress": "361 Sigrid Turnpike",
+          "addressLocality": "Wolfmouth",
+          "addressRegion": "Oklahoma",
+          "postalCode": "53157-0262",
+          "addressCountry": "Qatar"
+        },
+        "deliveryMethod": "Air transport",
+        "trackingNumber": "238295387311"
       }
-    ],
-    "array": "generate",
-    "port": "override"
+    },
+    "driver": "compress",
+    "pixel": "reboot",
+    "firewall": "override"
   }
 ]

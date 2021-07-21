@@ -4,54 +4,60 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "ShippingStop",
+    "shippingStopAddress": {
+      "type": "PostalAddress",
+      "organizationName": "Prohaska - Emmerich",
+      "streetAddress": "14017 Williamson Summit",
+      "addressLocality": "Port Elianview",
+      "addressRegion": "New Hampshire",
+      "postalCode": "35630-4104",
+      "addressCountry": "Seychelles"
+    },
     "carrier": {
       "type": "Organization",
-      "name": "Reilly Inc",
-      "description": "Inverse reciprocal access",
+      "name": "Johns Group",
+      "description": "Synchronised methodical parallelism",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "8440 Jammie Valley",
-        "addressLocality": "Gorczanyfurt",
-        "addressRegion": "Delaware",
-        "postalCode": "01551",
-        "addressCountry": "Iceland"
+        "streetAddress": "0485 Bobby Rest",
+        "addressLocality": "Aniyahfurt",
+        "addressRegion": "Wisconsin",
+        "postalCode": "60447-9797",
+        "addressCountry": "Romania"
       },
-      "email": "Alexys.Bradtke83@example.net",
-      "phoneNumber": "555-452-4861",
-      "faxNumber": "555-630-9710"
+      "email": "Shawn_VonRueden@example.org",
+      "phoneNumber": "555-530-3047",
+      "faxNumber": "555-486-1917"
     },
-    "vesselNumber": "ACMECarrierVessel#961",
+    "vesselNumber": "ACMECarrierVessel#139",
     "arrivalDate": "2021-03-09",
-    "stopType": "Stopover",
-    "driver": "back up",
-    "matrix": "copy",
-    "hard drive": "reboot"
+    "matrix": "quantify"
   },
   {
-    "type": "ShippingStop",
+    "vesselNumber": "ACMECarrierVessel#164",
+    "arrivalDate": "2021-03-09",
+    "transmitter": "program",
+    "bus": "copy",
+    "feed": "bypass",
+    "capacitor": "synthesize"
+  },
+  {
     "carrier": {
       "type": "Organization",
-      "name": "Kessler LLC",
-      "description": "Business-focused multi-tasking portal",
+      "name": "McKenzie - Wisoky",
+      "description": "Extended object-oriented circuit",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "88288 Muller Ferry",
-        "addressLocality": "North Diegofort",
-        "addressRegion": "Virginia",
-        "postalCode": "90347",
-        "addressCountry": "Micronesia"
+        "streetAddress": "148 Barrows Knoll",
+        "addressLocality": "Powlowskiview",
+        "addressRegion": "South Dakota",
+        "postalCode": "61101",
+        "addressCountry": "Malawi"
       },
-      "email": "Kenna_Hodkiewicz@example.org",
-      "phoneNumber": "555-708-8694",
-      "faxNumber": "555-825-9768"
+      "email": "Onie.Aufderhar10@example.com",
+      "phoneNumber": "555-615-1964",
+      "faxNumber": "555-461-4525"
     },
-    "vesselNumber": "ACMECarrierVessel#316",
-    "hard drive": "copy",
-    "circuit": "back up",
-    "program": "transmit"
-  },
-  {
-    "interface": "reboot",
-    "circuit": "input"
+    "matrix": "program"
   }
 ]

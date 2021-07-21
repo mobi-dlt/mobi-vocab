@@ -1,132 +1,98 @@
 [
   {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
     "type": "IssuerAgent",
     "issuerAgentOrg": {
       "type": "Organization",
-      "name": "Nader Group",
-      "description": "Configurable systemic migration",
+      "name": "Hegmann, Boyer and Zboncak",
+      "description": "Up-sized attitude-oriented local area network",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "062 Isabelle Springs",
-        "addressLocality": "South Bethfurt",
-        "addressRegion": "Massachusetts",
-        "postalCode": "64791",
-        "addressCountry": "Argentina"
+        "streetAddress": "681 Dante Ports",
+        "addressLocality": "Goodwinstad",
+        "addressRegion": "Kansas",
+        "postalCode": "19262-2429",
+        "addressCountry": "Pitcairn Islands"
       },
-      "email": "Aurore82@example.net",
-      "phoneNumber": "555-171-3844",
-      "faxNumber": "555-946-3826"
+      "email": "Frank_Berge25@example.com",
+      "phoneNumber": "555-194-7618",
+      "faxNumber": "555-748-3731"
     },
-    "charge": {
+    "iataCode": "IATA#697",
+    "accountingInformation": "Please, only charge Account 123",
+    "declaredValueCarriage": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": "PriceSpecification",
-      "price": 9775,
-      "priceCurrency": "MOP"
+      "price": 6732,
+      "priceCurrency": "SYP"
     },
-    "declaredValueCarriagePaymentStatus": "PaymentDue",
     "declaredValueCustoms": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": "PriceSpecification",
-      "price": 4457,
-      "priceCurrency": "DOP"
+      "price": 8432,
+      "priceCurrency": "JOD"
     },
-    "hard drive": "calculate",
-    "alarm": "reboot"
+    "declaredValueCustomsPaymentStatus": "PaymentAutomaticallyApplied",
+    "amountInsurance": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 3994,
+      "priceCurrency": "MZN"
+    },
+    "card": "connect",
+    "transmitter": "calculate",
+    "port": "connect",
+    "monitor": "reboot"
   },
   {
-    "type": "IssuerAgent",
-    "issuerAgentOrg": {
-      "type": "Organization",
-      "name": "Corwin, Frami and Batz",
-      "description": "Right-sized system-worthy leverage",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "9196 Patricia Well",
-        "addressLocality": "Ondrickaburgh",
-        "addressRegion": "Louisiana",
-        "postalCode": "10066-0788",
-        "addressCountry": "Malawi"
-      },
-      "email": "Devon.Christiansen89@example.org",
-      "phoneNumber": "555-922-7024",
-      "faxNumber": "555-891-8484"
-    },
-    "iataCode": "IATA#137",
     "accountNumber": "",
+    "declaredValueCarriagePaymentStatus": "PaymentPastDue",
+    "amountInsurance": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 8880,
+      "priceCurrency": "AFN"
+    },
+    "monitor": "hack",
+    "system": "hack",
+    "bandwidth": "override",
+    "feed": "parse"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
     "accountingInformation": "Please charge to Account 123 and not Account 321",
     "charge": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": "PriceSpecification",
-      "price": 2756,
-      "priceCurrency": "AED"
-    },
-    "declaredValueCarriagePaymentStatus": "PaymentDeclined",
-    "declaredValueCustoms": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "PriceSpecification",
-      "price": 4209,
-      "priceCurrency": "MOP"
-    },
-    "declaredValueCustomsPaymentStatus": "PaymentDeclined",
-    "panel": "back up",
-    "circuit": "back up"
-  },
-  {
-    "type": "IssuerAgent",
-    "issuerAgentOrg": {
-      "type": "Organization",
-      "name": "Collins, O'Keefe and Pfannerstill",
-      "description": "Enhanced uniform definition",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "9470 Quitzon Row",
-        "addressLocality": "Dooleystad",
-        "addressRegion": "Hawaii",
-        "postalCode": "64234-4737",
-        "addressCountry": "Sri Lanka"
-      },
-      "email": "Emely96@example.com",
-      "phoneNumber": "555-507-3679",
-      "faxNumber": "555-812-6937"
-    },
-    "accountNumber": "",
-    "accountingInformation": "Please charge to Account 123 and not Account 321",
-    "charge": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "PriceSpecification",
-      "price": 4559,
-      "priceCurrency": "DKK"
+      "price": 5556,
+      "priceCurrency": "DJF"
     },
     "declaredValueCarriage": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": "PriceSpecification",
-      "price": 9086,
-      "priceCurrency": "EGP"
+      "price": 7307,
+      "priceCurrency": "MUR"
     },
-    "declaredValueCustoms": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "PriceSpecification",
-      "price": 1053,
-      "priceCurrency": "PAB"
-    },
+    "declaredValueCarriagePaymentStatus": "PaymentComplete",
     "declaredValueCustomsPaymentStatus": "PaymentComplete",
-    "bandwidth": "quantify",
-    "interface": "navigate",
-    "protocol": "input",
-    "transmitter": "compress"
+    "bandwidth": "reboot",
+    "feed": "connect",
+    "alarm": "generate"
   }
 ]

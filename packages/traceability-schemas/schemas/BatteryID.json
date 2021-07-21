@@ -25,10 +25,10 @@
             "description": "Logo of the entity.",
             "$ref": "https://w3id.org/traceability/schemas/VID.json"
         },
-        
-        "batteryIdentifier": {
-            "$comment": "{\"term\": \"batteryIdentifier\", \"@id\": \"https://schema.org/identifier\"}",
-            "title": "vid",
+
+        "batteryid": {
+            "$comment": "{\"term\": \"batteryid\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "batteryid",
             "description": "Logo of the entity.",
             "type": "string"
         },

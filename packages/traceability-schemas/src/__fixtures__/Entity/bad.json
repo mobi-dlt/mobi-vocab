@@ -1,12 +1,5 @@
 [
   {
-    "lastName": "Bashirian",
-    "email": "Bart_Lehner19@example.net",
-    "jobTitle": "Customer Identity Administrator",
-    "alarm": "connect",
-    "application": "generate"
-  },
-  {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
@@ -33,5 +26,9 @@
     "driver": "copy",
     "firewall": "back up",
     "interface": "navigate"
+  },
+  {
+    "jobTitle": "Dynamic Creative Liaison",
+    "sensor": "copy"
   }
 ]

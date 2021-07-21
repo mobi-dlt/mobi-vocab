@@ -1,29 +1,32 @@
 [
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "productVCid": "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a",
-    "addProductCode": 16380241808947,
-    "certificateName": "ACME Ecommerce HTS Code Product Registration Certificate",
-    "hard drive": "program",
-    "transmitter": "parse",
-    "circuit": "calculate",
-    "driver": "compress"
+    "type": "EcommerceAdditionalProductCodeRegistrationCredential",
+    "addProductCode": 11423187751788,
+    "addProductCodeType": "UPC",
+    "certificateName": "ACME Ecommerce Universal Product Code Product Registration Certificate",
+    "protocol": "navigate",
+    "sensor": "index",
+    "monitor": "override",
+    "pixel": "quantify"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "productVCid": "https://vc.example.com/?queryID=7306f1f744a781480c521902a1a1dbf5f1d01e7ea21daf483e7668817e58597a",
-    "addProductCode": 24653354582842,
+    "type": "EcommerceAdditionalProductCodeRegistrationCredential",
+    "addProductCode": 63532289580907,
     "addProductCodeType": "HTS",
     "certificateName": "ACME Ecommerce HTS Code Product Registration Certificate",
-    "driver": "copy",
-    "interface": "copy",
-    "microchip": "navigate"
+    "card": "program",
+    "circuit": "transmit",
+    "interface": "transmit",
+    "sensor": "reboot"
   },
   {
-    "program": "transmit"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "monitor": "parse",
+    "firewall": "copy"
   }
 ]

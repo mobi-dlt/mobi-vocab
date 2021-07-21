@@ -1,18 +1,26 @@
 [
   {
-    "feed": "bypass",
-    "system": "parse",
-    "microchip": "calculate",
-    "transmitter": "calculate"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIauthority",
+    "validationAuthorityID": "RA000004",
+    "validationAuthorityEntityID": "ISBL33FJ9PWS3M150PBO",
+    "system": "copy",
+    "feed": "synthesize"
   },
   {
-    "validationAuthorityID": "RA000001",
-    "otherValidationAuthorityID": "S7H8ANMW",
-    "firewall": "copy",
-    "array": "back up"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIauthority",
+    "otherValidationAuthorityID": "C7OL1WES",
+    "validationAuthorityEntityID": "SXSZP07M8EZU396Z4MBS",
+    "sensor": "input"
   },
   {
-    "otherValidationAuthorityID": "V4EPC478",
-    "sensor": "copy"
+    "type": "LEIauthority",
+    "validationAuthorityEntityID": "LDHMTP2CT3H24LVINQ5I",
+    "microchip": "navigate"
   }
 ]

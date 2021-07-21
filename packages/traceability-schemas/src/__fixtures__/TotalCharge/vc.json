@@ -14,19 +14,19 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 2233.5,
-    "totalCollect": 744.5,
-    "sourceCurrency": "RON",
-    "destinationCurrency": "TND",
-    "currencyConversionRate": 3,
-    "ccChargesDestinationCurrency": "RON",
-    "chargesDestination": 443,
-    "totalCollectCharge": 110.75
+    "totalPrepaid": 1428,
+    "totalCollect": 476,
+    "sourceCurrency": "BIF",
+    "destinationCurrency": "NAD",
+    "currencyConversionRate": 1,
+    "ccChargesDestinationCurrency": "BIF",
+    "chargesDestination": 932,
+    "totalCollectCharge": 233
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AhGdS2R_kb7K4dpit12ekPho3xMw-KFF3ZcMyAb_nU8BdWt8uy9CCg1tDtVQ1KCWO66lEC5bjxKCYLbR_o6yBQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19.._c_UdYcOD_290Ze29a5BigP0MbGGqqcW0-SUYZ5iLZR5kDeTb21KzRp7oIFKQAGDwBBsbx2fKP0uhD4PUOViDQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

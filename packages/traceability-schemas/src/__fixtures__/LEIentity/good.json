@@ -4,67 +4,136 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIentity",
-    "legalName": "Treutel and Sons",
-    "legalNameLanguage": "nl_BE",
+    "legalName": "Spinka, Simonis and Mosciski",
+    "legalNameLanguage": "fr",
     "otherNames": [
-      "Ward, Swaniawski and Schneider",
-      "Cruickshank Inc"
+      "Schaden, Bernier and Botsford",
+      "Lebsack Group"
     ],
     "transliteratedOtherNames": [
-      "Ward, Swaniawski and Schneider",
-      "Cruickshank Inc"
+      "Schaden, Bernier and Botsford",
+      "Lebsack Group"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "en_AU",
+      "language": "ko",
       "addressLines": [
-        "McCullough - Hessel",
-        "5023 Philip Locks"
+        "Barrows, Durgan and Shields",
+        "7221 Colin Camp"
       ],
-      "addressNumber": "381",
-      "addressNumberWithinBuilding": "6",
-      "mailRouting": "51045 Sylvia Forges, 16010-7366",
-      "city": "Lake Hannahview",
-      "region": "Avon",
-      "country": "Virgin Islands, U.S.",
-      "postalCode": "66326"
+      "addressNumber": "240",
+      "addressNumberWithinBuilding": "3",
+      "mailRouting": "193 Schimmel Shores, 64926-0869",
+      "city": "Port Eliezer",
+      "region": "Buckinghamshire",
+      "country": "Andorra",
+      "postalCode": "80718"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "it",
+      "language": "cz",
       "addressLines": [
-        "Veum and Sons",
-        "702 Jerde Plaza"
+        "Braun - Christiansen",
+        "4702 Brandi Stream"
       ],
-      "addressNumber": "461",
-      "addressNumberWithinBuilding": "9",
-      "mailRouting": "812 Breana Estate, 37204-1479",
-      "city": "North Reaganborough",
+      "addressNumber": "171",
+      "addressNumberWithinBuilding": "3",
+      "mailRouting": "958 Brown Underpass, 16481-4573",
+      "city": "East Triston",
       "region": "Buckinghamshire",
-      "country": "Seychelles",
-      "postalCode": "56634"
+      "country": "Cocos (Keeling) Islands",
+      "postalCode": "43467"
+    },
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000661",
+      "otherValidationAuthorityID": "KT5J460G",
+      "validationAuthorityEntityID": "0YVR1TQ1VG3NFTY1UUHJ"
+    },
+    "legalJurisdiction": "Cambridgeshire",
+    "entityCategory": "Grocery",
+    "legalForm": "LLC",
+    "associatedEntity": {
+      "type": "Organization",
+      "leiCode": "8Z0VQBTLSU4FW0O2WIGY",
+      "name": "Heidenreich and Sons"
+    },
+    "status": "IN PROGRESS",
+    "expirationDate": "2022-07-11",
+    "expirationReason": "synthesize web-enabled paradigms",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "J5ZTU4D80GMIPRNGYSVM",
+      "name": "Bruen - Berge"
+    },
+    "otherAddresses": []
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIentity",
+    "legalName": "Borer - Will",
+    "legalNameLanguage": "hr",
+    "otherNames": [
+      "Osinski - Wolf",
+      "Hartmann, Greenfelder and Mertz"
+    ],
+    "transliteratedOtherNames": [
+      "Osinski - Wolf",
+      "Hartmann, Greenfelder and Mertz"
+    ],
+    "legalAddress": {
+      "type": "LEIaddress",
+      "language": "pt_BR",
+      "addressLines": [
+        "Wisozk Group",
+        "75534 Raegan Garden"
+      ],
+      "addressNumber": "88",
+      "addressNumberWithinBuilding": "8",
+      "mailRouting": "343 Kristy Viaduct, 53482-8042",
+      "city": "South Abbiebury",
+      "region": "Buckinghamshire",
+      "country": "Saint Helena",
+      "postalCode": "43993-7471"
+    },
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "vi",
+      "addressLines": [
+        "Torphy Group",
+        "135 Murray Mall"
+      ],
+      "addressNumber": "83",
+      "addressNumberWithinBuilding": "8",
+      "mailRouting": "90417 Carroll Groves, 90381-0175",
+      "city": "North Dionhaven",
+      "region": "Borders",
+      "country": "Georgia",
+      "postalCode": "94214"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
       "validationAuthorityID": "RA000005",
-      "otherValidationAuthorityID": "MTP2CT3H",
-      "validationAuthorityEntityID": "24LVINQ5I1F5EL06C8Z0"
+      "otherValidationAuthorityID": "C0QNOE29",
+      "validationAuthorityEntityID": "Q71NJE96LO9KZUB48SAO"
     },
-    "legalJurisdiction": "Berkshire",
-    "entityCategory": "Jewelery",
-    "legalForm": "CORPORATION",
+    "legalJurisdiction": "Borders",
+    "entityCategory": "Grocery",
+    "legalForm": "LLC",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "V5T6ZRX0WKQDDI3KOBZA",
-      "name": "McKenzie, Schinner and Stamm"
+      "leiCode": "GDA698IK5FCIB6LN2UT9",
+      "name": "Renner, Kiehn and VonRueden"
     },
-    "status": "REQUESTED",
+    "status": "IN PROGRESS",
     "expirationDate": "2022-07-11",
-    "expirationReason": "deploy customized synergies",
+    "expirationReason": "iterate intuitive deliverables",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "O2WIGYFOS236IRUUTMYN",
-      "name": "Barrows, Durgan and Shields"
+      "leiCode": "N7DUY7BQYOWR9JSMZY93",
+      "name": "Hagenes - Lebsack"
     },
     "otherAddresses": []
   },
@@ -73,136 +142,67 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIentity",
-    "legalName": "D'Amore, Stiedemann and Beier",
-    "legalNameLanguage": "it",
+    "legalName": "Wehner, Stroman and Denesik",
+    "legalNameLanguage": "uk",
     "otherNames": [
-      "Hyatt, Ward and Gusikowski",
-      "Stroman - Block"
+      "Bogan Group",
+      "Collier, Tromp and Koss"
     ],
     "transliteratedOtherNames": [
-      "Hyatt, Ward and Gusikowski",
-      "Stroman - Block"
+      "Bogan Group",
+      "Collier, Tromp and Koss"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "de_AT",
+      "language": "zh_CN",
       "addressLines": [
-        "Denesik LLC",
-        "028 Purdy Ramp"
+        "Ziemann and Sons",
+        "84536 Ward Gateway"
       ],
-      "addressNumber": "272",
-      "addressNumberWithinBuilding": "5",
-      "mailRouting": "589 Rodriguez Lodge, 64814",
-      "city": "Pablobury",
-      "region": "Bedfordshire",
-      "country": "Grenada",
-      "postalCode": "29143"
+      "addressNumber": "86",
+      "addressNumberWithinBuilding": "1",
+      "mailRouting": "1677 Mertz Alley, 99291",
+      "city": "O'Haraview",
+      "region": "Avon",
+      "country": "Martinique",
+      "postalCode": "86031-2494"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "fr_CA",
+      "language": "uk",
       "addressLines": [
-        "Schaden - Mayer",
-        "04098 Schroeder Shore"
+        "Koch and Sons",
+        "7164 Jedidiah Court"
       ],
-      "addressNumber": "278",
-      "addressNumberWithinBuilding": "2",
-      "mailRouting": "084 Hubert Corners, 90884-5718",
-      "city": "West Earnest",
+      "addressNumber": "227",
+      "addressNumberWithinBuilding": "5",
+      "mailRouting": "64573 Lori Rapid, 90035-4755",
+      "city": "West Charleyland",
       "region": "Avon",
-      "country": "Somalia",
-      "postalCode": "54051-9881"
+      "country": "Suriname",
+      "postalCode": "89478"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
       "validationAuthorityID": "RA000002",
-      "otherValidationAuthorityID": "D80GMIPR",
-      "validationAuthorityEntityID": "NGYSVMG425HFOELQJKGD"
+      "otherValidationAuthorityID": "NLTO4SUN",
+      "validationAuthorityEntityID": "LECITSSDUD43YWY3CN2E"
     },
-    "legalJurisdiction": "Berkshire",
-    "entityCategory": "Grocery",
-    "legalForm": "CORPORATION",
+    "legalJurisdiction": "Bedfordshire",
+    "entityCategory": "Industrial",
+    "legalForm": "LLC",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "741L7R6ZCRFSIMHZ9N1U",
-      "name": "Kutch LLC"
+      "leiCode": "5YE0H83XFXBP1R43RI08",
+      "name": "Maggio, Bergstrom and Hermiston"
     },
-    "status": "REQUESTED",
+    "status": "REJECTED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "strategize virtual relationships",
+    "expirationReason": "empower integrated ROI",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "B6LN2UT9KHOZPBALG3YL",
-      "name": "Borer, Wisozk and Williamson"
-    },
-    "otherAddresses": []
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "LEIentity",
-    "legalName": "Marks Inc",
-    "legalNameLanguage": "pt_BR",
-    "otherNames": [
-      "Ruecker - Collier",
-      "Beahan, Torphy and Ryan"
-    ],
-    "transliteratedOtherNames": [
-      "Ruecker - Collier",
-      "Beahan, Torphy and Ryan"
-    ],
-    "legalAddress": {
-      "type": "LEIaddress",
-      "language": "pl",
-      "addressLines": [
-        "Hodkiewicz LLC",
-        "041 Gleichner Spurs"
-      ],
-      "addressNumber": "316",
-      "addressNumberWithinBuilding": "3",
-      "mailRouting": "69038 Dooley Crescent, 50028-4942",
-      "city": "South Estellatown",
-      "region": "Bedfordshire",
-      "country": "Kuwait",
-      "postalCode": "66402-7206"
-    },
-    "headquartersAddress": {
-      "type": "LEIaddress",
-      "language": "hy",
-      "addressLines": [
-        "Gibson - Daugherty",
-        "831 Dulce Forest"
-      ],
-      "addressNumber": "131",
-      "addressNumberWithinBuilding": "6",
-      "mailRouting": "816 Ila Ridge, 99176-1389",
-      "city": "West Nashshire",
-      "region": "Buckinghamshire",
-      "country": "Mongolia",
-      "postalCode": "97258-6992"
-    },
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000003",
-      "otherValidationAuthorityID": "3FBIMAY0",
-      "validationAuthorityEntityID": "370A2F16WVPPO3INSN5Y"
-    },
-    "legalJurisdiction": "Buckinghamshire",
-    "entityCategory": "Grocery",
-    "legalForm": "CORPORATION",
-    "associatedEntity": {
-      "type": "Organization",
-      "leiCode": "UJCGT7U0F82I0DIGCZZC",
-      "name": "Brown Group"
-    },
-    "status": "CONFIRMED",
-    "expirationDate": "2022-07-11",
-    "expirationReason": "cultivate granular mindshare",
-    "successorEntity": {
-      "type": "Organization",
-      "leiCode": "1R43RI08X63TS4WGXXV6",
-      "name": "Wolff and Sons"
+      "leiCode": "TN6FWYNOVSHAJ2XHWBG7",
+      "name": "Wilderman and Sons"
     },
     "otherAddresses": []
   }

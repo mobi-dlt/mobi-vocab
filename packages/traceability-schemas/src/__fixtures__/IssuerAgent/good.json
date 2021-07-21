@@ -6,56 +6,115 @@
     "type": "IssuerAgent",
     "issuerAgentOrg": {
       "type": "Organization",
-      "name": "Nader Group",
-      "description": "Configurable systemic migration",
+      "name": "Hegmann, Boyer and Zboncak",
+      "description": "Up-sized attitude-oriented local area network",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "062 Isabelle Springs",
-        "addressLocality": "South Bethfurt",
-        "addressRegion": "Massachusetts",
-        "postalCode": "64791",
-        "addressCountry": "Argentina"
+        "streetAddress": "681 Dante Ports",
+        "addressLocality": "Goodwinstad",
+        "addressRegion": "Kansas",
+        "postalCode": "19262-2429",
+        "addressCountry": "Pitcairn Islands"
       },
-      "email": "Aurore82@example.net",
-      "phoneNumber": "555-171-3844",
-      "faxNumber": "555-946-3826"
+      "email": "Frank_Berge25@example.com",
+      "phoneNumber": "555-194-7618",
+      "faxNumber": "555-748-3731"
     },
-    "iataCode": "IATA#772",
+    "iataCode": "IATA#697",
     "accountNumber": "",
-    "accountingInformation": "Please charge to Account 123 and not Account 321",
+    "accountingInformation": "Please, only charge Account 123",
     "charge": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": "PriceSpecification",
-      "price": 9775,
-      "priceCurrency": "MOP"
+      "price": 574,
+      "priceCurrency": "AFN"
     },
     "declaredValueCarriage": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": "PriceSpecification",
-      "price": 383,
-      "priceCurrency": "GNF"
+      "price": 6732,
+      "priceCurrency": "SYP"
     },
-    "declaredValueCarriagePaymentStatus": "PaymentDue",
+    "declaredValueCarriagePaymentStatus": "PaymentAutomaticallyApplied",
     "declaredValueCustoms": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": "PriceSpecification",
-      "price": 4457,
+      "price": 8432,
+      "priceCurrency": "JOD"
+    },
+    "declaredValueCustomsPaymentStatus": "PaymentAutomaticallyApplied",
+    "amountInsurance": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 3994,
+      "priceCurrency": "MZN"
+    }
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "IssuerAgent",
+    "issuerAgentOrg": {
+      "type": "Organization",
+      "name": "Schimmel Inc",
+      "description": "Synergized responsive solution",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "385 Fay Lake",
+        "addressLocality": "Gustberg",
+        "addressRegion": "Tennessee",
+        "postalCode": "27588",
+        "addressCountry": "Azerbaijan"
+      },
+      "email": "Orin85@example.org",
+      "phoneNumber": "555-418-6498",
+      "faxNumber": "555-677-4403"
+    },
+    "iataCode": "IATA#353",
+    "accountNumber": "",
+    "accountingInformation": "Please charge to Account 123 and Account 321",
+    "charge": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 537,
+      "priceCurrency": "YER"
+    },
+    "declaredValueCarriage": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 4575,
+      "priceCurrency": "ZAR"
+    },
+    "declaredValueCarriagePaymentStatus": "PaymentPastDue",
+    "declaredValueCustoms": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 9423,
       "priceCurrency": "DOP"
     },
-    "declaredValueCustomsPaymentStatus": "PaymentDue",
+    "declaredValueCustomsPaymentStatus": "PaymentPastDue",
     "amountInsurance": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": "PriceSpecification",
-      "price": 1140,
-      "priceCurrency": "BIF"
+      "price": 8880,
+      "priceCurrency": "AFN"
     }
   },
   {
@@ -65,21 +124,21 @@
     "type": "IssuerAgent",
     "issuerAgentOrg": {
       "type": "Organization",
-      "name": "Corwin, Frami and Batz",
-      "description": "Right-sized system-worthy leverage",
+      "name": "Kirlin, Ebert and Marks",
+      "description": "Ergonomic global benchmark",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "9196 Patricia Well",
-        "addressLocality": "Ondrickaburgh",
-        "addressRegion": "Louisiana",
-        "postalCode": "10066-0788",
-        "addressCountry": "Malawi"
+        "streetAddress": "333 Nolan Estates",
+        "addressLocality": "West Katlynn",
+        "addressRegion": "Utah",
+        "postalCode": "12493-1991",
+        "addressCountry": "American Samoa"
       },
-      "email": "Devon.Christiansen89@example.org",
-      "phoneNumber": "555-922-7024",
-      "faxNumber": "555-891-8484"
+      "email": "Micheal68@example.com",
+      "phoneNumber": "555-108-5330",
+      "faxNumber": "555-314-4000"
     },
-    "iataCode": "IATA#137",
+    "iataCode": "IATA#835",
     "accountNumber": "",
     "accountingInformation": "Please charge to Account 123 and not Account 321",
     "charge": {
@@ -87,75 +146,16 @@
         "https://w3id.org/traceability/v1"
       ],
       "type": "PriceSpecification",
-      "price": 2756,
-      "priceCurrency": "AED"
+      "price": 5556,
+      "priceCurrency": "DJF"
     },
     "declaredValueCarriage": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": "PriceSpecification",
-      "price": 337,
-      "priceCurrency": "NZD"
-    },
-    "declaredValueCarriagePaymentStatus": "PaymentDeclined",
-    "declaredValueCustoms": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "PriceSpecification",
-      "price": 4209,
-      "priceCurrency": "MOP"
-    },
-    "declaredValueCustomsPaymentStatus": "PaymentDeclined",
-    "amountInsurance": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "PriceSpecification",
-      "price": 8952,
-      "priceCurrency": "VEF"
-    }
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "IssuerAgent",
-    "issuerAgentOrg": {
-      "type": "Organization",
-      "name": "Collins, O'Keefe and Pfannerstill",
-      "description": "Enhanced uniform definition",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "9470 Quitzon Row",
-        "addressLocality": "Dooleystad",
-        "addressRegion": "Hawaii",
-        "postalCode": "64234-4737",
-        "addressCountry": "Sri Lanka"
-      },
-      "email": "Emely96@example.com",
-      "phoneNumber": "555-507-3679",
-      "faxNumber": "555-812-6937"
-    },
-    "iataCode": "IATA#631",
-    "accountNumber": "",
-    "accountingInformation": "Please charge to Account 123 and not Account 321",
-    "charge": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "PriceSpecification",
-      "price": 4559,
-      "priceCurrency": "DKK"
-    },
-    "declaredValueCarriage": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "PriceSpecification",
-      "price": 9086,
-      "priceCurrency": "EGP"
+      "price": 7307,
+      "priceCurrency": "MUR"
     },
     "declaredValueCarriagePaymentStatus": "PaymentComplete",
     "declaredValueCustoms": {
@@ -163,8 +163,8 @@
         "https://w3id.org/traceability/v1"
       ],
       "type": "PriceSpecification",
-      "price": 1053,
-      "priceCurrency": "PAB"
+      "price": 5333,
+      "priceCurrency": "MKD"
     },
     "declaredValueCustomsPaymentStatus": "PaymentComplete",
     "amountInsurance": {
@@ -172,8 +172,8 @@
         "https://w3id.org/traceability/v1"
       ],
       "type": "PriceSpecification",
-      "price": 7206,
-      "priceCurrency": "PLN"
+      "price": 9311,
+      "priceCurrency": "HNL"
     }
   }
 ]

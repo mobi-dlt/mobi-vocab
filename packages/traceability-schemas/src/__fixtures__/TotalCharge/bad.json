@@ -1,30 +1,28 @@
 [
   {
-    "program": "bypass",
-    "array": "connect",
-    "application": "transmit",
-    "system": "transmit"
-  },
-  {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "totalPrepaid": 6583.5,
-    "sourceCurrency": "SYP",
-    "currencyConversionRate": 2,
-    "ccChargesDestinationCurrency": "SYP",
-    "firewall": "reboot",
-    "program": "compress"
+    "type": "TotalCharge",
+    "totalCollect": 476,
+    "ccChargesDestinationCurrency": "BIF",
+    "chargesDestination": 932,
+    "alarm": "copy",
+    "matrix": "connect",
+    "protocol": "index",
+    "system": "hack"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "totalCollect": 1447.75,
-    "sourceCurrency": "MGA",
-    "chargesDestination": 674,
-    "totalCollectCharge": 168.5,
-    "program": "hack",
-    "circuit": "hack"
+    "destinationCurrency": "XAF",
+    "pixel": "calculate",
+    "hard drive": "back up",
+    "array": "override"
+  },
+  {
+    "type": "TotalCharge",
+    "totalCollect": 2019.5,
+    "totalCollectCharge": 74,
+    "alarm": "compress",
+    "application": "hack"
   }
 ]

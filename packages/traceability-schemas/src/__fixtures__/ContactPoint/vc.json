@@ -14,22 +14,22 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "ContactPoint",
-    "name": "Rippin, Halvorson and Wiza",
+    "name": "Beatty, Pacocha and Sporer",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "487 O'Kon Ferry",
-      "addressLocality": "Kozeychester",
-      "addressRegion": "Vermont",
-      "postalCode": "27676-0231",
-      "addressCountry": "Ukraine"
+      "streetAddress": "062 Noemi Via",
+      "addressLocality": "South Karson",
+      "addressRegion": "Georgia",
+      "postalCode": "40518",
+      "addressCountry": "Jersey"
     },
-    "email": "America_Huels46@example.com",
-    "phoneNumber": "555-686-2131"
+    "email": "Willard_Ziemann85@example.org",
+    "phoneNumber": "555-533-2882"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..yZeAAdQl2MhD-xSK1pK0Cm23Y5GYW7bOEerReywHERxaVjnf6NtC-MS2S2e0MGoREYe6GKuDO_i7F1-qz4PEAQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..2Z9wgHIssMdXokZbPv_4QJIfCmp44Q4B6kLDRwBfRofQ5LFrmnywr0dHTatQkBeGByFAOF1Z3eLQn_s_pWn5BQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

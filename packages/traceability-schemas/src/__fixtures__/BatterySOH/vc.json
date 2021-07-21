@@ -1,0 +1,65 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/traceability/v1"
+  ],
+  "id": "http://example.org/credentials/",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuanceDate": "2021-02-04T20:29:37+00:00",
+  "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
+  "credentialSubject": {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "BatterySOH",
+    "batteryid": {
+      "type": "BatteryID",
+      "vid": {
+        "type": "VID",
+        "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+        "manufacturer": {
+          "type": "Person",
+          "firstName": "Albertha",
+          "lastName": "McGlynn",
+          "email": "Kyleigh_Goodwin92@example.net",
+          "phoneNumber": "555-123-7302",
+          "worksFor": {
+            "type": "Organization",
+            "name": "Hoppe, Robel and Marquardt",
+            "description": "User-friendly maximized concept",
+            "address": {
+              "type": "PostalAddress",
+              "streetAddress": "2032 Preston Centers",
+              "addressLocality": "Nyasiashire",
+              "addressRegion": "Oregon",
+              "postalCode": "26146-6471",
+              "addressCountry": "Bouvet Island (Bouvetoya)"
+            },
+            "email": "Kennedi.Hettinger16@example.org",
+            "phoneNumber": "555-717-4689",
+            "faxNumber": "555-992-8558"
+          },
+          "jobTitle": "Product Accounts Representative"
+        },
+        "make": "Ford",
+        "model": "Mach_E",
+        "vin": "JTERU5JR7M5861170"
+      },
+      "batteryid": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+      "serialNumber": "snumber"
+    },
+    "previousSOHVal": "95",
+    "previousSOHTimeStamp": "2020-5-17",
+    "newSOHVal": "94",
+    "newSOHTimeStamp": "2020-10-17"
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2019-12-11T03:50:55Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..O3rlU0I0eDFAJIYzERjNf47ee0Qzb_PyZXheADaJuT3fJe1AyisNtANp7iB-FDov_WBWoWthVMNiaoBrosQRCQ",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
+  }
+}

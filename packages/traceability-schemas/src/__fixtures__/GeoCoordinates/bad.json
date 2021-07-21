@@ -1,15 +1,19 @@
 [
   {
-    "sensor": "connect"
+    "bandwidth": "index",
+    "feed": "override",
+    "panel": "generate",
+    "application": "reboot"
   },
   {
-    "circuit": "connect",
-    "capacitor": "back up"
+    "latitude": "-34.0134",
+    "longitude": "109.5748",
+    "feed": "quantify",
+    "bandwidth": "reboot",
+    "application": "hack"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "system": "quantify"
+    "application": "bypass",
+    "protocol": "copy"
   }
 ]

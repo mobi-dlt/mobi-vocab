@@ -1,35 +1,38 @@
 [
   {
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "410 Marcel Villages",
-      "addressLocality": "North Joyfurt",
-      "addressRegion": "Alabama",
-      "postalCode": "35634-8978",
-      "addressCountry": "Mali"
-    },
-    "email": "Zoe71@example.com",
-    "card": "index",
-    "matrix": "copy",
-    "port": "reboot"
+    "email": "Patsy_Dicki@example.net",
+    "program": "copy",
+    "interface": "transmit",
+    "sensor": "generate"
   },
   {
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "954 Damon Manor",
-      "addressLocality": "New Patsyville",
-      "addressRegion": "Michigan",
-      "postalCode": "82294-0719",
-      "addressCountry": "Dominican Republic"
-    },
-    "email": "Korey33@example.com",
-    "system": "transmit",
-    "array": "copy",
-    "bus": "index",
-    "panel": "input"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "name": "Purdy - Simonis",
+    "phoneNumber": "555-765-6090",
+    "faxNumber": "555-971-2278",
+    "port": "bypass",
+    "application": "transmit",
+    "sensor": "index"
   },
   {
-    "interface": "connect",
-    "transmitter": "navigate"
+    "type": "Organization",
+    "name": "Hayes - Mills",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "637 Nader Corners",
+      "addressLocality": "Shanellestad",
+      "addressRegion": "Vermont",
+      "postalCode": "97830",
+      "addressCountry": "Gibraltar"
+    },
+    "email": "Walker_Turner@example.com",
+    "phoneNumber": "555-442-5032",
+    "faxNumber": "555-836-4115",
+    "pixel": "connect",
+    "alarm": "override",
+    "protocol": "generate",
+    "program": "transmit"
   }
 ]

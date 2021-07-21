@@ -1,63 +1,62 @@
 [
   {
-    "hard drive": "transmit",
-    "firewall": "override"
-  },
-  {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
     "type": "IntentToSell",
-    "purchaser": {
+    "seller": {
       "type": "Organization",
-      "name": "Walker and Sons",
-      "description": "Enhanced 3rd generation portal",
+      "name": "Crona and Sons",
+      "description": "Public-key secondary benchmark",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "06005 Meta Key",
-        "addressLocality": "Okunevashire",
-        "addressRegion": "New York",
-        "postalCode": "27381-6735",
-        "addressCountry": "Republic of Korea"
+        "streetAddress": "5016 Collier Ramp",
+        "addressLocality": "Rachaelburgh",
+        "addressRegion": "Wyoming",
+        "postalCode": "35410",
+        "addressCountry": "Rwanda"
       },
-      "email": "Lon_Schmitt43@example.com",
-      "phoneNumber": "555-737-8721",
-      "faxNumber": "555-324-3686"
+      "email": "Hermina56@example.net",
+      "phoneNumber": "555-112-3723",
+      "faxNumber": "555-929-6961"
     },
     "product": {
       "type": "Product",
       "manufacturer": {
         "type": "Organization",
-        "name": "Reinger, Doyle and Abbott",
-        "description": "Customizable user-facing standardization",
+        "name": "Wilkinson and Sons",
+        "description": "Phased multimedia task-force",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "86029 Jacobs Green",
-          "addressLocality": "Lake Thora",
-          "addressRegion": "Montana",
-          "postalCode": "65352",
-          "addressCountry": "Cuba"
+          "streetAddress": "460 Loy Glen",
+          "addressLocality": "West Tyrelburgh",
+          "addressRegion": "Missouri",
+          "postalCode": "38950",
+          "addressCountry": "Palau"
         },
-        "email": "Marina26@example.org",
-        "phoneNumber": "555-959-4859",
-        "faxNumber": "555-643-6870"
+        "email": "Concepcion93@example.net",
+        "phoneNumber": "555-623-4527",
+        "faxNumber": "555-594-3372"
       },
-      "name": "Practical Frozen Chicken",
-      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "name": "Intelligent Concrete Ball",
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
       "sizeOrAmount": {
         "type": "QuantitativeValue",
         "unitCode": "hg/ha",
-        "value": "387"
+        "value": "1653"
       },
       "weight": {
         "type": "QuantitativeValue",
         "unitCode": "hg/ha",
-        "value": "1239"
+        "value": "2343"
       },
-      "sku": "318358841016"
+      "sku": "800665940953"
     },
     "declarationDate": "2020-03-21",
     "sellByDate": "2021-06-30",
+    "feed": "copy",
+    "card": "hack",
+    "interface": "bypass",
     "matrix": "synthesize"
   },
   {
@@ -87,5 +86,45 @@
     },
     "sensor": "program",
     "circuit": "synthesize"
+  },
+  {
+    "type": "IntentToSell",
+    "seller": {
+      "type": "Organization",
+      "name": "Ortiz, Jerde and Reynolds",
+      "description": "Operative global analyzer",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "8453 Domingo Fields",
+        "addressLocality": "Schmittport",
+        "addressRegion": "Arizona",
+        "postalCode": "93127",
+        "addressCountry": "Slovakia (Slovak Republic)"
+      },
+      "email": "Abdiel76@example.net",
+      "phoneNumber": "555-455-1788",
+      "faxNumber": "555-542-8251"
+    },
+    "purchaser": {
+      "type": "Organization",
+      "name": "Runte, Hane and Metz",
+      "description": "Virtual encompassing algorithm",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "64164 Chauncey Road",
+        "addressLocality": "North Emieside",
+        "addressRegion": "Kansas",
+        "postalCode": "68186",
+        "addressCountry": "Samoa"
+      },
+      "email": "Irwin50@example.org",
+      "phoneNumber": "555-185-2519",
+      "faxNumber": "555-185-8396"
+    },
+    "declarationDate": "2020-03-21",
+    "sellByDate": "2021-06-30",
+    "system": "reboot",
+    "circuit": "compress",
+    "matrix": "bypass"
   }
 ]

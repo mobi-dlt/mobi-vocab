@@ -1,44 +1,29 @@
 [
   {
-    "trackingNumber": "847502140048",
-    "alarm": "connect",
-    "port": "override",
-    "matrix": "copy"
+    "pixel": "override"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
     "type": "ParcelDelivery",
-    "deliveryAddress": {
-      "type": "PostalAddress",
-      "organizationName": "Cronin - Jacobi",
-      "streetAddress": "69318 Lamont Freeway",
-      "addressLocality": "New Charleyland",
-      "addressRegion": "Utah",
-      "postalCode": "57920-2291",
-      "addressCountry": "South Africa"
-    },
+    "array": "input",
+    "port": "navigate",
+    "firewall": "index"
+  },
+  {
+    "type": "ParcelDelivery",
     "originAddress": {
       "type": "PostalAddress",
-      "organizationName": "Hoppe, Bode and Crona",
-      "streetAddress": "6551 Kris Garden",
-      "addressLocality": "Nathanielborough",
-      "addressRegion": "Hawaii",
-      "postalCode": "28337-8813",
-      "addressCountry": "Sri Lanka"
+      "organizationName": "Graham, Skiles and Thompson",
+      "streetAddress": "382 Funk Lodge",
+      "addressLocality": "West Kristiantown",
+      "addressRegion": "Florida",
+      "postalCode": "45450-9095",
+      "addressCountry": "Cayman Islands"
     },
     "deliveryMethod": "Ocean transport",
-    "matrix": "calculate"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "ParcelDelivery",
-    "deliveryMethod": "Ocean transport",
-    "trackingNumber": "20246030886",
-    "sensor": "generate",
-    "driver": "reboot"
+    "bandwidth": "transmit",
+    "protocol": "generate"
   }
 ]

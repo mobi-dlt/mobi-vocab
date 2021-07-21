@@ -3,50 +3,67 @@
     "type": "Product",
     "manufacturer": {
       "type": "Organization",
-      "name": "Sipes Inc",
-      "description": "Secured well-modulated frame",
+      "name": "Carter Group",
+      "description": "Seamless bandwidth-monitored forecast",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "72269 Smith Junction",
-        "addressLocality": "Port Amparo",
-        "addressRegion": "South Dakota",
-        "postalCode": "38763-9110",
-        "addressCountry": "Belize"
+        "streetAddress": "705 Ansel Field",
+        "addressLocality": "Keyonborough",
+        "addressRegion": "Pennsylvania",
+        "postalCode": "12855",
+        "addressCountry": "Venezuela"
       },
-      "email": "Cydney.Schaden30@example.org",
-      "phoneNumber": "555-447-8545",
-      "faxNumber": "555-913-8699"
+      "email": "Dana_Stark@example.com",
+      "phoneNumber": "555-720-2800",
+      "faxNumber": "555-974-1857"
     },
-    "name": "Rustic Plastic Towels",
+    "name": "Handmade Metal Pants",
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "3990"
+      "value": "5069"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "6999"
+      "value": "5945"
     },
-    "sku": "274061473350",
+    "sku": "452034057861",
     "protocol": "connect",
-    "bandwidth": "quantify",
-    "application": "compress"
+    "sensor": "connect",
+    "card": "index",
+    "pixel": "generate"
   },
   {
-    "alarm": "reboot",
-    "transmitter": "override",
-    "application": "back up",
-    "array": "copy"
+    "weight": {
+      "type": "QuantitativeValue",
+      "unitCode": "hg/ha",
+      "value": "6475"
+    },
+    "monitor": "calculate",
+    "firewall": "calculate",
+    "program": "index"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
     "type": "Product",
-    "name": "Practical Metal Fish",
-    "protocol": "navigate",
-    "microchip": "connect"
+    "name": "Incredible Steel Shirt",
+    "sizeOrAmount": {
+      "type": "QuantitativeValue",
+      "unitCode": "hg/ha",
+      "value": "7860"
+    },
+    "weight": {
+      "type": "QuantitativeValue",
+      "unitCode": "hg/ha",
+      "value": "3220"
+    },
+    "sku": "699561970039",
+    "port": "bypass",
+    "protocol": "quantify",
+    "bandwidth": "quantify"
   }
 ]

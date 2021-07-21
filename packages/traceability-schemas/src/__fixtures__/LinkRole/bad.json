@@ -1,29 +1,20 @@
 [
   {
+    "alarm": "program",
+    "circuit": "parse"
+  },
+  {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
     "type": "LinkRole",
-    "linkRelationship": "alternate",
-    "card": "override"
+    "interface": "quantify",
+    "pixel": "synthesize",
+    "monitor": "reboot"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "application": "input",
-    "interface": "input",
-    "firewall": "override",
-    "sensor": "transmit"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "linkRelationship": "alternate",
-    "driver": "navigate",
-    "panel": "program",
-    "circuit": "compress",
-    "application": "generate"
+    "firewall": "synthesize",
+    "port": "compress",
+    "application": "quantify"
   }
 ]

@@ -14,21 +14,21 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "EcommerceWayBillTotals",
-    "totalPieces": 330,
-    "weight": 611784,
-    "chargeableWeight": 550605.6,
-    "weightUnit": "kg",
-    "rateCharge": 0.007337375428074107,
+    "totalPieces": 220,
+    "weight": 809036,
+    "chargeableWeight": 728132.4,
+    "weightUnit": "lb",
+    "rateCharge": 0.007193746631793888,
     "totalRateCharge": {
       "type": "PriceSpecification",
-      "price": 4040,
-      "priceCurrency": "CDF"
+      "price": 5238,
+      "priceCurrency": "LBP"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..5cCEOjbOtkHfgJ3v8KOnRT3aFaIfANzPo6R5_Txu6mq2tdZx1VD85EuwOxDcPP3XIQnPtuZOp35MlIK3KSAPCg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..07-mkBZYlLKVIvNeF6JJTDIJxaaLO-QgfcZpbS0hwYRzj2afdtZuVJ5MgdEXfzf9cGBUohMlqqqWl-TI3yC1Bw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

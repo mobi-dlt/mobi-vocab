@@ -1,0 +1,132 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "BatterySOH",
+    "batteryid": {
+      "type": "BatteryID",
+      "vid": {
+        "type": "VID",
+        "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+        "manufacturer": {
+          "type": "Person",
+          "firstName": "Albertha",
+          "lastName": "McGlynn",
+          "email": "Kyleigh_Goodwin92@example.net",
+          "phoneNumber": "555-123-7302",
+          "worksFor": {
+            "type": "Organization",
+            "name": "Hoppe, Robel and Marquardt",
+            "description": "User-friendly maximized concept",
+            "address": {
+              "type": "PostalAddress",
+              "streetAddress": "2032 Preston Centers",
+              "addressLocality": "Nyasiashire",
+              "addressRegion": "Oregon",
+              "postalCode": "26146-6471",
+              "addressCountry": "Bouvet Island (Bouvetoya)"
+            },
+            "email": "Kennedi.Hettinger16@example.org",
+            "phoneNumber": "555-717-4689",
+            "faxNumber": "555-992-8558"
+          },
+          "jobTitle": "Product Accounts Representative"
+        },
+        "make": "Ford",
+        "model": "Mach_E",
+        "vin": "JTERU5JR7M5861170"
+      },
+      "batteryid": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+      "serialNumber": "snumber"
+    },
+    "previousSOHVal": "95",
+    "previousSOHTimeStamp": "2020-5-17",
+    "newSOHVal": "94",
+    "newSOHTimeStamp": "2020-10-17"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "BatterySOH",
+    "batteryid": {
+      "type": "BatteryID",
+      "vid": {
+        "type": "VID",
+        "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+        "manufacturer": {
+          "type": "Organization",
+          "name": "Bernhard and Sons",
+          "description": "Balanced 5th generation emulation",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "7160 Stuart Cape",
+            "addressLocality": "Port Hugh",
+            "addressRegion": "South Carolina",
+            "postalCode": "07012-6113",
+            "addressCountry": "Saint Kitts and Nevis"
+          },
+          "email": "Devonte27@example.org",
+          "phoneNumber": "555-930-6912",
+          "faxNumber": "555-524-9609"
+        },
+        "make": "Ford",
+        "model": "Mach_E",
+        "vin": "JTERU5JR7M5861170"
+      },
+      "batteryid": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+      "serialNumber": "snumber"
+    },
+    "previousSOHVal": "95",
+    "previousSOHTimeStamp": "2020-5-17",
+    "newSOHVal": "94",
+    "newSOHTimeStamp": "2020-10-17"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "BatterySOH",
+    "batteryid": {
+      "type": "BatteryID",
+      "vid": {
+        "type": "VID",
+        "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+        "manufacturer": {
+          "type": "Person",
+          "firstName": "Jamaal",
+          "lastName": "Hagenes",
+          "email": "Ulices.Mohr18@example.net",
+          "phoneNumber": "555-608-4044",
+          "worksFor": {
+            "type": "Organization",
+            "name": "Gibson, Muller and Renner",
+            "description": "Networked zero defect utilisation",
+            "address": {
+              "type": "PostalAddress",
+              "streetAddress": "06951 Emerald Hollow",
+              "addressLocality": "Lake Fannie",
+              "addressRegion": "California",
+              "postalCode": "20765-9158",
+              "addressCountry": "United Arab Emirates"
+            },
+            "email": "Burdette.OKeefe19@example.org",
+            "phoneNumber": "555-454-1470",
+            "faxNumber": "555-845-4769"
+          },
+          "jobTitle": "Direct Solutions Liaison"
+        },
+        "make": "Ford",
+        "model": "Mach_E",
+        "vin": "JTERU5JR7M5861170"
+      },
+      "batteryid": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+      "serialNumber": "snumber"
+    },
+    "previousSOHVal": "95",
+    "previousSOHTimeStamp": "2020-5-17",
+    "newSOHVal": "94",
+    "newSOHTimeStamp": "2020-10-17"
+  }
+]

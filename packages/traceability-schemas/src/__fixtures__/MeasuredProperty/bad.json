@@ -1,25 +1,18 @@
 [
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "name": "Oxygen",
-    "application": "back up",
-    "monitor": "reboot"
+    "name": "Torque-controlled fatigue testing",
+    "pixel": "reboot",
+    "interface": "generate"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
+    "array": "generate",
+    "interface": "bypass"
+  },
+  {
     "type": "ChemicalProperty",
-    "formula": "Tb",
-    "monitor": "input",
-    "system": "copy"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "driver": "calculate"
+    "inchikey": "MIORUQGGZCBUGO-UHFFFAOYSA-N",
+    "panel": "transmit",
+    "sensor": "calculate",
+    "microchip": "copy"
   }
 ]

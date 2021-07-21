@@ -14,26 +14,26 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Place",
-    "globalLocationNumber": "9145793604866",
+    "globalLocationNumber": "3819914139952",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "66.4813",
-      "longitude": "-128.6640"
+      "latitude": "17.6654",
+      "longitude": "114.3117"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Lynch Inc",
-      "streetAddress": "63326 Paucek Viaduct",
-      "addressLocality": "East Marlonfurt",
-      "addressRegion": "Hawaii",
-      "postalCode": "84082-1984",
-      "addressCountry": "Maldives"
+      "organizationName": "Zboncak - Wuckert",
+      "streetAddress": "3061 Yolanda Harbor",
+      "addressLocality": "Irwinmouth",
+      "addressRegion": "New York",
+      "postalCode": "17762",
+      "addressCountry": "Germany"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..i-4fOM1D2gWh722B5uffdqxbeprlz58cMT8VVIO_HcIuNA21MmX_gN68dUrr1xTdOeOnuuukonETygJ5db5yDA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..joT8jhH2SHA_JFVbi2aB1fkpOwzO_DK-M7K6aCvE3PYBarqN8IN3QOnwDn9gAhyDjS2ML10LTjLQ21HyxvwOCA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

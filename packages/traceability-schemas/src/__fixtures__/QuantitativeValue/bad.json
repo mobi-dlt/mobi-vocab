@@ -1,27 +1,15 @@
 [
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "QuantitativeValue",
-    "array": "transmit",
-    "microchip": "navigate",
-    "bandwidth": "compress",
-    "card": "generate"
+    "panel": "quantify",
+    "protocol": "transmit",
+    "driver": "input",
+    "alarm": "synthesize"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "QuantitativeValue",
-    "unitCode": "hg/ha",
-    "panel": "back up",
-    "protocol": "hack",
-    "feed": "program"
+    "pixel": "back up",
+    "transmitter": "compress"
   },
   {
-    "firewall": "navigate",
-    "circuit": "back up",
-    "matrix": "hack"
+    "bus": "hack"
   }
 ]

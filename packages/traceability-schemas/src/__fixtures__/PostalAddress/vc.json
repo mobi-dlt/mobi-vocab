@@ -14,17 +14,17 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "PostalAddress",
-    "organizationName": "Lakin Inc",
-    "streetAddress": "075 Ethyl Islands",
-    "addressLocality": "East Rodrigomouth",
-    "addressRegion": "Nevada",
-    "postalCode": "62900-1971",
-    "addressCountry": "Guam"
+    "organizationName": "Luettgen - Sipes",
+    "streetAddress": "844 Huel Shores",
+    "addressLocality": "Shanahanville",
+    "addressRegion": "Indiana",
+    "postalCode": "20534-9613",
+    "addressCountry": "Isle of Man"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..6eZNYaDAWdUaKhHRVJKEMLRd9M3b2uZDrQQQFqAYW27Sj3NOyEuV2_DP9cbg3AkTjrRMJI-K7bGYllyzRj4mBg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..EVNoIinPpAVCYN1-LZcPx5Nxoaz-mt3Mhm6YpKPHpPEf4zdRRej7CbMBViTlTgAsstjVUoR5ThZ3XGjPm-4sBg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

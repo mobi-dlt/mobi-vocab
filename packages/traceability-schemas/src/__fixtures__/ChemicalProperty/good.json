@@ -4,29 +4,29 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "ChemicalProperty",
-    "name": "Rhodium",
-    "formula": "Rh",
-    "inchi": "InChI=1S/Rh",
-    "inchikey": "MHOVAHRLVXNVSD-UHFFFAOYSA-N"
+    "name": "Protactinium",
+    "formula": "Pa",
+    "inchi": "InChI=1S/Pa",
+    "inchikey": "XLROVYAPLOFLNU-UHFFFAOYSA-N"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
     "type": "ChemicalProperty",
-    "name": "Europium",
-    "formula": "Eu",
-    "inchi": "InChI=1S/Eu",
-    "inchikey": "OGPBJKLSAFTDLK-UHFFFAOYSA-N"
+    "name": "Thulium",
+    "formula": "Tm",
+    "inchi": "InChI=1S/Tm",
+    "inchikey": "FRNOGLGSGLTDKL-UHFFFAOYSA-N"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
     "type": "ChemicalProperty",
-    "name": "Lead",
-    "formula": "Pb",
-    "inchi": "InChI=1S/Pb",
-    "inchikey": "WABPQHHGFIMREM-UHFFFAOYSA-N"
+    "name": "Tin",
+    "formula": "Sn",
+    "inchi": "InChI=1S/Sn",
+    "inchikey": "ATJFFYVFTNAWJD-UHFFFAOYSA-N"
   }
 ]

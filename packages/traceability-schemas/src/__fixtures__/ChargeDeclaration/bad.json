@@ -1,46 +1,62 @@
 [
   {
-    "type": "ChargeDeclaration",
+    "matrix": "synthesize",
+    "bandwidth": "hack",
+    "feed": "back up",
+    "sensor": "quantify"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
     "weightCharge": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 68,
-      "chargePrepaid": 856
+      "chargeCollect": 394,
+      "chargePrepaid": 931
+    },
+    "taxCharge": {
+      "type": "chargeAndPaymentType",
+      "chargeCollect": 637,
+      "chargePrepaid": 846
+    },
+    "otherChargesAgent": {
+      "type": "chargeAndPaymentType",
+      "chargeCollect": 707,
+      "chargePrepaid": 679
     },
     "otherChargesCarrier": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 305,
-      "chargePrepaid": 895
+      "chargeCollect": 14,
+      "chargePrepaid": 147
     },
-    "capacitor": "input"
+    "panel": "parse",
+    "feed": "synthesize",
+    "capacitor": "copy",
+    "port": "bypass"
   },
   {
-    "taxCharge": {
-      "type": "chargeAndPaymentType",
-      "chargeCollect": 482,
-      "chargePrepaid": 930
-    },
     "otherChargesAgent": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 691,
-      "chargePrepaid": 40
+      "chargeCollect": 1000,
+      "chargePrepaid": 57
     },
-    "program": "generate",
-    "capacitor": "transmit",
-    "driver": "parse"
-  },
-  {
-    "taxCharge": {
+    "otherChargesCarrier": {
       "type": "chargeAndPaymentType",
-      "chargeCollect": 680,
-      "chargePrepaid": 995
+      "chargeCollect": 113,
+      "chargePrepaid": 366
     },
-    "otherChargesAgent": {
-      "type": "chargeAndPaymentType",
-      "chargeCollect": 831,
-      "chargePrepaid": 99
+    "totalCharge": {
+      "type": "TotalCharge",
+      "totalPrepaid": 2892.75,
+      "totalCollect": 964.25,
+      "sourceCurrency": "KWD",
+      "destinationCurrency": "XAF",
+      "currencyConversionRate": 5,
+      "ccChargesDestinationCurrency": "KWD",
+      "chargesDestination": 505,
+      "totalCollectCharge": 126.25
     },
-    "application": "program",
-    "alarm": "transmit",
-    "bus": "synthesize"
+    "array": "back up",
+    "protocol": "program"
   }
 ]

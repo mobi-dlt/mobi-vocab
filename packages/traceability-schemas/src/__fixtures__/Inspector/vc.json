@@ -16,45 +16,50 @@
     "type": "Inspector",
     "person": {
       "type": "Person",
-      "firstName": "Torey",
-      "lastName": "Ratke",
-      "email": "Terence_Murray67@example.com",
-      "phoneNumber": "555-301-6227",
+      "firstName": "Rafaela",
+      "lastName": "Romaguera",
+      "email": "Michele_Brown47@example.org",
+      "phoneNumber": "555-830-7771",
       "worksFor": {
         "type": "Organization",
-        "name": "Wilderman - Littel",
-        "description": "Pre-emptive bifurcated orchestration",
+        "name": "Pfannerstill LLC",
+        "description": "Robust analyzing adapter",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "55887 Lon Burg",
-          "addressLocality": "West Minaburgh",
-          "addressRegion": "Montana",
-          "postalCode": "83980",
-          "addressCountry": "Faroe Islands"
+          "streetAddress": "093 Braulio Course",
+          "addressLocality": "South Albertahaven",
+          "addressRegion": "Minnesota",
+          "postalCode": "30432-2176",
+          "addressCountry": "Nicaragua"
         },
-        "email": "Eliane.Adams@example.net",
-        "phoneNumber": "555-838-7598",
-        "faxNumber": "555-133-1846"
+        "email": "Sigmund_Bins@example.org",
+        "phoneNumber": "555-563-2078",
+        "faxNumber": "555-280-5351"
       },
-      "jobTitle": "Regional Markets Producer"
+      "jobTitle": "Corporate Web Facilitator"
     },
     "qualification": [
       {
         "type": "Qualification",
-        "qualificationCategory": "Global Branding Facilitator",
-        "qualificationValue": "Architect"
+        "qualificationCategory": "Corporate Division Administrator",
+        "qualificationValue": "Agent"
       },
       {
         "type": "Qualification",
-        "qualificationCategory": "Global Web Engineer",
-        "qualificationValue": "Architect"
+        "qualificationCategory": "Direct Mobility Planner",
+        "qualificationValue": "Analyst"
+      },
+      {
+        "type": "Qualification",
+        "qualificationCategory": "Lead Communications Designer",
+        "qualificationValue": "Director"
       }
     ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..-OGfycndQ1B4oCe9JYMYTxnDR0dEQmkoEC7OA9GBnhfzhr4jkfb_A8wraP7tM6-RBcTZ0LNjwz3WjtV4nAcGBQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..SuonmF8jJuuaHC-KSZMBXZ_uHRmX81v4mdiyNAAZIiNGO7c217D44oFCJTHcs--8JAvHYvhoUjbVJqrzUsedDw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

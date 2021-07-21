@@ -3,35 +3,24 @@
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "type": "ContactPoint",
-    "name": "Rippin, Halvorson and Wiza",
-    "email": "America_Huels46@example.com",
-    "port": "back up"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "ContactPoint",
-    "name": "Kunde LLC",
+    "name": "Beatty, Pacocha and Sporer",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "175 Bradtke Neck",
-      "addressLocality": "Pfeffertown",
-      "addressRegion": "Illinois",
-      "postalCode": "93807",
-      "addressCountry": "British Indian Ocean Territory (Chagos Archipelago)"
+      "streetAddress": "062 Noemi Via",
+      "addressLocality": "South Karson",
+      "addressRegion": "Georgia",
+      "postalCode": "40518",
+      "addressCountry": "Jersey"
     },
-    "phoneNumber": "555-953-4722",
-    "circuit": "parse",
-    "driver": "generate"
+    "microchip": "calculate"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "name": "Hartmann and Sons",
-    "phoneNumber": "555-339-4919",
-    "hard drive": "copy"
+    "application": "synthesize",
+    "card": "compress"
+  },
+  {
+    "phoneNumber": "555-824-6709",
+    "sensor": "reboot",
+    "alarm": "back up"
   }
 ]

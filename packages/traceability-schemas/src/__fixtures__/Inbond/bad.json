@@ -1,12 +1,5 @@
 [
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": [
-      "Inbond"
-    ],
-    "irsNumber": "12345678-01",
     "portOfEntry": {
       "@context": [
         "https://w3id.org/traceability/v1"
@@ -14,52 +7,35 @@
       "type": [
         "Place"
       ],
-      "globalLocationNumber": "8780872666291",
+      "globalLocationNumber": "1990159612522",
       "geo": {
         "type": [
           "GeoCoordinates"
         ],
-        "latitude": "-0.0780",
-        "longitude": "71.7527"
+        "latitude": "80.5371",
+        "longitude": "-56.4574"
       },
       "address": {
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Rath - Moore",
-        "streetAddress": "68147 Flatley Fort",
-        "addressLocality": "Kubfort",
-        "addressRegion": "Vermont",
-        "postalCode": "38730",
-        "addressCountry": "Bhutan"
+        "organizationName": "MacGyver - Altenwerth",
+        "streetAddress": "47025 Hilll Tunnel",
+        "addressLocality": "North Lesley",
+        "addressRegion": "Ohio",
+        "postalCode": "16749-8790",
+        "addressCountry": "Brazil"
       }
     },
-    "portOfDestination": {
+    "recipient": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": [
-        "Place"
+        "Organization"
       ],
-      "globalLocationNumber": "5284510965690",
-      "geo": {
-        "type": [
-          "GeoCoordinates"
-        ],
-        "latitude": "88.5036",
-        "longitude": "54.9367"
-      },
-      "address": {
-        "type": [
-          "PostalAddress"
-        ],
-        "organizationName": "Klocko, Ebert and Jacobi",
-        "streetAddress": "3294 Emely Crest",
-        "addressLocality": "Kuhicberg",
-        "addressRegion": "Mississippi",
-        "postalCode": "45131-5269",
-        "addressCountry": "Mauritania"
-      }
+      "email": "Derick_Witting54@example.net",
+      "phoneNumber": "555-921-5937"
     },
     "shipment": {
       "type": [
@@ -72,12 +48,12 @@
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Feil - Gorczany",
-        "streetAddress": "903 Veronica Fall",
-        "addressLocality": "Morarville",
-        "addressRegion": "Indiana",
-        "postalCode": "04062",
-        "addressCountry": "Madagascar"
+        "organizationName": "Renner, Bernier and Jenkins",
+        "streetAddress": "646 Leonor Lights",
+        "addressLocality": "New Ryleighland",
+        "addressRegion": "Minnesota",
+        "postalCode": "22294-8833",
+        "addressCountry": "Slovakia (Slovak Republic)"
       },
       "deliveryAddress": {
         "@context": [
@@ -86,19 +62,16 @@
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Wisozk, Johns and Reilly",
-        "streetAddress": "291 Claude Knolls",
-        "addressLocality": "South Parisside",
-        "addressRegion": "Kansas",
-        "postalCode": "30067-5197",
-        "addressCountry": "Brazil"
+        "organizationName": "Hermiston, Boyer and Bradtke",
+        "streetAddress": "9967 Jacobi Locks",
+        "addressLocality": "Eraberg",
+        "addressRegion": "Wyoming",
+        "postalCode": "17374",
+        "addressCountry": "Czech Republic"
       },
       "deliveryMethod": "pipeline"
     },
-    "billOfLadingNumber": "123456789",
     "expectedDeliveryDate": "2020-10-20",
-    "valuePerItem": "9235",
-    "totalOrderValue": "94058",
     "product": {
       "type": [
         "Product"
@@ -107,8 +80,8 @@
         "type": [
           "Person"
         ],
-        "email": "Zane_Bosco@example.org",
-        "phoneNumber": "555-656-3547"
+        "email": "Beaulah.Fisher89@example.com",
+        "phoneNumber": "555-169-6560"
       },
       "name": "Crude Oil Barrel",
       "description": "Heavy Sour Dilbit",
@@ -117,84 +90,24 @@
           "QuantitativeValue"
         ],
         "unitCode": "hg/ha",
-        "value": "441"
+        "value": "5090"
       },
       "weight": {
         "type": [
           "QuantitativeValue"
         ],
         "unitCode": "hg/ha",
-        "value": "3103"
+        "value": "3191"
       },
-      "sku": "43670491187"
+      "sku": "580972772385"
     },
-    "interface": "index",
-    "transmitter": "reboot",
-    "system": "reboot",
-    "microchip": "program"
+    "matrix": "quantify",
+    "alarm": "quantify",
+    "protocol": "back up",
+    "bandwidth": "hack"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "portOfEntry": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": [
-        "Place"
-      ],
-      "globalLocationNumber": "4263248104855",
-      "geo": {
-        "type": [
-          "GeoCoordinates"
-        ],
-        "latitude": "-78.0471",
-        "longitude": "60.6618"
-      },
-      "address": {
-        "type": [
-          "PostalAddress"
-        ],
-        "organizationName": "Wiza, Batz and Mohr",
-        "streetAddress": "1439 Feest Track",
-        "addressLocality": "Lenoraport",
-        "addressRegion": "Massachusetts",
-        "postalCode": "20817-2672",
-        "addressCountry": "Colombia"
-      }
-    },
-    "recipient": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": [
-        "Organization"
-      ],
-      "email": "Ilene.Legros26@example.net",
-      "phoneNumber": "555-922-3310"
-    },
-    "billOfLadingNumber": "123456789",
-    "valuePerItem": "1683",
-    "firewall": "index",
-    "bus": "override",
-    "sensor": "input"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "inBondType": "IT (61)",
-    "recipient": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": [
-        "Organization"
-      ],
-      "email": "Desmond_Zieme@example.org",
-      "phoneNumber": "555-547-8842"
-    },
+    "inBondNumber": "123456789",
     "portOfArrival": {
       "@context": [
         "https://w3id.org/traceability/v1"
@@ -202,28 +115,70 @@
       "type": [
         "Place"
       ],
-      "globalLocationNumber": "8267301939992",
+      "globalLocationNumber": "4272503626575",
       "geo": {
         "type": [
           "GeoCoordinates"
         ],
-        "latitude": "-70.3160",
-        "longitude": "129.1473"
+        "latitude": "-50.9735",
+        "longitude": "4.7412"
       },
       "address": {
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Pouros - Hauck",
-        "streetAddress": "52820 Labadie Pines",
-        "addressLocality": "Stromanberg",
-        "addressRegion": "West Virginia",
-        "postalCode": "45589-1217",
-        "addressCountry": "Martinique"
+        "organizationName": "Kunze, Witting and Hartmann",
+        "streetAddress": "05044 Gaylord Lock",
+        "addressLocality": "Revaburgh",
+        "addressRegion": "Missouri",
+        "postalCode": "58321-1017",
+        "addressCountry": "Nauru"
       }
     },
-    "billOfLadingNumber": "123456789",
-    "driver": "parse",
-    "bandwidth": "input"
+    "valuePerItem": "2766",
+    "product": {
+      "type": [
+        "Product"
+      ],
+      "manufacturer": {
+        "type": [
+          "Organization"
+        ],
+        "email": "Hilma37@example.com",
+        "phoneNumber": "555-906-2426"
+      },
+      "name": "Crude Oil Barrel",
+      "description": "Heavy Sour Dilbit",
+      "sizeOrAmount": {
+        "type": [
+          "QuantitativeValue"
+        ],
+        "unitCode": "hg/ha",
+        "value": "6703"
+      },
+      "weight": {
+        "type": [
+          "QuantitativeValue"
+        ],
+        "unitCode": "hg/ha",
+        "value": "729"
+      },
+      "sku": "297577742745"
+    },
+    "alarm": "program"
+  },
+  {
+    "carrier": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": [
+        "Organization"
+      ],
+      "email": "Kari_Lakin12@example.com",
+      "phoneNumber": "555-291-1705"
+    },
+    "totalOrderValue": "92788",
+    "interface": "override"
   }
 ]

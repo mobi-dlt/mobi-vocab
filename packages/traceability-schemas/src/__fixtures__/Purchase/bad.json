@@ -1,45 +1,26 @@
 [
   {
-    "firewall": "program",
-    "capacitor": "input",
-    "circuit": "quantify",
-    "application": "hack"
+    "bus": "input"
   },
   {
-    "customer": {
-      "type": "Person",
-      "firstName": "Dorris",
-      "lastName": "Nicolas",
-      "email": "Russel_Carter@example.org",
-      "phoneNumber": "555-897-4840",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Krajcik - Harris",
-        "description": "Multi-lateral modular algorithm",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "727 Rhett Plaza",
-          "addressLocality": "New Rahulport",
-          "addressRegion": "Washington",
-          "postalCode": "79160-7076",
-          "addressCountry": "Philippines"
-        },
-        "email": "Dayne80@example.net",
-        "phoneNumber": "555-666-7447",
-        "faxNumber": "555-988-5089"
-      },
-      "jobTitle": "Dynamic Solutions Officer"
-    },
-    "bus": "bypass",
-    "matrix": "copy"
-  },
-  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
     "type": [
       "Purchase"
     ],
-    "bandwidth": "program",
-    "protocol": "parse",
-    "hard drive": "compress",
-    "program": "program"
+    "card": "reboot",
+    "application": "override",
+    "system": "hack",
+    "hard drive": "compress"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "bandwidth": "compress",
+    "microchip": "bypass",
+    "driver": "calculate",
+    "pixel": "index"
   }
 ]

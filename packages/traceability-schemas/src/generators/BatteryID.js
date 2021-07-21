@@ -10,7 +10,7 @@ const getBatteryID = () => {
         '@context': ['https://w3id.org/traceability/v1'],
         type: 'BatteryID',
         vid: vidNumber,
-        batteryIdentifier: 'did:mobi:e436e12ec21ebfeb1f712ebc3g',
+        batteryid: 'did:mobi:e436e12ec21ebfeb1f712ebc3g',
         serialNumber: 'snumber',
 
     };

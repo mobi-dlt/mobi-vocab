@@ -26,24 +26,24 @@
       "type": [
         "Place"
       ],
-      "globalLocationNumber": "8780872666291",
+      "globalLocationNumber": "1990159612522",
       "geo": {
         "type": [
           "GeoCoordinates"
         ],
-        "latitude": "-0.0780",
-        "longitude": "71.7527"
+        "latitude": "80.5371",
+        "longitude": "-56.4574"
       },
       "address": {
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Rath - Moore",
-        "streetAddress": "68147 Flatley Fort",
-        "addressLocality": "Kubfort",
-        "addressRegion": "Vermont",
-        "postalCode": "38730",
-        "addressCountry": "Bhutan"
+        "organizationName": "MacGyver - Altenwerth",
+        "streetAddress": "47025 Hilll Tunnel",
+        "addressLocality": "North Lesley",
+        "addressRegion": "Ohio",
+        "postalCode": "16749-8790",
+        "addressCountry": "Brazil"
       }
     },
     "carrier": {
@@ -53,8 +53,8 @@
       "type": [
         "Organization"
       ],
-      "email": "Tyrique47@example.net",
-      "phoneNumber": "555-104-7646"
+      "email": "Taya18@example.org",
+      "phoneNumber": "555-518-9391"
     },
     "recipient": {
       "@context": [
@@ -63,8 +63,8 @@
       "type": [
         "Organization"
       ],
-      "email": "Kris.Rippin41@example.org",
-      "phoneNumber": "555-901-8384"
+      "email": "Derick_Witting54@example.net",
+      "phoneNumber": "555-921-5937"
     },
     "portOfArrival": {
       "@context": [
@@ -73,24 +73,24 @@
       "type": [
         "Place"
       ],
-      "globalLocationNumber": "2017476537761",
+      "globalLocationNumber": "7483358932477",
       "geo": {
         "type": [
           "GeoCoordinates"
         ],
-        "latitude": "46.3365",
-        "longitude": "1.7758"
+        "latitude": "-9.9936",
+        "longitude": "102.8409"
       },
       "address": {
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Dare, Schroeder and Schulist",
-        "streetAddress": "521 Jamel Flat",
-        "addressLocality": "Gleasonside",
-        "addressRegion": "Oregon",
-        "postalCode": "61850",
-        "addressCountry": "Botswana"
+        "organizationName": "Hansen Inc",
+        "streetAddress": "640 Nathan Heights",
+        "addressLocality": "North Claudetown",
+        "addressRegion": "Maryland",
+        "postalCode": "44383",
+        "addressCountry": "British Indian Ocean Territory (Chagos Archipelago)"
       }
     },
     "portOfDestination": {
@@ -100,24 +100,24 @@
       "type": [
         "Place"
       ],
-      "globalLocationNumber": "5284510965690",
+      "globalLocationNumber": "6398972578738",
       "geo": {
         "type": [
           "GeoCoordinates"
         ],
-        "latitude": "88.5036",
-        "longitude": "54.9367"
+        "latitude": "35.1739",
+        "longitude": "-77.5757"
       },
       "address": {
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Klocko, Ebert and Jacobi",
-        "streetAddress": "3294 Emely Crest",
-        "addressLocality": "Kuhicberg",
-        "addressRegion": "Mississippi",
-        "postalCode": "45131-5269",
-        "addressCountry": "Mauritania"
+        "organizationName": "Beahan, Bednar and Ortiz",
+        "streetAddress": "8511 Stehr Station",
+        "addressLocality": "Port River",
+        "addressRegion": "Indiana",
+        "postalCode": "96335-2090",
+        "addressCountry": "Wallis and Futuna"
       }
     },
     "shipment": {
@@ -131,12 +131,12 @@
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Feil - Gorczany",
-        "streetAddress": "903 Veronica Fall",
-        "addressLocality": "Morarville",
-        "addressRegion": "Indiana",
-        "postalCode": "04062",
-        "addressCountry": "Madagascar"
+        "organizationName": "Renner, Bernier and Jenkins",
+        "streetAddress": "646 Leonor Lights",
+        "addressLocality": "New Ryleighland",
+        "addressRegion": "Minnesota",
+        "postalCode": "22294-8833",
+        "addressCountry": "Slovakia (Slovak Republic)"
       },
       "deliveryAddress": {
         "@context": [
@@ -145,19 +145,19 @@
         "type": [
           "PostalAddress"
         ],
-        "organizationName": "Wisozk, Johns and Reilly",
-        "streetAddress": "291 Claude Knolls",
-        "addressLocality": "South Parisside",
-        "addressRegion": "Kansas",
-        "postalCode": "30067-5197",
-        "addressCountry": "Brazil"
+        "organizationName": "Hermiston, Boyer and Bradtke",
+        "streetAddress": "9967 Jacobi Locks",
+        "addressLocality": "Eraberg",
+        "addressRegion": "Wyoming",
+        "postalCode": "17374",
+        "addressCountry": "Czech Republic"
       },
       "deliveryMethod": "pipeline"
     },
     "billOfLadingNumber": "123456789",
     "expectedDeliveryDate": "2020-10-20",
-    "valuePerItem": "9235",
-    "totalOrderValue": "94058",
+    "valuePerItem": "9675",
+    "totalOrderValue": "21095",
     "product": {
       "type": [
         "Product"
@@ -166,8 +166,8 @@
         "type": [
           "Person"
         ],
-        "email": "Zane_Bosco@example.org",
-        "phoneNumber": "555-656-3547"
+        "email": "Beaulah.Fisher89@example.com",
+        "phoneNumber": "555-169-6560"
       },
       "name": "Crude Oil Barrel",
       "description": "Heavy Sour Dilbit",
@@ -176,22 +176,22 @@
           "QuantitativeValue"
         ],
         "unitCode": "hg/ha",
-        "value": "441"
+        "value": "5090"
       },
       "weight": {
         "type": [
           "QuantitativeValue"
         ],
         "unitCode": "hg/ha",
-        "value": "3103"
+        "value": "3191"
       },
-      "sku": "43670491187"
+      "sku": "580972772385"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vPI7_v5m42OJlZf2Sqttm4FHUwjW6j6111862gMEWIG69tw01aCYODRao955VtNMHUODxaHhhh-2K1S92R79AQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..3l43FvrWuwohl3Lh37S7TIRvicczd8xGpto75NxG2z0PWriW2WqlzvrGMsCrZk3aDP4VEpHnKHbv2E-GJNxSAw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }
