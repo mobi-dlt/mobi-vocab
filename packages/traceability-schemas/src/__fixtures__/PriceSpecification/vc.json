@@ -14,13 +14,13 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "PriceSpecification",
-    "price": 8502,
-    "priceCurrency": "NOK"
+    "price": 7318,
+    "priceCurrency": "HUF"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..it5KBuNWxkn8w6wAen9ZoEAec7oaJGo443WA3II3GFZo13_COWokzDwO9MQ991B1u4zTJn2DhrBarEM6CXAuDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..KU0RqXB9yI5SkY7631thuSD3NFLmiTmRa7YHE7KI_sdprrDO8h_JxTI0WUkRaTot2Hrbxo8CWrebxHbHe4jACQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -17,27 +17,27 @@
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "manufacturer": {
       "type": "Person",
-      "firstName": "Kaya",
-      "lastName": "Lemke",
-      "email": "Cathryn83@example.com",
-      "phoneNumber": "555-238-5300",
+      "firstName": "Dion",
+      "lastName": "Ullrich",
+      "email": "Emmy_McCullough@example.org",
+      "phoneNumber": "555-237-4645",
       "worksFor": {
         "type": "Organization",
-        "name": "Mohr Group",
-        "description": "Decentralized fault-tolerant algorithm",
+        "name": "Jacobson, Orn and Grimes",
+        "description": "Down-sized contextually-based standardization",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "37144 Tromp Glens",
-          "addressLocality": "Buckridgebury",
-          "addressRegion": "West Virginia",
-          "postalCode": "34846",
-          "addressCountry": "Zambia"
+          "streetAddress": "8596 Wilkinson Circles",
+          "addressLocality": "South Santiagoburgh",
+          "addressRegion": "Ohio",
+          "postalCode": "15872",
+          "addressCountry": "Pitcairn Islands"
         },
-        "email": "Wallace_Heaney98@example.com",
-        "phoneNumber": "555-844-5908",
-        "faxNumber": "555-985-1793"
+        "email": "Gregory92@example.org",
+        "phoneNumber": "555-530-1452",
+        "faxNumber": "555-230-1656"
       },
-      "jobTitle": "Internal Division Director"
+      "jobTitle": "Dynamic Infrastructure Technician"
     },
     "make": "Ford",
     "model": "Mach_E",
@@ -46,7 +46,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..n0_g28EV6oEvkVhuOgEZXCW_Ic0Ca34mho7SLqTkWYeTtDyvx6CPmhju4nqA6rjv7FY0nE3mcU2l4TdDdPB6BQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..1dn0rD7Z5HA6WnkxTstP6YOi6kU2GESEDYkSYDmmVD7h_s2nGzcoqcV_jStIvRgWYWED_VOAd99cnlw0B7DJDg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

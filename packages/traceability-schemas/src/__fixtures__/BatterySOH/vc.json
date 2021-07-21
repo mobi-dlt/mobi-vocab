@@ -21,27 +21,27 @@
         "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
         "manufacturer": {
           "type": "Person",
-          "firstName": "Albertha",
-          "lastName": "McGlynn",
-          "email": "Kyleigh_Goodwin92@example.net",
-          "phoneNumber": "555-123-7302",
+          "firstName": "Caroline",
+          "lastName": "Thompson",
+          "email": "Lindsey63@example.net",
+          "phoneNumber": "555-360-7253",
           "worksFor": {
             "type": "Organization",
-            "name": "Hoppe, Robel and Marquardt",
-            "description": "User-friendly maximized concept",
+            "name": "Conn, Friesen and Mitchell",
+            "description": "Inverse interactive pricing structure",
             "address": {
               "type": "PostalAddress",
-              "streetAddress": "2032 Preston Centers",
-              "addressLocality": "Nyasiashire",
-              "addressRegion": "Oregon",
-              "postalCode": "26146-6471",
-              "addressCountry": "Bouvet Island (Bouvetoya)"
+              "streetAddress": "97877 Russel Park",
+              "addressLocality": "South Aliza",
+              "addressRegion": "Nebraska",
+              "postalCode": "41041-2086",
+              "addressCountry": "Kuwait"
             },
-            "email": "Kennedi.Hettinger16@example.org",
-            "phoneNumber": "555-717-4689",
-            "faxNumber": "555-992-8558"
+            "email": "Danyka59@example.org",
+            "phoneNumber": "555-382-6069",
+            "faxNumber": "555-557-7259"
           },
-          "jobTitle": "Product Accounts Representative"
+          "jobTitle": "Direct Accountability Architect"
         },
         "make": "Ford",
         "model": "Mach_E",
@@ -58,7 +58,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..O3rlU0I0eDFAJIYzERjNf47ee0Qzb_PyZXheADaJuT3fJe1AyisNtANp7iB-FDov_WBWoWthVMNiaoBrosQRCQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..GL4Iaxh9HsEM1SjmjrsLNAo1z7UO0JF4XfLJcwJXye4CuYuBFcuyYxBrMp3QYQCfLHnAwu5kcMgmQhg1GV75CA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -1,20 +1,15 @@
 [
   {
-    "feed": "bypass",
-    "pixel": "generate",
-    "alarm": "parse"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "certificateName": "US Legal Entity Certificate",
-    "sensor": "transmit",
-    "microchip": "input"
+    "hard drive": "calculate"
   },
   {
     "type": "LegalEntityIdentifierCredential",
-    "leiCode": "DRY08E4HF0S9KRO46JM7",
-    "alarm": "parse"
+    "leiCode": "TR29F022IYWASR8MZDO7",
+    "certificateName": "US Legal Entity Certificate",
+    "pixel": "compress",
+    "application": "bypass"
+  },
+  {
+    "array": "bypass"
   }
 ]

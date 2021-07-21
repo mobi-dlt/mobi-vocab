@@ -4,41 +4,41 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 57.75,
-    "totalCollect": 19.25,
-    "sourceCurrency": "HUF",
-    "destinationCurrency": "MZN",
-    "currencyConversionRate": 2,
-    "ccChargesDestinationCurrency": "HUF",
-    "chargesDestination": 347,
-    "totalCollectCharge": 86.75
+    "totalPrepaid": 236.25,
+    "totalCollect": 78.75,
+    "sourceCurrency": "UZS",
+    "destinationCurrency": "NZD",
+    "currencyConversionRate": 5,
+    "ccChargesDestinationCurrency": "UZS",
+    "chargesDestination": 726,
+    "totalCollectCharge": 181.5
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 3987,
-    "totalCollect": 1329,
-    "sourceCurrency": "THB",
-    "destinationCurrency": "MUR",
+    "totalPrepaid": 1510.5,
+    "totalCollect": 503.5,
+    "sourceCurrency": "ZMK",
+    "destinationCurrency": "ZWL",
     "currencyConversionRate": 5,
-    "ccChargesDestinationCurrency": "THB",
-    "chargesDestination": 371,
-    "totalCollectCharge": 92.75
+    "ccChargesDestinationCurrency": "ZMK",
+    "chargesDestination": 680,
+    "totalCollectCharge": 170
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 1719,
-    "totalCollect": 573,
-    "sourceCurrency": "YER",
-    "destinationCurrency": "KMF",
+    "totalPrepaid": 6070.5,
+    "totalCollect": 2023.5,
+    "sourceCurrency": "SGD",
+    "destinationCurrency": "NIO",
     "currencyConversionRate": 5,
-    "ccChargesDestinationCurrency": "YER",
-    "chargesDestination": 37,
-    "totalCollectCharge": 9.25
+    "ccChargesDestinationCurrency": "SGD",
+    "chargesDestination": 769,
+    "totalCollectCharge": 192.25
   }
 ]

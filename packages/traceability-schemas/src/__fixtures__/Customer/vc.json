@@ -14,22 +14,22 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Customer",
-    "name": "Stephan Tillman",
+    "name": "Sheridan Hauck",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "868 Carolyne Cliffs",
-      "addressLocality": "Trompfurt",
-      "addressRegion": "New Mexico",
-      "postalCode": "03196-9021",
-      "addressCountry": "French Southern Territories"
+      "streetAddress": "9285 Fritsch Throughway",
+      "addressLocality": "North Remingtonburgh",
+      "addressRegion": "Maine",
+      "postalCode": "13587-2296",
+      "addressCountry": "Kenya"
     },
-    "telephone": "555-907-6024",
-    "email": "Clair34@example.com"
+    "telephone": "555-145-9010",
+    "email": "Garrick43@example.org"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..8jK6j62IwpaEdTVaMo17IuUu1j052rlZVVh_YfndXpgRdrPrCob6MSzshCbLYzl8z_uqjaL8ekF33Vah7A1hAg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..6xKerYX7tusJFs3BG25BGKwq2rkhWZBS4aemZ_odqDuElT2VsdPmEXxyanZqat8SYEAELb3qk6tKR7p9eLcNBw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

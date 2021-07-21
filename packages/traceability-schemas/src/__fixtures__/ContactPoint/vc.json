@@ -14,22 +14,22 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "ContactPoint",
-    "name": "Nader Inc",
+    "name": "Bradtke - Weimann",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "6912 Lindgren Pines",
-      "addressLocality": "Doyleberg",
-      "addressRegion": "West Virginia",
-      "postalCode": "52618",
-      "addressCountry": "Uganda"
+      "streetAddress": "1323 Rose Ridges",
+      "addressLocality": "Stiedemannhaven",
+      "addressRegion": "Massachusetts",
+      "postalCode": "86809-1786",
+      "addressCountry": "Mozambique"
     },
-    "email": "Jacky18@example.net",
-    "phoneNumber": "555-661-8273"
+    "email": "Waylon16@example.com",
+    "phoneNumber": "555-622-1082"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..qevSD12v9yzv8JnCi16LZgXolHikV1058CDi2giklEb_1-1WjeuJrYAaoTv0UbN_4aoVdZxlGMz7KmAvcS5lCw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..MBbouLJpDxYhqfIDX2OU21MPJYjZWT67Reim9hViFSaF2Tmc1-gnlJT2WMLPlDMNno_TjjuKPQ5WO7XAs2rnBg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

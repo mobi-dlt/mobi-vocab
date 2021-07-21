@@ -3,24 +3,45 @@
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "email": "Brendon.Pfannerstill81@example.org",
-    "jobTitle": "Principal Implementation Analyst",
-    "application": "quantify",
-    "monitor": "generate",
-    "pixel": "copy"
+    "type": "Person",
+    "lastName": "Metz",
+    "jobTitle": "Product Web Officer",
+    "bandwidth": "synthesize"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "lastName": "Ledner",
-    "bus": "copy"
+    "type": "Person",
+    "firstName": "Jayde",
+    "lastName": "Schmitt",
+    "email": "Jada_Wehner@example.com",
+    "worksFor": {
+      "type": "Organization",
+      "name": "Sawayn Group",
+      "description": "Balanced demand-driven solution",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "375 Columbus Village",
+        "addressLocality": "South Francisshire",
+        "addressRegion": "Kentucky",
+        "postalCode": "07058",
+        "addressCountry": "Mongolia"
+      },
+      "email": "Dangelo_Swaniawski@example.com",
+      "phoneNumber": "555-345-7279",
+      "faxNumber": "555-566-9366"
+    },
+    "jobTitle": "Direct Web Executive",
+    "sensor": "reboot",
+    "system": "transmit",
+    "monitor": "back up",
+    "application": "bypass"
   },
   {
-    "firstName": "Bell",
-    "lastName": "McClure",
-    "phoneNumber": "555-751-1583",
-    "sensor": "calculate",
-    "protocol": "hack"
+    "capacitor": "index",
+    "protocol": "transmit",
+    "system": "transmit",
+    "port": "calculate"
   }
 ]

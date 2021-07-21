@@ -11,65 +11,27 @@
         "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
         "manufacturer": {
           "type": "Person",
-          "firstName": "Albertha",
-          "lastName": "McGlynn",
-          "email": "Kyleigh_Goodwin92@example.net",
-          "phoneNumber": "555-123-7302",
+          "firstName": "Caroline",
+          "lastName": "Thompson",
+          "email": "Lindsey63@example.net",
+          "phoneNumber": "555-360-7253",
           "worksFor": {
             "type": "Organization",
-            "name": "Hoppe, Robel and Marquardt",
-            "description": "User-friendly maximized concept",
+            "name": "Conn, Friesen and Mitchell",
+            "description": "Inverse interactive pricing structure",
             "address": {
               "type": "PostalAddress",
-              "streetAddress": "2032 Preston Centers",
-              "addressLocality": "Nyasiashire",
-              "addressRegion": "Oregon",
-              "postalCode": "26146-6471",
-              "addressCountry": "Bouvet Island (Bouvetoya)"
+              "streetAddress": "97877 Russel Park",
+              "addressLocality": "South Aliza",
+              "addressRegion": "Nebraska",
+              "postalCode": "41041-2086",
+              "addressCountry": "Kuwait"
             },
-            "email": "Kennedi.Hettinger16@example.org",
-            "phoneNumber": "555-717-4689",
-            "faxNumber": "555-992-8558"
+            "email": "Danyka59@example.org",
+            "phoneNumber": "555-382-6069",
+            "faxNumber": "555-557-7259"
           },
-          "jobTitle": "Product Accounts Representative"
-        },
-        "make": "Ford",
-        "model": "Mach_E",
-        "vin": "JTERU5JR7M5861170"
-      },
-      "batteryid": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
-      "serialNumber": "snumber"
-    },
-    "previousSOHVal": "95",
-    "previousSOHTimeStamp": "2020-5-17",
-    "newSOHVal": "94",
-    "newSOHTimeStamp": "2020-10-17"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "BatterySOH",
-    "batteryid": {
-      "type": "BatteryID",
-      "vid": {
-        "type": "VID",
-        "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-        "manufacturer": {
-          "type": "Organization",
-          "name": "Bernhard and Sons",
-          "description": "Balanced 5th generation emulation",
-          "address": {
-            "type": "PostalAddress",
-            "streetAddress": "7160 Stuart Cape",
-            "addressLocality": "Port Hugh",
-            "addressRegion": "South Carolina",
-            "postalCode": "07012-6113",
-            "addressCountry": "Saint Kitts and Nevis"
-          },
-          "email": "Devonte27@example.org",
-          "phoneNumber": "555-930-6912",
-          "faxNumber": "555-524-9609"
+          "jobTitle": "Direct Accountability Architect"
         },
         "make": "Ford",
         "model": "Mach_E",
@@ -95,27 +57,65 @@
         "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
         "manufacturer": {
           "type": "Person",
-          "firstName": "Jamaal",
-          "lastName": "Hagenes",
-          "email": "Ulices.Mohr18@example.net",
-          "phoneNumber": "555-608-4044",
+          "firstName": "Elise",
+          "lastName": "Cormier",
+          "email": "Zoe60@example.org",
+          "phoneNumber": "555-547-7410",
           "worksFor": {
             "type": "Organization",
-            "name": "Gibson, Muller and Renner",
-            "description": "Networked zero defect utilisation",
+            "name": "Prosacco - Jakubowski",
+            "description": "Horizontal actuating utilisation",
             "address": {
               "type": "PostalAddress",
-              "streetAddress": "06951 Emerald Hollow",
-              "addressLocality": "Lake Fannie",
-              "addressRegion": "California",
-              "postalCode": "20765-9158",
-              "addressCountry": "United Arab Emirates"
+              "streetAddress": "4083 Adams Throughway",
+              "addressLocality": "South Kadenbury",
+              "addressRegion": "Missouri",
+              "postalCode": "61232",
+              "addressCountry": "United States of America"
             },
-            "email": "Burdette.OKeefe19@example.org",
-            "phoneNumber": "555-454-1470",
-            "faxNumber": "555-845-4769"
+            "email": "Vince69@example.org",
+            "phoneNumber": "555-251-3908",
+            "faxNumber": "555-296-5669"
           },
-          "jobTitle": "Direct Solutions Liaison"
+          "jobTitle": "Principal Optimization Administrator"
+        },
+        "make": "Ford",
+        "model": "Mach_E",
+        "vin": "JTERU5JR7M5861170"
+      },
+      "batteryid": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+      "serialNumber": "snumber"
+    },
+    "previousSOHVal": "95",
+    "previousSOHTimeStamp": "2020-5-17",
+    "newSOHVal": "94",
+    "newSOHTimeStamp": "2020-10-17"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "BatterySOH",
+    "batteryid": {
+      "type": "BatteryID",
+      "vid": {
+        "type": "VID",
+        "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+        "manufacturer": {
+          "type": "Organization",
+          "name": "Predovic Inc",
+          "description": "Synchronised maximized firmware",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "9525 Ruecker Ramp",
+            "addressLocality": "East Deanna",
+            "addressRegion": "Oregon",
+            "postalCode": "34696-3580",
+            "addressCountry": "Seychelles"
+          },
+          "email": "Dakota_Armstrong80@example.net",
+          "phoneNumber": "555-851-2356",
+          "faxNumber": "555-388-5573"
         },
         "make": "Ford",
         "model": "Mach_E",

@@ -14,26 +14,26 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Place",
-    "globalLocationNumber": "1526958725875",
+    "globalLocationNumber": "7577388545032",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "-29.8371",
-      "longitude": "88.5331"
+      "latitude": "86.6335",
+      "longitude": "172.6384"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Wunsch, Quigley and Ebert",
-      "streetAddress": "855 Corkery Loaf",
-      "addressLocality": "West Mustafaview",
-      "addressRegion": "Idaho",
-      "postalCode": "32058",
-      "addressCountry": "Russian Federation"
+      "organizationName": "Considine LLC",
+      "streetAddress": "115 Hagenes Hills",
+      "addressLocality": "Weststad",
+      "addressRegion": "Wisconsin",
+      "postalCode": "11017",
+      "addressCountry": "Cyprus"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..v3WUJQ6ePTx3fmWRO9aceL3IylvxL5dNOE3odg5vB3fBhDqRUzPAxzfVlJYKjGLwYRkLVAlg_239qyIUVXjyCg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UksYxPY9QhiENWb4QPtNFcfU9aLtfddt8Fuxz3hFFNQmpuyIv-mfmTQHqCvS974xTrbLOjMM51HTRbuGV6w6Bw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

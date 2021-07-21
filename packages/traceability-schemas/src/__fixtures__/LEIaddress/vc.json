@@ -14,23 +14,23 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIaddress",
-    "language": "vi",
+    "language": "fa",
     "addressLines": [
-      "Cremin - Veum",
-      "2078 Bartholome Pike"
+      "Macejkovic - Runolfsson",
+      "097 Goldner Islands"
     ],
-    "addressNumber": "253",
-    "addressNumberWithinBuilding": "2",
-    "mailRouting": "9679 Macey Brooks, 75360",
-    "city": "North Mylene",
+    "addressNumber": "91",
+    "addressNumberWithinBuilding": "4",
+    "mailRouting": "654 Wuckert Squares, 87864",
+    "city": "South Damarisberg",
     "region": "Avon",
-    "country": "Mongolia",
-    "postalCode": "98994"
+    "country": "Canada",
+    "postalCode": "16505"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vKyf1yf9ZUEHzJegPaB0dHpujaBirAyZTe-YR1uVxlCac484bIGdFaJH5xUyRet_7iG8fNj0tLdBTkWSH1uJDw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..xi4OKEfIBf14ujVJ9IYlMSuMOPuEGS-83jnlX6GikV32PekpoAwqiNQ9MOnw5Hq16N_6cLSobzhdWsnDV-txCA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

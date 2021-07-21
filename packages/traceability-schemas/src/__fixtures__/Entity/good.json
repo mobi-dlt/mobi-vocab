@@ -4,72 +4,64 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Person",
-    "firstName": "Tracy",
-    "lastName": "Goyette",
-    "email": "Verda_Larson55@example.com",
-    "phoneNumber": "555-264-6941",
+    "firstName": "Roselyn",
+    "lastName": "Bosco",
+    "email": "Emmanuel_Will95@example.com",
+    "phoneNumber": "555-962-9148",
     "worksFor": {
       "type": "Organization",
-      "name": "Jast, Beer and D'Amore",
-      "description": "Universal bottom-line hierarchy",
+      "name": "Kunze - Shanahan",
+      "description": "Innovative eco-centric encoding",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "71995 Bauch Road",
-        "addressLocality": "Jacobiburgh",
-        "addressRegion": "Michigan",
-        "postalCode": "70201",
-        "addressCountry": "Vanuatu"
+        "streetAddress": "597 Hilpert Lake",
+        "addressLocality": "Lake Kraig",
+        "addressRegion": "Louisiana",
+        "postalCode": "95824-6777",
+        "addressCountry": "Dominica"
       },
-      "email": "Dax71@example.org",
-      "phoneNumber": "555-172-8523",
-      "faxNumber": "555-485-7263"
+      "email": "Bailey1@example.net",
+      "phoneNumber": "555-192-4399",
+      "faxNumber": "555-912-5808"
     },
-    "jobTitle": "District Communications Producer"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "Person",
-    "firstName": "Levi",
-    "lastName": "Bernier",
-    "email": "Lucy86@example.net",
-    "phoneNumber": "555-715-2466",
-    "worksFor": {
-      "type": "Organization",
-      "name": "Bayer, Gibson and Hirthe",
-      "description": "Advanced modular task-force",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "00389 Krajcik River",
-        "addressLocality": "North Norbertoport",
-        "addressRegion": "South Dakota",
-        "postalCode": "31446",
-        "addressCountry": "Iceland"
-      },
-      "email": "Jevon_Stiedemann@example.com",
-      "phoneNumber": "555-143-6542",
-      "faxNumber": "555-954-6715"
-    },
-    "jobTitle": "Customer Web Representative"
+    "jobTitle": "Central Intranet Analyst"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
     "type": "Organization",
-    "name": "Heidenreich, Murphy and Wehner",
-    "description": "Synergized 4th generation policy",
+    "name": "Prohaska - Fadel",
+    "description": "Centralized foreground secured line",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "21300 Marjolaine Corner",
-      "addressLocality": "North Madie",
-      "addressRegion": "Kansas",
-      "postalCode": "86038",
-      "addressCountry": "Equatorial Guinea"
+      "streetAddress": "9095 Rippin Causeway",
+      "addressLocality": "Lockmanborough",
+      "addressRegion": "Oklahoma",
+      "postalCode": "91678",
+      "addressCountry": "Nauru"
     },
-    "email": "Queen54@example.com",
-    "phoneNumber": "555-353-5464",
-    "faxNumber": "555-206-7236"
+    "email": "Meggie51@example.net",
+    "phoneNumber": "555-880-1910",
+    "faxNumber": "555-854-1756"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Organization",
+    "name": "Carroll, Senger and O'Conner",
+    "description": "Reduced optimizing neural-net",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "7047 Meaghan Isle",
+      "addressLocality": "East Suzanne",
+      "addressRegion": "Kentucky",
+      "postalCode": "44204",
+      "addressCountry": "Republic of Korea"
+    },
+    "email": "David.Windler@example.com",
+    "phoneNumber": "555-614-1506",
+    "faxNumber": "555-766-2069"
   }
 ]

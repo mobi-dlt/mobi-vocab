@@ -1,6 +1,7 @@
 
 export default {
 BatteryID: require('./schemas/BatteryID.json'),
+BatterySOH: require('./schemas/BatterySOH.json'),
 Brand: require('./schemas/Brand.json'),
 ContactPoint: require('./schemas/ContactPoint.json'),
 Customer: require('./schemas/Customer.json'),

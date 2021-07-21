@@ -1,19 +1,38 @@
 [
   {
-    "type": "Place",
-    "microchip": "index",
-    "alarm": "calculate",
-    "sensor": "transmit"
+    "globalLocationNumber": "7577388545032",
+    "geo": {
+      "type": "GeoCoordinates",
+      "latitude": "86.6335",
+      "longitude": "172.6384"
+    },
+    "hard drive": "generate",
+    "firewall": "parse",
+    "bandwidth": "compress"
   },
   {
-    "type": "Place",
-    "protocol": "compress",
-    "bus": "index",
-    "program": "program",
-    "interface": "program"
+    "globalLocationNumber": "8741257463584",
+    "geo": {
+      "type": "GeoCoordinates",
+      "latitude": "40.1066",
+      "longitude": "15.3165"
+    },
+    "bandwidth": "transmit",
+    "array": "connect",
+    "matrix": "back up"
   },
   {
-    "protocol": "back up",
-    "port": "back up"
+    "globalLocationNumber": "8145907807658",
+    "address": {
+      "type": "PostalAddress",
+      "organizationName": "Gerlach - Swaniawski",
+      "streetAddress": "53777 Doyle Motorway",
+      "addressLocality": "Port Magdalenhaven",
+      "addressRegion": "Florida",
+      "postalCode": "22945-9775",
+      "addressCountry": "Anguilla"
+    },
+    "circuit": "copy",
+    "firewall": "index"
   }
 ]

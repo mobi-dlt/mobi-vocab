@@ -7,44 +7,28 @@
       "Purchase"
     ],
     "customer": {
-      "type": "Organization",
-      "name": "Senger LLC",
-      "description": "User-friendly web-enabled secured line",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "6709 Ward Locks",
-        "addressLocality": "East Gloria",
-        "addressRegion": "Maryland",
-        "postalCode": "74896",
-        "addressCountry": "Portugal"
+      "type": "Person",
+      "firstName": "Breanna",
+      "lastName": "Tromp",
+      "email": "Bettye.Hilpert31@example.net",
+      "phoneNumber": "555-539-3603",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Bartell Group",
+        "description": "Innovative fresh-thinking capacity",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "68653 McClure Streets",
+          "addressLocality": "Macejkovicview",
+          "addressRegion": "Colorado",
+          "postalCode": "11942-0955",
+          "addressCountry": "Venezuela"
+        },
+        "email": "Albert.Haley45@example.com",
+        "phoneNumber": "555-222-4457",
+        "faxNumber": "555-189-1350"
       },
-      "email": "Abbie.Stracke@example.net",
-      "phoneNumber": "555-332-6471",
-      "faxNumber": "555-707-3784"
-    }
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": [
-      "Purchase"
-    ],
-    "customer": {
-      "type": "Organization",
-      "name": "Hettinger - Towne",
-      "description": "Persistent methodical access",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "8463 Metz Common",
-        "addressLocality": "South Nettie",
-        "addressRegion": "Virginia",
-        "postalCode": "40337",
-        "addressCountry": "United Kingdom"
-      },
-      "email": "Lottie.Conn61@example.com",
-      "phoneNumber": "555-471-7017",
-      "faxNumber": "555-681-7108"
+      "jobTitle": "Central Accountability Architect"
     }
   },
   {
@@ -56,27 +40,59 @@
     ],
     "customer": {
       "type": "Person",
-      "firstName": "Dorthy",
-      "lastName": "Littel",
-      "email": "Sadye.Schamberger@example.org",
-      "phoneNumber": "555-705-1698",
+      "firstName": "Lisandro",
+      "lastName": "Schumm",
+      "email": "Corbin_Jacobson73@example.com",
+      "phoneNumber": "555-499-2354",
       "worksFor": {
         "type": "Organization",
-        "name": "Rempel - Schumm",
-        "description": "Profound actuating software",
+        "name": "Wisoky Group",
+        "description": "Optional intermediate forecast",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "591 Powlowski Stravenue",
-          "addressLocality": "South Eleazar",
-          "addressRegion": "Minnesota",
-          "postalCode": "05309",
-          "addressCountry": "British Indian Ocean Territory (Chagos Archipelago)"
+          "streetAddress": "7591 Juvenal Manor",
+          "addressLocality": "Cathrynmouth",
+          "addressRegion": "Illinois",
+          "postalCode": "84338-2711",
+          "addressCountry": "Azerbaijan"
         },
-        "email": "Mathilde.Stark@example.com",
-        "phoneNumber": "555-827-6027",
-        "faxNumber": "555-294-4088"
+        "email": "Kraig99@example.org",
+        "phoneNumber": "555-556-4082",
+        "faxNumber": "555-709-3432"
       },
-      "jobTitle": "Dynamic Data Coordinator"
+      "jobTitle": "Human Paradigm Orchestrator"
+    }
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": [
+      "Purchase"
+    ],
+    "customer": {
+      "type": "Person",
+      "firstName": "Concepcion",
+      "lastName": "Maggio",
+      "email": "Ike_Howe@example.net",
+      "phoneNumber": "555-357-5701",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Wunsch - Botsford",
+        "description": "Multi-tiered radical standardization",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "95957 Jade Inlet",
+          "addressLocality": "Bashirianland",
+          "addressRegion": "Pennsylvania",
+          "postalCode": "51076-2480",
+          "addressCountry": "United States of America"
+        },
+        "email": "Lafayette.Gutmann@example.com",
+        "phoneNumber": "555-972-2339",
+        "faxNumber": "555-954-5164"
+      },
+      "jobTitle": "Chief Optimization Coordinator"
     }
   }
 ]

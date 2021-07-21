@@ -3,39 +3,36 @@
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "language": "vi",
-    "addressNumber": "253",
-    "addressNumberWithinBuilding": "2",
-    "mailRouting": "9679 Macey Brooks, 75360",
-    "city": "North Mylene",
-    "region": "Avon",
-    "country": "Mongolia",
-    "postalCode": "98994",
-    "panel": "program",
-    "microchip": "hack",
-    "bus": "reboot",
-    "card": "program"
-  },
-  {
-    "language": "en_US",
-    "city": "New Dandre",
-    "region": "Berkshire",
-    "country": "Myanmar",
-    "hard drive": "compress",
-    "alarm": "generate",
-    "driver": "override"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
     "type": "LEIaddress",
-    "language": "en_AU_ocker",
-    "country": "Martinique",
-    "postalCode": "27745",
-    "panel": "bypass",
-    "microchip": "navigate",
-    "bus": "bypass",
-    "capacitor": "input"
+    "language": "fa",
+    "addressNumber": "91",
+    "addressNumberWithinBuilding": "4",
+    "mailRouting": "654 Wuckert Squares, 87864",
+    "city": "South Damarisberg",
+    "country": "Canada",
+    "postalCode": "16505",
+    "microchip": "program",
+    "alarm": "quantify",
+    "program": "synthesize"
+  },
+  {
+    "type": "LEIaddress",
+    "language": "de_AT",
+    "city": "Schummstad",
+    "postalCode": "32833",
+    "array": "index",
+    "bus": "copy",
+    "program": "parse"
+  },
+  {
+    "type": "LEIaddress",
+    "language": "zh_CN",
+    "city": "South Stephaniaville",
+    "country": "Syrian Arab Republic",
+    "postalCode": "26089-5185",
+    "monitor": "override",
+    "bandwidth": "back up",
+    "panel": "hack",
+    "port": "reboot"
   }
 ]

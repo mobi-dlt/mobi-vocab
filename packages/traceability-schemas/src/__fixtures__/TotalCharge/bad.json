@@ -3,35 +3,22 @@
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "type": "TotalCharge",
-    "totalPrepaid": 57.75,
-    "totalCollect": 19.25,
-    "sourceCurrency": "HUF",
-    "destinationCurrency": "MZN",
-    "currencyConversionRate": 2,
-    "chargesDestination": 347,
-    "totalCollectCharge": 86.75,
-    "pixel": "copy",
-    "bandwidth": "synthesize"
+    "sourceCurrency": "UZS",
+    "chargesDestination": 726,
+    "array": "copy",
+    "monitor": "override",
+    "firewall": "parse",
+    "transmitter": "back up"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "TotalCharge",
-    "totalPrepaid": 3987,
-    "totalCollect": 1329,
-    "currencyConversionRate": 5,
-    "ccChargesDestinationCurrency": "THB",
-    "chargesDestination": 371,
-    "bandwidth": "synthesize",
-    "microchip": "hack"
+    "destinationCurrency": "ZWL",
+    "protocol": "hack",
+    "driver": "input",
+    "capacitor": "input"
   },
   {
-    "sourceCurrency": "YER",
-    "currencyConversionRate": 5,
-    "ccChargesDestinationCurrency": "YER",
-    "chargesDestination": 37,
-    "driver": "reboot"
+    "totalCollectCharge": 192.25,
+    "feed": "index",
+    "driver": "bypass"
   }
 ]

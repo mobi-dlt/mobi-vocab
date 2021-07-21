@@ -3,25 +3,49 @@
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "type": [
-      "Purchase"
-    ],
-    "transmitter": "bypass",
-    "driver": "quantify"
+    "matrix": "hack",
+    "port": "quantify"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "type": [
-      "Purchase"
-    ],
-    "monitor": "calculate"
+    "customer": {
+      "type": "Person",
+      "firstName": "Lisandro",
+      "lastName": "Schumm",
+      "email": "Corbin_Jacobson73@example.com",
+      "phoneNumber": "555-499-2354",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Wisoky Group",
+        "description": "Optional intermediate forecast",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "7591 Juvenal Manor",
+          "addressLocality": "Cathrynmouth",
+          "addressRegion": "Illinois",
+          "postalCode": "84338-2711",
+          "addressCountry": "Azerbaijan"
+        },
+        "email": "Kraig99@example.org",
+        "phoneNumber": "555-556-4082",
+        "faxNumber": "555-709-3432"
+      },
+      "jobTitle": "Human Paradigm Orchestrator"
+    },
+    "pixel": "connect",
+    "microchip": "input",
+    "interface": "hack",
+    "driver": "program"
   },
   {
-    "application": "index",
-    "bandwidth": "copy",
-    "circuit": "quantify",
-    "driver": "navigate"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "matrix": "connect",
+    "interface": "index",
+    "transmitter": "quantify",
+    "application": "quantify"
   }
 ]

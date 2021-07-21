@@ -1,23 +1,20 @@
 [
   {
-    "type": "GeoCoordinates",
-    "longitude": "124.7229",
-    "firewall": "hack"
+    "bandwidth": "generate",
+    "matrix": "override",
+    "firewall": "copy",
+    "pixel": "copy"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "GeoCoordinates",
-    "driver": "calculate",
-    "pixel": "synthesize",
-    "hard drive": "generate"
+    "latitude": "-77.9263",
+    "array": "override",
+    "sensor": "override",
+    "pixel": "back up",
+    "interface": "connect"
   },
   {
-    "latitude": "38.9123",
-    "circuit": "navigate",
-    "pixel": "compress",
-    "interface": "index",
-    "sensor": "copy"
+    "latitude": "60.5817",
+    "system": "connect",
+    "firewall": "generate"
   }
 ]

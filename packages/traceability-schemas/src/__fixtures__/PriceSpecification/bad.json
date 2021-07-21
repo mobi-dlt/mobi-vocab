@@ -1,21 +1,20 @@
 [
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
+    "capacitor": "generate",
+    "bandwidth": "synthesize",
+    "application": "copy",
+    "matrix": "connect"
+  },
+  {
+    "priceCurrency": "UAH",
+    "sensor": "transmit",
+    "transmitter": "program"
+  },
+  {
     "type": "PriceSpecification",
-    "priceCurrency": "NOK",
-    "sensor": "program"
-  },
-  {
-    "priceCurrency": "IQD",
-    "application": "generate"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "price": 8066,
-    "transmitter": "transmit"
+    "price": 5259,
+    "priceCurrency": "GHS",
+    "bandwidth": "bypass",
+    "monitor": "compress"
   }
 ]

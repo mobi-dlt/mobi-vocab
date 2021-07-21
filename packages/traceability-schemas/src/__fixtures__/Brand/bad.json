@@ -3,19 +3,17 @@
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "logo": "http://placeimg.com/640/480",
-    "interface": "hack",
-    "matrix": "synthesize"
+    "bus": "hack",
+    "feed": "navigate",
+    "monitor": "hack",
+    "program": "reboot"
   },
   {
-    "port": "connect",
-    "driver": "generate",
-    "monitor": "index",
-    "bandwidth": "back up"
+    "type": "Brand",
+    "alarm": "override"
   },
   {
-    "logo": "http://placeimg.com/640/480",
-    "url": "https://brand.example.com",
-    "circuit": "calculate"
+    "program": "parse",
+    "bandwidth": "parse"
   }
 ]

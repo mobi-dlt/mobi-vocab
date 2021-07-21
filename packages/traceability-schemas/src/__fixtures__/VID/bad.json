@@ -1,62 +1,52 @@
 [
   {
+    "type": "VID",
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "manufacturer": {
+      "type": "Person",
+      "firstName": "Dion",
+      "lastName": "Ullrich",
+      "email": "Emmy_McCullough@example.org",
+      "phoneNumber": "555-237-4645",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Jacobson, Orn and Grimes",
+        "description": "Down-sized contextually-based standardization",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "8596 Wilkinson Circles",
+          "addressLocality": "South Santiagoburgh",
+          "addressRegion": "Ohio",
+          "postalCode": "15872",
+          "addressCountry": "Pitcairn Islands"
+        },
+        "email": "Gregory92@example.org",
+        "phoneNumber": "555-530-1452",
+        "faxNumber": "555-230-1656"
+      },
+      "jobTitle": "Dynamic Infrastructure Technician"
+    },
+    "make": "Ford",
+    "model": "Mach_E",
+    "program": "navigate",
+    "interface": "calculate",
+    "application": "hack"
+  },
+  {
+    "monitor": "bypass",
+    "card": "reboot",
+    "bandwidth": "transmit",
+    "array": "hack"
+  },
+  {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "manufacturer": {
-      "type": "Person",
-      "firstName": "Kaya",
-      "lastName": "Lemke",
-      "email": "Cathryn83@example.com",
-      "phoneNumber": "555-238-5300",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Mohr Group",
-        "description": "Decentralized fault-tolerant algorithm",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "37144 Tromp Glens",
-          "addressLocality": "Buckridgebury",
-          "addressRegion": "West Virginia",
-          "postalCode": "34846",
-          "addressCountry": "Zambia"
-        },
-        "email": "Wallace_Heaney98@example.com",
-        "phoneNumber": "555-844-5908",
-        "faxNumber": "555-985-1793"
-      },
-      "jobTitle": "Internal Division Director"
-    },
-    "vin": "JTERU5JR7M5861170",
-    "microchip": "bypass"
-  },
-  {
-    "driver": "hack",
-    "monitor": "transmit",
-    "hard drive": "hack",
-    "protocol": "transmit"
-  },
-  {
-    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "manufacturer": {
-      "type": "Organization",
-      "name": "Mayert - Reinger",
-      "description": "Synergistic tertiary utilisation",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "99194 Augustus Mission",
-        "addressLocality": "Lake Salma",
-        "addressRegion": "Missouri",
-        "postalCode": "33425-2574",
-        "addressCountry": "Honduras"
-      },
-      "email": "Gwendolyn_Kihn76@example.com",
-      "phoneNumber": "555-645-5601",
-      "faxNumber": "555-926-5430"
-    },
-    "bandwidth": "bypass",
-    "bus": "copy",
-    "system": "calculate"
+    "make": "Ford",
+    "model": "Mach_E",
+    "bus": "index",
+    "sensor": "connect",
+    "bandwidth": "override"
   }
 ]

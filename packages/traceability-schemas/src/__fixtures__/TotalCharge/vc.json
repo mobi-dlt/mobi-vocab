@@ -14,19 +14,19 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 57.75,
-    "totalCollect": 19.25,
-    "sourceCurrency": "HUF",
-    "destinationCurrency": "MZN",
-    "currencyConversionRate": 2,
-    "ccChargesDestinationCurrency": "HUF",
-    "chargesDestination": 347,
-    "totalCollectCharge": 86.75
+    "totalPrepaid": 236.25,
+    "totalCollect": 78.75,
+    "sourceCurrency": "UZS",
+    "destinationCurrency": "NZD",
+    "currencyConversionRate": 5,
+    "ccChargesDestinationCurrency": "UZS",
+    "chargesDestination": 726,
+    "totalCollectCharge": 181.5
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..SqsSI9FQkJXmiELqgfp4_L9v5gNYQq_KlniVkuzZb-cFHWGDCSMmcjxlNkNmiO62kt_fmRsmkx5Tt-L2dpPlAw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..5DF2enm14s71wojQv3CDyZXAeJcW5e32tYGQekrB9dhTSbRF9DSr0hyyRrA3LorVUpNXFAwlRkVjDXAY5vxgBg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -1,19 +1,13 @@
 [
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
+    "system": "navigate"
+  },
+  {
+    "target": "https://example.com/related/link/123",
+    "capacitor": "hack"
+  },
+  {
     "type": "LinkRole",
-    "target": "https://example.com/related/link/123",
-    "matrix": "back up"
-  },
-  {
-    "target": "https://example.com/related/link/123",
-    "linkRelationship": "alternate",
-    "hard drive": "calculate",
-    "system": "connect"
-  },
-  {
-    "panel": "program"
+    "alarm": "parse"
   }
 ]

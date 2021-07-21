@@ -4,40 +4,6 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Customer",
-    "name": "Stephan Tillman",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "868 Carolyne Cliffs",
-      "addressLocality": "Trompfurt",
-      "addressRegion": "New Mexico",
-      "postalCode": "03196-9021",
-      "addressCountry": "French Southern Territories"
-    },
-    "telephone": "555-907-6024",
-    "email": "Clair34@example.com"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "Customer",
-    "name": "Odell Oberbrunner",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "934 Kiana Oval",
-      "addressLocality": "Wuckerthaven",
-      "addressRegion": "Arkansas",
-      "postalCode": "33182",
-      "addressCountry": "Georgia"
-    },
-    "telephone": "555-614-1218",
-    "email": "Charlie.Ziemann95@example.org"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "Customer",
     "name": "Sheridan Hauck",
     "address": {
       "type": "PostalAddress",
@@ -49,5 +15,39 @@
     },
     "telephone": "555-145-9010",
     "email": "Garrick43@example.org"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Customer",
+    "name": "Michael Deckow",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "402 Cronin Parks",
+      "addressLocality": "Cartertown",
+      "addressRegion": "Louisiana",
+      "postalCode": "00003",
+      "addressCountry": "Swaziland"
+    },
+    "telephone": "555-594-1844",
+    "email": "Tracy_Goyette@example.com"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Customer",
+    "name": "Troy Murazik",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "0006 Bernier Rapid",
+      "addressLocality": "Emmaleebury",
+      "addressRegion": "Texas",
+      "postalCode": "03822-4166",
+      "addressCountry": "Guadeloupe"
+    },
+    "telephone": "555-591-8385",
+    "email": "Reggie_Willms@example.com"
   }
 ]

@@ -3,31 +3,6 @@
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "email": "Clair34@example.com",
-    "program": "connect",
-    "monitor": "back up",
-    "card": "override"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "934 Kiana Oval",
-      "addressLocality": "Wuckerthaven",
-      "addressRegion": "Arkansas",
-      "postalCode": "33182",
-      "addressCountry": "Georgia"
-    },
-    "email": "Charlie.Ziemann95@example.org",
-    "capacitor": "program",
-    "feed": "reboot"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
     "type": "Customer",
     "name": "Sheridan Hauck",
     "address": {
@@ -40,5 +15,15 @@
     },
     "telephone": "555-145-9010",
     "microchip": "generate"
+  },
+  {
+    "transmitter": "connect",
+    "array": "override"
+  },
+  {
+    "type": "Customer",
+    "name": "Troy Murazik",
+    "transmitter": "parse",
+    "port": "generate"
   }
 ]

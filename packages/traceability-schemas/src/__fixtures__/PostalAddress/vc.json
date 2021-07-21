@@ -14,17 +14,17 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "PostalAddress",
-    "organizationName": "Gorczany Inc",
-    "streetAddress": "97292 Hilda Islands",
-    "addressLocality": "Lake Oren",
-    "addressRegion": "Indiana",
-    "postalCode": "14800",
-    "addressCountry": "Bahamas"
+    "organizationName": "Schmeler - Braun",
+    "streetAddress": "6483 Ryan Isle",
+    "addressLocality": "Port Cletus",
+    "addressRegion": "Hawaii",
+    "postalCode": "50237",
+    "addressCountry": "Saint Lucia"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..6TxNR5IGP4XmOjCBSJ6437A2I8TwhO8hip7WUKdNgUFW9jXZoS8gbvaqGdU-I7DWkSEtYbfKJRNssuEVIOYQAA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vtvLYLWOaltMD3Fv60jFL-0KBFB5uNrVDbQ5yMj4DRAAC1TbV9BoL7oMX3wrZRi03gYUZv8AVde0aa8pgbG_Bg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

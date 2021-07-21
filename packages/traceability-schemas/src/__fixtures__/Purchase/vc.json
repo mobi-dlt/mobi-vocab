@@ -17,26 +17,34 @@
       "Purchase"
     ],
     "customer": {
-      "type": "Organization",
-      "name": "Senger LLC",
-      "description": "User-friendly web-enabled secured line",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "6709 Ward Locks",
-        "addressLocality": "East Gloria",
-        "addressRegion": "Maryland",
-        "postalCode": "74896",
-        "addressCountry": "Portugal"
+      "type": "Person",
+      "firstName": "Breanna",
+      "lastName": "Tromp",
+      "email": "Bettye.Hilpert31@example.net",
+      "phoneNumber": "555-539-3603",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Bartell Group",
+        "description": "Innovative fresh-thinking capacity",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "68653 McClure Streets",
+          "addressLocality": "Macejkovicview",
+          "addressRegion": "Colorado",
+          "postalCode": "11942-0955",
+          "addressCountry": "Venezuela"
+        },
+        "email": "Albert.Haley45@example.com",
+        "phoneNumber": "555-222-4457",
+        "faxNumber": "555-189-1350"
       },
-      "email": "Abbie.Stracke@example.net",
-      "phoneNumber": "555-332-6471",
-      "faxNumber": "555-707-3784"
+      "jobTitle": "Central Accountability Architect"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..n-rypPP3iKH5oomjbdNMwEWkE71v9xf-IGeXJYqAxX0WUeuUW5T7fRgZoGZNl4xXgSljE2Z9bY2pcdNvfH5bBA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..1ZDtuyCJRTZe3Nb1g7wAGs0CKjXDYBpwx2F3FxCHcp1G9scbjx5vwHXiH_g1FNO5xS4C8ZZpBFXQhhHE5dpDCg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

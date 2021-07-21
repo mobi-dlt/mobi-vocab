@@ -4,20 +4,20 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Place",
-    "globalLocationNumber": "1526958725875",
+    "globalLocationNumber": "7577388545032",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "-29.8371",
-      "longitude": "88.5331"
+      "latitude": "86.6335",
+      "longitude": "172.6384"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Wunsch, Quigley and Ebert",
-      "streetAddress": "855 Corkery Loaf",
-      "addressLocality": "West Mustafaview",
-      "addressRegion": "Idaho",
-      "postalCode": "32058",
-      "addressCountry": "Russian Federation"
+      "organizationName": "Considine LLC",
+      "streetAddress": "115 Hagenes Hills",
+      "addressLocality": "Weststad",
+      "addressRegion": "Wisconsin",
+      "postalCode": "11017",
+      "addressCountry": "Cyprus"
     }
   },
   {
@@ -25,41 +25,41 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Place",
-    "globalLocationNumber": "2604272206504",
+    "globalLocationNumber": "8741257463584",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "33.4640",
-      "longitude": "-32.4343"
+      "latitude": "40.1066",
+      "longitude": "15.3165"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Spencer, Rogahn and Hoppe",
-      "streetAddress": "595 Mann Fall",
-      "addressLocality": "Port Estevan",
+      "organizationName": "Schiller LLC",
+      "streetAddress": "5602 Jazmin Lodge",
+      "addressLocality": "East Brooks",
+      "addressRegion": "West Virginia",
+      "postalCode": "82604-8446",
+      "addressCountry": "Saint Helena"
+    }
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Place",
+    "globalLocationNumber": "8145907807658",
+    "geo": {
+      "type": "GeoCoordinates",
+      "latitude": "-0.4939",
+      "longitude": "-107.5091"
+    },
+    "address": {
+      "type": "PostalAddress",
+      "organizationName": "Gerlach - Swaniawski",
+      "streetAddress": "53777 Doyle Motorway",
+      "addressLocality": "Port Magdalenhaven",
       "addressRegion": "Florida",
-      "postalCode": "70585",
-      "addressCountry": "Ethiopia"
-    }
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "Place",
-    "globalLocationNumber": "5155595267491",
-    "geo": {
-      "type": "GeoCoordinates",
-      "latitude": "-3.4369",
-      "longitude": "108.9516"
-    },
-    "address": {
-      "type": "PostalAddress",
-      "organizationName": "Koch - Wehner",
-      "streetAddress": "7160 Stuart Cape",
-      "addressLocality": "Port Hugh",
-      "addressRegion": "South Carolina",
-      "postalCode": "07012-6113",
-      "addressCountry": "Saint Kitts and Nevis"
+      "postalCode": "22945-9775",
+      "addressCountry": "Anguilla"
     }
   }
 ]

@@ -1,21 +1,20 @@
 [
   {
+    "microchip": "index",
+    "hard drive": "transmit",
+    "interface": "program",
+    "monitor": "override"
+  },
+  {
+    "transmitter": "synthesize"
+  },
+  {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "chargeCollect": 895,
-    "chargePrepaid": 248,
-    "port": "connect",
-    "driver": "generate",
-    "matrix": "calculate",
-    "program": "reboot"
-  },
-  {
-    "bus": "synthesize",
-    "firewall": "hack",
-    "alarm": "copy"
-  },
-  {
-    "firewall": "parse"
+    "chargeCollect": 757,
+    "chargePrepaid": 612,
+    "panel": "reboot",
+    "alarm": "hack"
   }
 ]

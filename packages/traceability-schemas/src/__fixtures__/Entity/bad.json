@@ -1,51 +1,37 @@
 [
   {
-    "type": "Person",
-    "email": "Verda_Larson55@example.com",
-    "worksFor": {
-      "type": "Organization",
-      "name": "Jast, Beer and D'Amore",
-      "description": "Universal bottom-line hierarchy",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "71995 Bauch Road",
-        "addressLocality": "Jacobiburgh",
-        "addressRegion": "Michigan",
-        "postalCode": "70201",
-        "addressCountry": "Vanuatu"
-      },
-      "email": "Dax71@example.org",
-      "phoneNumber": "555-172-8523",
-      "faxNumber": "555-485-7263"
-    },
-    "jobTitle": "District Communications Producer",
-    "application": "hack"
-  },
-  {
-    "jobTitle": "Customer Web Representative",
-    "hard drive": "transmit",
-    "capacitor": "calculate",
-    "interface": "transmit",
-    "matrix": "calculate"
+    "phoneNumber": "555-962-9148",
+    "jobTitle": "Central Intranet Analyst",
+    "feed": "override",
+    "application": "transmit"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "type": "Organization",
-    "name": "Heidenreich, Murphy and Wehner",
+    "name": "Prohaska - Fadel",
+    "description": "Centralized foreground secured line",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "21300 Marjolaine Corner",
-      "addressLocality": "North Madie",
-      "addressRegion": "Kansas",
-      "postalCode": "86038",
-      "addressCountry": "Equatorial Guinea"
+      "streetAddress": "9095 Rippin Causeway",
+      "addressLocality": "Lockmanborough",
+      "addressRegion": "Oklahoma",
+      "postalCode": "91678",
+      "addressCountry": "Nauru"
     },
-    "email": "Queen54@example.com",
-    "faxNumber": "555-206-7236",
-    "transmitter": "quantify",
-    "matrix": "input",
-    "interface": "hack"
+    "email": "Meggie51@example.net",
+    "phoneNumber": "555-880-1910",
+    "faxNumber": "555-854-1756",
+    "hard drive": "navigate",
+    "bus": "navigate",
+    "circuit": "transmit",
+    "program": "parse"
+  },
+  {
+    "type": "Organization",
+    "description": "Reduced optimizing neural-net",
+    "email": "David.Windler@example.com",
+    "phoneNumber": "555-614-1506",
+    "system": "parse"
   }
 ]

@@ -14,24 +14,24 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Organization",
-    "name": "Goyette Group",
-    "description": "Upgradable 4th generation database",
+    "name": "Baumbach - Rempel",
+    "description": "De-engineered attitude-oriented benchmark",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "4836 Jadyn Key",
-      "addressLocality": "Lake Verlie",
-      "addressRegion": "Vermont",
-      "postalCode": "91763",
-      "addressCountry": "United States of America"
+      "streetAddress": "88829 Nicolas Neck",
+      "addressLocality": "Ernserview",
+      "addressRegion": "Wisconsin",
+      "postalCode": "77571-6013",
+      "addressCountry": "Mali"
     },
-    "email": "Oscar_Koepp49@example.net",
-    "phoneNumber": "555-719-8279",
-    "faxNumber": "555-493-1687"
+    "email": "Moises_Bosco21@example.net",
+    "phoneNumber": "555-777-9862",
+    "faxNumber": "555-342-9436"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..b0JVDulTIG2zwX3z6ZuE2a316NzSLIKy6vWRWiFDOaILsToenrOrHg6qUVWj7ZF7sKVm_KwIR7JuiyezyEruBA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..NNfR2--8yz0O0Y42P4DN93fqv9SRqx0XYH5MtWEHIJLylxMUnjIN1BvCwJKje6d1F4CtPMiaKX21sD0Fxku8Ag",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

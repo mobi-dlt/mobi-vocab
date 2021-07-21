@@ -1,54 +1,74 @@
 [
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "Product",
-    "name": "Gorgeous Plastic Bacon",
-    "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "sku": "577597588586",
-    "interface": "override",
-    "circuit": "reboot",
-    "firewall": "generate"
-  },
-  {
     "manufacturer": {
       "type": "Person",
-      "firstName": "Jazmyne",
-      "lastName": "Wyman",
-      "email": "Marcel.Reinger@example.org",
-      "phoneNumber": "555-989-4759",
+      "firstName": "Eva",
+      "lastName": "Powlowski",
+      "email": "Jon36@example.net",
+      "phoneNumber": "555-169-6785",
       "worksFor": {
         "type": "Organization",
-        "name": "Wisoky - Boehm",
-        "description": "Synchronised tangible attitude",
+        "name": "Bernhard LLC",
+        "description": "Devolved clear-thinking solution",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "136 Ullrich Terrace",
-          "addressLocality": "Gorczanyville",
-          "addressRegion": "Wyoming",
-          "postalCode": "15201-3876",
-          "addressCountry": "Somalia"
+          "streetAddress": "417 Howell Plains",
+          "addressLocality": "Kirstinborough",
+          "addressRegion": "Oregon",
+          "postalCode": "84892-6017",
+          "addressCountry": "Pakistan"
         },
-        "email": "Myrtle96@example.net",
-        "phoneNumber": "555-236-3818",
-        "faxNumber": "555-496-8187"
+        "email": "Danika.Zemlak27@example.com",
+        "phoneNumber": "555-195-3925",
+        "faxNumber": "555-383-7176"
       },
-      "jobTitle": "Corporate Metrics Agent"
+      "jobTitle": "Dynamic Brand Supervisor"
     },
-    "name": "Rustic Steel Chicken",
-    "description": "The Football Is Good For Training And Recreational Purposes",
-    "interface": "input"
+    "bus": "synthesize",
+    "driver": "quantify",
+    "microchip": "bypass",
+    "interface": "connect"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "name": "Handmade Rubber Tuna",
-    "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-    "matrix": "compress",
-    "alarm": "back up",
-    "panel": "input",
-    "feed": "bypass"
+    "type": "Product",
+    "manufacturer": {
+      "type": "Person",
+      "firstName": "Juwan",
+      "lastName": "Grady",
+      "email": "Savion21@example.com",
+      "phoneNumber": "555-665-8464",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Shanahan, Romaguera and Price",
+        "description": "Self-enabling stable access",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "5134 Berniece Walks",
+          "addressLocality": "West Aida",
+          "addressRegion": "Arizona",
+          "postalCode": "70992",
+          "addressCountry": "Brunei Darussalam"
+        },
+        "email": "Vincent_Mraz30@example.net",
+        "phoneNumber": "555-872-7369",
+        "faxNumber": "555-362-9754"
+      },
+      "jobTitle": "International Research Designer"
+    },
+    "name": "Small Steel Towels",
+    "sizeOrAmount": {
+      "type": "QuantitativeValue",
+      "unitCode": "hg/ha",
+      "value": "974"
+    },
+    "sku": "283835610918",
+    "program": "copy",
+    "monitor": "input"
+  },
+  {
+    "system": "connect",
+    "application": "hack",
+    "pixel": "navigate",
+    "circuit": "hack"
   }
 ]

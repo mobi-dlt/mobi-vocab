@@ -4,28 +4,35 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "ContactPoint",
+    "email": "Waylon16@example.com",
+    "phoneNumber": "555-622-1082",
+    "system": "calculate",
+    "matrix": "compress",
+    "microchip": "synthesize"
+  },
+  {
+    "name": "Kerluke - Schimmel",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "6912 Lindgren Pines",
-      "addressLocality": "Doyleberg",
-      "addressRegion": "West Virginia",
-      "postalCode": "52618",
-      "addressCountry": "Uganda"
+      "streetAddress": "17367 Madyson Summit",
+      "addressLocality": "South Karen",
+      "addressRegion": "California",
+      "postalCode": "36222-5993",
+      "addressCountry": "Latvia"
     },
-    "transmitter": "hack",
-    "circuit": "navigate"
+    "email": "Jimmy_Oberbrunner@example.com",
+    "sensor": "copy",
+    "hard drive": "back up",
+    "application": "calculate"
   },
   {
-    "card": "hack",
-    "port": "parse",
-    "driver": "compress"
-  },
-  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
     "type": "ContactPoint",
-    "email": "Fredy_Kovacek@example.net",
-    "bus": "hack",
-    "card": "generate",
-    "microchip": "synthesize",
-    "driver": "program"
+    "email": "Rowland48@example.org",
+    "phoneNumber": "555-867-1678",
+    "capacitor": "program",
+    "feed": "reboot"
   }
 ]

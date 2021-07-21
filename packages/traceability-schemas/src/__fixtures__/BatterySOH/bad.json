@@ -3,6 +3,11 @@
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
+    "transmitter": "hack",
+    "circuit": "navigate"
+  },
+  {
+    "type": "BatterySOH",
     "batteryid": {
       "type": "BatteryID",
       "vid": {
@@ -10,27 +15,27 @@
         "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
         "manufacturer": {
           "type": "Person",
-          "firstName": "Albertha",
-          "lastName": "McGlynn",
-          "email": "Kyleigh_Goodwin92@example.net",
-          "phoneNumber": "555-123-7302",
+          "firstName": "Elise",
+          "lastName": "Cormier",
+          "email": "Zoe60@example.org",
+          "phoneNumber": "555-547-7410",
           "worksFor": {
             "type": "Organization",
-            "name": "Hoppe, Robel and Marquardt",
-            "description": "User-friendly maximized concept",
+            "name": "Prosacco - Jakubowski",
+            "description": "Horizontal actuating utilisation",
             "address": {
               "type": "PostalAddress",
-              "streetAddress": "2032 Preston Centers",
-              "addressLocality": "Nyasiashire",
-              "addressRegion": "Oregon",
-              "postalCode": "26146-6471",
-              "addressCountry": "Bouvet Island (Bouvetoya)"
+              "streetAddress": "4083 Adams Throughway",
+              "addressLocality": "South Kadenbury",
+              "addressRegion": "Missouri",
+              "postalCode": "61232",
+              "addressCountry": "United States of America"
             },
-            "email": "Kennedi.Hettinger16@example.org",
-            "phoneNumber": "555-717-4689",
-            "faxNumber": "555-992-8558"
+            "email": "Vince69@example.org",
+            "phoneNumber": "555-251-3908",
+            "faxNumber": "555-296-5669"
           },
-          "jobTitle": "Product Accounts Representative"
+          "jobTitle": "Principal Optimization Administrator"
         },
         "make": "Ford",
         "model": "Mach_E",
@@ -43,18 +48,17 @@
     "previousSOHTimeStamp": "2020-5-17",
     "newSOHVal": "94",
     "newSOHTimeStamp": "2020-10-17",
-    "system": "compress",
-    "bus": "connect",
-    "microchip": "connect"
+    "array": "reboot",
+    "alarm": "compress"
   },
   {
-    "bus": "input",
-    "port": "bypass"
-  },
-  {
-    "previousSOHTimeStamp": "2020-5-17",
-    "hard drive": "generate",
-    "matrix": "hack",
-    "program": "program"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "BatterySOH",
+    "previousSOHVal": "95",
+    "newSOHVal": "94",
+    "newSOHTimeStamp": "2020-10-17",
+    "microchip": "reboot"
   }
 ]
