@@ -1,0 +1,103 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "BatteryID",
+    "vid": {
+      "type": "VID",
+      "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+      "manufacturer": {
+        "type": "Person",
+        "firstName": "Horacio",
+        "lastName": "Cronin",
+        "email": "Jairo81@example.org",
+        "phoneNumber": "555-889-7850",
+        "worksFor": {
+          "type": "Organization",
+          "name": "Lang, Moore and Gulgowski",
+          "description": "Configurable local capability",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "95071 Pfannerstill Court",
+            "addressLocality": "Audreannefort",
+            "addressRegion": "Wisconsin",
+            "postalCode": "45183",
+            "addressCountry": "Romania"
+          },
+          "email": "Augustus_Swift@example.net",
+          "phoneNumber": "555-472-5880",
+          "faxNumber": "555-782-6313"
+        },
+        "jobTitle": "Future Mobility Producer"
+      },
+      "make": "Ford",
+      "model": "Mach_E",
+      "vin": "JTERU5JR7M5861170"
+    },
+    "batteryIdentifier": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+    "serialNumber": "snumber"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "BatteryID",
+    "vid": {
+      "type": "VID",
+      "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+      "manufacturer": {
+        "type": "Organization",
+        "name": "Zieme - Casper",
+        "description": "Horizontal exuding hierarchy",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "3755 Stanton Mount",
+          "addressLocality": "Spencertown",
+          "addressRegion": "Tennessee",
+          "postalCode": "02797-3637",
+          "addressCountry": "Cameroon"
+        },
+        "email": "Mireya.Sauer59@example.com",
+        "phoneNumber": "555-857-3750",
+        "faxNumber": "555-523-8889"
+      },
+      "make": "Ford",
+      "model": "Mach_E",
+      "vin": "JTERU5JR7M5861170"
+    },
+    "batteryIdentifier": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+    "serialNumber": "snumber"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "BatteryID",
+    "vid": {
+      "type": "VID",
+      "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+      "manufacturer": {
+        "type": "Organization",
+        "name": "Mills, Glover and Bahringer",
+        "description": "Stand-alone eco-centric initiative",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "304 Jayde Path",
+          "addressLocality": "Lucychester",
+          "addressRegion": "Arkansas",
+          "postalCode": "52575",
+          "addressCountry": "Australia"
+        },
+        "email": "Arely69@example.com",
+        "phoneNumber": "555-643-5379",
+        "faxNumber": "555-708-6394"
+      },
+      "make": "Ford",
+      "model": "Mach_E",
+      "vin": "JTERU5JR7M5861170"
+    },
+    "batteryIdentifier": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+    "serialNumber": "snumber"
+  }
+]

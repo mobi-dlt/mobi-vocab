@@ -1,0 +1,56 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/traceability/v1"
+  ],
+  "id": "http://example.org/credentials/",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuanceDate": "2021-02-04T20:29:37+00:00",
+  "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
+  "credentialSubject": {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "ChargeDeclaration",
+    "weightCharge": {
+      "type": "chargeAndPaymentType",
+      "chargeCollect": 68,
+      "chargePrepaid": 856
+    },
+    "taxCharge": {
+      "type": "chargeAndPaymentType",
+      "chargeCollect": 13,
+      "chargePrepaid": 445
+    },
+    "otherChargesAgent": {
+      "type": "chargeAndPaymentType",
+      "chargeCollect": 644,
+      "chargePrepaid": 849
+    },
+    "otherChargesCarrier": {
+      "type": "chargeAndPaymentType",
+      "chargeCollect": 305,
+      "chargePrepaid": 895
+    },
+    "totalCharge": {
+      "type": "TotalCharge",
+      "totalPrepaid": 2344.5,
+      "totalCollect": 781.5,
+      "sourceCurrency": "CZK",
+      "destinationCurrency": "ARS",
+      "currencyConversionRate": 2,
+      "ccChargesDestinationCurrency": "CZK",
+      "chargesDestination": 885,
+      "totalCollectCharge": 221.25
+    }
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2019-12-11T03:50:55Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..zqnUn2aLLHv5nhuOuVRIQfqr2T1hBZUXFbHMa_CIU2jkN63D8PeIJIAS3wTIGzGG4sHV6RuB65ZI2SF_qKPMBQ",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
+  }
+}

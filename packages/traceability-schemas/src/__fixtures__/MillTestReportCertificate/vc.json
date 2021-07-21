@@ -1,0 +1,185 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/traceability/v1"
+  ],
+  "id": "https://example.com/credential/123",
+  "type": [
+    "VerifiableCredential",
+    "MillTestReportCertificate"
+  ],
+  "name": "Certified Mill Test Report",
+  "description": "This document includes recommended mill certificate fields.",
+  "relatedLink": [
+    {
+      "type": [
+        "LinkRole"
+      ],
+      "target": "https://www.example.com/template/123",
+      "linkRelationship": "templateLink"
+    }
+  ],
+  "issuanceDate": "2019-12-11T03:50:55Z",
+  "issuer": {
+    "id": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
+    "type": "Organization",
+    "name": "Reinger LLC",
+    "description": "Implemented directional ability",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "573 Alysa Plains",
+      "addressLocality": "Thielside",
+      "addressRegion": "South Dakota",
+      "postalCode": "64350",
+      "addressCountry": "United States Minor Outlying Islands"
+    },
+    "email": "Adelbert.Lindgren@example.net",
+    "phoneNumber": "555-622-9987",
+    "faxNumber": "555-747-3118"
+  },
+  "credentialSubject": {
+    "type": [
+      "MillTestReport"
+    ],
+    "manufacturer": {
+      "type": [
+        "Organization"
+      ],
+      "name": "Bechtelar, Romaguera and Beier",
+      "description": "Cross-group disintermediate implementation",
+      "address": {
+        "type": [
+          "PostalAddress"
+        ],
+        "streetAddress": "6128 Gutkowski Overpass",
+        "addressLocality": "East Adolph",
+        "addressRegion": "Massachusetts",
+        "postalCode": "22501",
+        "addressCountry": "Montserrat"
+      },
+      "email": "Antonetta_Nitzsche@example.net",
+      "phoneNumber": "555-557-1781",
+      "faxNumber": "555-241-7315"
+    },
+    "product": {
+      "type": [
+        "SteelProduct"
+      ],
+      "heatNumber": "37524",
+      "specification": "ASTM-40165",
+      "grade": "98419",
+      "originalCountryOfMeltAndPour": "United States Minor Outlying Islands",
+      "inspection": {
+        "type": [
+          "InspectionReport"
+        ],
+        "observation": [
+          {
+            "type": [
+              "Observation"
+            ],
+            "property": {
+              "type": [
+                "ChemicalProperty"
+              ],
+              "name": "Zirconium"
+            },
+            "measurement": {
+              "type": [
+                "MeasuredValue"
+              ],
+              "value": "79.683",
+              "unitCode": "P1"
+            }
+          },
+          {
+            "type": [
+              "Observation"
+            ],
+            "property": {
+              "type": [
+                "ChemicalProperty"
+              ],
+              "name": "Praseodymium"
+            },
+            "measurement": {
+              "type": [
+                "MeasuredValue"
+              ],
+              "value": "20.317",
+              "unitCode": "P1"
+            }
+          },
+          {
+            "type": [
+              "Observation"
+            ],
+            "property": {
+              "type": [
+                "MechanicalProperty"
+              ],
+              "identifier": "ISO 3738",
+              "name": "Rockwell Hardness Test (Scale A)",
+              "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
+            },
+            "measurement": {
+              "type": [
+                "MeasuredValue"
+              ],
+              "value": "00.00",
+              "unitCode": "UNKNOWN"
+            }
+          }
+        ]
+      }
+    },
+    "purchase": {
+      "type": [
+        "Purchase"
+      ],
+      "customer": {
+        "type": [
+          "Person"
+        ],
+        "email": "Enola79@example.org",
+        "phoneNumber": "555-641-9735"
+      }
+    },
+    "shipment": {
+      "type": [
+        "ParcelDelivery"
+      ],
+      "deliveryAddress": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Corkery and Sons",
+        "streetAddress": "38026 Sasha Isle",
+        "addressLocality": "New Yessenia",
+        "addressRegion": "Louisiana",
+        "postalCode": "66047",
+        "addressCountry": "Jersey"
+      },
+      "originAddress": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Schulist - Gerlach",
+        "streetAddress": "797 Langworth Union",
+        "addressLocality": "Hesselborough",
+        "addressRegion": "Mississippi",
+        "postalCode": "61812-3958",
+        "addressCountry": "Niger"
+      },
+      "deliveryMethod": "Air transport",
+      "trackingNumber": "978856227157"
+    }
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2019-12-11T03:50:55Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vMvGI0VaJtHqVkE61uUxOgYiI0SAnqQVEV128xksqL2O0-oXFYuBDWvPjEDUa38730xOuRoj1zdU6Tcw6zC2Dw",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
+  }
+}

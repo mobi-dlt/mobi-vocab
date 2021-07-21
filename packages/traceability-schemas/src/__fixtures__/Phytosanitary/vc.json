@@ -1,0 +1,339 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/traceability/v1"
+  ],
+  "id": "http://example.org/credentials/",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuanceDate": "2021-02-04T20:29:37+00:00",
+  "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
+  "credentialSubject": {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Phytosanitary",
+    "facility": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": [
+        "Place"
+      ],
+      "globalLocationNumber": "1030490333134",
+      "geo": {
+        "type": [
+          "GeoCoordinates"
+        ],
+        "latitude": "-45.8478",
+        "longitude": "-154.8875"
+      },
+      "address": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Jerde, Boyle and Koepp",
+        "streetAddress": "227 Davis Falls",
+        "addressLocality": "North Neldamouth",
+        "addressRegion": "Michigan",
+        "postalCode": "76519-2540",
+        "addressCountry": "Uruguay"
+      }
+    },
+    "inspector": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": [
+        "Inspector"
+      ],
+      "person": {
+        "type": [
+          "Person"
+        ],
+        "firstName": "Major",
+        "lastName": "Botsford",
+        "email": "Magali28@example.org",
+        "phoneNumber": "555-584-7550",
+        "worksFor": {
+          "type": [
+            "Organization"
+          ],
+          "name": "Beatty - Cummerata",
+          "description": "Expanded zero defect application",
+          "address": {
+            "type": [
+              "PostalAddress"
+            ],
+            "streetAddress": "732 Alisha Well",
+            "addressLocality": "North Verdaberg",
+            "addressRegion": "Georgia",
+            "postalCode": "88809-0477",
+            "addressCountry": "Bulgaria"
+          },
+          "email": "Frida_McKenzie32@example.org",
+          "phoneNumber": "555-433-2196",
+          "faxNumber": "555-265-1201"
+        },
+        "jobTitle": "Legacy Factors Liaison"
+      },
+      "qualification": [
+        {
+          "type": "Qualification",
+          "qualificationCategory": "Future Marketing Producer",
+          "qualificationValue": "Representative"
+        },
+        {
+          "type": "Qualification",
+          "qualificationCategory": "District Security Specialist",
+          "qualificationValue": "Coordinator"
+        }
+      ]
+    },
+    "shipment": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": [
+        "AgParcelDelivery"
+      ],
+      "deliveryAddress": {
+        "@context": [
+          "https://w3id.org/traceability/v1"
+        ],
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Treutel, Witting and Flatley",
+        "streetAddress": "32915 Flatley Branch",
+        "addressLocality": "Parisianborough",
+        "addressRegion": "Idaho",
+        "postalCode": "59826",
+        "addressCountry": "Svalbard & Jan Mayen Islands"
+      },
+      "originAddress": {
+        "@context": [
+          "https://w3id.org/traceability/v1"
+        ],
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Towne, Padberg and Wehner",
+        "streetAddress": "075 Stiedemann Meadows",
+        "addressLocality": "Bellafort",
+        "addressRegion": "Minnesota",
+        "postalCode": "25177",
+        "addressCountry": "Bulgaria"
+      },
+      "foreignPortExport": {
+        "@context": [
+          "https://w3id.org/traceability/v1"
+        ],
+        "type": [
+          "Place"
+        ],
+        "globalLocationNumber": "4551661248981",
+        "geo": {
+          "type": [
+            "GeoCoordinates"
+          ],
+          "latitude": "-22.9556",
+          "longitude": "83.2875"
+        },
+        "address": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Leffler - Dare",
+          "streetAddress": "653 Leif Brooks",
+          "addressLocality": "Considinestad",
+          "addressRegion": "South Carolina",
+          "postalCode": "82477",
+          "addressCountry": "Latvia"
+        }
+      },
+      "portOfEntry": {
+        "@context": [
+          "https://w3id.org/traceability/v1"
+        ],
+        "type": [
+          "Place"
+        ],
+        "globalLocationNumber": "2305996302274",
+        "geo": {
+          "type": [
+            "GeoCoordinates"
+          ],
+          "latitude": "-1.4259",
+          "longitude": "-109.7372"
+        },
+        "address": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Cummerata - Moore",
+          "streetAddress": "027 Klein Mountain",
+          "addressLocality": "Korbintown",
+          "addressRegion": "Utah",
+          "postalCode": "81450-2476",
+          "addressCountry": "Germany"
+        }
+      },
+      "deliveryMethod": "Ocean transport",
+      "trackingNumber": "510796917211",
+      "expectedArrival": "2021-03-14",
+      "specialInstructions": "The package is top-heavy so handle with appropriate caution.",
+      "consignee": {
+        "@context": [
+          "https://w3id.org/traceability/v1"
+        ],
+        "type": [
+          "Organization"
+        ],
+        "name": "McGlynn - Carroll",
+        "description": "Grass-roots value-added infrastructure",
+        "address": {
+          "type": [
+            "PostalAddress"
+          ],
+          "streetAddress": "17601 Jessie Gateway",
+          "addressLocality": "North Melyna",
+          "addressRegion": "Georgia",
+          "postalCode": "94977",
+          "addressCountry": "Czech Republic"
+        },
+        "email": "Lavern.Zulauf@example.org",
+        "phoneNumber": "555-326-8157",
+        "faxNumber": "555-334-6677"
+      },
+      "AgPackage": [
+        {
+          "@context": [
+            "https://w3id.org/traceability/v1"
+          ],
+          "type": [
+            "AgPackage"
+          ]
+        }
+      ]
+    },
+    "applicant": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": [
+        "Organization"
+      ],
+      "email": "Myrtis44@example.net",
+      "phoneNumber": "555-431-5249"
+    },
+    "inspectionDate": "2020-03-15",
+    "inspectionType": "Contamination",
+    "observation": [
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Thulium"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "60.101",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Dysprosium"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "39.899",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Darmstadtium"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "00.00",
+          "unitCode": "UNKNOWN"
+        }
+      }
+    ],
+    "certificateNumber": "535619427494",
+    "plantOrg": {
+      "type": "Organization",
+      "name": "Skiles, Spinka and Hessel",
+      "description": "Multi-tiered mission-critical internet solution",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "903 Luettgen Lights",
+        "addressLocality": "West Lawson",
+        "addressRegion": "Hawaii",
+        "postalCode": "56706-2287",
+        "addressCountry": "Belarus"
+      },
+      "email": "Ella.Bergstrom@example.org",
+      "phoneNumber": "555-331-8699",
+      "faxNumber": "555-257-1827"
+    },
+    "distinguishingMarks": "Inventore dolores vitae.",
+    "portOfEntry": {
+      "type": "Place",
+      "address": {
+        "type": "PostalAddress",
+        "addressLocality": "South Luzbury",
+        "addressRegion": "Washington"
+      }
+    },
+    "additionalDeclaration": "Facilis ad laudantium porro ut mollitia cum.",
+    "disinfectionDate": "2021-02-22",
+    "disinfectionTreatment": "Aerosol - d-phenothrin",
+    "disinfectionChemical": "d-phenothrin",
+    "disinfectionDuration": "73 minutes",
+    "disinfectionTemperature": {
+      "type": "MeasuredValue",
+      "value": "22",
+      "unitCode": "Celsius"
+    },
+    "disinfectionConcentration": {
+      "type": "MeasuredValue",
+      "value": "3",
+      "unitCode": "Percent"
+    },
+    "signatureDate": "2021-03-12"
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2019-12-11T03:50:55Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..DxHDzqZ_W5UTsP95IpgBHS35Lp0QS6Wv-t_h9n356lmnGV8jONZNXpDfwWjFQxI_wRivjYDWufyzUmIuwihjDw",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
+  }
+}

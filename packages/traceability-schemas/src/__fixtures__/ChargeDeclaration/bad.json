@@ -1,0 +1,46 @@
+[
+  {
+    "type": "ChargeDeclaration",
+    "weightCharge": {
+      "type": "chargeAndPaymentType",
+      "chargeCollect": 68,
+      "chargePrepaid": 856
+    },
+    "otherChargesCarrier": {
+      "type": "chargeAndPaymentType",
+      "chargeCollect": 305,
+      "chargePrepaid": 895
+    },
+    "capacitor": "input"
+  },
+  {
+    "taxCharge": {
+      "type": "chargeAndPaymentType",
+      "chargeCollect": 482,
+      "chargePrepaid": 930
+    },
+    "otherChargesAgent": {
+      "type": "chargeAndPaymentType",
+      "chargeCollect": 691,
+      "chargePrepaid": 40
+    },
+    "program": "generate",
+    "capacitor": "transmit",
+    "driver": "parse"
+  },
+  {
+    "taxCharge": {
+      "type": "chargeAndPaymentType",
+      "chargeCollect": 680,
+      "chargePrepaid": 995
+    },
+    "otherChargesAgent": {
+      "type": "chargeAndPaymentType",
+      "chargeCollect": 831,
+      "chargePrepaid": 99
+    },
+    "application": "program",
+    "alarm": "transmit",
+    "bus": "synthesize"
+  }
+]

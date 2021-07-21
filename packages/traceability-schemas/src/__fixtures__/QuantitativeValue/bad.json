@@ -1,0 +1,27 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "QuantitativeValue",
+    "array": "transmit",
+    "microchip": "navigate",
+    "bandwidth": "compress",
+    "card": "generate"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "QuantitativeValue",
+    "unitCode": "hg/ha",
+    "panel": "back up",
+    "protocol": "hack",
+    "feed": "program"
+  },
+  {
+    "firewall": "navigate",
+    "circuit": "back up",
+    "matrix": "hack"
+  }
+]

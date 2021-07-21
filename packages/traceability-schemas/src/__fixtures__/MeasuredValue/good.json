@@ -1,0 +1,26 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "MeasuredValue",
+    "value": "3.71",
+    "unitCode": "P1"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "MeasuredValue",
+    "value": "8.815",
+    "unitCode": "P1"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "MeasuredValue",
+    "value": "29.931",
+    "unitCode": "P1"
+  }
+]

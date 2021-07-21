@@ -1,0 +1,91 @@
+[
+  {
+    "hard drive": "transmit",
+    "firewall": "override"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "IntentToSell",
+    "purchaser": {
+      "type": "Organization",
+      "name": "Walker and Sons",
+      "description": "Enhanced 3rd generation portal",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "06005 Meta Key",
+        "addressLocality": "Okunevashire",
+        "addressRegion": "New York",
+        "postalCode": "27381-6735",
+        "addressCountry": "Republic of Korea"
+      },
+      "email": "Lon_Schmitt43@example.com",
+      "phoneNumber": "555-737-8721",
+      "faxNumber": "555-324-3686"
+    },
+    "product": {
+      "type": "Product",
+      "manufacturer": {
+        "type": "Organization",
+        "name": "Reinger, Doyle and Abbott",
+        "description": "Customizable user-facing standardization",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "86029 Jacobs Green",
+          "addressLocality": "Lake Thora",
+          "addressRegion": "Montana",
+          "postalCode": "65352",
+          "addressCountry": "Cuba"
+        },
+        "email": "Marina26@example.org",
+        "phoneNumber": "555-959-4859",
+        "faxNumber": "555-643-6870"
+      },
+      "name": "Practical Frozen Chicken",
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "sizeOrAmount": {
+        "type": "QuantitativeValue",
+        "unitCode": "hg/ha",
+        "value": "387"
+      },
+      "weight": {
+        "type": "QuantitativeValue",
+        "unitCode": "hg/ha",
+        "value": "1239"
+      },
+      "sku": "318358841016"
+    },
+    "declarationDate": "2020-03-21",
+    "sellByDate": "2021-06-30",
+    "matrix": "synthesize"
+  },
+  {
+    "seller": {
+      "type": "Person",
+      "firstName": "Cole",
+      "lastName": "Cassin",
+      "email": "Raphaelle87@example.com",
+      "phoneNumber": "555-185-4646",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Lynch, Klein and Steuber",
+        "description": "Synchronised upward-trending throughput",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "22406 Kemmer Course",
+          "addressLocality": "East Francisca",
+          "addressRegion": "Montana",
+          "postalCode": "26969-0563",
+          "addressCountry": "Uruguay"
+        },
+        "email": "Ethel.Kertzmann@example.org",
+        "phoneNumber": "555-443-5868",
+        "faxNumber": "555-470-7437"
+      },
+      "jobTitle": "Global Marketing Technician"
+    },
+    "sensor": "program",
+    "circuit": "synthesize"
+  }
+]

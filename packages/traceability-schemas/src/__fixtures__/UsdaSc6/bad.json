@@ -1,0 +1,373 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "UsdaSc6",
+    "shipment": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": [
+        "AgParcelDelivery"
+      ],
+      "deliveryAddress": {
+        "@context": [
+          "https://w3id.org/traceability/v1"
+        ],
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Bins - Senger",
+        "streetAddress": "976 Johnathan Plains",
+        "addressLocality": "South Susiestad",
+        "addressRegion": "Georgia",
+        "postalCode": "29059",
+        "addressCountry": "Gabon"
+      },
+      "originAddress": {
+        "@context": [
+          "https://w3id.org/traceability/v1"
+        ],
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Kunze - Miller",
+        "streetAddress": "0932 McKenzie Village",
+        "addressLocality": "West Edyth",
+        "addressRegion": "New York",
+        "postalCode": "99285",
+        "addressCountry": "Gibraltar"
+      },
+      "foreignPortExport": {
+        "@context": [
+          "https://w3id.org/traceability/v1"
+        ],
+        "type": [
+          "Place"
+        ],
+        "globalLocationNumber": "8668097504713",
+        "geo": {
+          "type": [
+            "GeoCoordinates"
+          ],
+          "latitude": "74.3733",
+          "longitude": "110.0466"
+        },
+        "address": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Crooks, Kris and Greenholt",
+          "streetAddress": "693 Charity Mills",
+          "addressLocality": "New Norashire",
+          "addressRegion": "Arkansas",
+          "postalCode": "08895-8372",
+          "addressCountry": "Puerto Rico"
+        }
+      },
+      "portOfEntry": {
+        "@context": [
+          "https://w3id.org/traceability/v1"
+        ],
+        "type": [
+          "Place"
+        ],
+        "globalLocationNumber": "6551972338294",
+        "geo": {
+          "type": [
+            "GeoCoordinates"
+          ],
+          "latitude": "1.6204",
+          "longitude": "43.6824"
+        },
+        "address": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Lebsack, Wyman and Stoltenberg",
+          "streetAddress": "4414 Mariano Avenue",
+          "addressLocality": "South Ernaborough",
+          "addressRegion": "Arkansas",
+          "postalCode": "04114",
+          "addressCountry": "Greenland"
+        }
+      },
+      "deliveryMethod": "Ocean transport",
+      "trackingNumber": "958691065717",
+      "expectedArrival": "2021-03-14",
+      "specialInstructions": "The package is top-heavy so handle with appropriate caution.",
+      "consignee": {
+        "@context": [
+          "https://w3id.org/traceability/v1"
+        ],
+        "type": [
+          "Organization"
+        ],
+        "name": "Hartmann - Ruecker",
+        "description": "Vision-oriented 4th generation artificial intelligence",
+        "address": {
+          "type": [
+            "PostalAddress"
+          ],
+          "streetAddress": "4025 Hermiston Summit",
+          "addressLocality": "Daphneyshire",
+          "addressRegion": "Florida",
+          "postalCode": "32040",
+          "addressCountry": "Vietnam"
+        },
+        "email": "Amina_Botsford92@example.net",
+        "phoneNumber": "555-644-7946",
+        "faxNumber": "555-657-9084"
+      },
+      "AgPackage": [
+        {
+          "@context": [
+            "https://w3id.org/traceability/v1"
+          ],
+          "type": [
+            "AgPackage"
+          ]
+        }
+      ]
+    },
+    "serialNumber": "342605341497",
+    "customsEntryNumber": "688490909837",
+    "lotId": "830838941383",
+    "dateOfEntry": "2021-02-14",
+    "intendedUse": "Processing",
+    "capacitor": "calculate",
+    "bus": "connect"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "facility": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": [
+        "Place"
+      ],
+      "globalLocationNumber": "3032419327413",
+      "geo": {
+        "type": [
+          "GeoCoordinates"
+        ],
+        "latitude": "8.4710",
+        "longitude": "-62.2110"
+      },
+      "address": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Lind, Kunze and Effertz",
+        "streetAddress": "8477 Kohler Crossroad",
+        "addressLocality": "Ryanview",
+        "addressRegion": "Kentucky",
+        "postalCode": "63006",
+        "addressCountry": "Liberia"
+      }
+    },
+    "inspectionDate": "2020-03-15",
+    "serialNumber": "662433348252",
+    "intendedUseCert": "Processing",
+    "circuit": "transmit",
+    "interface": "synthesize",
+    "application": "reboot"
+  },
+  {
+    "type": "UsdaSc6",
+    "inspector": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": [
+        "Inspector"
+      ],
+      "person": {
+        "type": [
+          "Person"
+        ],
+        "firstName": "Sonia",
+        "lastName": "Weber",
+        "email": "Orin27@example.net",
+        "phoneNumber": "555-643-6389",
+        "worksFor": {
+          "type": [
+            "Organization"
+          ],
+          "name": "Kreiger - Mayer",
+          "description": "Multi-layered exuding functionalities",
+          "address": {
+            "type": [
+              "PostalAddress"
+            ],
+            "streetAddress": "284 Howell Points",
+            "addressLocality": "West Lionelton",
+            "addressRegion": "Missouri",
+            "postalCode": "26447",
+            "addressCountry": "Marshall Islands"
+          },
+          "email": "Reggie_Howe@example.org",
+          "phoneNumber": "555-821-6018",
+          "faxNumber": "555-684-3496"
+        },
+        "jobTitle": "Corporate Program Executive"
+      },
+      "qualification": [
+        {
+          "type": "Qualification",
+          "qualificationCategory": "Investor Implementation Developer",
+          "qualificationValue": "Consultant"
+        }
+      ]
+    },
+    "shipment": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": [
+        "AgParcelDelivery"
+      ],
+      "deliveryAddress": {
+        "@context": [
+          "https://w3id.org/traceability/v1"
+        ],
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Ritchie and Sons",
+        "streetAddress": "996 Shanahan Mount",
+        "addressLocality": "New Carleyhaven",
+        "addressRegion": "New York",
+        "postalCode": "76859-7243",
+        "addressCountry": "Bermuda"
+      },
+      "originAddress": {
+        "@context": [
+          "https://w3id.org/traceability/v1"
+        ],
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Treutel LLC",
+        "streetAddress": "02053 Alfreda Squares",
+        "addressLocality": "Wilsonview",
+        "addressRegion": "Minnesota",
+        "postalCode": "35291-1769",
+        "addressCountry": "Lebanon"
+      },
+      "foreignPortExport": {
+        "@context": [
+          "https://w3id.org/traceability/v1"
+        ],
+        "type": [
+          "Place"
+        ],
+        "globalLocationNumber": "3162905135984",
+        "geo": {
+          "type": [
+            "GeoCoordinates"
+          ],
+          "latitude": "-25.4229",
+          "longitude": "-7.5515"
+        },
+        "address": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Miller, Mayer and Block",
+          "streetAddress": "243 Anita Burg",
+          "addressLocality": "South Austin",
+          "addressRegion": "Oklahoma",
+          "postalCode": "21788",
+          "addressCountry": "Fiji"
+        }
+      },
+      "portOfEntry": {
+        "@context": [
+          "https://w3id.org/traceability/v1"
+        ],
+        "type": [
+          "Place"
+        ],
+        "globalLocationNumber": "4707077743224",
+        "geo": {
+          "type": [
+            "GeoCoordinates"
+          ],
+          "latitude": "44.3555",
+          "longitude": "24.4220"
+        },
+        "address": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Wolff - Pagac",
+          "streetAddress": "71903 Paucek Forest",
+          "addressLocality": "North Connieberg",
+          "addressRegion": "Ohio",
+          "postalCode": "95301-0204",
+          "addressCountry": "United Kingdom"
+        }
+      },
+      "deliveryMethod": "Ocean transport",
+      "trackingNumber": "413650616948",
+      "expectedArrival": "2021-03-14",
+      "specialInstructions": "The package is top-heavy so handle with appropriate caution.",
+      "consignee": {
+        "@context": [
+          "https://w3id.org/traceability/v1"
+        ],
+        "type": [
+          "Organization"
+        ],
+        "name": "Brakus - Erdman",
+        "description": "Centralized methodical archive",
+        "address": {
+          "type": [
+            "PostalAddress"
+          ],
+          "streetAddress": "790 Delilah Mills",
+          "addressLocality": "Jacobsburgh",
+          "addressRegion": "Oklahoma",
+          "postalCode": "86465-4931",
+          "addressCountry": "Spain"
+        },
+        "email": "Kristoffer86@example.com",
+        "phoneNumber": "555-876-7826",
+        "faxNumber": "555-243-3891"
+      },
+      "AgPackage": [
+        {
+          "@context": [
+            "https://w3id.org/traceability/v1"
+          ],
+          "type": [
+            "AgPackage"
+          ]
+        }
+      ]
+    },
+    "applicant": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": [
+        "Person"
+      ],
+      "email": "Jon61@example.org",
+      "phoneNumber": "555-984-9652"
+    },
+    "serialNumber": "291446167384",
+    "customsEntryNumber": "611218217112",
+    "tariffCodeNumber": "854547951878",
+    "carrierId": "999009473375",
+    "signatureDate": "2021-02-16",
+    "intendedUse": "Processing",
+    "intendedUseCert": "Processing",
+    "bandwidth": "navigate"
+  }
+]

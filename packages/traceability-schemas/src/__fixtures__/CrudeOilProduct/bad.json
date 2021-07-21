@@ -1,0 +1,235 @@
+[
+  {
+    "HSCode": "270900",
+    "productionDate": "2020-03-30",
+    "observation": [
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Lithium"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "51.345",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "MechanicalProperty"
+          ],
+          "identifier": "ISO 1352",
+          "name": "Torque-controlled fatigue testing",
+          "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "00.00",
+          "unitCode": "UNKNOWN"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Terbium"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "48.655",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "MechanicalProperty"
+          ],
+          "identifier": "ISO 148",
+          "name": "Charpy Impact Strength Test",
+          "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "93.7",
+          "unitCode": "B13"
+        }
+      }
+    ],
+    "product": {
+      "type": [
+        "Product"
+      ],
+      "manufacturer": {
+        "type": [
+          "Organization"
+        ],
+        "email": "Anastasia_McCullough94@example.net",
+        "phoneNumber": "555-739-3054"
+      },
+      "name": "Crude Oil Barrel",
+      "description": "Heavy Sour Dilbit",
+      "sizeOrAmount": {
+        "type": [
+          "QuantitativeValue"
+        ],
+        "unitCode": "hg/ha",
+        "value": "7854"
+      },
+      "weight": {
+        "type": [
+          "QuantitativeValue"
+        ],
+        "unitCode": "hg/ha",
+        "value": "9914"
+      },
+      "sku": "561297936667"
+    },
+    "interface": "parse"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": [
+      "CrudeOilProduct"
+    ],
+    "productionDate": "2020-03-30",
+    "bus": "back up"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "observation": [
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Lutetium"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "1.7323",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Nihonium"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "00.00",
+          "unitCode": "UNKNOWN"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Uranium"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "47.054",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Tungsten"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "51.214",
+          "unitCode": "P1"
+        }
+      }
+    ],
+    "product": {
+      "type": [
+        "Product"
+      ],
+      "manufacturer": {
+        "type": [
+          "Organization"
+        ],
+        "email": "Jermaine_Bayer@example.net",
+        "phoneNumber": "555-905-6961"
+      },
+      "name": "Crude Oil Barrel",
+      "description": "Heavy Sour Dilbit",
+      "sizeOrAmount": {
+        "type": [
+          "QuantitativeValue"
+        ],
+        "unitCode": "hg/ha",
+        "value": "3723"
+      },
+      "weight": {
+        "type": [
+          "QuantitativeValue"
+        ],
+        "unitCode": "hg/ha",
+        "value": "3931"
+      },
+      "sku": "57712344767"
+    },
+    "card": "input",
+    "bus": "copy",
+    "panel": "navigate"
+  }
+]

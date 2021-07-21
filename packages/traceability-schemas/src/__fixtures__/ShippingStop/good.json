@@ -1,0 +1,104 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "ShippingStop",
+    "shippingStopAddress": {
+      "type": "PostalAddress",
+      "organizationName": "Collins, Hagenes and McKenzie",
+      "streetAddress": "85745 Bradtke Trail",
+      "addressLocality": "Destanyview",
+      "addressRegion": "Pennsylvania",
+      "postalCode": "06383",
+      "addressCountry": "Guyana"
+    },
+    "carrier": {
+      "type": "Organization",
+      "name": "Reilly Inc",
+      "description": "Inverse reciprocal access",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "8440 Jammie Valley",
+        "addressLocality": "Gorczanyfurt",
+        "addressRegion": "Delaware",
+        "postalCode": "01551",
+        "addressCountry": "Iceland"
+      },
+      "email": "Alexys.Bradtke83@example.net",
+      "phoneNumber": "555-452-4861",
+      "faxNumber": "555-630-9710"
+    },
+    "vesselNumber": "ACMECarrierVessel#961",
+    "arrivalDate": "2021-03-09",
+    "stopType": "Stopover"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "ShippingStop",
+    "shippingStopAddress": {
+      "type": "PostalAddress",
+      "organizationName": "Halvorson LLC",
+      "streetAddress": "8062 Arvel Roads",
+      "addressLocality": "Bennieside",
+      "addressRegion": "Connecticut",
+      "postalCode": "98547",
+      "addressCountry": "Virgin Islands, U.S."
+    },
+    "carrier": {
+      "type": "Organization",
+      "name": "Kessler LLC",
+      "description": "Business-focused multi-tasking portal",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "88288 Muller Ferry",
+        "addressLocality": "North Diegofort",
+        "addressRegion": "Virginia",
+        "postalCode": "90347",
+        "addressCountry": "Micronesia"
+      },
+      "email": "Kenna_Hodkiewicz@example.org",
+      "phoneNumber": "555-708-8694",
+      "faxNumber": "555-825-9768"
+    },
+    "vesselNumber": "ACMECarrierVessel#316",
+    "arrivalDate": "2021-03-09",
+    "stopType": "Departure"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "ShippingStop",
+    "shippingStopAddress": {
+      "type": "PostalAddress",
+      "organizationName": "Rolfson, Lynch and Durgan",
+      "streetAddress": "16634 Jace Streets",
+      "addressLocality": "Lake Leonelton",
+      "addressRegion": "Oregon",
+      "postalCode": "99682",
+      "addressCountry": "Cayman Islands"
+    },
+    "carrier": {
+      "type": "Organization",
+      "name": "Dickens - Waters",
+      "description": "Assimilated global neural-net",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "56877 John Shoals",
+        "addressLocality": "Lake Guillermo",
+        "addressRegion": "Michigan",
+        "postalCode": "10559",
+        "addressCountry": "Cote d'Ivoire"
+      },
+      "email": "Greta_Wolff@example.org",
+      "phoneNumber": "555-813-2874",
+      "faxNumber": "555-620-2128"
+    },
+    "vesselNumber": "ACMECarrierVessel#641",
+    "arrivalDate": "2021-03-09",
+    "stopType": "Departure"
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Person",
+    "firstName": "Edna",
+    "lastName": "Senger",
+    "email": "Haley_Hoeger47@example.org",
+    "phoneNumber": "555-870-2146",
+    "worksFor": {
+      "type": "Organization",
+      "name": "Dicki and Sons",
+      "description": "Enhanced transitional definition",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "310 Bosco Ville",
+        "addressLocality": "Feeneyport",
+        "addressRegion": "Arizona",
+        "postalCode": "75854-3935",
+        "addressCountry": "Egypt"
+      },
+      "email": "Ismael_Wolf@example.net",
+      "phoneNumber": "555-667-4090",
+      "faxNumber": "555-860-5138"
+    },
+    "jobTitle": "Lead Infrastructure Technician"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Person",
+    "firstName": "Gillian",
+    "lastName": "Schmidt",
+    "email": "Graciela87@example.com",
+    "phoneNumber": "555-413-6347",
+    "worksFor": {
+      "type": "Organization",
+      "name": "Bailey, Rogahn and Haag",
+      "description": "Synergistic multi-tasking internet solution",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "48073 Monahan Orchard",
+        "addressLocality": "Aubreyton",
+        "addressRegion": "Mississippi",
+        "postalCode": "12296-3934",
+        "addressCountry": "Tuvalu"
+      },
+      "email": "Newell93@example.net",
+      "phoneNumber": "555-286-4756",
+      "faxNumber": "555-683-9665"
+    },
+    "jobTitle": "Chief Research Representative"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Person",
+    "firstName": "Marshall",
+    "lastName": "Toy",
+    "email": "Rosemarie_Koelpin67@example.com",
+    "phoneNumber": "555-361-1667",
+    "worksFor": {
+      "type": "Organization",
+      "name": "Runolfsdottir, Gleason and Cummings",
+      "description": "Organized full-range superstructure",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "93638 Ana Road",
+        "addressLocality": "South Judgestad",
+        "addressRegion": "Nevada",
+        "postalCode": "74233-6389",
+        "addressCountry": "Paraguay"
+      },
+      "email": "Jarred_Gerhold21@example.com",
+      "phoneNumber": "555-499-9388",
+      "faxNumber": "555-779-7455"
+    },
+    "jobTitle": "Regional Factors Coordinator"
+  }
+]

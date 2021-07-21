@@ -1,0 +1,258 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "IntentToSell",
+    "seller": {
+      "type": "Organization",
+      "name": "Heaney - Runolfsdottir",
+      "description": "Right-sized client-driven knowledge base",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "171 Jasen Radial",
+        "addressLocality": "New Rosstown",
+        "addressRegion": "Oregon",
+        "postalCode": "87253-3620",
+        "addressCountry": "Nicaragua"
+      },
+      "email": "Shany_Wiza@example.org",
+      "phoneNumber": "555-753-7235",
+      "faxNumber": "555-852-8838"
+    },
+    "purchaser": {
+      "type": "Organization",
+      "name": "Marks, Bins and Ritchie",
+      "description": "Team-oriented bifurcated database",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "592 Becker Circles",
+        "addressLocality": "Wehnerville",
+        "addressRegion": "Nebraska",
+        "postalCode": "65470-4727",
+        "addressCountry": "Chad"
+      },
+      "email": "Larue.McCullough67@example.net",
+      "phoneNumber": "555-380-6587",
+      "faxNumber": "555-375-7470"
+    },
+    "product": {
+      "type": "Product",
+      "manufacturer": {
+        "type": "Person",
+        "firstName": "Velva",
+        "lastName": "Considine",
+        "email": "Maudie42@example.org",
+        "phoneNumber": "555-165-1498",
+        "worksFor": {
+          "type": "Organization",
+          "name": "Spencer Inc",
+          "description": "Assimilated eco-centric framework",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "322 Bailey Road",
+            "addressLocality": "Bartolettifurt",
+            "addressRegion": "New Hampshire",
+            "postalCode": "60703",
+            "addressCountry": "Martinique"
+          },
+          "email": "Dasia_Goyette@example.com",
+          "phoneNumber": "555-105-7858",
+          "faxNumber": "555-531-5836"
+        },
+        "jobTitle": "Dynamic Metrics Associate"
+      },
+      "name": "Small Wooden Fish",
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "sizeOrAmount": {
+        "type": "QuantitativeValue",
+        "unitCode": "hg/ha",
+        "value": "4080"
+      },
+      "weight": {
+        "type": "QuantitativeValue",
+        "unitCode": "hg/ha",
+        "value": "1782"
+      },
+      "sku": "903051622198"
+    },
+    "declarationDate": "2020-03-21",
+    "sellByDate": "2021-06-30"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "IntentToSell",
+    "seller": {
+      "type": "Person",
+      "firstName": "Raul",
+      "lastName": "Champlin",
+      "email": "Hermina56@example.net",
+      "phoneNumber": "555-501-7193",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Kilback - D'Amore",
+        "description": "Automated optimal access",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "0865 Cordie Unions",
+          "addressLocality": "Mallorystad",
+          "addressRegion": "Arkansas",
+          "postalCode": "66117",
+          "addressCountry": "Singapore"
+        },
+        "email": "Thelma15@example.org",
+        "phoneNumber": "555-371-9907",
+        "faxNumber": "555-517-4396"
+      },
+      "jobTitle": "Legacy Branding Engineer"
+    },
+    "purchaser": {
+      "type": "Organization",
+      "name": "Walker and Sons",
+      "description": "Enhanced 3rd generation portal",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "06005 Meta Key",
+        "addressLocality": "Okunevashire",
+        "addressRegion": "New York",
+        "postalCode": "27381-6735",
+        "addressCountry": "Republic of Korea"
+      },
+      "email": "Lon_Schmitt43@example.com",
+      "phoneNumber": "555-737-8721",
+      "faxNumber": "555-324-3686"
+    },
+    "product": {
+      "type": "Product",
+      "manufacturer": {
+        "type": "Organization",
+        "name": "Reinger, Doyle and Abbott",
+        "description": "Customizable user-facing standardization",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "86029 Jacobs Green",
+          "addressLocality": "Lake Thora",
+          "addressRegion": "Montana",
+          "postalCode": "65352",
+          "addressCountry": "Cuba"
+        },
+        "email": "Marina26@example.org",
+        "phoneNumber": "555-959-4859",
+        "faxNumber": "555-643-6870"
+      },
+      "name": "Practical Frozen Chicken",
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "sizeOrAmount": {
+        "type": "QuantitativeValue",
+        "unitCode": "hg/ha",
+        "value": "387"
+      },
+      "weight": {
+        "type": "QuantitativeValue",
+        "unitCode": "hg/ha",
+        "value": "1239"
+      },
+      "sku": "318358841016"
+    },
+    "declarationDate": "2020-03-21",
+    "sellByDate": "2021-06-30"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "IntentToSell",
+    "seller": {
+      "type": "Person",
+      "firstName": "Cole",
+      "lastName": "Cassin",
+      "email": "Raphaelle87@example.com",
+      "phoneNumber": "555-185-4646",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Lynch, Klein and Steuber",
+        "description": "Synchronised upward-trending throughput",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "22406 Kemmer Course",
+          "addressLocality": "East Francisca",
+          "addressRegion": "Montana",
+          "postalCode": "26969-0563",
+          "addressCountry": "Uruguay"
+        },
+        "email": "Ethel.Kertzmann@example.org",
+        "phoneNumber": "555-443-5868",
+        "faxNumber": "555-470-7437"
+      },
+      "jobTitle": "Global Marketing Technician"
+    },
+    "purchaser": {
+      "type": "Person",
+      "firstName": "Keyshawn",
+      "lastName": "Jenkins",
+      "email": "Darien88@example.com",
+      "phoneNumber": "555-221-4790",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Ankunding, Carroll and Gutmann",
+        "description": "Profit-focused neutral database",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "834 Mante Track",
+          "addressLocality": "South Morganton",
+          "addressRegion": "Connecticut",
+          "postalCode": "68862",
+          "addressCountry": "Spain"
+        },
+        "email": "Rod.Grimes@example.net",
+        "phoneNumber": "555-879-5446",
+        "faxNumber": "555-129-2066"
+      },
+      "jobTitle": "Dynamic Group Associate"
+    },
+    "product": {
+      "type": "Product",
+      "manufacturer": {
+        "type": "Person",
+        "firstName": "Neal",
+        "lastName": "Koch",
+        "email": "Katherine_Langworth10@example.org",
+        "phoneNumber": "555-474-1486",
+        "worksFor": {
+          "type": "Organization",
+          "name": "Swaniawski - Little",
+          "description": "Advanced multi-state help-desk",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "6433 Dickinson Walk",
+            "addressLocality": "West Winfield",
+            "addressRegion": "Louisiana",
+            "postalCode": "05870",
+            "addressCountry": "Saint Helena"
+          },
+          "email": "Dana.OConnell@example.com",
+          "phoneNumber": "555-946-3958",
+          "faxNumber": "555-902-6497"
+        },
+        "jobTitle": "Central Creative Producer"
+      },
+      "name": "Incredible Granite Shirt",
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "sizeOrAmount": {
+        "type": "QuantitativeValue",
+        "unitCode": "hg/ha",
+        "value": "3844"
+      },
+      "weight": {
+        "type": "QuantitativeValue",
+        "unitCode": "hg/ha",
+        "value": "9451"
+      },
+      "sku": "150503990459"
+    },
+    "declarationDate": "2020-03-21",
+    "sellByDate": "2021-06-30"
+  }
+]

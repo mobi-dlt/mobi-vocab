@@ -1,0 +1,53 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/traceability/v1"
+  ],
+  "id": "http://example.org/credentials/",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuanceDate": "2021-02-04T20:29:37+00:00",
+  "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
+  "credentialSubject": {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "ShippingStop",
+    "shippingStopAddress": {
+      "type": "PostalAddress",
+      "organizationName": "Collins, Hagenes and McKenzie",
+      "streetAddress": "85745 Bradtke Trail",
+      "addressLocality": "Destanyview",
+      "addressRegion": "Pennsylvania",
+      "postalCode": "06383",
+      "addressCountry": "Guyana"
+    },
+    "carrier": {
+      "type": "Organization",
+      "name": "Reilly Inc",
+      "description": "Inverse reciprocal access",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "8440 Jammie Valley",
+        "addressLocality": "Gorczanyfurt",
+        "addressRegion": "Delaware",
+        "postalCode": "01551",
+        "addressCountry": "Iceland"
+      },
+      "email": "Alexys.Bradtke83@example.net",
+      "phoneNumber": "555-452-4861",
+      "faxNumber": "555-630-9710"
+    },
+    "vesselNumber": "ACMECarrierVessel#961",
+    "arrivalDate": "2021-03-09",
+    "stopType": "Stopover"
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2019-12-11T03:50:55Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ICPXAUvAHP-lzQgP0a8yRCRcfo2RUcMlrgw93VpDrzId1yrvUYNk-H6Bs4O9LhHQZctZQM7o2Z-WndfSd-2mDg",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
+  }
+}

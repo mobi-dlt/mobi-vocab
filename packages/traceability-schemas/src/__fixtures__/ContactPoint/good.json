@@ -1,0 +1,53 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "ContactPoint",
+    "name": "Rippin, Halvorson and Wiza",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "487 O'Kon Ferry",
+      "addressLocality": "Kozeychester",
+      "addressRegion": "Vermont",
+      "postalCode": "27676-0231",
+      "addressCountry": "Ukraine"
+    },
+    "email": "America_Huels46@example.com",
+    "phoneNumber": "555-686-2131"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "ContactPoint",
+    "name": "Kunde LLC",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "175 Bradtke Neck",
+      "addressLocality": "Pfeffertown",
+      "addressRegion": "Illinois",
+      "postalCode": "93807",
+      "addressCountry": "British Indian Ocean Territory (Chagos Archipelago)"
+    },
+    "email": "Ervin_Lemke26@example.com",
+    "phoneNumber": "555-953-4722"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "ContactPoint",
+    "name": "Hartmann and Sons",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "47272 Wolf Mount",
+      "addressLocality": "Cassinmouth",
+      "addressRegion": "Alabama",
+      "postalCode": "73831",
+      "addressCountry": "Christmas Island"
+    },
+    "email": "Ollie.Ritchie@example.com",
+    "phoneNumber": "555-339-4919"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "globalLocationNumber": "9145793604866",
+    "monitor": "transmit",
+    "card": "quantify",
+    "transmitter": "hack",
+    "pixel": "index"
+  },
+  {
+    "matrix": "synthesize",
+    "card": "parse"
+  },
+  {
+    "address": {
+      "type": "PostalAddress",
+      "organizationName": "Thompson - Little",
+      "streetAddress": "8189 Hayes Divide",
+      "addressLocality": "Ethastad",
+      "addressRegion": "Arizona",
+      "postalCode": "59833",
+      "addressCountry": "Hungary"
+    },
+    "panel": "transmit",
+    "monitor": "reboot",
+    "bus": "index",
+    "feed": "synthesize"
+  }
+]

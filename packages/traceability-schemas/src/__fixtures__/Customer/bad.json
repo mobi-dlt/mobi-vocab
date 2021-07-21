@@ -1,0 +1,34 @@
+[
+  {
+    "type": "Customer",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "9031 Justyn Orchard",
+      "addressLocality": "New Haventon",
+      "addressRegion": "Nebraska",
+      "postalCode": "07922",
+      "addressCountry": "Cook Islands"
+    },
+    "telephone": "555-398-7540",
+    "email": "Fermin.OKeefe51@example.net",
+    "program": "program",
+    "driver": "back up"
+  },
+  {
+    "name": "Catharine Glover",
+    "bandwidth": "synthesize",
+    "panel": "input",
+    "bus": "program",
+    "array": "compress"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "name": "Keegan Purdy",
+    "telephone": "555-187-3114",
+    "email": "Reanna_Quigley@example.com",
+    "bus": "transmit",
+    "feed": "generate"
+  }
+]

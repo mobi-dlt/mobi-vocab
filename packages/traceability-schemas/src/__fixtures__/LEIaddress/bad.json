@@ -1,0 +1,32 @@
+[
+  {
+    "addressLines": [
+      "White - Hyatt",
+      "04238 Marks Locks"
+    ],
+    "program": "quantify",
+    "array": "index",
+    "hard drive": "parse"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIaddress",
+    "addressNumberWithinBuilding": "2",
+    "mailRouting": "733 Preston Canyon, 69144-1767",
+    "country": "Turkey",
+    "postalCode": "79064",
+    "transmitter": "override"
+  },
+  {
+    "addressLines": [
+      "Schimmel - Greenfelder",
+      "602 Brekke Hills"
+    ],
+    "region": "Borders",
+    "country": "Yemen",
+    "capacitor": "transmit",
+    "card": "navigate"
+  }
+]

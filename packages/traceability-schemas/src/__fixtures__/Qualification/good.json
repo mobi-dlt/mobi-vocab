@@ -1,0 +1,26 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Qualification",
+    "qualificationCategory": "Legacy Creative Developer",
+    "qualificationValue": "Manager"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Qualification",
+    "qualificationCategory": "Internal Applications Planner",
+    "qualificationValue": "Manager"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Qualification",
+    "qualificationCategory": "Forward Operations Administrator",
+    "qualificationValue": "Developer"
+  }
+]

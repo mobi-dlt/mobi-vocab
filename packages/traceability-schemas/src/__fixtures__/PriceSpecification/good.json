@@ -1,0 +1,26 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "PriceSpecification",
+    "price": 1286,
+    "priceCurrency": "BWP"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "PriceSpecification",
+    "price": 8947,
+    "priceCurrency": "EUR"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "PriceSpecification",
+    "price": 7847,
+    "priceCurrency": "TOP"
+  }
+]

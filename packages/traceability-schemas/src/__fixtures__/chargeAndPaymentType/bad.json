@@ -1,0 +1,22 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "chargeCollect": 851,
+    "pixel": "generate",
+    "protocol": "reboot"
+  },
+  {
+    "capacitor": "compress",
+    "system": "back up",
+    "array": "index"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "circuit": "transmit",
+    "application": "generate"
+  }
+]
