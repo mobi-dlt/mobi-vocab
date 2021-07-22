@@ -1,38 +1,36 @@
 [
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "ContactPoint",
-    "email": "Waylon16@example.com",
-    "phoneNumber": "555-622-1082",
-    "system": "calculate",
-    "matrix": "compress",
-    "microchip": "synthesize"
-  },
-  {
-    "name": "Kerluke - Schimmel",
+    "name": "Kirlin, O'Hara and Ziemann",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "17367 Madyson Summit",
-      "addressLocality": "South Karen",
-      "addressRegion": "California",
-      "postalCode": "36222-5993",
-      "addressCountry": "Latvia"
+      "streetAddress": "7868 Carolyne Cliffs",
+      "addressLocality": "Trompfurt",
+      "addressRegion": "New Mexico",
+      "postalCode": "03196-9021",
+      "addressCountry": "French Southern Territories"
     },
-    "email": "Jimmy_Oberbrunner@example.com",
-    "sensor": "copy",
-    "hard drive": "back up",
-    "application": "calculate"
+    "phoneNumber": "555-593-5370",
+    "alarm": "input",
+    "bus": "synthesize"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
+    "name": "Ortiz - Kulas",
+    "phoneNumber": "555-552-6805",
+    "matrix": "reboot"
+  },
+  {
     "type": "ContactPoint",
-    "email": "Rowland48@example.org",
-    "phoneNumber": "555-867-1678",
-    "capacitor": "program",
-    "feed": "reboot"
+    "name": "Hintz LLC",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "837 Tina Bridge",
+      "addressLocality": "West Kattie",
+      "addressRegion": "Wisconsin",
+      "postalCode": "99802-3318",
+      "addressCountry": "Estonia"
+    },
+    "email": "Tremayne_Sporer57@example.com",
+    "phoneNumber": "555-385-5367",
+    "pixel": "synthesize"
   }
 ]

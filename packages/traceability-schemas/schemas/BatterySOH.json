@@ -19,9 +19,22 @@
                 }
             ]
         },
+        "sohCertID": {
+            "$comment": "{\"term\": \"sohCertID\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "sohCertID",
+            "description": "soh Cert ID",
+            "type": "string"
+        },
+
+        "sohCertIssuerID": {
+            "$comment": "{\"term\": \"sohCertIssuerID\", \"@id\": \"https://schema.org/PropertyValue\"}",
+            "title": "ssohCertIssuerID",
+            "description": "soh CertIssuer ID",
+            "type": "string"
+        },
 
         "batteryid": {
-            "$comment": "{\"term\": \"batteryid\", \"@id\": \"https://schema.org/identifier\"}",
+            "$comment": "{\"term\": \"batteryid\", \"@id\": \"https://w3id.org/traceability#BatteryID\"}",
             "title": "batteryid",
             "description": "Logo of the entity.",
             "$ref": "https://w3id.org/traceability/schemas/BatteryID.json"
@@ -45,11 +58,38 @@
             "type": "string"
         },
         "newSOHTimeStamp": {
-            "$comment": "{\"term\": \"newSOHTimeStamp\", \"@id\": \"https://schema.org/Text\"}",
+            "$comment": "{\"term\": \"newSOHTimeStamp\", \"@id\": \"https://schema.org/startDate\"}",
             "title": "newSOHTimeStamp",
             "description": "previous SOH TimeStamp",
             "type": "string"
+        },
+        "chargeCycles": {
+            "$comment": "{\"term\": \"chargeCycles\", \"@id\": \"https://w3id.org/traceability#QuantitativeValue\"}",
+            "title": "chargeCycles",
+            "description": "charge Cycles",
+            "type": "string"
+        },
+        "impedance": {
+            "$comment": "{\"term\": \"impedance\", \"@id\": \"https://schema.org/QuantitativeValue\"}",
+            "title": "impedance",
+            "description": "charge Cycles",
+            "type": "string"
+        },
+        "maxCapacity": {
+            "$comment": "{\"term\": \"maxCapacity\", \"@id\": \"https://schema.org/fuelCapacity\"}",
+            "title": "maxCapacity",
+            "description": "max Capacity",
+            "type": "string"
+        },
+        "batteryAge": {
+            "$comment": "{\"term\": \"batteryAge\", \"@id\": \"https://schema.org/Text\"}",
+            "title": "batteryAge",
+            "description": "battery age",
+            "type": "string"
         }
+        
+
+
         
     },
     "additionalProperties": false,

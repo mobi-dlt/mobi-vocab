@@ -4,64 +4,72 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Person",
-    "firstName": "Roselyn",
-    "lastName": "Bosco",
-    "email": "Emmanuel_Will95@example.com",
-    "phoneNumber": "555-962-9148",
+    "firstName": "Kiel",
+    "lastName": "Kunde",
+    "email": "Arnulfo29@example.com",
+    "phoneNumber": "555-955-5342",
     "worksFor": {
       "type": "Organization",
-      "name": "Kunze - Shanahan",
-      "description": "Innovative eco-centric encoding",
+      "name": "Becker - Anderson",
+      "description": "User-friendly transitional solution",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "597 Hilpert Lake",
-        "addressLocality": "Lake Kraig",
-        "addressRegion": "Louisiana",
-        "postalCode": "95824-6777",
-        "addressCountry": "Dominica"
+        "streetAddress": "582 Nestor Lane",
+        "addressLocality": "Nickolasberg",
+        "addressRegion": "Colorado",
+        "postalCode": "95548",
+        "addressCountry": "Hong Kong"
       },
-      "email": "Bailey1@example.net",
-      "phoneNumber": "555-192-4399",
-      "faxNumber": "555-912-5808"
+      "email": "Finn_Hammes67@example.org",
+      "phoneNumber": "555-388-3678",
+      "faxNumber": "555-905-1899"
     },
-    "jobTitle": "Central Intranet Analyst"
+    "jobTitle": "Investor Tactics Designer"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Person",
+    "firstName": "Laney",
+    "lastName": "Romaguera",
+    "email": "Garry48@example.com",
+    "phoneNumber": "555-916-9874",
+    "worksFor": {
+      "type": "Organization",
+      "name": "Feest Group",
+      "description": "Persevering explicit standardization",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "47853 Wisozk River",
+        "addressLocality": "New Noemyfort",
+        "addressRegion": "New Mexico",
+        "postalCode": "18047-2038",
+        "addressCountry": "Togo"
+      },
+      "email": "Shania94@example.com",
+      "phoneNumber": "555-735-2319",
+      "faxNumber": "555-173-5619"
+    },
+    "jobTitle": "Forward Identity Designer"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
     "type": "Organization",
-    "name": "Prohaska - Fadel",
-    "description": "Centralized foreground secured line",
+    "name": "Wisozk, Luettgen and Baumbach",
+    "description": "Function-based tertiary alliance",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "9095 Rippin Causeway",
-      "addressLocality": "Lockmanborough",
-      "addressRegion": "Oklahoma",
-      "postalCode": "91678",
-      "addressCountry": "Nauru"
+      "streetAddress": "186 Marina Shoal",
+      "addressLocality": "Davidshire",
+      "addressRegion": "Massachusetts",
+      "postalCode": "42085",
+      "addressCountry": "Cyprus"
     },
-    "email": "Meggie51@example.net",
-    "phoneNumber": "555-880-1910",
-    "faxNumber": "555-854-1756"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "Organization",
-    "name": "Carroll, Senger and O'Conner",
-    "description": "Reduced optimizing neural-net",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "7047 Meaghan Isle",
-      "addressLocality": "East Suzanne",
-      "addressRegion": "Kentucky",
-      "postalCode": "44204",
-      "addressCountry": "Republic of Korea"
-    },
-    "email": "David.Windler@example.com",
-    "phoneNumber": "555-614-1506",
-    "faxNumber": "555-766-2069"
+    "email": "Thurman.Zemlak25@example.com",
+    "phoneNumber": "555-492-9669",
+    "faxNumber": "555-821-1109"
   }
 ]

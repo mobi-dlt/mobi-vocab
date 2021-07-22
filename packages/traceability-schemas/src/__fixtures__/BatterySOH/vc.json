@@ -14,6 +14,8 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "BatterySOH",
+    "sohCertID": "idnumber",
+    "sohCertIssuerID": "idnumber",
     "batteryid": {
       "type": "BatteryID",
       "vid": {
@@ -53,12 +55,16 @@
     "previousSOHVal": "95",
     "previousSOHTimeStamp": "2020-5-17",
     "newSOHVal": "94",
-    "newSOHTimeStamp": "2020-10-17"
+    "newSOHTimeStamp": "2020-10-17",
+    "chargeCycles": "30",
+    "maxCapacity": "87",
+    "impedance": "70",
+    "batteryAge": "1.2"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..GL4Iaxh9HsEM1SjmjrsLNAo1z7UO0JF4XfLJcwJXye4CuYuBFcuyYxBrMp3QYQCfLHnAwu5kcMgmQhg1GV75CA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..DoD50S6q57a1prsxAC-EHY9-N8XKQXEhE_RnJr437-xLnTgE-SjqFREwkRwNCm6F8LNGGYygy0qpiPjC5a3mDA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

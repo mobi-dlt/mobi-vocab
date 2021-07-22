@@ -1,19 +1,16 @@
 [
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "bus": "hack",
-    "feed": "navigate",
-    "monitor": "hack",
-    "program": "reboot"
-  },
-  {
     "type": "Brand",
-    "alarm": "override"
+    "url": "https://brand.example.com",
+    "transmitter": "parse"
   },
   {
-    "program": "parse",
-    "bandwidth": "parse"
+    "url": "https://brand.example.com",
+    "matrix": "bypass"
+  },
+  {
+    "microchip": "navigate",
+    "port": "navigate",
+    "feed": "input"
   }
 ]

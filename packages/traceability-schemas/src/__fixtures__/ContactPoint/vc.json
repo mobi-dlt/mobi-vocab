@@ -14,22 +14,22 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "ContactPoint",
-    "name": "Bradtke - Weimann",
+    "name": "Kirlin, O'Hara and Ziemann",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "1323 Rose Ridges",
-      "addressLocality": "Stiedemannhaven",
-      "addressRegion": "Massachusetts",
-      "postalCode": "86809-1786",
-      "addressCountry": "Mozambique"
+      "streetAddress": "7868 Carolyne Cliffs",
+      "addressLocality": "Trompfurt",
+      "addressRegion": "New Mexico",
+      "postalCode": "03196-9021",
+      "addressCountry": "French Southern Territories"
     },
-    "email": "Waylon16@example.com",
-    "phoneNumber": "555-622-1082"
+    "email": "Charlene23@example.org",
+    "phoneNumber": "555-593-5370"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..MBbouLJpDxYhqfIDX2OU21MPJYjZWT67Reim9hViFSaF2Tmc1-gnlJT2WMLPlDMNno_TjjuKPQ5WO7XAs2rnBg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..qN9od2MQfODpZrtpdhgJ6ZRYXy57Nf-sZ7uX2IuE33kJPl3S0j5u5V5WPUUIXBDe26oninPNDI3k9pV2EsVCBg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

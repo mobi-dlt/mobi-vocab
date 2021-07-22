@@ -1,29 +1,30 @@
 [
   {
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "85802 Senger Bypass",
+      "addressLocality": "West Kaitlyn",
+      "addressRegion": "Connecticut",
+      "postalCode": "58722",
+      "addressCountry": "Venezuela"
+    },
+    "telephone": "555-897-4041",
+    "firewall": "index"
+  },
+  {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "type": "Customer",
-    "name": "Sheridan Hauck",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "9285 Fritsch Throughway",
-      "addressLocality": "North Remingtonburgh",
-      "addressRegion": "Maine",
-      "postalCode": "13587-2296",
-      "addressCountry": "Kenya"
-    },
-    "telephone": "555-145-9010",
-    "microchip": "generate"
+    "telephone": "555-264-6941",
+    "email": "Verda_Larson55@example.com",
+    "interface": "back up",
+    "pixel": "parse",
+    "alarm": "program"
   },
   {
-    "transmitter": "connect",
-    "array": "override"
-  },
-  {
-    "type": "Customer",
-    "name": "Troy Murazik",
-    "transmitter": "parse",
-    "port": "generate"
+    "telephone": "555-346-1624",
+    "hard drive": "parse",
+    "monitor": "index",
+    "panel": "navigate"
   }
 ]

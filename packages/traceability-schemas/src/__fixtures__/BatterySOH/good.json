@@ -4,6 +4,8 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "BatterySOH",
+    "sohCertID": "idnumber",
+    "sohCertIssuerID": "idnumber",
     "batteryid": {
       "type": "BatteryID",
       "vid": {
@@ -43,59 +45,19 @@
     "previousSOHVal": "95",
     "previousSOHTimeStamp": "2020-5-17",
     "newSOHVal": "94",
-    "newSOHTimeStamp": "2020-10-17"
+    "newSOHTimeStamp": "2020-10-17",
+    "chargeCycles": "30",
+    "maxCapacity": "87",
+    "impedance": "70",
+    "batteryAge": "1.2"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
     "type": "BatterySOH",
-    "batteryid": {
-      "type": "BatteryID",
-      "vid": {
-        "type": "VID",
-        "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-        "manufacturer": {
-          "type": "Person",
-          "firstName": "Elise",
-          "lastName": "Cormier",
-          "email": "Zoe60@example.org",
-          "phoneNumber": "555-547-7410",
-          "worksFor": {
-            "type": "Organization",
-            "name": "Prosacco - Jakubowski",
-            "description": "Horizontal actuating utilisation",
-            "address": {
-              "type": "PostalAddress",
-              "streetAddress": "4083 Adams Throughway",
-              "addressLocality": "South Kadenbury",
-              "addressRegion": "Missouri",
-              "postalCode": "61232",
-              "addressCountry": "United States of America"
-            },
-            "email": "Vince69@example.org",
-            "phoneNumber": "555-251-3908",
-            "faxNumber": "555-296-5669"
-          },
-          "jobTitle": "Principal Optimization Administrator"
-        },
-        "make": "Ford",
-        "model": "Mach_E",
-        "vin": "JTERU5JR7M5861170"
-      },
-      "batteryid": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
-      "serialNumber": "snumber"
-    },
-    "previousSOHVal": "95",
-    "previousSOHTimeStamp": "2020-5-17",
-    "newSOHVal": "94",
-    "newSOHTimeStamp": "2020-10-17"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "BatterySOH",
+    "sohCertID": "idnumber",
+    "sohCertIssuerID": "idnumber",
     "batteryid": {
       "type": "BatteryID",
       "vid": {
@@ -103,19 +65,19 @@
         "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
         "manufacturer": {
           "type": "Organization",
-          "name": "Predovic Inc",
-          "description": "Synchronised maximized firmware",
+          "name": "Bergnaum - Witting",
+          "description": "Exclusive well-modulated customer loyalty",
           "address": {
             "type": "PostalAddress",
-            "streetAddress": "9525 Ruecker Ramp",
-            "addressLocality": "East Deanna",
-            "addressRegion": "Oregon",
-            "postalCode": "34696-3580",
-            "addressCountry": "Seychelles"
+            "streetAddress": "8301 Hayley Mission",
+            "addressLocality": "East Mathilde",
+            "addressRegion": "Colorado",
+            "postalCode": "32913",
+            "addressCountry": "Cuba"
           },
-          "email": "Dakota_Armstrong80@example.net",
-          "phoneNumber": "555-851-2356",
-          "faxNumber": "555-388-5573"
+          "email": "Mauricio.Kuphal14@example.org",
+          "phoneNumber": "555-566-6022",
+          "faxNumber": "555-732-4634"
         },
         "make": "Ford",
         "model": "Mach_E",
@@ -127,6 +89,62 @@
     "previousSOHVal": "95",
     "previousSOHTimeStamp": "2020-5-17",
     "newSOHVal": "94",
-    "newSOHTimeStamp": "2020-10-17"
+    "newSOHTimeStamp": "2020-10-17",
+    "chargeCycles": "30",
+    "maxCapacity": "87",
+    "impedance": "70",
+    "batteryAge": "1.2"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "BatterySOH",
+    "sohCertID": "idnumber",
+    "sohCertIssuerID": "idnumber",
+    "batteryid": {
+      "type": "BatteryID",
+      "vid": {
+        "type": "VID",
+        "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+        "manufacturer": {
+          "type": "Person",
+          "firstName": "Lula",
+          "lastName": "Boyer",
+          "email": "Tristin.Pollich@example.org",
+          "phoneNumber": "555-303-4137",
+          "worksFor": {
+            "type": "Organization",
+            "name": "Predovic Inc",
+            "description": "Synchronised maximized firmware",
+            "address": {
+              "type": "PostalAddress",
+              "streetAddress": "9525 Ruecker Ramp",
+              "addressLocality": "East Deanna",
+              "addressRegion": "Oregon",
+              "postalCode": "34696-3580",
+              "addressCountry": "Seychelles"
+            },
+            "email": "Dakota_Armstrong80@example.net",
+            "phoneNumber": "555-851-2356",
+            "faxNumber": "555-388-5573"
+          },
+          "jobTitle": "Global Factors Assistant"
+        },
+        "make": "Ford",
+        "model": "Mach_E",
+        "vin": "JTERU5JR7M5861170"
+      },
+      "batteryid": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+      "serialNumber": "snumber"
+    },
+    "previousSOHVal": "95",
+    "previousSOHTimeStamp": "2020-5-17",
+    "newSOHVal": "94",
+    "newSOHTimeStamp": "2020-10-17",
+    "chargeCycles": "30",
+    "maxCapacity": "87",
+    "impedance": "70",
+    "batteryAge": "1.2"
   }
 ]

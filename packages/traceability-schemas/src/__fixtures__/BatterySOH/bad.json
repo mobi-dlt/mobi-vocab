@@ -1,41 +1,33 @@
 [
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "transmitter": "hack",
-    "circuit": "navigate"
+    "type": "BatterySOH",
+    "newSOHTimeStamp": "2020-10-17",
+    "circuit": "bypass",
+    "port": "compress"
   },
   {
     "type": "BatterySOH",
+    "sohCertID": "idnumber",
     "batteryid": {
       "type": "BatteryID",
       "vid": {
         "type": "VID",
         "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
         "manufacturer": {
-          "type": "Person",
-          "firstName": "Elise",
-          "lastName": "Cormier",
-          "email": "Zoe60@example.org",
-          "phoneNumber": "555-547-7410",
-          "worksFor": {
-            "type": "Organization",
-            "name": "Prosacco - Jakubowski",
-            "description": "Horizontal actuating utilisation",
-            "address": {
-              "type": "PostalAddress",
-              "streetAddress": "4083 Adams Throughway",
-              "addressLocality": "South Kadenbury",
-              "addressRegion": "Missouri",
-              "postalCode": "61232",
-              "addressCountry": "United States of America"
-            },
-            "email": "Vince69@example.org",
-            "phoneNumber": "555-251-3908",
-            "faxNumber": "555-296-5669"
+          "type": "Organization",
+          "name": "Bergnaum - Witting",
+          "description": "Exclusive well-modulated customer loyalty",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "8301 Hayley Mission",
+            "addressLocality": "East Mathilde",
+            "addressRegion": "Colorado",
+            "postalCode": "32913",
+            "addressCountry": "Cuba"
           },
-          "jobTitle": "Principal Optimization Administrator"
+          "email": "Mauricio.Kuphal14@example.org",
+          "phoneNumber": "555-566-6022",
+          "faxNumber": "555-732-4634"
         },
         "make": "Ford",
         "model": "Mach_E",
@@ -47,18 +39,30 @@
     "previousSOHVal": "95",
     "previousSOHTimeStamp": "2020-5-17",
     "newSOHVal": "94",
-    "newSOHTimeStamp": "2020-10-17",
-    "array": "reboot",
-    "alarm": "compress"
+    "chargeCycles": "30",
+    "maxCapacity": "87",
+    "impedance": "70",
+    "firewall": "index",
+    "protocol": "back up",
+    "port": "navigate",
+    "circuit": "calculate"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
     "type": "BatterySOH",
+    "sohCertID": "idnumber",
+    "sohCertIssuerID": "idnumber",
     "previousSOHVal": "95",
+    "previousSOHTimeStamp": "2020-5-17",
     "newSOHVal": "94",
-    "newSOHTimeStamp": "2020-10-17",
-    "microchip": "reboot"
+    "chargeCycles": "30",
+    "maxCapacity": "87",
+    "impedance": "70",
+    "batteryAge": "1.2",
+    "bandwidth": "override",
+    "capacitor": "generate",
+    "circuit": "synthesize"
   }
 ]
