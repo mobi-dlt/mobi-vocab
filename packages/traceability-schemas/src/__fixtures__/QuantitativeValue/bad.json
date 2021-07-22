@@ -1,13 +1,18 @@
 [
   {
-    "bus": "back up"
-  },
-  {
-    "circuit": "compress",
-    "system": "back up"
+    "unitCode": "hg/ha",
+    "firewall": "program"
   },
   {
     "type": "QuantitativeValue",
-    "application": "connect"
+    "unitCode": "hg/ha",
+    "value": "6821",
+    "bus": "transmit",
+    "program": "synthesize",
+    "sensor": "back up"
+  },
+  {
+    "unitCode": "hg/ha",
+    "program": "program"
   }
 ]

@@ -9,8 +9,6 @@ const getBatterySOH = () => {
     const example = {
         '@context': ['https://w3id.org/traceability/v1'],
         type: 'BatterySOH',
-        sohCertID: 'idnumber',
-        sohCertIssuerID: 'idnumber',
         batteryid: batteryIdentifier,
         previousSOHVal: '95',
         previousSOHTimeStamp: '2020-5-17',

@@ -14,24 +14,24 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Organization",
-    "name": "Baumbach - Rempel",
-    "description": "De-engineered attitude-oriented benchmark",
+    "name": "Larson, Lebsack and Kiehn",
+    "description": "Implemented bifurcated attitude",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "88829 Nicolas Neck",
-      "addressLocality": "Ernserview",
-      "addressRegion": "Wisconsin",
-      "postalCode": "77571-6013",
-      "addressCountry": "Mali"
+      "streetAddress": "57506 Lavonne Meadow",
+      "addressLocality": "Millsburgh",
+      "addressRegion": "Alaska",
+      "postalCode": "34601-0637",
+      "addressCountry": "Saudi Arabia"
     },
-    "email": "Moises_Bosco21@example.net",
-    "phoneNumber": "555-777-9862",
-    "faxNumber": "555-342-9436"
+    "email": "Mustafa8@example.org",
+    "phoneNumber": "555-983-7369",
+    "faxNumber": "555-288-8097"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..NNfR2--8yz0O0Y42P4DN93fqv9SRqx0XYH5MtWEHIJLylxMUnjIN1BvCwJKje6d1F4CtPMiaKX21sD0Fxku8Ag",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..nJBBW_4DnfQWgnHVJXhhqu9W9IXyxVkHZZ5whBZ9pXW57StPzWEbpQgrfwmGsZCRklAHQidCB-ZO-3Tqf10TAA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

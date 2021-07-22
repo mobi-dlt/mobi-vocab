@@ -14,22 +14,22 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "ContactPoint",
-    "name": "Kirlin, O'Hara and Ziemann",
+    "name": "Ondricka, Wiza and Abshire",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "7868 Carolyne Cliffs",
-      "addressLocality": "Trompfurt",
-      "addressRegion": "New Mexico",
-      "postalCode": "03196-9021",
-      "addressCountry": "French Southern Territories"
+      "streetAddress": "888 Shirley Knolls",
+      "addressLocality": "Rowenaton",
+      "addressRegion": "Washington",
+      "postalCode": "78665",
+      "addressCountry": "Algeria"
     },
-    "email": "Charlene23@example.org",
-    "phoneNumber": "555-593-5370"
+    "email": "Carolina.Haag@example.org",
+    "phoneNumber": "555-435-1913"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..qN9od2MQfODpZrtpdhgJ6ZRYXy57Nf-sZ7uX2IuE33kJPl3S0j5u5V5WPUUIXBDe26oninPNDI3k9pV2EsVCBg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..gWEu8Z9PxT4XhhSHNUIkLIjD9TFfpsLOPiUJbGhGjazytnbD-nvwTV5-H13Ycw21gT_BTyfp1ose3o3X8bhFCg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

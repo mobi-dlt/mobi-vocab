@@ -14,19 +14,19 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 236.25,
-    "totalCollect": 78.75,
-    "sourceCurrency": "UZS",
-    "destinationCurrency": "NZD",
+    "totalPrepaid": 6027.75,
+    "totalCollect": 2009.25,
+    "sourceCurrency": "EEK",
+    "destinationCurrency": "ILS",
     "currencyConversionRate": 5,
-    "ccChargesDestinationCurrency": "UZS",
-    "chargesDestination": 726,
-    "totalCollectCharge": 181.5
+    "ccChargesDestinationCurrency": "EEK",
+    "chargesDestination": 299,
+    "totalCollectCharge": 74.75
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..5DF2enm14s71wojQv3CDyZXAeJcW5e32tYGQekrB9dhTSbRF9DSr0hyyRrA3LorVUpNXFAwlRkVjDXAY5vxgBg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..nloSdnMsV1N1RXjsWt1xPuWcnHUOAXis8Twe-tsS_5gywL5a3fv7vfbHdse0MGdjWvCvNIY4Ici1eqysjjC-Cg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

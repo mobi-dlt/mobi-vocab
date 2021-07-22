@@ -1,0 +1,30 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "issuanceDate": "2021-03-09",
+    "system": "bypass"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "DriverLicense",
+    "legalName": "Matt Shi",
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000001",
+      "otherValidationAuthorityID": "FQVJCP4Y",
+      "validationAuthorityEntityID": "5ORUMV3U3FP82ETWP52I"
+    },
+    "issuanceDate": "2021-03-09",
+    "bus": "navigate",
+    "circuit": "transmit"
+  },
+  {
+    "protocol": "generate",
+    "capacitor": "bypass",
+    "port": "generate"
+  }
+]

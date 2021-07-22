@@ -1,24 +1,23 @@
 [
   {
     "type": "LEIauthority",
-    "otherValidationAuthorityID": "9VQL9LMN",
-    "validationAuthorityEntityID": "H6KWUFEDRIF1C5YQ623L",
-    "port": "index",
-    "array": "reboot",
-    "monitor": "synthesize",
-    "card": "quantify"
+    "validationAuthorityID": "RA000005",
+    "driver": "connect",
+    "bus": "parse"
   },
   {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
     "type": "LEIauthority",
-    "otherValidationAuthorityID": "KYHENYX4",
-    "validationAuthorityEntityID": "QH791J95LU1UHYL5CMRH",
-    "interface": "connect",
-    "feed": "synthesize",
-    "pixel": "index"
+    "validationAuthorityEntityID": "S2Z0C1R3E1HHMKV9ZER3",
+    "monitor": "compress",
+    "driver": "bypass",
+    "sensor": "navigate"
   },
   {
-    "monitor": "synthesize",
-    "alarm": "program",
-    "matrix": "compress"
+    "matrix": "override",
+    "monitor": "parse",
+    "protocol": "compress"
   }
 ]

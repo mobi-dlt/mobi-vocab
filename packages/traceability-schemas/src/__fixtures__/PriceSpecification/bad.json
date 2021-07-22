@@ -1,20 +1,30 @@
 [
   {
-    "capacitor": "generate",
-    "bandwidth": "synthesize",
-    "application": "copy",
-    "matrix": "connect"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "price": 4693,
+    "protocol": "copy",
+    "program": "copy",
+    "monitor": "input"
   },
   {
-    "priceCurrency": "UAH",
-    "sensor": "transmit",
-    "transmitter": "program"
-  },
-  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
     "type": "PriceSpecification",
-    "price": 5259,
-    "priceCurrency": "GHS",
-    "bandwidth": "bypass",
-    "monitor": "compress"
+    "price": 490,
+    "bus": "program",
+    "feed": "copy",
+    "pixel": "navigate",
+    "circuit": "parse"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "PriceSpecification",
+    "priceCurrency": "CHF",
+    "bus": "transmit"
   }
 ]

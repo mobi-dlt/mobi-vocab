@@ -3,22 +3,28 @@
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "sourceCurrency": "UZS",
-    "chargesDestination": 726,
-    "array": "copy",
-    "monitor": "override",
-    "firewall": "parse",
-    "transmitter": "back up"
+    "type": "TotalCharge",
+    "totalCollect": 2009.25,
+    "destinationCurrency": "ILS",
+    "currencyConversionRate": 5,
+    "ccChargesDestinationCurrency": "EEK",
+    "chargesDestination": 299,
+    "totalCollectCharge": 74.75,
+    "driver": "copy",
+    "hard drive": "calculate",
+    "bus": "compress"
   },
   {
-    "destinationCurrency": "ZWL",
-    "protocol": "hack",
-    "driver": "input",
-    "capacitor": "input"
+    "type": "TotalCharge",
+    "totalPrepaid": 259.5,
+    "totalCollect": 86.5,
+    "destinationCurrency": "ZAR",
+    "ccChargesDestinationCurrency": "CRC",
+    "totalCollectCharge": 152,
+    "circuit": "synthesize"
   },
   {
-    "totalCollectCharge": 192.25,
-    "feed": "index",
-    "driver": "bypass"
+    "totalPrepaid": 3374.25,
+    "transmitter": "copy"
   }
 ]

@@ -1,52 +1,50 @@
 [
   {
-    "type": "VID",
-    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "manufacturer": {
-      "type": "Person",
-      "firstName": "Dion",
-      "lastName": "Ullrich",
-      "email": "Emmy_McCullough@example.org",
-      "phoneNumber": "555-237-4645",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Jacobson, Orn and Grimes",
-        "description": "Down-sized contextually-based standardization",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "8596 Wilkinson Circles",
-          "addressLocality": "South Santiagoburgh",
-          "addressRegion": "Ohio",
-          "postalCode": "15872",
-          "addressCountry": "Pitcairn Islands"
-        },
-        "email": "Gregory92@example.org",
-        "phoneNumber": "555-530-1452",
-        "faxNumber": "555-230-1656"
-      },
-      "jobTitle": "Dynamic Infrastructure Technician"
-    },
     "make": "Ford",
-    "model": "Mach_E",
-    "program": "navigate",
-    "interface": "calculate",
-    "application": "hack"
-  },
-  {
-    "monitor": "bypass",
-    "card": "reboot",
-    "bandwidth": "transmit",
-    "array": "hack"
+    "card": "reboot"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
+    "type": "VID",
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "make": "Ford",
     "model": "Mach_E",
-    "bus": "index",
-    "sensor": "connect",
-    "bandwidth": "override"
+    "vin": "JTERU5JR7M5861170",
+    "alarm": "calculate",
+    "matrix": "back up",
+    "bandwidth": "navigate",
+    "sensor": "parse"
+  },
+  {
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "manufacturer": {
+      "type": "Person",
+      "firstName": "Brandi",
+      "lastName": "Ritchie",
+      "email": "Emery.Wiza@example.net",
+      "phoneNumber": "555-937-6864",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Thompson, O'Connell and Emmerich",
+        "description": "Secured national pricing structure",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "4126 Fritz Islands",
+          "addressLocality": "North Rydermouth",
+          "addressRegion": "Georgia",
+          "postalCode": "58487",
+          "addressCountry": "Cote d'Ivoire"
+        },
+        "email": "Alfred.Grimes@example.com",
+        "phoneNumber": "555-434-6916",
+        "faxNumber": "555-882-5250"
+      },
+      "jobTitle": "Regional Quality Developer"
+    },
+    "model": "Mach_E",
+    "protocol": "navigate",
+    "feed": "bypass"
   }
 ]

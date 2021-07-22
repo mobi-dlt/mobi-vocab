@@ -4,181 +4,16 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIevidenceDocument",
-    "entity": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "LEIentity",
-      "legalName": "Morissette, Erdman and Harber",
-      "legalNameLanguage": "nl_BE",
-      "otherNames": [
-        "Medhurst Inc",
-        "Cronin - Kris"
-      ],
-      "transliteratedOtherNames": [
-        "Medhurst Inc",
-        "Cronin - Kris"
-      ],
-      "legalAddress": {
-        "type": "LEIaddress",
-        "language": "fr_CA",
-        "addressLines": [
-          "Rodriguez - Deckow",
-          "41507 Hartmann Ports"
-        ],
-        "addressNumber": "217",
-        "addressNumberWithinBuilding": "7",
-        "mailRouting": "594 Dooley Ports, 62040",
-        "city": "East Romaview",
-        "region": "Buckinghamshire",
-        "country": "Taiwan",
-        "postalCode": "89747"
-      },
-      "headquartersAddress": {
-        "type": "LEIaddress",
-        "language": "ru",
-        "addressLines": [
-          "Murphy - Hegmann",
-          "0585 Ian Pass"
-        ],
-        "addressNumber": "384",
-        "addressNumberWithinBuilding": "10",
-        "mailRouting": "73468 Pearlie Pine, 62952",
-        "city": "Herzogberg",
-        "region": "Berkshire",
-        "country": "Russian Federation",
-        "postalCode": "64687"
-      },
-      "registrationAuthority": {
-        "type": "LEIauthority",
-        "validationAuthorityID": "RA000004",
-        "otherValidationAuthorityID": "84RPEWL6",
-        "validationAuthorityEntityID": "M8DYI6EU2HF83VEGLIKC"
-      },
-      "legalJurisdiction": "Cambridgeshire",
-      "entityCategory": "Jewelery",
-      "legalForm": "CORPORATION",
-      "associatedEntity": {
-        "type": "Organization",
-        "leiCode": "MTH2NWJJLTSGHN1I5QF2",
-        "name": "O'Hara and Sons"
-      },
-      "status": "CONFIRMED",
-      "expirationDate": "2022-07-11",
-      "expirationReason": "redefine 24/365 ROI",
-      "successorEntity": {
-        "type": "Organization",
-        "leiCode": "UN0BLRL4EY8G88V2F6BI",
-        "name": "Hauck - Ortiz"
-      },
-      "otherAddresses": []
-    },
-    "registration": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "LEIregistration",
-      "initialRegistrationDate": "2020-01-01",
-      "lastUpdateDate": "2020-01-01",
-      "status": "REJECTED",
-      "nextRenewalDate": "2021-02-02",
-      "managingLou": "FOCAHZBDNGYBBQDFLEYC",
-      "validationSources": "FULLY_CORROBORATED",
-      "validationAuthority": [
-        {
-          "type": "LEIauthority",
-          "validationAuthorityID": "RA000005",
-          "otherValidationAuthorityID": "T5FG8LMY",
-          "validationAuthorityEntityID": "P96C6D1LQCNJHSUPTGLV"
-        }
-      ]
-    },
-    "bic": [
-      "CNPBOMRCYQ"
-    ],
-    "sensor": "parse",
-    "feed": "back up",
-    "driver": "parse",
-    "card": "calculate"
-  },
-  {
-    "port": "input",
-    "transmitter": "program"
+    "monitor": "synthesize",
+    "capacitor": "generate",
+    "driver": "transmit"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "lei": "3RM5GFL568QVVH7J360B",
-    "entity": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "LEIentity",
-      "legalName": "Heaney, Champlin and Schuppe",
-      "legalNameLanguage": "fa",
-      "otherNames": [
-        "Keebler - Kilback",
-        "Reilly, Pouros and Armstrong"
-      ],
-      "transliteratedOtherNames": [
-        "Keebler - Kilback",
-        "Reilly, Pouros and Armstrong"
-      ],
-      "legalAddress": {
-        "type": "LEIaddress",
-        "language": "it",
-        "addressLines": [
-          "Hauck, Mayert and Ullrich",
-          "68514 Farrell Haven"
-        ],
-        "addressNumber": "40",
-        "addressNumberWithinBuilding": "3",
-        "mailRouting": "3604 Annamarie Motorway, 80265-2856",
-        "city": "Kaceyberg",
-        "region": "Buckinghamshire",
-        "country": "Ethiopia",
-        "postalCode": "43160"
-      },
-      "headquartersAddress": {
-        "type": "LEIaddress",
-        "language": "zh_TW",
-        "addressLines": [
-          "Ondricka - Hettinger",
-          "3055 Vida Club"
-        ],
-        "addressNumber": "366",
-        "addressNumberWithinBuilding": "5",
-        "mailRouting": "66721 Boyer Mountains, 48703",
-        "city": "New Willard",
-        "region": "Cambridgeshire",
-        "country": "Mauritania",
-        "postalCode": "49321-3910"
-      },
-      "registrationAuthority": {
-        "type": "LEIauthority",
-        "validationAuthorityID": "RA000002",
-        "otherValidationAuthorityID": "ZQXRJ8UO",
-        "validationAuthorityEntityID": "I3M93SRV4LTIS5P214A8"
-      },
-      "legalJurisdiction": "Avon",
-      "entityCategory": "Industrial",
-      "legalForm": "CORPORATION",
-      "associatedEntity": {
-        "type": "Organization",
-        "leiCode": "N8L7JM89EML2H5Z94LPO",
-        "name": "Bogisich - Hegmann"
-      },
-      "status": "IN PROGRESS",
-      "expirationDate": "2022-07-11",
-      "expirationReason": "enhance real-time convergence",
-      "successorEntity": {
-        "type": "Organization",
-        "leiCode": "ATEAGXLVI5XSHKZKUE7I",
-        "name": "Hyatt, Carroll and Lindgren"
-      },
-      "otherAddresses": []
-    },
+    "type": "LEIevidenceDocument",
+    "lei": "N2WY8NXD27XHC735HM9I",
     "registration": {
       "@context": [
         "https://w3id.org/traceability/v1"
@@ -186,25 +21,100 @@
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",
       "lastUpdateDate": "2020-01-01",
-      "status": "REJECTED",
+      "status": "CONFIRMED",
       "nextRenewalDate": "2021-02-02",
-      "managingLou": "DMWIXPMDPXTVEINYKVDR",
-      "validationSources": "PARTIALLY_CORROBORATED",
+      "managingLou": "VTAJHRZUMYJGDKZDAZTY",
+      "validationSources": "NOT_CORROBORATED",
       "validationAuthority": [
         {
           "type": "LEIauthority",
-          "validationAuthorityID": "RA000661",
-          "otherValidationAuthorityID": "TMDOVJVP",
-          "validationAuthorityEntityID": "T5S7AT2BE065P8CYZKNX"
+          "validationAuthorityID": "RA000003",
+          "otherValidationAuthorityID": "6O1ZDNDK",
+          "validationAuthorityEntityID": "ZQGGC2KK3YY6MOR76JE3"
         }
       ]
     },
     "bic": [
-      "DBMALBLRRV"
+      "OGVRLKFLAX"
     ],
-    "protocol": "generate",
-    "application": "parse",
-    "bandwidth": "index",
-    "pixel": "copy"
+    "bandwidth": "transmit",
+    "application": "program"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIevidenceDocument",
+    "lei": "S5P214A89CCD3CX8JIAT",
+    "entity": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "LEIentity",
+      "legalName": "Stroman - Reichert",
+      "legalNameLanguage": "de_CH",
+      "otherNames": [
+        "Schumm - Murphy",
+        "Pacocha - Thiel"
+      ],
+      "transliteratedOtherNames": [
+        "Schumm - Murphy",
+        "Pacocha - Thiel"
+      ],
+      "legalAddress": {
+        "type": "LEIaddress",
+        "language": "en",
+        "addressLines": [
+          "Effertz, Haag and Schuppe",
+          "16239 Lucinda Walks"
+        ],
+        "addressNumber": "202",
+        "addressNumberWithinBuilding": "1",
+        "mailRouting": "851 Emanuel Manor, 64168-7813",
+        "city": "Vedabury",
+        "region": "Bedfordshire",
+        "country": "Belarus",
+        "postalCode": "16310-4051"
+      },
+      "headquartersAddress": {
+        "type": "LEIaddress",
+        "language": "en_CA",
+        "addressLines": [
+          "Block, Lowe and Sanford",
+          "95842 Lucile Course"
+        ],
+        "addressNumber": "217",
+        "addressNumberWithinBuilding": "6",
+        "mailRouting": "20666 Howe Islands, 57142",
+        "city": "South Zariamouth",
+        "region": "Avon",
+        "country": "Venezuela",
+        "postalCode": "66294"
+      },
+      "registrationAuthority": {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000003",
+        "otherValidationAuthorityID": "86524SA9",
+        "validationAuthorityEntityID": "36OO2MIMZ8T8M7B6MNIU"
+      },
+      "legalJurisdiction": "Buckinghamshire",
+      "entityCategory": "Jewelery",
+      "legalForm": "CORPORATION",
+      "associatedEntity": {
+        "type": "Organization",
+        "leiCode": "EAGXLVI5XSHKZKUE7IXE",
+        "name": "Torphy, Jakubowski and Kirlin"
+      },
+      "status": "REJECTED",
+      "expirationDate": "2022-07-11",
+      "expirationReason": "reinvent viral portals",
+      "successorEntity": {
+        "type": "Organization",
+        "leiCode": "IEHT6QDRY08E4HF0S9KR",
+        "name": "Collins, Dickens and Leuschke"
+      },
+      "otherAddresses": []
+    },
+    "port": "reboot"
   }
 ]

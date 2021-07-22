@@ -14,13 +14,13 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "GeoCoordinates",
-    "latitude": "-57.9536",
-    "longitude": "171.1949"
+    "latitude": "32.9731",
+    "longitude": "-173.3794"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..z6PWMjBNJPLzjO4sLvA5eV4ZTU9XfFmr8cii6bN8ou0r1yOtOE9ekXD0YgCZk2nkTFfxvu4xNrgJ8BLVEMVqDg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..19j15DsmfNr-mc3g5ICHd1a-TlOdOGJoV_e6QyAI2dBRWtXeSzs4Ckl6m-5eRjMf_Yy490JCO_mfsBIUS1ywDw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

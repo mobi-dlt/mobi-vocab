@@ -14,73 +14,73 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIevidenceDocument",
-    "lei": "4PW1LXM1MJAPXVYPMSSC",
+    "lei": "E9UN0BLRL4EY8G88V2F6",
     "entity": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": "LEIentity",
-      "legalName": "Morissette, Erdman and Harber",
-      "legalNameLanguage": "nl_BE",
+      "legalName": "Schoen, King and McDermott",
+      "legalNameLanguage": "it",
       "otherNames": [
-        "Medhurst Inc",
-        "Cronin - Kris"
+        "Hermiston, Ondricka and Lesch",
+        "Sauer - Sporer"
       ],
       "transliteratedOtherNames": [
-        "Medhurst Inc",
-        "Cronin - Kris"
+        "Hermiston, Ondricka and Lesch",
+        "Sauer - Sporer"
       ],
       "legalAddress": {
         "type": "LEIaddress",
-        "language": "fr_CA",
+        "language": "sk",
         "addressLines": [
-          "Rodriguez - Deckow",
-          "41507 Hartmann Ports"
+          "DuBuque - Lindgren",
+          "15290 Bonnie Bypass"
         ],
-        "addressNumber": "217",
-        "addressNumberWithinBuilding": "7",
-        "mailRouting": "594 Dooley Ports, 62040",
-        "city": "East Romaview",
-        "region": "Buckinghamshire",
-        "country": "Taiwan",
-        "postalCode": "89747"
+        "addressNumber": "135",
+        "addressNumberWithinBuilding": "10",
+        "mailRouting": "41903 Kurt Course, 61394",
+        "city": "Pfannerstilltown",
+        "region": "Avon",
+        "country": "Botswana",
+        "postalCode": "93698"
       },
       "headquartersAddress": {
         "type": "LEIaddress",
-        "language": "ru",
+        "language": "id_ID",
         "addressLines": [
-          "Murphy - Hegmann",
-          "0585 Ian Pass"
+          "Gaylord - Larkin",
+          "1101 Purdy Groves"
         ],
-        "addressNumber": "384",
-        "addressNumberWithinBuilding": "10",
-        "mailRouting": "73468 Pearlie Pine, 62952",
-        "city": "Herzogberg",
+        "addressNumber": "172",
+        "addressNumberWithinBuilding": "7",
+        "mailRouting": "276 Citlalli Divide, 76142",
+        "city": "Windlerville",
         "region": "Berkshire",
-        "country": "Russian Federation",
-        "postalCode": "64687"
+        "country": "Macedonia",
+        "postalCode": "66899"
       },
       "registrationAuthority": {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000004",
-        "otherValidationAuthorityID": "84RPEWL6",
-        "validationAuthorityEntityID": "M8DYI6EU2HF83VEGLIKC"
+        "validationAuthorityID": "RA000003",
+        "otherValidationAuthorityID": "DO0H8MTV",
+        "validationAuthorityEntityID": "VKR14XSOXOL7XNTEONK3"
       },
       "legalJurisdiction": "Cambridgeshire",
       "entityCategory": "Jewelery",
       "legalForm": "CORPORATION",
       "associatedEntity": {
         "type": "Organization",
-        "leiCode": "MTH2NWJJLTSGHN1I5QF2",
-        "name": "O'Hara and Sons"
+        "leiCode": "BIGCOT5FG8LMYP96C6D1",
+        "name": "Moen, Beahan and Hamill"
       },
-      "status": "CONFIRMED",
+      "status": "IN PROGRESS",
       "expirationDate": "2022-07-11",
-      "expirationReason": "redefine 24/365 ROI",
+      "expirationReason": "exploit best-of-breed blockchains",
       "successorEntity": {
         "type": "Organization",
-        "leiCode": "UN0BLRL4EY8G88V2F6BI",
-        "name": "Hauck - Ortiz"
+        "leiCode": "VRS3KAQ3VNERBXOFTWRV",
+        "name": "Hamill, Kertzmann and Stroman"
       },
       "otherAddresses": []
     },
@@ -91,27 +91,27 @@
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",
       "lastUpdateDate": "2020-01-01",
-      "status": "REJECTED",
+      "status": "REQUESTED",
       "nextRenewalDate": "2021-02-02",
-      "managingLou": "FOCAHZBDNGYBBQDFLEYC",
-      "validationSources": "FULLY_CORROBORATED",
+      "managingLou": "RQQTMNJOWYNWMXAVICJD",
+      "validationSources": "PARTIALLY_CORROBORATED",
       "validationAuthority": [
         {
           "type": "LEIauthority",
-          "validationAuthorityID": "RA000005",
-          "otherValidationAuthorityID": "T5FG8LMY",
-          "validationAuthorityEntityID": "P96C6D1LQCNJHSUPTGLV"
+          "validationAuthorityID": "RA000004",
+          "otherValidationAuthorityID": "TD4AJN0B",
+          "validationAuthorityEntityID": "BMDLEKPDDJGL8JDF802L"
         }
       ]
     },
     "bic": [
-      "CNPBOMRCYQ"
+      "NPGNKMQKIZ"
     ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AAudHaxNTpuqtvjNxOC9VBXVxA-PQ_vQ-Sv1JTdp3izRmsVuTbyIKAuNKYlt2mhQl2Vtx0lKvySHGc7CL3h4CA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..wnHJZEt03qB34vR2CkATn4a_QwWlB_ETLZYRoatdpY_0JA0DCGNLbWzLZJAcn5Ibpkc1McyPZMZYQ4yK8CUBCg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

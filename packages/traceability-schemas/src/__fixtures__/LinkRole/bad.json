@@ -1,13 +1,21 @@
 [
   {
-    "system": "navigate"
-  },
-  {
-    "target": "https://example.com/related/link/123",
-    "capacitor": "hack"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LinkRole",
+    "linkRelationship": "alternate",
+    "interface": "calculate"
   },
   {
     "type": "LinkRole",
-    "alarm": "parse"
+    "target": "https://example.com/related/link/123",
+    "driver": "back up"
+  },
+  {
+    "linkRelationship": "alternate",
+    "interface": "quantify",
+    "bus": "connect",
+    "firewall": "calculate"
   }
 ]

@@ -6,84 +6,41 @@
     "type": "Product",
     "manufacturer": {
       "type": "Person",
-      "firstName": "Eva",
-      "lastName": "Powlowski",
-      "email": "Jon36@example.net",
-      "phoneNumber": "555-169-6785",
+      "firstName": "Evalyn",
+      "lastName": "Trantow",
+      "email": "Immanuel_Dach@example.org",
+      "phoneNumber": "555-223-6417",
       "worksFor": {
         "type": "Organization",
-        "name": "Bernhard LLC",
-        "description": "Devolved clear-thinking solution",
+        "name": "Marquardt, Bailey and Larson",
+        "description": "Quality-focused global architecture",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "417 Howell Plains",
-          "addressLocality": "Kirstinborough",
-          "addressRegion": "Oregon",
-          "postalCode": "84892-6017",
-          "addressCountry": "Pakistan"
+          "streetAddress": "97855 Funk Prairie",
+          "addressLocality": "Ernserstad",
+          "addressRegion": "Missouri",
+          "postalCode": "70590",
+          "addressCountry": "Oman"
         },
-        "email": "Danika.Zemlak27@example.com",
-        "phoneNumber": "555-195-3925",
-        "faxNumber": "555-383-7176"
+        "email": "Talon_Kerluke@example.org",
+        "phoneNumber": "555-881-8463",
+        "faxNumber": "555-158-8910"
       },
-      "jobTitle": "Dynamic Brand Supervisor"
+      "jobTitle": "Investor Division Planner"
     },
-    "name": "Handmade Frozen Salad",
-    "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+    "name": "Handcrafted Granite Keyboard",
+    "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "3046"
+      "value": "7030"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "6535"
+      "value": "2382"
     },
-    "sku": "232770817487"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "Product",
-    "manufacturer": {
-      "type": "Person",
-      "firstName": "Juwan",
-      "lastName": "Grady",
-      "email": "Savion21@example.com",
-      "phoneNumber": "555-665-8464",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Shanahan, Romaguera and Price",
-        "description": "Self-enabling stable access",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "5134 Berniece Walks",
-          "addressLocality": "West Aida",
-          "addressRegion": "Arizona",
-          "postalCode": "70992",
-          "addressCountry": "Brunei Darussalam"
-        },
-        "email": "Vincent_Mraz30@example.net",
-        "phoneNumber": "555-872-7369",
-        "faxNumber": "555-362-9754"
-      },
-      "jobTitle": "International Research Designer"
-    },
-    "name": "Small Steel Towels",
-    "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-    "sizeOrAmount": {
-      "type": "QuantitativeValue",
-      "unitCode": "hg/ha",
-      "value": "974"
-    },
-    "weight": {
-      "type": "QuantitativeValue",
-      "unitCode": "hg/ha",
-      "value": "2426"
-    },
-    "sku": "283835610918"
+    "sku": "234192102804"
   },
   {
     "@context": [
@@ -92,32 +49,67 @@
     "type": "Product",
     "manufacturer": {
       "type": "Organization",
-      "name": "Steuber, Marvin and Lebsack",
-      "description": "Profound actuating database",
+      "name": "King - Goyette",
+      "description": "Multi-layered cohesive matrices",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "886 Eva Highway",
-        "addressLocality": "Yundtville",
-        "addressRegion": "New York",
-        "postalCode": "52872",
-        "addressCountry": "Antigua and Barbuda"
+        "streetAddress": "0820 Kozey Island",
+        "addressLocality": "Alvinaside",
+        "addressRegion": "Delaware",
+        "postalCode": "24943",
+        "addressCountry": "Kuwait"
       },
-      "email": "Dakota.Miller@example.net",
-      "phoneNumber": "555-486-6245",
-      "faxNumber": "555-340-9958"
+      "email": "Kaitlin.Abshire4@example.com",
+      "phoneNumber": "555-533-6602",
+      "faxNumber": "555-276-5227"
     },
-    "name": "Small Metal Pizza",
-    "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+    "name": "Ergonomic Plastic Pants",
+    "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "947"
+      "value": "8335"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "9098"
+      "value": "8441"
     },
-    "sku": "64696240330"
+    "sku": "802587655112"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Product",
+    "manufacturer": {
+      "type": "Organization",
+      "name": "Ratke, Gerlach and Mohr",
+      "description": "Progressive dynamic encoding",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "153 Kim Trail",
+        "addressLocality": "Bartellport",
+        "addressRegion": "North Dakota",
+        "postalCode": "09419-2133",
+        "addressCountry": "Ireland"
+      },
+      "email": "Miles_Wilkinson72@example.net",
+      "phoneNumber": "555-756-4699",
+      "faxNumber": "555-894-9168"
+    },
+    "name": "Small Metal Ball",
+    "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+    "sizeOrAmount": {
+      "type": "QuantitativeValue",
+      "unitCode": "hg/ha",
+      "value": "8631"
+    },
+    "weight": {
+      "type": "QuantitativeValue",
+      "unitCode": "hg/ha",
+      "value": "31"
+    },
+    "sku": "59534109920"
   }
 ]

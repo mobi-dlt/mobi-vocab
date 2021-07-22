@@ -1,16 +1,13 @@
 [
   {
     "type": "Brand",
-    "url": "https://brand.example.com",
-    "transmitter": "parse"
+    "alarm": "override"
   },
   {
-    "url": "https://brand.example.com",
-    "matrix": "bypass"
+    "program": "parse",
+    "bandwidth": "parse"
   },
   {
-    "microchip": "navigate",
-    "port": "navigate",
-    "feed": "input"
+    "array": "copy"
   }
 ]

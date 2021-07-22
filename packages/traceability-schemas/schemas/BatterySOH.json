@@ -19,20 +19,6 @@
                 }
             ]
         },
-        "sohCertID": {
-            "$comment": "{\"term\": \"sohCertID\", \"@id\": \"https://schema.org/identifier\"}",
-            "title": "sohCertID",
-            "description": "soh Cert ID",
-            "type": "string"
-        },
-
-        "sohCertIssuerID": {
-            "$comment": "{\"term\": \"sohCertIssuerID\", \"@id\": \"https://schema.org/PropertyValue\"}",
-            "title": "ssohCertIssuerID",
-            "description": "soh CertIssuer ID",
-            "type": "string"
-        },
-
         "batteryid": {
             "$comment": "{\"term\": \"batteryid\", \"@id\": \"https://w3id.org/traceability#BatteryID\"}",
             "title": "batteryid",

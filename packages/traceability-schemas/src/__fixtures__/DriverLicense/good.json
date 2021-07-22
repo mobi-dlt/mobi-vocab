@@ -1,0 +1,50 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "DriverLicense",
+    "legalName": "Matt Shi",
+    "licenseNumber": "licenseNumber123",
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000005",
+      "otherValidationAuthorityID": "FORQR83D",
+      "validationAuthorityEntityID": "WJIHTEBAW3E10YWU3CBY"
+    },
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "DriverLicense",
+    "legalName": "Matt Shi",
+    "licenseNumber": "licenseNumber123",
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000001",
+      "otherValidationAuthorityID": "FQVJCP4Y",
+      "validationAuthorityEntityID": "5ORUMV3U3FP82ETWP52I"
+    },
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "DriverLicense",
+    "legalName": "Matt Shi",
+    "licenseNumber": "licenseNumber123",
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000003",
+      "otherValidationAuthorityID": "FH90EGK2",
+      "validationAuthorityEntityID": "Q4R4TNQQOL8YEDHA2VJ8"
+    },
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11"
+  }
+]

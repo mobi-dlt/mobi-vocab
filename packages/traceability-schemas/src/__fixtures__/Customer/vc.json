@@ -14,22 +14,22 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Customer",
-    "name": "Alena Hirthe",
+    "name": "Sheridan Hauck",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "85802 Senger Bypass",
-      "addressLocality": "West Kaitlyn",
-      "addressRegion": "Connecticut",
-      "postalCode": "58722",
-      "addressCountry": "Venezuela"
+      "streetAddress": "9285 Fritsch Throughway",
+      "addressLocality": "North Remingtonburgh",
+      "addressRegion": "Maine",
+      "postalCode": "13587-2296",
+      "addressCountry": "Kenya"
     },
-    "telephone": "555-897-4041",
-    "email": "Aurelia_Kessler@example.com"
+    "telephone": "555-145-9010",
+    "email": "Garrick43@example.org"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..0sqxlvjLCHm1xk3tzdJZ3DMkcOd269_bEaUn-L-akJVOl7ifET4dFaZCWcg9O7JpgGorJhb7D5AJ2MWKikP5AA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..6xKerYX7tusJFs3BG25BGKwq2rkhWZBS4aemZ_odqDuElT2VsdPmEXxyanZqat8SYEAELb3qk6tKR7p9eLcNBw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

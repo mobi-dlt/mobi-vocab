@@ -17,34 +17,26 @@
       "Purchase"
     ],
     "customer": {
-      "type": "Person",
-      "firstName": "Breanna",
-      "lastName": "Tromp",
-      "email": "Bettye.Hilpert31@example.net",
-      "phoneNumber": "555-539-3603",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Bartell Group",
-        "description": "Innovative fresh-thinking capacity",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "68653 McClure Streets",
-          "addressLocality": "Macejkovicview",
-          "addressRegion": "Colorado",
-          "postalCode": "11942-0955",
-          "addressCountry": "Venezuela"
-        },
-        "email": "Albert.Haley45@example.com",
-        "phoneNumber": "555-222-4457",
-        "faxNumber": "555-189-1350"
+      "type": "Organization",
+      "name": "Romaguera - Stracke",
+      "description": "Networked maximized encryption",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "4801 Katharina Shoal",
+        "addressLocality": "North Penelopefurt",
+        "addressRegion": "Indiana",
+        "postalCode": "80991",
+        "addressCountry": "United States Minor Outlying Islands"
       },
-      "jobTitle": "Central Accountability Architect"
+      "email": "Jennyfer.Grant@example.com",
+      "phoneNumber": "555-516-5616",
+      "faxNumber": "555-982-1843"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..1ZDtuyCJRTZe3Nb1g7wAGs0CKjXDYBpwx2F3FxCHcp1G9scbjx5vwHXiH_g1FNO5xS4C8ZZpBFXQhhHE5dpDCg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..W-QEgK5NVNvVvt_JLia7C3zN2uvesnZ9_NYZA6NxZzFZKa0T1q8RzmTty8Wmsrmh3Q5Up4ZsiQM9KZUa9rySAg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

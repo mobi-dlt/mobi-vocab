@@ -13,33 +13,25 @@
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "type": "Person",
-    "firstName": "Kiel",
-    "lastName": "Kunde",
-    "email": "Arnulfo29@example.com",
-    "phoneNumber": "555-955-5342",
-    "worksFor": {
-      "type": "Organization",
-      "name": "Becker - Anderson",
-      "description": "User-friendly transitional solution",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "582 Nestor Lane",
-        "addressLocality": "Nickolasberg",
-        "addressRegion": "Colorado",
-        "postalCode": "95548",
-        "addressCountry": "Hong Kong"
-      },
-      "email": "Finn_Hammes67@example.org",
-      "phoneNumber": "555-388-3678",
-      "faxNumber": "555-905-1899"
+    "type": "Organization",
+    "name": "Gottlieb - Dach",
+    "description": "Digitized multimedia implementation",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "2624 Maverick Wells",
+      "addressLocality": "Gerardside",
+      "addressRegion": "Oregon",
+      "postalCode": "92990",
+      "addressCountry": "Togo"
     },
-    "jobTitle": "Investor Tactics Designer"
+    "email": "Fernando.Fay@example.com",
+    "phoneNumber": "555-455-5100",
+    "faxNumber": "555-196-6581"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ivFoSbBACAwkruL4auGfQrfAh6Np1RtX553B6PAnmQyNk9H2Kh1lrXzYZ1Qre_XqeqGuj4SRNruRkzBn1F7zDg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..3Ioabf8XKIdriiHkov_8ej7B7eFi9MKPYzcsXUqUEn-jxTE0y9Q1JOSnY-7mG94QTJmYEKe3BI_kkJkwDFcRCg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

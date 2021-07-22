@@ -1,20 +1,16 @@
 [
   {
-    "bandwidth": "generate",
-    "matrix": "override",
-    "firewall": "copy",
-    "pixel": "copy"
+    "sensor": "compress",
+    "protocol": "generate",
+    "interface": "calculate"
   },
   {
-    "latitude": "-77.9263",
-    "array": "override",
-    "sensor": "override",
-    "pixel": "back up",
-    "interface": "connect"
+    "longitude": "118.7071",
+    "panel": "compress"
   },
   {
-    "latitude": "60.5817",
-    "system": "connect",
-    "firewall": "generate"
+    "alarm": "connect",
+    "microchip": "quantify",
+    "circuit": "program"
   }
 ]

@@ -1,51 +1,39 @@
 [
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
+    "type": [
+      "Purchase"
     ],
-    "matrix": "hack",
-    "port": "quantify"
+    "pixel": "generate",
+    "capacitor": "connect"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
+    ],
+    "port": "input",
+    "program": "generate"
+  },
+  {
+    "type": [
+      "Purchase"
     ],
     "customer": {
-      "type": "Person",
-      "firstName": "Lisandro",
-      "lastName": "Schumm",
-      "email": "Corbin_Jacobson73@example.com",
-      "phoneNumber": "555-499-2354",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Wisoky Group",
-        "description": "Optional intermediate forecast",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "7591 Juvenal Manor",
-          "addressLocality": "Cathrynmouth",
-          "addressRegion": "Illinois",
-          "postalCode": "84338-2711",
-          "addressCountry": "Azerbaijan"
-        },
-        "email": "Kraig99@example.org",
-        "phoneNumber": "555-556-4082",
-        "faxNumber": "555-709-3432"
+      "type": "Organization",
+      "name": "Bogisich and Sons",
+      "description": "Multi-tiered object-oriented architecture",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "69802 Baumbach Alley",
+        "addressLocality": "Evansfort",
+        "addressRegion": "New York",
+        "postalCode": "01079-7868",
+        "addressCountry": "Saint Pierre and Miquelon"
       },
-      "jobTitle": "Human Paradigm Orchestrator"
+      "email": "Gwendolyn.Pfeffer@example.org",
+      "phoneNumber": "555-895-8613",
+      "faxNumber": "555-730-6522"
     },
-    "pixel": "connect",
-    "microchip": "input",
-    "interface": "hack",
-    "driver": "program"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "matrix": "connect",
-    "interface": "index",
-    "transmitter": "quantify",
-    "application": "quantify"
+    "hard drive": "bypass",
+    "alarm": "transmit"
   }
 ]

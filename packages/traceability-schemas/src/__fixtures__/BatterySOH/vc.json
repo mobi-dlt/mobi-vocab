@@ -14,8 +14,6 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "BatterySOH",
-    "sohCertID": "idnumber",
-    "sohCertIssuerID": "idnumber",
     "batteryid": {
       "type": "BatteryID",
       "vid": {
@@ -64,7 +62,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..DoD50S6q57a1prsxAC-EHY9-N8XKQXEhE_RnJr437-xLnTgE-SjqFREwkRwNCm6F8LNGGYygy0qpiPjC5a3mDA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..krNFrImAdjN28Qe8CpTLhVjaD0EkfxUp-M0wWNEFJvrVV_Qqmla7SB8bt6KYcUSVB34ssu9LVZdOvHnWn4P3Bw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

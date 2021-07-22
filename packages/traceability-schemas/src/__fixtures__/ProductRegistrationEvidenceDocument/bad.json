@@ -1,51 +1,40 @@
 [
   {
-    "type": "ProductRegistrationEvidenceDocument",
-    "category": "Specialty Goods",
-    "inProductGroupWithID": "Group668",
-    "gtin": "47342423619097",
-    "isAccessoryOrSparePartFor": "n/a",
-    "globalLocationNumber": "6706936301197",
-    "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "color": "fuchsia",
-    "material": "Steel",
-    "weight": "1.445 kg",
-    "height": "2.971 m",
-    "depth": "1.33 m",
-    "url": "https://example.com/Practical Wooden Soap",
-    "isBasedOn": "Refined Wooden Ball",
-    "image": "http://placeimg.com/640/480",
-    "port": "calculate",
-    "transmitter": "hack"
-  },
-  {
-    "isAccessoryOrSparePartFor": "n/a",
-    "firewall": "bypass",
-    "transmitter": "back up",
-    "matrix": "hack"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "productID": "JRW2E2BCQX",
+    "weight": "7.563 kg",
+    "card": "reboot"
   },
   {
     "type": "ProductRegistrationEvidenceDocument",
-    "category": "Dietary Supplement",
-    "inProductGroupWithID": "Group503",
-    "productID": "H3KE1W4TK7",
-    "mpn": "CGQTN2UDOU",
-    "gtin": "43050114726065",
-    "isAccessoryOrSparePartFor": "n/a",
-    "manufacturer": "Pacocha - Blick",
-    "globalLocationNumber": "3478430578019",
+    "category": "Convenience Goods",
+    "mpn": "N51WRCY5C0",
+    "gtin": "51772213961905",
+    "manufacturer": "Hoeger - Nienow",
+    "globalLocationNumber": "1060393494088",
     "leiCode": "",
-    "name": "Handcrafted Cotton Hat",
-    "model": "4dc973c6-d7d9-4ec6-95e9-05590b6b8582",
-    "color": "mint green",
-    "weight": "6.812 kg",
-    "height": "2.283 m",
-    "width": "1.403 m",
-    "depth": "9.011 m",
-    "url": "https://example.com/Handcrafted Cotton Hat",
-    "isBasedOn": "Handmade Plastic Sausages",
+    "model": "61c6941a-d985-4d39-b871-b22f730f88f2",
+    "color": "grey",
+    "material": "Wooden",
+    "weight": "1.351 kg",
+    "width": "1.278 m",
+    "url": "https://example.com/Awesome Steel Pants",
     "image": "http://placeimg.com/640/480",
-    "alarm": "back up",
-    "array": "navigate"
+    "array": "parse"
+  },
+  {
+    "type": "ProductRegistrationEvidenceDocument",
+    "inProductGroupWithID": "Group499",
+    "gtin": "55415777363255",
+    "isAccessoryOrSparePartFor": "n/a",
+    "manufacturer": "Littel - Cummings",
+    "leiCode": "",
+    "color": "teal",
+    "height": "9.945 m",
+    "depth": "8.923 m",
+    "image": "http://placeimg.com/640/480",
+    "matrix": "quantify"
   }
 ]

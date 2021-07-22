@@ -1,15 +1,22 @@
 [
   {
-    "hard drive": "calculate"
-  },
-  {
     "type": "LegalEntityIdentifierCredential",
-    "leiCode": "TR29F022IYWASR8MZDO7",
-    "certificateName": "US Legal Entity Certificate",
-    "pixel": "compress",
-    "application": "bypass"
+    "circuit": "input",
+    "system": "hack",
+    "panel": "connect"
   },
   {
-    "array": "bypass"
+    "interface": "transmit",
+    "firewall": "generate"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "leiCode": "I0URU1TQ07QYRDOBR5UB",
+    "bandwidth": "navigate",
+    "interface": "connect",
+    "alarm": "synthesize",
+    "application": "program"
   }
 ]

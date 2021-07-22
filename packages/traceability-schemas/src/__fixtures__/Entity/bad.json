@@ -3,43 +3,57 @@
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "firstName": "Kiel",
-    "bandwidth": "reboot"
-  },
-  {
-    "email": "Garry48@example.com",
-    "worksFor": {
-      "type": "Organization",
-      "name": "Feest Group",
-      "description": "Persevering explicit standardization",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "47853 Wisozk River",
-        "addressLocality": "New Noemyfort",
-        "addressRegion": "New Mexico",
-        "postalCode": "18047-2038",
-        "addressCountry": "Togo"
-      },
-      "email": "Shania94@example.com",
-      "phoneNumber": "555-735-2319",
-      "faxNumber": "555-173-5619"
-    },
-    "port": "back up",
-    "interface": "connect"
-  },
-  {
-    "name": "Wisozk, Luettgen and Baumbach",
+    "type": "Organization",
+    "description": "Digitized multimedia implementation",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "186 Marina Shoal",
-      "addressLocality": "Davidshire",
-      "addressRegion": "Massachusetts",
-      "postalCode": "42085",
-      "addressCountry": "Cyprus"
+      "streetAddress": "2624 Maverick Wells",
+      "addressLocality": "Gerardside",
+      "addressRegion": "Oregon",
+      "postalCode": "92990",
+      "addressCountry": "Togo"
     },
-    "phoneNumber": "555-492-9669",
-    "program": "synthesize",
-    "card": "connect",
-    "matrix": "calculate"
+    "email": "Fernando.Fay@example.com",
+    "phoneNumber": "555-455-5100",
+    "faxNumber": "555-196-6581",
+    "port": "copy",
+    "system": "synthesize",
+    "driver": "generate"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Person",
+    "pixel": "input",
+    "monitor": "parse",
+    "application": "program"
+  },
+  {
+    "type": "Person",
+    "firstName": "Alessandro",
+    "lastName": "Johnston",
+    "phoneNumber": "555-220-5320",
+    "worksFor": {
+      "type": "Organization",
+      "name": "Stehr Group",
+      "description": "Optional well-modulated knowledge base",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "12926 Thiel Falls",
+        "addressLocality": "Nikkistad",
+        "addressRegion": "Arizona",
+        "postalCode": "21064",
+        "addressCountry": "Macao"
+      },
+      "email": "Selmer_Schiller@example.org",
+      "phoneNumber": "555-528-7950",
+      "faxNumber": "555-848-5681"
+    },
+    "jobTitle": "Forward Implementation Agent",
+    "array": "quantify",
+    "pixel": "calculate",
+    "interface": "generate",
+    "system": "bypass"
   }
 ]

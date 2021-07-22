@@ -1,20 +1,18 @@
 [
   {
-    "microchip": "index",
-    "hard drive": "transmit",
-    "interface": "program",
-    "monitor": "override"
+    "feed": "back up",
+    "program": "navigate",
+    "circuit": "navigate",
+    "bus": "back up"
   },
   {
-    "transmitter": "synthesize"
+    "card": "generate",
+    "circuit": "quantify"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "chargeCollect": 757,
-    "chargePrepaid": 612,
-    "panel": "reboot",
-    "alarm": "hack"
+    "firewall": "index"
   }
 ]

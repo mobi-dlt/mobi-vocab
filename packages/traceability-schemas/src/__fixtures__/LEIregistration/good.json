@@ -8,14 +8,14 @@
     "lastUpdateDate": "2020-01-01",
     "status": "REJECTED",
     "nextRenewalDate": "2021-02-02",
-    "managingLou": "HZLGEDBDUHGCERRBQNQZ",
-    "validationSources": "FULLY_CORROBORATED",
+    "managingLou": "RBUBCAAYNTKJMHZJZUYR",
+    "validationSources": "NOT_CORROBORATED",
     "validationAuthority": [
       {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000004",
-        "otherValidationAuthorityID": "XIVF93UN",
-        "validationAuthorityEntityID": "070MLND5D2KS6G72HZR2"
+        "validationAuthorityID": "RA000661",
+        "otherValidationAuthorityID": "SGTMHNDW",
+        "validationAuthorityEntityID": "GM8MW2GIV53QZIFO1113"
       }
     ]
   },
@@ -28,14 +28,14 @@
     "lastUpdateDate": "2020-01-01",
     "status": "CONFIRMED",
     "nextRenewalDate": "2021-02-02",
-    "managingLou": "AVGQZFUBYBMJCGOQLMVG",
+    "managingLou": "BXZIUDHMZCPMPXTNVQRE",
     "validationSources": "FULLY_CORROBORATED",
     "validationAuthority": [
       {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000002",
-        "otherValidationAuthorityID": "7CDIEHT6",
-        "validationAuthorityEntityID": "QDRY08E4HF0S9KRO46JM"
+        "validationAuthorityID": "RA000004",
+        "otherValidationAuthorityID": "R29F022I",
+        "validationAuthorityEntityID": "YWASR8MZDO7049M9R2NY"
       }
     ]
   },
@@ -46,16 +46,16 @@
     "type": "LEIregistration",
     "initialRegistrationDate": "2020-01-01",
     "lastUpdateDate": "2020-01-01",
-    "status": "REQUESTED",
+    "status": "CONFIRMED",
     "nextRenewalDate": "2021-02-02",
-    "managingLou": "GXULVQMRKXLQFPXBLNWD",
-    "validationSources": "FULLY_CORROBORATED",
+    "managingLou": "XOGQTFLZVTSOUERBEIOT",
+    "validationSources": "NOT_CORROBORATED",
     "validationAuthority": [
       {
         "type": "LEIauthority",
         "validationAuthorityID": "RA000005",
-        "otherValidationAuthorityID": "8QNHTDME",
-        "validationAuthorityEntityID": "UGESYW4Y3SNBXOTF29AU"
+        "otherValidationAuthorityID": "83DDFJFD",
+        "validationAuthorityEntityID": "M5X98X4O7HV0NZAOTBVV"
       }
     ]
   }

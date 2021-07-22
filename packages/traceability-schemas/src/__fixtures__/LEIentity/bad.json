@@ -1,176 +1,173 @@
 [
   {
-    "type": "LEIentity",
-    "legalName": "Witting and Sons",
-    "legalNameLanguage": "en_US",
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "legalName": "Metz, Ziemann and Leffler",
+    "legalNameLanguage": "pt_PT",
+    "otherNames": [
+      "Murphy Group",
+      "Torp LLC"
+    ],
     "transliteratedOtherNames": [
-      "Cartwright LLC",
-      "Gulgowski, Dickinson and Walsh"
+      "Murphy Group",
+      "Torp LLC"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "pt_PT",
+      "language": "en_GB",
       "addressLines": [
-        "Rodriguez - Stoltenberg",
-        "8606 Fay Pine"
+        "Larkin - Rosenbaum",
+        "842 Rogahn Plaza"
       ],
-      "addressNumber": "228",
-      "addressNumberWithinBuilding": "4",
-      "mailRouting": "1408 Eusebio Ridge, 74053",
-      "city": "Lindgrenmouth",
-      "region": "Cambridgeshire",
-      "country": "Austria",
-      "postalCode": "63765-8468"
+      "addressNumber": "499",
+      "addressNumberWithinBuilding": "2",
+      "mailRouting": "0585 Koch Throughway, 32214-8098",
+      "city": "Bartonfort",
+      "region": "Buckinghamshire",
+      "country": "Lebanon",
+      "postalCode": "69570"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "en_CA",
+      "language": "en_IE",
       "addressLines": [
-        "Bailey - Koepp",
-        "153 Pietro Views"
+        "Funk - Hintz",
+        "45092 Sofia Court"
       ],
-      "addressNumber": "11",
-      "addressNumberWithinBuilding": "1",
-      "mailRouting": "90307 Bashirian Club, 46582",
-      "city": "Jacobimouth",
-      "region": "Cambridgeshire",
-      "country": "Taiwan",
-      "postalCode": "43457"
+      "addressNumber": "348",
+      "addressNumberWithinBuilding": "8",
+      "mailRouting": "98048 Laron Manors, 85366-5582",
+      "city": "Shakiraport",
+      "region": "Bedfordshire",
+      "country": "Albania",
+      "postalCode": "86281-8173"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
       "validationAuthorityID": "RA000661",
-      "otherValidationAuthorityID": "Q803GCAA",
-      "validationAuthorityEntityID": "UAP8L190WZ1F3DEO47YY"
+      "otherValidationAuthorityID": "U8PXO3MP",
+      "validationAuthorityEntityID": "R65VVYVG1VT04TC8QW50"
     },
-    "legalJurisdiction": "Cambridgeshire",
-    "entityCategory": "Finance",
-    "legalForm": "CORPORATION",
-    "associatedEntity": {
-      "type": "Organization",
-      "leiCode": "WHN7OZ1XO11PLXZ6KKHW",
-      "name": "McKenzie and Sons"
-    },
+    "legalJurisdiction": "Bedfordshire",
+    "entityCategory": "Jewelery",
+    "legalForm": "LLC",
     "expirationDate": "2022-07-11",
-    "expirationReason": "transition visionary web services",
-    "successorEntity": {
-      "type": "Organization",
-      "leiCode": "LGWMZ6QZ28EXUN8LTI48",
-      "name": "Dare and Sons"
-    },
-    "array": "transmit",
-    "protocol": "calculate",
-    "matrix": "override",
-    "circuit": "generate"
+    "expirationReason": "empower revolutionary e-commerce",
+    "otherAddresses": [],
+    "microchip": "synthesize",
+    "application": "bypass",
+    "capacitor": "copy",
+    "panel": "synthesize"
   },
   {
+    "type": "LEIentity",
+    "legalName": "Kuhn - Schuppe",
+    "legalNameLanguage": "it",
     "otherNames": [
-      "Medhurst Group",
-      "Stokes - Bosco"
+      "Hoppe, Bailey and Bergstrom",
+      "Schuster and Sons"
+    ],
+    "transliteratedOtherNames": [
+      "Hoppe, Bailey and Bergstrom",
+      "Schuster and Sons"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "en_IE",
+      "language": "en_GB",
       "addressLines": [
-        "Kreiger Group",
-        "83695 Grady Rue"
+        "Abbott, Kilback and Cronin",
+        "1481 Rey Mountain"
       ],
-      "addressNumber": "427",
-      "addressNumberWithinBuilding": "9",
-      "mailRouting": "2302 Amanda Ridge, 50921",
-      "city": "Sofiaton",
-      "region": "Cambridgeshire",
-      "country": "Armenia",
-      "postalCode": "80484-5598"
+      "addressNumber": "499",
+      "addressNumberWithinBuilding": "10",
+      "mailRouting": "228 Marilyne Cliffs, 61289",
+      "city": "Corwintown",
+      "region": "Berkshire",
+      "country": "Ethiopia",
+      "postalCode": "79948"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "id_ID",
+      "language": "ko",
       "addressLines": [
-        "Ondricka - Pagac",
-        "857 Dejon Track"
+        "Jacobi, Rowe and Goodwin",
+        "87272 Stroman Fall"
       ],
-      "addressNumber": "433",
-      "addressNumberWithinBuilding": "3",
-      "mailRouting": "181 Smith Road, 69616",
-      "city": "Nicholasville",
-      "region": "Borders",
-      "country": "Mali",
-      "postalCode": "88984"
+      "addressNumber": "156",
+      "addressNumberWithinBuilding": "5",
+      "mailRouting": "7358 Littel Mall, 11280-7174",
+      "city": "Lehnermouth",
+      "region": "Cambridgeshire",
+      "country": "Japan",
+      "postalCode": "67120"
     },
+    "entityCategory": "Industrial",
     "legalForm": "LLC",
-    "system": "input",
-    "alarm": "hack",
-    "pixel": "input",
-    "interface": "back up"
+    "associatedEntity": {
+      "type": "Organization",
+      "leiCode": "R2PKHC2M21UVZZOYGQN4",
+      "name": "Cormier - Anderson"
+    },
+    "status": "CONFIRMED",
+    "expirationDate": "2022-07-11",
+    "expirationReason": "optimize cross-platform niches",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "EHZLPANPRUYSW1QHQ358",
+      "name": "Yost LLC"
+    },
+    "otherAddresses": [],
+    "program": "synthesize",
+    "array": "quantify",
+    "application": "back up"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "type": "LEIentity",
-    "legalName": "Bode, Rutherford and Parisian",
+    "legalName": "Nienow, Casper and Quigley",
+    "legalNameLanguage": "ne",
     "otherNames": [
-      "Legros Group",
-      "Powlowski, Gusikowski and Ernser"
+      "Schuster, Dooley and Bauch",
+      "Osinski Inc"
     ],
     "transliteratedOtherNames": [
-      "Legros Group",
-      "Powlowski, Gusikowski and Ernser"
+      "Schuster, Dooley and Bauch",
+      "Osinski Inc"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "nb_NO",
+      "language": "ar",
       "addressLines": [
-        "Goodwin Group",
-        "7994 Violet Terrace"
+        "Weber - Morissette",
+        "989 Price Road"
       ],
-      "addressNumber": "76",
-      "addressNumberWithinBuilding": "1",
-      "mailRouting": "7249 Hammes Harbor, 72722-0867",
-      "city": "South Sam",
-      "region": "Cambridgeshire",
-      "country": "Uruguay",
-      "postalCode": "45911"
+      "addressNumber": "271",
+      "addressNumberWithinBuilding": "3",
+      "mailRouting": "368 Olson Manors, 55587-4460",
+      "city": "Caseychester",
+      "region": "Borders",
+      "country": "Australia",
+      "postalCode": "07052"
     },
-    "headquartersAddress": {
-      "type": "LEIaddress",
-      "language": "en_BORK",
-      "addressLines": [
-        "Bosco, Sanford and Cremin",
-        "067 Bartoletti Crescent"
-      ],
-      "addressNumber": "423",
-      "addressNumberWithinBuilding": "6",
-      "mailRouting": "996 Jake Estates, 01516",
-      "city": "Dellview",
-      "region": "Berkshire",
-      "country": "Samoa",
-      "postalCode": "22410-6532"
-    },
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000661",
-      "otherValidationAuthorityID": "LSFBZG50",
-      "validationAuthorityEntityID": "G2OEEHZLPANPRUYSW1QH"
-    },
-    "entityCategory": "Grocery",
-    "legalForm": "CORPORATION",
+    "legalJurisdiction": "Cambridgeshire",
+    "entityCategory": "Jewelery",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "20TBDHTR9O0G59GZXF3G",
-      "name": "Brakus Group"
+      "leiCode": "XB2IJ3VC21T2CEB4ZK7O",
+      "name": "Medhurst, Graham and Veum"
     },
-    "status": "REJECTED",
+    "status": "CONFIRMED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "enable value-added convergence",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "HM7PCKR0XB2IJ3VC21T2",
-      "name": "Hyatt - Hand"
+      "leiCode": "GMUQ84RPEWL6M8DYI6EU",
+      "name": "Kulas and Sons"
     },
-    "feed": "transmit",
-    "transmitter": "override",
-    "driver": "override"
+    "otherAddresses": [],
+    "hard drive": "navigate",
+    "alarm": "quantify",
+    "bandwidth": "hack"
   }
 ]

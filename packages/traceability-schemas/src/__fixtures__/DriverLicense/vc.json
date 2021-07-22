@@ -13,18 +13,22 @@
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "type": "PostalAddress",
-    "organizationName": "Parker Inc",
-    "streetAddress": "86298 Blick Circles",
-    "addressLocality": "Evachester",
-    "addressRegion": "Utah",
-    "postalCode": "23320-0734",
-    "addressCountry": "Niue"
+    "type": "DriverLicense",
+    "legalName": "Matt Shi",
+    "licenseNumber": "licenseNumber123",
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000005",
+      "otherValidationAuthorityID": "FORQR83D",
+      "validationAuthorityEntityID": "WJIHTEBAW3E10YWU3CBY"
+    },
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ffR1MMakQpNNYoDdVnKrHqvEE3gAhe_4Gq5r1uGft8mD8MMi4h9s8d0g-evaEc7EDav3uPB2_3iu4nTzxS3HBQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..mle2qPO7q7k1wKBqbyNxVn_AzGT8wuORp2R-hb6UtL6-Bhq44UwvzvsZJDkdA8WTSP1L7JOCFc7zCCNsKs9_Cg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

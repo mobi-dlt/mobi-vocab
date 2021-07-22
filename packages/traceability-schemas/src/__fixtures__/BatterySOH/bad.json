@@ -1,33 +1,45 @@
 [
   {
-    "type": "BatterySOH",
-    "newSOHTimeStamp": "2020-10-17",
+    "previousSOHTimeStamp": "2020-5-17",
+    "chargeCycles": "30",
+    "array": "copy",
     "circuit": "bypass",
-    "port": "compress"
+    "port": "compress",
+    "alarm": "index"
   },
   {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
     "type": "BatterySOH",
-    "sohCertID": "idnumber",
     "batteryid": {
       "type": "BatteryID",
       "vid": {
         "type": "VID",
         "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
         "manufacturer": {
-          "type": "Organization",
-          "name": "Bergnaum - Witting",
-          "description": "Exclusive well-modulated customer loyalty",
-          "address": {
-            "type": "PostalAddress",
-            "streetAddress": "8301 Hayley Mission",
-            "addressLocality": "East Mathilde",
-            "addressRegion": "Colorado",
-            "postalCode": "32913",
-            "addressCountry": "Cuba"
+          "type": "Person",
+          "firstName": "Jimmy",
+          "lastName": "Jenkins",
+          "email": "Alexanne_Gottlieb@example.org",
+          "phoneNumber": "555-648-9789",
+          "worksFor": {
+            "type": "Organization",
+            "name": "Franecki, Funk and Predovic",
+            "description": "Networked next generation encryption",
+            "address": {
+              "type": "PostalAddress",
+              "streetAddress": "15544 Blanca Fields",
+              "addressLocality": "West Deion",
+              "addressRegion": "West Virginia",
+              "postalCode": "32557",
+              "addressCountry": "India"
+            },
+            "email": "Eddie26@example.org",
+            "phoneNumber": "555-427-1584",
+            "faxNumber": "555-974-3285"
           },
-          "email": "Mauricio.Kuphal14@example.org",
-          "phoneNumber": "555-566-6022",
-          "faxNumber": "555-732-4634"
+          "jobTitle": "Investor Integration Developer"
         },
         "make": "Ford",
         "model": "Mach_E",
@@ -37,32 +49,49 @@
       "serialNumber": "snumber"
     },
     "previousSOHVal": "95",
-    "previousSOHTimeStamp": "2020-5-17",
-    "newSOHVal": "94",
+    "newSOHTimeStamp": "2020-10-17",
     "chargeCycles": "30",
     "maxCapacity": "87",
     "impedance": "70",
-    "firewall": "index",
-    "protocol": "back up",
-    "port": "navigate",
-    "circuit": "calculate"
+    "batteryAge": "1.2",
+    "matrix": "generate",
+    "program": "quantify"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "type": "BatterySOH",
-    "sohCertID": "idnumber",
-    "sohCertIssuerID": "idnumber",
-    "previousSOHVal": "95",
+    "batteryid": {
+      "type": "BatteryID",
+      "vid": {
+        "type": "VID",
+        "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+        "manufacturer": {
+          "type": "Organization",
+          "name": "Schowalter - Farrell",
+          "description": "Future-proofed multimedia artificial intelligence",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "27834 Lorena Point",
+            "addressLocality": "South Raymundo",
+            "addressRegion": "California",
+            "postalCode": "81351-6085",
+            "addressCountry": "Ghana"
+          },
+          "email": "Tristin.Pollich@example.org",
+          "phoneNumber": "555-709-2982",
+          "faxNumber": "555-114-7400"
+        },
+        "make": "Ford",
+        "model": "Mach_E",
+        "vin": "JTERU5JR7M5861170"
+      },
+      "batteryid": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+      "serialNumber": "snumber"
+    },
     "previousSOHTimeStamp": "2020-5-17",
     "newSOHVal": "94",
-    "chargeCycles": "30",
-    "maxCapacity": "87",
     "impedance": "70",
-    "batteryAge": "1.2",
-    "bandwidth": "override",
-    "capacitor": "generate",
-    "circuit": "synthesize"
+    "program": "reboot"
   }
 ]

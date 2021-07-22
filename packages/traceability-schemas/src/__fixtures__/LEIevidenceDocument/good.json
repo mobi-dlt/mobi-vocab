@@ -4,172 +4,73 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIevidenceDocument",
-    "lei": "4PW1LXM1MJAPXVYPMSSC",
+    "lei": "E9UN0BLRL4EY8G88V2F6",
     "entity": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": "LEIentity",
-      "legalName": "Morissette, Erdman and Harber",
-      "legalNameLanguage": "nl_BE",
+      "legalName": "Schoen, King and McDermott",
+      "legalNameLanguage": "it",
       "otherNames": [
-        "Medhurst Inc",
-        "Cronin - Kris"
+        "Hermiston, Ondricka and Lesch",
+        "Sauer - Sporer"
       ],
       "transliteratedOtherNames": [
-        "Medhurst Inc",
-        "Cronin - Kris"
+        "Hermiston, Ondricka and Lesch",
+        "Sauer - Sporer"
       ],
       "legalAddress": {
         "type": "LEIaddress",
-        "language": "fr_CA",
+        "language": "sk",
         "addressLines": [
-          "Rodriguez - Deckow",
-          "41507 Hartmann Ports"
+          "DuBuque - Lindgren",
+          "15290 Bonnie Bypass"
         ],
-        "addressNumber": "217",
-        "addressNumberWithinBuilding": "7",
-        "mailRouting": "594 Dooley Ports, 62040",
-        "city": "East Romaview",
-        "region": "Buckinghamshire",
-        "country": "Taiwan",
-        "postalCode": "89747"
+        "addressNumber": "135",
+        "addressNumberWithinBuilding": "10",
+        "mailRouting": "41903 Kurt Course, 61394",
+        "city": "Pfannerstilltown",
+        "region": "Avon",
+        "country": "Botswana",
+        "postalCode": "93698"
       },
       "headquartersAddress": {
         "type": "LEIaddress",
-        "language": "ru",
+        "language": "id_ID",
         "addressLines": [
-          "Murphy - Hegmann",
-          "0585 Ian Pass"
+          "Gaylord - Larkin",
+          "1101 Purdy Groves"
         ],
-        "addressNumber": "384",
-        "addressNumberWithinBuilding": "10",
-        "mailRouting": "73468 Pearlie Pine, 62952",
-        "city": "Herzogberg",
+        "addressNumber": "172",
+        "addressNumberWithinBuilding": "7",
+        "mailRouting": "276 Citlalli Divide, 76142",
+        "city": "Windlerville",
         "region": "Berkshire",
-        "country": "Russian Federation",
-        "postalCode": "64687"
+        "country": "Macedonia",
+        "postalCode": "66899"
       },
       "registrationAuthority": {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000004",
-        "otherValidationAuthorityID": "84RPEWL6",
-        "validationAuthorityEntityID": "M8DYI6EU2HF83VEGLIKC"
+        "validationAuthorityID": "RA000003",
+        "otherValidationAuthorityID": "DO0H8MTV",
+        "validationAuthorityEntityID": "VKR14XSOXOL7XNTEONK3"
       },
       "legalJurisdiction": "Cambridgeshire",
       "entityCategory": "Jewelery",
       "legalForm": "CORPORATION",
       "associatedEntity": {
         "type": "Organization",
-        "leiCode": "MTH2NWJJLTSGHN1I5QF2",
-        "name": "O'Hara and Sons"
-      },
-      "status": "CONFIRMED",
-      "expirationDate": "2022-07-11",
-      "expirationReason": "redefine 24/365 ROI",
-      "successorEntity": {
-        "type": "Organization",
-        "leiCode": "UN0BLRL4EY8G88V2F6BI",
-        "name": "Hauck - Ortiz"
-      },
-      "otherAddresses": []
-    },
-    "registration": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "LEIregistration",
-      "initialRegistrationDate": "2020-01-01",
-      "lastUpdateDate": "2020-01-01",
-      "status": "REJECTED",
-      "nextRenewalDate": "2021-02-02",
-      "managingLou": "FOCAHZBDNGYBBQDFLEYC",
-      "validationSources": "FULLY_CORROBORATED",
-      "validationAuthority": [
-        {
-          "type": "LEIauthority",
-          "validationAuthorityID": "RA000005",
-          "otherValidationAuthorityID": "T5FG8LMY",
-          "validationAuthorityEntityID": "P96C6D1LQCNJHSUPTGLV"
-        }
-      ]
-    },
-    "bic": [
-      "CNPBOMRCYQ"
-    ]
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "LEIevidenceDocument",
-    "lei": "9IIHCOJ5414B5PX7QO5Y",
-    "entity": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "LEIentity",
-      "legalName": "Waters Group",
-      "legalNameLanguage": "en_GB",
-      "otherNames": [
-        "Sipes - Stroman",
-        "Marks, Runte and Bartell"
-      ],
-      "transliteratedOtherNames": [
-        "Sipes - Stroman",
-        "Marks, Runte and Bartell"
-      ],
-      "legalAddress": {
-        "type": "LEIaddress",
-        "language": "uk",
-        "addressLines": [
-          "Mills, Emmerich and Weissnat",
-          "5136 Lelah Dam"
-        ],
-        "addressNumber": "197",
-        "addressNumberWithinBuilding": "7",
-        "mailRouting": "39849 Otha Track, 52718",
-        "city": "Guillermomouth",
-        "region": "Buckinghamshire",
-        "country": "Norfolk Island",
-        "postalCode": "96489"
-      },
-      "headquartersAddress": {
-        "type": "LEIaddress",
-        "language": "pt_BR",
-        "addressLines": [
-          "Schmeler, Hamill and Kertzmann",
-          "56033 Monahan Plaza"
-        ],
-        "addressNumber": "188",
-        "addressNumberWithinBuilding": "2",
-        "mailRouting": "5633 Metz Orchard, 53420",
-        "city": "New Leeville",
-        "region": "Buckinghamshire",
-        "country": "Taiwan",
-        "postalCode": "66745-3589"
-      },
-      "registrationAuthority": {
-        "type": "LEIauthority",
-        "validationAuthorityID": "RA000002",
-        "otherValidationAuthorityID": "IUHW0TC3",
-        "validationAuthorityEntityID": "D5EIK8JHLERJTQPPYI0T"
-      },
-      "legalJurisdiction": "Buckinghamshire",
-      "entityCategory": "Industrial",
-      "legalForm": "CORPORATION",
-      "associatedEntity": {
-        "type": "Organization",
-        "leiCode": "63QO5F8VY69ONUZYDO0H",
-        "name": "O'Connell, Bernier and Treutel"
+        "leiCode": "BIGCOT5FG8LMYP96C6D1",
+        "name": "Moen, Beahan and Hamill"
       },
       "status": "IN PROGRESS",
       "expirationDate": "2022-07-11",
-      "expirationReason": "enhance world-class experiences",
+      "expirationReason": "exploit best-of-breed blockchains",
       "successorEntity": {
         "type": "Organization",
-        "leiCode": "D27XHC735HM9IAOBXSJJ",
-        "name": "Hahn - Borer"
+        "leiCode": "VRS3KAQ3VNERBXOFTWRV",
+        "name": "Hamill, Kertzmann and Stroman"
       },
       "otherAddresses": []
     },
@@ -182,19 +83,19 @@
       "lastUpdateDate": "2020-01-01",
       "status": "REQUESTED",
       "nextRenewalDate": "2021-02-02",
-      "managingLou": "UVOJBNQCYAPQVNWPFUFQ",
+      "managingLou": "RQQTMNJOWYNWMXAVICJD",
       "validationSources": "PARTIALLY_CORROBORATED",
       "validationAuthority": [
         {
           "type": "LEIauthority",
-          "validationAuthorityID": "RA000003",
-          "otherValidationAuthorityID": "LPPE9ZET",
-          "validationAuthorityEntityID": "4I64OU6SI6PA3SK69XYF"
+          "validationAuthorityID": "RA000004",
+          "otherValidationAuthorityID": "TD4AJN0B",
+          "validationAuthorityEntityID": "BMDLEKPDDJGL8JDF802L"
         }
       ]
     },
     "bic": [
-      "EKJVTTZWPL"
+      "NPGNKMQKIZ"
     ]
   },
   {
@@ -202,73 +103,73 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIevidenceDocument",
-    "lei": "3RM5GFL568QVVH7J360B",
+    "lei": "N2WY8NXD27XHC735HM9I",
     "entity": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": "LEIentity",
-      "legalName": "Heaney, Champlin and Schuppe",
-      "legalNameLanguage": "fa",
+      "legalName": "Quitzon and Sons",
+      "legalNameLanguage": "en_AU_ocker",
       "otherNames": [
-        "Keebler - Kilback",
-        "Reilly, Pouros and Armstrong"
+        "Parker Group",
+        "Schmidt LLC"
       ],
       "transliteratedOtherNames": [
-        "Keebler - Kilback",
-        "Reilly, Pouros and Armstrong"
+        "Parker Group",
+        "Schmidt LLC"
       ],
       "legalAddress": {
         "type": "LEIaddress",
-        "language": "it",
+        "language": "pt_PT",
         "addressLines": [
-          "Hauck, Mayert and Ullrich",
-          "68514 Farrell Haven"
+          "Denesik - Gerhold",
+          "88530 Bertha Mountain"
         ],
-        "addressNumber": "40",
-        "addressNumberWithinBuilding": "3",
-        "mailRouting": "3604 Annamarie Motorway, 80265-2856",
-        "city": "Kaceyberg",
-        "region": "Buckinghamshire",
-        "country": "Ethiopia",
-        "postalCode": "43160"
+        "addressNumber": "213",
+        "addressNumberWithinBuilding": "5",
+        "mailRouting": "066 Shawna Stravenue, 27266-1438",
+        "city": "Trompmouth",
+        "region": "Cambridgeshire",
+        "country": "Turkmenistan",
+        "postalCode": "52273"
       },
       "headquartersAddress": {
         "type": "LEIaddress",
-        "language": "zh_TW",
+        "language": "en_IE",
         "addressLines": [
-          "Ondricka - Hettinger",
-          "3055 Vida Club"
+          "Senger, Stark and Kassulke",
+          "614 Candice Landing"
         ],
-        "addressNumber": "366",
-        "addressNumberWithinBuilding": "5",
-        "mailRouting": "66721 Boyer Mountains, 48703",
-        "city": "New Willard",
-        "region": "Cambridgeshire",
-        "country": "Mauritania",
-        "postalCode": "49321-3910"
+        "addressNumber": "405",
+        "addressNumberWithinBuilding": "1",
+        "mailRouting": "27884 Austin Field, 03626",
+        "city": "South Lowellberg",
+        "region": "Buckinghamshire",
+        "country": "Oman",
+        "postalCode": "36504"
       },
       "registrationAuthority": {
         "type": "LEIauthority",
         "validationAuthorityID": "RA000002",
-        "otherValidationAuthorityID": "ZQXRJ8UO",
-        "validationAuthorityEntityID": "I3M93SRV4LTIS5P214A8"
+        "otherValidationAuthorityID": "5Z94LPOE",
+        "validationAuthorityEntityID": "FFGPQO0ZC4T3LQCKW9R2"
       },
       "legalJurisdiction": "Avon",
-      "entityCategory": "Industrial",
-      "legalForm": "CORPORATION",
+      "entityCategory": "Grocery",
+      "legalForm": "LLC",
       "associatedEntity": {
         "type": "Organization",
-        "leiCode": "N8L7JM89EML2H5Z94LPO",
-        "name": "Bogisich - Hegmann"
+        "leiCode": "AOBXSJJKB3LPPE9ZET4I",
+        "name": "Mertz, Dicki and Jacobs"
       },
-      "status": "IN PROGRESS",
+      "status": "CONFIRMED",
       "expirationDate": "2022-07-11",
-      "expirationReason": "enhance real-time convergence",
+      "expirationReason": "seize one-to-one action-items",
       "successorEntity": {
         "type": "Organization",
-        "leiCode": "ATEAGXLVI5XSHKZKUE7I",
-        "name": "Hyatt, Carroll and Lindgren"
+        "leiCode": "CM2FIT2OS28NJ9VLNOJ8",
+        "name": "Koch and Sons"
       },
       "otherAddresses": []
     },
@@ -279,21 +180,120 @@
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",
       "lastUpdateDate": "2020-01-01",
-      "status": "REJECTED",
+      "status": "CONFIRMED",
       "nextRenewalDate": "2021-02-02",
-      "managingLou": "DMWIXPMDPXTVEINYKVDR",
-      "validationSources": "PARTIALLY_CORROBORATED",
+      "managingLou": "VTAJHRZUMYJGDKZDAZTY",
+      "validationSources": "NOT_CORROBORATED",
       "validationAuthority": [
         {
           "type": "LEIauthority",
-          "validationAuthorityID": "RA000661",
-          "otherValidationAuthorityID": "TMDOVJVP",
-          "validationAuthorityEntityID": "T5S7AT2BE065P8CYZKNX"
+          "validationAuthorityID": "RA000003",
+          "otherValidationAuthorityID": "6O1ZDNDK",
+          "validationAuthorityEntityID": "ZQGGC2KK3YY6MOR76JE3"
         }
       ]
     },
     "bic": [
-      "DBMALBLRRV"
+      "OGVRLKFLAX"
+    ]
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIevidenceDocument",
+    "lei": "S5P214A89CCD3CX8JIAT",
+    "entity": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "LEIentity",
+      "legalName": "Stroman - Reichert",
+      "legalNameLanguage": "de_CH",
+      "otherNames": [
+        "Schumm - Murphy",
+        "Pacocha - Thiel"
+      ],
+      "transliteratedOtherNames": [
+        "Schumm - Murphy",
+        "Pacocha - Thiel"
+      ],
+      "legalAddress": {
+        "type": "LEIaddress",
+        "language": "en",
+        "addressLines": [
+          "Effertz, Haag and Schuppe",
+          "16239 Lucinda Walks"
+        ],
+        "addressNumber": "202",
+        "addressNumberWithinBuilding": "1",
+        "mailRouting": "851 Emanuel Manor, 64168-7813",
+        "city": "Vedabury",
+        "region": "Bedfordshire",
+        "country": "Belarus",
+        "postalCode": "16310-4051"
+      },
+      "headquartersAddress": {
+        "type": "LEIaddress",
+        "language": "en_CA",
+        "addressLines": [
+          "Block, Lowe and Sanford",
+          "95842 Lucile Course"
+        ],
+        "addressNumber": "217",
+        "addressNumberWithinBuilding": "6",
+        "mailRouting": "20666 Howe Islands, 57142",
+        "city": "South Zariamouth",
+        "region": "Avon",
+        "country": "Venezuela",
+        "postalCode": "66294"
+      },
+      "registrationAuthority": {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000003",
+        "otherValidationAuthorityID": "86524SA9",
+        "validationAuthorityEntityID": "36OO2MIMZ8T8M7B6MNIU"
+      },
+      "legalJurisdiction": "Buckinghamshire",
+      "entityCategory": "Jewelery",
+      "legalForm": "CORPORATION",
+      "associatedEntity": {
+        "type": "Organization",
+        "leiCode": "EAGXLVI5XSHKZKUE7IXE",
+        "name": "Torphy, Jakubowski and Kirlin"
+      },
+      "status": "REJECTED",
+      "expirationDate": "2022-07-11",
+      "expirationReason": "reinvent viral portals",
+      "successorEntity": {
+        "type": "Organization",
+        "leiCode": "IEHT6QDRY08E4HF0S9KR",
+        "name": "Collins, Dickens and Leuschke"
+      },
+      "otherAddresses": []
+    },
+    "registration": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "LEIregistration",
+      "initialRegistrationDate": "2020-01-01",
+      "lastUpdateDate": "2020-01-01",
+      "status": "CONFIRMED",
+      "nextRenewalDate": "2021-02-02",
+      "managingLou": "GTQMVJPKWLKUYXDYCURI",
+      "validationSources": "NOT_CORROBORATED",
+      "validationAuthority": [
+        {
+          "type": "LEIauthority",
+          "validationAuthorityID": "RA000005",
+          "otherValidationAuthorityID": "M7B0U8MZ",
+          "validationAuthorityEntityID": "7S2Y1HD39JNGHU935H45"
+        }
+      ]
+    },
+    "bic": [
+      "RVLBEEDPVN"
     ]
   }
 ]

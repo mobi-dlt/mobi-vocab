@@ -4,67 +4,67 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIentity",
-    "legalName": "Witting and Sons",
-    "legalNameLanguage": "en_US",
+    "legalName": "Metz, Ziemann and Leffler",
+    "legalNameLanguage": "pt_PT",
     "otherNames": [
-      "Cartwright LLC",
-      "Gulgowski, Dickinson and Walsh"
+      "Murphy Group",
+      "Torp LLC"
     ],
     "transliteratedOtherNames": [
-      "Cartwright LLC",
-      "Gulgowski, Dickinson and Walsh"
+      "Murphy Group",
+      "Torp LLC"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "pt_PT",
+      "language": "en_GB",
       "addressLines": [
-        "Rodriguez - Stoltenberg",
-        "8606 Fay Pine"
+        "Larkin - Rosenbaum",
+        "842 Rogahn Plaza"
       ],
-      "addressNumber": "228",
-      "addressNumberWithinBuilding": "4",
-      "mailRouting": "1408 Eusebio Ridge, 74053",
-      "city": "Lindgrenmouth",
-      "region": "Cambridgeshire",
-      "country": "Austria",
-      "postalCode": "63765-8468"
+      "addressNumber": "499",
+      "addressNumberWithinBuilding": "2",
+      "mailRouting": "0585 Koch Throughway, 32214-8098",
+      "city": "Bartonfort",
+      "region": "Buckinghamshire",
+      "country": "Lebanon",
+      "postalCode": "69570"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "en_CA",
+      "language": "en_IE",
       "addressLines": [
-        "Bailey - Koepp",
-        "153 Pietro Views"
+        "Funk - Hintz",
+        "45092 Sofia Court"
       ],
-      "addressNumber": "11",
-      "addressNumberWithinBuilding": "1",
-      "mailRouting": "90307 Bashirian Club, 46582",
-      "city": "Jacobimouth",
-      "region": "Cambridgeshire",
-      "country": "Taiwan",
-      "postalCode": "43457"
+      "addressNumber": "348",
+      "addressNumberWithinBuilding": "8",
+      "mailRouting": "98048 Laron Manors, 85366-5582",
+      "city": "Shakiraport",
+      "region": "Bedfordshire",
+      "country": "Albania",
+      "postalCode": "86281-8173"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
       "validationAuthorityID": "RA000661",
-      "otherValidationAuthorityID": "Q803GCAA",
-      "validationAuthorityEntityID": "UAP8L190WZ1F3DEO47YY"
+      "otherValidationAuthorityID": "U8PXO3MP",
+      "validationAuthorityEntityID": "R65VVYVG1VT04TC8QW50"
     },
-    "legalJurisdiction": "Cambridgeshire",
-    "entityCategory": "Finance",
-    "legalForm": "CORPORATION",
+    "legalJurisdiction": "Bedfordshire",
+    "entityCategory": "Jewelery",
+    "legalForm": "LLC",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "WHN7OZ1XO11PLXZ6KKHW",
-      "name": "McKenzie and Sons"
+      "leiCode": "EXUN8LTI4816D716YSTC",
+      "name": "Lang, Gerlach and Adams"
     },
-    "status": "IN PROGRESS",
+    "status": "REQUESTED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "transition visionary web services",
+    "expirationReason": "empower revolutionary e-commerce",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "LGWMZ6QZ28EXUN8LTI48",
-      "name": "Dare and Sons"
+      "leiCode": "BZKM49DM0JTS43AR0JFY",
+      "name": "Heaney, Huel and Nader"
     },
     "otherAddresses": []
   },
@@ -73,67 +73,67 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIentity",
-    "legalName": "Thiel - Huel",
-    "legalNameLanguage": "hy",
+    "legalName": "Kuhn - Schuppe",
+    "legalNameLanguage": "it",
     "otherNames": [
-      "Medhurst Group",
-      "Stokes - Bosco"
+      "Hoppe, Bailey and Bergstrom",
+      "Schuster and Sons"
     ],
     "transliteratedOtherNames": [
-      "Medhurst Group",
-      "Stokes - Bosco"
+      "Hoppe, Bailey and Bergstrom",
+      "Schuster and Sons"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "en_IE",
+      "language": "en_GB",
       "addressLines": [
-        "Kreiger Group",
-        "83695 Grady Rue"
+        "Abbott, Kilback and Cronin",
+        "1481 Rey Mountain"
       ],
-      "addressNumber": "427",
-      "addressNumberWithinBuilding": "9",
-      "mailRouting": "2302 Amanda Ridge, 50921",
-      "city": "Sofiaton",
-      "region": "Cambridgeshire",
-      "country": "Armenia",
-      "postalCode": "80484-5598"
+      "addressNumber": "499",
+      "addressNumberWithinBuilding": "10",
+      "mailRouting": "228 Marilyne Cliffs, 61289",
+      "city": "Corwintown",
+      "region": "Berkshire",
+      "country": "Ethiopia",
+      "postalCode": "79948"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "id_ID",
+      "language": "ko",
       "addressLines": [
-        "Ondricka - Pagac",
-        "857 Dejon Track"
+        "Jacobi, Rowe and Goodwin",
+        "87272 Stroman Fall"
       ],
-      "addressNumber": "433",
-      "addressNumberWithinBuilding": "3",
-      "mailRouting": "181 Smith Road, 69616",
-      "city": "Nicholasville",
-      "region": "Borders",
-      "country": "Mali",
-      "postalCode": "88984"
+      "addressNumber": "156",
+      "addressNumberWithinBuilding": "5",
+      "mailRouting": "7358 Littel Mall, 11280-7174",
+      "city": "Lehnermouth",
+      "region": "Cambridgeshire",
+      "country": "Japan",
+      "postalCode": "67120"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000002",
-      "otherValidationAuthorityID": "1VT04TC8",
-      "validationAuthorityEntityID": "QW50TKTRI906A3MBZKM4"
+      "validationAuthorityID": "RA000003",
+      "otherValidationAuthorityID": "WXYM6SGH",
+      "validationAuthorityEntityID": "04L4LO8FK78H52NKB9LS"
     },
-    "legalJurisdiction": "Bedfordshire",
+    "legalJurisdiction": "Buckinghamshire",
     "entityCategory": "Industrial",
     "legalForm": "LLC",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "XLZI69EIRHPZ5WTG8M8Q",
-      "name": "Lindgren Group"
+      "leiCode": "R2PKHC2M21UVZZOYGQN4",
+      "name": "Cormier - Anderson"
     },
-    "status": "IN PROGRESS",
+    "status": "CONFIRMED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "embrace scalable solutions",
+    "expirationReason": "optimize cross-platform niches",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "R0JFYUCEM6XR3SX6OR2Y",
-      "name": "Cummerata LLC"
+      "leiCode": "EHZLPANPRUYSW1QHQ358",
+      "name": "Yost LLC"
     },
     "otherAddresses": []
   },
@@ -142,67 +142,67 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIentity",
-    "legalName": "Bode, Rutherford and Parisian",
-    "legalNameLanguage": "sk",
+    "legalName": "Nienow, Casper and Quigley",
+    "legalNameLanguage": "ne",
     "otherNames": [
-      "Legros Group",
-      "Powlowski, Gusikowski and Ernser"
+      "Schuster, Dooley and Bauch",
+      "Osinski Inc"
     ],
     "transliteratedOtherNames": [
-      "Legros Group",
-      "Powlowski, Gusikowski and Ernser"
+      "Schuster, Dooley and Bauch",
+      "Osinski Inc"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "nb_NO",
+      "language": "ar",
       "addressLines": [
-        "Goodwin Group",
-        "7994 Violet Terrace"
+        "Weber - Morissette",
+        "989 Price Road"
       ],
-      "addressNumber": "76",
-      "addressNumberWithinBuilding": "1",
-      "mailRouting": "7249 Hammes Harbor, 72722-0867",
-      "city": "South Sam",
-      "region": "Cambridgeshire",
-      "country": "Uruguay",
-      "postalCode": "45911"
+      "addressNumber": "271",
+      "addressNumberWithinBuilding": "3",
+      "mailRouting": "368 Olson Manors, 55587-4460",
+      "city": "Caseychester",
+      "region": "Borders",
+      "country": "Australia",
+      "postalCode": "07052"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "en_BORK",
+      "language": "ko",
       "addressLines": [
-        "Bosco, Sanford and Cremin",
-        "067 Bartoletti Crescent"
+        "Kris Group",
+        "3718 Okuneva Square"
       ],
-      "addressNumber": "423",
-      "addressNumberWithinBuilding": "6",
-      "mailRouting": "996 Jake Estates, 01516",
-      "city": "Dellview",
-      "region": "Berkshire",
-      "country": "Samoa",
-      "postalCode": "22410-6532"
+      "addressNumber": "165",
+      "addressNumberWithinBuilding": "10",
+      "mailRouting": "41507 Hartmann Ports, 59460-1462",
+      "city": "West Alexandraville",
+      "region": "Bedfordshire",
+      "country": "Nauru",
+      "postalCode": "84189"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000661",
-      "otherValidationAuthorityID": "LSFBZG50",
-      "validationAuthorityEntityID": "G2OEEHZLPANPRUYSW1QH"
+      "validationAuthorityID": "RA000003",
+      "otherValidationAuthorityID": "QEQUFMCQ",
+      "validationAuthorityEntityID": "DRZI1JVIKLF1QEHLVLWS"
     },
-    "legalJurisdiction": "Bedfordshire",
-    "entityCategory": "Grocery",
+    "legalJurisdiction": "Cambridgeshire",
+    "entityCategory": "Jewelery",
     "legalForm": "CORPORATION",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "20TBDHTR9O0G59GZXF3G",
-      "name": "Brakus Group"
+      "leiCode": "XB2IJ3VC21T2CEB4ZK7O",
+      "name": "Medhurst, Graham and Veum"
     },
-    "status": "REJECTED",
+    "status": "CONFIRMED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "enable value-added convergence",
+    "expirationReason": "aggregate dynamic systems",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "HM7PCKR0XB2IJ3VC21T2",
-      "name": "Hyatt - Hand"
+      "leiCode": "GMUQ84RPEWL6M8DYI6EU",
+      "name": "Kulas and Sons"
     },
     "otherAddresses": []
   }

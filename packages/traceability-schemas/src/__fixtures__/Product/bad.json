@@ -1,74 +1,91 @@
 [
   {
-    "manufacturer": {
-      "type": "Person",
-      "firstName": "Eva",
-      "lastName": "Powlowski",
-      "email": "Jon36@example.net",
-      "phoneNumber": "555-169-6785",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Bernhard LLC",
-        "description": "Devolved clear-thinking solution",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "417 Howell Plains",
-          "addressLocality": "Kirstinborough",
-          "addressRegion": "Oregon",
-          "postalCode": "84892-6017",
-          "addressCountry": "Pakistan"
-        },
-        "email": "Danika.Zemlak27@example.com",
-        "phoneNumber": "555-195-3925",
-        "faxNumber": "555-383-7176"
-      },
-      "jobTitle": "Dynamic Brand Supervisor"
-    },
-    "bus": "synthesize",
-    "driver": "quantify",
-    "microchip": "bypass",
-    "interface": "connect"
-  },
-  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
     "type": "Product",
     "manufacturer": {
       "type": "Person",
-      "firstName": "Juwan",
-      "lastName": "Grady",
-      "email": "Savion21@example.com",
-      "phoneNumber": "555-665-8464",
+      "firstName": "Evalyn",
+      "lastName": "Trantow",
+      "email": "Immanuel_Dach@example.org",
+      "phoneNumber": "555-223-6417",
       "worksFor": {
         "type": "Organization",
-        "name": "Shanahan, Romaguera and Price",
-        "description": "Self-enabling stable access",
+        "name": "Marquardt, Bailey and Larson",
+        "description": "Quality-focused global architecture",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "5134 Berniece Walks",
-          "addressLocality": "West Aida",
-          "addressRegion": "Arizona",
-          "postalCode": "70992",
-          "addressCountry": "Brunei Darussalam"
+          "streetAddress": "97855 Funk Prairie",
+          "addressLocality": "Ernserstad",
+          "addressRegion": "Missouri",
+          "postalCode": "70590",
+          "addressCountry": "Oman"
         },
-        "email": "Vincent_Mraz30@example.net",
-        "phoneNumber": "555-872-7369",
-        "faxNumber": "555-362-9754"
+        "email": "Talon_Kerluke@example.org",
+        "phoneNumber": "555-881-8463",
+        "faxNumber": "555-158-8910"
       },
-      "jobTitle": "International Research Designer"
+      "jobTitle": "Investor Division Planner"
     },
-    "name": "Small Steel Towels",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "974"
+      "value": "7030"
     },
-    "sku": "283835610918",
-    "program": "copy",
-    "monitor": "input"
+    "capacitor": "compress",
+    "pixel": "connect"
   },
   {
-    "system": "connect",
-    "application": "hack",
-    "pixel": "navigate",
-    "circuit": "hack"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "name": "Ergonomic Plastic Pants",
+    "weight": {
+      "type": "QuantitativeValue",
+      "unitCode": "hg/ha",
+      "value": "8441"
+    },
+    "sku": "802587655112",
+    "protocol": "reboot",
+    "port": "index"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Product",
+    "manufacturer": {
+      "type": "Organization",
+      "name": "Ratke, Gerlach and Mohr",
+      "description": "Progressive dynamic encoding",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "153 Kim Trail",
+        "addressLocality": "Bartellport",
+        "addressRegion": "North Dakota",
+        "postalCode": "09419-2133",
+        "addressCountry": "Ireland"
+      },
+      "email": "Miles_Wilkinson72@example.net",
+      "phoneNumber": "555-756-4699",
+      "faxNumber": "555-894-9168"
+    },
+    "name": "Small Metal Ball",
+    "sizeOrAmount": {
+      "type": "QuantitativeValue",
+      "unitCode": "hg/ha",
+      "value": "8631"
+    },
+    "weight": {
+      "type": "QuantitativeValue",
+      "unitCode": "hg/ha",
+      "value": "31"
+    },
+    "sku": "59534109920",
+    "feed": "compress",
+    "bandwidth": "calculate",
+    "interface": "transmit",
+    "system": "calculate"
   }
 ]

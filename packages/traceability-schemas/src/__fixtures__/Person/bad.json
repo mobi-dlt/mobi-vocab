@@ -4,44 +4,28 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Person",
-    "lastName": "Metz",
-    "jobTitle": "Product Web Officer",
-    "bandwidth": "synthesize"
+    "firstName": "Viva",
+    "lastName": "Heller",
+    "email": "Bethany72@example.org",
+    "phoneNumber": "555-952-6476",
+    "jobTitle": "Dynamic Group Engineer",
+    "hard drive": "generate",
+    "firewall": "parse",
+    "bandwidth": "compress"
+  },
+  {
+    "email": "Colleen87@example.com",
+    "circuit": "hack",
+    "bus": "compress",
+    "program": "parse"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "type": "Person",
-    "firstName": "Jayde",
-    "lastName": "Schmitt",
-    "email": "Jada_Wehner@example.com",
-    "worksFor": {
-      "type": "Organization",
-      "name": "Sawayn Group",
-      "description": "Balanced demand-driven solution",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "375 Columbus Village",
-        "addressLocality": "South Francisshire",
-        "addressRegion": "Kentucky",
-        "postalCode": "07058",
-        "addressCountry": "Mongolia"
-      },
-      "email": "Dangelo_Swaniawski@example.com",
-      "phoneNumber": "555-345-7279",
-      "faxNumber": "555-566-9366"
-    },
-    "jobTitle": "Direct Web Executive",
-    "sensor": "reboot",
-    "system": "transmit",
-    "monitor": "back up",
-    "application": "bypass"
-  },
-  {
-    "capacitor": "index",
-    "protocol": "transmit",
-    "system": "transmit",
-    "port": "calculate"
+    "lastName": "Nitzsche",
+    "email": "Cletus_Volkman52@example.com",
+    "circuit": "reboot",
+    "port": "override"
   }
 ]

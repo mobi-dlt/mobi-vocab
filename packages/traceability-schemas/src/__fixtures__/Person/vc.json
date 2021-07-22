@@ -14,32 +14,32 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Person",
-    "firstName": "Angie",
-    "lastName": "Metz",
-    "email": "Mya_Runolfsson93@example.net",
-    "phoneNumber": "555-434-2985",
+    "firstName": "Viva",
+    "lastName": "Heller",
+    "email": "Bethany72@example.org",
+    "phoneNumber": "555-952-6476",
     "worksFor": {
       "type": "Organization",
-      "name": "Larson, Lebsack and Kiehn",
-      "description": "Implemented bifurcated attitude",
+      "name": "Gerhold, Considine and O'Keefe",
+      "description": "Re-contextualized cohesive collaboration",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "7506 Lavonne Meadow",
-        "addressLocality": "Millsburgh",
-        "addressRegion": "Alaska",
-        "postalCode": "34601-0637",
-        "addressCountry": "Saudi Arabia"
+        "streetAddress": "35347 Tromp Inlet",
+        "addressLocality": "North Moshefurt",
+        "addressRegion": "Nevada",
+        "postalCode": "15893-0847",
+        "addressCountry": "Equatorial Guinea"
       },
-      "email": "Mustafa8@example.org",
-      "phoneNumber": "555-983-7369",
-      "faxNumber": "555-288-8097"
+      "email": "Eula97@example.com",
+      "phoneNumber": "555-661-7577",
+      "faxNumber": "555-545-9831"
     },
-    "jobTitle": "Product Web Officer"
+    "jobTitle": "Dynamic Group Engineer"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..m0-tqoFSJpZqX79uvautq0FEDHkHA2LXwYwbBBlkuisxu9nA6QKE4cXee2sf46xjSLIbTHq2TLGwhMkkmuOWBw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..9Q8y3CJwvt4d-Io3m0mJPnf1kzeJdx18Wa9WATiBxksMwuqqyZ9rwwvA1T5dIM_qJex4xBE9f9E9p69ZuUSrDQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }
