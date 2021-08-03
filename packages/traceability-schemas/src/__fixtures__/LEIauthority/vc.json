@@ -14,14 +14,14 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIauthority",
-    "validationAuthorityID": "RA000005",
-    "otherValidationAuthorityID": "1NLD8K4H",
-    "validationAuthorityEntityID": "2VPJCFQE2KBSJJSNBQMI"
+    "validationAuthorityID": "RA000661",
+    "otherValidationAuthorityID": "LRD020TB",
+    "validationAuthorityEntityID": "DHTR9O0G59GZXF3GU5IS"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UnrQGm6-_-2UAJUgjhfVFBC06vBdrdxbKzydPl0h4lqUquM2Qmgd0jPtic2H9glOIKkK2cnYbxVFKNuVdT0TCQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..pmKBYbNrDosLqvL8JVqRru1oGBzU9ISWkYrLb-M4qlLZVRxijr9a2qns9ig1mXtu2a05j7HURNZ5MEn4B8PjAg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

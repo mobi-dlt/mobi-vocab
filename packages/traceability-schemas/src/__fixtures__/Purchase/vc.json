@@ -17,26 +17,34 @@
       "Purchase"
     ],
     "customer": {
-      "type": "Organization",
-      "name": "Romaguera - Stracke",
-      "description": "Networked maximized encryption",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "4801 Katharina Shoal",
-        "addressLocality": "North Penelopefurt",
-        "addressRegion": "Indiana",
-        "postalCode": "80991",
-        "addressCountry": "United States Minor Outlying Islands"
+      "type": "Person",
+      "firstName": "Adonis",
+      "lastName": "Wunsch",
+      "email": "Clare_Simonis90@example.org",
+      "phoneNumber": "555-292-6601",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Wunsch, Ledner and Marks",
+        "description": "Down-sized demand-driven hub",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "068 Zaria Crest",
+          "addressLocality": "Legroshaven",
+          "addressRegion": "Maryland",
+          "postalCode": "69116",
+          "addressCountry": "Uruguay"
+        },
+        "email": "Tessie7@example.com",
+        "phoneNumber": "555-548-9953",
+        "faxNumber": "555-466-7405"
       },
-      "email": "Jennyfer.Grant@example.com",
-      "phoneNumber": "555-516-5616",
-      "faxNumber": "555-982-1843"
+      "jobTitle": "National Factors Developer"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..W-QEgK5NVNvVvt_JLia7C3zN2uvesnZ9_NYZA6NxZzFZKa0T1q8RzmTty8Wmsrmh3Q5Up4ZsiQM9KZUa9rySAg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..7Ia471OGfC_htopooOtqOOLlUEXdsJZepiZAqYGvSO2CQeFLIBbrZRoLFIkDt06bdYxhhuc6eHVb12ZD86sUAA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

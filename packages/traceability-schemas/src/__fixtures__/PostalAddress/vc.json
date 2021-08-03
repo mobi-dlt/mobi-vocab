@@ -14,17 +14,17 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "PostalAddress",
-    "organizationName": "Parker Inc",
-    "streetAddress": "86298 Blick Circles",
-    "addressLocality": "Evachester",
-    "addressRegion": "Utah",
-    "postalCode": "23320-0734",
-    "addressCountry": "Niue"
+    "organizationName": "Mayert, Von and Rowe",
+    "streetAddress": "0385 Hilpert Branch",
+    "addressLocality": "Alekchester",
+    "addressRegion": "Maryland",
+    "postalCode": "53511-4610",
+    "addressCountry": "Togo"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ffR1MMakQpNNYoDdVnKrHqvEE3gAhe_4Gq5r1uGft8mD8MMi4h9s8d0g-evaEc7EDav3uPB2_3iu4nTzxS3HBQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..rCQOHiDjK34CiQVOtvUx4cmF8cI4z3BAHLzjfuYugpPgkJJwwJLPMwXF-3aPPoKPe0AuQZw9hMYzeQEqcCp9AQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

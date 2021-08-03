@@ -14,13 +14,13 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "PriceSpecification",
-    "price": 4693,
-    "priceCurrency": "MDL"
+    "price": 7738,
+    "priceCurrency": "GNF"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..TzK1gxx5ABBgNoZQzeg-u14zrUU1exX-WfancDs0SuBQNsAVAbpJFJHmDtFjZWeIhBT0z6_0BgU16642gfY0Dw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..9SDKBtT_ZBb-YyhObMIkXLd8krC2id7fRkX8jrvXCPZ9JnVuHMO3yKjuHff1b4r1sMQF42lIG2592oCurBecDg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

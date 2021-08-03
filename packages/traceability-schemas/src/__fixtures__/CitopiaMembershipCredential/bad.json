@@ -1,0 +1,23 @@
+[
+  {
+    "holder": "holdernumber",
+    "circuit": "synthesize",
+    "pixel": "quantify",
+    "driver": "navigate",
+    "bandwidth": "reboot"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "CitopiaMembershipCredential",
+    "identifier": "idnumber",
+    "microchip": "synthesize"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "firewall": "navigate"
+  }
+]

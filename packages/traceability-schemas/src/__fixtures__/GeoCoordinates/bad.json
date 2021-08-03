@@ -1,16 +1,32 @@
 [
   {
-    "sensor": "compress",
-    "protocol": "generate",
-    "interface": "calculate"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "GeoCoordinates",
+    "longitude": "107.7897",
+    "port": "back up",
+    "pixel": "bypass",
+    "array": "copy",
+    "bandwidth": "transmit"
   },
   {
-    "longitude": "118.7071",
-    "panel": "compress"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "GeoCoordinates",
+    "latitude": "75.1165",
+    "feed": "connect",
+    "firewall": "override",
+    "bandwidth": "generate",
+    "capacitor": "program"
   },
   {
-    "alarm": "connect",
-    "microchip": "quantify",
-    "circuit": "program"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "feed": "calculate",
+    "bus": "parse",
+    "program": "reboot"
   }
 ]

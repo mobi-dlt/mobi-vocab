@@ -4,26 +4,26 @@
     "$comment": "{\"term\": \"DriverLicense\", \"@id\": \"https://w3id.org/traceability#DriverLicense\"}",
     "title": "DriverLicense",
     "description": "Driver License user use to register",
-	"type": "object",
-	"required": [
-        "legalName",       
-        "registrationAuthority",
-        "expirationDate"
-        ],
-		"properties": {
-			"@context": {
-				"type": "array"
-			  },
-			"type": {
-				"oneOf": [
-				  {
-					"type": "string"
-				  },
-				  {
-					"type": "array"
-				  }
-				]
-			},
+    "type": "object",
+    "required": [
+          "legalName",       
+          "registrationAuthority",
+          "expirationDate"
+          ],
+      "properties": {
+            "@context": {
+              "type": "array"
+              },
+            "type": {
+              "oneOf": [
+                {
+                "type": "string"
+                },
+                {
+                "type": "array"
+                }
+              ]
+            },
             "legalName": {
                 "$comment": "{\"term\": \"legalName\", \"@id\": \"https://schema.org/legalName\"}",
                 "title": "Legalname",

@@ -6,41 +6,41 @@
     "type": "Product",
     "manufacturer": {
       "type": "Person",
-      "firstName": "Evalyn",
-      "lastName": "Trantow",
-      "email": "Immanuel_Dach@example.org",
-      "phoneNumber": "555-223-6417",
+      "firstName": "Dion",
+      "lastName": "Ullrich",
+      "email": "Emmy_McCullough@example.org",
+      "phoneNumber": "555-237-4645",
       "worksFor": {
         "type": "Organization",
-        "name": "Marquardt, Bailey and Larson",
-        "description": "Quality-focused global architecture",
+        "name": "Orn - Grimes",
+        "description": "Down-sized contextually-based standardization",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "97855 Funk Prairie",
-          "addressLocality": "Ernserstad",
-          "addressRegion": "Missouri",
-          "postalCode": "70590",
-          "addressCountry": "Oman"
+          "streetAddress": "35168 Maxie Parkways",
+          "addressLocality": "North Verdieton",
+          "addressRegion": "Nebraska",
+          "postalCode": "26015-8727",
+          "addressCountry": "Kyrgyz Republic"
         },
-        "email": "Talon_Kerluke@example.org",
-        "phoneNumber": "555-881-8463",
-        "faxNumber": "555-158-8910"
+        "email": "Gregory92@example.org",
+        "phoneNumber": "555-145-2306",
+        "faxNumber": "555-165-7390"
       },
-      "jobTitle": "Investor Division Planner"
+      "jobTitle": "Dynamic Infrastructure Technician"
     },
-    "name": "Handcrafted Granite Keyboard",
-    "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+    "name": "Intelligent Plastic Shirt",
+    "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "7030"
+      "value": "9791"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "2382"
+      "value": "6039"
     },
-    "sku": "234192102804"
+    "sku": "759613837257"
   },
   {
     "@context": [
@@ -49,33 +49,33 @@
     "type": "Product",
     "manufacturer": {
       "type": "Organization",
-      "name": "King - Goyette",
-      "description": "Multi-layered cohesive matrices",
+      "name": "Senger LLC",
+      "description": "Re-contextualized 6th generation definition",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "0820 Kozey Island",
-        "addressLocality": "Alvinaside",
-        "addressRegion": "Delaware",
-        "postalCode": "24943",
-        "addressCountry": "Kuwait"
+        "streetAddress": "2472 Schneider Stream",
+        "addressLocality": "South Kelton",
+        "addressRegion": "Nebraska",
+        "postalCode": "19772",
+        "addressCountry": "Iceland"
       },
-      "email": "Kaitlin.Abshire4@example.com",
-      "phoneNumber": "555-533-6602",
-      "faxNumber": "555-276-5227"
+      "email": "Griffin0@example.net",
+      "phoneNumber": "555-547-2427",
+      "faxNumber": "555-355-8937"
     },
-    "name": "Ergonomic Plastic Pants",
-    "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+    "name": "Handmade Plastic Soap",
+    "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "8335"
+      "value": "5116"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "8441"
+      "value": "478"
     },
-    "sku": "802587655112"
+    "sku": "895727771917"
   },
   {
     "@context": [
@@ -84,32 +84,32 @@
     "type": "Product",
     "manufacturer": {
       "type": "Organization",
-      "name": "Ratke, Gerlach and Mohr",
-      "description": "Progressive dynamic encoding",
+      "name": "Prosacco, Padberg and Abshire",
+      "description": "Customer-focused clear-thinking database",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "153 Kim Trail",
-        "addressLocality": "Bartellport",
-        "addressRegion": "North Dakota",
-        "postalCode": "09419-2133",
-        "addressCountry": "Ireland"
+        "streetAddress": "25883 Syble Parkway",
+        "addressLocality": "Welchview",
+        "addressRegion": "Michigan",
+        "postalCode": "33996-0160",
+        "addressCountry": "Lesotho"
       },
-      "email": "Miles_Wilkinson72@example.net",
-      "phoneNumber": "555-756-4699",
-      "faxNumber": "555-894-9168"
+      "email": "Sebastian96@example.net",
+      "phoneNumber": "555-608-4488",
+      "faxNumber": "555-937-6694"
     },
-    "name": "Small Metal Ball",
-    "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+    "name": "Handcrafted Metal Sausages",
+    "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "8631"
+      "value": "7613"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "31"
+      "value": "9509"
     },
-    "sku": "59534109920"
+    "sku": "268975342992"
   }
 ]

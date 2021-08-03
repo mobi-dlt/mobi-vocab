@@ -14,22 +14,22 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Customer",
-    "name": "Sheridan Hauck",
+    "name": "Vince Bode",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "9285 Fritsch Throughway",
-      "addressLocality": "North Remingtonburgh",
-      "addressRegion": "Maine",
-      "postalCode": "13587-2296",
-      "addressCountry": "Kenya"
+      "streetAddress": "0716 Nienow View",
+      "addressLocality": "Larsonmouth",
+      "addressRegion": "North Carolina",
+      "postalCode": "46740-2531",
+      "addressCountry": "Saint Lucia"
     },
-    "telephone": "555-145-9010",
-    "email": "Garrick43@example.org"
+    "telephone": "555-122-2659",
+    "email": "Hilario.Predovic5@example.net"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..6xKerYX7tusJFs3BG25BGKwq2rkhWZBS4aemZ_odqDuElT2VsdPmEXxyanZqat8SYEAELb3qk6tKR7p9eLcNBw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vZ6jhT32Nd0KZxllBLPg1sjMWv7_XiedB0LSOjSTWa90_7q1cz38qj3svry-gjaupSbmKGewW7xS8X28WybZBA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

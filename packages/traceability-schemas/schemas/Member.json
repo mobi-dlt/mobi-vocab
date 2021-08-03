@@ -1,0 +1,43 @@
+{
+    "$id": "https://w3id.org/traceability/schemas/Member.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"Member\", \"@id\": \"https://w3id.org/traceability#Member\"}",
+    "title": "Member",
+    "description": "A member",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "firstName": {
+            "$comment": "{\"term\": \"firstName\", \"@id\": \"https://schema.org/givenName\"}",
+            "title": "First Name",
+            "description": "Person's first name.",
+            "type": "string"
+        },
+        "lastName": {
+            "$comment": "{\"term\": \"lastName\", \"@id\": \"https://schema.org/familyName\"}",
+            "title": "Last Name",
+            "description": "Person's last name.",
+            "type": "string"
+        },
+        "email": {
+            "$comment": "{\"term\": \"email\", \"@id\": \"https://schema.org/email\"}",
+            "title": "Person's Email Address",
+            "description": "Person's email address.",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}

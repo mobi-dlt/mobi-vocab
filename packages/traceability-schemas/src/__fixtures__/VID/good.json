@@ -6,88 +6,88 @@
     "type": "VID",
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "manufacturer": {
+      "type": "Person",
+      "firstName": "Duane",
+      "lastName": "Hane",
+      "email": "Troy_Kemmer1@example.org",
+      "phoneNumber": "555-191-9913",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Schaden - Osinski",
+        "description": "Re-engineered modular attitude",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "7846 Sawayn Circle",
+          "addressLocality": "West Art",
+          "addressRegion": "Michigan",
+          "postalCode": "66300",
+          "addressCountry": "Costa Rica"
+        },
+        "email": "Oscar_Johnson60@example.org",
+        "phoneNumber": "555-436-4432",
+        "faxNumber": "555-950-9838"
+      },
+      "jobTitle": "Senior Division Analyst"
+    },
+    "make": "Ford",
+    "model": "Mach_E",
+    "vin": "JTERU5JR7M5861170"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "VID",
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "manufacturer": {
+      "type": "Person",
+      "firstName": "Garett",
+      "lastName": "Fritsch",
+      "email": "Mariam_Klein61@example.com",
+      "phoneNumber": "555-733-9685",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Predovic LLC",
+        "description": "Multi-channelled mobile archive",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "62547 Eduardo Freeway",
+          "addressLocality": "Madisonchester",
+          "addressRegion": "Wisconsin",
+          "postalCode": "65010",
+          "addressCountry": "Tuvalu"
+        },
+        "email": "Kay.Gleichner@example.com",
+        "phoneNumber": "555-956-1615",
+        "faxNumber": "555-367-4873"
+      },
+      "jobTitle": "Customer Paradigm Designer"
+    },
+    "make": "Ford",
+    "model": "Mach_E",
+    "vin": "JTERU5JR7M5861170"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "VID",
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "manufacturer": {
       "type": "Organization",
-      "name": "Langosh Group",
-      "description": "Automated non-volatile definition",
+      "name": "Weimann - Will",
+      "description": "Enhanced foreground parallelism",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "1197 Jacobs Roads",
-        "addressLocality": "East Eda",
-        "addressRegion": "Vermont",
-        "postalCode": "86702",
-        "addressCountry": "Saint Helena"
+        "streetAddress": "69279 Douglas Trail",
+        "addressLocality": "McGlynnstad",
+        "addressRegion": "Oklahoma",
+        "postalCode": "60460",
+        "addressCountry": "Honduras"
       },
-      "email": "Mekhi58@example.com",
-      "phoneNumber": "555-462-3858",
-      "faxNumber": "555-192-1001"
-    },
-    "make": "Ford",
-    "model": "Mach_E",
-    "vin": "JTERU5JR7M5861170"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "VID",
-    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "manufacturer": {
-      "type": "Person",
-      "firstName": "Christ",
-      "lastName": "Wintheiser",
-      "email": "Noemie_Christiansen70@example.org",
-      "phoneNumber": "555-887-6997",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Ward - Nader",
-        "description": "Switchable next generation neural-net",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "8835 Sim Square",
-          "addressLocality": "Kerlukeview",
-          "addressRegion": "Virginia",
-          "postalCode": "39960",
-          "addressCountry": "Bouvet Island (Bouvetoya)"
-        },
-        "email": "Broderick71@example.org",
-        "phoneNumber": "555-718-1380",
-        "faxNumber": "555-544-6081"
-      },
-      "jobTitle": "Chief Paradigm Engineer"
-    },
-    "make": "Ford",
-    "model": "Mach_E",
-    "vin": "JTERU5JR7M5861170"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "VID",
-    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "manufacturer": {
-      "type": "Person",
-      "firstName": "Brandi",
-      "lastName": "Ritchie",
-      "email": "Emery.Wiza@example.net",
-      "phoneNumber": "555-937-6864",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Thompson, O'Connell and Emmerich",
-        "description": "Secured national pricing structure",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "4126 Fritz Islands",
-          "addressLocality": "North Rydermouth",
-          "addressRegion": "Georgia",
-          "postalCode": "58487",
-          "addressCountry": "Cote d'Ivoire"
-        },
-        "email": "Alfred.Grimes@example.com",
-        "phoneNumber": "555-434-6916",
-        "faxNumber": "555-882-5250"
-      },
-      "jobTitle": "Regional Quality Developer"
+      "email": "Lexus_Dickens21@example.net",
+      "phoneNumber": "555-624-9426",
+      "faxNumber": "555-327-5877"
     },
     "make": "Ford",
     "model": "Mach_E",

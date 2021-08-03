@@ -1,40 +1,65 @@
 [
   {
+    "type": "ProductRegistrationEvidenceDocument",
+    "category": "Convenience Goods",
+    "inProductGroupWithID": "Group528",
+    "productID": "G37MDRD01U",
+    "mpn": "R6EJTEUP7D",
+    "gtin": "65769612407498",
+    "releaseDate": "2020-01-07",
+    "globalLocationNumber": "6829418569104",
+    "leiCode": "",
+    "name": "Fantastic Granite Pizza",
+    "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+    "model": "cac90462-ea2b-4b5f-a06a-b739e1405a0d",
+    "color": "yellow",
+    "weight": "5.643 kg",
+    "height": "5.894 m",
+    "depth": "1.898 m",
+    "isBasedOn": "Refined Metal Chair",
+    "image": "http://placeimg.com/640/480",
+    "capacitor": "index"
+  },
+  {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "productID": "JRW2E2BCQX",
-    "weight": "7.563 kg",
-    "card": "reboot"
-  },
-  {
-    "type": "ProductRegistrationEvidenceDocument",
     "category": "Convenience Goods",
-    "mpn": "N51WRCY5C0",
-    "gtin": "51772213961905",
-    "manufacturer": "Hoeger - Nienow",
-    "globalLocationNumber": "1060393494088",
+    "mpn": "IEORBGR9R7",
+    "manufacturer": "Wolf Group",
     "leiCode": "",
-    "model": "61c6941a-d985-4d39-b871-b22f730f88f2",
-    "color": "grey",
-    "material": "Wooden",
-    "weight": "1.351 kg",
-    "width": "1.278 m",
-    "url": "https://example.com/Awesome Steel Pants",
+    "name": "Small Granite Fish",
+    "description": "The Football Is Good For Training And Recreational Purposes",
+    "model": "01c6c512-4605-445c-b835-a59094aa8fed",
+    "material": "Steel",
+    "height": "9.087 m",
+    "width": "8.468 m",
+    "depth": "8.049 m",
     "image": "http://placeimg.com/640/480",
-    "array": "parse"
+    "sensor": "input",
+    "protocol": "connect"
   },
   {
-    "type": "ProductRegistrationEvidenceDocument",
-    "inProductGroupWithID": "Group499",
-    "gtin": "55415777363255",
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "category": "Specialty Goods",
+    "inProductGroupWithID": "Group991",
+    "productID": "X8SJZNJNYK",
+    "gtin": "62279122743359",
     "isAccessoryOrSparePartFor": "n/a",
-    "manufacturer": "Littel - Cummings",
+    "releaseDate": "2020-01-07",
+    "manufacturer": "Sauer, Halvorson and Mayert",
+    "globalLocationNumber": "3486135952640",
     "leiCode": "",
-    "color": "teal",
-    "height": "9.945 m",
-    "depth": "8.923 m",
-    "image": "http://placeimg.com/640/480",
-    "matrix": "quantify"
+    "model": "fc8ae62a-a4c5-4fe5-8b78-e0bb0b2e07a3",
+    "material": "Steel",
+    "height": "4.741 m",
+    "width": "9.622 m",
+    "url": "https://example.com/Handcrafted Steel Towels",
+    "sensor": "generate",
+    "hard drive": "override",
+    "system": "connect",
+    "protocol": "quantify"
   }
 ]

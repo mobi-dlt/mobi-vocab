@@ -1,0 +1,29 @@
+{
+    "$id": "https://w3id.org/traceability/schemas/PrivacyPolicy.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"PrivacyPolicy\", \"@id\": \"https://w3id.org/traceability#PrivacyPolicy\"}",
+    "title": "PrivacyPolicy",
+    "description": "Driver License user use to register",
+    "type": "object",
+      "properties": {
+        "@context": {
+            "type": "array"
+          },
+              "type": {
+                "type": "array"
+              },
+
+            "issuanceDate": {
+                "$comment": "{\"term\": \"issuanceDate\", \"@id\": \"https://schema.org/Date\"}",
+                "title": "issuance Date",
+                "type": "string"
+            },
+            "expirationDate": {
+                "$comment": "{\"term\": \"expirationDate\", \"@id\": \"https://schema.org/expires\"}",
+                "title": "ExpirationDate",
+                "type": "string"
+            }
+    },
+	"additionalProperties": false,
+	"examples": []
+}

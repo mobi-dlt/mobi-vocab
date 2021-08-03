@@ -3,28 +3,24 @@
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "type": "TotalCharge",
-    "totalCollect": 2009.25,
-    "destinationCurrency": "ILS",
-    "currencyConversionRate": 5,
-    "ccChargesDestinationCurrency": "EEK",
-    "chargesDestination": 299,
-    "totalCollectCharge": 74.75,
-    "driver": "copy",
-    "hard drive": "calculate",
-    "bus": "compress"
+    "totalCollect": 1263.25,
+    "sourceCurrency": "AMD",
+    "destinationCurrency": "ISK",
+    "ccChargesDestinationCurrency": "AMD",
+    "hard drive": "parse",
+    "interface": "compress",
+    "panel": "program"
   },
   {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
     "type": "TotalCharge",
-    "totalPrepaid": 259.5,
-    "totalCollect": 86.5,
-    "destinationCurrency": "ZAR",
-    "ccChargesDestinationCurrency": "CRC",
-    "totalCollectCharge": 152,
-    "circuit": "synthesize"
+    "destinationCurrency": "SEK",
+    "port": "copy"
   },
   {
-    "totalPrepaid": 3374.25,
-    "transmitter": "copy"
+    "interface": "copy",
+    "microchip": "navigate"
   }
 ]

@@ -14,12 +14,12 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Invoice",
-    "identifier": "IN-63704"
+    "identifier": "IN-77958"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ZmOjsVOa76xy3w6WANKJU3FpEn1xYwetWO0oPP-JsyBB4vupFyss_Xa6mKAb4IWN4PSKzW1eoq77sLAo0pB-Ag",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..6DGI3xhkCdCGF9a4PcTYrbbAsSlsvHc_X_gusaNIE2w-JvcQVat0zBdv-o4FdqJ4MpM87PHBaKCRaIVJKV-bCA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

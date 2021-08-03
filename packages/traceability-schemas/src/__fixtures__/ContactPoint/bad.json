@@ -1,40 +1,27 @@
 [
   {
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "888 Shirley Knolls",
-      "addressLocality": "Rowenaton",
-      "addressRegion": "Washington",
-      "postalCode": "78665",
-      "addressCountry": "Algeria"
-    },
-    "driver": "compress",
-    "sensor": "copy",
-    "microchip": "input"
+    "hard drive": "parse"
   },
   {
-    "name": "Kerluke - Schimmel",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "763 Augustus Parks",
-      "addressLocality": "Fredyfurt",
-      "addressRegion": "Indiana",
-      "postalCode": "25993",
-      "addressCountry": "Latvia"
-    },
-    "email": "Jimmy_Oberbrunner@example.com",
-    "sensor": "copy",
-    "hard drive": "back up",
-    "application": "calculate"
+    "email": "Rosetta70@example.net",
+    "transmitter": "compress",
+    "bus": "calculate"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "type": "ContactPoint",
-    "email": "Rowland48@example.org",
-    "phoneNumber": "555-867-1678",
-    "capacitor": "program",
-    "feed": "reboot"
+    "name": "Konopelski Inc",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "6716 Gracie Circle",
+      "addressLocality": "Bechtelarhaven",
+      "addressRegion": "Vermont",
+      "postalCode": "03504",
+      "addressCountry": "Moldova"
+    },
+    "email": "Willie_Grant86@example.com",
+    "phoneNumber": "555-704-1323",
+    "driver": "transmit"
   }
 ]

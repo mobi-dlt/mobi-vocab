@@ -1,0 +1,32 @@
+[
+  {
+    "type": "IdentityCredential",
+    "legalName": "Matt Shi",
+    "issuanceDate": "2021-03-09",
+    "system": "input",
+    "interface": "bypass"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "IdentityCredential",
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11",
+    "monitor": "compress",
+    "driver": "bypass",
+    "sensor": "navigate"
+  },
+  {
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000661",
+      "otherValidationAuthorityID": "YYSS93LF",
+      "validationAuthorityEntityID": "ZVVYLGWMZ6QZ28EXUN8L"
+    },
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11",
+    "program": "back up",
+    "microchip": "parse"
+  }
+]

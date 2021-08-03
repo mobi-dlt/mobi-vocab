@@ -1,30 +1,27 @@
 [
   {
-    "name": "Larson, Lebsack and Kiehn",
-    "description": "Implemented bifurcated attitude",
+    "feed": "back up",
+    "protocol": "synthesize"
+  },
+  {
+    "sensor": "compress",
+    "bus": "navigate"
+  },
+  {
+    "type": "Organization",
+    "name": "Mraz, Reinger and Macejkovic",
+    "description": "Front-line modular service-desk",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "57506 Lavonne Meadow",
-      "addressLocality": "Millsburgh",
-      "addressRegion": "Alaska",
-      "postalCode": "34601-0637",
-      "addressCountry": "Saudi Arabia"
+      "streetAddress": "9814 Bauch Landing",
+      "addressLocality": "Lake Alejandrin",
+      "addressRegion": "Virginia",
+      "postalCode": "21872-9987",
+      "addressCountry": "Peru"
     },
-    "phoneNumber": "555-983-7369",
-    "faxNumber": "555-288-8097",
-    "monitor": "input",
-    "matrix": "input",
-    "capacitor": "copy",
-    "alarm": "override"
-  },
-  {
-    "email": "Anabel.Gerlach22@example.net",
-    "capacitor": "connect",
-    "feed": "hack"
-  },
-  {
-    "phoneNumber": "555-354-1513",
-    "bus": "back up",
-    "protocol": "bypass"
+    "phoneNumber": "555-824-8555",
+    "faxNumber": "555-116-9836",
+    "protocol": "back up",
+    "port": "compress"
   }
 ]

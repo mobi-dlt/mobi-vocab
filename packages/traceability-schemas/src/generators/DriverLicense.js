@@ -14,7 +14,7 @@ const getDriverLicense = () => {
     '@context': ['https://w3id.org/traceability/v1'],
     type: 'DriverLicense',
     legalName: 'Matt Shi',
-    licenseNumber: 'licenseNumber123',
+    licenseNumber: 'Y5327288',
     registrationAuthority: auth,
     issuanceDate: today,
     expirationDate: futureDate,

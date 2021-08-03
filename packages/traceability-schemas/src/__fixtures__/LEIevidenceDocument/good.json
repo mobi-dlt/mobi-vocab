@@ -4,172 +4,271 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIevidenceDocument",
-    "lei": "E9UN0BLRL4EY8G88V2F6",
+    "lei": "SA9QTUFOOT3RM5GFL568",
     "entity": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": "LEIentity",
-      "legalName": "Schoen, King and McDermott",
+      "legalName": "Padberg, Jakubowski and Kihn",
       "legalNameLanguage": "it",
       "otherNames": [
-        "Hermiston, Ondricka and Lesch",
-        "Sauer - Sporer"
+        "Kunze Inc",
+        "Goodwin, Collins and Metz"
       ],
       "transliteratedOtherNames": [
-        "Hermiston, Ondricka and Lesch",
-        "Sauer - Sporer"
+        "Kunze Inc",
+        "Goodwin, Collins and Metz"
       ],
       "legalAddress": {
         "type": "LEIaddress",
-        "language": "sk",
+        "language": "fr",
         "addressLines": [
-          "DuBuque - Lindgren",
-          "15290 Bonnie Bypass"
+          "Reilly, Pouros and Armstrong",
+          "67359 Arjun Garden"
         ],
-        "addressNumber": "135",
-        "addressNumberWithinBuilding": "10",
-        "mailRouting": "41903 Kurt Course, 61394",
-        "city": "Pfannerstilltown",
-        "region": "Avon",
-        "country": "Botswana",
-        "postalCode": "93698"
+        "addressNumber": "65",
+        "addressNumberWithinBuilding": "9",
+        "mailRouting": "06851 Hilll Knoll, 33604",
+        "city": "Ricoton",
+        "region": "Berkshire",
+        "country": "Yemen",
+        "postalCode": "80265-2856"
       },
       "headquartersAddress": {
         "type": "LEIaddress",
-        "language": "id_ID",
+        "language": "ne",
         "addressLines": [
-          "Gaylord - Larkin",
-          "1101 Purdy Groves"
+          "Feeney - Hane",
+          "93635 Isabella Well"
         ],
-        "addressNumber": "172",
+        "addressNumber": "96",
         "addressNumberWithinBuilding": "7",
-        "mailRouting": "276 Citlalli Divide, 76142",
-        "city": "Windlerville",
+        "mailRouting": "3055 Vida Club, 66721",
+        "city": "Haleighton",
+        "region": "Bedfordshire",
+        "country": "Kenya",
+        "postalCode": "48703"
+      },
+      "registrationAuthority": {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000005",
+        "otherValidationAuthorityID": "ANZSHXD8",
+        "validationAuthorityEntityID": "4EZ50ZQXRJ8UOI3M93SR"
+      },
+      "legalJurisdiction": "Berkshire",
+      "entityCategory": "Grocery",
+      "legalForm": "LLC",
+      "associatedEntity": {
+        "type": "Organization",
+        "leiCode": "QVVH7J360BN8L7JM89EM",
+        "name": "Lakin, Sauer and Cronin"
+      },
+      "status": "REJECTED",
+      "expirationDate": "2022-07-11",
+      "expirationReason": "streamline vertical infrastructures",
+      "successorEntity": {
+        "type": "Organization",
+        "leiCode": "A89CCD3CX8JIATEAGXLV",
+        "name": "Crooks - VonRueden"
+      },
+      "otherAddresses": []
+    },
+    "registration": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "LEIregistration",
+      "initialRegistrationDate": "2020-01-01",
+      "lastUpdateDate": "2020-01-01",
+      "status": "CONFIRMED",
+      "nextRenewalDate": "2021-02-02",
+      "managingLou": "AEDSFIYZOQYVODMWIXPM",
+      "validationSources": "FULLY_CORROBORATED",
+      "validationAuthority": [
+        {
+          "type": "LEIauthority",
+          "validationAuthorityID": "RA000002",
+          "otherValidationAuthorityID": "SHKZKUE7",
+          "validationAuthorityEntityID": "IXE4JTMDOVJVPT5S7AT2"
+        }
+      ]
+    },
+    "bic": [
+      "PXTVCIJOGG"
+    ]
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIevidenceDocument",
+    "lei": "I48Y2JRY4FLBXIVF93UN",
+    "entity": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "LEIentity",
+      "legalName": "Cartwright Group",
+      "legalNameLanguage": "ja",
+      "otherNames": [
+        "Gulgowski, Wyman and Keeling",
+        "Dach Inc"
+      ],
+      "transliteratedOtherNames": [
+        "Gulgowski, Wyman and Keeling",
+        "Dach Inc"
+      ],
+      "legalAddress": {
+        "type": "LEIaddress",
+        "language": "en_IE",
+        "addressLines": [
+          "Daugherty LLC",
+          "9282 Haag Plains"
+        ],
+        "addressNumber": "310",
+        "addressNumberWithinBuilding": "6",
+        "mailRouting": "66584 Schiller Roads, 44613-3544",
+        "city": "Darechester",
+        "region": "Avon",
+        "country": "Papua New Guinea",
+        "postalCode": "79024"
+      },
+      "headquartersAddress": {
+        "type": "LEIaddress",
+        "language": "en",
+        "addressLines": [
+          "Johnson - Aufderhar",
+          "115 Hane Plains"
+        ],
+        "addressNumber": "292",
+        "addressNumberWithinBuilding": "8",
+        "mailRouting": "82691 Williamson Squares, 43125",
+        "city": "Jacintoport",
+        "region": "Bedfordshire",
+        "country": "Senegal",
+        "postalCode": "20141-1832"
+      },
+      "registrationAuthority": {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000001",
+        "otherValidationAuthorityID": "QNHTDMEU",
+        "validationAuthorityEntityID": "GESYW4Y3SNBXOTF29AUX"
+      },
+      "legalJurisdiction": "Bedfordshire",
+      "entityCategory": "Industrial",
+      "legalForm": "LLC",
+      "associatedEntity": {
+        "type": "Organization",
+        "leiCode": "070MLND5D2KS6G72HZR2",
+        "name": "Koepp, Shanahan and Nienow"
+      },
+      "status": "CONFIRMED",
+      "expirationDate": "2022-07-11",
+      "expirationReason": "reintermediate 24/365 functionalities",
+      "successorEntity": {
+        "type": "Organization",
+        "leiCode": "GM8MW2GIV53QZIFO1113",
+        "name": "Rau, Okuneva and Bins"
+      },
+      "otherAddresses": []
+    },
+    "registration": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "LEIregistration",
+      "initialRegistrationDate": "2020-01-01",
+      "lastUpdateDate": "2020-01-01",
+      "status": "CONFIRMED",
+      "nextRenewalDate": "2021-02-02",
+      "managingLou": "LACCNZXHUTFQZJRFADGP",
+      "validationSources": "FULLY_CORROBORATED",
+      "validationAuthority": [
+        {
+          "type": "LEIauthority",
+          "validationAuthorityID": "RA000001",
+          "otherValidationAuthorityID": "S2301YIQ",
+          "validationAuthorityEntityID": "DCGAZCYRXNS6C6E3JNTR"
+        }
+      ]
+    },
+    "bic": [
+      "UBQYLTDBMA"
+    ]
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIevidenceDocument",
+    "lei": "KXQITMN541C3XL83DDFJ",
+    "entity": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "LEIentity",
+      "legalName": "Ernser, Koelpin and Wolff",
+      "legalNameLanguage": "sk",
+      "otherNames": [
+        "Stamm, Gerlach and VonRueden",
+        "Funk - Nicolas"
+      ],
+      "transliteratedOtherNames": [
+        "Stamm, Gerlach and VonRueden",
+        "Funk - Nicolas"
+      ],
+      "legalAddress": {
+        "type": "LEIaddress",
+        "language": "pl",
+        "addressLines": [
+          "Lynch, Sanford and Davis",
+          "7929 Rempel Mountains"
+        ],
+        "addressNumber": "89",
+        "addressNumberWithinBuilding": "4",
+        "mailRouting": "11670 Cristal Stravenue, 51837",
+        "city": "South Nikolas",
+        "region": "Avon",
+        "country": "Norfolk Island",
+        "postalCode": "75621-5160"
+      },
+      "headquartersAddress": {
+        "type": "LEIaddress",
+        "language": "sv",
+        "addressLines": [
+          "Nicolas - Terry",
+          "5082 Shanna Run"
+        ],
+        "addressNumber": "81",
+        "addressNumberWithinBuilding": "2",
+        "mailRouting": "201 Polly Knoll, 23577-8661",
+        "city": "Fionabury",
         "region": "Berkshire",
-        "country": "Macedonia",
-        "postalCode": "66899"
+        "country": "Saint Martin",
+        "postalCode": "55508-7808"
       },
       "registrationAuthority": {
         "type": "LEIauthority",
         "validationAuthorityID": "RA000003",
-        "otherValidationAuthorityID": "DO0H8MTV",
-        "validationAuthorityEntityID": "VKR14XSOXOL7XNTEONK3"
+        "otherValidationAuthorityID": "Q07QYRDO",
+        "validationAuthorityEntityID": "BR5UBGVIZ4DDGNPSV7L4"
       },
       "legalJurisdiction": "Cambridgeshire",
       "entityCategory": "Jewelery",
       "legalForm": "CORPORATION",
       "associatedEntity": {
         "type": "Organization",
-        "leiCode": "BIGCOT5FG8LMYP96C6D1",
-        "name": "Moen, Beahan and Hamill"
+        "leiCode": "FDM5X98X4O7HV0NZAOTB",
+        "name": "Predovic Inc"
       },
-      "status": "IN PROGRESS",
-      "expirationDate": "2022-07-11",
-      "expirationReason": "exploit best-of-breed blockchains",
-      "successorEntity": {
-        "type": "Organization",
-        "leiCode": "VRS3KAQ3VNERBXOFTWRV",
-        "name": "Hamill, Kertzmann and Stroman"
-      },
-      "otherAddresses": []
-    },
-    "registration": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "LEIregistration",
-      "initialRegistrationDate": "2020-01-01",
-      "lastUpdateDate": "2020-01-01",
       "status": "REQUESTED",
-      "nextRenewalDate": "2021-02-02",
-      "managingLou": "RQQTMNJOWYNWMXAVICJD",
-      "validationSources": "PARTIALLY_CORROBORATED",
-      "validationAuthority": [
-        {
-          "type": "LEIauthority",
-          "validationAuthorityID": "RA000004",
-          "otherValidationAuthorityID": "TD4AJN0B",
-          "validationAuthorityEntityID": "BMDLEKPDDJGL8JDF802L"
-        }
-      ]
-    },
-    "bic": [
-      "NPGNKMQKIZ"
-    ]
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "LEIevidenceDocument",
-    "lei": "N2WY8NXD27XHC735HM9I",
-    "entity": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "LEIentity",
-      "legalName": "Quitzon and Sons",
-      "legalNameLanguage": "en_AU_ocker",
-      "otherNames": [
-        "Parker Group",
-        "Schmidt LLC"
-      ],
-      "transliteratedOtherNames": [
-        "Parker Group",
-        "Schmidt LLC"
-      ],
-      "legalAddress": {
-        "type": "LEIaddress",
-        "language": "pt_PT",
-        "addressLines": [
-          "Denesik - Gerhold",
-          "88530 Bertha Mountain"
-        ],
-        "addressNumber": "213",
-        "addressNumberWithinBuilding": "5",
-        "mailRouting": "066 Shawna Stravenue, 27266-1438",
-        "city": "Trompmouth",
-        "region": "Cambridgeshire",
-        "country": "Turkmenistan",
-        "postalCode": "52273"
-      },
-      "headquartersAddress": {
-        "type": "LEIaddress",
-        "language": "en_IE",
-        "addressLines": [
-          "Senger, Stark and Kassulke",
-          "614 Candice Landing"
-        ],
-        "addressNumber": "405",
-        "addressNumberWithinBuilding": "1",
-        "mailRouting": "27884 Austin Field, 03626",
-        "city": "South Lowellberg",
-        "region": "Buckinghamshire",
-        "country": "Oman",
-        "postalCode": "36504"
-      },
-      "registrationAuthority": {
-        "type": "LEIauthority",
-        "validationAuthorityID": "RA000002",
-        "otherValidationAuthorityID": "5Z94LPOE",
-        "validationAuthorityEntityID": "FFGPQO0ZC4T3LQCKW9R2"
-      },
-      "legalJurisdiction": "Avon",
-      "entityCategory": "Grocery",
-      "legalForm": "LLC",
-      "associatedEntity": {
-        "type": "Organization",
-        "leiCode": "AOBXSJJKB3LPPE9ZET4I",
-        "name": "Mertz, Dicki and Jacobs"
-      },
-      "status": "CONFIRMED",
       "expirationDate": "2022-07-11",
-      "expirationReason": "seize one-to-one action-items",
+      "expirationReason": "utilize extensible initiatives",
       "successorEntity": {
         "type": "Organization",
-        "leiCode": "CM2FIT2OS28NJ9VLNOJ8",
-        "name": "Koch and Sons"
+        "leiCode": "C6SD3ELVHINQ23K8KPK1",
+        "name": "Kuhlman - Padberg"
       },
       "otherAddresses": []
     },
@@ -182,118 +281,19 @@
       "lastUpdateDate": "2020-01-01",
       "status": "CONFIRMED",
       "nextRenewalDate": "2021-02-02",
-      "managingLou": "VTAJHRZUMYJGDKZDAZTY",
-      "validationSources": "NOT_CORROBORATED",
+      "managingLou": "GCJFBPUTTZTYHQEKQQMU",
+      "validationSources": "FULLY_CORROBORATED",
       "validationAuthority": [
         {
           "type": "LEIauthority",
-          "validationAuthorityID": "RA000003",
-          "otherValidationAuthorityID": "6O1ZDNDK",
-          "validationAuthorityEntityID": "ZQGGC2KK3YY6MOR76JE3"
+          "validationAuthorityID": "RA000661",
+          "otherValidationAuthorityID": "LSL90TBH",
+          "validationAuthorityEntityID": "M252PCQSZP7STIIFD54B"
         }
       ]
     },
     "bic": [
-      "OGVRLKFLAX"
-    ]
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "LEIevidenceDocument",
-    "lei": "S5P214A89CCD3CX8JIAT",
-    "entity": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "LEIentity",
-      "legalName": "Stroman - Reichert",
-      "legalNameLanguage": "de_CH",
-      "otherNames": [
-        "Schumm - Murphy",
-        "Pacocha - Thiel"
-      ],
-      "transliteratedOtherNames": [
-        "Schumm - Murphy",
-        "Pacocha - Thiel"
-      ],
-      "legalAddress": {
-        "type": "LEIaddress",
-        "language": "en",
-        "addressLines": [
-          "Effertz, Haag and Schuppe",
-          "16239 Lucinda Walks"
-        ],
-        "addressNumber": "202",
-        "addressNumberWithinBuilding": "1",
-        "mailRouting": "851 Emanuel Manor, 64168-7813",
-        "city": "Vedabury",
-        "region": "Bedfordshire",
-        "country": "Belarus",
-        "postalCode": "16310-4051"
-      },
-      "headquartersAddress": {
-        "type": "LEIaddress",
-        "language": "en_CA",
-        "addressLines": [
-          "Block, Lowe and Sanford",
-          "95842 Lucile Course"
-        ],
-        "addressNumber": "217",
-        "addressNumberWithinBuilding": "6",
-        "mailRouting": "20666 Howe Islands, 57142",
-        "city": "South Zariamouth",
-        "region": "Avon",
-        "country": "Venezuela",
-        "postalCode": "66294"
-      },
-      "registrationAuthority": {
-        "type": "LEIauthority",
-        "validationAuthorityID": "RA000003",
-        "otherValidationAuthorityID": "86524SA9",
-        "validationAuthorityEntityID": "36OO2MIMZ8T8M7B6MNIU"
-      },
-      "legalJurisdiction": "Buckinghamshire",
-      "entityCategory": "Jewelery",
-      "legalForm": "CORPORATION",
-      "associatedEntity": {
-        "type": "Organization",
-        "leiCode": "EAGXLVI5XSHKZKUE7IXE",
-        "name": "Torphy, Jakubowski and Kirlin"
-      },
-      "status": "REJECTED",
-      "expirationDate": "2022-07-11",
-      "expirationReason": "reinvent viral portals",
-      "successorEntity": {
-        "type": "Organization",
-        "leiCode": "IEHT6QDRY08E4HF0S9KR",
-        "name": "Collins, Dickens and Leuschke"
-      },
-      "otherAddresses": []
-    },
-    "registration": {
-      "@context": [
-        "https://w3id.org/traceability/v1"
-      ],
-      "type": "LEIregistration",
-      "initialRegistrationDate": "2020-01-01",
-      "lastUpdateDate": "2020-01-01",
-      "status": "CONFIRMED",
-      "nextRenewalDate": "2021-02-02",
-      "managingLou": "GTQMVJPKWLKUYXDYCURI",
-      "validationSources": "NOT_CORROBORATED",
-      "validationAuthority": [
-        {
-          "type": "LEIauthority",
-          "validationAuthorityID": "RA000005",
-          "otherValidationAuthorityID": "M7B0U8MZ",
-          "validationAuthorityEntityID": "7S2Y1HD39JNGHU935H45"
-        }
-      ]
-    },
-    "bic": [
-      "RVLBEEDPVN"
+      "DRKZSVZCPM"
     ]
   }
 ]

@@ -1,31 +1,58 @@
 [
   {
+    "firstName": "Rickie",
+    "system": "connect",
+    "card": "reboot"
+  },
+  {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
     "type": "Person",
-    "firstName": "Viva",
-    "lastName": "Heller",
-    "email": "Bethany72@example.org",
-    "phoneNumber": "555-952-6476",
-    "jobTitle": "Dynamic Group Engineer",
-    "hard drive": "generate",
-    "firewall": "parse",
-    "bandwidth": "compress"
-  },
-  {
-    "email": "Colleen87@example.com",
-    "circuit": "hack",
-    "bus": "compress",
-    "program": "parse"
+    "firstName": "Jany",
+    "worksFor": {
+      "type": "Organization",
+      "name": "Kozey - Roberts",
+      "description": "Visionary impactful data-warehouse",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "141 Lonie Place",
+        "addressLocality": "New Pasquale",
+        "addressRegion": "Oklahoma",
+        "postalCode": "26511-2374",
+        "addressCountry": "Vietnam"
+      },
+      "email": "Guy.Bernier0@example.com",
+      "phoneNumber": "555-687-3364",
+      "faxNumber": "555-955-3444"
+    },
+    "jobTitle": "Central Usability Architect",
+    "sensor": "quantify"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "lastName": "Nitzsche",
-    "email": "Cletus_Volkman52@example.com",
-    "circuit": "reboot",
-    "port": "override"
+    "firstName": "Scottie",
+    "phoneNumber": "555-556-6173",
+    "worksFor": {
+      "type": "Organization",
+      "name": "Gottlieb, Hyatt and Schumm",
+      "description": "Cloned directional middleware",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "55508 Erdman Avenue",
+        "addressLocality": "Bashirianhaven",
+        "addressRegion": "Colorado",
+        "postalCode": "34845",
+        "addressCountry": "Cuba"
+      },
+      "email": "Beth_Lemke@example.net",
+      "phoneNumber": "555-561-4571",
+      "faxNumber": "555-364-1399"
+    },
+    "jobTitle": "District Research Representative",
+    "monitor": "index",
+    "circuit": "reboot"
   }
 ]

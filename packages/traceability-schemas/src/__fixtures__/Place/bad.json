@@ -1,15 +1,30 @@
 [
   {
-    "matrix": "program"
+    "type": "Place",
+    "globalLocationNumber": "7038487742628",
+    "address": {
+      "type": "PostalAddress",
+      "organizationName": "Hagenes, Gulgowski and Senger",
+      "streetAddress": "998 Stracke Roads",
+      "addressLocality": "Abbytown",
+      "addressRegion": "Oklahoma",
+      "postalCode": "80068",
+      "addressCountry": "Panama"
+    },
+    "transmitter": "connect",
+    "alarm": "navigate"
   },
   {
-    "globalLocationNumber": "9818042484747",
-    "transmitter": "calculate",
-    "sensor": "transmit",
-    "array": "compress"
+    "firewall": "bypass",
+    "transmitter": "back up",
+    "matrix": "hack"
   },
   {
-    "feed": "back up",
-    "card": "copy"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "globalLocationNumber": "7253941479838",
+    "system": "compress",
+    "transmitter": "connect"
   }
 ]

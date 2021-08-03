@@ -1,18 +1,25 @@
 [
   {
-    "unitCode": "hg/ha",
-    "firewall": "program"
-  },
-  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
     "type": "QuantitativeValue",
-    "unitCode": "hg/ha",
-    "value": "6821",
-    "bus": "transmit",
-    "program": "synthesize",
-    "sensor": "back up"
+    "value": "2054",
+    "microchip": "copy",
+    "card": "quantify"
   },
   {
-    "unitCode": "hg/ha",
-    "program": "program"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "QuantitativeValue",
+    "value": "337",
+    "array": "bypass"
+  },
+  {
+    "transmitter": "program",
+    "protocol": "copy",
+    "monitor": "synthesize",
+    "application": "input"
   }
 ]

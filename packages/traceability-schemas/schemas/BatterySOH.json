@@ -22,7 +22,7 @@
         "batteryid": {
             "$comment": "{\"term\": \"batteryid\", \"@id\": \"https://w3id.org/traceability#BatteryID\"}",
             "title": "batteryid",
-            "description": "Logo of the entity.",
+            "description": "Battery ID number",
             "$ref": "https://w3id.org/traceability/schemas/BatteryID.json"
         },
         "previousSOHVal": {
@@ -58,7 +58,7 @@
         "impedance": {
             "$comment": "{\"term\": \"impedance\", \"@id\": \"https://schema.org/QuantitativeValue\"}",
             "title": "impedance",
-            "description": "charge Cycles",
+            "description": "impedance of battery",
             "type": "string"
         },
         "maxCapacity": {

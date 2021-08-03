@@ -1,50 +1,43 @@
 [
   {
-    "make": "Ford",
-    "card": "reboot"
+    "monitor": "override",
+    "feed": "quantify",
+    "system": "override"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "type": "VID",
-    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "make": "Ford",
-    "model": "Mach_E",
-    "vin": "JTERU5JR7M5861170",
-    "alarm": "calculate",
-    "matrix": "back up",
-    "bandwidth": "navigate",
-    "sensor": "parse"
-  },
-  {
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "manufacturer": {
       "type": "Person",
-      "firstName": "Brandi",
-      "lastName": "Ritchie",
-      "email": "Emery.Wiza@example.net",
-      "phoneNumber": "555-937-6864",
+      "firstName": "Garett",
+      "lastName": "Fritsch",
+      "email": "Mariam_Klein61@example.com",
+      "phoneNumber": "555-733-9685",
       "worksFor": {
         "type": "Organization",
-        "name": "Thompson, O'Connell and Emmerich",
-        "description": "Secured national pricing structure",
+        "name": "Predovic LLC",
+        "description": "Multi-channelled mobile archive",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "4126 Fritz Islands",
-          "addressLocality": "North Rydermouth",
-          "addressRegion": "Georgia",
-          "postalCode": "58487",
-          "addressCountry": "Cote d'Ivoire"
+          "streetAddress": "62547 Eduardo Freeway",
+          "addressLocality": "Madisonchester",
+          "addressRegion": "Wisconsin",
+          "postalCode": "65010",
+          "addressCountry": "Tuvalu"
         },
-        "email": "Alfred.Grimes@example.com",
-        "phoneNumber": "555-434-6916",
-        "faxNumber": "555-882-5250"
+        "email": "Kay.Gleichner@example.com",
+        "phoneNumber": "555-956-1615",
+        "faxNumber": "555-367-4873"
       },
-      "jobTitle": "Regional Quality Developer"
+      "jobTitle": "Customer Paradigm Designer"
     },
     "model": "Mach_E",
-    "protocol": "navigate",
-    "feed": "bypass"
+    "vin": "JTERU5JR7M5861170",
+    "bus": "override"
+  },
+  {
+    "circuit": "input"
   }
 ]

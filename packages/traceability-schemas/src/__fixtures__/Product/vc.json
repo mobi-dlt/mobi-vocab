@@ -16,46 +16,46 @@
     "type": "Product",
     "manufacturer": {
       "type": "Person",
-      "firstName": "Evalyn",
-      "lastName": "Trantow",
-      "email": "Immanuel_Dach@example.org",
-      "phoneNumber": "555-223-6417",
+      "firstName": "Dion",
+      "lastName": "Ullrich",
+      "email": "Emmy_McCullough@example.org",
+      "phoneNumber": "555-237-4645",
       "worksFor": {
         "type": "Organization",
-        "name": "Marquardt, Bailey and Larson",
-        "description": "Quality-focused global architecture",
+        "name": "Orn - Grimes",
+        "description": "Down-sized contextually-based standardization",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "97855 Funk Prairie",
-          "addressLocality": "Ernserstad",
-          "addressRegion": "Missouri",
-          "postalCode": "70590",
-          "addressCountry": "Oman"
+          "streetAddress": "35168 Maxie Parkways",
+          "addressLocality": "North Verdieton",
+          "addressRegion": "Nebraska",
+          "postalCode": "26015-8727",
+          "addressCountry": "Kyrgyz Republic"
         },
-        "email": "Talon_Kerluke@example.org",
-        "phoneNumber": "555-881-8463",
-        "faxNumber": "555-158-8910"
+        "email": "Gregory92@example.org",
+        "phoneNumber": "555-145-2306",
+        "faxNumber": "555-165-7390"
       },
-      "jobTitle": "Investor Division Planner"
+      "jobTitle": "Dynamic Infrastructure Technician"
     },
-    "name": "Handcrafted Granite Keyboard",
-    "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+    "name": "Intelligent Plastic Shirt",
+    "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "7030"
+      "value": "9791"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "2382"
+      "value": "6039"
     },
-    "sku": "234192102804"
+    "sku": "759613837257"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..dQBKft1j70fjKrL3xNaXM-J7lCwYXBIOeoFGB_WlMNeaOezYkSjTtVwl2f7l1nx987aT1C89tEAweTCFcV_tDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..PAAxCvaSJyaIv6dCkkdWw2i1yYpY8ZHhp3CU5DQoK_wCWquILI11hIYUPgtVzgfJFOrhGYAsnzv_ZiZrsY4HAg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

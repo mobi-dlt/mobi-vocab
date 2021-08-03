@@ -22,14 +22,14 @@
         "vid": {
             "$comment": "{\"term\": \"vid\", \"@id\": \"https://w3id.org/traceability#VID\"}",
             "title": "vid",
-            "description": "Logo of the entity.",
+            "description": "vid",
             "$ref": "https://w3id.org/traceability/schemas/VID.json"
         },
 
         "batteryid": {
             "$comment": "{\"term\": \"batteryid\", \"@id\": \"https://schema.org/identifier\"}",
             "title": "batteryid",
-            "description": "Logo of the entity.",
+            "description": "Battery ID.",
             "type": "string"
         },
 

@@ -4,18 +4,14 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LinkRole",
-    "linkRelationship": "alternate",
-    "interface": "calculate"
+    "circuit": "reboot",
+    "port": "override"
   },
   {
-    "type": "LinkRole",
-    "target": "https://example.com/related/link/123",
-    "driver": "back up"
+    "microchip": "navigate"
   },
   {
-    "linkRelationship": "alternate",
-    "interface": "quantify",
-    "bus": "connect",
-    "firewall": "calculate"
+    "system": "transmit",
+    "pixel": "parse"
   }
 ]

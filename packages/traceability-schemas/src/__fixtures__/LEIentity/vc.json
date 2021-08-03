@@ -14,74 +14,74 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIentity",
-    "legalName": "Metz, Ziemann and Leffler",
-    "legalNameLanguage": "pt_PT",
+    "legalName": "Reilly and Sons",
+    "legalNameLanguage": "en_IND",
     "otherNames": [
-      "Murphy Group",
-      "Torp LLC"
+      "Powlowski - Rosenbaum",
+      "Wilderman, Satterfield and Upton"
     ],
     "transliteratedOtherNames": [
-      "Murphy Group",
-      "Torp LLC"
+      "Powlowski - Rosenbaum",
+      "Wilderman, Satterfield and Upton"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "en_GB",
+      "language": "de_AT",
       "addressLines": [
-        "Larkin - Rosenbaum",
-        "842 Rogahn Plaza"
+        "Flatley Inc",
+        "4627 Ora Hollow"
       ],
-      "addressNumber": "499",
-      "addressNumberWithinBuilding": "2",
-      "mailRouting": "0585 Koch Throughway, 32214-8098",
-      "city": "Bartonfort",
-      "region": "Buckinghamshire",
-      "country": "Lebanon",
-      "postalCode": "69570"
+      "addressNumber": "72",
+      "addressNumberWithinBuilding": "1",
+      "mailRouting": "93055 Felicita Club, 08033",
+      "city": "North Wilbert",
+      "region": "Borders",
+      "country": "Western Sahara",
+      "postalCode": "26688-2016"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "en_IE",
+      "language": "de_AT",
       "addressLines": [
-        "Funk - Hintz",
-        "45092 Sofia Court"
+        "Nienow, Casper and Quigley",
+        "0652 Sasha Road"
       ],
-      "addressNumber": "348",
-      "addressNumberWithinBuilding": "8",
-      "mailRouting": "98048 Laron Manors, 85366-5582",
-      "city": "Shakiraport",
-      "region": "Bedfordshire",
-      "country": "Albania",
-      "postalCode": "86281-8173"
+      "addressNumber": "298",
+      "addressNumberWithinBuilding": "10",
+      "mailRouting": "768 Moore Spurs, 40685-5587",
+      "city": "South Luella",
+      "region": "Avon",
+      "country": "Tokelau",
+      "postalCode": "51740"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000661",
-      "otherValidationAuthorityID": "U8PXO3MP",
-      "validationAuthorityEntityID": "R65VVYVG1VT04TC8QW50"
+      "validationAuthorityID": "RA000002",
+      "otherValidationAuthorityID": "Q2L8N5HV",
+      "validationAuthorityEntityID": "M7BZGCQ6VSFN1H5J0PN8"
     },
-    "legalJurisdiction": "Bedfordshire",
-    "entityCategory": "Jewelery",
+    "legalJurisdiction": "Buckinghamshire",
+    "entityCategory": "Finance",
     "legalForm": "LLC",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "EXUN8LTI4816D716YSTC",
-      "name": "Lang, Gerlach and Adams"
+      "leiCode": "KB9LSFBZG50G2OEEHZLP",
+      "name": "Kunde, O'Conner and Bode"
     },
     "status": "REQUESTED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "empower revolutionary e-commerce",
+    "expirationReason": "synergize cross-platform eyeballs",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "BZKM49DM0JTS43AR0JFY",
-      "name": "Heaney, Huel and Nader"
+      "leiCode": "2F179UG6VYQEQUFMCQDR",
+      "name": "Labadie, Batz and Littel"
     },
     "otherAddresses": []
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..4WzJvXG7RdtytHT3tiJTm9ZiTIIldLnzz17BlM6GKYLMhVkfbWVNWgfrYEzjX1z3x61hKBemRub_GWv3_eCNDA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..s_pPSe1qw5FNiUgD-ZJcl49JobMDQkRz5eV7e7yCtfUoruNr3MKsZjcPUObhS78XQ4F6qTujtBtXcwMxT3jmAw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -1,23 +1,23 @@
 [
   {
-    "type": "LEIauthority",
-    "validationAuthorityID": "RA000005",
-    "driver": "connect",
-    "bus": "parse"
+    "otherValidationAuthorityID": "LRD020TB",
+    "feed": "compress",
+    "alarm": "hack",
+    "port": "program",
+    "capacitor": "parse"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "type": "LEIauthority",
-    "validationAuthorityEntityID": "S2Z0C1R3E1HHMKV9ZER3",
-    "monitor": "compress",
-    "driver": "bypass",
-    "sensor": "navigate"
+    "otherValidationAuthorityID": "51FQXWFU",
+    "matrix": "hack",
+    "microchip": "override",
+    "bus": "bypass"
   },
   {
-    "matrix": "override",
-    "monitor": "parse",
-    "protocol": "compress"
+    "validationAuthorityID": "RA000003",
+    "validationAuthorityEntityID": "MS4A1WXYM6SGH04L4LO8",
+    "protocol": "calculate"
   }
 ]

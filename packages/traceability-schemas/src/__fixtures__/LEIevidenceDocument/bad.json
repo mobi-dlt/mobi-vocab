@@ -4,16 +4,7 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIevidenceDocument",
-    "monitor": "synthesize",
-    "capacitor": "generate",
-    "driver": "transmit"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "LEIevidenceDocument",
-    "lei": "N2WY8NXD27XHC735HM9I",
+    "lei": "SA9QTUFOOT3RM5GFL568",
     "registration": {
       "@context": [
         "https://w3id.org/traceability/v1"
@@ -23,98 +14,99 @@
       "lastUpdateDate": "2020-01-01",
       "status": "CONFIRMED",
       "nextRenewalDate": "2021-02-02",
-      "managingLou": "VTAJHRZUMYJGDKZDAZTY",
-      "validationSources": "NOT_CORROBORATED",
+      "managingLou": "AEDSFIYZOQYVODMWIXPM",
+      "validationSources": "FULLY_CORROBORATED",
       "validationAuthority": [
         {
           "type": "LEIauthority",
-          "validationAuthorityID": "RA000003",
-          "otherValidationAuthorityID": "6O1ZDNDK",
-          "validationAuthorityEntityID": "ZQGGC2KK3YY6MOR76JE3"
+          "validationAuthorityID": "RA000002",
+          "otherValidationAuthorityID": "SHKZKUE7",
+          "validationAuthorityEntityID": "IXE4JTMDOVJVPT5S7AT2"
         }
       ]
     },
-    "bic": [
-      "OGVRLKFLAX"
-    ],
-    "bandwidth": "transmit",
-    "application": "program"
+    "transmitter": "hack",
+    "alarm": "navigate"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
     "type": "LEIevidenceDocument",
-    "lei": "S5P214A89CCD3CX8JIAT",
+    "lei": "I48Y2JRY4FLBXIVF93UN",
     "entity": {
       "@context": [
         "https://w3id.org/traceability/v1"
       ],
       "type": "LEIentity",
-      "legalName": "Stroman - Reichert",
-      "legalNameLanguage": "de_CH",
+      "legalName": "Cartwright Group",
+      "legalNameLanguage": "ja",
       "otherNames": [
-        "Schumm - Murphy",
-        "Pacocha - Thiel"
+        "Gulgowski, Wyman and Keeling",
+        "Dach Inc"
       ],
       "transliteratedOtherNames": [
-        "Schumm - Murphy",
-        "Pacocha - Thiel"
+        "Gulgowski, Wyman and Keeling",
+        "Dach Inc"
       ],
       "legalAddress": {
         "type": "LEIaddress",
-        "language": "en",
+        "language": "en_IE",
         "addressLines": [
-          "Effertz, Haag and Schuppe",
-          "16239 Lucinda Walks"
+          "Daugherty LLC",
+          "9282 Haag Plains"
         ],
-        "addressNumber": "202",
-        "addressNumberWithinBuilding": "1",
-        "mailRouting": "851 Emanuel Manor, 64168-7813",
-        "city": "Vedabury",
-        "region": "Bedfordshire",
-        "country": "Belarus",
-        "postalCode": "16310-4051"
+        "addressNumber": "310",
+        "addressNumberWithinBuilding": "6",
+        "mailRouting": "66584 Schiller Roads, 44613-3544",
+        "city": "Darechester",
+        "region": "Avon",
+        "country": "Papua New Guinea",
+        "postalCode": "79024"
       },
       "headquartersAddress": {
         "type": "LEIaddress",
-        "language": "en_CA",
+        "language": "en",
         "addressLines": [
-          "Block, Lowe and Sanford",
-          "95842 Lucile Course"
+          "Johnson - Aufderhar",
+          "115 Hane Plains"
         ],
-        "addressNumber": "217",
-        "addressNumberWithinBuilding": "6",
-        "mailRouting": "20666 Howe Islands, 57142",
-        "city": "South Zariamouth",
-        "region": "Avon",
-        "country": "Venezuela",
-        "postalCode": "66294"
+        "addressNumber": "292",
+        "addressNumberWithinBuilding": "8",
+        "mailRouting": "82691 Williamson Squares, 43125",
+        "city": "Jacintoport",
+        "region": "Bedfordshire",
+        "country": "Senegal",
+        "postalCode": "20141-1832"
       },
       "registrationAuthority": {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000003",
-        "otherValidationAuthorityID": "86524SA9",
-        "validationAuthorityEntityID": "36OO2MIMZ8T8M7B6MNIU"
+        "validationAuthorityID": "RA000001",
+        "otherValidationAuthorityID": "QNHTDMEU",
+        "validationAuthorityEntityID": "GESYW4Y3SNBXOTF29AUX"
       },
-      "legalJurisdiction": "Buckinghamshire",
-      "entityCategory": "Jewelery",
-      "legalForm": "CORPORATION",
+      "legalJurisdiction": "Bedfordshire",
+      "entityCategory": "Industrial",
+      "legalForm": "LLC",
       "associatedEntity": {
         "type": "Organization",
-        "leiCode": "EAGXLVI5XSHKZKUE7IXE",
-        "name": "Torphy, Jakubowski and Kirlin"
+        "leiCode": "070MLND5D2KS6G72HZR2",
+        "name": "Koepp, Shanahan and Nienow"
       },
-      "status": "REJECTED",
+      "status": "CONFIRMED",
       "expirationDate": "2022-07-11",
-      "expirationReason": "reinvent viral portals",
+      "expirationReason": "reintermediate 24/365 functionalities",
       "successorEntity": {
         "type": "Organization",
-        "leiCode": "IEHT6QDRY08E4HF0S9KR",
-        "name": "Collins, Dickens and Leuschke"
+        "leiCode": "GM8MW2GIV53QZIFO1113",
+        "name": "Rau, Okuneva and Bins"
       },
       "otherAddresses": []
     },
-    "port": "reboot"
+    "transmitter": "hack",
+    "card": "connect"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "microchip": "quantify"
   }
 ]

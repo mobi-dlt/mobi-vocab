@@ -1,39 +1,21 @@
 [
   {
-    "type": [
-      "Purchase"
-    ],
-    "pixel": "generate",
-    "capacitor": "connect"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "port": "input",
-    "program": "generate"
+    "matrix": "input",
+    "interface": "hack",
+    "bus": "connect",
+    "application": "synthesize"
   },
   {
     "type": [
       "Purchase"
     ],
-    "customer": {
-      "type": "Organization",
-      "name": "Bogisich and Sons",
-      "description": "Multi-tiered object-oriented architecture",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "69802 Baumbach Alley",
-        "addressLocality": "Evansfort",
-        "addressRegion": "New York",
-        "postalCode": "01079-7868",
-        "addressCountry": "Saint Pierre and Miquelon"
-      },
-      "email": "Gwendolyn.Pfeffer@example.org",
-      "phoneNumber": "555-895-8613",
-      "faxNumber": "555-730-6522"
-    },
-    "hard drive": "bypass",
-    "alarm": "transmit"
+    "alarm": "index",
+    "bandwidth": "input"
+  },
+  {
+    "interface": "index",
+    "application": "transmit",
+    "transmitter": "connect",
+    "circuit": "connect"
   }
 ]

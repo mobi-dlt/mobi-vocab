@@ -1,22 +1,24 @@
 [
   {
-    "type": "LegalEntityIdentifierCredential",
-    "circuit": "input",
-    "system": "hack",
-    "panel": "connect"
-  },
-  {
-    "interface": "transmit",
-    "firewall": "generate"
-  },
-  {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "leiCode": "I0URU1TQ07QYRDOBR5UB",
-    "bandwidth": "navigate",
-    "interface": "connect",
-    "alarm": "synthesize",
-    "application": "program"
+    "firewall": "back up",
+    "microchip": "hack",
+    "circuit": "hack"
+  },
+  {
+    "type": "LegalEntityIdentifierCredential",
+    "leiCode": "V98YGKZRRK0J23GCWAJE",
+    "alarm": "connect",
+    "transmitter": "index"
+  },
+  {
+    "type": "LegalEntityIdentifierCredential",
+    "leiCode": "D3RFY776I3ACSRK9MBSN",
+    "firewall": "generate",
+    "panel": "connect",
+    "feed": "quantify",
+    "transmitter": "hack"
   }
 ]

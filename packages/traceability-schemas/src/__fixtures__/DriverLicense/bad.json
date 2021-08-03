@@ -3,13 +3,6 @@
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "issuanceDate": "2021-03-09",
-    "system": "bypass"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
     "type": "DriverLicense",
     "legalName": "Matt Shi",
     "registrationAuthority": {
@@ -26,5 +19,16 @@
     "protocol": "generate",
     "capacitor": "bypass",
     "port": "generate"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "DriverLicense",
+    "licenseNumber": "Y5327288",
+    "expirationDate": "2022-07-11",
+    "port": "hack",
+    "panel": "reboot",
+    "protocol": "transmit"
   }
 ]

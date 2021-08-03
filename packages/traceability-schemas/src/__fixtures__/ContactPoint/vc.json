@@ -14,22 +14,22 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "ContactPoint",
-    "name": "Ondricka, Wiza and Abshire",
+    "name": "Baumbach - Dare",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "888 Shirley Knolls",
-      "addressLocality": "Rowenaton",
-      "addressRegion": "Washington",
-      "postalCode": "78665",
-      "addressCountry": "Algeria"
+      "streetAddress": "59934 London Tunnel",
+      "addressLocality": "Lake Federico",
+      "addressRegion": "Montana",
+      "postalCode": "56481-2742",
+      "addressCountry": "Mexico"
     },
-    "email": "Carolina.Haag@example.org",
-    "phoneNumber": "555-435-1913"
+    "email": "Tristian.Kovacek91@example.net",
+    "phoneNumber": "555-121-7916"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..gWEu8Z9PxT4XhhSHNUIkLIjD9TFfpsLOPiUJbGhGjazytnbD-nvwTV5-H13Ycw21gT_BTyfp1ose3o3X8bhFCg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..F_wqAKWeWbM8vNclZINCCumunH7ClVtFKMhumP6XV9QY_sezByIEUKYZYZIycSeWSM_i2vftOL4tEP9tVjUgCw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

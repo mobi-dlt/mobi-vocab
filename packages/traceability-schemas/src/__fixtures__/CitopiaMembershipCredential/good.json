@@ -1,0 +1,59 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "CitopiaMembershipCredential",
+    "holder": "holdernumber",
+    "identifier": "idnumber",
+    "member": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "Member",
+      "firstName": "Fay",
+      "lastName": "Prohaska",
+      "email": "Rose_Treutel40@example.net"
+    },
+    "issuanceDate": "2020-05-17",
+    "expirationDate": "2021-5-29"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "CitopiaMembershipCredential",
+    "holder": "holdernumber",
+    "identifier": "idnumber",
+    "member": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "Member",
+      "firstName": "Malachi",
+      "lastName": "Wiza",
+      "email": "Ed54@example.org"
+    },
+    "issuanceDate": "2020-05-17",
+    "expirationDate": "2021-5-29"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "CitopiaMembershipCredential",
+    "holder": "holdernumber",
+    "identifier": "idnumber",
+    "member": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "Member",
+      "firstName": "Aida",
+      "lastName": "Ferry",
+      "email": "Eric.Daugherty64@example.com"
+    },
+    "issuanceDate": "2020-05-17",
+    "expirationDate": "2021-5-29"
+  }
+]

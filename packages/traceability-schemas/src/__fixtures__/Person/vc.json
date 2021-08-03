@@ -14,32 +14,32 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Person",
-    "firstName": "Viva",
-    "lastName": "Heller",
-    "email": "Bethany72@example.org",
-    "phoneNumber": "555-952-6476",
+    "firstName": "Rickie",
+    "lastName": "Ernser",
+    "email": "Jefferey.Buckridge52@example.com",
+    "phoneNumber": "555-157-3270",
     "worksFor": {
       "type": "Organization",
-      "name": "Gerhold, Considine and O'Keefe",
-      "description": "Re-contextualized cohesive collaboration",
+      "name": "Graham, Barton and Keeling",
+      "description": "Persevering didactic workforce",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "35347 Tromp Inlet",
-        "addressLocality": "North Moshefurt",
-        "addressRegion": "Nevada",
-        "postalCode": "15893-0847",
-        "addressCountry": "Equatorial Guinea"
+        "streetAddress": "85022 Nasir Greens",
+        "addressLocality": "Alyssonton",
+        "addressRegion": "Virginia",
+        "postalCode": "88635-3891",
+        "addressCountry": "Netherlands Antilles"
       },
-      "email": "Eula97@example.com",
-      "phoneNumber": "555-661-7577",
-      "faxNumber": "555-545-9831"
+      "email": "Russ_Marvin@example.net",
+      "phoneNumber": "555-171-5781",
+      "faxNumber": "555-315-8543"
     },
-    "jobTitle": "Dynamic Group Engineer"
+    "jobTitle": "Chief Program Technician"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..9Q8y3CJwvt4d-Io3m0mJPnf1kzeJdx18Wa9WATiBxksMwuqqyZ9rwwvA1T5dIM_qJex4xBE9f9E9p69ZuUSrDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AorYhTE2-k54NGcI91egjuYqUsNBmv4xooxTGtROlUO6yKApTaq-_VApzkxNBcWAkbAJyXgn6avBFl7mYms1AQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

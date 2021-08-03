@@ -15,12 +15,12 @@
     ],
     "type": "QuantitativeValue",
     "unitCode": "hg/ha",
-    "value": "9478"
+    "value": "2054"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..EjzHl5wTZjP3z9awMKyumcKjWAmGxrqQKvIeSHoWifqO18vU1XMxMV2qoQRidKzBs5BsLroDUBQ3GgPVw_56AA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..8IYtcv7mjMnwrQx7WfjpV0DXYyDnX0DfGjDRlJDnarnuxpNNGiPh7ZM07O9JtUtOXrCNmcoar11SvO3alVTcDA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

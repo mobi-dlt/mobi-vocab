@@ -6,16 +6,16 @@
     "type": "LEIregistration",
     "initialRegistrationDate": "2020-01-01",
     "lastUpdateDate": "2020-01-01",
-    "status": "REJECTED",
+    "status": "CONFIRMED",
     "nextRenewalDate": "2021-02-02",
-    "managingLou": "RBUBCAAYNTKJMHZJZUYR",
-    "validationSources": "NOT_CORROBORATED",
+    "managingLou": "LYMSDQCBSXMXLUSATBEF",
+    "validationSources": "PARTIALLY_CORROBORATED",
     "validationAuthority": [
       {
         "type": "LEIauthority",
         "validationAuthorityID": "RA000661",
-        "otherValidationAuthorityID": "SGTMHNDW",
-        "validationAuthorityEntityID": "GM8MW2GIV53QZIFO1113"
+        "otherValidationAuthorityID": "DZC50P0L",
+        "validationAuthorityEntityID": "TL9PIXASX29UF8VDUG6H"
       }
     ]
   },
@@ -26,36 +26,36 @@
     "type": "LEIregistration",
     "initialRegistrationDate": "2020-01-01",
     "lastUpdateDate": "2020-01-01",
-    "status": "CONFIRMED",
+    "status": "REQUESTED",
     "nextRenewalDate": "2021-02-02",
-    "managingLou": "BXZIUDHMZCPMPXTNVQRE",
-    "validationSources": "FULLY_CORROBORATED",
-    "validationAuthority": [
-      {
-        "type": "LEIauthority",
-        "validationAuthorityID": "RA000004",
-        "otherValidationAuthorityID": "R29F022I",
-        "validationAuthorityEntityID": "YWASR8MZDO7049M9R2NY"
-      }
-    ]
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "LEIregistration",
-    "initialRegistrationDate": "2020-01-01",
-    "lastUpdateDate": "2020-01-01",
-    "status": "CONFIRMED",
-    "nextRenewalDate": "2021-02-02",
-    "managingLou": "XOGQTFLZVTSOUERBEIOT",
+    "managingLou": "INIKUJCXGATROZDOWYKB",
     "validationSources": "NOT_CORROBORATED",
     "validationAuthority": [
       {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000005",
-        "otherValidationAuthorityID": "83DDFJFD",
-        "validationAuthorityEntityID": "M5X98X4O7HV0NZAOTBVV"
+        "validationAuthorityID": "RA000004",
+        "otherValidationAuthorityID": "1A19989W",
+        "validationAuthorityEntityID": "S8Z9DRFGUR925HU112MW"
+      }
+    ]
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIregistration",
+    "initialRegistrationDate": "2020-01-01",
+    "lastUpdateDate": "2020-01-01",
+    "status": "REQUESTED",
+    "nextRenewalDate": "2021-02-02",
+    "managingLou": "WKSOBUSOOPCFLWMLEDYR",
+    "validationSources": "NOT_CORROBORATED",
+    "validationAuthority": [
+      {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000001",
+        "otherValidationAuthorityID": "NQ76KCGB",
+        "validationAuthorityEntityID": "YYLYC6405P8F93UOKJIZ"
       }
     ]
   }

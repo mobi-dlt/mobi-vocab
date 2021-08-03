@@ -4,67 +4,67 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIentity",
-    "legalName": "Metz, Ziemann and Leffler",
-    "legalNameLanguage": "pt_PT",
+    "legalName": "Reilly and Sons",
+    "legalNameLanguage": "en_IND",
     "otherNames": [
-      "Murphy Group",
-      "Torp LLC"
+      "Powlowski - Rosenbaum",
+      "Wilderman, Satterfield and Upton"
     ],
     "transliteratedOtherNames": [
-      "Murphy Group",
-      "Torp LLC"
+      "Powlowski - Rosenbaum",
+      "Wilderman, Satterfield and Upton"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "en_GB",
+      "language": "de_AT",
       "addressLines": [
-        "Larkin - Rosenbaum",
-        "842 Rogahn Plaza"
+        "Flatley Inc",
+        "4627 Ora Hollow"
       ],
-      "addressNumber": "499",
-      "addressNumberWithinBuilding": "2",
-      "mailRouting": "0585 Koch Throughway, 32214-8098",
-      "city": "Bartonfort",
-      "region": "Buckinghamshire",
-      "country": "Lebanon",
-      "postalCode": "69570"
+      "addressNumber": "72",
+      "addressNumberWithinBuilding": "1",
+      "mailRouting": "93055 Felicita Club, 08033",
+      "city": "North Wilbert",
+      "region": "Borders",
+      "country": "Western Sahara",
+      "postalCode": "26688-2016"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "en_IE",
+      "language": "de_AT",
       "addressLines": [
-        "Funk - Hintz",
-        "45092 Sofia Court"
+        "Nienow, Casper and Quigley",
+        "0652 Sasha Road"
       ],
-      "addressNumber": "348",
-      "addressNumberWithinBuilding": "8",
-      "mailRouting": "98048 Laron Manors, 85366-5582",
-      "city": "Shakiraport",
-      "region": "Bedfordshire",
-      "country": "Albania",
-      "postalCode": "86281-8173"
+      "addressNumber": "298",
+      "addressNumberWithinBuilding": "10",
+      "mailRouting": "768 Moore Spurs, 40685-5587",
+      "city": "South Luella",
+      "region": "Avon",
+      "country": "Tokelau",
+      "postalCode": "51740"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000661",
-      "otherValidationAuthorityID": "U8PXO3MP",
-      "validationAuthorityEntityID": "R65VVYVG1VT04TC8QW50"
+      "validationAuthorityID": "RA000002",
+      "otherValidationAuthorityID": "Q2L8N5HV",
+      "validationAuthorityEntityID": "M7BZGCQ6VSFN1H5J0PN8"
     },
-    "legalJurisdiction": "Bedfordshire",
-    "entityCategory": "Jewelery",
+    "legalJurisdiction": "Buckinghamshire",
+    "entityCategory": "Finance",
     "legalForm": "LLC",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "EXUN8LTI4816D716YSTC",
-      "name": "Lang, Gerlach and Adams"
+      "leiCode": "KB9LSFBZG50G2OEEHZLP",
+      "name": "Kunde, O'Conner and Bode"
     },
     "status": "REQUESTED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "empower revolutionary e-commerce",
+    "expirationReason": "synergize cross-platform eyeballs",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "BZKM49DM0JTS43AR0JFY",
-      "name": "Heaney, Huel and Nader"
+      "leiCode": "2F179UG6VYQEQUFMCQDR",
+      "name": "Labadie, Batz and Littel"
     },
     "otherAddresses": []
   },
@@ -73,136 +73,136 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "LEIentity",
-    "legalName": "Kuhn - Schuppe",
-    "legalNameLanguage": "it",
+    "legalName": "McClure - Herzog",
+    "legalNameLanguage": "fr_CH",
     "otherNames": [
-      "Hoppe, Bailey and Bergstrom",
-      "Schuster and Sons"
+      "Franecki - Boyle",
+      "Jakubowski, Kilback and Medhurst"
     ],
     "transliteratedOtherNames": [
-      "Hoppe, Bailey and Bergstrom",
-      "Schuster and Sons"
+      "Franecki - Boyle",
+      "Jakubowski, Kilback and Medhurst"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "en_GB",
+      "language": "it",
       "addressLines": [
-        "Abbott, Kilback and Cronin",
-        "1481 Rey Mountain"
+        "Cruickshank LLC",
+        "86035 Brenda Springs"
       ],
-      "addressNumber": "499",
-      "addressNumberWithinBuilding": "10",
-      "mailRouting": "228 Marilyne Cliffs, 61289",
-      "city": "Corwintown",
-      "region": "Berkshire",
-      "country": "Ethiopia",
-      "postalCode": "79948"
-    },
-    "headquartersAddress": {
-      "type": "LEIaddress",
-      "language": "ko",
-      "addressLines": [
-        "Jacobi, Rowe and Goodwin",
-        "87272 Stroman Fall"
-      ],
-      "addressNumber": "156",
-      "addressNumberWithinBuilding": "5",
-      "mailRouting": "7358 Littel Mall, 11280-7174",
-      "city": "Lehnermouth",
-      "region": "Cambridgeshire",
-      "country": "Japan",
-      "postalCode": "67120"
-    },
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000003",
-      "otherValidationAuthorityID": "WXYM6SGH",
-      "validationAuthorityEntityID": "04L4LO8FK78H52NKB9LS"
-    },
-    "legalJurisdiction": "Buckinghamshire",
-    "entityCategory": "Industrial",
-    "legalForm": "LLC",
-    "associatedEntity": {
-      "type": "Organization",
-      "leiCode": "R2PKHC2M21UVZZOYGQN4",
-      "name": "Cormier - Anderson"
-    },
-    "status": "CONFIRMED",
-    "expirationDate": "2022-07-11",
-    "expirationReason": "optimize cross-platform niches",
-    "successorEntity": {
-      "type": "Organization",
-      "leiCode": "EHZLPANPRUYSW1QHQ358",
-      "name": "Yost LLC"
-    },
-    "otherAddresses": []
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "LEIentity",
-    "legalName": "Nienow, Casper and Quigley",
-    "legalNameLanguage": "ne",
-    "otherNames": [
-      "Schuster, Dooley and Bauch",
-      "Osinski Inc"
-    ],
-    "transliteratedOtherNames": [
-      "Schuster, Dooley and Bauch",
-      "Osinski Inc"
-    ],
-    "legalAddress": {
-      "type": "LEIaddress",
-      "language": "ar",
-      "addressLines": [
-        "Weber - Morissette",
-        "989 Price Road"
-      ],
-      "addressNumber": "271",
-      "addressNumberWithinBuilding": "3",
-      "mailRouting": "368 Olson Manors, 55587-4460",
-      "city": "Caseychester",
-      "region": "Borders",
-      "country": "Australia",
-      "postalCode": "07052"
-    },
-    "headquartersAddress": {
-      "type": "LEIaddress",
-      "language": "ko",
-      "addressLines": [
-        "Kris Group",
-        "3718 Okuneva Square"
-      ],
-      "addressNumber": "165",
-      "addressNumberWithinBuilding": "10",
-      "mailRouting": "41507 Hartmann Ports, 59460-1462",
-      "city": "West Alexandraville",
+      "addressNumber": "485",
+      "addressNumberWithinBuilding": "4",
+      "mailRouting": "9242 Anya Fords, 13543",
+      "city": "Rhodaland",
       "region": "Bedfordshire",
-      "country": "Nauru",
-      "postalCode": "84189"
+      "country": "Hong Kong",
+      "postalCode": "42569"
+    },
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "nl",
+      "addressLines": [
+        "Cummings and Sons",
+        "365 Rosalind Mall"
+      ],
+      "addressNumber": "19",
+      "addressNumberWithinBuilding": "7",
+      "mailRouting": "845 Keara Trace, 51029",
+      "city": "North Justonberg",
+      "region": "Berkshire",
+      "country": "Central African Republic",
+      "postalCode": "00612-4190"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000003",
-      "otherValidationAuthorityID": "QEQUFMCQ",
-      "validationAuthorityEntityID": "DRZI1JVIKLF1QEHLVLWS"
+      "validationAuthorityID": "RA000001",
+      "otherValidationAuthorityID": "B3IL1O5E",
+      "validationAuthorityEntityID": "ZHYO00YBNZVKG9IIHCOJ"
     },
-    "legalJurisdiction": "Cambridgeshire",
-    "entityCategory": "Jewelery",
+    "legalJurisdiction": "Borders",
+    "entityCategory": "Grocery",
     "legalForm": "CORPORATION",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "XB2IJ3VC21T2CEB4ZK7O",
-      "name": "Medhurst, Graham and Veum"
+      "leiCode": "MUQ84RPEWL6M8DYI6EU2",
+      "name": "Hackett Inc"
     },
-    "status": "CONFIRMED",
+    "status": "REJECTED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "aggregate dynamic systems",
+    "expirationReason": "matrix sticky mindshare",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "GMUQ84RPEWL6M8DYI6EU",
-      "name": "Kulas and Sons"
+      "leiCode": "O5Y63QO5F8VY69ONUZYD",
+      "name": "Auer, Kuphal and Frami"
+    },
+    "otherAddresses": []
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIentity",
+    "legalName": "Orn, Kessler and Schowalter",
+    "legalNameLanguage": "nl_BE",
+    "otherNames": [
+      "Thiel LLC",
+      "Runolfsdottir - Hansen"
+    ],
+    "transliteratedOtherNames": [
+      "Thiel LLC",
+      "Runolfsdottir - Hansen"
+    ],
+    "legalAddress": {
+      "type": "LEIaddress",
+      "language": "pt_BR",
+      "addressLines": [
+        "Schmeler, Hamill and Kertzmann",
+        "56033 Monahan Plaza"
+      ],
+      "addressNumber": "188",
+      "addressNumberWithinBuilding": "2",
+      "mailRouting": "5633 Metz Orchard, 53420",
+      "city": "New Leeville",
+      "region": "Buckinghamshire",
+      "country": "Taiwan",
+      "postalCode": "66745-3589"
+    },
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "ge",
+      "addressLines": [
+        "Kris, Volkman and Balistreri",
+        "35525 Glennie Manor"
+      ],
+      "addressNumber": "55",
+      "addressNumberWithinBuilding": "4",
+      "mailRouting": "587 Vergie Roads, 08140-8608",
+      "city": "Framifurt",
+      "region": "Berkshire",
+      "country": "Slovenia",
+      "postalCode": "30194-3111"
+    },
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000002",
+      "otherValidationAuthorityID": "HM9IAOBX",
+      "validationAuthorityEntityID": "SJJKB3LPPE9ZET4I64OU"
+    },
+    "legalJurisdiction": "Cambridgeshire",
+    "entityCategory": "Finance",
+    "legalForm": "LLC",
+    "associatedEntity": {
+      "type": "Organization",
+      "leiCode": "NK3CN5ZL1BZVEZVRS3KA",
+      "name": "Quitzon and Sons"
+    },
+    "status": "REQUESTED",
+    "expirationDate": "2022-07-11",
+    "expirationReason": "extend efficient channels",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "9XYFH3TTJD1IM4Y0LMTI",
+      "name": "Medhurst, Farrell and Schimmel"
     },
     "otherAddresses": []
   }

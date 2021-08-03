@@ -3,52 +3,47 @@
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "type": "Product",
     "manufacturer": {
       "type": "Person",
-      "firstName": "Evalyn",
-      "lastName": "Trantow",
-      "email": "Immanuel_Dach@example.org",
-      "phoneNumber": "555-223-6417",
+      "firstName": "Dion",
+      "lastName": "Ullrich",
+      "email": "Emmy_McCullough@example.org",
+      "phoneNumber": "555-237-4645",
       "worksFor": {
         "type": "Organization",
-        "name": "Marquardt, Bailey and Larson",
-        "description": "Quality-focused global architecture",
+        "name": "Orn - Grimes",
+        "description": "Down-sized contextually-based standardization",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "97855 Funk Prairie",
-          "addressLocality": "Ernserstad",
-          "addressRegion": "Missouri",
-          "postalCode": "70590",
-          "addressCountry": "Oman"
+          "streetAddress": "35168 Maxie Parkways",
+          "addressLocality": "North Verdieton",
+          "addressRegion": "Nebraska",
+          "postalCode": "26015-8727",
+          "addressCountry": "Kyrgyz Republic"
         },
-        "email": "Talon_Kerluke@example.org",
-        "phoneNumber": "555-881-8463",
-        "faxNumber": "555-158-8910"
+        "email": "Gregory92@example.org",
+        "phoneNumber": "555-145-2306",
+        "faxNumber": "555-165-7390"
       },
-      "jobTitle": "Investor Division Planner"
+      "jobTitle": "Dynamic Infrastructure Technician"
     },
+    "name": "Intelligent Plastic Shirt",
+    "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "7030"
+      "value": "9791"
     },
-    "capacitor": "compress",
-    "pixel": "connect"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "name": "Ergonomic Plastic Pants",
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "8441"
+      "value": "6039"
     },
-    "sku": "802587655112",
-    "protocol": "reboot",
-    "port": "index"
+    "sku": "759613837257",
+    "monitor": "generate",
+    "bus": "connect",
+    "system": "quantify",
+    "transmitter": "calculate"
   },
   {
     "@context": [
@@ -57,35 +52,73 @@
     "type": "Product",
     "manufacturer": {
       "type": "Organization",
-      "name": "Ratke, Gerlach and Mohr",
-      "description": "Progressive dynamic encoding",
+      "name": "Senger LLC",
+      "description": "Re-contextualized 6th generation definition",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "153 Kim Trail",
-        "addressLocality": "Bartellport",
-        "addressRegion": "North Dakota",
-        "postalCode": "09419-2133",
-        "addressCountry": "Ireland"
+        "streetAddress": "2472 Schneider Stream",
+        "addressLocality": "South Kelton",
+        "addressRegion": "Nebraska",
+        "postalCode": "19772",
+        "addressCountry": "Iceland"
       },
-      "email": "Miles_Wilkinson72@example.net",
-      "phoneNumber": "555-756-4699",
-      "faxNumber": "555-894-9168"
+      "email": "Griffin0@example.net",
+      "phoneNumber": "555-547-2427",
+      "faxNumber": "555-355-8937"
     },
-    "name": "Small Metal Ball",
+    "name": "Handmade Plastic Soap",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "8631"
+      "value": "5116"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "31"
+      "value": "478"
     },
-    "sku": "59534109920",
-    "feed": "compress",
-    "bandwidth": "calculate",
-    "interface": "transmit",
-    "system": "calculate"
+    "sku": "895727771917",
+    "sensor": "back up",
+    "array": "compress",
+    "capacitor": "input",
+    "protocol": "copy"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Product",
+    "manufacturer": {
+      "type": "Organization",
+      "name": "Prosacco, Padberg and Abshire",
+      "description": "Customer-focused clear-thinking database",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "25883 Syble Parkway",
+        "addressLocality": "Welchview",
+        "addressRegion": "Michigan",
+        "postalCode": "33996-0160",
+        "addressCountry": "Lesotho"
+      },
+      "email": "Sebastian96@example.net",
+      "phoneNumber": "555-608-4488",
+      "faxNumber": "555-937-6694"
+    },
+    "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+    "sizeOrAmount": {
+      "type": "QuantitativeValue",
+      "unitCode": "hg/ha",
+      "value": "7613"
+    },
+    "weight": {
+      "type": "QuantitativeValue",
+      "unitCode": "hg/ha",
+      "value": "9509"
+    },
+    "sku": "268975342992",
+    "alarm": "calculate",
+    "matrix": "back up",
+    "bandwidth": "navigate",
+    "sensor": "parse"
   }
 ]

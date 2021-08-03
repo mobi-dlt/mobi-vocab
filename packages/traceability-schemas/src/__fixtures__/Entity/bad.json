@@ -4,56 +4,37 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Organization",
-    "description": "Digitized multimedia implementation",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "2624 Maverick Wells",
-      "addressLocality": "Gerardside",
-      "addressRegion": "Oregon",
-      "postalCode": "92990",
-      "addressCountry": "Togo"
-    },
-    "email": "Fernando.Fay@example.com",
-    "phoneNumber": "555-455-5100",
-    "faxNumber": "555-196-6581",
-    "port": "copy",
-    "system": "synthesize",
-    "driver": "generate"
+    "description": "Inverse bi-directional definition",
+    "application": "input",
+    "capacitor": "input",
+    "bus": "navigate"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "Person",
-    "pixel": "input",
-    "monitor": "parse",
-    "application": "program"
+    "monitor": "navigate",
+    "hard drive": "generate",
+    "system": "transmit",
+    "circuit": "index"
   },
   {
-    "type": "Person",
-    "firstName": "Alessandro",
-    "lastName": "Johnston",
-    "phoneNumber": "555-220-5320",
+    "email": "Hanna.Treutel51@example.com",
+    "phoneNumber": "555-676-2620",
     "worksFor": {
       "type": "Organization",
-      "name": "Stehr Group",
-      "description": "Optional well-modulated knowledge base",
+      "name": "Blanda - Lind",
+      "description": "Cross-platform high-level benchmark",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "12926 Thiel Falls",
-        "addressLocality": "Nikkistad",
-        "addressRegion": "Arizona",
-        "postalCode": "21064",
-        "addressCountry": "Macao"
+        "streetAddress": "971 Ronny Lodge",
+        "addressLocality": "Lake Destin",
+        "addressRegion": "Arkansas",
+        "postalCode": "09643",
+        "addressCountry": "Gibraltar"
       },
-      "email": "Selmer_Schiller@example.org",
-      "phoneNumber": "555-528-7950",
-      "faxNumber": "555-848-5681"
+      "email": "Camryn69@example.com",
+      "phoneNumber": "555-288-6700",
+      "faxNumber": "555-621-3161"
     },
-    "jobTitle": "Forward Implementation Agent",
-    "array": "quantify",
-    "pixel": "calculate",
-    "interface": "generate",
-    "system": "bypass"
+    "port": "navigate",
+    "microchip": "back up"
   }
 ]

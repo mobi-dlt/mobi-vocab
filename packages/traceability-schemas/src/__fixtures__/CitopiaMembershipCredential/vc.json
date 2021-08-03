@@ -1,0 +1,38 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/traceability/v1"
+  ],
+  "id": "http://example.org/credentials/",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuanceDate": "2021-02-04T20:29:37+00:00",
+  "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
+  "credentialSubject": {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "CitopiaMembershipCredential",
+    "holder": "holdernumber",
+    "identifier": "idnumber",
+    "member": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "Member",
+      "firstName": "Fay",
+      "lastName": "Prohaska",
+      "email": "Rose_Treutel40@example.net"
+    },
+    "issuanceDate": "2020-05-17",
+    "expirationDate": "2021-5-29"
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2019-12-11T03:50:55Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..fL-cDB-9TJx1HfG6JzCXEAAl7slg-5_fMTihcmm3-ZuYKpnQ0qONzggbljWbVJ2MWP88OPIsjouyInGcu9sXDg",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
+  }
+}

@@ -5,9 +5,10 @@ const buildFixturesFromFs = () => {
   const files = fs.readdirSync(path.resolve(__dirname, '../schemas'));
 
   const fixtures = {};
-
+  console.log(files);
   files.forEach((fname) => {
     // eslint-disable-next-line
+    console.log(fname);
     const fixture = JSON.parse(
       fs.readFileSync(path.resolve(__dirname, `../schemas/${fname}`).toString()),
     );
