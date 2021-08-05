@@ -1,0 +1,386 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": [
+      "CrudeOilProduct"
+    ],
+    "HSCode": "270900",
+    "UWI": "100.12-04-091-05-W5.00",
+    "productionDate": "2020-03-30",
+    "facility": {
+      "type": [
+        "Place"
+      ],
+      "globalLocationNumber": "1680445799234",
+      "geo": {
+        "type": [
+          "GeoCoordinates"
+        ],
+        "latitude": "-24.1775",
+        "longitude": "-106.2068"
+      },
+      "address": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Reinger Inc",
+        "streetAddress": "1868 Mayert Spur",
+        "addressLocality": "East William",
+        "addressRegion": "South Dakota",
+        "postalCode": "69316-6283",
+        "addressCountry": "United States Minor Outlying Islands"
+      }
+    },
+    "observation": [
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Lithium"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "51.345",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "MechanicalProperty"
+          ],
+          "identifier": "ISO 1352",
+          "name": "Torque-controlled fatigue testing",
+          "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "00.00",
+          "unitCode": "UNKNOWN"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Terbium"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "48.655",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "MechanicalProperty"
+          ],
+          "identifier": "ISO 148",
+          "name": "Charpy Impact Strength Test",
+          "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "93.7",
+          "unitCode": "B13"
+        }
+      }
+    ],
+    "product": {
+      "type": [
+        "Product"
+      ],
+      "manufacturer": {
+        "type": [
+          "Organization"
+        ],
+        "email": "Anastasia_McCullough94@example.net",
+        "phoneNumber": "555-739-3054"
+      },
+      "name": "Crude Oil Barrel",
+      "description": "Heavy Sour Dilbit",
+      "sizeOrAmount": {
+        "type": [
+          "QuantitativeValue"
+        ],
+        "unitCode": "hg/ha",
+        "value": "7854"
+      },
+      "weight": {
+        "type": [
+          "QuantitativeValue"
+        ],
+        "unitCode": "hg/ha",
+        "value": "9914"
+      },
+      "sku": "561297936667"
+    }
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": [
+      "CrudeOilProduct"
+    ],
+    "HSCode": "270900",
+    "UWI": "100.12-04-091-05-W5.00",
+    "productionDate": "2020-03-30",
+    "facility": {
+      "type": [
+        "Place"
+      ],
+      "globalLocationNumber": "1127710271090",
+      "geo": {
+        "type": [
+          "GeoCoordinates"
+        ],
+        "latitude": "59.2905",
+        "longitude": "105.3343"
+      },
+      "address": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Upton, Hermann and Welch",
+        "streetAddress": "935 Vito Villages",
+        "addressLocality": "Huelville",
+        "addressRegion": "Texas",
+        "postalCode": "77322",
+        "addressCountry": "Nicaragua"
+      }
+    },
+    "observation": [
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "MechanicalProperty"
+          ],
+          "identifier": "ISO 1352",
+          "name": "Torque-controlled fatigue testing",
+          "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis."
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "00.00",
+          "unitCode": "UNKNOWN"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Flerovium"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "00.00",
+          "unitCode": "UNKNOWN"
+        }
+      }
+    ],
+    "product": {
+      "type": [
+        "Product"
+      ],
+      "manufacturer": {
+        "type": [
+          "Person"
+        ],
+        "email": "Merlin_Wilderman56@example.com",
+        "phoneNumber": "555-672-9562"
+      },
+      "name": "Crude Oil Barrel",
+      "description": "Heavy Sour Dilbit",
+      "sizeOrAmount": {
+        "type": [
+          "QuantitativeValue"
+        ],
+        "unitCode": "hg/ha",
+        "value": "9195"
+      },
+      "weight": {
+        "type": [
+          "QuantitativeValue"
+        ],
+        "unitCode": "hg/ha",
+        "value": "1769"
+      },
+      "sku": "981178030698"
+    }
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": [
+      "CrudeOilProduct"
+    ],
+    "HSCode": "270900",
+    "UWI": "100.12-04-091-05-W5.00",
+    "productionDate": "2020-03-30",
+    "facility": {
+      "type": [
+        "Place"
+      ],
+      "globalLocationNumber": "9558357499929",
+      "geo": {
+        "type": [
+          "GeoCoordinates"
+        ],
+        "latitude": "13.8821",
+        "longitude": "-80.8028"
+      },
+      "address": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Mueller - Schaefer",
+        "streetAddress": "235 Johns Parkways",
+        "addressLocality": "Roselynberg",
+        "addressRegion": "Virginia",
+        "postalCode": "89910",
+        "addressCountry": "Liechtenstein"
+      }
+    },
+    "observation": [
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Lutetium"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "1.7323",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Nihonium"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "00.00",
+          "unitCode": "UNKNOWN"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Uranium"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "47.054",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": [
+          "Observation"
+        ],
+        "property": {
+          "type": [
+            "ChemicalProperty"
+          ],
+          "name": "Tungsten"
+        },
+        "measurement": {
+          "type": [
+            "MeasuredValue"
+          ],
+          "value": "51.214",
+          "unitCode": "P1"
+        }
+      }
+    ],
+    "product": {
+      "type": [
+        "Product"
+      ],
+      "manufacturer": {
+        "type": [
+          "Organization"
+        ],
+        "email": "Jermaine_Bayer@example.net",
+        "phoneNumber": "555-905-6961"
+      },
+      "name": "Crude Oil Barrel",
+      "description": "Heavy Sour Dilbit",
+      "sizeOrAmount": {
+        "type": [
+          "QuantitativeValue"
+        ],
+        "unitCode": "hg/ha",
+        "value": "3723"
+      },
+      "weight": {
+        "type": [
+          "QuantitativeValue"
+        ],
+        "unitCode": "hg/ha",
+        "value": "3931"
+      },
+      "sku": "57712344767"
+    }
+  }
+]

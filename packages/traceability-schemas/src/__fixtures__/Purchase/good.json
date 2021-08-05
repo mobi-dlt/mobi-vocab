@@ -1,0 +1,90 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": [
+      "Purchase"
+    ],
+    "customer": {
+      "type": "Organization",
+      "name": "Wunsch - Hessel",
+      "description": "Business-focused modular superstructure",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "847 Roger Wells",
+        "addressLocality": "Myrtleton",
+        "addressRegion": "Utah",
+        "postalCode": "67802-1006",
+        "addressCountry": "Montenegro"
+      },
+      "email": "Raquel92@example.org",
+      "phoneNumber": "555-491-8980",
+      "faxNumber": "555-483-7035"
+    }
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": [
+      "Purchase"
+    ],
+    "customer": {
+      "type": "Person",
+      "firstName": "Dorris",
+      "lastName": "Nicolas",
+      "email": "Russel_Carter@example.org",
+      "phoneNumber": "555-897-4840",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Krajcik - Harris",
+        "description": "Multi-lateral modular algorithm",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "727 Rhett Plaza",
+          "addressLocality": "New Rahulport",
+          "addressRegion": "Washington",
+          "postalCode": "79160-7076",
+          "addressCountry": "Philippines"
+        },
+        "email": "Dayne80@example.net",
+        "phoneNumber": "555-666-7447",
+        "faxNumber": "555-988-5089"
+      },
+      "jobTitle": "Dynamic Solutions Officer"
+    }
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": [
+      "Purchase"
+    ],
+    "customer": {
+      "type": "Person",
+      "firstName": "Bart",
+      "lastName": "Anderson",
+      "email": "Tiffany_Stiedemann@example.com",
+      "phoneNumber": "555-304-4868",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Legros, Parker and Boyer",
+        "description": "Inverse foreground open system",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "6304 Kutch Coves",
+          "addressLocality": "Hauckberg",
+          "addressRegion": "Iowa",
+          "postalCode": "04856",
+          "addressCountry": "Solomon Islands"
+        },
+        "email": "Nigel_Ziemann47@example.net",
+        "phoneNumber": "555-209-7226",
+        "faxNumber": "555-158-6967"
+      },
+      "jobTitle": "Dynamic Accountability Agent"
+    }
+  }
+]

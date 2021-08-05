@@ -1,0 +1,176 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": [
+      "BillOfLading"
+    ],
+    "billOfLadingNumber": "991205182",
+    "relatedDocuments": [
+      {
+        "@context": [
+          "https://w3id.org/traceability/v1"
+        ],
+        "type": [
+          "Purchase"
+        ],
+        "customer": {
+          "type": [
+            "Organization"
+          ],
+          "email": "Glenda.Bechtelar78@example.net",
+          "phoneNumber": "555-909-3131"
+        }
+      }
+    ],
+    "freight": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": [
+        "ParcelDelivery"
+      ],
+      "deliveryAddress": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Kshlerin Group",
+        "streetAddress": "4947 Armand Crest",
+        "addressLocality": "Lake Stuartport",
+        "addressRegion": "Virginia",
+        "postalCode": "77070",
+        "addressCountry": "Cape Verde"
+      },
+      "originAddress": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Cole - Collins",
+        "streetAddress": "7964 Bernhard Ville",
+        "addressLocality": "North Alvena",
+        "addressRegion": "Iowa",
+        "postalCode": "22229",
+        "addressCountry": "Senegal"
+      },
+      "deliveryMethod": "Rail freight transport",
+      "trackingNumber": "249553702479"
+    }
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": [
+      "BillOfLading"
+    ],
+    "billOfLadingNumber": "991205182",
+    "relatedDocuments": [
+      {
+        "@context": [
+          "https://w3id.org/traceability/v1"
+        ],
+        "type": [
+          "Purchase"
+        ],
+        "customer": {
+          "type": [
+            "Person"
+          ],
+          "email": "Carmel_King79@example.com",
+          "phoneNumber": "555-276-9235"
+        }
+      }
+    ],
+    "freight": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": [
+        "ParcelDelivery"
+      ],
+      "deliveryAddress": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Stark - Emmerich",
+        "streetAddress": "048 O'Conner Lake",
+        "addressLocality": "Karliburgh",
+        "addressRegion": "Arkansas",
+        "postalCode": "51834-9077",
+        "addressCountry": "Liberia"
+      },
+      "originAddress": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Gerlach - Swaniawski",
+        "streetAddress": "53777 Doyle Motorway",
+        "addressLocality": "Port Magdalenhaven",
+        "addressRegion": "Florida",
+        "postalCode": "22945-9775",
+        "addressCountry": "Anguilla"
+      },
+      "deliveryMethod": "Rail freight transport",
+      "trackingNumber": "552518089393"
+    }
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": [
+      "BillOfLading"
+    ],
+    "billOfLadingNumber": "991205182",
+    "relatedDocuments": [
+      {
+        "@context": [
+          "https://w3id.org/traceability/v1"
+        ],
+        "type": [
+          "Purchase"
+        ],
+        "customer": {
+          "type": [
+            "Organization"
+          ],
+          "email": "Elmira6@example.org",
+          "phoneNumber": "555-992-8533"
+        }
+      }
+    ],
+    "freight": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": [
+        "ParcelDelivery"
+      ],
+      "deliveryAddress": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "VonRueden, Lindgren and Brown",
+        "streetAddress": "739 Reilly Mall",
+        "addressLocality": "Jadynburgh",
+        "addressRegion": "Louisiana",
+        "postalCode": "48883",
+        "addressCountry": "Madagascar"
+      },
+      "originAddress": {
+        "type": [
+          "PostalAddress"
+        ],
+        "organizationName": "Rath Inc",
+        "streetAddress": "017 Conroy Fords",
+        "addressLocality": "Heidenreichmouth",
+        "addressRegion": "Minnesota",
+        "postalCode": "76646",
+        "addressCountry": "Micronesia"
+      },
+      "deliveryMethod": "Rail freight transport",
+      "trackingNumber": "352381422250"
+    }
+  }
+]

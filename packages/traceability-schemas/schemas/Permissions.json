@@ -1,10 +1,10 @@
 {
     "$id": "https://w3id.org/vc-revocation-list-2020/v1",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"Permissions\": \"@id\": \"https://w3id.org/traceability#\"}",
+    "$comment": "{\"term\": \"Permissions\", \"@id\": \"https://w3id.org/traceability#Permissions\"}",
     "title": "Permissions",
     "description": "Permissions access for entity",
-    "type": "string",
+    "type": "object",
     "properties": {
         "@context": {
             "type": "array"
@@ -20,31 +20,31 @@
             ]
         },
         "userLocation": {
-            "$comment": "{\"term\": \"id\", \"@id\": \"https://schema.org/place\"}",
+            "$comment": "{\"term\": \"userLocation\", \"@id\": \"https://schema.org/place\"}",
             "title": "User Location",
             "description": "Location of the user.",
             "type": "boolean"
         },
         "vehicleLocation": {
-            "$comment": "{\"term\": \"id\", \"@id\": \"https://schema.org/place\"}",
+            "$comment": "{\"term\": \"vehicleLocation\", \"@id\": \"https://schema.org/location\"}",
             "title": "Vehicle Location",
             "description": "Location of the vehicle.",
             "type": "boolean"
         },
         "mobiVID": {
-            "$comment": "{\"term\": \"id\", \"@id\": \"https://schema.org/identifier\"}",
+            "$comment": "{\"term\": \"mobiVID\", \"@id\": \"https://w3id.org/traceability#VID\"}",
             "title": "MOBI VID",
             "description": "VID for the vehicle",
             "type": "boolean"
         },
         "batteryId": {
-            "$comment": "{\"term\": \"id\", \"@id\": \"https://schema.org/identifier\"}",
-            "title": "Battery ID",
-            "description": "ID for the battery.",
+            "$comment": "{\"term\": \"batteryId\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "Battery Id",
+            "description": "Id for the battery.",
             "type": "boolean"
         },
         "dataSharingForrewards": {
-            "$comment": "{\"term\": \"id\", \"@id\": \"https://schema.org/intangible\"}",
+            "$comment": "{\"term\": \"dataSharingForRewards\", \"@id\": \"https://schema.org/intangible\"}",
             "title": "Data Sharing For Rewards",
             "description": "Sharing of Data for Rewards",
             "type": "boolean"

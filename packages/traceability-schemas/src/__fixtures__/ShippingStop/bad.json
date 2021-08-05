@@ -1,0 +1,57 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "ShippingStop",
+    "carrier": {
+      "type": "Organization",
+      "name": "Reilly Inc",
+      "description": "Inverse reciprocal access",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "8440 Jammie Valley",
+        "addressLocality": "Gorczanyfurt",
+        "addressRegion": "Delaware",
+        "postalCode": "01551",
+        "addressCountry": "Iceland"
+      },
+      "email": "Alexys.Bradtke83@example.net",
+      "phoneNumber": "555-452-4861",
+      "faxNumber": "555-630-9710"
+    },
+    "vesselNumber": "ACMECarrierVessel#961",
+    "arrivalDate": "2021-03-09",
+    "stopType": "Stopover",
+    "driver": "back up",
+    "matrix": "copy",
+    "hard drive": "reboot"
+  },
+  {
+    "type": "ShippingStop",
+    "carrier": {
+      "type": "Organization",
+      "name": "Kessler LLC",
+      "description": "Business-focused multi-tasking portal",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "88288 Muller Ferry",
+        "addressLocality": "North Diegofort",
+        "addressRegion": "Virginia",
+        "postalCode": "90347",
+        "addressCountry": "Micronesia"
+      },
+      "email": "Kenna_Hodkiewicz@example.org",
+      "phoneNumber": "555-708-8694",
+      "faxNumber": "555-825-9768"
+    },
+    "vesselNumber": "ACMECarrierVessel#316",
+    "hard drive": "copy",
+    "circuit": "back up",
+    "program": "transmit"
+  },
+  {
+    "interface": "reboot",
+    "circuit": "input"
+  }
+]

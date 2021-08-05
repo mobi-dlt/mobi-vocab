@@ -1,0 +1,126 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/traceability/v1"
+  ],
+  "id": "http://example.org/credentials/",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuanceDate": "2021-02-04T20:29:37+00:00",
+  "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
+  "credentialSubject": {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "InspectionReport",
+    "observation": [
+      {
+        "type": "Observation",
+        "property": {
+          "type": "ChemicalProperty",
+          "name": "Californium",
+          "formula": "Cf",
+          "inchi": "InChI=1S/Cf",
+          "inchikey": "HGLDOAKPQXAFKI-UHFFFAOYSA-N"
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "100.00",
+          "unitCode": "P1"
+        }
+      },
+      {
+        "type": "Observation",
+        "property": {
+          "type": "MechanicalProperty",
+          "identifier": "ISO 148",
+          "name": "Charpy Impact Strength Test",
+          "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "75.787",
+          "unitCode": "B13"
+        }
+      },
+      {
+        "type": "Observation",
+        "property": {
+          "type": "MechanicalProperty",
+          "identifier": "ISO 148",
+          "name": "Charpy Impact Strength Test",
+          "description": "ISO 148-1:2016 specifies the Charpy (V-notch and U-notch) pendulum impact test method for determining the energy absorbed in an impact test of metallic materials. This part of ISO 148 does not cover instrumented impact testing, which is specified in ISO 14556."
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "32.369",
+          "unitCode": "B13"
+        }
+      },
+      {
+        "type": "Observation",
+        "property": {
+          "type": "MechanicalProperty",
+          "identifier": "ISO 3738",
+          "name": "Rockwell Hardness Test (Scale A)",
+          "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "00.00",
+          "unitCode": "UNKNOWN"
+        }
+      },
+      {
+        "type": "Observation",
+        "property": {
+          "type": "MechanicalProperty",
+          "identifier": "ISO 3738",
+          "name": "Rockwell Hardness Test (Scale A)",
+          "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "00.00",
+          "unitCode": "UNKNOWN"
+        }
+      },
+      {
+        "type": "Observation",
+        "property": {
+          "type": "MechanicalProperty",
+          "identifier": "ISO 3738",
+          "name": "Rockwell Hardness Test (Scale A)",
+          "description": "The Rockwell hardness test is an empirical indentation hardness test that can provide useful information about metallic materials."
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "00.00",
+          "unitCode": "UNKNOWN"
+        }
+      },
+      {
+        "type": "Observation",
+        "property": {
+          "type": "MechanicalProperty",
+          "identifier": "ISO 180",
+          "name": "Izod Impact Strength Test",
+          "description": "ISO 180 defines the method used for pendulums to determine the impact resistance of a plastic specimen when supported in a cantilever configuration. Test results are used to evaluate the resilience of materials, typically plastics."
+        },
+        "measurement": {
+          "type": "MeasuredValue",
+          "value": "79.613",
+          "unitCode": "B13"
+        }
+      }
+    ]
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2019-12-11T03:50:55Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..TrGFbySWiH4xOquWdtZUFex_rioxunPZWs_JB1EGJYFxuaYN_XYFZGosoyxFVhuDQbWvGaNmp-8bWnQOUtcwAg",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
+  }
+}

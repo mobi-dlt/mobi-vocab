@@ -1,0 +1,105 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIentity",
+    "legalName": "Treutel and Sons",
+    "legalNameLanguage": "nl_BE",
+    "otherNames": [
+      "Ward, Swaniawski and Schneider",
+      "Cruickshank Inc"
+    ],
+    "transliteratedOtherNames": [
+      "Ward, Swaniawski and Schneider",
+      "Cruickshank Inc"
+    ],
+    "legalAddress": {
+      "type": "LEIaddress",
+      "language": "en_AU",
+      "addressLines": [
+        "McCullough - Hessel",
+        "5023 Philip Locks"
+      ],
+      "addressNumber": "381",
+      "addressNumberWithinBuilding": "6",
+      "mailRouting": "51045 Sylvia Forges, 16010-7366",
+      "city": "Lake Hannahview",
+      "region": "Avon",
+      "country": "Virgin Islands, U.S.",
+      "postalCode": "66326"
+    },
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "it",
+      "addressLines": [
+        "Veum and Sons",
+        "702 Jerde Plaza"
+      ],
+      "addressNumber": "461",
+      "addressNumberWithinBuilding": "9",
+      "mailRouting": "812 Breana Estate, 37204-1479",
+      "city": "North Reaganborough",
+      "region": "Buckinghamshire",
+      "country": "Seychelles",
+      "postalCode": "56634"
+    },
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000005",
+      "otherValidationAuthorityID": "MTP2CT3H",
+      "validationAuthorityEntityID": "24LVINQ5I1F5EL06C8Z0"
+    },
+    "legalJurisdiction": "Berkshire",
+    "entityCategory": "Jewelery",
+    "legalForm": "CORPORATION",
+    "associatedEntity": {
+      "type": "Organization",
+      "leiCode": "V5T6ZRX0WKQDDI3KOBZA",
+      "name": "McKenzie, Schinner and Stamm"
+    },
+    "status": "REQUESTED",
+    "expirationReason": "deploy customized synergies",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "O2WIGYFOS236IRUUTMYN",
+      "name": "Barrows, Durgan and Shields"
+    },
+    "otherAddresses": [],
+    "port": "generate",
+    "monitor": "compress"
+  },
+  {
+    "type": "LEIentity",
+    "legalAddress": {
+      "type": "LEIaddress",
+      "language": "de_AT",
+      "addressLines": [
+        "Denesik LLC",
+        "028 Purdy Ramp"
+      ],
+      "addressNumber": "272",
+      "addressNumberWithinBuilding": "5",
+      "mailRouting": "589 Rodriguez Lodge, 64814",
+      "city": "Pablobury",
+      "region": "Bedfordshire",
+      "country": "Grenada",
+      "postalCode": "29143"
+    },
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000002",
+      "otherValidationAuthorityID": "D80GMIPR",
+      "validationAuthorityEntityID": "NGYSVMG425HFOELQJKGD"
+    },
+    "status": "REQUESTED",
+    "card": "reboot",
+    "bus": "quantify"
+  },
+  {
+    "driver": "hack",
+    "pixel": "navigate",
+    "circuit": "parse",
+    "port": "reboot"
+  }
+]

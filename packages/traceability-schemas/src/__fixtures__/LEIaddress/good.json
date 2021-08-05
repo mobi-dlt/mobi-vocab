@@ -1,0 +1,56 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIaddress",
+    "language": "en_GB",
+    "addressLines": [
+      "White - Hyatt",
+      "04238 Marks Locks"
+    ],
+    "addressNumber": "483",
+    "addressNumberWithinBuilding": "2",
+    "mailRouting": "41477 Eryn Circle, 22567-5539",
+    "city": "Port Emanuel",
+    "region": "Cambridgeshire",
+    "country": "Chad",
+    "postalCode": "17271"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIaddress",
+    "language": "en",
+    "addressLines": [
+      "Hammes - Ullrich",
+      "415 Raegan Forge"
+    ],
+    "addressNumber": "205",
+    "addressNumberWithinBuilding": "2",
+    "mailRouting": "733 Preston Canyon, 69144-1767",
+    "city": "Jessycaland",
+    "region": "Avon",
+    "country": "Turkey",
+    "postalCode": "79064"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIaddress",
+    "language": "it",
+    "addressLines": [
+      "Schimmel - Greenfelder",
+      "602 Brekke Hills"
+    ],
+    "addressNumber": "340",
+    "addressNumberWithinBuilding": "2",
+    "mailRouting": "29880 Orlando Ford, 65943-7610",
+    "city": "West Levi",
+    "region": "Borders",
+    "country": "Yemen",
+    "postalCode": "65428-1474"
+  }
+]

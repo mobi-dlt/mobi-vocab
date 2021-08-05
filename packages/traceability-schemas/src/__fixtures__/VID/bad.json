@@ -1,0 +1,52 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "vin": "JTERU5JR7M5861170",
+    "panel": "generate",
+    "array": "override",
+    "hard drive": "transmit"
+  },
+  {
+    "type": "VID",
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "manufacturer": {
+      "type": "Person",
+      "firstName": "Constance",
+      "lastName": "Gulgowski",
+      "email": "Jewell_Schneider79@example.net",
+      "phoneNumber": "555-591-3724",
+      "worksFor": {
+        "type": "Organization",
+        "name": "D'Amore - Blanda",
+        "description": "Versatile web-enabled interface",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "2839 Josianne Ville",
+          "addressLocality": "Jacobsland",
+          "addressRegion": "Nebraska",
+          "postalCode": "73371-5586",
+          "addressCountry": "Isle of Man"
+        },
+        "email": "Kay_Mueller62@example.com",
+        "phoneNumber": "555-741-1556",
+        "faxNumber": "555-893-6011"
+      },
+      "jobTitle": "Central Usability Executive"
+    },
+    "make": "Ford",
+    "model": "Mach_E",
+    "vin": "JTERU5JR7M5861170",
+    "array": "bypass",
+    "card": "input"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "matrix": "index",
+    "bandwidth": "input"
+  }
+]

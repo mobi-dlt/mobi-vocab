@@ -1,0 +1,53 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Customer",
+    "name": "Matt Ryan",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "9031 Justyn Orchard",
+      "addressLocality": "New Haventon",
+      "addressRegion": "Nebraska",
+      "postalCode": "07922",
+      "addressCountry": "Cook Islands"
+    },
+    "telephone": "555-398-7540",
+    "email": "Fermin.OKeefe51@example.net"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Customer",
+    "name": "Catharine Glover",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "267 Keira Crescent",
+      "addressLocality": "Lake Jonathonchester",
+      "addressRegion": "Montana",
+      "postalCode": "39948",
+      "addressCountry": "Cape Verde"
+    },
+    "telephone": "555-738-1186",
+    "email": "Joseph95@example.net"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Customer",
+    "name": "Keegan Purdy",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "481 Polly Estate",
+      "addressLocality": "Katrineshire",
+      "addressRegion": "Maryland",
+      "postalCode": "18881",
+      "addressCountry": "Palau"
+    },
+    "telephone": "555-187-3114",
+    "email": "Reanna_Quigley@example.com"
+  }
+]

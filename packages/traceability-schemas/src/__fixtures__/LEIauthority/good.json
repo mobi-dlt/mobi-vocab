@@ -1,0 +1,29 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIauthority",
+    "validationAuthorityID": "RA000003",
+    "otherValidationAuthorityID": "98JOT73W",
+    "validationAuthorityEntityID": "X3SP6HPVD4EOSKYH4HFP"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIauthority",
+    "validationAuthorityID": "RA000001",
+    "otherValidationAuthorityID": "S7H8ANMW",
+    "validationAuthorityEntityID": "AZ87Q4123V0A5028ZCAZ"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIauthority",
+    "validationAuthorityID": "RA000004",
+    "otherValidationAuthorityID": "V4EPC478",
+    "validationAuthorityEntityID": "DCBROKAOKK2O60EXX3DE"
+  }
+]

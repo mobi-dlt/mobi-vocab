@@ -1,0 +1,45 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIregistration",
+    "lastUpdateDate": "2020-01-01",
+    "status": "REJECTED",
+    "nextRenewalDate": "2021-02-02",
+    "validationSources": "NOT_CORROBORATED",
+    "bus": "override",
+    "application": "transmit"
+  },
+  {
+    "type": "LEIregistration",
+    "status": "REJECTED",
+    "managingLou": "LRAYOURUPNTEOLBODRPP",
+    "validationSources": "FULLY_CORROBORATED",
+    "validationAuthority": [
+      {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000004",
+        "otherValidationAuthorityID": "XZ8KKA9E",
+        "validationAuthorityEntityID": "T60RKRCVB0NKU7LCUS96"
+      }
+    ],
+    "feed": "calculate",
+    "alarm": "synthesize"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "lastUpdateDate": "2020-01-01",
+    "validationAuthority": [
+      {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000004",
+        "otherValidationAuthorityID": "DB9RRNRM",
+        "validationAuthorityEntityID": "GJM0DPPDUXOTILG9N7OC"
+      }
+    ],
+    "sensor": "hack"
+  }
+]

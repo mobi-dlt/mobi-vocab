@@ -1,0 +1,25 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "name": "Oxygen",
+    "application": "back up",
+    "monitor": "reboot"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "ChemicalProperty",
+    "formula": "Tb",
+    "monitor": "input",
+    "system": "copy"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "driver": "calculate"
+  }
+]

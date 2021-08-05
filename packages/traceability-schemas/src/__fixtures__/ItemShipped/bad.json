@@ -1,0 +1,33 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "name": "Ergonomic Metal Chicken",
+    "height": "8.23 in",
+    "system": "compress",
+    "monitor": "index"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "ItemShipped",
+    "manufacturer": "Sanford LLC",
+    "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+    "productID": "T2CLND8S3V",
+    "weight": "4.178 lp",
+    "height": "8.659 in",
+    "orderQuantity": 3,
+    "matrix": "connect",
+    "port": "reboot"
+  },
+  {
+    "productID": "TP91GVP4F4",
+    "width": "7.353 in",
+    "orderQuantity": 10,
+    "sensor": "copy",
+    "hard drive": "program",
+    "alarm": "hack"
+  }
+]

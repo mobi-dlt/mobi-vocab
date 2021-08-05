@@ -1,0 +1,70 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "ProductRegistrationEvidenceDocument",
+    "category": "Specialty Goods",
+    "inProductGroupWithID": "Group973",
+    "mpn": "5BMDYLZ2D9",
+    "gtin": "59941362324520",
+    "isAccessoryOrSparePartFor": "n/a",
+    "releaseDate": "2020-01-07",
+    "leiCode": "",
+    "name": "Ergonomic Frozen Mouse",
+    "model": "b866346a-12b8-44c4-a1cd-c70909f633db",
+    "weight": "3.38 kg",
+    "height": "1.934 m",
+    "depth": "7.392 m",
+    "isBasedOn": "Sleek Concrete Shirt",
+    "image": "http://placeimg.com/640/480",
+    "alarm": "program",
+    "monitor": "reboot",
+    "card": "input"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "ProductRegistrationEvidenceDocument",
+    "category": "Dietary Supplement",
+    "productID": "ZT1550W128",
+    "mpn": "V4PJ1UFQR7",
+    "gtin": "58351718137413",
+    "isAccessoryOrSparePartFor": "n/a",
+    "releaseDate": "2020-01-07",
+    "manufacturer": "Weber - Lang",
+    "globalLocationNumber": "8808796273311",
+    "leiCode": "",
+    "name": "Practical Rubber Gloves",
+    "model": "5d1ef88b-11d9-4d3a-a7aa-4b0e0f080c1f",
+    "color": "white",
+    "material": "Wooden",
+    "weight": "2.991 kg",
+    "height": "1.164 m",
+    "width": "9.882 m",
+    "depth": "8.821 m",
+    "url": "https://example.com/Practical Rubber Gloves",
+    "isBasedOn": "Incredible Concrete Keyboard",
+    "image": "http://placeimg.com/640/480",
+    "interface": "synthesize",
+    "program": "copy",
+    "card": "quantify",
+    "matrix": "synthesize"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "productID": "VQVQKNF8NF",
+    "gtin": "87215770201687",
+    "releaseDate": "2020-01-07",
+    "globalLocationNumber": "7058446588227",
+    "name": "Handcrafted Soft Fish",
+    "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+    "color": "white",
+    "depth": "4.086 m",
+    "image": "http://placeimg.com/640/480",
+    "program": "hack"
+  }
+]

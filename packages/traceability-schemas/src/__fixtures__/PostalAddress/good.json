@@ -1,0 +1,38 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "PostalAddress",
+    "organizationName": "Lakin Inc",
+    "streetAddress": "075 Ethyl Islands",
+    "addressLocality": "East Rodrigomouth",
+    "addressRegion": "Nevada",
+    "postalCode": "62900-1971",
+    "addressCountry": "Guam"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "PostalAddress",
+    "organizationName": "Klein, Cartwright and Brakus",
+    "streetAddress": "044 Kassulke Locks",
+    "addressLocality": "Johannatown",
+    "addressRegion": "West Virginia",
+    "postalCode": "58951",
+    "addressCountry": "Poland"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "PostalAddress",
+    "organizationName": "Halvorson Group",
+    "streetAddress": "4321 Kemmer Track",
+    "addressLocality": "Lake Bernitaburgh",
+    "addressRegion": "Louisiana",
+    "postalCode": "54118",
+    "addressCountry": "Saint Lucia"
+  }
+]

@@ -1,0 +1,179 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "IssuerAgent",
+    "issuerAgentOrg": {
+      "type": "Organization",
+      "name": "Nader Group",
+      "description": "Configurable systemic migration",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "062 Isabelle Springs",
+        "addressLocality": "South Bethfurt",
+        "addressRegion": "Massachusetts",
+        "postalCode": "64791",
+        "addressCountry": "Argentina"
+      },
+      "email": "Aurore82@example.net",
+      "phoneNumber": "555-171-3844",
+      "faxNumber": "555-946-3826"
+    },
+    "iataCode": "IATA#772",
+    "accountNumber": "",
+    "accountingInformation": "Please charge to Account 123 and not Account 321",
+    "charge": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 9775,
+      "priceCurrency": "MOP"
+    },
+    "declaredValueCarriage": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 383,
+      "priceCurrency": "GNF"
+    },
+    "declaredValueCarriagePaymentStatus": "PaymentDue",
+    "declaredValueCustoms": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 4457,
+      "priceCurrency": "DOP"
+    },
+    "declaredValueCustomsPaymentStatus": "PaymentDue",
+    "amountInsurance": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 1140,
+      "priceCurrency": "BIF"
+    }
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "IssuerAgent",
+    "issuerAgentOrg": {
+      "type": "Organization",
+      "name": "Corwin, Frami and Batz",
+      "description": "Right-sized system-worthy leverage",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "9196 Patricia Well",
+        "addressLocality": "Ondrickaburgh",
+        "addressRegion": "Louisiana",
+        "postalCode": "10066-0788",
+        "addressCountry": "Malawi"
+      },
+      "email": "Devon.Christiansen89@example.org",
+      "phoneNumber": "555-922-7024",
+      "faxNumber": "555-891-8484"
+    },
+    "iataCode": "IATA#137",
+    "accountNumber": "",
+    "accountingInformation": "Please charge to Account 123 and not Account 321",
+    "charge": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 2756,
+      "priceCurrency": "AED"
+    },
+    "declaredValueCarriage": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 337,
+      "priceCurrency": "NZD"
+    },
+    "declaredValueCarriagePaymentStatus": "PaymentDeclined",
+    "declaredValueCustoms": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 4209,
+      "priceCurrency": "MOP"
+    },
+    "declaredValueCustomsPaymentStatus": "PaymentDeclined",
+    "amountInsurance": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 8952,
+      "priceCurrency": "VEF"
+    }
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "IssuerAgent",
+    "issuerAgentOrg": {
+      "type": "Organization",
+      "name": "Collins, O'Keefe and Pfannerstill",
+      "description": "Enhanced uniform definition",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "9470 Quitzon Row",
+        "addressLocality": "Dooleystad",
+        "addressRegion": "Hawaii",
+        "postalCode": "64234-4737",
+        "addressCountry": "Sri Lanka"
+      },
+      "email": "Emely96@example.com",
+      "phoneNumber": "555-507-3679",
+      "faxNumber": "555-812-6937"
+    },
+    "iataCode": "IATA#631",
+    "accountNumber": "",
+    "accountingInformation": "Please charge to Account 123 and not Account 321",
+    "charge": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 4559,
+      "priceCurrency": "DKK"
+    },
+    "declaredValueCarriage": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 9086,
+      "priceCurrency": "EGP"
+    },
+    "declaredValueCarriagePaymentStatus": "PaymentComplete",
+    "declaredValueCustoms": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 1053,
+      "priceCurrency": "PAB"
+    },
+    "declaredValueCustomsPaymentStatus": "PaymentComplete",
+    "amountInsurance": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "PriceSpecification",
+      "price": 7206,
+      "priceCurrency": "PLN"
+    }
+  }
+]

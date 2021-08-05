@@ -1,0 +1,43 @@
+[
+  {
+    "type": "Person",
+    "firstName": "Deontae",
+    "lastName": "Kunze",
+    "email": "Ahmed_Prohaska@example.net",
+    "phoneNumber": "555-468-6756",
+    "worksFor": {
+      "type": "Organization",
+      "name": "Tremblay Inc",
+      "description": "Self-enabling system-worthy budgetary management",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "2929 Macy Locks",
+        "addressLocality": "Steuberland",
+        "addressRegion": "Iowa",
+        "postalCode": "14398-4056",
+        "addressCountry": "Malawi"
+      },
+      "email": "Oren_Maggio@example.com",
+      "phoneNumber": "555-529-3895",
+      "faxNumber": "555-244-1675"
+    },
+    "jobTitle": "Dynamic Communications Developer",
+    "hard drive": "override",
+    "program": "override"
+  },
+  {
+    "type": "Person",
+    "lastName": "O'Keefe",
+    "jobTitle": "Dynamic Optimization Designer",
+    "array": "program"
+  },
+  {
+    "type": "Person",
+    "firstName": "Tracy",
+    "lastName": "Davis",
+    "email": "Kamryn44@example.com",
+    "system": "synthesize",
+    "pixel": "index",
+    "panel": "calculate"
+  }
+]

@@ -1,0 +1,105 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Inspector",
+    "qualification": [
+      {
+        "type": "Qualification",
+        "qualificationCategory": "Global Branding Facilitator",
+        "qualificationValue": "Architect"
+      },
+      {
+        "type": "Qualification",
+        "qualificationCategory": "Global Web Engineer",
+        "qualificationValue": "Architect"
+      }
+    ],
+    "feed": "generate"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "person": {
+      "type": "Person",
+      "firstName": "Cory",
+      "lastName": "Mills",
+      "email": "Elena_Daugherty84@example.org",
+      "phoneNumber": "555-402-8251",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Hahn - Turner",
+        "description": "Universal eco-centric software",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "807 Zita Summit",
+          "addressLocality": "Port Yesseniafort",
+          "addressRegion": "Hawaii",
+          "postalCode": "02972",
+          "addressCountry": "French Southern Territories"
+        },
+        "email": "Rosemarie_Dibbert88@example.net",
+        "phoneNumber": "555-701-2584",
+        "faxNumber": "555-259-8078"
+      },
+      "jobTitle": "Regional Applications Engineer"
+    },
+    "qualification": [
+      {
+        "type": "Qualification",
+        "qualificationCategory": "Dynamic Markets Administrator",
+        "qualificationValue": "Manager"
+      },
+      {
+        "type": "Qualification",
+        "qualificationCategory": "Legacy Creative Designer",
+        "qualificationValue": "Orchestrator"
+      }
+    ],
+    "card": "back up",
+    "monitor": "reboot",
+    "matrix": "parse"
+  },
+  {
+    "type": "Inspector",
+    "person": {
+      "type": "Person",
+      "firstName": "Marty",
+      "lastName": "Nikolaus",
+      "email": "Blanca.Dooley@example.com",
+      "phoneNumber": "555-248-7803",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Bailey - Trantow",
+        "description": "Multi-channelled zero administration flexibility",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "3814 Bertram Knolls",
+          "addressLocality": "Mayerport",
+          "addressRegion": "Arizona",
+          "postalCode": "53898-6809",
+          "addressCountry": "Ghana"
+        },
+        "email": "Hyman21@example.org",
+        "phoneNumber": "555-194-6609",
+        "faxNumber": "555-215-1506"
+      },
+      "jobTitle": "International Intranet Consultant"
+    },
+    "qualification": [
+      {
+        "type": "Qualification",
+        "qualificationCategory": "Dynamic Configuration Technician",
+        "qualificationValue": "Planner"
+      },
+      {
+        "type": "Qualification",
+        "qualificationCategory": "Direct Marketing Producer",
+        "qualificationValue": "Developer"
+      }
+    ],
+    "circuit": "bypass"
+  }
+]

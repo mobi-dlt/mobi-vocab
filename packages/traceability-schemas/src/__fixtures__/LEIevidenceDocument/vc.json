@@ -1,0 +1,118 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/traceability/v1"
+  ],
+  "id": "http://example.org/credentials/",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuanceDate": "2021-02-04T20:29:37+00:00",
+  "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
+  "credentialSubject": {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "LEIevidenceDocument",
+    "lei": "PUO1B59EYHX9GCU5GHFS",
+    "entity": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "LEIentity",
+      "legalName": "Collins and Sons",
+      "legalNameLanguage": "hr",
+      "otherNames": [
+        "Schaefer - Mayer",
+        "Corwin - Hane"
+      ],
+      "transliteratedOtherNames": [
+        "Schaefer - Mayer",
+        "Corwin - Hane"
+      ],
+      "legalAddress": {
+        "type": "LEIaddress",
+        "language": "vi",
+        "addressLines": [
+          "Rice - Thiel",
+          "88653 Ray Hill"
+        ],
+        "addressNumber": "409",
+        "addressNumberWithinBuilding": "7",
+        "mailRouting": "838 Boyer Junctions, 99036-0414",
+        "city": "Parisianmouth",
+        "region": "Borders",
+        "country": "Northern Mariana Islands",
+        "postalCode": "35272"
+      },
+      "headquartersAddress": {
+        "type": "LEIaddress",
+        "language": "ru",
+        "addressLines": [
+          "Dach - Johnston",
+          "742 VonRueden Mountains"
+        ],
+        "addressNumber": "329",
+        "addressNumberWithinBuilding": "7",
+        "mailRouting": "8342 Glen Garden, 31212",
+        "city": "Port Zola",
+        "region": "Cambridgeshire",
+        "country": "Tokelau",
+        "postalCode": "26316"
+      },
+      "registrationAuthority": {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000003",
+        "otherValidationAuthorityID": "CA2795RB",
+        "validationAuthorityEntityID": "V370GSG4VRRSIJOBU50Q"
+      },
+      "legalJurisdiction": "Cambridgeshire",
+      "entityCategory": "Jewelery",
+      "legalForm": "LLC",
+      "associatedEntity": {
+        "type": "Organization",
+        "leiCode": "5NF3JH0PFJSEOMMYW30E",
+        "name": "Robel - Altenwerth"
+      },
+      "status": "REJECTED",
+      "expirationDate": "2022-07-11",
+      "expirationReason": "cultivate back-end paradigms",
+      "successorEntity": {
+        "type": "Organization",
+        "leiCode": "CDIEN0FHPRVT5VGHEMO2",
+        "name": "Kuhlman LLC"
+      },
+      "otherAddresses": []
+    },
+    "registration": {
+      "@context": [
+        "https://w3id.org/traceability/v1"
+      ],
+      "type": "LEIregistration",
+      "initialRegistrationDate": "2020-01-01",
+      "lastUpdateDate": "2020-01-01",
+      "status": "IN PROGRESS",
+      "nextRenewalDate": "2021-02-02",
+      "managingLou": "QAVPUHIWGHLRMRGFXAOK",
+      "validationSources": "NOT_CORROBORATED",
+      "validationAuthority": [
+        {
+          "type": "LEIauthority",
+          "validationAuthorityID": "RA000005",
+          "otherValidationAuthorityID": "5VDFBWFZ",
+          "validationAuthorityEntityID": "K3W8EYZYR3I0N53ZU6KI"
+        }
+      ]
+    },
+    "bic": [
+      "HVVOSIEWQL"
+    ]
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2019-12-11T03:50:55Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..kbU5AFNDVCMtDVzWurmcyuCiKfJBGGTo67Hi9BqtjdN5iqp9YldfUkIf7MEe24-T-xH-4G4ZzUC5hU6j1uE4DA",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
+  }
+}

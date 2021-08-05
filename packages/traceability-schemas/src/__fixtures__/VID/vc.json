@@ -1,0 +1,45 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/traceability/v1"
+  ],
+  "id": "http://example.org/credentials/",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuanceDate": "2021-02-04T20:29:37+00:00",
+  "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
+  "credentialSubject": {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "VID",
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "manufacturer": {
+      "type": "Organization",
+      "name": "Littel - Gottlieb",
+      "description": "User-friendly value-added capacity",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "4435 VonRueden Ports",
+        "addressLocality": "Gregoriashire",
+        "addressRegion": "Georgia",
+        "postalCode": "25825",
+        "addressCountry": "Togo"
+      },
+      "email": "Jaunita_Boehm@example.net",
+      "phoneNumber": "555-509-9740",
+      "faxNumber": "555-234-8076"
+    },
+    "make": "Ford",
+    "model": "Mach_E",
+    "vin": "JTERU5JR7M5861170"
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2019-12-11T03:50:55Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..fXORhHHXRQD7UdjCEq9Q1F4AT2RVyDO_rgdjNsbboWNmAoRdNfMSRDAW7XKzUFdl4QNcVSgwEVw82I1h0uXUAA",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
+  }
+}

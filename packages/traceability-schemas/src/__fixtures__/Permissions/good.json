@@ -1,0 +1,35 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Permissions",
+    "userLocation": "True",
+    "vehicleLocation": "True",
+    "mobiVID": "True",
+    "batteryId": "True",
+    "dataSharingForRewards": "True"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Permissions",
+    "userLocation": "True",
+    "vehicleLocation": "True",
+    "mobiVID": "True",
+    "batteryId": "True",
+    "dataSharingForRewards": "True"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Permissions",
+    "userLocation": "True",
+    "vehicleLocation": "True",
+    "mobiVID": "True",
+    "batteryId": "True",
+    "dataSharingForRewards": "True"
+  }
+]

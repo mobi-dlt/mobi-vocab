@@ -1,0 +1,153 @@
+[
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://w3id.org/traceability/v1"
+    ],
+    "id": "https://example.com/credential/123",
+    "description": "This document includes recommended bill of lading fields.",
+    "relatedLink": [
+      {
+        "type": [
+          "LinkRole"
+        ],
+        "target": "did:example:789",
+        "linkRelationship": "commercialInvoiceLink"
+      },
+      {
+        "type": [
+          "LinkRole"
+        ],
+        "target": "https://www.example.com/template/123",
+        "linkRelationship": "millTestReportLink"
+      }
+    ],
+    "issuanceDate": "2019-12-11T03:50:55Z",
+    "issuer": {
+      "id": "did:example:123",
+      "type": "Organization",
+      "name": "Brown, Kris and Jones",
+      "description": "Advanced 5th generation Graphical User Interface",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "706 O'Conner Turnpike",
+        "addressLocality": "Swiftfurt",
+        "addressRegion": "Alabama",
+        "postalCode": "11343-4283",
+        "addressCountry": "Malta"
+      },
+      "email": "Alejandrin.VonRueden12@example.net",
+      "phoneNumber": "555-215-4423",
+      "faxNumber": "555-471-9791"
+    },
+    "credentialSubject": {
+      "type": [
+        "BillOfLading"
+      ],
+      "billOfLadingNumber": "991205182",
+      "relatedDocuments": [
+        {
+          "@context": [
+            "https://w3id.org/traceability/v1"
+          ],
+          "type": [
+            "Purchase"
+          ],
+          "customer": {
+            "type": [
+              "Person"
+            ],
+            "email": "Abdul47@example.org",
+            "phoneNumber": "555-670-4662"
+          }
+        }
+      ],
+      "freight": {
+        "@context": [
+          "https://w3id.org/traceability/v1"
+        ],
+        "type": [
+          "ParcelDelivery"
+        ],
+        "deliveryAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Beahan - Bergnaum",
+          "streetAddress": "888 Medhurst Radial",
+          "addressLocality": "Port Yasmine",
+          "addressRegion": "Georgia",
+          "postalCode": "05287-2045",
+          "addressCountry": "Estonia"
+        },
+        "originAddress": {
+          "type": [
+            "PostalAddress"
+          ],
+          "organizationName": "Steuber, Marvin and Lebsack",
+          "streetAddress": "0282 Buckridge Pine",
+          "addressLocality": "Aureliaport",
+          "addressRegion": "Virginia",
+          "postalCode": "68808",
+          "addressCountry": "Uzbekistan"
+        },
+        "deliveryMethod": "Truck transport",
+        "trackingNumber": "571776634137"
+      }
+    },
+    "matrix": "connect",
+    "card": "connect"
+  },
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://w3id.org/traceability/v1"
+    ],
+    "circuit": "input",
+    "system": "bypass",
+    "card": "reboot"
+  },
+  {
+    "id": "https://example.com/credential/123",
+    "type": [
+      "VerifiableCredential",
+      "BillOfLadingCertificate"
+    ],
+    "relatedLink": [
+      {
+        "type": [
+          "LinkRole"
+        ],
+        "target": "did:example:789",
+        "linkRelationship": "commercialInvoiceLink"
+      },
+      {
+        "type": [
+          "LinkRole"
+        ],
+        "target": "https://www.example.com/template/123",
+        "linkRelationship": "millTestReportLink"
+      }
+    ],
+    "issuer": {
+      "id": "did:example:123",
+      "type": "Organization",
+      "name": "Howe - Bernier",
+      "description": "Secured fresh-thinking matrices",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "6073 Garnett Rapids",
+        "addressLocality": "Catalinaville",
+        "addressRegion": "Michigan",
+        "postalCode": "10873-9130",
+        "addressCountry": "Macao"
+      },
+      "email": "Barrett_Pagac53@example.org",
+      "phoneNumber": "555-681-4410",
+      "faxNumber": "555-673-1060"
+    },
+    "sensor": "copy",
+    "card": "navigate",
+    "firewall": "override"
+  }
+]

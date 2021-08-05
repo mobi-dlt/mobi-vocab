@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Torque-controlled fatigue testing",
+    "description": "ISO 1352:2011 specifies the conditions for performing torsional, constant-amplitude, nominally elastic stress fatigue tests on metallic specimens without deliberately introducing stress concentrations. The tests are carried out at ambient temperature (ideally at between 10 °C and 35 °C) in air by applying a pure couple to the specimen about its longitudinal axis.",
+    "pixel": "connect",
+    "hard drive": "quantify"
+  },
+  {
+    "interface": "connect",
+    "system": "calculate",
+    "circuit": "reboot",
+    "matrix": "index"
+  },
+  {
+    "capacitor": "parse",
+    "program": "compress",
+    "firewall": "input"
+  }
+]

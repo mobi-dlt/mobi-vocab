@@ -1,0 +1,46 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/traceability/v1"
+  ],
+  "id": "http://example.org/credentials/",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuanceDate": "2021-02-04T20:29:37+00:00",
+  "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
+  "credentialSubject": {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Person",
+    "firstName": "Deontae",
+    "lastName": "Kunze",
+    "email": "Ahmed_Prohaska@example.net",
+    "phoneNumber": "555-468-6756",
+    "worksFor": {
+      "type": "Organization",
+      "name": "Tremblay Inc",
+      "description": "Self-enabling system-worthy budgetary management",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "2929 Macy Locks",
+        "addressLocality": "Steuberland",
+        "addressRegion": "Iowa",
+        "postalCode": "14398-4056",
+        "addressCountry": "Malawi"
+      },
+      "email": "Oren_Maggio@example.com",
+      "phoneNumber": "555-529-3895",
+      "faxNumber": "555-244-1675"
+    },
+    "jobTitle": "Dynamic Communications Developer"
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2019-12-11T03:50:55Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19.._vupMEC_kSwSmT-QsHm3l-ErqJBgI1vHPdYucRYceoLnbuFGBrXnTVFchAxIy-bprcWmthp0eEmKv6lyooWNBQ",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
+  }
+}

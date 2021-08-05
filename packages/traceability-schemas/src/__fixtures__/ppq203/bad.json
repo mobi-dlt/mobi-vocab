@@ -1,0 +1,21 @@
+[
+  {
+    "bus": "bypass",
+    "program": "index"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "microchip": "reboot",
+    "interface": "input",
+    "driver": "compress"
+  },
+  {
+    "type": [
+      "ppq203"
+    ],
+    "circuit": "copy",
+    "sensor": "reboot"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Permissions",
+    "vehicleLocation": "True",
+    "mobiVID": "True",
+    "batteryId": "True",
+    "dataSharingForRewards": "True",
+    "matrix": "navigate",
+    "bandwidth": "back up",
+    "capacitor": "override"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Permissions",
+    "userLocation": "True",
+    "vehicleLocation": "True",
+    "mobiVID": "True",
+    "batteryId": "True",
+    "firewall": "back up"
+  },
+  {
+    "pixel": "compress",
+    "alarm": "navigate"
+  }
+]

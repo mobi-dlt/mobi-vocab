@@ -1,0 +1,45 @@
+{
+    "$id": "https://w3id.org/traceability/schemas/BatteryID.json",
+    "$comment": "{\"term\": \"BatteryID\", \"@id\": \"https://w3id.org/traceability#BatteryID\"}",
+    "title": "BatteryID",
+    "description": "VID information for vehicle.",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "vid": {
+            "$comment": "{\"term\": \"vid\", \"@id\": \"https://w3id.org/traceability#VID\"}",
+            "title": "vid",
+            "description": "Logo of the entity.",
+            "$ref": "https://w3id.org/traceability/schemas/VID.json"
+        },
+
+        "batteryid": {
+            "$comment": "{\"term\": \"batteryid\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "batteryid",
+            "description": "Logo of the entity.",
+            "type": "string"
+        },
+
+        "serialNumber": {
+            "$comment": "{\"term\": \"serialNumber\", \"@id\": \"https://schema.org/serialNumber\"}",
+            "title": "Serial Number",
+            "description": "vehicle Identification Number",
+            "type": "string"
+        }
+        
+    },
+    "additionalProperties": false,
+    "examples": []
+}

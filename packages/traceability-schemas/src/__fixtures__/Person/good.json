@@ -1,0 +1,83 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Person",
+    "firstName": "Deontae",
+    "lastName": "Kunze",
+    "email": "Ahmed_Prohaska@example.net",
+    "phoneNumber": "555-468-6756",
+    "worksFor": {
+      "type": "Organization",
+      "name": "Tremblay Inc",
+      "description": "Self-enabling system-worthy budgetary management",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "2929 Macy Locks",
+        "addressLocality": "Steuberland",
+        "addressRegion": "Iowa",
+        "postalCode": "14398-4056",
+        "addressCountry": "Malawi"
+      },
+      "email": "Oren_Maggio@example.com",
+      "phoneNumber": "555-529-3895",
+      "faxNumber": "555-244-1675"
+    },
+    "jobTitle": "Dynamic Communications Developer"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Person",
+    "firstName": "Gracie",
+    "lastName": "O'Keefe",
+    "email": "Rodrigo.Ratke@example.org",
+    "phoneNumber": "555-121-9660",
+    "worksFor": {
+      "type": "Organization",
+      "name": "Collier, Watsica and D'Amore",
+      "description": "Networked executive ability",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "49246 Albertha Vista",
+        "addressLocality": "Elnahaven",
+        "addressRegion": "North Dakota",
+        "postalCode": "87219-3538",
+        "addressCountry": "Lithuania"
+      },
+      "email": "Bernice_Morar@example.org",
+      "phoneNumber": "555-457-9361",
+      "faxNumber": "555-290-8868"
+    },
+    "jobTitle": "Dynamic Optimization Designer"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Person",
+    "firstName": "Tracy",
+    "lastName": "Davis",
+    "email": "Kamryn44@example.com",
+    "phoneNumber": "555-444-6400",
+    "worksFor": {
+      "type": "Organization",
+      "name": "Wyman, Parisian and Huel",
+      "description": "Upgradable executive service-desk",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "777 Marquardt Fort",
+        "addressLocality": "Port Jazmyn",
+        "addressRegion": "Mississippi",
+        "postalCode": "95220",
+        "addressCountry": "Panama"
+      },
+      "email": "Rosalinda.Tremblay@example.org",
+      "phoneNumber": "555-902-5232",
+      "faxNumber": "555-862-5129"
+    },
+    "jobTitle": "Legacy Infrastructure Assistant"
+  }
+]

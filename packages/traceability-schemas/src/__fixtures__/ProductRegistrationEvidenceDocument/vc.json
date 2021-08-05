@@ -1,0 +1,47 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/traceability/v1"
+  ],
+  "id": "http://example.org/credentials/",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuanceDate": "2021-02-04T20:29:37+00:00",
+  "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
+  "credentialSubject": {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "ProductRegistrationEvidenceDocument",
+    "category": "Specialty Goods",
+    "inProductGroupWithID": "Group973",
+    "productID": "3J4GHZ3KCN",
+    "mpn": "5BMDYLZ2D9",
+    "gtin": "59941362324520",
+    "isAccessoryOrSparePartFor": "n/a",
+    "releaseDate": "2020-01-07",
+    "manufacturer": "Stiedemann Inc",
+    "globalLocationNumber": "2057158652693",
+    "leiCode": "",
+    "name": "Ergonomic Frozen Mouse",
+    "description": "The Football Is Good For Training And Recreational Purposes",
+    "model": "b866346a-12b8-44c4-a1cd-c70909f633db",
+    "color": "salmon",
+    "material": "Wooden",
+    "weight": "3.38 kg",
+    "height": "1.934 m",
+    "width": "2.169 m",
+    "depth": "7.392 m",
+    "url": "https://example.com/Ergonomic Frozen Mouse",
+    "isBasedOn": "Sleek Concrete Shirt",
+    "image": "http://placeimg.com/640/480"
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2019-12-11T03:50:55Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AQ2AwEvC7rSILvGtdAT-IhGeb2mPh1-xRlxEAnQ5cIBUHYoryyZY7zb_dgTS7fKXm858Ma_-_m8qjbWRt4ITAA",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
+  }
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Place",
+    "globalLocationNumber": "9145793604866",
+    "geo": {
+      "type": "GeoCoordinates",
+      "latitude": "66.4813",
+      "longitude": "-128.6640"
+    },
+    "address": {
+      "type": "PostalAddress",
+      "organizationName": "Lynch Inc",
+      "streetAddress": "63326 Paucek Viaduct",
+      "addressLocality": "East Marlonfurt",
+      "addressRegion": "Hawaii",
+      "postalCode": "84082-1984",
+      "addressCountry": "Maldives"
+    }
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Place",
+    "globalLocationNumber": "4502107336748",
+    "geo": {
+      "type": "GeoCoordinates",
+      "latitude": "10.3756",
+      "longitude": "-154.4397"
+    },
+    "address": {
+      "type": "PostalAddress",
+      "organizationName": "Littel - Cummerata",
+      "streetAddress": "463 Marvin Forges",
+      "addressLocality": "Welchport",
+      "addressRegion": "Oregon",
+      "postalCode": "62947-7153",
+      "addressCountry": "Malta"
+    }
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Place",
+    "globalLocationNumber": "8960468391510",
+    "geo": {
+      "type": "GeoCoordinates",
+      "latitude": "31.7221",
+      "longitude": "5.0713"
+    },
+    "address": {
+      "type": "PostalAddress",
+      "organizationName": "Thompson - Little",
+      "streetAddress": "8189 Hayes Divide",
+      "addressLocality": "Ethastad",
+      "addressRegion": "Arizona",
+      "postalCode": "59833",
+      "addressCountry": "Hungary"
+    }
+  }
+]
