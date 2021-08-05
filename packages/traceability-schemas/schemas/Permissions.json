@@ -1,0 +1,57 @@
+{
+    "$id": "https://w3id.org/vc-revocation-list-2020/v1",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"Permissions\": \"@id\": \"https://w3id.org/traceability#\"}",
+    "title": "Permissions",
+    "description": "Permissions access for entity",
+    "type": "string",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "userLocation": {
+            "$comment": "{\"term\": \"id\", \"@id\": \"https://schema.org/place\"}",
+            "title": "User Location",
+            "description": "Location of the user.",
+            "type": "boolean"
+        },
+        "vehicleLocation": {
+            "$comment": "{\"term\": \"id\", \"@id\": \"https://schema.org/place\"}",
+            "title": "Vehicle Location",
+            "description": "Location of the vehicle.",
+            "type": "boolean"
+        },
+        "mobiVID": {
+            "$comment": "{\"term\": \"id\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "MOBI VID",
+            "description": "VID for the vehicle",
+            "type": "boolean"
+        },
+        "batteryId": {
+            "$comment": "{\"term\": \"id\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "Battery ID",
+            "description": "ID for the battery.",
+            "type": "boolean"
+        },
+        "dataSharingForrewards": {
+            "$comment": "{\"term\": \"id\", \"@id\": \"https://schema.org/intangible\"}",
+            "title": "Data Sharing For Rewards",
+            "description": "Sharing of Data for Rewards",
+            "type": "boolean"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}
+
+
