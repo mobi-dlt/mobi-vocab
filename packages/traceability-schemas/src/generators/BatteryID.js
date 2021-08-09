@@ -11,7 +11,7 @@ const getBatteryID = () => {
         type: 'BatteryID',
         vid: vidNumber,
         batteryid: 'did:mobi:e436e12ec21ebfeb1f712ebc3g',
-        serialNumber: 'snumber',
+        serialNumber: '2345H152031173270027',
 
     };
     return example;

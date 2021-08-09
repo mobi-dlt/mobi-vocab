@@ -1,0 +1,53 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "PermissionsCredential",
+    "permission": {
+      "type": "Permissions",
+      "userLocation": "true",
+      "vehicleLocation": "true",
+      "vid": "true",
+      "batteryid": "true",
+      "dataSharingForRewards": "true"
+    },
+    "holder": "did:mobinet:123456789abcdefghi",
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "PermissionsCredential",
+    "permission": {
+      "type": "Permissions",
+      "userLocation": "true",
+      "vehicleLocation": "true",
+      "vid": "true",
+      "batteryid": "true",
+      "dataSharingForRewards": "true"
+    },
+    "holder": "did:mobinet:123456789abcdefghi",
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "PermissionsCredential",
+    "permission": {
+      "type": "Permissions",
+      "userLocation": "true",
+      "vehicleLocation": "true",
+      "vid": "true",
+      "batteryid": "true",
+      "dataSharingForRewards": "true"
+    },
+    "holder": "did:mobinet:123456789abcdefghi",
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11"
+  }
+]

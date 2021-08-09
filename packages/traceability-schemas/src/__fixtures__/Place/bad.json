@@ -1,30 +1,44 @@
 [
   {
-    "type": "Place",
-    "globalLocationNumber": "7038487742628",
+    "firewall": "reboot",
+    "pixel": "compress"
+  },
+  {
+    "globalLocationNumber": "1089314752378",
+    "geo": {
+      "type": "GeoCoordinates",
+      "latitude": "-6.4629",
+      "longitude": "135.9530"
+    },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Hagenes, Gulgowski and Senger",
-      "streetAddress": "998 Stracke Roads",
-      "addressLocality": "Abbytown",
-      "addressRegion": "Oklahoma",
-      "postalCode": "80068",
-      "addressCountry": "Panama"
+      "organizationName": "Bauch, Leannon and Jacobi",
+      "streetAddress": "734 Rutherford Springs",
+      "addressLocality": "South Brendenshire",
+      "addressRegion": "Texas",
+      "postalCode": "50073",
+      "addressCountry": "Singapore"
     },
-    "transmitter": "connect",
-    "alarm": "navigate"
+    "system": "back up",
+    "card": "copy"
   },
   {
-    "firewall": "bypass",
-    "transmitter": "back up",
-    "matrix": "hack"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "globalLocationNumber": "7253941479838",
-    "system": "compress",
-    "transmitter": "connect"
+    "type": "Place",
+    "geo": {
+      "type": "GeoCoordinates",
+      "latitude": "43.0248",
+      "longitude": "6.4658"
+    },
+    "address": {
+      "type": "PostalAddress",
+      "organizationName": "Heidenreich LLC",
+      "streetAddress": "5052 Katelin Prairie",
+      "addressLocality": "Thielhaven",
+      "addressRegion": "North Dakota",
+      "postalCode": "58876",
+      "addressCountry": "Sao Tome and Principe"
+    },
+    "panel": "copy",
+    "circuit": "bypass"
   }
 ]

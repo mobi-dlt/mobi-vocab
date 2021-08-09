@@ -9,8 +9,8 @@ const getCitopiaMembershipCredential = () => {
   const example = {
     '@context': ['https://w3id.org/traceability/v1'],
     type: 'CitopiaMembershipCredential',
-    holder: 'holdernumber',
-    identifier: 'idnumber',
+    holder: 'Matt Shi',
+    identifier: 'did:mobinet:123456789abcdefghi',
     member: memberInfo,
     issuanceDate: '2020-05-17',
     expirationDate: '2021-5-29'

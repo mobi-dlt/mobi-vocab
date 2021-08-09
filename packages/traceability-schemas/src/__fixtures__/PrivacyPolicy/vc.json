@@ -14,17 +14,16 @@
       "https://www.w3.org/2018/credentials/v1",
       "https://w3id.org/traceability/v1"
     ],
-    "type": [
-      "PrivacyPolicyCredential",
-      "VerifiableCredential"
-    ],
+    "type": "PrivacyPolicy",
     "issuanceDate": "2021-03-09",
-    "expirationDate": "2022-07-11"
+    "expirationDate": "2022-07-11",
+    "holder": "did:mobinet:123456789abcdefghi",
+    "privacyPolicyAccepted": "true"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..fkSgZRNL0VZvrYWAecjVTJI15-_f04ru3Z1WOK3VPQabttNTAHILmfZrOcdIF-7xAlbXGmFA4SzyO8OnLZS_Dg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..zTcSzBPnpT-R3WrX8juCsPCa4UN4hMAAgQZ5xhCgBvjox6HZi_lYatVVEZXv-wA5gDCYNFCdmr3yBHboM_FxAw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

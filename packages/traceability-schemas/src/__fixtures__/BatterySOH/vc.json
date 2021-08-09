@@ -48,7 +48,7 @@
         "vin": "JTERU5JR7M5861170"
       },
       "batteryid": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
-      "serialNumber": "snumber"
+      "serialNumber": "2345H152031173270027"
     },
     "previousSOHVal": "95",
     "previousSOHTimeStamp": "2020-5-17",
@@ -62,7 +62,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..krNFrImAdjN28Qe8CpTLhVjaD0EkfxUp-M0wWNEFJvrVV_Qqmla7SB8bt6KYcUSVB34ssu9LVZdOvHnWn4P3Bw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..bXcOQBgC0BSxetuIbEy4wVfNRWdulATHm97fZluVB5VcqHIWfBhN-KZoJBzJAgK1MCW1ojgeyRDA486oJiapDw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

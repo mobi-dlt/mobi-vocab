@@ -1,43 +1,47 @@
 [
   {
-    "monitor": "override",
-    "feed": "quantify",
-    "system": "override"
-  },
-  {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "manufacturer": {
-      "type": "Person",
-      "firstName": "Garett",
-      "lastName": "Fritsch",
-      "email": "Mariam_Klein61@example.com",
-      "phoneNumber": "555-733-9685",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Predovic LLC",
-        "description": "Multi-channelled mobile archive",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "62547 Eduardo Freeway",
-          "addressLocality": "Madisonchester",
-          "addressRegion": "Wisconsin",
-          "postalCode": "65010",
-          "addressCountry": "Tuvalu"
-        },
-        "email": "Kay.Gleichner@example.com",
-        "phoneNumber": "555-956-1615",
-        "faxNumber": "555-367-4873"
-      },
-      "jobTitle": "Customer Paradigm Designer"
-    },
     "model": "Mach_E",
-    "vin": "JTERU5JR7M5861170",
-    "bus": "override"
+    "hard drive": "synthesize",
+    "firewall": "compress"
   },
   {
-    "circuit": "input"
+    "type": "VID",
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "make": "Ford",
+    "model": "Mach_E",
+    "vin": "JTERU5JR7M5861170",
+    "circuit": "compress",
+    "transmitter": "quantify",
+    "alarm": "back up",
+    "bus": "synthesize"
+  },
+  {
+    "manufacturer": {
+      "type": "Organization",
+      "name": "Rogahn, Schmitt and Schoen",
+      "description": "Progressive systematic ability",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "85379 Manuel Lights",
+        "addressLocality": "Botsfordhaven",
+        "addressRegion": "Pennsylvania",
+        "postalCode": "85709",
+        "addressCountry": "Bermuda"
+      },
+      "email": "Jameson.Flatley@example.net",
+      "phoneNumber": "555-843-9990",
+      "faxNumber": "555-912-3939"
+    },
+    "make": "Ford",
+    "model": "Mach_E",
+    "vin": "JTERU5JR7M5861170",
+    "driver": "reboot",
+    "array": "program",
+    "application": "index",
+    "hard drive": "back up"
   }
 ]

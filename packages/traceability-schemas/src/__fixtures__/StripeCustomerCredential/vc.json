@@ -19,7 +19,6 @@
       "VerifiableCredential"
     ],
     "holder": "did:mobi:f436e12ec21ebfdb1f712ebc3h",
-    "id": "123",
     "customerID": "customer123",
     "issuanceDate": "2021-03-09",
     "expirationDate": "2022-07-11"
@@ -27,7 +26,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..LZp3vaCyfM7Kbni9Xi4PJpi7-cZuOkqBbvWA5bnW1CsYJ2kfh5QxtXrR4IPrkFaFSzKJowlavxTGhr_Izaf2CA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..VXju8uIqxzc_0u4EfPxMwe1WV1BsVt6xmkmJrVY2Hfke2BfSD7BL2OLRqbLE6Ni7wR9VSB6QF825jLsezDTeCg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -21,6 +21,8 @@ LegalEntityIdentifierCredential: require('./schemas/LegalEntityIdentifierCredent
 LinkRole: require('./schemas/LinkRole.json'),
 Member: require('./schemas/Member.json'),
 Organization: require('./schemas/Organization.json'),
+Permissions: require('./schemas/Permissions.json'),
+PermissionsCredential: require('./schemas/PermissionsCredential.json'),
 Person: require('./schemas/Person.json'),
 Place: require('./schemas/Place.json'),
 PostalAddress: require('./schemas/PostalAddress.json'),

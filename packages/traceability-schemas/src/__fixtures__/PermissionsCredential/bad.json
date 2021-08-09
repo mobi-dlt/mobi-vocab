@@ -1,0 +1,24 @@
+[
+  {
+    "transmitter": "generate",
+    "matrix": "hack",
+    "port": "quantify"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "issuanceDate": "2021-03-09",
+    "bus": "reboot",
+    "matrix": "connect",
+    "interface": "index"
+  },
+  {
+    "holder": "did:mobinet:123456789abcdefghi",
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11",
+    "interface": "synthesize",
+    "card": "override",
+    "program": "program"
+  }
+]

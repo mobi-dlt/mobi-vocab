@@ -1,24 +1,18 @@
 [
   {
-    "type": [
-      "PrivacyPolicyCredential",
-      "VerifiableCredential"
-    ],
     "issuanceDate": "2021-03-09",
-    "matrix": "hack",
-    "capacitor": "connect",
-    "firewall": "parse",
-    "bandwidth": "connect"
-  },
-  {
-    "alarm": "override",
-    "capacitor": "input",
-    "driver": "input",
+    "bandwidth": "compress",
+    "system": "compress",
+    "driver": "index",
     "sensor": "reboot"
   },
   {
-    "expirationDate": "2022-07-11",
-    "sensor": "input",
-    "protocol": "copy"
+    "panel": "program"
+  },
+  {
+    "bus": "back up",
+    "card": "input",
+    "feed": "input",
+    "application": "navigate"
   }
 ]

@@ -18,33 +18,33 @@
     ],
     "customer": {
       "type": "Person",
-      "firstName": "Adonis",
-      "lastName": "Wunsch",
-      "email": "Clare_Simonis90@example.org",
-      "phoneNumber": "555-292-6601",
+      "firstName": "Domenico",
+      "lastName": "Streich",
+      "email": "Taylor_Tremblay3@example.com",
+      "phoneNumber": "555-584-4002",
       "worksFor": {
         "type": "Organization",
-        "name": "Wunsch, Ledner and Marks",
-        "description": "Down-sized demand-driven hub",
+        "name": "Yundt, Lebsack and Greenfelder",
+        "description": "Business-focused real-time framework",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "068 Zaria Crest",
-          "addressLocality": "Legroshaven",
-          "addressRegion": "Maryland",
-          "postalCode": "69116",
-          "addressCountry": "Uruguay"
+          "streetAddress": "503 Smitham Villages",
+          "addressLocality": "Schneiderbury",
+          "addressRegion": "Tennessee",
+          "postalCode": "92572",
+          "addressCountry": "Hungary"
         },
-        "email": "Tessie7@example.com",
-        "phoneNumber": "555-548-9953",
-        "faxNumber": "555-466-7405"
+        "email": "Thalia_DuBuque@example.com",
+        "phoneNumber": "555-655-5622",
+        "faxNumber": "555-768-3280"
       },
-      "jobTitle": "National Factors Developer"
+      "jobTitle": "Forward Data Architect"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..7Ia471OGfC_htopooOtqOOLlUEXdsJZepiZAqYGvSO2CQeFLIBbrZRoLFIkDt06bdYxhhuc6eHVb12ZD86sUAA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..6WfEvfweDYE7r5_JR7Jx2fg2_xKT5vyYFo9AY0cHhF4BpGknv6_1h_B0b5w-q-rhNE1OlsTa4I80FdwoL6NOCg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

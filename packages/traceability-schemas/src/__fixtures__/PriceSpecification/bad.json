@@ -1,22 +1,24 @@
 [
   {
-    "price": 7738,
-    "firewall": "generate",
-    "microchip": "input",
-    "program": "program"
+    "matrix": "transmit",
+    "firewall": "program",
+    "interface": "compress",
+    "alarm": "parse"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "price": 4410,
-    "monitor": "override",
-    "microchip": "bypass"
+    "monitor": "parse",
+    "matrix": "generate"
   },
   {
-    "price": 3431,
-    "hard drive": "quantify",
-    "array": "hack",
-    "panel": "parse"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "priceCurrency": "MDL",
+    "pixel": "back up",
+    "protocol": "override",
+    "matrix": "back up"
   }
 ]

@@ -46,12 +46,12 @@
       "vin": "JTERU5JR7M5861170"
     },
     "batteryid": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
-    "serialNumber": "snumber"
+    "serialNumber": "2345H152031173270027"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Fe6BXnEUt2VErLYsvoEVfmFYyfAfwLg8b9FxckulUPclnO3vIJYxR4LcD85_qTUoB2r-kfZCT3oMDeaNMUheAQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..8Td81aKPyEBm_bkycS0LVTjy5gfKRxo83zm_Kzuy4c1iDTRub0ZhKFwP4b74XtrF1fsPn8G7feLhU1dEzwEYCg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -1,0 +1,24 @@
+[
+  {
+    "userLocation": "true",
+    "dataSharingForRewards": "true",
+    "program": "navigate"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Permissions",
+    "vid": "true",
+    "dataSharingForRewards": "true",
+    "circuit": "reboot",
+    "feed": "synthesize"
+  },
+  {
+    "type": "Permissions",
+    "system": "index",
+    "feed": "bypass",
+    "port": "generate",
+    "card": "program"
+  }
+]

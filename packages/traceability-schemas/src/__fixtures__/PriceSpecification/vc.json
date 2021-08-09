@@ -14,13 +14,13 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "PriceSpecification",
-    "price": 7738,
-    "priceCurrency": "GNF"
+    "price": 2099,
+    "priceCurrency": "KMF"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..9SDKBtT_ZBb-YyhObMIkXLd8krC2id7fRkX8jrvXCPZ9JnVuHMO3yKjuHff1b4r1sMQF42lIG2592oCurBecDg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..edj0SPgzOrO1MmwVSJ--qH2NlJFMQVbUeEJyzbJOBmep-J7uFcuEHr0IBzF0YBoZEDaDzkX-LpVpZ1847xcECg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

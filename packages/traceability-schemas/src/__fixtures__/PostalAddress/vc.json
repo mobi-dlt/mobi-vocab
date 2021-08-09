@@ -14,17 +14,17 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "PostalAddress",
-    "organizationName": "Mayert, Von and Rowe",
-    "streetAddress": "0385 Hilpert Branch",
-    "addressLocality": "Alekchester",
-    "addressRegion": "Maryland",
-    "postalCode": "53511-4610",
-    "addressCountry": "Togo"
+    "organizationName": "Farrell, Wehner and Franecki",
+    "streetAddress": "4470 Anastasia Mall",
+    "addressLocality": "Vernieshire",
+    "addressRegion": "West Virginia",
+    "postalCode": "75965",
+    "addressCountry": "Niger"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..rCQOHiDjK34CiQVOtvUx4cmF8cI4z3BAHLzjfuYugpPgkJJwwJLPMwXF-3aPPoKPe0AuQZw9hMYzeQEqcCp9AQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..DBhY3Y24YLK_GhTX7sHW-dGKuKbd36gKEHK26XA0lqbt26nt-C2ZpKtrHFQdfzYEzIFl_azvQ5OW2L8IgiaYCA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

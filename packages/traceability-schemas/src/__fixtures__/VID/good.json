@@ -6,62 +6,20 @@
     "type": "VID",
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "manufacturer": {
-      "type": "Person",
-      "firstName": "Duane",
-      "lastName": "Hane",
-      "email": "Troy_Kemmer1@example.org",
-      "phoneNumber": "555-191-9913",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Schaden - Osinski",
-        "description": "Re-engineered modular attitude",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "7846 Sawayn Circle",
-          "addressLocality": "West Art",
-          "addressRegion": "Michigan",
-          "postalCode": "66300",
-          "addressCountry": "Costa Rica"
-        },
-        "email": "Oscar_Johnson60@example.org",
-        "phoneNumber": "555-436-4432",
-        "faxNumber": "555-950-9838"
+      "type": "Organization",
+      "name": "Rodriguez - Dibbert",
+      "description": "Optional analyzing leverage",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "7885 Nils Mountains",
+        "addressLocality": "West Jarenbury",
+        "addressRegion": "Oklahoma",
+        "postalCode": "23253-1252",
+        "addressCountry": "Switzerland"
       },
-      "jobTitle": "Senior Division Analyst"
-    },
-    "make": "Ford",
-    "model": "Mach_E",
-    "vin": "JTERU5JR7M5861170"
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "VID",
-    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "manufacturer": {
-      "type": "Person",
-      "firstName": "Garett",
-      "lastName": "Fritsch",
-      "email": "Mariam_Klein61@example.com",
-      "phoneNumber": "555-733-9685",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Predovic LLC",
-        "description": "Multi-channelled mobile archive",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "62547 Eduardo Freeway",
-          "addressLocality": "Madisonchester",
-          "addressRegion": "Wisconsin",
-          "postalCode": "65010",
-          "addressCountry": "Tuvalu"
-        },
-        "email": "Kay.Gleichner@example.com",
-        "phoneNumber": "555-956-1615",
-        "faxNumber": "555-367-4873"
-      },
-      "jobTitle": "Customer Paradigm Designer"
+      "email": "Bret_Hoppe@example.net",
+      "phoneNumber": "555-482-8817",
+      "faxNumber": "555-917-7519"
     },
     "make": "Ford",
     "model": "Mach_E",
@@ -75,19 +33,45 @@
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "manufacturer": {
       "type": "Organization",
-      "name": "Weimann - Will",
-      "description": "Enhanced foreground parallelism",
+      "name": "Rutherford LLC",
+      "description": "Reduced explicit capability",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "69279 Douglas Trail",
-        "addressLocality": "McGlynnstad",
-        "addressRegion": "Oklahoma",
-        "postalCode": "60460",
-        "addressCountry": "Honduras"
+        "streetAddress": "52814 Erdman Ridge",
+        "addressLocality": "Lauriannefort",
+        "addressRegion": "Indiana",
+        "postalCode": "67887",
+        "addressCountry": "Kiribati"
       },
-      "email": "Lexus_Dickens21@example.net",
-      "phoneNumber": "555-624-9426",
-      "faxNumber": "555-327-5877"
+      "email": "Cydney.Bartell@example.com",
+      "phoneNumber": "555-784-9849",
+      "faxNumber": "555-268-8080"
+    },
+    "make": "Ford",
+    "model": "Mach_E",
+    "vin": "JTERU5JR7M5861170"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "VID",
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "manufacturer": {
+      "type": "Organization",
+      "name": "Rogahn, Schmitt and Schoen",
+      "description": "Progressive systematic ability",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "85379 Manuel Lights",
+        "addressLocality": "Botsfordhaven",
+        "addressRegion": "Pennsylvania",
+        "postalCode": "85709",
+        "addressCountry": "Bermuda"
+      },
+      "email": "Jameson.Flatley@example.net",
+      "phoneNumber": "555-843-9990",
+      "faxNumber": "555-912-3939"
     },
     "make": "Ford",
     "model": "Mach_E",

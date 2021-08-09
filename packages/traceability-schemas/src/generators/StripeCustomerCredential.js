@@ -17,7 +17,6 @@ const getStripeCustomerCredential = () => {
       ],
     type: ['StripeCustomerCredential', 'VerifiableCredential'],
     holder: 'did:mobi:f436e12ec21ebfdb1f712ebc3h',
-    id: '123',
     customerID: 'customer123',
     issuanceDate: today,
     expirationDate: futureDate,

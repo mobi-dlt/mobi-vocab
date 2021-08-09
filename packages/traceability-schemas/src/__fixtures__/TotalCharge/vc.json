@@ -14,19 +14,19 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 3789.75,
-    "totalCollect": 1263.25,
-    "sourceCurrency": "AMD",
-    "destinationCurrency": "ISK",
-    "currencyConversionRate": 4,
-    "ccChargesDestinationCurrency": "AMD",
-    "chargesDestination": 316,
-    "totalCollectCharge": 79
+    "totalPrepaid": 47.25,
+    "totalCollect": 15.75,
+    "sourceCurrency": "KMF",
+    "destinationCurrency": "HRK",
+    "currencyConversionRate": 5,
+    "ccChargesDestinationCurrency": "KMF",
+    "chargesDestination": 636,
+    "totalCollectCharge": 159
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..97C2pHxMZ0ow_CRA7Fxy55m9btpOX1zQtAV_tx71qmtlg3XPw5bSBLEu2Xx3QC6mR_huQePtDgZosKac7xBxDg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..YzkbrPn0Tx3d5z4f02-MyRW1x_yZtX1AsY9wW6tdCJu_MU38hD9Ik7EjKq7VAzamqKsSzFD9CxmMuFHsj3gbCg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

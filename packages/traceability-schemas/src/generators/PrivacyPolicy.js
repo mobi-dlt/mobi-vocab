@@ -15,9 +15,11 @@ const getPrivacyPolicy = () => {
         'https://www.w3.org/2018/credentials/v1',
         'https://w3id.org/traceability/v1',
       ],
-    type: ['PrivacyPolicyCredential', 'VerifiableCredential'],
+    type: 'PrivacyPolicy',
     issuanceDate: today,
     expirationDate: futureDate,
+    holder: 'did:mobinet:123456789abcdefghi',
+    privacyPolicyAccepted: 'true'
   };
   return example;
 };

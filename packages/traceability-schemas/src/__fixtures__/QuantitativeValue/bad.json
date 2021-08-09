@@ -1,25 +1,16 @@
 [
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "QuantitativeValue",
-    "value": "2054",
-    "microchip": "copy",
-    "card": "quantify"
+    "pixel": "copy"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "QuantitativeValue",
-    "value": "337",
-    "array": "bypass"
+    "unitCode": "hg/ha",
+    "interface": "compress",
+    "sensor": "hack",
+    "system": "hack"
   },
   {
-    "transmitter": "program",
-    "protocol": "copy",
-    "monitor": "synthesize",
-    "application": "input"
+    "card": "hack",
+    "firewall": "bypass",
+    "array": "back up"
   }
 ]

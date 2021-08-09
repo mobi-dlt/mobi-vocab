@@ -1,6 +1,6 @@
 [
   {
-    "holder": "holdernumber",
+    "holder": "Matt Shi",
     "circuit": "synthesize",
     "pixel": "quantify",
     "driver": "navigate",
@@ -11,7 +11,7 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "CitopiaMembershipCredential",
-    "identifier": "idnumber",
+    "identifier": "did:mobinet:123456789abcdefghi",
     "microchip": "synthesize"
   },
   {

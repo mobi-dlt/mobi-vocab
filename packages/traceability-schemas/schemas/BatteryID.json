@@ -22,7 +22,7 @@
         "vid": {
             "$comment": "{\"term\": \"vid\", \"@id\": \"https://w3id.org/traceability#VID\"}",
             "title": "vid",
-            "description": "vid",
+            "description": "vehicle identity",
             "$ref": "https://w3id.org/traceability/schemas/VID.json"
         },
 
@@ -36,7 +36,7 @@
         "serialNumber": {
             "$comment": "{\"term\": \"serialNumber\", \"@id\": \"https://schema.org/serialNumber\"}",
             "title": "Serial Number",
-            "description": "vehicle Identification Number",
+            "description": "serial number of battery",
             "type": "string"
         }
         

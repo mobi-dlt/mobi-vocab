@@ -1,0 +1,35 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Permissions",
+    "userLocation": "true",
+    "vehicleLocation": "true",
+    "vid": "true",
+    "batteryid": "true",
+    "dataSharingForRewards": "true"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Permissions",
+    "userLocation": "true",
+    "vehicleLocation": "true",
+    "vid": "true",
+    "batteryid": "true",
+    "dataSharingForRewards": "true"
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "Permissions",
+    "userLocation": "true",
+    "vehicleLocation": "true",
+    "vid": "true",
+    "batteryid": "true",
+    "dataSharingForRewards": "true"
+  }
+]

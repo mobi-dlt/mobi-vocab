@@ -14,32 +14,32 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Person",
-    "firstName": "Rickie",
-    "lastName": "Ernser",
-    "email": "Jefferey.Buckridge52@example.com",
-    "phoneNumber": "555-157-3270",
+    "firstName": "Darrin",
+    "lastName": "Senger",
+    "email": "Queenie_Greenfelder@example.org",
+    "phoneNumber": "555-516-7425",
     "worksFor": {
       "type": "Organization",
-      "name": "Graham, Barton and Keeling",
-      "description": "Persevering didactic workforce",
+      "name": "Kirlin, Kling and McGlynn",
+      "description": "Stand-alone modular knowledge user",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "85022 Nasir Greens",
-        "addressLocality": "Alyssonton",
-        "addressRegion": "Virginia",
-        "postalCode": "88635-3891",
-        "addressCountry": "Netherlands Antilles"
+        "streetAddress": "91429 McCullough Brook",
+        "addressLocality": "Lake Danial",
+        "addressRegion": "Nevada",
+        "postalCode": "29062-3467",
+        "addressCountry": "Brazil"
       },
-      "email": "Russ_Marvin@example.net",
-      "phoneNumber": "555-171-5781",
-      "faxNumber": "555-315-8543"
+      "email": "Louisa.Parker@example.org",
+      "phoneNumber": "555-269-8997",
+      "faxNumber": "555-747-5527"
     },
-    "jobTitle": "Chief Program Technician"
+    "jobTitle": "Global Research Liaison"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AorYhTE2-k54NGcI91egjuYqUsNBmv4xooxTGtROlUO6yKApTaq-_VApzkxNBcWAkbAJyXgn6avBFl7mYms1AQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..7Tf485GTm0Uz4G6OvTJFLcn9YDZT9WW0VXG5W7900z82RKb3NPhNVjqiyF1hAq3bEf1GCTE8rQQrUPBXaQjiCQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

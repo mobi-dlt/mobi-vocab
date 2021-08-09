@@ -14,26 +14,26 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "Place",
-    "globalLocationNumber": "7038487742628",
+    "globalLocationNumber": "4556178713977",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "-43.5288",
-      "longitude": "38.8459"
+      "latitude": "38.3773",
+      "longitude": "-11.4645"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Hagenes, Gulgowski and Senger",
-      "streetAddress": "998 Stracke Roads",
-      "addressLocality": "Abbytown",
-      "addressRegion": "Oklahoma",
-      "postalCode": "80068",
-      "addressCountry": "Panama"
+      "organizationName": "Mayert Group",
+      "streetAddress": "20360 Sauer Stream",
+      "addressLocality": "Karinaburgh",
+      "addressRegion": "California",
+      "postalCode": "60239-3807",
+      "addressCountry": "British Indian Ocean Territory (Chagos Archipelago)"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vPeg8cpu6cv_-C7gFveF2n6Af1Vq1Yxe7SFDM7XSEZhE2NW0opPLMxaJdcxarhig6mE0ZtLaK-80dP9t2fd7Ag",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..O8vie3Rme4vQSZay9O2yXVbNsye9qPdzMVGkgMxca0gCwNGRobTbi1aO8utEDZuN81b3CYVAOT8AFf8LqMq7Ag",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

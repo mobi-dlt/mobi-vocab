@@ -4,41 +4,41 @@
       "https://w3id.org/traceability/v1"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 3789.75,
-    "totalCollect": 1263.25,
-    "sourceCurrency": "AMD",
-    "destinationCurrency": "ISK",
-    "currencyConversionRate": 4,
-    "ccChargesDestinationCurrency": "AMD",
-    "chargesDestination": 316,
-    "totalCollectCharge": 79
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "TotalCharge",
-    "totalPrepaid": 1185.75,
-    "totalCollect": 395.25,
-    "sourceCurrency": "TOP",
-    "destinationCurrency": "SEK",
-    "currencyConversionRate": 2,
-    "ccChargesDestinationCurrency": "TOP",
-    "chargesDestination": 681,
-    "totalCollectCharge": 170.25
-  },
-  {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "TotalCharge",
-    "totalPrepaid": 4291.5,
-    "totalCollect": 1430.5,
-    "sourceCurrency": "MYR",
-    "destinationCurrency": "VEF",
+    "totalPrepaid": 47.25,
+    "totalCollect": 15.75,
+    "sourceCurrency": "KMF",
+    "destinationCurrency": "HRK",
     "currencyConversionRate": 5,
-    "ccChargesDestinationCurrency": "MYR",
-    "chargesDestination": 853,
-    "totalCollectCharge": 213.25
+    "ccChargesDestinationCurrency": "KMF",
+    "chargesDestination": 636,
+    "totalCollectCharge": 159
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "TotalCharge",
+    "totalPrepaid": 5751,
+    "totalCollect": 1917,
+    "sourceCurrency": "ARS",
+    "destinationCurrency": "MKD",
+    "currencyConversionRate": 3,
+    "ccChargesDestinationCurrency": "ARS",
+    "chargesDestination": 432,
+    "totalCollectCharge": 108
+  },
+  {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "type": "TotalCharge",
+    "totalPrepaid": 2904,
+    "totalCollect": 968,
+    "sourceCurrency": "PEN",
+    "destinationCurrency": "PYG",
+    "currencyConversionRate": 4,
+    "ccChargesDestinationCurrency": "PEN",
+    "chargesDestination": 178,
+    "totalCollectCharge": 44.5
   }
 ]

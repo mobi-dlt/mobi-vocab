@@ -3,122 +3,35 @@
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
-    "manufacturer": {
-      "type": "Person",
-      "firstName": "Dion",
-      "lastName": "Ullrich",
-      "email": "Emmy_McCullough@example.org",
-      "phoneNumber": "555-237-4645",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Orn - Grimes",
-        "description": "Down-sized contextually-based standardization",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "35168 Maxie Parkways",
-          "addressLocality": "North Verdieton",
-          "addressRegion": "Nebraska",
-          "postalCode": "26015-8727",
-          "addressCountry": "Kyrgyz Republic"
-        },
-        "email": "Gregory92@example.org",
-        "phoneNumber": "555-145-2306",
-        "faxNumber": "555-165-7390"
-      },
-      "jobTitle": "Dynamic Infrastructure Technician"
-    },
-    "name": "Intelligent Plastic Shirt",
-    "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "sizeOrAmount": {
-      "type": "QuantitativeValue",
-      "unitCode": "hg/ha",
-      "value": "9791"
-    },
+    "type": "Product",
+    "name": "Practical Fresh Cheese",
+    "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "6039"
+      "value": "7422"
     },
-    "sku": "759613837257",
-    "monitor": "generate",
-    "bus": "connect",
-    "system": "quantify",
-    "transmitter": "calculate"
+    "port": "override",
+    "panel": "navigate"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "Product",
-    "manufacturer": {
-      "type": "Organization",
-      "name": "Senger LLC",
-      "description": "Re-contextualized 6th generation definition",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "2472 Schneider Stream",
-        "addressLocality": "South Kelton",
-        "addressRegion": "Nebraska",
-        "postalCode": "19772",
-        "addressCountry": "Iceland"
-      },
-      "email": "Griffin0@example.net",
-      "phoneNumber": "555-547-2427",
-      "faxNumber": "555-355-8937"
-    },
-    "name": "Handmade Plastic Soap",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "5116"
+      "value": "991"
     },
-    "weight": {
-      "type": "QuantitativeValue",
-      "unitCode": "hg/ha",
-      "value": "478"
-    },
-    "sku": "895727771917",
-    "sensor": "back up",
-    "array": "compress",
-    "capacitor": "input",
-    "protocol": "copy"
+    "array": "override"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "Product",
-    "manufacturer": {
-      "type": "Organization",
-      "name": "Prosacco, Padberg and Abshire",
-      "description": "Customer-focused clear-thinking database",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "25883 Syble Parkway",
-        "addressLocality": "Welchview",
-        "addressRegion": "Michigan",
-        "postalCode": "33996-0160",
-        "addressCountry": "Lesotho"
-      },
-      "email": "Sebastian96@example.net",
-      "phoneNumber": "555-608-4488",
-      "faxNumber": "555-937-6694"
-    },
-    "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+    "name": "Refined Wooden Mouse",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "7613"
+      "value": "3095"
     },
-    "weight": {
-      "type": "QuantitativeValue",
-      "unitCode": "hg/ha",
-      "value": "9509"
-    },
-    "sku": "268975342992",
-    "alarm": "calculate",
-    "matrix": "back up",
-    "bandwidth": "navigate",
-    "sensor": "parse"
+    "transmitter": "hack",
+    "feed": "copy",
+    "alarm": "copy",
+    "card": "program"
   }
 ]

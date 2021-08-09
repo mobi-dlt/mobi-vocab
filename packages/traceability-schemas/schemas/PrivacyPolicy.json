@@ -9,10 +9,16 @@
         "@context": {
             "type": "array"
           },
-              "type": {
-                "type": "array"
-              },
-
+          "type": {
+              "oneOf": [
+                  {
+                      "type": "string"
+                  },
+                  {
+                      "type": "array"
+                  }
+              ]
+          },
             "issuanceDate": {
                 "$comment": "{\"term\": \"issuanceDate\", \"@id\": \"https://schema.org/Date\"}",
                 "title": "issuance Date",
@@ -22,7 +28,19 @@
                 "$comment": "{\"term\": \"expirationDate\", \"@id\": \"https://schema.org/expires\"}",
                 "title": "ExpirationDate",
                 "type": "string"
+            },
+            "holder": {
+              "$comment": "{\"term\": \"holder\", \"@id\": \"https://schema.org/identifier\"}",
+              "title": "holder",
+              "description": "holder identifier.",
+              "type": "string"
+            },
+            "privacyPolicyAccepted": {
+              "$comment": "{\"term\": \"privacyPolicyAccepted\", \"@id\": \"https://schema.org/Text\"}",
+              "title": "privacy Policy Accepted",
+              "type": "string"
             }
+
     },
 	"additionalProperties": false,
 	"examples": []

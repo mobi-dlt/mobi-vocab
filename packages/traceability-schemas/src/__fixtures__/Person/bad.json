@@ -1,58 +1,21 @@
 [
   {
-    "firstName": "Rickie",
-    "system": "connect",
-    "card": "reboot"
+    "transmitter": "calculate"
   },
   {
     "@context": [
       "https://w3id.org/traceability/v1"
     ],
     "type": "Person",
-    "firstName": "Jany",
-    "worksFor": {
-      "type": "Organization",
-      "name": "Kozey - Roberts",
-      "description": "Visionary impactful data-warehouse",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "141 Lonie Place",
-        "addressLocality": "New Pasquale",
-        "addressRegion": "Oklahoma",
-        "postalCode": "26511-2374",
-        "addressCountry": "Vietnam"
-      },
-      "email": "Guy.Bernier0@example.com",
-      "phoneNumber": "555-687-3364",
-      "faxNumber": "555-955-3444"
-    },
-    "jobTitle": "Central Usability Architect",
-    "sensor": "quantify"
+    "phoneNumber": "555-490-4801",
+    "driver": "hack",
+    "microchip": "compress",
+    "monitor": "program"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "firstName": "Scottie",
-    "phoneNumber": "555-556-6173",
-    "worksFor": {
-      "type": "Organization",
-      "name": "Gottlieb, Hyatt and Schumm",
-      "description": "Cloned directional middleware",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "55508 Erdman Avenue",
-        "addressLocality": "Bashirianhaven",
-        "addressRegion": "Colorado",
-        "postalCode": "34845",
-        "addressCountry": "Cuba"
-      },
-      "email": "Beth_Lemke@example.net",
-      "phoneNumber": "555-561-4571",
-      "faxNumber": "555-364-1399"
-    },
-    "jobTitle": "District Research Representative",
-    "monitor": "index",
-    "circuit": "reboot"
+    "jobTitle": "Human Web Manager",
+    "alarm": "back up",
+    "monitor": "input",
+    "card": "parse"
   }
 ]

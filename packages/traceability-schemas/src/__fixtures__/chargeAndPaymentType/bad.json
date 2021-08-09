@@ -1,27 +1,16 @@
 [
   {
-    "firewall": "input",
-    "system": "back up"
+    "chargePrepaid": 89,
+    "driver": "input"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "chargeAndPaymentType",
-    "chargePrepaid": 594,
-    "alarm": "synthesize",
-    "program": "synthesize",
-    "monitor": "override"
+    "chargeCollect": 918,
+    "bus": "generate"
   },
   {
-    "@context": [
-      "https://w3id.org/traceability/v1"
-    ],
-    "type": "chargeAndPaymentType",
-    "chargeCollect": 100,
-    "protocol": "input",
-    "circuit": "back up",
-    "driver": "compress",
-    "array": "override"
+    "chargeCollect": 623,
+    "interface": "quantify",
+    "protocol": "parse",
+    "alarm": "input"
   }
 ]

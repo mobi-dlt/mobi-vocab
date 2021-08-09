@@ -1,21 +1,23 @@
 [
   {
-    "matrix": "input",
-    "interface": "hack",
-    "bus": "connect",
-    "application": "synthesize"
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
+    "alarm": "synthesize"
   },
   {
+    "@context": [
+      "https://w3id.org/traceability/v1"
+    ],
     "type": [
       "Purchase"
     ],
-    "alarm": "index",
-    "bandwidth": "input"
+    "capacitor": "calculate"
   },
   {
-    "interface": "index",
-    "application": "transmit",
-    "transmitter": "connect",
-    "circuit": "connect"
+    "firewall": "navigate",
+    "microchip": "generate",
+    "bus": "transmit",
+    "feed": "program"
   }
 ]
