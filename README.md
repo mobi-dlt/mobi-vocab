@@ -5,9 +5,10 @@
 ## About 
 
 This specification describes a Linked Data vocabulary for asserting Verifiable
-Credentials related to traceability information, such as chemical properties,
-mechanical properties, country of origin, and other attributes used to determine
-the status of products and materials in mobility applications.
+Credentials related to mobility information, such as vehicle ideneity,
+, registration, infrastructure, telematics data and other attributes used to in mobility applications.
+
+This repo is based on the [W3C traceability vocab](https://github.com/w3c-ccg/traceability-vocab). Mobility specific vocabulary and schemas are created based on MOBI standards. This repo provides sample verifiable credentials for members who want to implement MOBI standards. 
 
 We encourage contributions meeting the [Contribution
 Guidelines](CONTRIBUTING.md). 
@@ -16,7 +17,7 @@ Guidelines](CONTRIBUTING.md).
 ## Testing 
 
 There is also a [**test
-suite (to be implemented) **](https://w3c-ccg.github.io/traceability-vocab/testsuite/) that is run
+suite **](https://w3c-ccg.github.io/traceability-vocab/testsuite/) (to be implemented) that is run
 against PRs, checking separately both the JSON Schema-based data shape
 validation and the JSON-LD–based semantic anchoring. See the underlying test
 scripts
@@ -74,7 +75,7 @@ After you have the dependencies, the first-time setup is as follows:
    $ npx serve docs
    ```
 
-## Ontology Structure (To be Implemented)
+## Ontology Structure 
 
 This repository hosts [JSON Schema](https://json-schema.org/) which it uses 
 to create [JSON-LD](https://json-ld.org/).
@@ -82,7 +83,7 @@ to create [JSON-LD](https://json-ld.org/).
 All JSON Schema must have an `$id` property, which must resolve to the
 JSON-Schema Document.
 
-For example, see
+For example, see (To be Implemented)
 [https://w3id.org/traceability/schemas/Person.json](https://w3id.org/traceability/schemas/Person.json).
 
 We are currently 🚧 EXPERIMENTING 🚧 with injecting JSON-LD concepts like `@id`
@@ -110,7 +111,7 @@ traceability, for example:
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/traceability/v1"
+    "https://w3id.org/mobility"
   ],
   "id": "https://example.com/123",
   "type": ["VerifiableCredential"],
@@ -145,7 +146,7 @@ traceability, for example:
 Inside JSON Schema, you will see things like —
 
 ```json
- "$ref": "https://w3id.org/traceability/schemas/Product.json"
+ "$ref": "https://w3id.org/mobility/schemas/Product.json"
 ```
 
 These are JSON Schema reference tags, and they allow for nesting of types that
