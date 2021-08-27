@@ -21,7 +21,7 @@ suite **](https://w3c-ccg.github.io/traceability-vocab/testsuite/) (to be implem
 against PRs, checking separately both the JSON Schema-based data shape
 validation and the JSON-LD–based semantic anchoring. See the underlying test
 scripts
-[here](https://github.com/w3c-ccg/traceability-vocab/tree/main/packages/traceability-schemas/src/__tests__).
+[here](https://github.com/mobi-dlt/mobi-vocab/tree/main/packages/traceability-schemas/src/__tests__).
 
 ## Getting Started
 
