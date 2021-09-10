@@ -8,7 +8,7 @@ const getPermissions = () => {
     delete batteryIdentifier['@context'];
 
     const example = {
-        '@context': ['https://w3id.org/traceability/v1'],
+        '@context': ['https://goodlookingtech.com'],
         type: 'Permissions',
         userLocation: 'true',
         vehicleLocation: 'true',

@@ -8,7 +8,7 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://goodlookingtech.com"
     ],
     "type": "CitopiaMembershipCredential",
     "identifier": "did:mobinet:123456789abcdefghi",
@@ -16,7 +16,7 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://goodlookingtech.com"
     ],
     "firewall": "navigate"
   }

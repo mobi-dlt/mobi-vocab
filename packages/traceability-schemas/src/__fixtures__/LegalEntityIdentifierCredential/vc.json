@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/traceability/v1"
+    "https://goodlookingtech.com"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,7 +11,7 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://goodlookingtech.com"
     ],
     "type": "LegalEntityIdentifierCredential",
     "leiCode": "QJA2SI4TCGZ1SSH7C9V5",
@@ -20,7 +20,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Ee6fM9pzY56HzXpsPIdQMgAOjy35_9joZS0ZnedFgB3JFl-2pdlhyXcV4Qusr4i_99Ugu_hMaCnXs8dnNranAA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..FAiA5YpwKOJFSYRqdP7iQLxiO7lpcTr2CLOePcs1_p5mSAbt8-Xt4iIB0SHwZX3XtEwCSDMR1KtiNK_RvGz_Bg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

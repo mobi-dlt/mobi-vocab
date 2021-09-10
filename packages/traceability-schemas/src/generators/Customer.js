@@ -9,7 +9,7 @@ const getCustomer = () => {
   delete address.organizationName;
 
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://goodlookingtech.com'],
     type: 'Customer',
     name: `${person.firstName} ${person.lastName}`,
     address,

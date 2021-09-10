@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/traceability/v1"
+    "https://goodlookingtech.com"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,7 +11,7 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://goodlookingtech.com"
     ],
     "type": "Customer",
     "name": "Vince Bode",
@@ -29,7 +29,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vZ6jhT32Nd0KZxllBLPg1sjMWv7_XiedB0LSOjSTWa90_7q1cz38qj3svry-gjaupSbmKGewW7xS8X28WybZBA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..NjcqmZ1ikh0oyoLG2NisXX1D93a1QuEb1_DTuQSMc_5_TwYjXsZEM1ipac6RbOVjG535998-ZKH44xGiKOYLCg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

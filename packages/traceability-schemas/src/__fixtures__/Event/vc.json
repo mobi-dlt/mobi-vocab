@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/traceability/v1"
+    "https://goodlookingtech.com"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,7 +11,7 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://goodlookingtech.com"
     ],
     "type": "Event",
     "eventType": "commission",
@@ -163,7 +163,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..RmpeaQX_C3y_p3kxEd5Z1HW4IpMKj2xxiaLkK2bLYT5_8K71t3vdcWpTTGTvaXfhe-GE1YorJiA_Echf-FKyBA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..-P6-FyWc89GfX-w8GMNp9dKSK5CRfBs7MQLRI6YI9muc6Ts5zarsSS7BZwvfYcaS9-fD5XA-HXH8od2s5ucyCA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

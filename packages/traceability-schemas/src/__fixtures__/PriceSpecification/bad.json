@@ -7,14 +7,14 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://goodlookingtech.com"
     ],
     "monitor": "parse",
     "matrix": "generate"
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://goodlookingtech.com"
     ],
     "priceCurrency": "MDL",
     "pixel": "back up",

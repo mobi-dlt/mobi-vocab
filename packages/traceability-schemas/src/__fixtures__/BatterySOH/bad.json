@@ -9,7 +9,7 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://goodlookingtech.com"
     ],
     "type": "BatterySOH",
     "batteryid": {
@@ -59,7 +59,7 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://goodlookingtech.com"
     ],
     "batteryid": {
       "type": "BatteryID",

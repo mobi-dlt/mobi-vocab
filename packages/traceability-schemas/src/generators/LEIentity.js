@@ -35,7 +35,7 @@ const getLEIentity = () => {
   delete auth['@context'];
 
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://goodlookingtech.com'],
     type: 'LEIentity',
     legalName: companyName,
     legalNameLanguage: language,

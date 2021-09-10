@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/traceability/v1"
+    "https://goodlookingtech.com"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,14 +11,14 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://goodlookingtech.com"
     ],
     "type": "CitopiaMembershipCredential",
     "holder": "Matt Shi",
     "identifier": "did:mobinet:123456789abcdefghi",
     "member": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://goodlookingtech.com"
       ],
       "type": "Member",
       "firstName": "Fay",
@@ -31,7 +31,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..i6cbk_Y_vu58x2FOqSE-Bk_XPSn_EeNM02fSCsj1b9t26hzOXYlbZnYwq1Zd6ps4P06Uu0LK8dYlgeV8P_6XCQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..CARLeX1ny4-JzxygWe258I8mw1kWVSumOvXzrnu-HJ8foZrvJgIigrJQkFPVTvYwt5zyBqBhT_zGEJTm-bzNCQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

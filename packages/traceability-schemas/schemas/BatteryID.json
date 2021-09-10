@@ -1,7 +1,7 @@
 {
-    "$id": "https://w3id.org/traceability/schemas/BatteryID.json",
+    "$id": "https://dlt.mobi/mobility/schemas/BatteryID.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"BatteryID\", \"@id\": \"https://w3id.org/traceability#BatteryID\"}",
+    "$comment": "{\"term\": \"BatteryID\", \"@id\": \"https://dlt.mobi/mobility#BatteryID\"}",
     "title": "BatteryID",
     "description": "VID information for vehicle.",
     "type": "object",
@@ -20,10 +20,10 @@
             ]
         },
         "vid": {
-            "$comment": "{\"term\": \"vid\", \"@id\": \"https://w3id.org/traceability#VID\"}",
+            "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility#VID\"}",
             "title": "vid",
             "description": "vehicle identity",
-            "$ref": "https://w3id.org/traceability/schemas/VID.json"
+            "$ref": "https://dlt.mobi/mobility/schemas/VID.json"
         },
 
         "batteryid": {

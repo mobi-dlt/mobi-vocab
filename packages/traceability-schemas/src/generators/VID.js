@@ -6,7 +6,7 @@ const getVID = () => {
     delete manufacturer['@context'];
 
     const example = {
-        '@context': ['https://w3id.org/traceability/v1'],
+        '@context': ['https://goodlookingtech.com'],
         type: 'VID',
         vid: 'did:mobi:c276e12ec21ebfeb1f712ebc6f',
         manufacturer,

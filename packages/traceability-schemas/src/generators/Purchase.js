@@ -6,7 +6,7 @@ const getPurchase = () => {
   const ent = getEntity();
   delete ent['@context'];
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://goodlookingtech.com'],
     type: ['Purchase'],
     customer: ent,
   };

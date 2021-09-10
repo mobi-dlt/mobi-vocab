@@ -11,7 +11,7 @@ const getPermissionsCredential = () => {
   delete permissionSetting['@context'];
 
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://goodlookingtech.com'],
     type: 'PermissionsCredential',
     permission: permissionSetting,
     holder: 'did:mobinet:123456789abcdefghi',

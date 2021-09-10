@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/traceability/v1"
+    "https://goodlookingtech.com"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,13 +11,13 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://goodlookingtech.com"
     ],
     "type": "LEIevidenceDocument",
     "lei": "SA9QTUFOOT3RM5GFL568",
     "entity": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://goodlookingtech.com"
       ],
       "type": "LEIentity",
       "legalName": "Padberg, Jakubowski and Kihn",
@@ -86,7 +86,7 @@
     },
     "registration": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://goodlookingtech.com"
       ],
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",
@@ -111,7 +111,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..1PgUpaRHHnOS06CEiXXoYoH4ShzPKGE83KVziRDpHYipG_t64nmDK-7wVOzlNmZ3_Vw6aVpUSoAet4aJ7FhhCA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..GiXfiA4PdPjSlV7GOVLLUHBtwTE-NngtKiWeDZuHz1JAVbcZYiw46VAHCq6ylx4_f9RfHTS7GYQEh06MVPi8DA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

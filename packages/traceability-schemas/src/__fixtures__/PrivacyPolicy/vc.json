@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/traceability/v1"
+    "https://goodlookingtech.com"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -12,7 +12,7 @@
   "credentialSubject": {
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
-      "https://w3id.org/traceability/v1"
+      "https://goodlookingtech.com"
     ],
     "type": "PrivacyPolicy",
     "issuanceDate": "2021-03-09",
@@ -23,7 +23,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..zTcSzBPnpT-R3WrX8juCsPCa4UN4hMAAgQZ5xhCgBvjox6HZi_lYatVVEZXv-wA5gDCYNFCdmr3yBHboM_FxAw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..KQ2nNUW-046g0ASfFAqDPOFsHQWavb3LTmdZfEIy5-kWI1ZqvLbHPWRpqJg-qzz0Wn3vJOds06Kltp8_fwiiAA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

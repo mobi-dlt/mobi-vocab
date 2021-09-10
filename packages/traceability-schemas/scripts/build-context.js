@@ -12,6 +12,6 @@ const context = getContextFromIntermediate(
 );
 
 fs.writeFileSync(
-  path.resolve(__dirname, '../../../docs/contexts/traceability-v1.jsonld'),
+  path.resolve(__dirname, '../../../docs/contexts/mobility-v1.jsonld'),
   JSON.stringify(context, null, 2),
 );

@@ -14,7 +14,7 @@ const getContactPoint = () => {
   const phone = `555-${faker.random.number({ min: 100, max: 999 })}-${faker.random.number({ min: 1000, max: 9999 })}`;
 
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://goodlookingtech.com'],
     type: 'ContactPoint',
     name: faker.company.companyName(),
     address,

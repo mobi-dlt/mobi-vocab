@@ -1,54 +1,33 @@
-# Traceability Vocabulary Specification
+# MOBI Vocabulary Specification
 
-![CI](https://github.com/w3c-ccg/traceability-vocab/workflows/CI/badge.svg) [![CD](https://github.com/w3c-ccg/traceability-vocab/actions/workflows/cd.yml/badge.svg)](https://github.com/w3c-ccg/traceability-vocab/actions/workflows/cd.yml)
+ ![CI](https://github.com/mobi-dlt/traceability-vocab/workflows/CI/badge.svg)  [![CD](https://github.com/w3c-ccg/traceability-vocab/actions/workflows/cd.yml/badge.svg)](https://github.com/w3c-ccg/traceability-vocab/actions/workflows/cd.yml)
 
 ## About 
 
 This specification describes a Linked Data vocabulary for asserting Verifiable
-Credentials related to traceability information, such as chemical properties,
-mechanical properties, country of origin, and other attributes used to determine
-the status of products and materials in a supply chain.
+Credentials related to mobility information, such as vehicle ideneity,
+, registration, infrastructure, telematics data and other attributes used to in mobility applications.
+
+This repo is based on the [W3C traceability vocab](https://github.com/w3c-ccg/traceability-vocab). Mobility specific vocabulary and schemas are created based on MOBI standards. This repo provides sample verifiable credentials for members who want to implement MOBI standards. 
 
 We encourage contributions meeting the [Contribution
-Guidelines](CONTRIBUTING.md). While we prefer the creation of issues and Pull
-Requests in the GitHub repository, discussions often occur on the
-[public-credentials](http://lists.w3.org/Archives/Public/public-credentials/)
-mailing list as well, and at regular public meetings (see below).
-
-## Meetings
-
-Meetings are held 
-* Tuesdays at 1.30pm ET/10.30pm PT 
-* on jitsi using this link: [meet.w3c-ccg.org/traceability](https://meet.w3c-ccg.org/traceability)
-* with standing agenda to review open [Pull Requests](https://github.com/w3c-ccg/traceability-vocab/pulls), 
-  then [open Issues](https://github.com/w3c-ccg/traceability-vocab/issues), unless otherwise noted on the mailing list
+Guidelines](CONTRIBUTING.md). 
 
 
-### Hosting instructions
-Any chair, editor, or other party authorized by CCG to manage recordings and
-minutes can do the following. A scribe-bot will show up in the main #ccg IRC
-channel automatically. 
-1. Make sure to select "Start Recording" at the beginning of the call and "Stop
-   Recording" when you're done. 
-2. Make sure to kick everyone out of the room when the meeting is done. 
-3. Once the last person leaves, everything else is automated (publishing raw IRC
-   log, audio, and video). If you want to clean up the minutes, it takes about
-   5-10 minutes to clean up the transcription and publish it.
-
-## Testing
+## Testing 
 
 There is also a [**test
-suite**](https://w3c-ccg.github.io/traceability-vocab/testsuite/) that is run
+suite **](https://w3c-ccg.github.io/traceability-vocab/testsuite/) (to be implemented) that is run
 against PRs, checking separately both the JSON Schema-based data shape
 validation and the JSON-LD–based semantic anchoring. See the underlying test
 scripts
-[here](https://github.com/w3c-ccg/traceability-vocab/tree/main/packages/traceability-schemas/src/__tests__).
+[here](https://github.com/mobi-dlt/mobi-vocab/tree/main/packages/traceability-schemas/src/__tests__).
 
 ## Getting Started
 
 If you are only interested in the vocabulary itself, the items contained
 therein, and/or the example Verifiable Credentials, please see the [spec
-itself](https://w3c-ccg.github.io/traceability-vocab/).
+itself](https://w3c-ccg.github.io/traceability-vocab/).(To be impelemented)
 
 If you are a developer who is interested in working directly with the
 vocabulary, possibly adding schemas, and/or running tests and viewing details of
@@ -64,7 +43,7 @@ After you have the dependencies, the first-time setup is as follows:
 1. checkout this repository —
 
    ```
-   $ git checkout https://github.com/w3c-ccg/traceability-vocab.git
+   $ git checkout https://github.com/mobi-dlt/mobi-vocab.git
    ```
 
 2. Once the repository is checked out, run `npm install` in the created
@@ -86,7 +65,7 @@ After you have the dependencies, the first-time setup is as follows:
    the individual schemas, creating test vectors, and ultimately creating a
    signed verifiable credential for each vocabulary item. If you would like to
    view details on the build process, please see the
-   [README](https://github.com/w3c-ccg/traceability-vocab/tree/main/packages/traceability-schemas)
+   [README](https://github.com/mobi-dlt/mobi-vocab/tree/main/packages/traceability-schemas)
    located in the actual schemas build project folder.
 
 4. Finally, once everything is built and tested, you can serve up the spec 
@@ -96,54 +75,7 @@ After you have the dependencies, the first-time setup is as follows:
    $ npx serve docs
    ```
 
-### Making Contributions
-
-This repository takes a "test and/or code first" approach to vocabulary development
-and deals specifically with data types required for tracking and tracing supply
-chain data, particularly in a cross border context. Special focus is given to
-schema objects that describe common supply chain elements, shared by multiple
-use cases, as well as to items for which inspections and audits may be required,
-and thereby merit creation of Verifiable Credentials to store the results of
-such an inspection for verification by a third party.
-
-To have your contributions accepted, you MUST:
-
-1. Add synthetic data generation for any new data types and/or vocabulary terms.
-2. Add any "special case" testing you believe is helpful for your data structures.
-3. Run all tests locally and ensure they are all passing.
-4. Generate the latest version of the spec to include your changes to vocabulary 
-   and/or data model.
-5. Open a Pull Request with your changes, a clear description of them in the
-   description, and demonstrated passing CI Tests.
-6. Any references to schemas you wish to include in your schema should be
-   recreated locally and referenced there. In these local schemas, only include
-   the properties relevant to the schema you have created. For example,
-   [`Person`](https://schema.org/Person) is an existing schema on schema.org, but
-   a `Person.json` schema has been added to this repo, including only the relevant
-   and used properties for the other traceability schemas. This is to hopefully
-   make traceability schemas easier to understand and manage, by not
-   incorporating too many unnecessarily large schemas. The schemas that have
-   been made local in this way (like `Person.json`) should still reference the
-   schema.org entry like so:
-
-```
-"$comment": "{\"term\": \"Person\", \"@id\": \"https://schema.org/Person\"}",
-```
-
-As a rule, pull requests will not be merged if any conflicts exist, or if 
-testing is incomplete.
-
-Any changes that introduce potentially breaking or non-backwards compatible
-functionality MUST have a corresponding issue and discussion, and will require
-consensus from the editors in order to be introduced or to have any related Pull
-Requests accepted and merged.
-
-A one week (7 day) period prior to merge will be provided to allow sufficient
-review time of pull requests related to data schemas or project functionality. 
-Exceptions may be made for essential documentation, or to allow for immediate 
-"hotfix" of security issues or functionality breaking items.
-
-## Ontology Structure
+## Ontology Structure 
 
 This repository hosts [JSON Schema](https://json-schema.org/) which it uses 
 to create [JSON-LD](https://json-ld.org/).
@@ -151,7 +83,7 @@ to create [JSON-LD](https://json-ld.org/).
 All JSON Schema must have an `$id` property, which must resolve to the
 JSON-Schema Document.
 
-For example, see
+For example, see (To be Implemented)
 [https://w3id.org/traceability/schemas/Person.json](https://w3id.org/traceability/schemas/Person.json).
 
 We are currently 🚧 EXPERIMENTING 🚧 with injecting JSON-LD concepts like `@id`
@@ -170,7 +102,7 @@ For example see:
 These attributes are then used to deterministically build a JSON-LD context 
 hosted at:
 
-[https://w3id.org/traceability/v1](https://w3id.org/traceability/v1)
+[https://dlt.mobi/mobility](https://dlt.mobi/mobility)
 
 This context can then be used to produce verifiable credentials for supply chain
 traceability, for example:
@@ -179,7 +111,7 @@ traceability, for example:
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/traceability/v1"
+    "https://w3id.org/mobility"
   ],
   "id": "https://example.com/123",
   "type": ["VerifiableCredential"],
@@ -214,7 +146,7 @@ traceability, for example:
 Inside JSON Schema, you will see things like —
 
 ```json
- "$ref": "https://w3id.org/traceability/schemas/Product.json"
+ "$ref": "https://w3id.org/mobility/schemas/Product.json"
 ```
 
 These are JSON Schema reference tags, and they allow for nesting of types that
@@ -223,7 +155,7 @@ are defined in JSON Schema.
 In general, you should strive to model concepts as types that are defined in
 JSON Schema and composed from smaller types.
 
-## Versioning
+## Versioning (TO be implemented, talk with team)
 
 This repository will be versioned at periodic points in time with a Q1 Calendar
 Year target for major releases. Versioning tags will follow a pattern of
@@ -330,7 +262,7 @@ data so as to avoid unnecessary changes in the repository on build.
 - [JSON Schema](./docs/schemas/Place.json)
 - [Data Generator](./packages/traceability-schemas/src/generators/Place.js)
 - [JSON-LD Context (derived)](./docs/contexts/traceability-v1.jsonld)
-- [Vocabulary Definition (derived)](https://w3id.org/traceability#place)
+- [Vocabulary Definition (derived)(to be implemented)](https://w3id.org/traceability#place)
 
 ### Common Environment Variables for Build and Development
 

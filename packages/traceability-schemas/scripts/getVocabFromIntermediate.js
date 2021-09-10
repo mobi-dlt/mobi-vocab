@@ -112,8 +112,8 @@ const getVocabFromIntermediate = (intermediate) => {
 
   <p>
     You may view the latest json-ld vocabulary at: <br />
-    <a href="https://w3id.org/traceability/v1">
-      https://w3id.org/traceability/v1
+    <a href="https://goodlookingtech.com">
+      https://goodlookingtech.com
     </a>
   </p>
 

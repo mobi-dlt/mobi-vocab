@@ -7,7 +7,7 @@ const getBatteryID = () => {
     delete vidNumber['@context'];
 
     const example = {
-        '@context': ['https://w3id.org/traceability/v1'],
+        '@context': ['https://goodlookingtech.com'],
         type: 'BatteryID',
         vid: vidNumber,
         batteryid: 'did:mobi:e436e12ec21ebfeb1f712ebc3g',

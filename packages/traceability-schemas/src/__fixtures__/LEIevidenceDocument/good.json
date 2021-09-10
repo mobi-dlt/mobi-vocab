@@ -1,13 +1,13 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://goodlookingtech.com"
     ],
     "type": "LEIevidenceDocument",
     "lei": "SA9QTUFOOT3RM5GFL568",
     "entity": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://goodlookingtech.com"
       ],
       "type": "LEIentity",
       "legalName": "Padberg, Jakubowski and Kihn",
@@ -76,7 +76,7 @@
     },
     "registration": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://goodlookingtech.com"
       ],
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",
@@ -100,13 +100,13 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://goodlookingtech.com"
     ],
     "type": "LEIevidenceDocument",
     "lei": "I48Y2JRY4FLBXIVF93UN",
     "entity": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://goodlookingtech.com"
       ],
       "type": "LEIentity",
       "legalName": "Cartwright Group",
@@ -175,7 +175,7 @@
     },
     "registration": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://goodlookingtech.com"
       ],
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",
@@ -199,13 +199,13 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://goodlookingtech.com"
     ],
     "type": "LEIevidenceDocument",
     "lei": "KXQITMN541C3XL83DDFJ",
     "entity": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://goodlookingtech.com"
       ],
       "type": "LEIentity",
       "legalName": "Ernser, Koelpin and Wolff",
@@ -274,7 +274,7 @@
     },
     "registration": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://goodlookingtech.com"
       ],
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",

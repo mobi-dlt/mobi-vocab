@@ -1,6 +1,6 @@
 const getLinkRole = () => {
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://goodlookingtech.com'],
     type: 'LinkRole',
     target: 'https://example.com/related/link/123',
     linkRelationship: 'alternate',

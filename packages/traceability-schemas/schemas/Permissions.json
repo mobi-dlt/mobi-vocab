@@ -1,7 +1,7 @@
 {
-    "$id": "https://w3id.org/traceability/schemas/Permissions.json",
+    "$id": "https://dlt.mobi/mobility/schemas/Permissions.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"Permissions\", \"@id\": \"https://w3id.org/traceability#Permissions\"}",
+    "$comment": "{\"term\": \"Permissions\", \"@id\": \"https://dlt.mobi/mobility#Permissions\"}",
     "title": "Permissions",
     "description": "Permissions subject",
     "type": "object",
@@ -20,13 +20,13 @@
             ]
         },
         "vid": {
-            "$comment": "{\"term\": \"vid\", \"@id\": \"https://w3id.org/traceability#VID\"}",
+            "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility#VID\"}",
             "title": "vid",
             "description": "vid",
             "type": "string"
         },
         "batteryid": {
-            "$comment": "{\"term\": \"batteryid\", \"@id\": \"https://w3id.org/traceability#BatteryID\"}",
+            "$comment": "{\"term\": \"batteryid\", \"@id\": \"https://dlt.mobi/mobility#BatteryID\"}",
             "title": "batteryid",
             "description": "Battery ID.",
             "type": "string"

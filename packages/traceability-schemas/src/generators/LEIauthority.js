@@ -10,7 +10,7 @@ const getLEIauthority = () => {
   const regid = faker.random.alphaNumeric(20).toUpperCase();
 
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://goodlookingtech.com'],
     type: 'LEIauthority',
     validationAuthorityID: getRegCode(),
     otherValidationAuthorityID: id,

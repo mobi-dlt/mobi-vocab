@@ -1,13 +1,13 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://goodlookingtech.com"
     ],
     "type": "LEIevidenceDocument",
     "lei": "SA9QTUFOOT3RM5GFL568",
     "registration": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://goodlookingtech.com"
       ],
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",
@@ -33,7 +33,7 @@
     "lei": "I48Y2JRY4FLBXIVF93UN",
     "entity": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://goodlookingtech.com"
       ],
       "type": "LEIentity",
       "legalName": "Cartwright Group",
@@ -105,7 +105,7 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://goodlookingtech.com"
     ],
     "microchip": "quantify"
   }

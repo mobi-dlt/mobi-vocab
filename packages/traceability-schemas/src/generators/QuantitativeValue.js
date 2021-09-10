@@ -10,7 +10,7 @@ const getQuantitativeValue = () => {
   const unitCode = prods[randomProd].Unit;
 
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://goodlookingtech.com'],
     type: 'QuantitativeValue',
     unitCode,
     value: faker.random.number({ min: 10, max: 10000 }).toString(),

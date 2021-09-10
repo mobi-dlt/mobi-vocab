@@ -1,14 +1,14 @@
 [
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://goodlookingtech.com"
     ],
     "type": "CitopiaMembershipCredential",
     "holder": "Matt Shi",
     "identifier": "did:mobinet:123456789abcdefghi",
     "member": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://goodlookingtech.com"
       ],
       "type": "Member",
       "firstName": "Fay",
@@ -20,14 +20,14 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://goodlookingtech.com"
     ],
     "type": "CitopiaMembershipCredential",
     "holder": "Matt Shi",
     "identifier": "did:mobinet:123456789abcdefghi",
     "member": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://goodlookingtech.com"
       ],
       "type": "Member",
       "firstName": "Malachi",
@@ -39,14 +39,14 @@
   },
   {
     "@context": [
-      "https://w3id.org/traceability/v1"
+      "https://goodlookingtech.com"
     ],
     "type": "CitopiaMembershipCredential",
     "holder": "Matt Shi",
     "identifier": "did:mobinet:123456789abcdefghi",
     "member": {
       "@context": [
-        "https://w3id.org/traceability/v1"
+        "https://goodlookingtech.com"
       ],
       "type": "Member",
       "firstName": "Aida",

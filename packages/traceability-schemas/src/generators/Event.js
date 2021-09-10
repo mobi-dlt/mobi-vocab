@@ -17,7 +17,7 @@ const getEvent = () => {
     delete products[1]['@context'];
 
     const example = {
-        '@context': ['https://w3id.org/traceability/v1'],
+        '@context': ['https://goodlookingtech.com'],
         type: 'Event',
         eventType,
         eventId,

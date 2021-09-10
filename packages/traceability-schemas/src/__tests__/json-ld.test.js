@@ -1,8 +1,8 @@
 const context = require('jsonld/lib/context');
 const jsonldLib = require('jsonld/lib');
 
-const ctxIri = 'https://w3id.org/traceability/v1';
-const ctxName = 'traceability-v1.jsonld';
+const ctxIri = 'https://goodlookingtech.com';
+const ctxName = 'mobility-v1.jsonld';
 
 describe('Loading generated json-ld context(s)', () => {
     it(`${ctxName} should load as a valid context, and fail when structurally mucked up`, async () => {

@@ -5,7 +5,7 @@ faker.seed(42);
 const getMember = () => {
   // Get organization
   const example = {
-    '@context': ['https://w3id.org/traceability/v1'],
+    '@context': ['https://goodlookingtech.com'],
     type: 'Member',
     firstName: faker.name.firstName(),
     lastName: faker.name.lastName(),

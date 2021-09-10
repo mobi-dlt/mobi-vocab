@@ -7,7 +7,7 @@ const getBatterySOH = () => {
     delete batteryIdentifier['@context'];
 
     const example = {
-        '@context': ['https://w3id.org/traceability/v1'],
+        '@context': ['https://goodlookingtech.com'],
         type: 'BatterySOH',
         batteryid: batteryIdentifier,
         previousSOHVal: '95',
