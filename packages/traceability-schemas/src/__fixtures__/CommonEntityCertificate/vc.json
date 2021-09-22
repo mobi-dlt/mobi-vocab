@@ -13,23 +13,23 @@
     "@context": [
       "https://goodlookingtech.com"
     ],
-    "type": "ContactPoint",
-    "name": "Terry and Sons",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "1823 Hintz Meadow",
-      "addressLocality": "Gloriaside",
-      "addressRegion": "Texas",
-      "postalCode": "95002-6693",
-      "addressCountry": "Burundi"
-    },
-    "email": "Rosetta70@example.net",
-    "phoneNumber": "555-328-5664"
+    "type": "CommonEntityCertificate",
+    "EID": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+    "EntityType": "0",
+    "PubKey": "pubkey",
+    "RevURI": "uri",
+    "ALURI": "uri",
+    "BLURI": "uri",
+    "SignAlgo": "algo",
+    "HashAlgo": "algo",
+    "Expiration": "date",
+    "Issuer": "a",
+    "IssuerSig": "a"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..LLEdrmlYUSrjgW72vvLqwN9NTGFSMVUVXM1b6jRxC2N9L94luE4C13kY-tri-0IG15IXgZ4T16G5jfEUlxclAA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UgScypUxCWQOuP0_s27ZysNt2HVafuWo0Ef6AFRzCSGU-DVRuMkT6ONRJVJ5Whq0n42gVtvgVB4VlQSLB5fMAA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -5,8 +5,17 @@
     ],
     "type": "LEIauthority",
     "validationAuthorityID": "RA000661",
-    "otherValidationAuthorityID": "LRD020TB",
-    "validationAuthorityEntityID": "DHTR9O0G59GZXF3GU5IS"
+    "otherValidationAuthorityID": "ISTOA7U2",
+    "validationAuthorityEntityID": "RO8N49VYY51FQXWFUMYE"
+  },
+  {
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "type": "LEIauthority",
+    "validationAuthorityID": "RA000004",
+    "otherValidationAuthorityID": "8Q771VNP",
+    "validationAuthorityEntityID": "DKVGHJY567V3R5RGUJR0"
   },
   {
     "@context": [
@@ -14,16 +23,7 @@
     ],
     "type": "LEIauthority",
     "validationAuthorityID": "RA000003",
-    "otherValidationAuthorityID": "51FQXWFU",
-    "validationAuthorityEntityID": "MYER9FZBEBWQ8Q771VNP"
-  },
-  {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "type": "LEIauthority",
-    "validationAuthorityID": "RA000003",
-    "otherValidationAuthorityID": "R5RGUJR0",
-    "validationAuthorityEntityID": "MS4A1WXYM6SGH04L4LO8"
+    "otherValidationAuthorityID": "L4LO8FK7",
+    "validationAuthorityEntityID": "8H52NKB9LSFBZG50G2OE"
   }
 ]

@@ -14,12 +14,12 @@
       "https://goodlookingtech.com"
     ],
     "type": "Invoice",
-    "identifier": "IN-77958"
+    "identifier": "IN-53697"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..6DGI3xhkCdCGF9a4PcTYrbbAsSlsvHc_X_gusaNIE2w-JvcQVat0zBdv-o4FdqJ4MpM87PHBaKCRaIVJKV-bCA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..1GAnhcb11GDjgpZP3sRHD-GOMSW4vEuONnjo2N-M4E0UjpcRPECJj51uYIq76PWdnAjHlBrluznxl-sMX4HODA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

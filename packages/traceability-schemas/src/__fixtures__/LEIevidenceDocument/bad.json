@@ -1,10 +1,82 @@
 [
   {
+    "driver": "calculate",
+    "pixel": "calculate"
+  },
+  {
     "@context": [
       "https://goodlookingtech.com"
     ],
     "type": "LEIevidenceDocument",
-    "lei": "SA9QTUFOOT3RM5GFL568",
+    "entity": {
+      "@context": [
+        "https://goodlookingtech.com"
+      ],
+      "type": "LEIentity",
+      "legalName": "Kirlin - O'Keefe",
+      "legalNameLanguage": "nb_NO",
+      "otherNames": [
+        "Stanton - Kautzer",
+        "Christiansen, Schiller and Torphy"
+      ],
+      "transliteratedOtherNames": [
+        "Stanton - Kautzer",
+        "Christiansen, Schiller and Torphy"
+      ],
+      "legalAddress": {
+        "type": "LEIaddress",
+        "language": "es",
+        "addressLines": [
+          "Leffler - Jerde",
+          "7902 Kshlerin Lakes"
+        ],
+        "addressNumber": "89",
+        "addressNumberWithinBuilding": "8",
+        "mailRouting": "0725 Brigitte Skyway, 56230",
+        "city": "Flatleystad",
+        "region": "Buckinghamshire",
+        "country": "Lao People's Democratic Republic",
+        "postalCode": "18090-4312"
+      },
+      "headquartersAddress": {
+        "type": "LEIaddress",
+        "language": "hr",
+        "addressLines": [
+          "Kling - Kutch",
+          "1183 Maci Forest"
+        ],
+        "addressNumber": "50",
+        "addressNumberWithinBuilding": "2",
+        "mailRouting": "8363 Huel Throughway, 98191-7639",
+        "city": "Rahulview",
+        "region": "Bedfordshire",
+        "country": "Suriname",
+        "postalCode": "22890"
+      },
+      "registrationAuthority": {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000001",
+        "otherValidationAuthorityID": "9WSGTMHN",
+        "validationAuthorityEntityID": "DWGM8MW2GIV53QZIFO11"
+      },
+      "legalJurisdiction": "Bedfordshire",
+      "entityCategory": "Grocery",
+      "legalForm": "LLC",
+      "associatedEntity": {
+        "type": "Organization",
+        "leiCode": "SA936OO2MIMZ8T8M7B6M",
+        "name": "Okuneva, Bins and Schmitt"
+      },
+      "status": "REQUESTED",
+      "expirationDate": "2022-07-11",
+      "expirationReason": "transform clicks-and-mortar web-readiness",
+      "successorEntity": {
+        "type": "Organization",
+        "leiCode": "YIQDCGAZCYRXNS6C6E3J",
+        "name": "Simonis - Runolfsdottir"
+      },
+      "otherAddresses": []
+    },
     "registration": {
       "@context": [
         "https://goodlookingtech.com"
@@ -12,101 +84,99 @@
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",
       "lastUpdateDate": "2020-01-01",
-      "status": "CONFIRMED",
+      "status": "REQUESTED",
       "nextRenewalDate": "2021-02-02",
-      "managingLou": "AEDSFIYZOQYVODMWIXPM",
+      "managingLou": "XZIUDHMZCPMPXTNVQRED",
       "validationSources": "FULLY_CORROBORATED",
       "validationAuthority": [
         {
           "type": "LEIauthority",
-          "validationAuthorityID": "RA000002",
-          "otherValidationAuthorityID": "SHKZKUE7",
-          "validationAuthorityEntityID": "IXE4JTMDOVJVPT5S7AT2"
+          "validationAuthorityID": "RA000003",
+          "otherValidationAuthorityID": "29F022IY",
+          "validationAuthorityEntityID": "WASR8MZDO7049M9R2NYJ"
         }
       ]
     },
-    "transmitter": "hack",
-    "alarm": "navigate"
-  },
-  {
-    "type": "LEIevidenceDocument",
-    "lei": "I48Y2JRY4FLBXIVF93UN",
-    "entity": {
-      "@context": [
-        "https://goodlookingtech.com"
-      ],
-      "type": "LEIentity",
-      "legalName": "Cartwright Group",
-      "legalNameLanguage": "ja",
-      "otherNames": [
-        "Gulgowski, Wyman and Keeling",
-        "Dach Inc"
-      ],
-      "transliteratedOtherNames": [
-        "Gulgowski, Wyman and Keeling",
-        "Dach Inc"
-      ],
-      "legalAddress": {
-        "type": "LEIaddress",
-        "language": "en_IE",
-        "addressLines": [
-          "Daugherty LLC",
-          "9282 Haag Plains"
-        ],
-        "addressNumber": "310",
-        "addressNumberWithinBuilding": "6",
-        "mailRouting": "66584 Schiller Roads, 44613-3544",
-        "city": "Darechester",
-        "region": "Avon",
-        "country": "Papua New Guinea",
-        "postalCode": "79024"
-      },
-      "headquartersAddress": {
-        "type": "LEIaddress",
-        "language": "en",
-        "addressLines": [
-          "Johnson - Aufderhar",
-          "115 Hane Plains"
-        ],
-        "addressNumber": "292",
-        "addressNumberWithinBuilding": "8",
-        "mailRouting": "82691 Williamson Squares, 43125",
-        "city": "Jacintoport",
-        "region": "Bedfordshire",
-        "country": "Senegal",
-        "postalCode": "20141-1832"
-      },
-      "registrationAuthority": {
-        "type": "LEIauthority",
-        "validationAuthorityID": "RA000001",
-        "otherValidationAuthorityID": "QNHTDMEU",
-        "validationAuthorityEntityID": "GESYW4Y3SNBXOTF29AUX"
-      },
-      "legalJurisdiction": "Bedfordshire",
-      "entityCategory": "Industrial",
-      "legalForm": "LLC",
-      "associatedEntity": {
-        "type": "Organization",
-        "leiCode": "070MLND5D2KS6G72HZR2",
-        "name": "Koepp, Shanahan and Nienow"
-      },
-      "status": "CONFIRMED",
-      "expirationDate": "2022-07-11",
-      "expirationReason": "reintermediate 24/365 functionalities",
-      "successorEntity": {
-        "type": "Organization",
-        "leiCode": "GM8MW2GIV53QZIFO1113",
-        "name": "Rau, Okuneva and Bins"
-      },
-      "otherAddresses": []
-    },
-    "transmitter": "hack",
-    "card": "connect"
+    "bic": [
+      "ICYPCZJDKB"
+    ],
+    "system": "navigate"
   },
   {
     "@context": [
       "https://goodlookingtech.com"
     ],
-    "microchip": "quantify"
+    "entity": {
+      "@context": [
+        "https://goodlookingtech.com"
+      ],
+      "type": "LEIentity",
+      "legalName": "Reinger, Bosco and Schumm",
+      "legalNameLanguage": "vi",
+      "otherNames": [
+        "Baumbach - Rempel",
+        "Brekke Inc"
+      ],
+      "transliteratedOtherNames": [
+        "Baumbach - Rempel",
+        "Brekke Inc"
+      ],
+      "legalAddress": {
+        "type": "LEIaddress",
+        "language": "en_BORK",
+        "addressLines": [
+          "Lakin - Corwin",
+          "7575 Breitenberg Plain"
+        ],
+        "addressNumber": "367",
+        "addressNumberWithinBuilding": "5",
+        "mailRouting": "1608 Serena Parkways, 41145-0827",
+        "city": "Shannashire",
+        "region": "Berkshire",
+        "country": "Sudan",
+        "postalCode": "01488"
+      },
+      "headquartersAddress": {
+        "type": "LEIaddress",
+        "language": "nb_NO",
+        "addressLines": [
+          "Hahn LLC",
+          "1633 Kaycee Spurs"
+        ],
+        "addressNumber": "408",
+        "addressNumberWithinBuilding": "7",
+        "mailRouting": "0878 Nathaniel Burgs, 27973",
+        "city": "Erikmouth",
+        "region": "Buckinghamshire",
+        "country": "Saint Barthelemy",
+        "postalCode": "83485"
+      },
+      "registrationAuthority": {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000004",
+        "otherValidationAuthorityID": "Z4DDGNPS",
+        "validationAuthorityEntityID": "V7L4ENE0P601M6C6SD3E"
+      },
+      "legalJurisdiction": "Cambridgeshire",
+      "entityCategory": "Finance",
+      "legalForm": "CORPORATION",
+      "associatedEntity": {
+        "type": "Organization",
+        "leiCode": "9MR7GZUQQKR6N16BJRZ9",
+        "name": "Nitzsche - Reilly"
+      },
+      "status": "REQUESTED",
+      "expirationDate": "2022-07-11",
+      "expirationReason": "transform front-end communities",
+      "successorEntity": {
+        "type": "Organization",
+        "leiCode": "KPK1LHOLSL90TBHM252P",
+        "name": "Rodriguez - Schaden"
+      },
+      "otherAddresses": []
+    },
+    "capacitor": "copy",
+    "application": "reboot",
+    "protocol": "compress"
   }
 ]

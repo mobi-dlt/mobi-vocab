@@ -1,8 +1,5 @@
 [
   {
-    "hard drive": "parse"
-  },
-  {
     "email": "Rosetta70@example.net",
     "transmitter": "compress",
     "bus": "calculate"
@@ -23,5 +20,19 @@
     "email": "Willie_Grant86@example.com",
     "phoneNumber": "555-704-1323",
     "driver": "transmit"
+  },
+  {
+    "type": "ContactPoint",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "35872 Lina Field",
+      "addressLocality": "North Ronaldo",
+      "addressRegion": "Arizona",
+      "postalCode": "54566",
+      "addressCountry": "Burkina Faso"
+    },
+    "phoneNumber": "555-753-2194",
+    "driver": "override",
+    "matrix": "bypass"
   }
 ]

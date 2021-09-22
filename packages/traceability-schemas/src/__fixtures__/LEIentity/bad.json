@@ -1,97 +1,75 @@
 [
   {
-    "legalName": "Reilly and Sons",
-    "expirationReason": "synergize cross-platform eyeballs",
-    "pixel": "connect",
-    "circuit": "navigate",
-    "program": "navigate"
-  },
-  {
-    "type": "LEIentity",
-    "legalNameLanguage": "fr_CH",
-    "otherNames": [
-      "Franecki - Boyle",
-      "Jakubowski, Kilback and Medhurst"
-    ],
     "transliteratedOtherNames": [
-      "Franecki - Boyle",
-      "Jakubowski, Kilback and Medhurst"
+      "Ryan - Altenwerth",
+      "Hansen, Bins and Larson"
     ],
-    "headquartersAddress": {
-      "type": "LEIaddress",
-      "language": "nl",
-      "addressLines": [
-        "Cummings and Sons",
-        "365 Rosalind Mall"
-      ],
-      "addressNumber": "19",
-      "addressNumberWithinBuilding": "7",
-      "mailRouting": "845 Keara Trace, 51029",
-      "city": "North Justonberg",
-      "region": "Berkshire",
-      "country": "Central African Republic",
-      "postalCode": "00612-4190"
-    },
-    "associatedEntity": {
-      "type": "Organization",
-      "leiCode": "MUQ84RPEWL6M8DYI6EU2",
-      "name": "Hackett Inc"
-    },
-    "program": "reboot",
-    "alarm": "transmit",
-    "interface": "synthesize"
+    "expirationReason": "syndicate front-end e-markets",
+    "protocol": "connect",
+    "system": "compress",
+    "bandwidth": "program",
+    "interface": "connect"
   },
   {
     "@context": [
       "https://goodlookingtech.com"
     ],
-    "type": "LEIentity",
-    "legalNameLanguage": "nl_BE",
-    "otherNames": [
-      "Thiel LLC",
-      "Runolfsdottir - Hansen"
-    ],
+    "legalName": "Tillman Inc",
+    "legalNameLanguage": "it",
     "transliteratedOtherNames": [
-      "Thiel LLC",
-      "Runolfsdottir - Hansen"
+      "Hyatt Group",
+      "Kling Inc"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "pt_BR",
+      "language": "en_AU",
       "addressLines": [
-        "Schmeler, Hamill and Kertzmann",
-        "56033 Monahan Plaza"
+        "Leannon and Sons",
+        "4256 Denis Village"
       ],
-      "addressNumber": "188",
+      "addressNumber": "415",
       "addressNumberWithinBuilding": "2",
-      "mailRouting": "5633 Metz Orchard, 53420",
-      "city": "New Leeville",
+      "mailRouting": "31306 Ondricka Rue, 47878-4588",
+      "city": "Constantinmouth",
       "region": "Buckinghamshire",
-      "country": "Taiwan",
-      "postalCode": "66745-3589"
+      "country": "Greenland",
+      "postalCode": "02901"
     },
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000002",
-      "otherValidationAuthorityID": "HM9IAOBX",
-      "validationAuthorityEntityID": "SJJKB3LPPE9ZET4I64OU"
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "hy",
+      "addressLines": [
+        "Wehner Inc",
+        "1903 Kurt Course"
+      ],
+      "addressNumber": "62",
+      "addressNumberWithinBuilding": "3",
+      "mailRouting": "61394 Abigale Vista, 93698",
+      "city": "Jackberg",
+      "region": "Borders",
+      "country": "Argentina",
+      "postalCode": "54365-1101"
     },
-    "legalJurisdiction": "Cambridgeshire",
-    "associatedEntity": {
-      "type": "Organization",
-      "leiCode": "NK3CN5ZL1BZVEZVRS3KA",
-      "name": "Quitzon and Sons"
-    },
-    "status": "REQUESTED",
-    "expirationDate": "2022-07-11",
-    "expirationReason": "extend efficient channels",
+    "legalJurisdiction": "Berkshire",
+    "entityCategory": "Grocery",
+    "expirationReason": "utilize leading-edge experiences",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "9XYFH3TTJD1IM4Y0LMTI",
-      "name": "Medhurst, Farrell and Schimmel"
+      "leiCode": "SOXOL7XNTEONK3CN5ZL1",
+      "name": "Wolff Group"
+    },
+    "circuit": "calculate"
+  },
+  {
+    "legalJurisdiction": "Berkshire",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "TIVL8S7NL6ECUWWRCK89",
+      "name": "Gutkowski, Goodwin and Reynolds"
     },
     "otherAddresses": [],
-    "bus": "reboot",
-    "circuit": "input"
+    "bus": "program",
+    "sensor": "override",
+    "firewall": "bypass"
   }
 ]

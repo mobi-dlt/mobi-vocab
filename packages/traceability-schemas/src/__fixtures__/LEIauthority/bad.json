@@ -1,23 +1,26 @@
 [
   {
-    "otherValidationAuthorityID": "LRD020TB",
-    "feed": "compress",
-    "alarm": "hack",
-    "port": "program",
-    "capacitor": "parse"
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "type": "LEIauthority",
+    "otherValidationAuthorityID": "ISTOA7U2",
+    "interface": "copy",
+    "circuit": "input"
+  },
+  {
+    "otherValidationAuthorityID": "8Q771VNP",
+    "matrix": "calculate",
+    "microchip": "transmit",
+    "sensor": "connect",
+    "driver": "hack"
   },
   {
     "@context": [
       "https://goodlookingtech.com"
     ],
-    "otherValidationAuthorityID": "51FQXWFU",
-    "matrix": "hack",
-    "microchip": "override",
-    "bus": "bypass"
-  },
-  {
-    "validationAuthorityID": "RA000003",
-    "validationAuthorityEntityID": "MS4A1WXYM6SGH04L4LO8",
-    "protocol": "calculate"
+    "type": "LEIauthority",
+    "alarm": "synthesize",
+    "application": "program"
   }
 ]

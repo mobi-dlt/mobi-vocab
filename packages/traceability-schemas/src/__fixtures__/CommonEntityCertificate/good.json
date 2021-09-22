@@ -1,0 +1,53 @@
+[
+  {
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "type": "CommonEntityCertificate",
+    "EID": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+    "EntityType": "0",
+    "PubKey": "pubkey",
+    "RevURI": "uri",
+    "ALURI": "uri",
+    "BLURI": "uri",
+    "SignAlgo": "algo",
+    "HashAlgo": "algo",
+    "Expiration": "date",
+    "Issuer": "a",
+    "IssuerSig": "a"
+  },
+  {
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "type": "CommonEntityCertificate",
+    "EID": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+    "EntityType": "0",
+    "PubKey": "pubkey",
+    "RevURI": "uri",
+    "ALURI": "uri",
+    "BLURI": "uri",
+    "SignAlgo": "algo",
+    "HashAlgo": "algo",
+    "Expiration": "date",
+    "Issuer": "a",
+    "IssuerSig": "a"
+  },
+  {
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "type": "CommonEntityCertificate",
+    "EID": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+    "EntityType": "0",
+    "PubKey": "pubkey",
+    "RevURI": "uri",
+    "ALURI": "uri",
+    "BLURI": "uri",
+    "SignAlgo": "algo",
+    "HashAlgo": "algo",
+    "Expiration": "date",
+    "Issuer": "a",
+    "IssuerSig": "a"
+  }
+]

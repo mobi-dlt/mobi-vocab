@@ -1,251 +1,185 @@
 [
   {
-    "actor": [
-      {
-        "type": "Person",
-        "firstName": "Frida",
-        "lastName": "Lemke",
-        "email": "Mina3@example.com",
-        "phoneNumber": "555-656-7839",
-        "worksFor": {
-          "type": "Organization",
-          "name": "Rogahn LLC",
-          "description": "Digitized zero defect concept",
-          "address": {
-            "type": "PostalAddress",
-            "streetAddress": "3283 Ernie Creek",
-            "addressLocality": "Emmytown",
-            "addressRegion": "California",
-            "postalCode": "46605-8193",
-            "addressCountry": "Azerbaijan"
-          },
-          "email": "Gabe.Walsh@example.com",
-          "phoneNumber": "555-102-3491",
-          "faxNumber": "555-881-8255"
-        },
-        "jobTitle": "Corporate Functionality Liaison"
-      },
-      {
-        "type": "Organization",
-        "name": "Carter - Feest",
-        "description": "Total encompassing matrices",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "501 Hermann Track",
-          "addressLocality": "Gracielaberg",
-          "addressRegion": "Colorado",
-          "postalCode": "73105",
-          "addressCountry": "Germany"
-        },
-        "email": "Marielle_Hermann49@example.com",
-        "phoneNumber": "555-856-2903",
-        "faxNumber": "555-180-3947"
-      }
+    "@context": [
+      "https://goodlookingtech.com"
     ],
-    "firewall": "reboot",
-    "array": "copy",
-    "circuit": "quantify"
+    "type": "Event",
+    "eventId": "12345",
+    "eventTime": "2019-12-11T03:50:55Z",
+    "feed": "hack",
+    "microchip": "transmit"
   },
   {
-    "products": [
+    "eventType": "commission",
+    "eventId": "12345",
+    "actor": [
       {
-        "type": "Product",
-        "manufacturer": {
-          "type": "Person",
-          "firstName": "Kaitlyn",
-          "lastName": "Stracke",
-          "email": "Therese.Hegmann@example.net",
-          "phoneNumber": "555-458-4730",
-          "worksFor": {
-            "type": "Organization",
-            "name": "Becker - Rodriguez",
-            "description": "Fundamental cohesive projection",
-            "address": {
-              "type": "PostalAddress",
-              "streetAddress": "98994 Feil Coves",
-              "addressLocality": "Cummeratafort",
-              "addressRegion": "Georgia",
-              "postalCode": "89383",
-              "addressCountry": "Macao"
-            },
-            "email": "Abigail.Mitchell@example.net",
-            "phoneNumber": "555-304-6321",
-            "faxNumber": "555-647-4591"
-          },
-          "jobTitle": "Central Mobility Agent"
+        "type": "Organization",
+        "name": "Stamm - Koch",
+        "description": "Cross-platform methodical Graphic Interface",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "857 Rolfson Wells",
+          "addressLocality": "New Delores",
+          "addressRegion": "Rhode Island",
+          "postalCode": "10257-7487",
+          "addressCountry": "Grenada"
         },
-        "name": "Practical Frozen Keyboard",
-        "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-        "sizeOrAmount": {
-          "type": "QuantitativeValue",
-          "unitCode": "hg/ha",
-          "value": "5875"
-        },
-        "weight": {
-          "type": "QuantitativeValue",
-          "unitCode": "hg/ha",
-          "value": "338"
-        },
-        "sku": "176395223687"
+        "email": "Phoebe48@example.com",
+        "phoneNumber": "555-192-8391",
+        "faxNumber": "555-582-1995"
       },
       {
-        "type": "Product",
-        "manufacturer": {
+        "type": "Person",
+        "firstName": "Terry",
+        "lastName": "Predovic",
+        "email": "Theodore_Bahringer15@example.net",
+        "phoneNumber": "555-191-6086",
+        "worksFor": {
           "type": "Organization",
-          "name": "Hyatt LLC",
-          "description": "Managed composite projection",
+          "name": "Conn - Lakin",
+          "description": "Configurable mission-critical database",
           "address": {
             "type": "PostalAddress",
-            "streetAddress": "93375 Daisy Gardens",
-            "addressLocality": "East Malachiport",
-            "addressRegion": "Florida",
-            "postalCode": "94154-8059",
-            "addressCountry": "Cocos (Keeling) Islands"
+            "streetAddress": "065 Karen Ridge",
+            "addressLocality": "Demondstad",
+            "addressRegion": "Louisiana",
+            "postalCode": "19935-2444",
+            "addressCountry": "Finland"
           },
-          "email": "Fay.DuBuque@example.net",
-          "phoneNumber": "555-551-3696",
-          "faxNumber": "555-635-3789"
+          "email": "Moises_Swaniawski@example.org",
+          "phoneNumber": "555-952-6534",
+          "faxNumber": "555-238-9206"
         },
-        "name": "Refined Rubber Soap",
-        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-        "sizeOrAmount": {
-          "type": "QuantitativeValue",
-          "unitCode": "hg/ha",
-          "value": "375"
-        },
-        "weight": {
-          "type": "QuantitativeValue",
-          "unitCode": "hg/ha",
-          "value": "4726"
-        },
-        "sku": "294051732996"
+        "jobTitle": "Legacy Intranet Coordinator"
       }
     ],
-    "sensor": "quantify",
-    "application": "hack"
+    "place": {
+      "type": "Place",
+      "globalLocationNumber": "6460435162027",
+      "geo": {
+        "type": "GeoCoordinates",
+        "latitude": "-13.6565",
+        "longitude": "-152.1645"
+      },
+      "address": {
+        "type": "PostalAddress",
+        "organizationName": "Braun, Watsica and Spencer",
+        "streetAddress": "941 Wyman Courts",
+        "addressLocality": "Lake Chynaland",
+        "addressRegion": "Tennessee",
+        "postalCode": "38352-5633",
+        "addressCountry": "Austria"
+      }
+    },
+    "monitor": "program",
+    "alarm": "index",
+    "driver": "generate",
+    "program": "compress"
   },
   {
     "@context": [
       "https://goodlookingtech.com"
     ],
     "type": "Event",
-    "actor": [
-      {
-        "type": "Person",
-        "firstName": "Davion",
-        "lastName": "Reichel",
-        "email": "Quinten_Frami60@example.org",
-        "phoneNumber": "555-687-6010",
-        "worksFor": {
-          "type": "Organization",
-          "name": "Osinski LLC",
-          "description": "Advanced methodical artificial intelligence",
-          "address": {
-            "type": "PostalAddress",
-            "streetAddress": "97322 Juliana Turnpike",
-            "addressLocality": "Lake Alda",
-            "addressRegion": "Wisconsin",
-            "postalCode": "87864",
-            "addressCountry": "Anguilla"
-          },
-          "email": "Polly88@example.com",
-          "phoneNumber": "555-596-2997",
-          "faxNumber": "555-328-3079"
-        },
-        "jobTitle": "Internal Data Assistant"
+    "eventType": "commission",
+    "eventId": "12345",
+    "place": {
+      "type": "Place",
+      "globalLocationNumber": "2254204680546",
+      "geo": {
+        "type": "GeoCoordinates",
+        "latitude": "60.2875",
+        "longitude": "-28.1866"
       },
-      {
-        "type": "Organization",
-        "name": "Harvey - Gerlach",
-        "description": "Stand-alone exuding frame",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "24238 Nader Club",
-          "addressLocality": "Lake Cordellhaven",
-          "addressRegion": "Alaska",
-          "postalCode": "18564",
-          "addressCountry": "Philippines"
-        },
-        "email": "Alexys_Gleichner34@example.com",
-        "phoneNumber": "555-903-9195",
-        "faxNumber": "555-835-6622"
+      "address": {
+        "type": "PostalAddress",
+        "organizationName": "Cole, Leffler and Tromp",
+        "streetAddress": "62608 Billie Unions",
+        "addressLocality": "Mayerport",
+        "addressRegion": "Indiana",
+        "postalCode": "54648",
+        "addressCountry": "Puerto Rico"
       }
-    ],
+    },
+    "eventTime": "2019-12-11T03:50:55Z",
     "products": [
       {
         "type": "Product",
         "manufacturer": {
           "type": "Person",
-          "firstName": "Mallie",
-          "lastName": "Kunde",
-          "email": "Kiarra.Volkman40@example.org",
-          "phoneNumber": "555-640-6697",
+          "firstName": "Miracle",
+          "lastName": "Gulgowski",
+          "email": "Kennith.Wiegand@example.com",
+          "phoneNumber": "555-923-7471",
           "worksFor": {
             "type": "Organization",
-            "name": "Breitenberg Inc",
-            "description": "Customizable bi-directional data-warehouse",
+            "name": "Borer LLC",
+            "description": "Robust content-based approach",
             "address": {
               "type": "PostalAddress",
-              "streetAddress": "8491 Celestino Mountain",
-              "addressLocality": "Donniefurt",
-              "addressRegion": "Alabama",
-              "postalCode": "95185-4205",
-              "addressCountry": "India"
+              "streetAddress": "29287 Mills Pine",
+              "addressLocality": "Mallieport",
+              "addressRegion": "Florida",
+              "postalCode": "98443-7540",
+              "addressCountry": "Guatemala"
             },
-            "email": "Dixie_Swift25@example.net",
-            "phoneNumber": "555-686-5477",
-            "faxNumber": "555-846-7481"
+            "email": "Rodger.Green@example.com",
+            "phoneNumber": "555-249-9627",
+            "faxNumber": "555-764-2659"
           },
-          "jobTitle": "Regional Accounts Analyst"
+          "jobTitle": "Dynamic Usability Representative"
         },
-        "name": "Tasty Soft Mouse",
-        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "name": "Gorgeous Steel Hat",
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
         "sizeOrAmount": {
           "type": "QuantitativeValue",
           "unitCode": "hg/ha",
-          "value": "479"
+          "value": "7329"
         },
         "weight": {
           "type": "QuantitativeValue",
           "unitCode": "hg/ha",
-          "value": "1671"
+          "value": "2157"
         },
-        "sku": "90346057370"
+        "sku": "162022257510"
       },
       {
         "type": "Product",
         "manufacturer": {
           "type": "Organization",
-          "name": "Gislason - Crooks",
-          "description": "Persistent stable analyzer",
+          "name": "Abernathy, Powlowski and Wisoky",
+          "description": "Extended 24 hour matrices",
           "address": {
             "type": "PostalAddress",
-            "streetAddress": "243 Miracle Unions",
-            "addressLocality": "New Kennith",
-            "addressRegion": "West Virginia",
-            "postalCode": "36991",
-            "addressCountry": "Romania"
+            "streetAddress": "513 Jarod Plaza",
+            "addressLocality": "West Aracelyborough",
+            "addressRegion": "Oregon",
+            "postalCode": "47654",
+            "addressCountry": "Kiribati"
           },
-          "email": "Jerrell.Wilkinson@example.net",
-          "phoneNumber": "555-535-2934",
-          "faxNumber": "555-342-1280"
+          "email": "Foster80@example.org",
+          "phoneNumber": "555-321-1683",
+          "faxNumber": "555-837-1699"
         },
-        "name": "Ergonomic Plastic Car",
-        "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+        "name": "Tasty Metal Table",
+        "description": "The Football Is Good For Training And Recreational Purposes",
         "sizeOrAmount": {
           "type": "QuantitativeValue",
           "unitCode": "hg/ha",
-          "value": "6237"
+          "value": "9622"
         },
         "weight": {
           "type": "QuantitativeValue",
           "unitCode": "hg/ha",
-          "value": "4748"
+          "value": "7903"
         },
-        "sku": "728191474965"
+        "sku": "185141080122"
       }
     ],
-    "sensor": "compress",
-    "protocol": "transmit"
+    "bus": "input",
+    "monitor": "calculate",
+    "transmitter": "input",
+    "alarm": "input"
   }
 ]
