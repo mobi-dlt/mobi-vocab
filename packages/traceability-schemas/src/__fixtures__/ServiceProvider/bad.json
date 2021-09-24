@@ -1,0 +1,35 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "ServiceProvider",
+    "LegalName": "mobi",
+    "Address": "entity address",
+    "PhoneNumber": "312-888-0766",
+    "Email": "hi@dlt.mobi",
+    "alarm": "transmit",
+    "driver": "reboot"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "LegalName": "mobi",
+    "Address": "entity address",
+    "PhoneNumber": "312-888-0766",
+    "Email": "hi@dlt.mobi",
+    "protocol": "program"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "LegalName": "mobi",
+    "Email": "hi@dlt.mobi",
+    "bus": "bypass",
+    "hard drive": "calculate",
+    "matrix": "bypass",
+    "system": "navigate"
+  }
+]

@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://goodlookingtech.com"
+    "https://dlt.mobi/mobility"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,16 +11,16 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "IdentityCredential",
     "legalName": "Matt Shi",
     "licenseNumber": "Y5327288",
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000003",
-      "otherValidationAuthorityID": "H2VPJCFQ",
-      "validationAuthorityEntityID": "E2KBSJJSNBQMIVFMV8F0"
+      "validationAuthorityID": "RA000002",
+      "otherValidationAuthorityID": "0C1R3E1H",
+      "validationAuthorityEntityID": "HMKV9ZER3FCFIQQ803GC"
     },
     "issuanceDate": "2021-03-09",
     "expirationDate": "2022-07-11"
@@ -28,7 +28,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UBUgEY5CdxPFKtOVgT7lFYTYaInXcbg5aUORe2AmybTk5zvbBhnguTWXET1iB675FjfU5K3NOERpw6TIrZJlCQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..FIkMchn_f7EBMmPt8uZVEkxSdpFobRfDPhNN4uGZmnUL8C4VyZKOWdEGhv3L3E_jY75t0FnxLvhN3804U01DBw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

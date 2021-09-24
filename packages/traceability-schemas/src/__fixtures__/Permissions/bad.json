@@ -1,28 +1,35 @@
 [
   {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "Permissions",
+    "vid": "true",
+    "dataSharingForRewards": "true",
+    "program": "generate",
+    "interface": "copy",
+    "protocol": "reboot"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "Permissions",
     "userLocation": "true",
+    "vehicleLocation": "true",
+    "vid": "true",
+    "dataSharingForRewards": "true",
+    "feed": "index"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "Permissions",
+    "userLocation": "true",
+    "vehicleLocation": "true",
     "batteryid": "true",
     "dataSharingForRewards": "true",
-    "sensor": "parse",
-    "alarm": "compress",
-    "capacitor": "compress",
-    "pixel": "connect"
-  },
-  {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "vehicleLocation": "true",
-    "transmitter": "synthesize",
-    "driver": "program",
-    "alarm": "back up",
-    "protocol": "synthesize"
-  },
-  {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "bus": "quantify",
-    "circuit": "input"
+    "panel": "parse"
   }
 ]

@@ -1,75 +1,78 @@
 [
   {
-    "transliteratedOtherNames": [
-      "Ryan - Altenwerth",
-      "Hansen, Bins and Larson"
+    "@context": [
+      "https://dlt.mobi/mobility"
     ],
-    "expirationReason": "syndicate front-end e-markets",
-    "protocol": "connect",
-    "system": "compress",
-    "bandwidth": "program",
-    "interface": "connect"
+    "legalName": "Gusikowski - Quitzon",
+    "otherNames": [
+      "Mertz Group",
+      "Bechtelar - Moore"
+    ],
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000003",
+      "otherValidationAuthorityID": "QDRZI1JV",
+      "validationAuthorityEntityID": "IKLF1QEHLVLWSFN9ZLAW"
+    },
+    "legalForm": "CORPORATION",
+    "expirationDate": "2022-07-11",
+    "expirationReason": "innovate 24/7 infrastructures",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "RPEWL6M8DYI6EU2HF83V",
+      "name": "Kilback - Medhurst"
+    },
+    "port": "program",
+    "alarm": "back up"
   },
   {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "legalName": "Tillman Inc",
-    "legalNameLanguage": "it",
-    "transliteratedOtherNames": [
-      "Hyatt Group",
-      "Kling Inc"
-    ],
+    "otherAddresses": [],
+    "interface": "generate",
+    "feed": "navigate"
+  },
+  {
+    "type": "LEIentity",
     "legalAddress": {
-      "type": "LEIaddress",
-      "language": "en_AU",
-      "addressLines": [
-        "Leannon and Sons",
-        "4256 Denis Village"
-      ],
-      "addressNumber": "415",
-      "addressNumberWithinBuilding": "2",
-      "mailRouting": "31306 Ondricka Rue, 47878-4588",
-      "city": "Constantinmouth",
-      "region": "Buckinghamshire",
-      "country": "Greenland",
-      "postalCode": "02901"
-    },
-    "headquartersAddress": {
       "type": "LEIaddress",
       "language": "hy",
       "addressLines": [
-        "Wehner Inc",
-        "1903 Kurt Course"
+        "Franecki - Lesch",
+        "8777 Aida Villages"
       ],
-      "addressNumber": "62",
-      "addressNumberWithinBuilding": "3",
-      "mailRouting": "61394 Abigale Vista, 93698",
-      "city": "Jackberg",
+      "addressNumber": "198",
+      "addressNumberWithinBuilding": "8",
+      "mailRouting": "140 Antonette Turnpike, 92693-0194",
+      "city": "East Barrett",
       "region": "Borders",
-      "country": "Argentina",
-      "postalCode": "54365-1101"
+      "country": "Kyrgyz Republic",
+      "postalCode": "46252"
     },
-    "legalJurisdiction": "Berkshire",
-    "entityCategory": "Grocery",
-    "expirationReason": "utilize leading-edge experiences",
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "nb_NO",
+      "addressLines": [
+        "Ward Group",
+        "67732 Senger Walks"
+      ],
+      "addressNumber": "291",
+      "addressNumberWithinBuilding": "4",
+      "mailRouting": "51168 Judy Estate, 72175",
+      "city": "East Terrellshire",
+      "region": "Borders",
+      "country": "Malawi",
+      "postalCode": "40885"
+    },
+    "expirationDate": "2022-07-11",
+    "expirationReason": "strategize open-source infomediaries",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "SOXOL7XNTEONK3CN5ZL1",
-      "name": "Wolff Group"
-    },
-    "circuit": "calculate"
-  },
-  {
-    "legalJurisdiction": "Berkshire",
-    "successorEntity": {
-      "type": "Organization",
-      "leiCode": "TIVL8S7NL6ECUWWRCK89",
-      "name": "Gutkowski, Goodwin and Reynolds"
+      "leiCode": "T3RM5GFL568QVVH7J360",
+      "name": "Nitzsche Inc"
     },
     "otherAddresses": [],
-    "bus": "program",
-    "sensor": "override",
-    "firewall": "bypass"
+    "port": "hack",
+    "pixel": "synthesize",
+    "feed": "index",
+    "system": "index"
   }
 ]

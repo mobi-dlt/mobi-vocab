@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://goodlookingtech.com"
+    "https://dlt.mobi/mobility"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,29 +11,29 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "Place",
-    "globalLocationNumber": "4556178713977",
+    "globalLocationNumber": "4443222826434",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "38.3773",
-      "longitude": "-11.4645"
+      "latitude": "-23.8080",
+      "longitude": "-136.7254"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Mayert Group",
-      "streetAddress": "20360 Sauer Stream",
-      "addressLocality": "Karinaburgh",
-      "addressRegion": "California",
-      "postalCode": "60239-3807",
-      "addressCountry": "British Indian Ocean Territory (Chagos Archipelago)"
+      "organizationName": "Gleason and Sons",
+      "streetAddress": "32377 Heidenreich Motorway",
+      "addressLocality": "Gabriellemouth",
+      "addressRegion": "Alabama",
+      "postalCode": "26659-8860",
+      "addressCountry": "Malta"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..O8vie3Rme4vQSZay9O2yXVbNsye9qPdzMVGkgMxca0gCwNGRobTbi1aO8utEDZuN81b3CYVAOT8AFf8LqMq7Ag",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vnFvYoFHS-zk3TkoJQhBVeuCiax3BrW_0XVmExyZKnfVcomCvtBWbOx6ML7Z3VCG_wNhyxDty5PAk_2vpkqpBg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

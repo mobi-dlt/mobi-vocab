@@ -1,208 +1,208 @@
 [
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "LEIentity",
-    "legalName": "Bogisich - Tillman",
-    "legalNameLanguage": "en_ZA",
+    "legalName": "Gusikowski - Quitzon",
+    "legalNameLanguage": "tr",
     "otherNames": [
-      "Ryan - Altenwerth",
-      "Hansen, Bins and Larson"
+      "Mertz Group",
+      "Bechtelar - Moore"
     ],
     "transliteratedOtherNames": [
-      "Ryan - Altenwerth",
-      "Hansen, Bins and Larson"
+      "Mertz Group",
+      "Bechtelar - Moore"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "de",
+      "language": "sv",
       "addressLines": [
-        "Senger Inc",
-        "526 Reilly Rest"
+        "Ratke, Muller and Schmitt",
+        "0685 Reanna Orchard"
       ],
-      "addressNumber": "162",
-      "addressNumberWithinBuilding": "2",
-      "mailRouting": "01619 Quigley Points, 05960-6527",
-      "city": "Strosinside",
+      "addressNumber": "307",
+      "addressNumberWithinBuilding": "9",
+      "mailRouting": "446 Casey Camp, 40705-2614",
+      "city": "Morissetteberg",
       "region": "Berkshire",
-      "country": "Guernsey",
-      "postalCode": "68736-8406"
+      "country": "Saudi Arabia",
+      "postalCode": "94371"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "tr",
+      "language": "sv",
       "addressLines": [
-        "Lowe - Metz",
-        "0517 Reilly Lights"
+        "Kerluke, Okuneva and Baumbach",
+        "623 Wellington Wells"
       ],
-      "addressNumber": "227",
-      "addressNumberWithinBuilding": "5",
-      "mailRouting": "52614 Daija Trafficway, 94371",
-      "city": "Schambergerview",
-      "region": "Buckinghamshire",
-      "country": "Solomon Islands",
-      "postalCode": "04150-7623"
+      "addressNumber": "278",
+      "addressNumberWithinBuilding": "1",
+      "mailRouting": "6014 Bins Rapid, 02284",
+      "city": "Port Victorchester",
+      "region": "Avon",
+      "country": "Liberia",
+      "postalCode": "78463"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
       "validationAuthorityID": "RA000003",
-      "otherValidationAuthorityID": "ZJZHN27E",
-      "validationAuthorityEntityID": "O72F179UG6VYQEQUFMCQ"
+      "otherValidationAuthorityID": "QDRZI1JV",
+      "validationAuthorityEntityID": "IKLF1QEHLVLWSFN9ZLAW"
     },
-    "legalJurisdiction": "Berkshire",
-    "entityCategory": "Finance",
-    "legalForm": "LLC",
+    "legalJurisdiction": "Cambridgeshire",
+    "entityCategory": "Grocery",
+    "legalForm": "CORPORATION",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "YSW1QHQ3583ZK50HHM7P",
-      "name": "Batz - Littel"
+      "leiCode": "CEB4ZK7OOST716O3YM4P",
+      "name": "Konopelski - Murray"
     },
     "status": "IN PROGRESS",
     "expirationDate": "2022-07-11",
-    "expirationReason": "syndicate front-end e-markets",
+    "expirationReason": "innovate 24/7 infrastructures",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "F1QEHLVLWSFN9ZLAWC7D",
-      "name": "Konopelski - Murray"
+      "leiCode": "RPEWL6M8DYI6EU2HF83V",
+      "name": "Kilback - Medhurst"
     },
     "otherAddresses": []
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "LEIentity",
-    "legalName": "Tillman Inc",
-    "legalNameLanguage": "it",
+    "legalName": "Quigley, Funk and Cummings",
+    "legalNameLanguage": "ru",
     "otherNames": [
-      "Hyatt Group",
-      "Kling Inc"
+      "Keeling and Sons",
+      "McKenzie LLC"
     ],
     "transliteratedOtherNames": [
-      "Hyatt Group",
-      "Kling Inc"
+      "Keeling and Sons",
+      "McKenzie LLC"
     ],
     "legalAddress": {
       "type": "LEIaddress",
       "language": "en_AU",
       "addressLines": [
-        "Leannon and Sons",
-        "4256 Denis Village"
+        "Bashirian - Moen",
+        "7878 Salvatore Lock"
       ],
-      "addressNumber": "415",
-      "addressNumberWithinBuilding": "2",
-      "mailRouting": "31306 Ondricka Rue, 47878-4588",
-      "city": "Constantinmouth",
-      "region": "Buckinghamshire",
-      "country": "Greenland",
-      "postalCode": "02901"
+      "addressNumber": "332",
+      "addressNumberWithinBuilding": "6",
+      "mailRouting": "525 Glover Courts, 01529-0061",
+      "city": "South Chelsieside",
+      "region": "Berkshire",
+      "country": "Russian Federation",
+      "postalCode": "31550"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "hy",
+      "language": "ne",
       "addressLines": [
-        "Wehner Inc",
-        "1903 Kurt Course"
+        "Hyatt Group",
+        "93698 Gaylord Pass"
       ],
-      "addressNumber": "62",
-      "addressNumberWithinBuilding": "3",
-      "mailRouting": "61394 Abigale Vista, 93698",
-      "city": "Jackberg",
-      "region": "Borders",
-      "country": "Argentina",
-      "postalCode": "54365-1101"
+      "addressNumber": "343",
+      "addressNumberWithinBuilding": "1",
+      "mailRouting": "5436 Cassin Mountain, 13179",
+      "city": "Lake Margeville",
+      "region": "Cambridgeshire",
+      "country": "Lao People's Democratic Republic",
+      "postalCode": "10761-4289"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000003",
-      "otherValidationAuthorityID": "B5PX7QO5",
-      "validationAuthorityEntityID": "Y63QO5F8VY69ONUZYDO0"
+      "validationAuthorityID": "RA000004",
+      "otherValidationAuthorityID": "69ONUZYD",
+      "validationAuthorityEntityID": "O0H8MTVVKR14XSOXOL7X"
     },
     "legalJurisdiction": "Berkshire",
-    "entityCategory": "Grocery",
-    "legalForm": "LLC",
+    "entityCategory": "Finance",
+    "legalForm": "CORPORATION",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "LIKCNL35NEBYE9UN0BLR",
-      "name": "Stroman, Stracke and Marks"
+      "leiCode": "BLRL4EY8G88V2F6BIGCO",
+      "name": "O'Hara, Mayert and Breitenberg"
     },
-    "status": "IN PROGRESS",
+    "status": "CONFIRMED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "utilize leading-edge experiences",
+    "expirationReason": "reintermediate strategic blockchains",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "SOXOL7XNTEONK3CN5ZL1",
-      "name": "Wolff Group"
+      "leiCode": "L1BZVEZVRS3KAQ3VNERB",
+      "name": "Orn, Kessler and Schowalter"
     },
     "otherAddresses": []
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "LEIentity",
-    "legalName": "Powlowski - Hoeger",
-    "legalNameLanguage": "az",
+    "legalName": "Hoeger Inc",
+    "legalNameLanguage": "sk",
     "otherNames": [
-      "Hane LLC",
-      "Monahan - Hyatt"
+      "Leannon, Stamm and Kris",
+      "Balistreri, Schulist and Heaney"
     ],
     "transliteratedOtherNames": [
-      "Hane LLC",
-      "Monahan - Hyatt"
+      "Leannon, Stamm and Kris",
+      "Balistreri, Schulist and Heaney"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "hr",
+      "language": "hy",
       "addressLines": [
-        "Metz - Ferry",
-        "05616 Noble Port"
+        "Franecki - Lesch",
+        "8777 Aida Villages"
       ],
-      "addressNumber": "223",
-      "addressNumberWithinBuilding": "3",
-      "mailRouting": "5358 Roselyn Villages, 90831",
-      "city": "East Grayce",
-      "region": "Berkshire",
-      "country": "Malta",
-      "postalCode": "52546-3758"
+      "addressNumber": "198",
+      "addressNumberWithinBuilding": "8",
+      "mailRouting": "140 Antonette Turnpike, 92693-0194",
+      "city": "East Barrett",
+      "region": "Borders",
+      "country": "Kyrgyz Republic",
+      "postalCode": "46252"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "pl",
+      "language": "nb_NO",
       "addressLines": [
-        "Rau, Wilkinson and Lebsack",
-        "86089 Tillman Forest"
+        "Ward Group",
+        "67732 Senger Walks"
       ],
-      "addressNumber": "98",
-      "addressNumberWithinBuilding": "5",
-      "mailRouting": "0194 Bradtke Inlet, 46252",
-      "city": "Eloisaside",
-      "region": "Buckinghamshire",
-      "country": "Andorra",
-      "postalCode": "55530-6773"
+      "addressNumber": "291",
+      "addressNumberWithinBuilding": "4",
+      "mailRouting": "51168 Judy Estate, 72175",
+      "city": "East Terrellshire",
+      "region": "Borders",
+      "country": "Malawi",
+      "postalCode": "40885"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000004",
-      "otherValidationAuthorityID": "9ZET4I64",
-      "validationAuthorityEntityID": "OU6SI6PA3SK69XYFH3TT"
+      "validationAuthorityID": "RA000002",
+      "otherValidationAuthorityID": "D1IM4Y0L",
+      "validationAuthorityEntityID": "MTIVL8S7NL6ECUWWRCK8"
     },
     "legalJurisdiction": "Berkshire",
-    "entityCategory": "Industrial",
+    "entityCategory": "Finance",
     "legalForm": "CORPORATION",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "ERBXOFTWRVSBFVTD4AJN",
-      "name": "Nader - Bruen"
+      "leiCode": "GL8JDF802LL6ONMRGIDJ",
+      "name": "Reynolds Group"
     },
     "status": "IN PROGRESS",
     "expirationDate": "2022-07-11",
-    "expirationReason": "implement seamless systems",
+    "expirationReason": "strategize open-source infomediaries",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "TIVL8S7NL6ECUWWRCK89",
-      "name": "Gutkowski, Goodwin and Reynolds"
+      "leiCode": "T3RM5GFL568QVVH7J360",
+      "name": "Nitzsche Inc"
     },
     "otherAddresses": []
   }

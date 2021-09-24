@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://goodlookingtech.com"
+    "https://dlt.mobi/mobility"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,26 +11,26 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "LEIaddress",
-    "language": "nl",
+    "language": "pt_PT",
     "addressLines": [
-      "Beatty, Kunze and Lemke",
-      "809 Kunze Summit"
+      "Okuneva, Franecki and Stark",
+      "8269 Mosciski Rapid"
     ],
-    "addressNumber": "111",
-    "addressNumberWithinBuilding": "2",
-    "mailRouting": "455 Khalid Underpass, 66558",
-    "city": "Lake Shakira",
+    "addressNumber": "81",
+    "addressNumberWithinBuilding": "8",
+    "mailRouting": "711 Victoria Trail, 40880-1832",
+    "city": "Sylvanville",
     "region": "Cambridgeshire",
-    "country": "Belarus",
-    "postalCode": "78628-1817"
+    "country": "Cape Verde",
+    "postalCode": "85875"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vZObzXQK6qIklV3NO8B20yDzr2z4RexR043-q84AYZEEJDijkqWW3NIwieIZXaKD6s8d9ryfbAo56PO1nt4kAg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..58YG4hVomfsBZVXAA8Wf5hSHtOeEw2ecYLwNoBXLHt1Bj9lHXPUpwM_ByQeBpkQbvL8dKpq0vW4kBa2d0i52Ag",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

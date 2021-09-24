@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://goodlookingtech.com"
+    "https://dlt.mobi/mobility"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,17 +11,17 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "LEIauthority",
-    "validationAuthorityID": "RA000661",
-    "otherValidationAuthorityID": "ISTOA7U2",
-    "validationAuthorityEntityID": "RO8N49VYY51FQXWFUMYE"
+    "validationAuthorityID": "RA000002",
+    "otherValidationAuthorityID": "71VNPDKV",
+    "validationAuthorityEntityID": "GHJY567V3R5RGUJR0MS4"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..q9HSaq9Kq_dyQ7daN0tgg6u1T5Sl1O16U9RBez5R5GCFAG54ZPiC9IuPTMK78uh2Qi7dESHh4uMEoe4YLDhJBw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..WoYcNgG3-vpHeaDqSdmH1uOb0nr5kxpAbtxP9ZqoHk_bj-xWeHhUdBTjXxv7pcuQf55y5fBLqw1le9eXuWERCw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

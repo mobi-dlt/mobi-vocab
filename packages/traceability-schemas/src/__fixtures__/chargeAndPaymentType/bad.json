@@ -1,16 +1,24 @@
 [
   {
-    "chargePrepaid": 89,
-    "driver": "input"
+    "chargeCollect": 333,
+    "chargePrepaid": 634,
+    "panel": "transmit"
   },
   {
-    "chargeCollect": 918,
-    "bus": "generate"
-  },
-  {
-    "chargeCollect": 623,
-    "interface": "quantify",
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "chargeCollect": 264,
     "protocol": "parse",
-    "alarm": "input"
+    "program": "override"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "chargeAndPaymentType",
+    "chargeCollect": 811,
+    "protocol": "program",
+    "matrix": "hack"
   }
 ]

@@ -1,23 +1,7 @@
 [
   {
     "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "type": "IdentityCredential",
-    "legalName": "Matt Shi",
-    "licenseNumber": "Y5327288",
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000003",
-      "otherValidationAuthorityID": "H2VPJCFQ",
-      "validationAuthorityEntityID": "E2KBSJJSNBQMIVFMV8F0"
-    },
-    "issuanceDate": "2021-03-09",
-    "expirationDate": "2022-07-11"
-  },
-  {
-    "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "IdentityCredential",
     "legalName": "Matt Shi",
@@ -25,24 +9,40 @@
     "registrationAuthority": {
       "type": "LEIauthority",
       "validationAuthorityID": "RA000002",
-      "otherValidationAuthorityID": "03GCAAUA",
-      "validationAuthorityEntityID": "P8L190WZ1F3DEO47YYSS"
+      "otherValidationAuthorityID": "0C1R3E1H",
+      "validationAuthorityEntityID": "HMKV9ZER3FCFIQQ803GC"
     },
     "issuanceDate": "2021-03-09",
     "expirationDate": "2022-07-11"
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "IdentityCredential",
     "legalName": "Matt Shi",
     "licenseNumber": "Y5327288",
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000005",
-      "otherValidationAuthorityID": "16D716YS",
-      "validationAuthorityEntityID": "TCS2MY7VIXLZI69EIRHP"
+      "validationAuthorityID": "RA000001",
+      "otherValidationAuthorityID": "ZVVYLGWM",
+      "validationAuthorityEntityID": "Z6QZ28EXUN8LTI4816D7"
+    },
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "IdentityCredential",
+    "legalName": "Matt Shi",
+    "licenseNumber": "Y5327288",
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000003",
+      "otherValidationAuthorityID": "J1LWKU3G",
+      "validationAuthorityEntityID": "VE994HV1YUV1TBNXJQ3A"
     },
     "issuanceDate": "2021-03-09",
     "expirationDate": "2022-07-11"

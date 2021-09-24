@@ -1,15 +1,11 @@
 [
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "LEIauthority",
-    "otherValidationAuthorityID": "ISTOA7U2",
-    "interface": "copy",
-    "circuit": "input"
-  },
-  {
-    "otherValidationAuthorityID": "8Q771VNP",
+    "validationAuthorityID": "RA000002",
+    "otherValidationAuthorityID": "71VNPDKV",
     "matrix": "calculate",
     "microchip": "transmit",
     "sensor": "connect",
@@ -17,10 +13,20 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "LEIauthority",
     "alarm": "synthesize",
     "application": "program"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "LEIauthority",
+    "validationAuthorityID": "RA000004",
+    "otherValidationAuthorityID": "YSW1QHQ3",
+    "protocol": "back up",
+    "transmitter": "bypass"
   }
 ]

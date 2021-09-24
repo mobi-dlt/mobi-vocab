@@ -1,7 +1,39 @@
 [
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "DriverLicense",
+    "legalName": "Matt Shi",
+    "licenseNumber": "Y5327288",
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000001",
+      "otherValidationAuthorityID": "T8YWZLRC",
+      "validationAuthorityEntityID": "DP3HRDKPF8WB4FH90EGK"
+    },
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "DriverLicense",
+    "legalName": "Matt Shi",
+    "licenseNumber": "Y5327288",
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000003",
+      "otherValidationAuthorityID": "X29JPY2I",
+      "validationAuthorityEntityID": "5M7PAGZMPLDWQ1WAYY2W"
+    },
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
     ],
     "type": "DriverLicense",
     "legalName": "Matt Shi",
@@ -9,40 +41,8 @@
     "registrationAuthority": {
       "type": "LEIauthority",
       "validationAuthorityID": "RA000005",
-      "otherValidationAuthorityID": "TNQQOL8Y",
-      "validationAuthorityEntityID": "EDHA2VJ8FYS0ZYK1BW1I"
-    },
-    "issuanceDate": "2021-03-09",
-    "expirationDate": "2022-07-11"
-  },
-  {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "type": "DriverLicense",
-    "legalName": "Matt Shi",
-    "licenseNumber": "Y5327288",
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000001",
-      "otherValidationAuthorityID": "66NGDC8L",
-      "validationAuthorityEntityID": "92CZ9ZGP1JABETLO954W"
-    },
-    "issuanceDate": "2021-03-09",
-    "expirationDate": "2022-07-11"
-  },
-  {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "type": "DriverLicense",
-    "legalName": "Matt Shi",
-    "licenseNumber": "Y5327288",
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000001",
-      "otherValidationAuthorityID": "G1E49022",
-      "validationAuthorityEntityID": "VOTJZQZWJLRQYRUD88G7"
+      "otherValidationAuthorityID": "O954W2TX",
+      "validationAuthorityEntityID": "YEQKMXF2XVVJ150EDRTH"
     },
     "issuanceDate": "2021-03-09",
     "expirationDate": "2022-07-11"

@@ -1,18 +1,32 @@
 [
   {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "PrivacyPolicy",
+    "expirationDate": "2022-07-11",
+    "holder": "did:mobinet:123456789abcdefghi",
+    "monitor": "index",
+    "hard drive": "quantify",
+    "system": "generate"
+  },
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://dlt.mobi/mobility"
+    ],
+    "firewall": "program"
+  },
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "PrivacyPolicy",
     "issuanceDate": "2021-03-09",
-    "bandwidth": "compress",
-    "system": "compress",
-    "driver": "index",
-    "sensor": "reboot"
-  },
-  {
-    "panel": "program"
-  },
-  {
-    "bus": "back up",
-    "card": "input",
-    "feed": "input",
-    "application": "navigate"
+    "privacyPolicyAccepted": "true",
+    "transmitter": "compress",
+    "microchip": "hack"
   }
 ]

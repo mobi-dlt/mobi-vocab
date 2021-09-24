@@ -1,0 +1,27 @@
+[
+  {
+    "type": "User",
+    "PermissionedURI": "uri",
+    "PermissionedEID": "eid",
+    "pixel": "program",
+    "capacitor": "navigate"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "User",
+    "PermissionedEID": "eid",
+    "program": "connect",
+    "matrix": "connect"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "pixel": "generate",
+    "protocol": "parse",
+    "system": "transmit",
+    "feed": "navigate"
+  }
+]

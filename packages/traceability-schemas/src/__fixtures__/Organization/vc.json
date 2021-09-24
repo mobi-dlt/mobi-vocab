@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://goodlookingtech.com"
+    "https://dlt.mobi/mobility"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,27 +11,27 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "Organization",
-    "name": "Padberg, Breitenberg and Hane",
-    "description": "Fully-configurable needs-based ability",
+    "name": "Swaniawski, Feest and Runolfsson",
+    "description": "Self-enabling regional application",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "374 Lesly Extension",
-      "addressLocality": "Howellstad",
-      "addressRegion": "New Hampshire",
-      "postalCode": "78848",
-      "addressCountry": "Virgin Islands, U.S."
+      "streetAddress": "61186 Roderick Flats",
+      "addressLocality": "East Arelyfurt",
+      "addressRegion": "Louisiana",
+      "postalCode": "85233-2007",
+      "addressCountry": "French Southern Territories"
     },
-    "email": "Marion85@example.org",
-    "phoneNumber": "555-328-6707",
-    "faxNumber": "555-128-2136"
+    "email": "Stanley_Gibson@example.com",
+    "phoneNumber": "555-467-6878",
+    "faxNumber": "555-783-9444"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Vr8I6ynhCt4SsuzID7Fe-CycMPvjlLw601_55iBuVQj_dPi9_qtbZfu-D5iEGKB0jak_ueebVf23Tu9POc34BA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Kwbxwdr_MKHTN2IvLspc2T8BN34zjP2HB838gk0Pv6GIDUOSleCICB3OLfATvG13T9Q11gMDCVDXfuMNY2K0Cw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

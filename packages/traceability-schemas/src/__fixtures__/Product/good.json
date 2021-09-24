@@ -1,123 +1,123 @@
 [
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "Product",
     "manufacturer": {
-      "type": "Organization",
-      "name": "Kertzmann Inc",
-      "description": "Team-oriented 24 hour analyzer",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "5022 Alia Landing",
-        "addressLocality": "North Karson",
-        "addressRegion": "Rhode Island",
-        "postalCode": "05405-3079",
-        "addressCountry": "Congo"
+      "type": "Person",
+      "firstName": "Noah",
+      "lastName": "Macejkovic",
+      "email": "Osborne_Larkin17@example.org",
+      "phoneNumber": "555-742-2169",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Glover - Wilderman",
+        "description": "Pre-emptive 5th generation infrastructure",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "492 Glen Shore",
+          "addressLocality": "Lanceland",
+          "addressRegion": "North Dakota",
+          "postalCode": "04577",
+          "addressCountry": "Angola"
+        },
+        "email": "Francesca.Mills63@example.org",
+        "phoneNumber": "555-250-3421",
+        "faxNumber": "555-802-5658"
       },
-      "email": "Claud22@example.net",
-      "phoneNumber": "555-303-2832",
-      "faxNumber": "555-373-1090"
+      "jobTitle": "Regional Usability Representative"
     },
-    "name": "Practical Fresh Cheese",
+    "name": "Intelligent Metal Computer",
     "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "6634"
+      "value": "8277"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "7422"
+      "value": "6975"
     },
-    "sku": "609634918910"
+    "sku": "803520067556"
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "Product",
     "manufacturer": {
       "type": "Person",
-      "firstName": "Johann",
-      "lastName": "D'Amore",
-      "email": "Warren_Watsica@example.com",
-      "phoneNumber": "555-562-7376",
+      "firstName": "Jevon",
+      "lastName": "Schumm",
+      "email": "Karson_Lesch5@example.net",
+      "phoneNumber": "555-603-7343",
       "worksFor": {
         "type": "Organization",
-        "name": "Mills - White",
-        "description": "Focused modular paradigm",
+        "name": "Smitham, Casper and Anderson",
+        "description": "Secured next generation middleware",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "277 Lance Key",
-          "addressLocality": "New Geoton",
-          "addressRegion": "Massachusetts",
-          "postalCode": "77012-7552",
-          "addressCountry": "Uruguay"
+          "streetAddress": "6918 Norval Cove",
+          "addressLocality": "Marcosmouth",
+          "addressRegion": "Michigan",
+          "postalCode": "54334-1573",
+          "addressCountry": "Russian Federation"
         },
-        "email": "Noah78@example.org",
-        "phoneNumber": "555-665-1381",
-        "faxNumber": "555-533-3387"
+        "email": "Rosa23@example.net",
+        "phoneNumber": "555-915-4459",
+        "faxNumber": "555-114-1226"
       },
-      "jobTitle": "Corporate Quality Officer"
+      "jobTitle": "District Optimization Specialist"
     },
-    "name": "Unbranded Wooden Chicken",
-    "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+    "name": "Intelligent Frozen Bacon",
+    "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
     "sizeOrAmount": {
-      "type": "QuantitativeValue",
-      "unitCode": "hg/ha",
-      "value": "991"
-    },
-    "weight": {
-      "type": "QuantitativeValue",
-      "unitCode": "hg/ha",
-      "value": "8037"
-    },
-    "sku": "728983766905"
-  },
-  {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "type": "Product",
-    "manufacturer": {
-      "type": "Person",
-      "firstName": "Meagan",
-      "lastName": "Kuvalis",
-      "email": "Meggie_Lockman@example.net",
-      "phoneNumber": "555-311-6030",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Sauer Group",
-        "description": "Cross-platform 24/7 project",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "177 Kelly Route",
-          "addressLocality": "Port Katharina",
-          "addressRegion": "Missouri",
-          "postalCode": "34157",
-          "addressCountry": "Honduras"
-        },
-        "email": "Lew.Wisozk9@example.net",
-        "phoneNumber": "555-760-9159",
-        "faxNumber": "555-445-1144"
-      },
-      "jobTitle": "Global Program Administrator"
-    },
-    "name": "Refined Wooden Mouse",
-    "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "sizeOrAmount": {
-      "type": "QuantitativeValue",
-      "unitCode": "hg/ha",
-      "value": "3095"
-    },
-    "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
       "value": "4828"
     },
-    "sku": "800005483623"
+    "weight": {
+      "type": "QuantitativeValue",
+      "unitCode": "hg/ha",
+      "value": "1193"
+    },
+    "sku": "552711542017"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "Product",
+    "manufacturer": {
+      "type": "Organization",
+      "name": "Weber - Harvey",
+      "description": "Mandatory optimal structure",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "36958 Susie Street",
+        "addressLocality": "Adolfoberg",
+        "addressRegion": "North Dakota",
+        "postalCode": "01502",
+        "addressCountry": "Hong Kong"
+      },
+      "email": "Leland78@example.com",
+      "phoneNumber": "555-376-2722",
+      "faxNumber": "555-417-4704"
+    },
+    "name": "Incredible Metal Chicken",
+    "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+    "sizeOrAmount": {
+      "type": "QuantitativeValue",
+      "unitCode": "hg/ha",
+      "value": "2865"
+    },
+    "weight": {
+      "type": "QuantitativeValue",
+      "unitCode": "hg/ha",
+      "value": "4333"
+    },
+    "sku": "72120377450"
   }
 ]

@@ -1,26 +1,26 @@
 [
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "chargeAndPaymentType",
-    "chargeCollect": 319,
-    "chargePrepaid": 89
+    "chargeCollect": 333,
+    "chargePrepaid": 634
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "chargeAndPaymentType",
-    "chargeCollect": 918,
-    "chargePrepaid": 628
+    "chargeCollect": 264,
+    "chargePrepaid": 372
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "chargeAndPaymentType",
-    "chargeCollect": 623,
-    "chargePrepaid": 15
+    "chargeCollect": 811,
+    "chargePrepaid": 900
   }
 ]

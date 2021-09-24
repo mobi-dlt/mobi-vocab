@@ -1,41 +1,16 @@
 [
   {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "type": "CommonEntityCertificate",
-    "PubKey": "pubkey",
-    "RevURI": "uri",
-    "ALURI": "uri",
-    "BLURI": "uri",
-    "HashAlgo": "algo",
-    "Expiration": "date",
-    "Issuer": "a",
-    "interface": "connect",
-    "circuit": "reboot",
-    "alarm": "index",
-    "transmitter": "navigate"
-  },
-  {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "ALURI": "uri",
-    "SignAlgo": "algo",
-    "IssuerSig": "a",
-    "driver": "input",
-    "alarm": "back up",
-    "microchip": "parse"
-  },
-  {
-    "type": "CommonEntityCertificate",
     "EID": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
-    "RevURI": "uri",
-    "ALURI": "uri",
-    "SignAlgo": "algo",
-    "Expiration": "date",
-    "capacitor": "copy",
-    "system": "generate",
-    "matrix": "parse"
+    "pixel": "parse"
+  },
+  {
+    "alarm": "index",
+    "transmitter": "navigate",
+    "firewall": "calculate",
+    "hard drive": "synthesize"
+  },
+  {
+    "type": "CommonEntityCertificate",
+    "monitor": "connect"
   }
 ]

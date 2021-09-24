@@ -1,32 +1,46 @@
 [
   {
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "374 Lesly Extension",
-      "addressLocality": "Howellstad",
-      "addressRegion": "New Hampshire",
-      "postalCode": "78848",
-      "addressCountry": "Virgin Islands, U.S."
-    },
-    "email": "Marion85@example.org",
-    "array": "synthesize",
-    "bus": "generate",
-    "program": "copy"
-  },
-  {
-    "name": "Stracke and Sons",
-    "description": "Optimized bi-directional function",
-    "email": "Whitney47@example.com",
-    "faxNumber": "555-441-5143",
-    "capacitor": "parse"
+    "faxNumber": "555-783-9444",
+    "sensor": "compress",
+    "bus": "navigate"
   },
   {
     "type": "Organization",
-    "name": "Lindgren Inc",
-    "description": "Compatible demand-driven customer loyalty",
-    "email": "Adolph.Mante@example.org",
-    "faxNumber": "555-296-7333",
-    "program": "copy",
-    "monitor": "input"
+    "name": "Mraz, Reinger and Macejkovic",
+    "description": "Front-line modular service-desk",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "9814 Bauch Landing",
+      "addressLocality": "Lake Alejandrin",
+      "addressRegion": "Virginia",
+      "postalCode": "21872-9987",
+      "addressCountry": "Peru"
+    },
+    "phoneNumber": "555-824-8555",
+    "faxNumber": "555-116-9836",
+    "protocol": "back up",
+    "port": "compress"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "Organization",
+    "description": "Persevering didactic workforce",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "85022 Nasir Greens",
+      "addressLocality": "Alyssonton",
+      "addressRegion": "Virginia",
+      "postalCode": "88635-3891",
+      "addressCountry": "Netherlands Antilles"
+    },
+    "email": "Russ_Marvin@example.net",
+    "phoneNumber": "555-171-5781",
+    "faxNumber": "555-315-8543",
+    "program": "quantify",
+    "sensor": "hack",
+    "monitor": "bypass",
+    "firewall": "reboot"
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "LinkRole",
     "target": "https://example.com/related/link/123",
@@ -9,7 +9,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "LinkRole",
     "target": "https://example.com/related/link/123",
@@ -17,7 +17,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "LinkRole",
     "target": "https://example.com/related/link/123",

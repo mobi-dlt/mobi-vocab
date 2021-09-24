@@ -8,7 +8,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "CitopiaMembershipCredential",
     "identifier": "did:mobinet:123456789abcdefghi",
@@ -16,7 +16,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "firewall": "navigate"
   }

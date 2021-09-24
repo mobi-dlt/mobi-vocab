@@ -90,44 +90,6 @@
         }
       }
     },
-    "CommonEntityCertificate": {
-      "@id": "https://dlt.mobi/mobility#CommonEntityCertificate",
-      "@context": {
-        "EID": {
-          "@id": "https://schema.org/identifier"
-        },
-        "EntityType": {
-          "@id": "https://schema.org/Number"
-        },
-        "PubKey": {
-          "@id": "https://schema.org/Type"
-        },
-        "RevURI": {
-          "@id": "https://schema.org/url"
-        },
-        "ALURI": {
-          "@id": "https://schema.org/itemList"
-        },
-        "BLURI": {
-          "@id": "https://schema.org/LinkRole"
-        },
-        "SignAlgo": {
-          "@id": "https://schema.org/algorithm"
-        },
-        "HashAlgo": {
-          "@id": "https://schema.org/character"
-        },
-        "Expiration": {
-          "@id": "https://schema.org/Time"
-        },
-        "Issuer": {
-          "@id": "https://schema.org/Name"
-        },
-        "IssuerSig": {
-          "@id": "https://schema.org/PropertyValue"
-        }
-      }
-    },
     "ContactPoint": {
       "@id": "https://schema.org/ContactPoint",
       "@context": {
@@ -162,6 +124,20 @@
         }
       }
     },
+    "DataHost": {
+      "@id": "https://dlt.mobi/mobility#DataHost",
+      "@context": {
+        "EntityInfo": {
+          "@id": "https://dlt.mobi/mobility#EC"
+        },
+        "Endpoint": {
+          "@id": "https://schema.org/Name"
+        },
+        "HostType": {
+          "@id": "https://schema.org/address"
+        }
+      }
+    },
     "DriverLicense": {
       "@id": "https://dlt.mobi/mobility#DriverLicense",
       "@context": {
@@ -179,6 +155,41 @@
         },
         "expirationDate": {
           "@id": "https://schema.org/expires"
+        }
+      }
+    },
+    "EC": {
+      "@id": "https://dlt.mobi/mobility#EC",
+      "@context": {
+        "EID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "EntityType": {
+          "@id": "https://schema.org/Number"
+        },
+        "PubKey": {
+          "@id": "https://schema.org/Text"
+        },
+        "RevURI": {
+          "@id": "https://schema.org/url"
+        },
+        "ALURI": {
+          "@id": "https://schema.org/itemList"
+        },
+        "BLURI": {
+          "@id": "https://schema.org/LinkRole"
+        },
+        "SignAlgo": {
+          "@id": "https://schema.org/algorithm"
+        },
+        "HashAlgo": {
+          "@id": "https://schema.org/character"
+        },
+        "Expiration": {
+          "@id": "https://schema.org/Time"
+        },
+        "IssuerSig": {
+          "@id": "https://schema.org/PropertyValue"
         }
       }
     },
@@ -759,6 +770,26 @@
         }
       }
     },
+    "ServiceProvider": {
+      "@id": "https://dlt.mobi/mobility#ServiceProvider",
+      "@context": {
+        "LegalName": {
+          "@id": "https://schema.org/Name"
+        },
+        "Address": {
+          "@id": "https://schema.org/address"
+        },
+        "PhoneNumber": {
+          "@id": "https://schema.org/Number"
+        },
+        "Email": {
+          "@id": "https://schema.org/email"
+        },
+        "EntityInfo": {
+          "@id": "https://dlt.mobi/mobility#EC"
+        }
+      }
+    },
     "StripeCustomerCredential": {
       "@id": "https://dlt.mobi/mobility#StripeCustomerCredential",
       "@context": {
@@ -802,6 +833,31 @@
         },
         "totalCollectCharge": {
           "@id": "https://schema.org/estimatedCost"
+        }
+      }
+    },
+    "TrustAnchor": {
+      "@id": "https://dlt.mobi/mobility#TrustAnchor",
+      "@context": {
+        "EntityInfo": {
+          "@id": "https://dlt.mobi/mobility#EC"
+        },
+        "identifier": {
+          "@id": "https://schema.org/identifier"
+        }
+      }
+    },
+    "User": {
+      "@id": "https://dlt.mobi/mobility#User",
+      "@context": {
+        "EntityInfo": {
+          "@id": "https://dlt.mobi/mobility#EC"
+        },
+        "PermissionedURI": {
+          "@id": "https://schema.org/url"
+        },
+        "PermissionedEID": {
+          "@id": "https://schema.org/address"
         }
       }
     },

@@ -7,7 +7,7 @@ const getBatterySOH = () => {
     delete batteryIdentifier['@context'];
 
     const example = {
-        '@context': ['https://goodlookingtech.com'],
+        '@context': ['https://dlt.mobi/mobility'],
         type: 'BatterySOH',
         batteryid: batteryIdentifier,
         previousSOHVal: '95',

@@ -19,7 +19,7 @@ const getTotalCharge = () => {
   const totalCollectCharge = 0.25 * chargesDestination;
 
   const example = {
-    '@context': ['https://goodlookingtech.com'],
+    '@context': ['https://dlt.mobi/mobility'],
     type: 'TotalCharge',
     totalPrepaid,
     totalCollect,

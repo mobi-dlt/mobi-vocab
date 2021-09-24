@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://goodlookingtech.com"
+    "https://dlt.mobi/mobility"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,25 +11,25 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "VID",
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "manufacturer": {
       "type": "Organization",
-      "name": "Rodriguez - Dibbert",
-      "description": "Optional analyzing leverage",
+      "name": "Klocko LLC",
+      "description": "Programmable heuristic software",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "7885 Nils Mountains",
-        "addressLocality": "West Jarenbury",
-        "addressRegion": "Oklahoma",
-        "postalCode": "23253-1252",
-        "addressCountry": "Switzerland"
+        "streetAddress": "165 Luis Causeway",
+        "addressLocality": "Websterfurt",
+        "addressRegion": "Arkansas",
+        "postalCode": "51768",
+        "addressCountry": "Morocco"
       },
-      "email": "Bret_Hoppe@example.net",
-      "phoneNumber": "555-482-8817",
-      "faxNumber": "555-917-7519"
+      "email": "Cecelia68@example.net",
+      "phoneNumber": "555-472-2614",
+      "faxNumber": "555-283-7346"
     },
     "make": "Ford",
     "model": "Mach_E",
@@ -38,7 +38,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..rska71-2ex5FW2ReB3v2w2addFXZSwq0sW-AqY7t9xeexZdZmq8vshEeYVzoI8gNR_xpilsxrNavM_jnHroKDw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jODOLQ0O_E0gQwsEcWArhsYj0UwyUy0giHe4YyArzU6Bix-iNdbElIV1HICyNqT8o4tFvUZ7NTnR_t7yEDA9Dg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

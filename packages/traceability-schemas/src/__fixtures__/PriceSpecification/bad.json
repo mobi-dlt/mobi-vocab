@@ -1,24 +1,25 @@
 [
   {
-    "matrix": "transmit",
-    "firewall": "program",
-    "interface": "compress",
-    "alarm": "parse"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "PriceSpecification",
+    "price": 470,
+    "microchip": "program",
+    "firewall": "input"
   },
   {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "monitor": "parse",
-    "matrix": "generate"
+    "price": 963,
+    "priceCurrency": "SEK",
+    "interface": "connect"
   },
   {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "priceCurrency": "MDL",
-    "pixel": "back up",
-    "protocol": "override",
-    "matrix": "back up"
+    "type": "PriceSpecification",
+    "price": 6628,
+    "priceCurrency": "TZS",
+    "port": "hack",
+    "interface": "parse",
+    "capacitor": "parse",
+    "matrix": "connect"
   }
 ]

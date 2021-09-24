@@ -1,16 +1,24 @@
 [
   {
-    "pixel": "copy"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "value": "6736",
+    "alarm": "override",
+    "feed": "synthesize",
+    "port": "program",
+    "driver": "input"
   },
   {
-    "unitCode": "hg/ha",
-    "interface": "compress",
-    "sensor": "hack",
-    "system": "hack"
+    "type": "QuantitativeValue",
+    "bus": "program",
+    "microchip": "connect",
+    "panel": "navigate",
+    "port": "transmit"
   },
   {
-    "card": "hack",
-    "firewall": "bypass",
-    "array": "back up"
+    "type": "QuantitativeValue",
+    "circuit": "connect",
+    "sensor": "back up"
   }
 ]

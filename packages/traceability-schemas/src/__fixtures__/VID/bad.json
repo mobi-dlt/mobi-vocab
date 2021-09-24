@@ -1,47 +1,37 @@
 [
   {
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "transmitter": "synthesize",
+    "matrix": "reboot"
+  },
+  {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "model": "Mach_E",
-    "hard drive": "synthesize",
-    "firewall": "compress"
-  },
-  {
-    "type": "VID",
-    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "make": "Ford",
-    "model": "Mach_E",
-    "vin": "JTERU5JR7M5861170",
-    "circuit": "compress",
-    "transmitter": "quantify",
-    "alarm": "back up",
-    "bus": "synthesize"
-  },
-  {
     "manufacturer": {
       "type": "Organization",
-      "name": "Rogahn, Schmitt and Schoen",
-      "description": "Progressive systematic ability",
+      "name": "Tillman LLC",
+      "description": "Profound methodical concept",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "85379 Manuel Lights",
-        "addressLocality": "Botsfordhaven",
+        "streetAddress": "8155 Nitzsche Street",
+        "addressLocality": "Blockstad",
         "addressRegion": "Pennsylvania",
-        "postalCode": "85709",
-        "addressCountry": "Bermuda"
+        "postalCode": "03507-0042",
+        "addressCountry": "Belgium"
       },
-      "email": "Jameson.Flatley@example.net",
-      "phoneNumber": "555-843-9990",
-      "faxNumber": "555-912-3939"
+      "email": "Sally_Wolf19@example.com",
+      "phoneNumber": "555-924-6461",
+      "faxNumber": "555-654-8928"
     },
-    "make": "Ford",
-    "model": "Mach_E",
     "vin": "JTERU5JR7M5861170",
-    "driver": "reboot",
-    "array": "program",
-    "application": "index",
-    "hard drive": "back up"
+    "transmitter": "hack",
+    "matrix": "override",
+    "driver": "override",
+    "circuit": "synthesize"
+  },
+  {
+    "transmitter": "override"
   }
 ]

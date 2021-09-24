@@ -1,47 +1,35 @@
 [
   {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
     "type": "LEIaddress",
     "addressLines": [
-      "Beatty, Kunze and Lemke",
-      "809 Kunze Summit"
+      "Okuneva, Franecki and Stark",
+      "8269 Mosciski Rapid"
     ],
-    "addressNumber": "111",
-    "addressNumberWithinBuilding": "2",
-    "mailRouting": "455 Khalid Underpass, 66558",
+    "addressNumberWithinBuilding": "8",
+    "mailRouting": "711 Victoria Trail, 40880-1832",
+    "city": "Sylvanville",
     "region": "Cambridgeshire",
-    "bandwidth": "calculate",
-    "feed": "input",
-    "microchip": "hack"
+    "country": "Cape Verde",
+    "postalCode": "85875",
+    "pixel": "copy"
   },
   {
     "type": "LEIaddress",
-    "language": "sv",
-    "addressLines": [
-      "Willms, Swaniawski and Konopelski",
-      "83279 Schumm Divide"
-    ],
-    "mailRouting": "8752 Grant Avenue, 63956",
-    "city": "East Garthfurt",
-    "country": "Antarctica (the territory South of 60 deg S)",
-    "postalCode": "58711",
-    "bus": "navigate",
-    "interface": "calculate",
-    "microchip": "reboot",
-    "application": "bypass"
+    "interface": "back up",
+    "protocol": "back up",
+    "transmitter": "copy",
+    "array": "connect"
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
-    "language": "pt_PT",
-    "addressNumber": "151",
-    "addressNumberWithinBuilding": "2",
-    "city": "Lake Enricobury",
-    "region": "Cambridgeshire",
-    "bandwidth": "connect",
-    "bus": "hack"
+    "type": "LEIaddress",
+    "language": "ro",
+    "addressNumberWithinBuilding": "5",
+    "mailRouting": "7862 Arno Fields, 62612-8991",
+    "region": "Avon",
+    "country": "Jersey",
+    "monitor": "override"
   }
 ]

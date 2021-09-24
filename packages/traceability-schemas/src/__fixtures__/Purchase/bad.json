@@ -1,23 +1,45 @@
 [
   {
-    "@context": [
-      "https://goodlookingtech.com"
+    "type": [
+      "Purchase"
     ],
-    "alarm": "synthesize"
+    "customer": {
+      "type": "Organization",
+      "name": "Lueilwitz - Leuschke",
+      "description": "Exclusive executive portal",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "2911 Antoinette Divide",
+        "addressLocality": "Denesikside",
+        "addressRegion": "North Dakota",
+        "postalCode": "87886-4182",
+        "addressCountry": "Albania"
+      },
+      "email": "Ardith_Shields82@example.com",
+      "phoneNumber": "555-378-9321",
+      "faxNumber": "555-324-4989"
+    },
+    "transmitter": "parse",
+    "application": "copy",
+    "alarm": "navigate",
+    "array": "generate"
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": [
       "Purchase"
     ],
-    "capacitor": "calculate"
+    "circuit": "compress",
+    "bandwidth": "navigate",
+    "alarm": "bypass",
+    "hard drive": "compress"
   },
   {
-    "firewall": "navigate",
-    "microchip": "generate",
-    "bus": "transmit",
-    "feed": "program"
+    "firewall": "parse",
+    "system": "input",
+    "driver": "calculate",
+    "transmitter": "program"
   }
 ]

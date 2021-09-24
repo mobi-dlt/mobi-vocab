@@ -11,7 +11,7 @@ const getDriverLicense = () => {
   delete auth['@context'];
 
   const example = {
-    '@context': ['https://goodlookingtech.com'],
+    '@context': ['https://dlt.mobi/mobility'],
     type: 'DriverLicense',
     legalName: 'Matt Shi',
     licenseNumber: 'Y5327288',

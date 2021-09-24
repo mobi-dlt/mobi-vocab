@@ -1,0 +1,64 @@
+{
+    "$id": "https://dlt.mobi/mobility/GroupPermissionChangeCertificate.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"GroupPermissionChangeCertificate\", \"@id\": \"https://dlt.mobi/mobility#GroupPermissionChangeCertificate\"}",
+    "title": "GroupPermissionChangeCertificate",
+    "description": "EVGI: GroupPermissionChangeCertificate",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        
+        "URI": {
+            "$comment": "{\"term\": \"URI\", \"@id\": \"https://schema.org/url\"}",
+            "title": "URI",
+            "description": "URL of the information that should be modified"
+        },
+        "OwnerEID": {
+            "$comment": "{\"term\": \"OwnerEID\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "OwnerEID",
+            "description": "The EID of the data owner",
+            "type":"string"
+        },
+        "Group": {
+            "$comment": "{\"term\": \"Group\", \"@id\": \"https://schema.org/Name\"}",
+            "title": "Group",
+            "description": "Pmerission groups",
+            "type":"string"
+        },
+        "Read": {
+            "$comment": "{\"term\": \"Read\", \"@id\": \"https://schema.org/Text\"}",
+            "title": "Read",
+            "description": "New write permission",
+            "type":"string"
+        },
+        "Write": {
+            "$comment": "{\"term\": \"Write\", \"@id\": \"https://dlt.mobi/boolean\"}",
+            "title": "Write",
+            "description": "New Read Permission",
+            "type":"string"
+        },
+        "SignAlgo": {
+            "$comment": "{\"term\": \"SignAlgo\", \"@id\": \"https://schema.org/algorithm\"}",
+            "title": "Signature Algorithm",
+            "description": "cryptographic scheme used to sign the certificate",
+            "type":"string"
+        }
+        
+        
+       
+    },
+    "additionalProperties": false,
+    "examples": []
+}

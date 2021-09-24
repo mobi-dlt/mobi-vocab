@@ -1,0 +1,31 @@
+[
+  {
+    "driver": "hack",
+    "bus": "generate"
+  },
+  {
+    "type": "TrustAnchor",
+    "interface": "quantify"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "TrustAnchor",
+    "EntityInfo": {
+      "type": "EC",
+      "EntityType": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+      "PubKey": "pubkey",
+      "RevURI": "sampleuri",
+      "ALURI": "sampleuri",
+      "BLURI": "blocked uri",
+      "SignAlgo": "algo",
+      "HashAlgo": "algo",
+      "Expiration": "10-19-2021",
+      "IssuerSig": "sig"
+    },
+    "application": "input",
+    "system": "synthesize",
+    "feed": "hack"
+  }
+]

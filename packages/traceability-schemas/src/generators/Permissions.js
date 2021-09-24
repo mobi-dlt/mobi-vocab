@@ -8,7 +8,7 @@ const getPermissions = () => {
     delete batteryIdentifier['@context'];
 
     const example = {
-        '@context': ['https://goodlookingtech.com'],
+        '@context': ['https://dlt.mobi/mobility'],
         type: 'Permissions',
         userLocation: 'true',
         vehicleLocation: 'true',

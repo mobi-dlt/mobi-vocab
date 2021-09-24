@@ -14,7 +14,7 @@ const getProductRegistrationEvidenceDocument = () => {
   const lei = faker.random.alphaNumeric({ count: 20 }).toUpperCase();
 
   const example = {
-    '@context': ['https://goodlookingtech.com'],
+    '@context': ['https://dlt.mobi/mobility'],
     type: 'ProductRegistrationEvidenceDocument',
     category: getCategory(),
     inProductGroupWithID: `Group${faker.random.number({ min: 100, max: 999 })}`,

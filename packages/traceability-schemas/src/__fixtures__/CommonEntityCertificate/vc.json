@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://goodlookingtech.com"
+    "https://dlt.mobi/mobility"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,25 +11,15 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "CommonEntityCertificate",
-    "EID": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
-    "EntityType": "0",
-    "PubKey": "pubkey",
-    "RevURI": "uri",
-    "ALURI": "uri",
-    "BLURI": "uri",
-    "SignAlgo": "algo",
-    "HashAlgo": "algo",
-    "Expiration": "date",
-    "Issuer": "a",
-    "IssuerSig": "a"
+    "EID": "did:mobi:e436e12ec21ebfeb1f712ebc3g"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UgScypUxCWQOuP0_s27ZysNt2HVafuWo0Ef6AFRzCSGU-DVRuMkT6ONRJVJ5Whq0n42gVtvgVB4VlQSLB5fMAA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19.._Pj5-tHBl7gPUxAqxycuii8-Wa88mY-UsSRH5rK3B2yspKSO7L1f8_Vq7aI4Zsn0T9YKOZT-4zv5xIFqunkRCw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

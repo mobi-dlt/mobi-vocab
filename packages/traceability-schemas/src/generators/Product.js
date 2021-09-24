@@ -18,7 +18,7 @@ const getProduct = () => {
   delete weight['@context'];
 
   const example = {
-    '@context': ['https://goodlookingtech.com'],
+    '@context': ['https://dlt.mobi/mobility'],
     type: 'Product',
     manufacturer,
     name: faker.commerce.productName(),

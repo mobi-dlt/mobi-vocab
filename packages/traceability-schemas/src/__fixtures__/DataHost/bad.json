@@ -1,0 +1,49 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "EntityInfo": {
+      "type": "EC",
+      "EntityType": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+      "PubKey": "pubkey",
+      "RevURI": "sampleuri",
+      "ALURI": "sampleuri",
+      "BLURI": "blocked uri",
+      "SignAlgo": "algo",
+      "HashAlgo": "algo",
+      "Expiration": "10-19-2021",
+      "IssuerSig": "sig"
+    },
+    "HostType": "<name,type> pair",
+    "feed": "override",
+    "application": "transmit"
+  },
+  {
+    "Endpoint": "url",
+    "protocol": "parse",
+    "hard drive": "bypass",
+    "system": "input",
+    "circuit": "generate"
+  },
+  {
+    "type": "DataHost",
+    "EntityInfo": {
+      "type": "EC",
+      "EntityType": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+      "PubKey": "pubkey",
+      "RevURI": "sampleuri",
+      "ALURI": "sampleuri",
+      "BLURI": "blocked uri",
+      "SignAlgo": "algo",
+      "HashAlgo": "algo",
+      "Expiration": "10-19-2021",
+      "IssuerSig": "sig"
+    },
+    "HostType": "<name,type> pair",
+    "panel": "synthesize",
+    "application": "program",
+    "pixel": "program",
+    "bandwidth": "program"
+  }
+]

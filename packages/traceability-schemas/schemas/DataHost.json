@@ -1,0 +1,41 @@
+{
+    "$id": "https://dlt.mobi/mobility/schemas/DataHost.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"DataHost\", \"@id\": \"https://dlt.mobi/mobility#DataHost\"}",
+    "title": "Data Host",
+    "description": "EVGI: Data Host that ingest and expose data",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "EntityInfo": {
+            "$comment": "{\"term\": \"EntityInfo\", \"@id\": \"https://dlt.mobi/mobility#EC\"}",
+            "title": "EntityInfo",
+            "$ref": "https://dlt.mobi/mobility/schemas/EC.json"
+        },
+        "Endpoint": {
+            "$comment": "{\"term\": \"Endpoint\", \"@id\": \"https://schema.org/Name\"}",
+            "title": "Endpoint",
+            "description": "The root URI that this entity distributes data from"
+        },
+        "HostType": {
+            "$comment": "{\"term\": \"HostType\", \"@id\": \"https://schema.org/address\"}",
+            "title": "Host Type",
+            "description": "They types of data that this entity distributes",
+            "type":"string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}

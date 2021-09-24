@@ -1,26 +1,19 @@
 [
   {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "type": "LinkRole",
-    "transmitter": "calculate",
-    "card": "index"
-  },
-  {
-    "monitor": "generate",
-    "card": "parse",
-    "matrix": "index",
-    "sensor": "parse"
+    "feed": "quantify"
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "LinkRole",
     "linkRelationship": "alternate",
-    "alarm": "copy",
-    "panel": "parse",
-    "circuit": "parse"
+    "monitor": "transmit"
+  },
+  {
+    "microchip": "navigate",
+    "bus": "copy",
+    "transmitter": "reboot",
+    "firewall": "bypass"
   }
 ]

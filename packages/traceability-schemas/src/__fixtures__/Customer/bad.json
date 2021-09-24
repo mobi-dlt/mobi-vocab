@@ -1,21 +1,43 @@
 [
   {
-    "name": "Rupert Wuckert",
-    "email": "Chanelle9@example.net",
-    "alarm": "reboot",
-    "driver": "program",
-    "pixel": "calculate",
-    "capacitor": "transmit"
+    "type": "Customer",
+    "name": "Vince Bode",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "0716 Nienow View",
+      "addressLocality": "Larsonmouth",
+      "addressRegion": "North Carolina",
+      "postalCode": "46740-2531",
+      "addressCountry": "Saint Lucia"
+    },
+    "telephone": "555-122-2659",
+    "email": "Hilario.Predovic5@example.net",
+    "bandwidth": "bypass",
+    "protocol": "bypass"
   },
   {
-    "name": "Matilda Predovic",
-    "circuit": "generate",
-    "firewall": "connect"
+    "type": "Customer",
+    "name": "Antone Welch",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "48589 Schuster Plaza",
+      "addressLocality": "O'Haraside",
+      "addressRegion": "Hawaii",
+      "postalCode": "20213",
+      "addressCountry": "Andorra"
+    },
+    "telephone": "555-246-6542",
+    "email": "Tyreek_Balistreri63@example.com",
+    "feed": "navigate",
+    "protocol": "calculate",
+    "card": "navigate"
   },
   {
-    "pixel": "input",
-    "array": "navigate",
-    "feed": "bypass",
-    "sensor": "input"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "Customer",
+    "email": "Marilie_Rolfson23@example.com",
+    "system": "bypass"
   }
 ]

@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://goodlookingtech.com"
+    "https://dlt.mobi/mobility"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,17 +11,17 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "Member",
-    "firstName": "Hester",
-    "lastName": "O'Kon",
-    "email": "Breana_Anderson9@example.org"
+    "firstName": "Melyssa",
+    "lastName": "Rowe",
+    "email": "Yadira_Kovacek65@example.org"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..WlipbNyDzorboMOeAMnmcK0oTKGujZPiOnN1BPgpZ25vBJf8DQiYNquJHTRUsTPE1RJE9RgJDhXPuE4okhcQCA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..GrxyiZwQh1PNMYKz6QitzV4eI9OIoCEvegvj-Acyh_LMgRgFKCRfBW3pL3MkgvNhbfo8irYeFS3x4B2fPio6DQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

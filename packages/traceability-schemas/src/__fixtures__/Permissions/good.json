@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "Permissions",
     "userLocation": "true",
@@ -12,7 +12,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "Permissions",
     "userLocation": "true",
@@ -23,7 +23,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "Permissions",
     "userLocation": "true",

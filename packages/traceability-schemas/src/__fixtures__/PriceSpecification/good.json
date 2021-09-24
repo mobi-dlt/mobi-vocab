@@ -1,26 +1,26 @@
 [
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "PriceSpecification",
-    "price": 2099,
-    "priceCurrency": "KMF"
+    "price": 470,
+    "priceCurrency": "MZN"
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "PriceSpecification",
-    "price": 1977,
-    "priceCurrency": "BGN"
+    "price": 963,
+    "priceCurrency": "SEK"
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "PriceSpecification",
-    "price": 2199,
-    "priceCurrency": "MDL"
+    "price": 6628,
+    "priceCurrency": "TZS"
   }
 ]

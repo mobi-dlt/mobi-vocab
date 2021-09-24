@@ -1,29 +1,38 @@
 [
   {
-    "capacitor": "transmit",
-    "protocol": "input",
-    "driver": "navigate"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "legalName": "Matt Shi",
+    "licenseNumber": "Y5327288",
+    "expirationDate": "2022-07-11",
+    "pixel": "back up"
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "IdentityCredential",
     "legalName": "Matt Shi",
     "licenseNumber": "Y5327288",
+    "issuanceDate": "2021-03-09",
+    "array": "transmit",
+    "protocol": "calculate",
+    "matrix": "override",
+    "circuit": "generate"
+  },
+  {
+    "type": "IdentityCredential",
+    "licenseNumber": "Y5327288",
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000003",
+      "otherValidationAuthorityID": "J1LWKU3G",
+      "validationAuthorityEntityID": "VE994HV1YUV1TBNXJQ3A"
+    },
     "issuanceDate": "2021-03-09",
     "expirationDate": "2022-07-11",
-    "matrix": "program",
-    "circuit": "parse"
-  },
-  {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "type": "IdentityCredential",
-    "legalName": "Matt Shi",
-    "licenseNumber": "Y5327288",
-    "issuanceDate": "2021-03-09",
-    "program": "input"
+    "feed": "input",
+    "protocol": "connect"
   }
 ]

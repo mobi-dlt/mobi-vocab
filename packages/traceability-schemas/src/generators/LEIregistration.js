@@ -21,7 +21,7 @@ const getLEIregistration = () => {
   valautharray.push(valauth);
 
   const example = {
-    '@context': ['https://goodlookingtech.com'],
+    '@context': ['https://dlt.mobi/mobility'],
     type: 'LEIregistration',
     initialRegistrationDate: pastDate,
     lastUpdateDate: pastDate,

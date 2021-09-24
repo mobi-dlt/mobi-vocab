@@ -10,7 +10,7 @@ const getPriceSpecification = () => {
   const currency = currencies[randNum].code;
 
   const example = {
-    '@context': ['https://goodlookingtech.com'],
+    '@context': ['https://dlt.mobi/mobility'],
     type: 'PriceSpecification',
     price: faker.random.number({ min: 10, max: 10000 }),
     priceCurrency: currency,

@@ -1,41 +1,25 @@
 [
   {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
     "type": "TotalCharge",
-    "totalPrepaid": 47.25,
-    "totalCollect": 15.75,
-    "sourceCurrency": "KMF",
-    "destinationCurrency": "HRK",
-    "currencyConversionRate": 5,
-    "chargesDestination": 636,
-    "totalCollectCharge": 159,
-    "hard drive": "back up"
+    "monitor": "compress",
+    "transmitter": "quantify",
+    "feed": "bypass",
+    "matrix": "bypass"
   },
   {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "type": "TotalCharge",
-    "totalCollect": 1917,
-    "totalCollectCharge": 108,
-    "application": "hack",
-    "driver": "synthesize",
-    "microchip": "calculate"
+    "totalCollect": 2258,
+    "sourceCurrency": "SOS",
+    "driver": "copy",
+    "interface": "copy",
+    "panel": "parse"
   },
   {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "type": "TotalCharge",
-    "totalPrepaid": 2904,
-    "sourceCurrency": "PEN",
-    "destinationCurrency": "PYG",
+    "totalPrepaid": 2708.25,
+    "sourceCurrency": "EUR",
     "currencyConversionRate": 4,
-    "ccChargesDestinationCurrency": "PEN",
-    "chargesDestination": 178,
-    "monitor": "hack",
-    "circuit": "compress"
+    "chargesDestination": 851,
+    "totalCollectCharge": 212.75,
+    "program": "back up",
+    "driver": "back up"
   }
 ]

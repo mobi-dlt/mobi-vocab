@@ -11,7 +11,7 @@ const getIdentityCredential = () => {
   delete auth['@context'];
 
   const example = {
-    '@context': ['https://goodlookingtech.com'],
+    '@context': ['https://dlt.mobi/mobility'],
     type: 'IdentityCredential',
     legalName: 'Matt Shi',
     licenseNumber: 'Y5327288',

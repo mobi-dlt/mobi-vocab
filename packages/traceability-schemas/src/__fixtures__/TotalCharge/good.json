@@ -1,44 +1,44 @@
 [
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 47.25,
-    "totalCollect": 15.75,
-    "sourceCurrency": "KMF",
-    "destinationCurrency": "HRK",
+    "totalPrepaid": 3221.25,
+    "totalCollect": 1073.75,
+    "sourceCurrency": "RWF",
+    "destinationCurrency": "GEL",
+    "currencyConversionRate": 2,
+    "ccChargesDestinationCurrency": "RWF",
+    "chargesDestination": 899,
+    "totalCollectCharge": 224.75
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "TotalCharge",
+    "totalPrepaid": 6774,
+    "totalCollect": 2258,
+    "sourceCurrency": "SOS",
+    "destinationCurrency": "ZWL",
     "currencyConversionRate": 5,
-    "ccChargesDestinationCurrency": "KMF",
-    "chargesDestination": 636,
-    "totalCollectCharge": 159
+    "ccChargesDestinationCurrency": "SOS",
+    "chargesDestination": 333,
+    "totalCollectCharge": 83.25
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 5751,
-    "totalCollect": 1917,
-    "sourceCurrency": "ARS",
-    "destinationCurrency": "MKD",
-    "currencyConversionRate": 3,
-    "ccChargesDestinationCurrency": "ARS",
-    "chargesDestination": 432,
-    "totalCollectCharge": 108
-  },
-  {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "type": "TotalCharge",
-    "totalPrepaid": 2904,
-    "totalCollect": 968,
-    "sourceCurrency": "PEN",
-    "destinationCurrency": "PYG",
+    "totalPrepaid": 2708.25,
+    "totalCollect": 902.75,
+    "sourceCurrency": "EUR",
+    "destinationCurrency": "TZS",
     "currencyConversionRate": 4,
-    "ccChargesDestinationCurrency": "PEN",
-    "chargesDestination": 178,
-    "totalCollectCharge": 44.5
+    "ccChargesDestinationCurrency": "EUR",
+    "chargesDestination": 851,
+    "totalCollectCharge": 212.75
   }
 ]
