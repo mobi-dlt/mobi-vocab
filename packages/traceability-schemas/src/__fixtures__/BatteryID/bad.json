@@ -1,16 +1,5 @@
 [
   {
-    "type": "BatteryID",
-    "sensor": "back up",
-    "bus": "quantify",
-    "feed": "override"
-  },
-  {
-    "transmitter": "quantify",
-    "array": "parse",
-    "port": "quantify"
-  },
-  {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
@@ -19,26 +8,35 @@
       "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
       "manufacturer": {
         "type": "Organization",
-        "name": "O'Conner - Buckridge",
-        "description": "Universal systemic solution",
+        "name": "Bergnaum - Ankunding",
+        "description": "User-centric value-added toolset",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "100 Rutherford Ways",
-          "addressLocality": "East Eldora",
-          "addressRegion": "Alabama",
-          "postalCode": "81777",
-          "addressCountry": "Senegal"
+          "streetAddress": "56310 Frederick Glens",
+          "addressLocality": "South Aubreemouth",
+          "addressRegion": "New Mexico",
+          "postalCode": "35954",
+          "addressCountry": "Aruba"
         },
-        "email": "Isobel6@example.com",
-        "phoneNumber": "555-794-6453",
-        "faxNumber": "555-166-9336"
+        "email": "Raheem1@example.com",
+        "phoneNumber": "555-873-6467",
+        "faxNumber": "555-712-2534"
       },
       "make": "Ford",
       "model": "Mach_E",
       "vin": "JTERU5JR7M5861170"
     },
+    "batteryid": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
     "serialNumber": "2345H152031173270027",
-    "alarm": "input",
-    "pixel": "calculate"
+    "program": "index",
+    "feed": "hack",
+    "pixel": "connect"
+  },
+  {
+    "transmitter": "hack",
+    "protocol": "back up"
+  },
+  {
+    "application": "compress"
   }
 ]

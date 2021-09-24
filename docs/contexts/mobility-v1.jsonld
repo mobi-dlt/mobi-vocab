@@ -13,6 +13,29 @@
     "relatedLink": {
       "@id": "https://dlt.mobi/mobility#LinkRole"
     },
+    "AccessCertificate": {
+      "@id": "https://dlt.mobi/mobility#AccessCertificate",
+      "@context": {
+        "UIUD": {
+          "@id": "https://schema.org/codeValue"
+        },
+        "URI": {
+          "@id": "https://schema.org/url"
+        },
+        "IssuerEID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "RootAuthEID": {
+          "@id": "https://schema.org/Text"
+        },
+        "Expiration": {
+          "@id": "https://schema.org/Date"
+        },
+        "SignAlgo": {
+          "@id": "https://schema.org/algorithm"
+        }
+      }
+    },
     "BatteryID": {
       "@id": "https://dlt.mobi/mobility#BatteryID",
       "@context": {
@@ -138,8 +161,8 @@
         }
       }
     },
-    "DataHostBooststrappingCertificate": {
-      "@id": "https://dlt.mobi/mobility#DataHostBooststrappingCertificate",
+    "DataHostBootstrappingCertificate": {
+      "@id": "https://dlt.mobi/mobility#DataHostBootstrappingCertificate",
       "@context": {
         "UIUD": {
           "@id": "https://schema.org/codeValue"

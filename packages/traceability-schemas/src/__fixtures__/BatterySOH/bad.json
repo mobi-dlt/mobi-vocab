@@ -1,16 +1,21 @@
 [
   {
-    "previousSOHTimeStamp": "2020-5-17",
-    "chargeCycles": "30",
-    "array": "copy",
-    "circuit": "bypass",
-    "port": "compress",
-    "alarm": "index"
-  },
-  {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
+    "type": "BatterySOH",
+    "previousSOHTimeStamp": "2020-5-17",
+    "newSOHVal": "94",
+    "newSOHTimeStamp": "2020-10-17",
+    "chargeCycles": "30",
+    "maxCapacity": "87",
+    "impedance": "70",
+    "batteryAge": "1.2",
+    "system": "back up",
+    "transmitter": "navigate",
+    "bus": "copy"
+  },
+  {
     "type": "BatterySOH",
     "batteryid": {
       "type": "BatteryID",
@@ -19,27 +24,27 @@
         "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
         "manufacturer": {
           "type": "Person",
-          "firstName": "Jimmy",
-          "lastName": "Jenkins",
-          "email": "Alexanne_Gottlieb@example.org",
-          "phoneNumber": "555-648-9789",
+          "firstName": "Sydnie",
+          "lastName": "Nicolas",
+          "email": "Marilyne.Considine@example.org",
+          "phoneNumber": "555-350-4105",
           "worksFor": {
             "type": "Organization",
-            "name": "Franecki, Funk and Predovic",
-            "description": "Networked next generation encryption",
+            "name": "Graham Group",
+            "description": "Assimilated demand-driven methodology",
             "address": {
               "type": "PostalAddress",
-              "streetAddress": "15544 Blanca Fields",
-              "addressLocality": "West Deion",
-              "addressRegion": "West Virginia",
-              "postalCode": "32557",
-              "addressCountry": "India"
+              "streetAddress": "4261 Frami Freeway",
+              "addressLocality": "Cummingsborough",
+              "addressRegion": "Hawaii",
+              "postalCode": "57430-9292",
+              "addressCountry": "Egypt"
             },
-            "email": "Eddie26@example.org",
-            "phoneNumber": "555-427-1584",
-            "faxNumber": "555-974-3285"
+            "email": "Jimmy3@example.net",
+            "phoneNumber": "555-726-5475",
+            "faxNumber": "555-741-3707"
           },
-          "jobTitle": "Investor Integration Developer"
+          "jobTitle": "District Metrics Designer"
         },
         "make": "Ford",
         "model": "Mach_E",
@@ -49,49 +54,30 @@
       "serialNumber": "2345H152031173270027"
     },
     "previousSOHVal": "95",
-    "newSOHTimeStamp": "2020-10-17",
-    "chargeCycles": "30",
+    "previousSOHTimeStamp": "2020-5-17",
+    "newSOHVal": "94",
     "maxCapacity": "87",
     "impedance": "70",
     "batteryAge": "1.2",
-    "matrix": "generate",
-    "program": "quantify"
+    "array": "compress",
+    "program": "input",
+    "transmitter": "navigate",
+    "sensor": "calculate"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "batteryid": {
-      "type": "BatteryID",
-      "vid": {
-        "type": "VID",
-        "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-        "manufacturer": {
-          "type": "Organization",
-          "name": "Schowalter - Farrell",
-          "description": "Future-proofed multimedia artificial intelligence",
-          "address": {
-            "type": "PostalAddress",
-            "streetAddress": "27834 Lorena Point",
-            "addressLocality": "South Raymundo",
-            "addressRegion": "California",
-            "postalCode": "81351-6085",
-            "addressCountry": "Ghana"
-          },
-          "email": "Tristin.Pollich@example.org",
-          "phoneNumber": "555-709-2982",
-          "faxNumber": "555-114-7400"
-        },
-        "make": "Ford",
-        "model": "Mach_E",
-        "vin": "JTERU5JR7M5861170"
-      },
-      "batteryid": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
-      "serialNumber": "2345H152031173270027"
-    },
+    "type": "BatterySOH",
+    "previousSOHVal": "95",
     "previousSOHTimeStamp": "2020-5-17",
     "newSOHVal": "94",
+    "newSOHTimeStamp": "2020-10-17",
+    "chargeCycles": "30",
+    "maxCapacity": "87",
     "impedance": "70",
-    "program": "reboot"
+    "circuit": "synthesize",
+    "port": "compress",
+    "alarm": "override"
   }
 ]

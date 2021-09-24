@@ -2,10 +2,10 @@ const faker = require('faker');
 
 const { getVID } = require('./VID');
 
-const getEC = () => {
+const getDataHostBootstrappingCertificate = () => {
     const example = {
         '@context': ['https://dlt.mobi/mobility'],
-        type: 'EC',
+        type: 'DataHostBootstrappingCertificate',
         UIUD: 'did:mobi:e436e12ec21ebfeb1f712ebc3f',
         WebURI: 'pubkey',
         DataStructure: 'sampleuri',
@@ -19,4 +19,4 @@ const getEC = () => {
     return example;
 };
 
-module.exports = { getEC };
+module.exports = { getDataHostBootstrappingCertificate };

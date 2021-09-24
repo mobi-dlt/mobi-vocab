@@ -1,5 +1,6 @@
 
 export default {
+AccessCertificate: require('./schemas/AccessCertificate.json'),
 BatteryID: require('./schemas/BatteryID.json'),
 BatterySOH: require('./schemas/BatterySOH.json'),
 Brand: require('./schemas/Brand.json'),

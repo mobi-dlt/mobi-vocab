@@ -13,23 +13,18 @@
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "type": "ContactPoint",
-    "name": "Dare Group",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "647 Lukas Inlet",
-      "addressLocality": "Marcellaport",
-      "addressRegion": "Utah",
-      "postalCode": "27425",
-      "addressCountry": "Angola"
-    },
-    "email": "Janet91@example.net",
-    "phoneNumber": "555-791-6809"
+    "type": "AccessCertificate",
+    "UIUD": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+    "URI": "pubkey",
+    "IssuerEID": "EID",
+    "RootAuthEID": "EID",
+    "Expiration": "expire date",
+    "SignAlgo": "algo"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..tRmTARets6R1LbQTJnNP7TAKV6_ei4SPxPk9L1z0G911pmrN90jNU4kIslTyKlVLCPOgh95XyAGTdIjEU9OHBA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..KppYrJL1ZN_sp0oj_5BlIb4-586YhyHTt406N6UpCaqdYPHTp0aiqiT4T8Ol-YBN0bYinMbyWnmkI6OWdBB4CA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

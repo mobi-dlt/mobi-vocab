@@ -1,13 +1,18 @@
 [
   {
-    "type": "Brand",
-    "alarm": "override"
-  },
-  {
     "program": "parse",
     "bandwidth": "parse"
   },
   {
     "array": "copy"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "Brand",
+    "circuit": "index",
+    "application": "program",
+    "alarm": "program"
   }
 ]

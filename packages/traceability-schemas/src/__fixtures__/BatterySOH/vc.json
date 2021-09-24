@@ -21,27 +21,27 @@
         "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
         "manufacturer": {
           "type": "Person",
-          "firstName": "Caroline",
-          "lastName": "Thompson",
-          "email": "Lindsey63@example.net",
-          "phoneNumber": "555-360-7253",
+          "firstName": "Haven",
+          "lastName": "Trantow",
+          "email": "Kallie.Hane89@example.net",
+          "phoneNumber": "555-296-2679",
           "worksFor": {
             "type": "Organization",
-            "name": "Conn, Friesen and Mitchell",
-            "description": "Inverse interactive pricing structure",
+            "name": "Crooks, Thompson and Ward",
+            "description": "Pre-emptive scalable encoding",
             "address": {
               "type": "PostalAddress",
-              "streetAddress": "97877 Russel Park",
-              "addressLocality": "South Aliza",
-              "addressRegion": "Nebraska",
-              "postalCode": "41041-2086",
-              "addressCountry": "Kuwait"
+              "streetAddress": "1041 Tremblay Fall",
+              "addressLocality": "Jarrellburgh",
+              "addressRegion": "New Hampshire",
+              "postalCode": "69126-4572",
+              "addressCountry": "Czech Republic"
             },
-            "email": "Danyka59@example.org",
-            "phoneNumber": "555-382-6069",
-            "faxNumber": "555-557-7259"
+            "email": "Benedict_Swaniawski@example.com",
+            "phoneNumber": "555-948-1692",
+            "faxNumber": "555-638-3607"
           },
-          "jobTitle": "Direct Accountability Architect"
+          "jobTitle": "National Paradigm Agent"
         },
         "make": "Ford",
         "model": "Mach_E",
@@ -62,7 +62,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..rRjk6mQMHFAHydG2rxnBsPRKc3WLmOAOGLyJ7t5-8IAaSWJdCa_0wAG3iuXg76nDst6SVSlThTH6MP9gjKTFAw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..kK33Q0WXE6s1k0QCeuovyRNJVktgeKXWCaC4F4UhYDRkOGFnq7Y4iY043BqrGRK37ELdpjOlfQ_mMV6dcj6IBw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

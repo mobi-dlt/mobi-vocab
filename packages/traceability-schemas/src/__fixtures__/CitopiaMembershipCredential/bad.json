@@ -1,23 +1,36 @@
 [
   {
-    "holder": "Matt Shi",
-    "circuit": "synthesize",
-    "pixel": "quantify",
-    "driver": "navigate",
-    "bandwidth": "reboot"
-  },
-  {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
     "type": "CitopiaMembershipCredential",
     "identifier": "did:mobinet:123456789abcdefghi",
-    "microchip": "synthesize"
+    "member": {
+      "@context": [
+        "https://dlt.mobi/mobility"
+      ],
+      "type": "Member",
+      "firstName": "Arthur",
+      "lastName": "Weber",
+      "email": "Ozella_Tromp58@example.org"
+    },
+    "issuanceDate": "2020-05-17",
+    "expirationDate": "2021-5-29",
+    "capacitor": "calculate"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "firewall": "navigate"
+    "holder": "Matt Shi",
+    "issuanceDate": "2020-05-17",
+    "driver": "compress",
+    "sensor": "copy",
+    "microchip": "input"
+  },
+  {
+    "type": "CitopiaMembershipCredential",
+    "issuanceDate": "2020-05-17",
+    "expirationDate": "2021-5-29",
+    "port": "compress",
+    "program": "quantify",
+    "matrix": "parse"
   }
 ]

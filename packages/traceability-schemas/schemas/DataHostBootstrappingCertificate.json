@@ -1,9 +1,9 @@
 {
-    "$id": "https://dlt.mobi/mobility/DataHostBooststrappingCertificate.json",
+    "$id": "https://dlt.mobi/mobility/DataHostBootstrappingCertificate.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"DataHostBooststrappingCertificate\", \"@id\": \"https://dlt.mobi/mobility#DataHostBooststrappingCertificate\"}",
-    "title": "Data Host BooststrappingCertificate",
-    "description": "EVGI: Data Host Booststrapping Certificate",
+    "$comment": "{\"term\": \"DataHostBootstrappingCertificate\", \"@id\": \"https://dlt.mobi/mobility#DataHostBootstrappingCertificate\"}",
+    "title": "Data Host BootstrappingCertificate",
+    "description": "EVGI: Data Host Bootstrapping Certificate",
     "type": "object",
     "properties": {
         "@context": {
