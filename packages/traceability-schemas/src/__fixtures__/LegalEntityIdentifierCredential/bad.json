@@ -3,19 +3,18 @@
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "leiCode": "GTED3RFY776I3ACSRK9M",
-    "microchip": "reboot",
-    "circuit": "generate"
+    "type": "LegalEntityIdentifierCredential",
+    "sensor": "parse",
+    "bandwidth": "synthesize"
   },
   {
     "type": "LegalEntityIdentifierCredential",
-    "leiCode": "I5GPKS5BMUDWW96ZI5L7",
+    "leiCode": "QMB5ZVZFN540OK3I1PTW",
     "certificateName": "US Legal Entity Certificate",
-    "circuit": "input",
-    "alarm": "transmit"
+    "monitor": "parse",
+    "microchip": "navigate"
   },
   {
-    "certificateName": "US Legal Entity Certificate",
-    "matrix": "program"
+    "monitor": "hack"
   }
 ]

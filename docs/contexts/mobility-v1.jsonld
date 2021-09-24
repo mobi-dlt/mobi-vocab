@@ -138,6 +138,38 @@
         }
       }
     },
+    "DataHostBooststrappingCertificate": {
+      "@id": "https://dlt.mobi/mobility#DataHostBooststrappingCertificate",
+      "@context": {
+        "UIUD": {
+          "@id": "https://schema.org/codeValue"
+        },
+        "WebURI": {
+          "@id": "https://schema.org/url"
+        },
+        "DataStructure": {
+          "@id": "https://schema.org/Name"
+        },
+        "CommitFrequencyT": {
+          "@id": "https://schema.org/Number"
+        },
+        "ReceiverEID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "RootAuthEID": {
+          "@id": "https://schema.org/Text"
+        },
+        "OwnerEID": {
+          "@id": "https://schema.org/Person"
+        },
+        "RootAuthSig": {
+          "@id": "https://dlt.mobi/boolean"
+        },
+        "SignAlgo": {
+          "@id": "https://schema.org/algorithm"
+        }
+      }
+    },
     "DriverLicense": {
       "@id": "https://dlt.mobi/mobility#DriverLicense",
       "@context": {
@@ -228,6 +260,29 @@
         },
         "longitude": {
           "@id": "https://schema.org/longitude"
+        }
+      }
+    },
+    "GroupPermissionChangeCertificate": {
+      "@id": "https://dlt.mobi/mobility#GroupPermissionChangeCertificate",
+      "@context": {
+        "URI": {
+          "@id": "https://schema.org/url"
+        },
+        "OwnerEID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "Group": {
+          "@id": "https://schema.org/Name"
+        },
+        "Read": {
+          "@id": "https://schema.org/Text"
+        },
+        "Write": {
+          "@id": "https://dlt.mobi/boolean"
+        },
+        "SignAlgo": {
+          "@id": "https://schema.org/algorithm"
         }
       }
     },

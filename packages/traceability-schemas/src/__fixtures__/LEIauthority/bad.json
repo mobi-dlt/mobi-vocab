@@ -1,32 +1,16 @@
 [
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "LEIauthority",
-    "validationAuthorityID": "RA000002",
-    "otherValidationAuthorityID": "71VNPDKV",
-    "matrix": "calculate",
-    "microchip": "transmit",
-    "sensor": "connect",
-    "driver": "hack"
+    "program": "bypass"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "LEIauthority",
-    "alarm": "synthesize",
-    "application": "program"
+    "microchip": "synthesize",
+    "bandwidth": "parse",
+    "alarm": "hack"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "LEIauthority",
-    "validationAuthorityID": "RA000004",
-    "otherValidationAuthorityID": "YSW1QHQ3",
-    "protocol": "back up",
-    "transmitter": "bypass"
+    "validationAuthorityEntityID": "JAPXVYPMSSCMTH2NWJJL",
+    "panel": "input",
+    "system": "bypass",
+    "monitor": "bypass"
   }
 ]

@@ -1,0 +1,29 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "URI": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+    "Read": "sampleuri",
+    "Write": "blocked uri",
+    "sensor": "program"
+  },
+  {
+    "protocol": "input",
+    "driver": "navigate",
+    "bandwidth": "index"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "GroupPermissionChangeCertificate",
+    "URI": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+    "Group": "sampleuri",
+    "Read": "sampleuri",
+    "Write": "blocked uri",
+    "SignAlgo": "algo",
+    "alarm": "quantify",
+    "bus": "compress"
+  }
+]

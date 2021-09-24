@@ -1,18 +1,25 @@
 [
   {
-    "lastName": "Rowe",
-    "email": "Yadira_Kovacek65@example.org",
-    "transmitter": "transmit",
-    "circuit": "navigate"
+    "firstName": "Marian",
+    "matrix": "program"
   },
   {
-    "lastName": "Daniel",
-    "monitor": "connect",
-    "microchip": "input"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "lastName": "Goyette",
+    "email": "Ludwig_Hayes51@example.org",
+    "protocol": "back up"
   },
   {
-    "driver": "hack",
-    "monitor": "synthesize",
-    "bandwidth": "copy"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "Member",
+    "firstName": "Norbert",
+    "protocol": "calculate",
+    "circuit": "compress",
+    "alarm": "reboot",
+    "bus": "synthesize"
   }
 ]

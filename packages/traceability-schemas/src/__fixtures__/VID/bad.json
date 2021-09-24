@@ -1,31 +1,5 @@
 [
   {
-    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "transmitter": "synthesize",
-    "matrix": "reboot"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "manufacturer": {
-      "type": "Organization",
-      "name": "Tillman LLC",
-      "description": "Profound methodical concept",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "8155 Nitzsche Street",
-        "addressLocality": "Blockstad",
-        "addressRegion": "Pennsylvania",
-        "postalCode": "03507-0042",
-        "addressCountry": "Belgium"
-      },
-      "email": "Sally_Wolf19@example.com",
-      "phoneNumber": "555-924-6461",
-      "faxNumber": "555-654-8928"
-    },
-    "vin": "JTERU5JR7M5861170",
     "transmitter": "hack",
     "matrix": "override",
     "driver": "override",
@@ -33,5 +7,10 @@
   },
   {
     "transmitter": "override"
+  },
+  {
+    "protocol": "copy",
+    "system": "navigate",
+    "sensor": "override"
   }
 ]

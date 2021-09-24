@@ -1,8 +1,6 @@
 const faker = require('faker');
 
-const { getVID } = require('./VID');
-
-const getEC = () => {
+const getGroupPermissionChangeCertificate = () => {
     const example = {
         '@context': ['https://dlt.mobi/mobility'],
         type: 'GroupPermissionChangeCertificate',
@@ -16,4 +14,4 @@ const getEC = () => {
     return example;
 };
 
-module.exports = { getEC };
+module.exports = { getGroupPermissionChangeCertificate };

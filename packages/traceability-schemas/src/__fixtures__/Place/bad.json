@@ -1,32 +1,31 @@
 [
   {
-    "microchip": "index",
-    "panel": "copy"
-  },
-  {
     "type": "Place",
-    "globalLocationNumber": "9095096159122",
+    "globalLocationNumber": "8066705577669",
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Franecki, Mitchell and Kub",
-      "streetAddress": "7046 Vernie Center",
-      "addressLocality": "Weissnatberg",
-      "addressRegion": "South Carolina",
-      "postalCode": "96569-5073",
-      "addressCountry": "Costa Rica"
+      "organizationName": "Nolan - Windler",
+      "streetAddress": "0732 Cletus Flat",
+      "addressLocality": "Brooksside",
+      "addressRegion": "New York",
+      "postalCode": "73521-9856",
+      "addressCountry": "Tunisia"
     },
-    "panel": "reboot",
-    "pixel": "program",
-    "application": "copy"
+    "port": "transmit",
+    "array": "parse",
+    "capacitor": "navigate"
   },
   {
-    "geo": {
-      "type": "GeoCoordinates",
-      "latitude": "-63.5467",
-      "longitude": "173.3952"
-    },
-    "program": "connect",
-    "protocol": "hack",
-    "interface": "parse"
+    "system": "connect"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "globalLocationNumber": "1395099604789",
+    "matrix": "generate",
+    "hard drive": "override",
+    "port": "connect",
+    "system": "reboot"
   }
 ]

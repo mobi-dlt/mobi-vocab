@@ -1,24 +1,19 @@
 [
   {
-    "chargeCollect": 333,
-    "chargePrepaid": 634,
-    "panel": "transmit"
-  },
-  {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "chargeCollect": 264,
-    "protocol": "parse",
-    "program": "override"
+    "alarm": "program",
+    "microchip": "copy",
+    "protocol": "generate",
+    "panel": "program"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "chargeAndPaymentType",
-    "chargeCollect": 811,
-    "protocol": "program",
-    "matrix": "hack"
+    "firewall": "connect"
+  },
+  {
+    "chargePrepaid": 744,
+    "bus": "transmit",
+    "array": "hack"
   }
 ]

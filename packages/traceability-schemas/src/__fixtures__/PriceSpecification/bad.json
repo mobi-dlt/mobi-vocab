@@ -1,25 +1,17 @@
 [
   {
+    "driver": "generate"
+  },
+  {
+    "panel": "program"
+  },
+  {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
     "type": "PriceSpecification",
-    "price": 470,
-    "microchip": "program",
-    "firewall": "input"
-  },
-  {
-    "price": 963,
-    "priceCurrency": "SEK",
-    "interface": "connect"
-  },
-  {
-    "type": "PriceSpecification",
-    "price": 6628,
-    "priceCurrency": "TZS",
-    "port": "hack",
-    "interface": "parse",
-    "capacitor": "parse",
-    "matrix": "connect"
+    "price": 2832,
+    "hard drive": "synthesize",
+    "system": "quantify"
   }
 ]

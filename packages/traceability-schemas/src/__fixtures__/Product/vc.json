@@ -15,47 +15,39 @@
     ],
     "type": "Product",
     "manufacturer": {
-      "type": "Person",
-      "firstName": "Noah",
-      "lastName": "Macejkovic",
-      "email": "Osborne_Larkin17@example.org",
-      "phoneNumber": "555-742-2169",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Glover - Wilderman",
-        "description": "Pre-emptive 5th generation infrastructure",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "492 Glen Shore",
-          "addressLocality": "Lanceland",
-          "addressRegion": "North Dakota",
-          "postalCode": "04577",
-          "addressCountry": "Angola"
-        },
-        "email": "Francesca.Mills63@example.org",
-        "phoneNumber": "555-250-3421",
-        "faxNumber": "555-802-5658"
+      "type": "Organization",
+      "name": "West - Lowe",
+      "description": "Networked dynamic function",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "883 Schoen Garden",
+        "addressLocality": "East Bryceborough",
+        "addressRegion": "Hawaii",
+        "postalCode": "69181",
+        "addressCountry": "Philippines"
       },
-      "jobTitle": "Regional Usability Representative"
+      "email": "Carter.Lakin73@example.com",
+      "phoneNumber": "555-788-7543",
+      "faxNumber": "555-703-6058"
     },
-    "name": "Intelligent Metal Computer",
-    "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+    "name": "Licensed Fresh Computer",
+    "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "8277"
+      "value": "3850"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "6975"
+      "value": "261"
     },
-    "sku": "803520067556"
+    "sku": "797549382847"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..JLk7vxNqfVHQcRVl1tKWbYW2saaY-WtCt5xsAfD9r7XUiXnLkVTJ-bTHNqJ9vgoTprIVmr09GsHgTSpuqPqsCA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..K8xREuMOZAMfFmlullSEBD5TvZ-mmZw4Ej9mCr4O-n4db811NulRsl1ZOakhiKjI-2M3uIpuo10v874HPhV4DA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

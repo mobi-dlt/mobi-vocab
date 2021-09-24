@@ -1,45 +1,67 @@
 [
   {
-    "type": [
-      "Purchase"
-    ],
-    "customer": {
-      "type": "Organization",
-      "name": "Lueilwitz - Leuschke",
-      "description": "Exclusive executive portal",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "2911 Antoinette Divide",
-        "addressLocality": "Denesikside",
-        "addressRegion": "North Dakota",
-        "postalCode": "87886-4182",
-        "addressCountry": "Albania"
-      },
-      "email": "Ardith_Shields82@example.com",
-      "phoneNumber": "555-378-9321",
-      "faxNumber": "555-324-4989"
-    },
-    "transmitter": "parse",
-    "application": "copy",
-    "alarm": "navigate",
-    "array": "generate"
-  },
-  {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
+    "customer": {
+      "type": "Person",
+      "firstName": "Hillard",
+      "lastName": "Cummerata",
+      "email": "Abbigail_Stracke73@example.net",
+      "phoneNumber": "555-540-2057",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Monahan and Sons",
+        "description": "De-engineered high-level neural-net",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "2928 Turner Harbors",
+          "addressLocality": "North Kavon",
+          "addressRegion": "Tennessee",
+          "postalCode": "31587-6883",
+          "addressCountry": "Sweden"
+        },
+        "email": "Chelsea.Reichert22@example.com",
+        "phoneNumber": "555-515-7735",
+        "faxNumber": "555-473-4952"
+      },
+      "jobTitle": "Forward Operations Specialist"
+    },
+    "array": "back up"
+  },
+  {
     "type": [
       "Purchase"
     ],
-    "circuit": "compress",
-    "bandwidth": "navigate",
-    "alarm": "bypass",
-    "hard drive": "compress"
+    "bandwidth": "reboot",
+    "pixel": "connect",
+    "array": "index"
   },
   {
-    "firewall": "parse",
-    "system": "input",
-    "driver": "calculate",
-    "transmitter": "program"
+    "customer": {
+      "type": "Person",
+      "firstName": "Edgar",
+      "lastName": "Schiller",
+      "email": "Ivah82@example.com",
+      "phoneNumber": "555-214-4002",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Reilly, Predovic and Leuschke",
+        "description": "Reverse-engineered stable implementation",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "37862 Vallie Springs",
+          "addressLocality": "Lake Aida",
+          "addressRegion": "New Mexico",
+          "postalCode": "80644-5862",
+          "addressCountry": "Papua New Guinea"
+        },
+        "email": "Scottie48@example.net",
+        "phoneNumber": "555-743-3279",
+        "faxNumber": "555-893-1089"
+      },
+      "jobTitle": "Internal Markets Agent"
+    },
+    "interface": "navigate"
   }
 ]

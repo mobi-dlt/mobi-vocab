@@ -1,78 +1,113 @@
 [
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "legalName": "Gusikowski - Quitzon",
-    "otherNames": [
-      "Mertz Group",
-      "Bechtelar - Moore"
-    ],
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000003",
-      "otherValidationAuthorityID": "QDRZI1JV",
-      "validationAuthorityEntityID": "IKLF1QEHLVLWSFN9ZLAW"
-    },
-    "legalForm": "CORPORATION",
-    "expirationDate": "2022-07-11",
-    "expirationReason": "innovate 24/7 infrastructures",
-    "successorEntity": {
-      "type": "Organization",
-      "leiCode": "RPEWL6M8DYI6EU2HF83V",
-      "name": "Kilback - Medhurst"
-    },
-    "port": "program",
-    "alarm": "back up"
-  },
-  {
-    "otherAddresses": [],
-    "interface": "generate",
-    "feed": "navigate"
-  },
-  {
     "type": "LEIentity",
+    "legalNameLanguage": "en_AU",
+    "otherNames": [
+      "Aufderhar - Reichel",
+      "Fay - Hartmann"
+    ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "hy",
+      "language": "de",
       "addressLines": [
-        "Franecki - Lesch",
-        "8777 Aida Villages"
+        "Jacobson LLC",
+        "28418 Hassie Vista"
       ],
-      "addressNumber": "198",
-      "addressNumberWithinBuilding": "8",
-      "mailRouting": "140 Antonette Turnpike, 92693-0194",
-      "city": "East Barrett",
-      "region": "Borders",
-      "country": "Kyrgyz Republic",
-      "postalCode": "46252"
+      "addressNumber": "210",
+      "addressNumberWithinBuilding": "1",
+      "mailRouting": "846 Gabriel Hollow, 95058-5554",
+      "city": "Lake Goldenport",
+      "region": "Avon",
+      "country": "Cuba",
+      "postalCode": "85974-6295"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "nb_NO",
+      "language": "en_IND",
       "addressLines": [
-        "Ward Group",
-        "67732 Senger Walks"
+        "Herzog, Ebert and Hoppe",
+        "217 Upton Roads"
       ],
-      "addressNumber": "291",
-      "addressNumberWithinBuilding": "4",
-      "mailRouting": "51168 Judy Estate, 72175",
-      "city": "East Terrellshire",
-      "region": "Borders",
-      "country": "Malawi",
-      "postalCode": "40885"
+      "addressNumber": "316",
+      "addressNumberWithinBuilding": "9",
+      "mailRouting": "1623 Chet Walk, 80442",
+      "city": "Port Gunnarview",
+      "region": "Berkshire",
+      "country": "Netherlands Antilles",
+      "postalCode": "55365-0163"
     },
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000001",
+      "otherValidationAuthorityID": "BYE9UN0B",
+      "validationAuthorityEntityID": "LRL4EY8G88V2F6BIGCOT"
+    },
+    "entityCategory": "Industrial",
+    "legalForm": "CORPORATION",
+    "associatedEntity": {
+      "type": "Organization",
+      "leiCode": "L8N5HVM7BZGCQ6VSFN1H",
+      "name": "McKenzie LLC"
+    },
+    "status": "IN PROGRESS",
     "expirationDate": "2022-07-11",
-    "expirationReason": "strategize open-source infomediaries",
+    "expirationReason": "repurpose end-to-end initiatives",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "T3RM5GFL568QVVH7J360",
-      "name": "Nitzsche Inc"
+      "leiCode": "C6D1LQCNJHSUPTGLVVK7",
+      "name": "Brown - Barton"
     },
+    "protocol": "back up",
+    "alarm": "hack",
+    "program": "connect",
+    "microchip": "reboot"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "LEIentity",
+    "legalName": "Lemke, Connelly and Cassin",
+    "legalNameLanguage": "id_ID",
+    "otherNames": [
+      "Gaylord - Larkin",
+      "Kuhn - Heathcote"
+    ],
+    "transliteratedOtherNames": [
+      "Gaylord - Larkin",
+      "Kuhn - Heathcote"
+    ],
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "ne",
+      "addressLines": [
+        "Emmerich - Weissnat",
+        "5136 Lelah Dam"
+      ],
+      "addressNumber": "197",
+      "addressNumberWithinBuilding": "7",
+      "mailRouting": "39849 Otha Track, 52718",
+      "city": "Guillermomouth",
+      "region": "Buckinghamshire",
+      "country": "Norfolk Island",
+      "postalCode": "96489"
+    },
+    "status": "REJECTED",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "MRGIDJVYIUHW0TC3D5EI",
+      "name": "Franecki - Lesch"
+    },
+    "driver": "reboot",
+    "microchip": "index"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "expirationReason": "revolutionize scalable e-commerce",
     "otherAddresses": [],
-    "port": "hack",
-    "pixel": "synthesize",
-    "feed": "index",
-    "system": "index"
+    "card": "override",
+    "feed": "back up"
   }
 ]

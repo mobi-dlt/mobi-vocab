@@ -1,35 +1,40 @@
 [
   {
-    "worksFor": {
-      "type": "Organization",
-      "name": "Marquardt Group",
-      "description": "Triple-buffered tertiary throughput",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "7805 Abernathy Street",
-        "addressLocality": "East Tristian",
-        "addressRegion": "Pennsylvania",
-        "postalCode": "39183",
-        "addressCountry": "Brunei Darussalam"
-      },
-      "email": "Helmer.Vandervort@example.com",
-      "phoneNumber": "555-343-6084",
-      "faxNumber": "555-858-8798"
-    },
-    "alarm": "override",
-    "matrix": "copy",
-    "application": "hack",
-    "capacitor": "synthesize"
+    "jobTitle": "Human Web Manager",
+    "alarm": "back up",
+    "monitor": "input",
+    "card": "parse"
+  },
+  {
+    "lastName": "Thiel",
+    "hard drive": "back up"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "email": "Nicklaus29@example.net",
-    "interface": "synthesize"
-  },
-  {
-    "lastName": "Windler",
-    "protocol": "input"
+    "type": "Person",
+    "firstName": "Ella",
+    "email": "Melyssa.Farrell60@example.org",
+    "phoneNumber": "555-458-2370",
+    "worksFor": {
+      "type": "Organization",
+      "name": "Padberg, Bailey and Lockman",
+      "description": "Total solution-oriented productivity",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "311 Auer Fort",
+        "addressLocality": "West Evans",
+        "addressRegion": "Rhode Island",
+        "postalCode": "52363-5052",
+        "addressCountry": "Northern Mariana Islands"
+      },
+      "email": "Osbaldo.Greenfelder@example.com",
+      "phoneNumber": "555-681-5935",
+      "faxNumber": "555-976-8913"
+    },
+    "jobTitle": "Central Applications Producer",
+    "protocol": "quantify",
+    "capacitor": "compress"
   }
 ]

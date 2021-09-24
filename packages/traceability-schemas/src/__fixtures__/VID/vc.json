@@ -16,20 +16,28 @@
     "type": "VID",
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "manufacturer": {
-      "type": "Organization",
-      "name": "Klocko LLC",
-      "description": "Programmable heuristic software",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "165 Luis Causeway",
-        "addressLocality": "Websterfurt",
-        "addressRegion": "Arkansas",
-        "postalCode": "51768",
-        "addressCountry": "Morocco"
+      "type": "Person",
+      "firstName": "Lewis",
+      "lastName": "Thompson",
+      "email": "Shany_Pollich@example.org",
+      "phoneNumber": "555-924-6461",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Medhurst, Botsford and Hermann",
+        "description": "Persistent 6th generation orchestration",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "64848 Talia Rapids",
+          "addressLocality": "Loyceport",
+          "addressRegion": "West Virginia",
+          "postalCode": "81558",
+          "addressCountry": "Faroe Islands"
+        },
+        "email": "Annabelle8@example.org",
+        "phoneNumber": "555-678-9291",
+        "faxNumber": "555-170-6248"
       },
-      "email": "Cecelia68@example.net",
-      "phoneNumber": "555-472-2614",
-      "faxNumber": "555-283-7346"
+      "jobTitle": "Dynamic Optimization Facilitator"
     },
     "make": "Ford",
     "model": "Mach_E",
@@ -38,7 +46,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jODOLQ0O_E0gQwsEcWArhsYj0UwyUy0giHe4YyArzU6Bix-iNdbElIV1HICyNqT8o4tFvUZ7NTnR_t7yEDA9Dg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AHhoH-1-9lXGF1fIA79BovRMKiFLIp_DerGVbArDd1e2nbb_yfxQBGsbWUejq79weJfJTTwjbLX3YGiAl14QAg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

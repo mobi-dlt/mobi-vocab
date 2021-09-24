@@ -3,19 +3,32 @@
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "expirationDate": "2022-07-11",
-    "driver": "program"
-  },
-  {
-    "transmitter": "bypass",
-    "card": "back up",
-    "driver": "back up",
-    "monitor": "navigate"
-  },
-  {
-    "holder": "did:mobinet:123456789abcdefghi",
+    "type": "PermissionsCredential",
     "issuanceDate": "2021-03-09",
-    "expirationDate": "2022-07-11",
-    "firewall": "transmit"
+    "application": "quantify",
+    "hard drive": "transmit",
+    "capacitor": "connect"
+  },
+  {
+    "issuanceDate": "2021-03-09",
+    "feed": "copy",
+    "program": "compress"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "PermissionsCredential",
+    "permission": {
+      "type": "Permissions",
+      "userLocation": "true",
+      "vehicleLocation": "true",
+      "vid": "true",
+      "batteryid": "true",
+      "dataSharingForRewards": "true"
+    },
+    "feed": "back up",
+    "panel": "override",
+    "port": "synthesize"
   }
 ]

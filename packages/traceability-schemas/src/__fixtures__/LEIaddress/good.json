@@ -4,53 +4,53 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "LEIaddress",
-    "language": "pt_PT",
+    "language": "en_IND",
     "addressLines": [
-      "Okuneva, Franecki and Stark",
-      "8269 Mosciski Rapid"
+      "Morissette and Sons",
+      "36058 Breitenberg Spur"
     ],
-    "addressNumber": "81",
-    "addressNumberWithinBuilding": "8",
-    "mailRouting": "711 Victoria Trail, 40880-1832",
-    "city": "Sylvanville",
-    "region": "Cambridgeshire",
-    "country": "Cape Verde",
-    "postalCode": "85875"
+    "addressNumber": "316",
+    "addressNumberWithinBuilding": "2",
+    "mailRouting": "70549 Huel Streets, 19717-9167",
+    "city": "Port Eliseville",
+    "region": "Borders",
+    "country": "Wallis and Futuna",
+    "postalCode": "70754-3060"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
     "type": "LEIaddress",
-    "language": "zh_TW",
+    "language": "it",
     "addressLines": [
-      "Murray - Buckridge",
-      "8711 Aidan Gateway"
+      "Hoppe, Bailey and Bergstrom",
+      "8726 Cronin Alley"
     ],
-    "addressNumber": "318",
-    "addressNumberWithinBuilding": "1",
-    "mailRouting": "4983 Chelsea Key, 71791-6709",
-    "city": "East Melissa",
+    "addressNumber": "162",
+    "addressNumberWithinBuilding": "4",
+    "mailRouting": "49941 Casandra Locks, 78622-8076",
+    "city": "New Brendanburgh",
+    "region": "Buckinghamshire",
+    "country": "Angola",
+    "postalCode": "99104-7994"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "LEIaddress",
+    "language": "nl",
+    "addressLines": [
+      "Maggio - Stracke",
+      "12807 Jacey Dale"
+    ],
+    "addressNumber": "272",
+    "addressNumberWithinBuilding": "10",
+    "mailRouting": "570 Brendan Plaza, 09996",
+    "city": "Lake Jakeport",
     "region": "Berkshire",
-    "country": "Equatorial Guinea",
-    "postalCode": "07543-0600"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "LEIaddress",
-    "language": "ro",
-    "addressLines": [
-      "Funk, Paucek and Abbott",
-      "941 Casandra Locks"
-    ],
-    "addressNumber": "137",
-    "addressNumberWithinBuilding": "5",
-    "mailRouting": "7862 Arno Fields, 62612-8991",
-    "city": "South Mortimerside",
-    "region": "Avon",
-    "country": "Jersey",
-    "postalCode": "48693-7249"
+    "country": "Kuwait",
+    "postalCode": "15166"
   }
 ]

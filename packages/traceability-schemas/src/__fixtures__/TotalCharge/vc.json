@@ -14,19 +14,19 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 3221.25,
-    "totalCollect": 1073.75,
-    "sourceCurrency": "RWF",
-    "destinationCurrency": "GEL",
-    "currencyConversionRate": 2,
-    "ccChargesDestinationCurrency": "RWF",
-    "chargesDestination": 899,
-    "totalCollectCharge": 224.75
+    "totalPrepaid": 2708.25,
+    "totalCollect": 902.75,
+    "sourceCurrency": "EUR",
+    "destinationCurrency": "TZS",
+    "currencyConversionRate": 4,
+    "ccChargesDestinationCurrency": "EUR",
+    "chargesDestination": 851,
+    "totalCollectCharge": 212.75
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..nxrZpWLfAPzlfw4za_Z211PVfIxgfNIVlXqxsrauGG3BfX0XfcNl25a5wpOcBdsQ0CZu0ocMpOD22mFHbDliDw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..k3LhoPHHF4OZSj4PEELVJUjx1hAUb0_L3Q7pWb0bicRpNmzoLb2cZTe_nvvTmqYrMIxc9hZg2hr5lx2pxa6-Bg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

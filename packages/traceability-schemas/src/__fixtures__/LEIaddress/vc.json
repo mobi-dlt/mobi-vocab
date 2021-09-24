@@ -14,23 +14,23 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "LEIaddress",
-    "language": "pt_PT",
+    "language": "en_IND",
     "addressLines": [
-      "Okuneva, Franecki and Stark",
-      "8269 Mosciski Rapid"
+      "Morissette and Sons",
+      "36058 Breitenberg Spur"
     ],
-    "addressNumber": "81",
-    "addressNumberWithinBuilding": "8",
-    "mailRouting": "711 Victoria Trail, 40880-1832",
-    "city": "Sylvanville",
-    "region": "Cambridgeshire",
-    "country": "Cape Verde",
-    "postalCode": "85875"
+    "addressNumber": "316",
+    "addressNumberWithinBuilding": "2",
+    "mailRouting": "70549 Huel Streets, 19717-9167",
+    "city": "Port Eliseville",
+    "region": "Borders",
+    "country": "Wallis and Futuna",
+    "postalCode": "70754-3060"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..58YG4hVomfsBZVXAA8Wf5hSHtOeEw2ecYLwNoBXLHt1Bj9lHXPUpwM_ByQeBpkQbvL8dKpq0vW4kBa2d0i52Ag",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..D-BF8nF9hMlxRG4oXitK_VF2ulvwK8PPfGVyQ3QQgWQs5sqwmOzuyllgKBrPWmrOc4rUguycTK-fSADGeE2hBA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

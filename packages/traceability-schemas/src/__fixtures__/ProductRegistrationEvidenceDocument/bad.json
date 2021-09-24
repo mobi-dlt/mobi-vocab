@@ -1,36 +1,45 @@
 [
   {
     "type": "ProductRegistrationEvidenceDocument",
-    "inProductGroupWithID": "Group204",
-    "productID": "7SFSRL3ZAB",
+    "inProductGroupWithID": "Group358",
+    "mpn": "XY2AF3PLGM",
     "isAccessoryOrSparePartFor": "n/a",
-    "manufacturer": "Witting LLC",
-    "leiCode": "",
-    "depth": "1.828 m",
-    "url": "https://example.com/Licensed Metal Fish",
-    "isBasedOn": "Handcrafted Rubber Table",
-    "pixel": "copy",
-    "firewall": "compress",
-    "program": "quantify"
+    "globalLocationNumber": "6774687220342",
+    "color": "teal",
+    "height": "6.627 m",
+    "depth": "4.362 m",
+    "program": "parse",
+    "alarm": "bypass",
+    "sensor": "back up"
   },
   {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "category": "Dietary Supplement",
+    "inProductGroupWithID": "Group901",
+    "gtin": "24278005477762",
     "isAccessoryOrSparePartFor": "n/a",
     "releaseDate": "2020-01-07",
-    "globalLocationNumber": "3277913849800",
-    "leiCode": "",
-    "name": "Small Fresh Mouse",
-    "description": "The Football Is Good For Training And Recreational Purposes",
-    "width": "9.967 m",
-    "image": "http://placeimg.com/640/480",
-    "program": "back up",
-    "port": "bypass"
+    "manufacturer": "Ratke, Doyle and Bosco",
+    "name": "Handmade Cotton Gloves",
+    "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+    "color": "indigo",
+    "material": "Cotton",
+    "depth": "3.55 m",
+    "url": "https://example.com/Handmade Cotton Gloves",
+    "isBasedOn": "Awesome Soft Mouse",
+    "system": "reboot",
+    "microchip": "quantify"
   },
   {
-    "productID": "FQ7LLOL2DY",
-    "isAccessoryOrSparePartFor": "n/a",
-    "width": "4.983 m",
-    "url": "https://example.com/Gorgeous Frozen Car",
-    "isBasedOn": "Handcrafted Wooden Sausages",
-    "bandwidth": "copy"
+    "inProductGroupWithID": "Group878",
+    "material": "Steel",
+    "weight": "8.079 kg",
+    "url": "https://example.com/Licensed Granite Pants",
+    "application": "transmit",
+    "card": "override",
+    "circuit": "transmit",
+    "capacitor": "transmit"
   }
 ]

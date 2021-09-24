@@ -4,30 +4,25 @@
       "https://www.w3.org/2018/credentials/v1",
       "https://dlt.mobi/mobility"
     ],
-    "type": [
-      "StripeCustomerCredential",
-      "VerifiableCredential"
-    ],
-    "transmitter": "synthesize",
-    "firewall": "input"
-  },
-  {
-    "expirationDate": "2022-07-11",
-    "feed": "hack",
-    "interface": "index",
-    "transmitter": "connect"
-  },
-  {
-    "type": [
-      "StripeCustomerCredential",
-      "VerifiableCredential"
-    ],
     "holder": "did:mobi:f436e12ec21ebfdb1f712ebc3h",
-    "issuanceDate": "2021-03-09",
     "expirationDate": "2022-07-11",
-    "circuit": "compress",
-    "transmitter": "quantify",
-    "alarm": "back up",
-    "bus": "synthesize"
+    "microchip": "quantify",
+    "card": "override"
+  },
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://dlt.mobi/mobility"
+    ],
+    "microchip": "transmit",
+    "bandwidth": "input",
+    "feed": "input",
+    "array": "hack"
+  },
+  {
+    "customerID": "customer123",
+    "driver": "copy",
+    "interface": "copy",
+    "panel": "parse"
   }
 ]

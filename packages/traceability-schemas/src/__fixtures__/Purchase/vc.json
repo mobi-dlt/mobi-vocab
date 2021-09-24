@@ -17,26 +17,34 @@
       "Purchase"
     ],
     "customer": {
-      "type": "Organization",
-      "name": "Lueilwitz - Leuschke",
-      "description": "Exclusive executive portal",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "2911 Antoinette Divide",
-        "addressLocality": "Denesikside",
-        "addressRegion": "North Dakota",
-        "postalCode": "87886-4182",
-        "addressCountry": "Albania"
+      "type": "Person",
+      "firstName": "Hillard",
+      "lastName": "Cummerata",
+      "email": "Abbigail_Stracke73@example.net",
+      "phoneNumber": "555-540-2057",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Monahan and Sons",
+        "description": "De-engineered high-level neural-net",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "2928 Turner Harbors",
+          "addressLocality": "North Kavon",
+          "addressRegion": "Tennessee",
+          "postalCode": "31587-6883",
+          "addressCountry": "Sweden"
+        },
+        "email": "Chelsea.Reichert22@example.com",
+        "phoneNumber": "555-515-7735",
+        "faxNumber": "555-473-4952"
       },
-      "email": "Ardith_Shields82@example.com",
-      "phoneNumber": "555-378-9321",
-      "faxNumber": "555-324-4989"
+      "jobTitle": "Forward Operations Specialist"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..4_tSq6Gb40UCGEmr9VjKS5OGJyg69t7eZhovtDuRmhg7_nZ1vejShINom6uMCu54Q7yCMKlGuoJzNaVmStFlCw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..LhuXyrCJCfxz_ZSPu-jrxCyPVINmeF-L03EjPm5cDnvdT0uWsx3FrA7jWAagINQFrxbJVgulzUuw6PM8qhJGCg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

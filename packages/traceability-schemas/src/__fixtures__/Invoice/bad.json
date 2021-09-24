@@ -3,24 +3,21 @@
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "type": "Invoice",
-    "bandwidth": "synthesize"
+    "panel": "program"
+  },
+  {
+    "transmitter": "back up",
+    "panel": "transmit",
+    "array": "compress",
+    "monitor": "reboot"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
     "type": "Invoice",
-    "protocol": "connect",
-    "circuit": "transmit",
-    "firewall": "quantify"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "hard drive": "program",
-    "port": "input",
-    "circuit": "generate"
+    "transmitter": "input",
+    "firewall": "compress",
+    "driver": "override"
   }
 ]

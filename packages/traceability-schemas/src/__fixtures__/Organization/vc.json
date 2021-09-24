@@ -14,24 +14,24 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "Organization",
-    "name": "Swaniawski, Feest and Runolfsson",
-    "description": "Self-enabling regional application",
+    "name": "Stiedemann LLC",
+    "description": "Focused zero administration support",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "61186 Roderick Flats",
-      "addressLocality": "East Arelyfurt",
-      "addressRegion": "Louisiana",
-      "postalCode": "85233-2007",
-      "addressCountry": "French Southern Territories"
+      "streetAddress": "34342 Lockman Trace",
+      "addressLocality": "West Harleyshire",
+      "addressRegion": "South Dakota",
+      "postalCode": "44004",
+      "addressCountry": "Rwanda"
     },
-    "email": "Stanley_Gibson@example.com",
-    "phoneNumber": "555-467-6878",
-    "faxNumber": "555-783-9444"
+    "email": "Nicklaus_Price1@example.net",
+    "phoneNumber": "555-124-9262",
+    "faxNumber": "555-969-3520"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Kwbxwdr_MKHTN2IvLspc2T8BN34zjP2HB838gk0Pv6GIDUOSleCICB3OLfATvG13T9Q11gMDCVDXfuMNY2K0Cw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..5Hqk2Ds2UtiYLvc6NPV2faB9gvAtnrZeUesgJiDsOmG5P-D-f22dkxzDju7vYbLXcXrrRvvmfPE6NXjz_wUPBA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

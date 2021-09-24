@@ -1,45 +1,62 @@
 [
   {
-    "transmitter": "back up"
-  },
-  {
-    "alarm": "copy",
-    "card": "program"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "manufacturer": {
-      "type": "Organization",
-      "name": "Weber - Harvey",
-      "description": "Mandatory optimal structure",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "36958 Susie Street",
-        "addressLocality": "Adolfoberg",
-        "addressRegion": "North Dakota",
-        "postalCode": "01502",
-        "addressCountry": "Hong Kong"
-      },
-      "email": "Leland78@example.com",
-      "phoneNumber": "555-376-2722",
-      "faxNumber": "555-417-4704"
-    },
-    "name": "Incredible Metal Chicken",
-    "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+    "name": "Licensed Fresh Computer",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "2865"
+      "value": "3850"
+    },
+    "feed": "generate",
+    "transmitter": "synthesize",
+    "hard drive": "generate"
+  },
+  {
+    "type": "Product",
+    "name": "Unbranded Rubber Chair",
+    "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+    "sizeOrAmount": {
+      "type": "QuantitativeValue",
+      "unitCode": "hg/ha",
+      "value": "8509"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "4333"
+      "value": "9820"
     },
-    "sku": "72120377450",
-    "interface": "parse",
-    "matrix": "calculate"
+    "sku": "674023181138",
+    "driver": "copy",
+    "interface": "copy",
+    "microchip": "navigate"
+  },
+  {
+    "manufacturer": {
+      "type": "Person",
+      "firstName": "Duane",
+      "lastName": "Hane",
+      "email": "Troy_Kemmer1@example.org",
+      "phoneNumber": "555-191-9913",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Schaden - Osinski",
+        "description": "Re-engineered modular attitude",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "7846 Sawayn Circle",
+          "addressLocality": "West Art",
+          "addressRegion": "Michigan",
+          "postalCode": "66300",
+          "addressCountry": "Costa Rica"
+        },
+        "email": "Oscar_Johnson60@example.org",
+        "phoneNumber": "555-436-4432",
+        "faxNumber": "555-950-9838"
+      },
+      "jobTitle": "Senior Division Analyst"
+    },
+    "sku": "555499865516",
+    "interface": "bypass",
+    "port": "quantify",
+    "microchip": "generate"
   }
 ]

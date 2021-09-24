@@ -14,26 +14,26 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "Place",
-    "globalLocationNumber": "4443222826434",
+    "globalLocationNumber": "8066705577669",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "-23.8080",
-      "longitude": "-136.7254"
+      "latitude": "88.4391",
+      "longitude": "54.3447"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Gleason and Sons",
-      "streetAddress": "32377 Heidenreich Motorway",
-      "addressLocality": "Gabriellemouth",
-      "addressRegion": "Alabama",
-      "postalCode": "26659-8860",
-      "addressCountry": "Malta"
+      "organizationName": "Nolan - Windler",
+      "streetAddress": "0732 Cletus Flat",
+      "addressLocality": "Brooksside",
+      "addressRegion": "New York",
+      "postalCode": "73521-9856",
+      "addressCountry": "Tunisia"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vnFvYoFHS-zk3TkoJQhBVeuCiax3BrW_0XVmExyZKnfVcomCvtBWbOx6ML7Z3VCG_wNhyxDty5PAk_2vpkqpBg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UKC7o-o0__6xiZE_lEEWfLfVN81MrBd51U2U3Sw4VzdkU4zWfqP6SxR_fAmyfhfOLruysDtzGdV1g2SeK3V4CQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

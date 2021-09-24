@@ -6,46 +6,28 @@
     "type": "VID",
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "manufacturer": {
-      "type": "Organization",
-      "name": "Klocko LLC",
-      "description": "Programmable heuristic software",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "165 Luis Causeway",
-        "addressLocality": "Websterfurt",
-        "addressRegion": "Arkansas",
-        "postalCode": "51768",
-        "addressCountry": "Morocco"
-      },
-      "email": "Cecelia68@example.net",
-      "phoneNumber": "555-472-2614",
-      "faxNumber": "555-283-7346"
-    },
-    "make": "Ford",
-    "model": "Mach_E",
-    "vin": "JTERU5JR7M5861170"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "VID",
-    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "manufacturer": {
-      "type": "Organization",
-      "name": "Tillman LLC",
-      "description": "Profound methodical concept",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "8155 Nitzsche Street",
-        "addressLocality": "Blockstad",
-        "addressRegion": "Pennsylvania",
-        "postalCode": "03507-0042",
-        "addressCountry": "Belgium"
-      },
-      "email": "Sally_Wolf19@example.com",
+      "type": "Person",
+      "firstName": "Lewis",
+      "lastName": "Thompson",
+      "email": "Shany_Pollich@example.org",
       "phoneNumber": "555-924-6461",
-      "faxNumber": "555-654-8928"
+      "worksFor": {
+        "type": "Organization",
+        "name": "Medhurst, Botsford and Hermann",
+        "description": "Persistent 6th generation orchestration",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "64848 Talia Rapids",
+          "addressLocality": "Loyceport",
+          "addressRegion": "West Virginia",
+          "postalCode": "81558",
+          "addressCountry": "Faroe Islands"
+        },
+        "email": "Annabelle8@example.org",
+        "phoneNumber": "555-678-9291",
+        "faxNumber": "555-170-6248"
+      },
+      "jobTitle": "Dynamic Optimization Facilitator"
     },
     "make": "Ford",
     "model": "Mach_E",
@@ -72,6 +54,40 @@
       "email": "Ian_Corkery@example.org",
       "phoneNumber": "555-289-2513",
       "faxNumber": "555-306-5274"
+    },
+    "make": "Ford",
+    "model": "Mach_E",
+    "vin": "JTERU5JR7M5861170"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "VID",
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "manufacturer": {
+      "type": "Person",
+      "firstName": "Osborne",
+      "lastName": "Lakin",
+      "email": "Buford.Hahn@example.org",
+      "phoneNumber": "555-530-6226",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Boyle and Sons",
+        "description": "Stand-alone disintermediate orchestration",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "01823 Pacocha Inlet",
+          "addressLocality": "North Wendell",
+          "addressRegion": "Hawaii",
+          "postalCode": "88173",
+          "addressCountry": "Barbados"
+        },
+        "email": "Lexie13@example.com",
+        "phoneNumber": "555-878-9880",
+        "faxNumber": "555-239-3442"
+      },
+      "jobTitle": "Product Directives Analyst"
     },
     "make": "Ford",
     "model": "Mach_E",

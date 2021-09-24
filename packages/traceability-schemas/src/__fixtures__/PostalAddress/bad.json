@@ -1,29 +1,31 @@
 [
   {
-    "type": "PostalAddress",
-    "organizationName": "Lehner Group",
-    "streetAddress": "35969 Dorris Cliff",
-    "addressLocality": "Schoenmouth",
-    "addressRegion": "Minnesota",
-    "postalCode": "51440-5184",
-    "bus": "hack",
-    "matrix": "parse",
-    "transmitter": "generate"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "panel": "parse",
+    "hard drive": "input",
+    "application": "program",
+    "sensor": "quantify"
   },
   {
-    "streetAddress": "116 Ziemann Villages",
-    "addressLocality": "New Veda",
-    "addressRegion": "Wyoming",
-    "monitor": "reboot",
-    "array": "reboot",
-    "feed": "parse",
-    "interface": "generate"
+    "organizationName": "Smith Inc",
+    "addressLocality": "Alvisberg",
+    "addressRegion": "South Dakota",
+    "postalCode": "18578",
+    "addressCountry": "Bermuda",
+    "sensor": "reboot",
+    "alarm": "back up"
   },
   {
-    "organizationName": "Wolff, Wisoky and Rosenbaum",
-    "addressLocality": "New Jadafurt",
-    "addressCountry": "Liberia",
-    "capacitor": "generate",
-    "program": "transmit"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "organizationName": "Turcotte and Sons",
+    "addressRegion": "New York",
+    "addressCountry": "Uruguay",
+    "matrix": "compress",
+    "interface": "calculate",
+    "hard drive": "navigate"
   }
 ]

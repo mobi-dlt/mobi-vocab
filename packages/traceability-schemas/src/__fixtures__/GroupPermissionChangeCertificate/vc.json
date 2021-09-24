@@ -13,15 +13,18 @@
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "type": "LEIauthority",
-    "validationAuthorityID": "RA000661",
-    "otherValidationAuthorityID": "2NKB9LSF",
-    "validationAuthorityEntityID": "BZG50G2OEEHZLPANPRUY"
+    "type": "GroupPermissionChangeCertificate",
+    "URI": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+    "OwnerEID": "pubkey",
+    "Group": "sampleuri",
+    "Read": "sampleuri",
+    "Write": "blocked uri",
+    "SignAlgo": "algo"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..kE3PrNgUMQvc9uKZAJpUGMkFbV23Vi_JpCRvB-gBvtxwkuDBoizNkIpV5lkqMR1QTtI8Djeqv4mbrCruS6mdDw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..t4kXR3zR6Y6qbXC0BqmsqoEaWJi4XnvP2wFmUwhhYMH39ARU_EiZ7b29tOR7mWjR3VzrxbnUb4uhgE7T9e2FDg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

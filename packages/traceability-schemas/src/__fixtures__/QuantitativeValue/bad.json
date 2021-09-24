@@ -3,22 +3,26 @@
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "value": "6736",
-    "alarm": "override",
-    "feed": "synthesize",
-    "port": "program",
-    "driver": "input"
+    "type": "QuantitativeValue",
+    "unitCode": "hg/ha",
+    "microchip": "override",
+    "protocol": "back up"
   },
   {
     "type": "QuantitativeValue",
-    "bus": "program",
-    "microchip": "connect",
-    "panel": "navigate",
-    "port": "transmit"
+    "value": "4798",
+    "matrix": "program",
+    "protocol": "generate",
+    "alarm": "parse"
   },
   {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
     "type": "QuantitativeValue",
-    "circuit": "connect",
-    "sensor": "back up"
+    "system": "compress",
+    "matrix": "reboot",
+    "hard drive": "back up",
+    "card": "connect"
   }
 ]

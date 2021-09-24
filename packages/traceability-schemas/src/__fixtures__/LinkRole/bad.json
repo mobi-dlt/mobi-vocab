@@ -1,19 +1,17 @@
 [
   {
-    "feed": "quantify"
+    "panel": "reboot",
+    "array": "input"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
     "type": "LinkRole",
-    "linkRelationship": "alternate",
-    "monitor": "transmit"
+    "target": "https://example.com/related/link/123",
+    "alarm": "index",
+    "pixel": "quantify",
+    "array": "input"
   },
   {
-    "microchip": "navigate",
-    "bus": "copy",
-    "transmitter": "reboot",
-    "firewall": "bypass"
+    "alarm": "back up",
+    "panel": "input"
   }
 ]

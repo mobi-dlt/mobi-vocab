@@ -1,19 +1,5 @@
 [
   {
-    "type": "TotalCharge",
-    "monitor": "compress",
-    "transmitter": "quantify",
-    "feed": "bypass",
-    "matrix": "bypass"
-  },
-  {
-    "totalCollect": 2258,
-    "sourceCurrency": "SOS",
-    "driver": "copy",
-    "interface": "copy",
-    "panel": "parse"
-  },
-  {
     "totalPrepaid": 2708.25,
     "sourceCurrency": "EUR",
     "currencyConversionRate": 4,
@@ -21,5 +7,20 @@
     "totalCollectCharge": 212.75,
     "program": "back up",
     "driver": "back up"
+  },
+  {
+    "type": "TotalCharge",
+    "totalCollect": 1560.25,
+    "sourceCurrency": "RON",
+    "currencyConversionRate": 4,
+    "ccChargesDestinationCurrency": "RON",
+    "totalCollectCharge": 177.25,
+    "driver": "quantify",
+    "capacitor": "calculate",
+    "interface": "program"
+  },
+  {
+    "pixel": "program",
+    "capacitor": "navigate"
   }
 ]
