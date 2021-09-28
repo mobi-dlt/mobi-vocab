@@ -1,0 +1,23 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "TimeDependentSmartEnergyTariffs",
+    "Date": "date",
+    "TimeOfDay": "TimeOfDay",
+    "Amount": "Amount",
+    "CarbonIntensity": "arbonIntensity",
+    "matrix": "connect",
+    "alarm": "program"
+  },
+  {
+    "type": "TimeDependentSmartEnergyTariffs",
+    "transmitter": "synthesize",
+    "array": "synthesize"
+  },
+  {
+    "SOC": "soc",
+    "feed": "calculate"
+  }
+]

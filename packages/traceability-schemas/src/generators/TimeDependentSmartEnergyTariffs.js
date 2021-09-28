@@ -1,4 +1,4 @@
-const getMeter = () => {
+const getTimeDependentSmartEnergyTariffs = () => {
     const example = {
         '@context': ['https://dlt.mobi/mobility'],
         type: 'TimeDependentSmartEnergyTariffs',
@@ -12,4 +12,4 @@ const getMeter = () => {
     return example;
 };
 
-module.exports = { getMeter };
+module.exports = { getTimeDependentSmartEnergyTariffs };

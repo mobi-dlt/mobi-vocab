@@ -1,19 +1,30 @@
 [
   {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
     "Email": "matt@dlt.mobi",
-    "pixel": "quantify",
-    "matrix": "calculate",
-    "sensor": "reboot"
-  },
-  {
+    "Name": "matt",
     "PhoneNumber": "3128880765",
-    "matrix": "index",
-    "transmitter": "synthesize"
+    "sensor": "back up",
+    "port": "reboot"
   },
   {
+    "type": "UserEntityID",
+    "EntityUserID": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+    "Address": "address",
     "Email": "matt@dlt.mobi",
-    "protocol": "index",
-    "program": "connect",
-    "sensor": "back up"
+    "Name": "matt",
+    "PhoneNumber": "3128880765",
+    "system": "hack"
+  },
+  {
+    "type": "UserEntityID",
+    "EntityUserID": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+    "Email": "matt@dlt.mobi",
+    "bandwidth": "index",
+    "driver": "copy",
+    "panel": "transmit",
+    "microchip": "copy"
   }
 ]

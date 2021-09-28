@@ -4,41 +4,41 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 7467.75,
-    "totalCollect": 2489.25,
-    "sourceCurrency": "COP",
-    "destinationCurrency": "KES",
-    "currencyConversionRate": 5,
-    "ccChargesDestinationCurrency": "COP",
-    "chargesDestination": 449,
-    "totalCollectCharge": 112.25
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "TotalCharge",
-    "totalPrepaid": 2802.75,
-    "totalCollect": 934.25,
-    "sourceCurrency": "NPR",
-    "destinationCurrency": "TOP",
-    "currencyConversionRate": 5,
-    "ccChargesDestinationCurrency": "NPR",
-    "chargesDestination": 119,
-    "totalCollectCharge": 29.75
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "TotalCharge",
-    "totalPrepaid": 3108,
-    "totalCollect": 1036,
-    "sourceCurrency": "SEK",
-    "destinationCurrency": "MOP",
+    "totalPrepaid": 4867.5,
+    "totalCollect": 1622.5,
+    "sourceCurrency": "OMR",
+    "destinationCurrency": "YER",
     "currencyConversionRate": 2,
-    "ccChargesDestinationCurrency": "SEK",
-    "chargesDestination": 187,
-    "totalCollectCharge": 46.75
+    "ccChargesDestinationCurrency": "OMR",
+    "chargesDestination": 79,
+    "totalCollectCharge": 19.75
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "TotalCharge",
+    "totalPrepaid": 4351.5,
+    "totalCollect": 1450.5,
+    "sourceCurrency": "ALL",
+    "destinationCurrency": "JPY",
+    "currencyConversionRate": 3,
+    "ccChargesDestinationCurrency": "ALL",
+    "chargesDestination": 671,
+    "totalCollectCharge": 167.75
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "TotalCharge",
+    "totalPrepaid": 4795.5,
+    "totalCollect": 1598.5,
+    "sourceCurrency": "UGX",
+    "destinationCurrency": "LTL",
+    "currencyConversionRate": 5,
+    "ccChargesDestinationCurrency": "UGX",
+    "chargesDestination": 494,
+    "totalCollectCharge": 123.5
   }
 ]

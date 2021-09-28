@@ -1,0 +1,44 @@
+[
+  {
+    "type": "V2GCommunication",
+    "SellerID": "SellerID",
+    "Seller": "Seller",
+    "DateOfLastChargeDischarge": "DateOfLastChargeDischarge",
+    "EnergySource": "EnergySource",
+    "feed": "copy",
+    "protocol": "parse"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "V2GCommunication",
+    "EnergyExchange": "EnergyExchange",
+    "RecipientBuyerUserID": "RecipientBuyerUserID",
+    "RecipientBuyerVehicleID": "RecipientBuyerVehicleID",
+    "SellerID": "SellerID",
+    "UtilityIdentifier": "UtilityIdentifier",
+    "VehicleGeocordinates": "VehicleGeocordinates",
+    "Cost": "Cost",
+    "Seller": "Seller",
+    "EnergySource": "EnergySource",
+    "application": "navigate"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "V2GCommunication",
+    "DateTime": "DateTime",
+    "EnergyExchange": "EnergyExchange",
+    "RecipientBuyerUserID": "RecipientBuyerUserID",
+    "RecipientBuyerVehicleID": "RecipientBuyerVehicleID",
+    "SellerID": "SellerID",
+    "UtilityIdentifier": "UtilityIdentifier",
+    "VehicleGeocordinates": "VehicleGeocordinates",
+    "Cost": "Cost",
+    "Seller": "Seller",
+    "DateOfLastChargeDischarge": "DateOfLastChargeDischarge",
+    "port": "bypass"
+  }
+]

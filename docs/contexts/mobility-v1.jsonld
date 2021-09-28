@@ -1007,6 +1007,29 @@
         }
       }
     },
+    "TimeDependentSmartEnergyTariffs": {
+      "@id": "https://dlt.mobi/mobility#TimeDependentSmartEnergyTariffs",
+      "@context": {
+        "Date": {
+          "@id": "https://schema.org/Date"
+        },
+        "SOC": {
+          "@id": "https://schema.org/Number"
+        },
+        "TimeOfDay": {
+          "@id": "https://schema.org/Time"
+        },
+        "Amount": {
+          "@id": "https://schema.org/QuantitativeValue"
+        },
+        "CarbonIntensity": {
+          "@id": "https://intensity"
+        },
+        "PaymentCurrencyType": {
+          "@id": "https://schema.org/Text"
+        }
+      }
+    },
     "TotalCharge": {
       "@id": "https://dlt.mobi/mobility#TotalCharge",
       "@context": {

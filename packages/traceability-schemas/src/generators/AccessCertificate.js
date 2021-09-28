@@ -1,5 +1,3 @@
-const faker = require('faker');
-
 const getAccessCertificate = () => {
     const example = {
         '@context': ['https://dlt.mobi/mobility'],

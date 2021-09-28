@@ -20,36 +20,36 @@
             ]
         },
         "Date": {
-            "$comment": "{\"term\": \"Make\", \"@id\": \"https://schema.org/Name\"}",
-            "title": "Make",
-            "description": "Make"
+            "$comment": "{\"term\": \"Date\", \"@id\": \"https://schema.org/Date\"}",
+            "title": "Date",
+            "description": "Date"
         },
         "SOC": {
-            "$comment": "{\"term\": \"Model\", \"@id\": \"https://schema.org/Number\"}",
+            "$comment": "{\"term\": \"SOC\", \"@id\": \"https://schema.org/Number\"}",
             "title": "Model",
             "description": "Model"
         },
         "TimeOfDay": {
-            "$comment": "{\"term\": \"ChargeRate\", \"@id\": \"https://schema.org/Time\"}",
-            "title": "ChargeRate",
-            "description": "ChargeRate",
+            "$comment": "{\"term\": \"TimeOfDay\", \"@id\": \"https://schema.org/Time\"}",
+            "title": "TimeOfDay",
+            "description": "TimeOfDay",
             "type":"string"
         },
         "Amount": {
-            "$comment": "{\"term\": \"GeoCoordinates\", \"@id\": \"https://schema.org/QuantitativeValue\"}",
-            "title": "GeoCoordinates",
-            "description": "GeoCoordinates",
+            "$comment": "{\"term\": \"Amount\", \"@id\": \"https://schema.org/QuantitativeValue\"}",
+            "title": "Amount",
+            "description": "Amount",
             "type":"string"
         },
         "CarbonIntensity": {
-            "$comment": "{\"term\": \"MeterUniqueIdentifier\", \"@id\": \"https://intensity\"}",
-            "title": "MeterUniqueIdentifier",
+            "$comment": "{\"term\": \"CarbonIntensity\", \"@id\": \"https://intensity\"}",
+            "title": "CarbonIntensity",
             "description": "cryptographic scheme used to sign the certificate",
             "type":"string"
         },
         "PaymentCurrencyType": {
-            "$comment": "{\"term\": \"SerialModel\", \"@id\": \"https://schema.org/Text\"}",
-            "title": "SerialModel",
+            "$comment": "{\"term\": \"PaymentCurrencyType\", \"@id\": \"https://schema.org/Text\"}",
+            "title": "PaymentCurrencyType",
             "description": "SerialModel",
             "type":"string"
         }
