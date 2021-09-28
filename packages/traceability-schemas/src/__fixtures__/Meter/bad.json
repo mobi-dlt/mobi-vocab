@@ -1,0 +1,52 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "Make": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+    "Model": "model",
+    "GeoCoordinates": "GeoCoordinates",
+    "MeterUniqueIdentifier": "MeterUniqueIdentifier",
+    "SerialModel": "SerialModel",
+    "ProductionDate": "ProductionDate",
+    "ConformanceToStandards": "ConformanceToStandards",
+    "MeterAdminID": "MeterAdminID",
+    "MeterCurrentRating": " MeterCurrentRating",
+    "MeterForm": "MeterForm",
+    "MeterRecords": " MeterRecords",
+    "RemoteDisconnectCapability": "RemoteDisconnectCapability",
+    "transmitter": "copy",
+    "driver": "index",
+    "hard drive": "compress",
+    "matrix": "transmit"
+  },
+  {
+    "MeterUniqueIdentifier": "MeterUniqueIdentifier",
+    "MeterCurrentRating": " MeterCurrentRating",
+    "bus": "transmit",
+    "protocol": "program",
+    "capacitor": "quantify"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "Meter",
+    "Make": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+    "Model": "model",
+    "ChargeRate": "ChargeRate",
+    "GeoCoordinates": "GeoCoordinates",
+    "MeterUniqueIdentifier": "MeterUniqueIdentifier",
+    "SerialModel": "SerialModel",
+    "ProductionDate": "ProductionDate",
+    "MeterSoftwareVersion": "MeterSoftwareVersion",
+    "ConformanceToStandards": "ConformanceToStandards",
+    "MeterAdminID": "MeterAdminID",
+    "MeterCurrentRating": " MeterCurrentRating",
+    "MeterForm": "MeterForm",
+    "MeterRecords": " MeterRecords",
+    "RemoteDisconnectCapability": "RemoteDisconnectCapability",
+    "system": "connect",
+    "card": "reboot"
+  }
+]

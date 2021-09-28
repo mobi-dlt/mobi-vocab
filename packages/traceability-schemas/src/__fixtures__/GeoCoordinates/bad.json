@@ -1,21 +1,25 @@
 [
   {
-    "system": "copy",
-    "firewall": "transmit",
-    "alarm": "quantify"
-  },
-  {
-    "longitude": "-97.1968",
-    "feed": "generate",
-    "array": "index",
-    "monitor": "index",
-    "protocol": "quantify"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "latitude": "-47.9506",
+    "longitude": "32.0791",
+    "circuit": "parse"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "monitor": "calculate",
-    "firewall": "program"
+    "latitude": "-81.8819",
+    "longitude": "-26.0017",
+    "feed": "hack",
+    "program": "parse"
+  },
+  {
+    "circuit": "program",
+    "capacitor": "quantify",
+    "sensor": "reboot",
+    "pixel": "parse"
   }
 ]

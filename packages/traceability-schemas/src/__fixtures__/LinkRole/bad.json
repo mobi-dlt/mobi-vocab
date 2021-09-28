@@ -1,17 +1,27 @@
 [
   {
-    "panel": "reboot",
-    "array": "input"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "linkRelationship": "alternate",
+    "bus": "navigate"
   },
   {
+    "linkRelationship": "alternate",
+    "transmitter": "bypass",
+    "sensor": "index",
+    "driver": "back up",
+    "system": "input"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
     "type": "LinkRole",
     "target": "https://example.com/related/link/123",
-    "alarm": "index",
-    "pixel": "quantify",
-    "array": "input"
-  },
-  {
-    "alarm": "back up",
-    "panel": "input"
+    "port": "hack",
+    "bus": "synthesize",
+    "card": "parse",
+    "circuit": "transmit"
   }
 ]

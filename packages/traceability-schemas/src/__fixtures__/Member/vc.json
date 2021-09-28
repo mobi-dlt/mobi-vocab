@@ -14,14 +14,14 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "Member",
-    "firstName": "Marian",
-    "lastName": "Breitenberg",
-    "email": "Emely6@example.org"
+    "firstName": "Nicklaus",
+    "lastName": "Price",
+    "email": "Rogers_Auer62@example.net"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..FUDOh4_N3jfy1rE49rQPLizGGGNIZtCyJhDfRwuYACRJTsyXiKt3-WFergmj5NokN9bbDbn_W61oxrbIO6EODA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..d55LQqdyEOgH6UcewVPu5Hw1ba_J3_BW10erC8GjQ1F-hy8IWGkjtpCRBv9YVIPMsoYDiZ6TL2qx3wDK0VifDg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

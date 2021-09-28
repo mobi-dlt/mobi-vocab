@@ -1,23 +1,20 @@
 [
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "panel": "program"
+    "sensor": "navigate",
+    "protocol": "back up"
   },
   {
-    "transmitter": "back up",
-    "panel": "transmit",
-    "array": "compress",
-    "monitor": "reboot"
+    "system": "input",
+    "alarm": "hack",
+    "pixel": "input",
+    "interface": "back up"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
     "type": "Invoice",
-    "transmitter": "input",
-    "firewall": "compress",
-    "driver": "override"
+    "array": "connect",
+    "transmitter": "input"
   }
 ]

@@ -1,18 +1,27 @@
 [
   {
-    "program": "parse",
-    "bandwidth": "parse"
-  },
-  {
-    "array": "copy"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "Brand",
+    "logo": "http://placeimg.com/640/480",
+    "matrix": "back up",
+    "port": "hack",
+    "card": "generate"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "type": "Brand",
-    "circuit": "index",
-    "application": "program",
-    "alarm": "program"
+    "url": "https://brand.example.com",
+    "matrix": "compress",
+    "microchip": "synthesize",
+    "driver": "compress"
+  },
+  {
+    "logo": "http://placeimg.com/640/480",
+    "url": "https://brand.example.com",
+    "array": "calculate",
+    "monitor": "calculate"
   }
 ]

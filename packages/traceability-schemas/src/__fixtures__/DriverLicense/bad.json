@@ -1,19 +1,39 @@
 [
   {
-    "legalName": "Matt Shi",
-    "feed": "quantify",
-    "program": "parse",
-    "interface": "navigate"
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000002",
+      "otherValidationAuthorityID": "AGZMPLDW",
+      "validationAuthorityEntityID": "Q1WAYY2WEG3MC966NGDC"
+    },
+    "issuanceDate": "2021-03-09",
+    "system": "synthesize",
+    "driver": "generate",
+    "port": "copy",
+    "interface": "transmit"
   },
   {
     "type": "DriverLicense",
+    "legalName": "Matt Shi",
+    "licenseNumber": "Y5327288",
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000001",
+      "otherValidationAuthorityID": "J150EDRT",
+      "validationAuthorityEntityID": "HZZ5DLQDEYTUKU2G1E49"
+    },
     "issuanceDate": "2021-03-09",
     "expirationDate": "2022-07-11",
-    "microchip": "calculate"
+    "feed": "transmit",
+    "firewall": "parse",
+    "monitor": "parse",
+    "circuit": "generate"
   },
   {
-    "bus": "bypass",
-    "sensor": "back up",
-    "interface": "hack"
+    "type": "DriverLicense",
+    "panel": "calculate",
+    "driver": "parse",
+    "array": "quantify",
+    "pixel": "calculate"
   }
 ]

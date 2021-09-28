@@ -1,16 +1,42 @@
 [
   {
-    "transmitter": "hack",
-    "matrix": "override",
-    "driver": "override",
-    "circuit": "synthesize"
+    "type": "VID",
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "make": "Ford",
+    "model": "Mach_E",
+    "vin": "JTERU5JR7M5861170",
+    "application": "generate",
+    "card": "calculate"
   },
   {
-    "transmitter": "override"
+    "manufacturer": {
+      "type": "Person",
+      "firstName": "Afton",
+      "lastName": "Dietrich",
+      "email": "Jeffry_Kovacek49@example.com",
+      "phoneNumber": "555-946-4343",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Stoltenberg - Dooley",
+        "description": "Fully-configurable 5th generation internet solution",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "044 Hyatt Way",
+          "addressLocality": "Rauton",
+          "addressRegion": "Iowa",
+          "postalCode": "34173",
+          "addressCountry": "Micronesia"
+        },
+        "email": "Rollin_Maggio88@example.org",
+        "phoneNumber": "555-592-7004",
+        "faxNumber": "555-992-7993"
+      },
+      "jobTitle": "Customer Applications Developer"
+    },
+    "card": "synthesize"
   },
   {
-    "protocol": "copy",
-    "system": "navigate",
-    "sensor": "override"
+    "microchip": "parse",
+    "feed": "back up"
   }
 ]

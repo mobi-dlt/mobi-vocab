@@ -1,0 +1,55 @@
+{
+    "$id": "https://dlt.mobi/mobility/UserEntityID.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"UserEntityID\", \"@id\": \"https://dlt.mobi/mobility#UserEntityID\"}",
+    "title": "User Entity ID",
+    "description": "EVGI: EVGI Entity Extension includes metadata about payment parameters",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        
+        "EntityUserID": {
+            "$comment": "{\"term\": \"EntityUserID\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "EntityUserID",
+            "description": "Id of entity or user"
+        },
+        "Address": {
+            "$comment": "{\"term\": \"Address\", \"@id\": \"https://schema.org/address\"}",
+            "title": "Address",
+            "description": "The address on this entity or user"
+        },
+        "Email": {
+            "$comment": "{\"term\": \"Email\", \"@id\": \"https://schema.org/Time\"}",
+            "title": "Email",
+            "description": "Email",
+            "type":"string"
+        },
+        "Name": {
+            "$comment": "{\"term\": \"Name\", \"@id\": \"https://schema.org/Text\"}",
+            "title": "Name",
+            "description": "Name",
+            "type":"string"
+        },
+        "PhoneNumber": {
+            "$comment": "{\"term\": \"PhoneNumber\", \"@id\": \"https://schema.org/Number\"}",
+            "title": "PhoneNumber",
+            "description": "Phone Number",
+            "type":"string"
+        }
+       
+    },
+    "additionalProperties": false,
+    "examples": []
+}

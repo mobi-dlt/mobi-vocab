@@ -14,13 +14,13 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "PriceSpecification",
-    "price": 2411,
-    "priceCurrency": "THB"
+    "price": 4605,
+    "priceCurrency": "KZT"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..REmWve1xBeNbCUFTCwQc--UtX4KLcnFXB5hhx8JA2nrdpRwpBhcw7uvMKYVUGD5eEuF8kCt9jDcSC9n0OyxiBw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..BmfUUF-4searDYIIOHewgMZaKuR6D-Mcqzf_z2w4I2LYSMlthQ6TwbWrj2Ho0MV-KutSJkjqwxaStk0gh-gxAA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

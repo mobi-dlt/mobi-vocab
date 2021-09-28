@@ -13,25 +13,33 @@
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "type": "Organization",
-    "name": "Purdy - Schneider",
-    "description": "Down-sized transitional budgetary management",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "10645 Rickie Manor",
-      "addressLocality": "Eloisehaven",
-      "addressRegion": "South Dakota",
-      "postalCode": "95087-4514",
-      "addressCountry": "Antarctica (the territory South of 60 deg S)"
+    "type": "Person",
+    "firstName": "Frida",
+    "lastName": "Lemke",
+    "email": "Mina3@example.com",
+    "phoneNumber": "555-656-7839",
+    "worksFor": {
+      "type": "Organization",
+      "name": "Rogahn LLC",
+      "description": "Digitized zero defect concept",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "83153 Batz Rest",
+        "addressLocality": "Lake Jaydestad",
+        "addressRegion": "Ohio",
+        "postalCode": "58193",
+        "addressCountry": "Azerbaijan"
+      },
+      "email": "Gabe.Walsh@example.com",
+      "phoneNumber": "555-102-3491",
+      "faxNumber": "555-881-8255"
     },
-    "email": "Adrianna_Wuckert@example.com",
-    "phoneNumber": "555-478-7796",
-    "faxNumber": "555-806-6582"
+    "jobTitle": "Corporate Functionality Liaison"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..pSuERTwDC6lje8Jq8bokE0_XoMXJj3Yh6V7QqXH0hO5iNi8MKcAX6kk-dpStTxBE-7U0b1gzyN-eXw2agVI4BQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Wgkhhq-BSgYfRYNYAdn1iyvBxeptowflpGwQ0aevoqf02N-hUfM0uIWuCUEAz_u4it6j9jIRyOei_nRFe2ATDQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

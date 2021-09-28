@@ -1,25 +1,33 @@
 [
   {
-    "capacitor": "program",
-    "alarm": "compress"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "licenseNumber": "Y5327288",
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000001",
+      "otherValidationAuthorityID": "8QJ1LWKU",
+      "validationAuthorityEntityID": "3GVE994HV1YUV1TBNXJQ"
+    },
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11",
+    "driver": "compress",
+    "feed": "input"
+  },
+  {
+    "legalName": "Matt Shi",
+    "driver": "program",
+    "transmitter": "back up"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000001",
-      "otherValidationAuthorityID": "VIXLZI69",
-      "validationAuthorityEntityID": "EIRHPZ5WTG8M8QJ1LWKU"
-    },
-    "issuanceDate": "2021-03-09",
-    "sensor": "program"
-  },
-  {
-    "panel": "synthesize",
-    "array": "program",
-    "program": "synthesize",
-    "capacitor": "synthesize"
+    "type": "IdentityCredential",
+    "legalName": "Matt Shi",
+    "licenseNumber": "Y5327288",
+    "expirationDate": "2022-07-11",
+    "capacitor": "copy"
   }
 ]

@@ -3,43 +3,26 @@
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "type": "LEIaddress",
-    "language": "en_IND",
-    "addressLines": [
-      "Morissette and Sons",
-      "36058 Breitenberg Spur"
-    ],
-    "addressNumber": "316",
-    "addressNumberWithinBuilding": "2",
-    "mailRouting": "70549 Huel Streets, 19717-9167",
-    "city": "Port Eliseville",
-    "region": "Borders",
-    "postalCode": "70754-3060",
-    "matrix": "parse",
-    "feed": "parse",
-    "system": "input",
-    "alarm": "hack"
-  },
-  {
-    "mailRouting": "49941 Casandra Locks, 78622-8076",
-    "monitor": "override",
-    "microchip": "back up",
-    "bus": "calculate"
+    "mailRouting": "228 Marilyne Cliffs, 61289",
+    "region": "Berkshire",
+    "circuit": "input",
+    "program": "input"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "language": "nl",
-    "addressLines": [
-      "Maggio - Stracke",
-      "12807 Jacey Dale"
-    ],
+    "addressNumberWithinBuilding": "6",
+    "country": "Niue",
+    "postalCode": "40151",
+    "protocol": "calculate"
+  },
+  {
+    "addressNumber": "156",
     "addressNumberWithinBuilding": "10",
-    "city": "Lake Jakeport",
-    "region": "Berkshire",
-    "country": "Kuwait",
-    "postalCode": "15166",
-    "sensor": "hack"
+    "country": "Seychelles",
+    "bandwidth": "program",
+    "array": "bypass",
+    "driver": "transmit"
   }
 ]

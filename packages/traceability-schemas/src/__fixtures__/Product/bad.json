@@ -1,62 +1,35 @@
 [
   {
-    "name": "Licensed Fresh Computer",
+    "type": "Product",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "3850"
+      "value": "4122"
     },
-    "feed": "generate",
-    "transmitter": "synthesize",
-    "hard drive": "generate"
+    "sku": "404533338815",
+    "system": "navigate"
   },
   {
     "type": "Product",
-    "name": "Unbranded Rubber Chair",
-    "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+    "name": "Intelligent Metal Towels",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "8509"
+      "value": "4042"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "9820"
+      "value": "7382"
     },
-    "sku": "674023181138",
-    "driver": "copy",
-    "interface": "copy",
-    "microchip": "navigate"
+    "sku": "204448530687",
+    "pixel": "override",
+    "firewall": "connect"
   },
   {
-    "manufacturer": {
-      "type": "Person",
-      "firstName": "Duane",
-      "lastName": "Hane",
-      "email": "Troy_Kemmer1@example.org",
-      "phoneNumber": "555-191-9913",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Schaden - Osinski",
-        "description": "Re-engineered modular attitude",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "7846 Sawayn Circle",
-          "addressLocality": "West Art",
-          "addressRegion": "Michigan",
-          "postalCode": "66300",
-          "addressCountry": "Costa Rica"
-        },
-        "email": "Oscar_Johnson60@example.org",
-        "phoneNumber": "555-436-4432",
-        "faxNumber": "555-950-9838"
-      },
-      "jobTitle": "Senior Division Analyst"
-    },
-    "sku": "555499865516",
-    "interface": "bypass",
-    "port": "quantify",
-    "microchip": "generate"
+    "circuit": "back up",
+    "microchip": "input",
+    "pixel": "calculate",
+    "feed": "navigate"
   }
 ]

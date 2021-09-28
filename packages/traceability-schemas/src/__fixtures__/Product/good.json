@@ -6,33 +6,33 @@
     "type": "Product",
     "manufacturer": {
       "type": "Organization",
-      "name": "West - Lowe",
-      "description": "Networked dynamic function",
+      "name": "Pacocha Inc",
+      "description": "Balanced client-server knowledge user",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "883 Schoen Garden",
-        "addressLocality": "East Bryceborough",
-        "addressRegion": "Hawaii",
-        "postalCode": "69181",
-        "addressCountry": "Philippines"
+        "streetAddress": "18881 Muller Ranch",
+        "addressLocality": "West Saul",
+        "addressRegion": "South Dakota",
+        "postalCode": "57023-6958",
+        "addressCountry": "Spain"
       },
-      "email": "Carter.Lakin73@example.com",
-      "phoneNumber": "555-788-7543",
-      "faxNumber": "555-703-6058"
+      "email": "Eduardo19@example.org",
+      "phoneNumber": "555-983-9154",
+      "faxNumber": "555-665-1109"
     },
-    "name": "Licensed Fresh Computer",
-    "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+    "name": "Incredible Cotton Fish",
+    "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "3850"
+      "value": "4122"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "261"
+      "value": "9351"
     },
-    "sku": "797549382847"
+    "sku": "404533338815"
   },
   {
     "@context": [
@@ -41,33 +41,33 @@
     "type": "Product",
     "manufacturer": {
       "type": "Organization",
-      "name": "Swaniawski Group",
-      "description": "Progressive hybrid project",
+      "name": "Wuckert, Anderson and Bergstrom",
+      "description": "Multi-channelled incremental utilisation",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "3748 Willms Cove",
-        "addressLocality": "Ratkemouth",
-        "addressRegion": "West Virginia",
-        "postalCode": "21888",
-        "addressCountry": "Cape Verde"
+        "streetAddress": "33996 Mozelle Spurs",
+        "addressLocality": "Bettyeville",
+        "addressRegion": "South Carolina",
+        "postalCode": "77619",
+        "addressCountry": "Faroe Islands"
       },
-      "email": "Demarcus_Hahn@example.org",
-      "phoneNumber": "555-709-3788",
-      "faxNumber": "555-662-3610"
+      "email": "Beatrice.Witting@example.org",
+      "phoneNumber": "555-392-3486",
+      "faxNumber": "555-947-4888"
     },
-    "name": "Unbranded Rubber Chair",
-    "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+    "name": "Intelligent Metal Towels",
+    "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "8509"
+      "value": "4042"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "9820"
+      "value": "7382"
     },
-    "sku": "674023181138"
+    "sku": "204448530687"
   },
   {
     "@context": [
@@ -75,41 +75,33 @@
     ],
     "type": "Product",
     "manufacturer": {
-      "type": "Person",
-      "firstName": "Duane",
-      "lastName": "Hane",
-      "email": "Troy_Kemmer1@example.org",
-      "phoneNumber": "555-191-9913",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Schaden - Osinski",
-        "description": "Re-engineered modular attitude",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "7846 Sawayn Circle",
-          "addressLocality": "West Art",
-          "addressRegion": "Michigan",
-          "postalCode": "66300",
-          "addressCountry": "Costa Rica"
-        },
-        "email": "Oscar_Johnson60@example.org",
-        "phoneNumber": "555-436-4432",
-        "faxNumber": "555-950-9838"
+      "type": "Organization",
+      "name": "Armstrong - Prosacco",
+      "description": "Versatile explicit database",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "6691 Arely Pines",
+        "addressLocality": "North Tiannashire",
+        "addressRegion": "Arkansas",
+        "postalCode": "40654",
+        "addressCountry": "Netherlands Antilles"
       },
-      "jobTitle": "Senior Division Analyst"
+      "email": "Mariam_Klein61@example.com",
+      "phoneNumber": "555-182-6836",
+      "faxNumber": "555-598-3406"
     },
-    "name": "Awesome Wooden Chips",
-    "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+    "name": "Gorgeous Rubber Chair",
+    "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "1802"
+      "value": "3136"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "9708"
+      "value": "2718"
     },
-    "sku": "555499865516"
+    "sku": "174089928139"
   }
 ]

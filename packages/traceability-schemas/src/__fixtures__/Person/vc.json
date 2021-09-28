@@ -14,32 +14,32 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "Person",
-    "firstName": "Millie",
-    "lastName": "Effertz",
-    "email": "Madonna_Strosin@example.com",
-    "phoneNumber": "555-474-8653",
+    "firstName": "Marianne",
+    "lastName": "Ruecker",
+    "email": "Jack77@example.org",
+    "phoneNumber": "555-567-4578",
     "worksFor": {
       "type": "Organization",
-      "name": "Russel - Hills",
-      "description": "Adaptive 6th generation standardization",
+      "name": "Jakubowski, Harris and Lemke",
+      "description": "Triple-buffered methodical data-warehouse",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "71967 Glover Village",
-        "addressLocality": "South Oswaldfurt",
-        "addressRegion": "North Carolina",
-        "postalCode": "01349-3584",
-        "addressCountry": "Kyrgyz Republic"
+        "streetAddress": "175 Bradtke Neck",
+        "addressLocality": "Pfeffertown",
+        "addressRegion": "Illinois",
+        "postalCode": "93807",
+        "addressCountry": "British Indian Ocean Territory (Chagos Archipelago)"
       },
-      "email": "Christy_Johnson@example.net",
-      "phoneNumber": "555-511-1998",
-      "faxNumber": "555-287-6709"
+      "email": "Modesto_Kohler4@example.org",
+      "phoneNumber": "555-953-4722",
+      "faxNumber": "555-128-5435"
     },
-    "jobTitle": "Human Web Manager"
+    "jobTitle": "Dynamic Operations Liaison"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..P1W4MdFlpAP76nzom9xUhdL60reu-jh52aF2zfzJ4TJHcNJQKITpGQN-b55M5uBoTs-HqF9tU1j5eSsUnGhPCw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vk1ElnMmCJHWijMxnRpZhRcyNgCJdUr81CBdg4Jk_JjFJRdz1BPLyioOdUDoHjXKGOGpJr6JvF7yemhi3yXdAA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

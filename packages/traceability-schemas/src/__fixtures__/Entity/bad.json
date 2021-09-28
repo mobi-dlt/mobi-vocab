@@ -1,40 +1,32 @@
 [
   {
-    "type": "Organization",
-    "phoneNumber": "555-478-7796",
-    "faxNumber": "555-806-6582",
-    "monitor": "navigate",
-    "hard drive": "generate",
-    "system": "transmit",
-    "circuit": "index"
-  },
-  {
-    "email": "Hanna.Treutel51@example.com",
-    "phoneNumber": "555-676-2620",
-    "worksFor": {
-      "type": "Organization",
-      "name": "Blanda - Lind",
-      "description": "Cross-platform high-level benchmark",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "971 Ronny Lodge",
-        "addressLocality": "Lake Destin",
-        "addressRegion": "Arkansas",
-        "postalCode": "09643",
-        "addressCountry": "Gibraltar"
-      },
-      "email": "Camryn69@example.com",
-      "phoneNumber": "555-288-6700",
-      "faxNumber": "555-621-3161"
-    },
-    "port": "navigate",
-    "microchip": "back up"
-  },
-  {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
     "email": "Mina3@example.com",
     "bandwidth": "program"
+  },
+  {
+    "bus": "override"
+  },
+  {
+    "worksFor": {
+      "type": "Organization",
+      "name": "Ortiz, Schuster and Ward",
+      "description": "Realigned leading edge internet solution",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "88005 Predovic Brook",
+        "addressLocality": "Ziemeland",
+        "addressRegion": "Vermont",
+        "postalCode": "59980",
+        "addressCountry": "Solomon Islands"
+      },
+      "email": "Jarvis_Goyette20@example.com",
+      "phoneNumber": "555-977-3321",
+      "faxNumber": "555-541-2537"
+    },
+    "firewall": "quantify",
+    "protocol": "navigate"
   }
 ]

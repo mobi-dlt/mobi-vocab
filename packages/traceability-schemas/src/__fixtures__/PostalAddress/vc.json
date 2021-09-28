@@ -14,17 +14,17 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "PostalAddress",
-    "organizationName": "Dare - Bins",
-    "streetAddress": "60901 Moses Stream",
-    "addressLocality": "Hermannside",
-    "addressRegion": "Ohio",
-    "postalCode": "35999-7318",
-    "addressCountry": "Kyrgyz Republic"
+    "organizationName": "Wilkinson, Zemlak and Kunde",
+    "streetAddress": "57436 Romaguera Key",
+    "addressLocality": "Port Anastasiashire",
+    "addressRegion": "Minnesota",
+    "postalCode": "23679-2355",
+    "addressCountry": "Guernsey"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Bn6jO6f5yVLGck6EnVL17mFtz1EwkXgElz9fXBL2O6AXGHSngDYF_TEfOkoPDsAW1Q20joKeJktaAhOAxbsjCA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19.._jT7Q4cQI1LBM6EZoKQaWllL0RwvpRTvgVZGrgkB8DJx3R94EG21GuCBsNctv6JBlW58i9zzJ-nVSb7WF_b0Dw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

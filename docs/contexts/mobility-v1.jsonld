@@ -82,6 +82,29 @@
         }
       }
     },
+    "BlockList": {
+      "@id": "https://dlt.mobi/mobility#BlockList",
+      "@context": {
+        "UIUD": {
+          "@id": "https://schema.org/codeValue"
+        },
+        "URI": {
+          "@id": "https://schema.org/url"
+        },
+        "IssuerEID": {
+          "@id": "https://schema.org/Person"
+        },
+        "BREID": {
+          "@id": "https://schema.org/Time"
+        },
+        "SignAlgo": {
+          "@id": "https://schema.org/algorithm"
+        },
+        "Reason": {
+          "@id": "https://schema.org/Text"
+        }
+      }
+    },
     "Brand": {
       "@id": "https://schema.org/Brand",
       "@context": {
@@ -245,6 +268,29 @@
         },
         "IssuerSig": {
           "@id": "https://schema.org/PropertyValue"
+        }
+      }
+    },
+    "EVGIEntityExtension": {
+      "@id": "https://dlt.mobi/mobility#EVGIEntityExtension",
+      "@context": {
+        "Address": {
+          "@id": "https://schema.org/codeValue"
+        },
+        "URI": {
+          "@id": "https://schema.org/url"
+        },
+        "IssuerEID": {
+          "@id": "https://schema.org/Person"
+        },
+        "BREID": {
+          "@id": "https://schema.org/Time"
+        },
+        "SignAlgo": {
+          "@id": "https://schema.org/algorithm"
+        },
+        "Reason": {
+          "@id": "https://schema.org/Text"
         }
       }
     },
@@ -533,6 +579,56 @@
         },
         "email": {
           "@id": "https://schema.org/email"
+        }
+      }
+    },
+    "Meter": {
+      "@id": "https://dlt.mobi/mobility#Meter",
+      "@context": {
+        "Make": {
+          "@id": "https://schema.org/Name"
+        },
+        "Model": {
+          "@id": "https://schema.org/model"
+        },
+        "ChargeRate": {
+          "@id": "https://schema.org/PaymentChargeSpecification"
+        },
+        "GeoCoordinates": {
+          "@id": "https://schema.org/GeoCoordinates"
+        },
+        "MeterUniqueIdentifier": {
+          "@id": "https://schema.org/identifier"
+        },
+        "SerialModel": {
+          "@id": "https://schema.org/serialNumber"
+        },
+        "MeterEndOfLifeEventRegistraion": {
+          "@id": "https://schema.org/Number"
+        },
+        "ProductionDate": {
+          "@id": "https://schema.org/Date"
+        },
+        "MeterSoftwareVersion": {
+          "@id": "https://schema.org/version"
+        },
+        "ConformanceToStandards": {
+          "@id": "https://schema.org/boolean"
+        },
+        "MeterAdminID": {
+          "@id": "https://schema.org/url"
+        },
+        "MeterCurrentRating": {
+          "@id": "https://schema.org/Rating"
+        },
+        "MeterForm": {
+          "@id": "https://schema.org/Text"
+        },
+        "MeterRecords": {
+          "@id": "https://schema.org/Documentation"
+        },
+        "RemoteDisconnectCapability": {
+          "@id": "https://schema.org/application"
         }
       }
     },
@@ -848,6 +944,32 @@
         }
       }
     },
+    "RevocationCertificate": {
+      "@id": "https://dlt.mobi/mobility#RevocationCertificate",
+      "@context": {
+        "RevokeHeader": {
+          "@id": "https://schema.org/Name"
+        },
+        "UIUD": {
+          "@id": "https://schema.org/codeValue"
+        },
+        "PrevCert": {
+          "@id": "https://schema.org/url"
+        },
+        "Expiration": {
+          "@id": "https://schema.org/Time"
+        },
+        "Reason": {
+          "@id": "https://schema.org/Text"
+        },
+        "IssuerEID": {
+          "@id": "https://schema.org/Person"
+        },
+        "SignAlgo": {
+          "@id": "https://schema.org/algorithm"
+        }
+      }
+    },
     "ServiceProvider": {
       "@id": "https://dlt.mobi/mobility#ServiceProvider",
       "@context": {
@@ -936,6 +1058,26 @@
         },
         "PermissionedEID": {
           "@id": "https://schema.org/address"
+        }
+      }
+    },
+    "UserEntityID": {
+      "@id": "https://dlt.mobi/mobility#UserEntityID",
+      "@context": {
+        "EntityUserID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "Address": {
+          "@id": "https://schema.org/address"
+        },
+        "Email": {
+          "@id": "https://schema.org/Time"
+        },
+        "Name": {
+          "@id": "https://schema.org/Text"
+        },
+        "PhoneNumber": {
+          "@id": "https://schema.org/Number"
         }
       }
     },

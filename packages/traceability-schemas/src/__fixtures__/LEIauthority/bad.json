@@ -1,16 +1,30 @@
 [
   {
-    "program": "bypass"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "LEIauthority",
+    "validationAuthorityID": "RA000004",
+    "capacitor": "synthesize",
+    "alarm": "transmit",
+    "application": "navigate",
+    "pixel": "transmit"
   },
   {
-    "microchip": "synthesize",
-    "bandwidth": "parse",
-    "alarm": "hack"
+    "system": "calculate",
+    "protocol": "connect",
+    "panel": "generate",
+    "driver": "synthesize"
   },
   {
-    "validationAuthorityEntityID": "JAPXVYPMSSCMTH2NWJJL",
-    "panel": "input",
-    "system": "bypass",
-    "monitor": "bypass"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "validationAuthorityID": "RA000004",
+    "validationAuthorityEntityID": "27EO72F179UG6VYQEQUF",
+    "matrix": "generate",
+    "driver": "generate",
+    "bus": "generate",
+    "hard drive": "quantify"
   }
 ]

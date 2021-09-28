@@ -1,26 +1,24 @@
 [
   {
-    "totalPrepaid": 2708.25,
-    "sourceCurrency": "EUR",
-    "currencyConversionRate": 4,
-    "chargesDestination": 851,
-    "totalCollectCharge": 212.75,
-    "program": "back up",
-    "driver": "back up"
-  },
-  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
     "type": "TotalCharge",
-    "totalCollect": 1560.25,
-    "sourceCurrency": "RON",
-    "currencyConversionRate": 4,
-    "ccChargesDestinationCurrency": "RON",
-    "totalCollectCharge": 177.25,
-    "driver": "quantify",
-    "capacitor": "calculate",
-    "interface": "program"
+    "totalPrepaid": 7467.75,
+    "sourceCurrency": "COP",
+    "totalCollectCharge": 112.25,
+    "pixel": "generate",
+    "protocol": "parse",
+    "system": "transmit",
+    "feed": "navigate"
   },
   {
-    "pixel": "program",
-    "capacitor": "navigate"
+    "hard drive": "hack",
+    "monitor": "calculate"
+  },
+  {
+    "totalPrepaid": 3108,
+    "sourceCurrency": "SEK",
+    "driver": "synthesize"
   }
 ]

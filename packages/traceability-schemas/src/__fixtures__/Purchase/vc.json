@@ -18,33 +18,33 @@
     ],
     "customer": {
       "type": "Person",
-      "firstName": "Hillard",
+      "firstName": "Dejon",
       "lastName": "Cummerata",
-      "email": "Abbigail_Stracke73@example.net",
-      "phoneNumber": "555-540-2057",
+      "email": "Dedrick23@example.org",
+      "phoneNumber": "555-646-3799",
       "worksFor": {
         "type": "Organization",
-        "name": "Monahan and Sons",
-        "description": "De-engineered high-level neural-net",
+        "name": "Tillman, Flatley and Cartwright",
+        "description": "Grass-roots motivating artificial intelligence",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "2928 Turner Harbors",
-          "addressLocality": "North Kavon",
-          "addressRegion": "Tennessee",
-          "postalCode": "31587-6883",
-          "addressCountry": "Sweden"
+          "streetAddress": "1763 Carroll Flats",
+          "addressLocality": "East Name",
+          "addressRegion": "Alabama",
+          "postalCode": "75775-2150",
+          "addressCountry": "Guadeloupe"
         },
-        "email": "Chelsea.Reichert22@example.com",
-        "phoneNumber": "555-515-7735",
-        "faxNumber": "555-473-4952"
+        "email": "Dameon.Carter@example.com",
+        "phoneNumber": "555-117-4727",
+        "faxNumber": "555-249-7591"
       },
-      "jobTitle": "Forward Operations Specialist"
+      "jobTitle": "National Integration Producer"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..LhuXyrCJCfxz_ZSPu-jrxCyPVINmeF-L03EjPm5cDnvdT0uWsx3FrA7jWAagINQFrxbJVgulzUuw6PM8qhJGCg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..d5_JqybB436JxOemikkw1dg7qNrPd1LbE1Je7XoMzeRP1xYcrCvlS3zyiLewqoMVwVAP8s5lqa72Id-wOGdgCw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

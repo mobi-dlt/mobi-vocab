@@ -1,43 +1,25 @@
 [
   {
-    "type": "LEIregistration",
-    "initialRegistrationDate": "2020-01-01",
-    "lastUpdateDate": "2020-01-01",
-    "nextRenewalDate": "2021-02-02",
-    "validationAuthority": [
-      {
-        "type": "LEIauthority",
-        "validationAuthorityID": "RA000005",
-        "otherValidationAuthorityID": "NJY4KVXE",
-        "validationAuthorityEntityID": "1TFS9MQHZZ95NQ76KCGB"
-      }
+    "@context": [
+      "https://dlt.mobi/mobility"
     ],
-    "hard drive": "generate",
-    "pixel": "bypass",
-    "program": "connect"
+    "type": "LEIregistration",
+    "nextRenewalDate": "2021-02-02",
+    "managingLou": "FDWRWEWGGYLOZTUOAOBC",
+    "validationSources": "PARTIALLY_CORROBORATED",
+    "transmitter": "bypass",
+    "array": "calculate"
+  },
+  {
+    "bus": "program"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "type": "LEIregistration",
-    "initialRegistrationDate": "2020-01-01",
-    "nextRenewalDate": "2021-02-02",
-    "managingLou": "MFIGWEOITTTNAFDWRWEW",
-    "validationSources": "FULLY_CORROBORATED",
-    "application": "input",
-    "hard drive": "bypass",
-    "bandwidth": "connect"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "initialRegistrationDate": "2020-01-01",
-    "lastUpdateDate": "2020-01-01",
-    "nextRenewalDate": "2021-02-02",
-    "managingLou": "IUQKFXXNNELSOUEIPWJX",
-    "validationSources": "NOT_CORROBORATED",
-    "pixel": "override"
+    "array": "generate",
+    "microchip": "compress",
+    "monitor": "hack",
+    "transmitter": "bypass"
   }
 ]

@@ -1,0 +1,66 @@
+{
+    "$id": "https://dlt.mobi/mobility/RevocationCertificate.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"RevocationCertificate\", \"@id\": \"https://dlt.mobi/mobility#RevocationCertificate\"}",
+    "title": "Revocation Certificate",
+    "description": "EVGI: These certificates are used to revoke existing certificates",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        
+        "RevokeHeader": {
+            "$comment": "{\"term\": \"RevokeHeader\", \"@id\": \"https://schema.org/Name\"}",
+            "title": "RevokeHeader",
+            "description": "A constant describe header type"
+        },
+        "UIUD": {
+            "$comment": "{\"term\": \"UIUD\", \"@id\": \"https://schema.org/codeValue\"}",
+            "title": "UIUD",
+            "description": "A unique ID generated through the hash of the rest of the informaiton in certiciate"
+        },
+        "PrevCert": {
+            "$comment": "{\"term\": \"PrevCert\", \"@id\": \"https://schema.org/url\"}",
+            "title": "PrevCert",
+            "description": "UIUD of the traget certificate that is being revoked"
+        },
+        "Expiration": {
+            "$comment": "{\"term\": \"Expiration\", \"@id\": \"https://schema.org/Time\"}",
+            "title": "Expiration",
+            "description": "Frequency of commitment to chain in time in milliseconds",
+            "type":"string"
+        },
+        "Reason": {
+            "$comment": "{\"term\": \"Reason\", \"@id\": \"https://schema.org/Text\"}",
+            "title": "Reason",
+            "description": "Reason why the AC was invoked",
+            "type":"string"
+        },
+        "IssuerEID": {
+            "$comment": "{\"term\": \"IssuerEID\", \"@id\": \"https://schema.org/Person\"}",
+            "title": "IssuerEID",
+            "description": "The EID of the owner fo this data",
+            "type":"string"
+        },
+        "SignAlgo": {
+            "$comment": "{\"term\": \"SignAlgo\", \"@id\": \"https://schema.org/algorithm\"}",
+            "title": "Signature Algorithm",
+            "description": "cryptographic scheme used to sign the certificate",
+            "type":"string"
+        }
+       
+    },
+    "additionalProperties": false,
+    "examples": []
+}

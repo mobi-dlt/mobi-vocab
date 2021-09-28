@@ -14,26 +14,26 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "Place",
-    "globalLocationNumber": "8066705577669",
+    "globalLocationNumber": "5921736591912",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "88.4391",
-      "longitude": "54.3447"
+      "latitude": "-57.5446",
+      "longitude": "-24.1862"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Nolan - Windler",
-      "streetAddress": "0732 Cletus Flat",
-      "addressLocality": "Brooksside",
-      "addressRegion": "New York",
-      "postalCode": "73521-9856",
-      "addressCountry": "Tunisia"
+      "organizationName": "Baumbach - MacGyver",
+      "streetAddress": "84428 Rosalee Cape",
+      "addressLocality": "Port Zariafort",
+      "addressRegion": "Nebraska",
+      "postalCode": "32691-1694",
+      "addressCountry": "Zambia"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UKC7o-o0__6xiZE_lEEWfLfVN81MrBd51U2U3Sw4VzdkU4zWfqP6SxR_fAmyfhfOLruysDtzGdV1g2SeK3V4CQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..5HCpQ36LNa1v8VJC5sISynP0kiKOz5zdpP10Hr_w_oLSPRvdmoVoD8dpY4GnZp5HKUFrPTuBvx8nxuR5tgyuCw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

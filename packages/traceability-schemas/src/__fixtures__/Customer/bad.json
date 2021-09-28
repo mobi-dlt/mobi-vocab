@@ -1,43 +1,43 @@
 [
   {
     "type": "Customer",
-    "name": "Vince Bode",
+    "name": "Niko Carter",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "0716 Nienow View",
-      "addressLocality": "Larsonmouth",
-      "addressRegion": "North Carolina",
-      "postalCode": "46740-2531",
-      "addressCountry": "Saint Lucia"
+      "streetAddress": "0074 Hegmann Station",
+      "addressLocality": "South Horaciofurt",
+      "addressRegion": "Maryland",
+      "postalCode": "69680",
+      "addressCountry": "Equatorial Guinea"
     },
-    "telephone": "555-122-2659",
-    "email": "Hilario.Predovic5@example.net",
-    "bandwidth": "bypass",
-    "protocol": "bypass"
-  },
-  {
-    "type": "Customer",
-    "name": "Antone Welch",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "48589 Schuster Plaza",
-      "addressLocality": "O'Haraside",
-      "addressRegion": "Hawaii",
-      "postalCode": "20213",
-      "addressCountry": "Andorra"
-    },
-    "telephone": "555-246-6542",
-    "email": "Tyreek_Balistreri63@example.com",
-    "feed": "navigate",
-    "protocol": "calculate",
-    "card": "navigate"
+    "firewall": "calculate",
+    "feed": "hack"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
     "type": "Customer",
-    "email": "Marilie_Rolfson23@example.com",
-    "system": "bypass"
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "074 Earnestine Squares",
+      "addressLocality": "Charlotteview",
+      "addressRegion": "Pennsylvania",
+      "postalCode": "85974-1327",
+      "addressCountry": "Moldova"
+    },
+    "program": "bypass",
+    "feed": "input",
+    "monitor": "input"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "Customer",
+    "name": "Tomasa Kunde",
+    "telephone": "555-202-1820",
+    "email": "Anastasia.Zieme@example.net",
+    "program": "parse"
   }
 ]

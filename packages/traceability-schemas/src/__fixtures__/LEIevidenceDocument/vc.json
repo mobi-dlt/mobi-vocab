@@ -14,73 +14,73 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "LEIevidenceDocument",
-    "lei": "KZQGGC2KK3YY6MOR76JE",
+    "lei": "3SRV4LTIS5P214A89CCD",
     "entity": {
       "@context": [
         "https://dlt.mobi/mobility"
       ],
       "type": "LEIentity",
-      "legalName": "Bosco - Mueller",
+      "legalName": "Carroll - Lindgren",
       "legalNameLanguage": "zh_TW",
       "otherNames": [
-        "Walter, Runte and Lindgren",
-        "Spinka LLC"
+        "Stark - Hudson",
+        "Kuvalis Group"
       ],
       "transliteratedOtherNames": [
-        "Walter, Runte and Lindgren",
-        "Spinka LLC"
+        "Stark - Hudson",
+        "Kuvalis Group"
       ],
       "legalAddress": {
         "type": "LEIaddress",
-        "language": "de_AT",
+        "language": "ja",
         "addressLines": [
-          "Roob, Stracke and Champlin",
-          "70013 Heaney Flats"
+          "Pacocha - Thiel",
+          "72380 Bahringer Haven"
         ],
-        "addressNumber": "254",
-        "addressNumberWithinBuilding": "8",
-        "mailRouting": "3039 Johathan Fords, 83249",
-        "city": "Schuylerport",
-        "region": "Buckinghamshire",
-        "country": "Myanmar",
-        "postalCode": "97459"
+        "addressNumber": "361",
+        "addressNumberWithinBuilding": "9",
+        "mailRouting": "16239 Lucinda Walks, 85148-3964",
+        "city": "New Stanfordmouth",
+        "region": "Cambridgeshire",
+        "country": "Malawi",
+        "postalCode": "13593-8163"
       },
       "headquartersAddress": {
         "type": "LEIaddress",
-        "language": "id_ID",
+        "language": "de_CH",
         "addressLines": [
-          "Hudson, Durgan and Kuvalis",
-          "636 Sanford Trail"
+          "Kris Inc",
+          "57914 Weber Pike"
         ],
-        "addressNumber": "59",
-        "addressNumberWithinBuilding": "6",
-        "mailRouting": "817 Schuppe Ferry, 34011",
-        "city": "Damonborough",
-        "region": "Berkshire",
-        "country": "Ukraine",
-        "postalCode": "95698-5148"
+        "addressNumber": "117",
+        "addressNumberWithinBuilding": "10",
+        "mailRouting": "8421 Aaliyah Summit, 06663",
+        "city": "West Angelinamouth",
+        "region": "Avon",
+        "country": "Liechtenstein",
+        "postalCode": "14204-9706"
       },
       "registrationAuthority": {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000661",
-        "otherValidationAuthorityID": "BXLH5LWR",
-        "validationAuthorityEntityID": "T6BIYET5ND42H0I48Y2J"
+        "validationAuthorityID": "RA000004",
+        "otherValidationAuthorityID": "PAZF8652",
+        "validationAuthorityEntityID": "4SA936OO2MIMZ8T8M7B6"
       },
-      "legalJurisdiction": "Bedfordshire",
-      "entityCategory": "Finance",
-      "legalForm": "CORPORATION",
+      "legalJurisdiction": "Buckinghamshire",
+      "entityCategory": "Jewelery",
+      "legalForm": "LLC",
       "associatedEntity": {
         "type": "Organization",
-        "leiCode": "3FGTR0CANZSHXD84EZ50",
-        "name": "Mertz - Hahn"
+        "leiCode": "3CX8JIATEAGXLVI5XSHK",
+        "name": "Kautzer, Reilly and Christiansen"
       },
       "status": "IN PROGRESS",
       "expirationDate": "2022-07-11",
-      "expirationReason": "syndicate user-centric content",
+      "expirationReason": "e-enable best-of-breed vortals",
       "successorEntity": {
         "type": "Organization",
-        "leiCode": "93UN070MLND5D2KS6G72",
-        "name": "Ziemann - Romaguera"
+        "leiCode": "N7CDIEHT6QDRY08E4HF0",
+        "name": "Gerlach, McCullough and Rowe"
       },
       "otherAddresses": []
     },
@@ -91,27 +91,27 @@
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",
       "lastUpdateDate": "2020-01-01",
-      "status": "REQUESTED",
+      "status": "CONFIRMED",
       "nextRenewalDate": "2021-02-02",
-      "managingLou": "QRNWLSDUXKLRFJJNKMVE",
-      "validationSources": "NOT_CORROBORATED",
+      "managingLou": "DDWIGTQMVJPKWLKUYXDY",
+      "validationSources": "FULLY_CORROBORATED",
       "validationAuthority": [
         {
           "type": "LEIauthority",
-          "validationAuthorityID": "RA000002",
-          "otherValidationAuthorityID": "2MPAZF86",
-          "validationAuthorityEntityID": "524SA936OO2MIMZ8T8M7"
+          "validationAuthorityID": "RA000001",
+          "otherValidationAuthorityID": "O46JM7B0",
+          "validationAuthorityEntityID": "U8MZ7S2Y1HD39JNGHU93"
         }
       ]
     },
     "bic": [
-      "KUZADZZJRJ"
+      "URIYOMNCQG"
     ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..PF8ucFExU_XZ-pdabw907nJ28NUpN4uQmarKkJ9IpoKV6w5-2d3sbCmGb5lRh0dqmgiiVWMZkAzmbZgyHoPHDw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..k17YhraSA5d4fACIL1a73ZcJYpPnM6ScZfUm0Y8ZnmrsR31vpLQNJaG2Gc2EjcIrh56DnalQu10_NFdppD2kDA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

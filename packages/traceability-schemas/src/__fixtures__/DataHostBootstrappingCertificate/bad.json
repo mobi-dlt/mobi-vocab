@@ -1,0 +1,36 @@
+[
+  {
+    "type": "DataHostBootstrappingCertificate",
+    "UIUD": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+    "WebURI": "pubkey",
+    "DataStructure": "sampleuri",
+    "RootAuthEID": "sig",
+    "OwnerEID": "sampleuri",
+    "RootAuthSig": "sig",
+    "SignAlgo": "algo",
+    "protocol": "input",
+    "bandwidth": "transmit"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "CommitFrequencyT": "1",
+    "RootAuthSig": "sig",
+    "port": "bypass",
+    "bus": "generate"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "DataHostBootstrappingCertificate",
+    "UIUD": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+    "WebURI": "pubkey",
+    "CommitFrequencyT": "1",
+    "ReceiverEID": "sampleuri",
+    "RootAuthEID": "sig",
+    "RootAuthSig": "sig",
+    "matrix": "parse"
+  }
+]

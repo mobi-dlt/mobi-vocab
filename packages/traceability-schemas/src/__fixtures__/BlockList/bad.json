@@ -1,0 +1,19 @@
+[
+  {
+    "BREID": "target EID",
+    "matrix": "reboot"
+  },
+  {
+    "type": "BlockList",
+    "IssuerEID": "sampleuri",
+    "BREID": "target EID",
+    "array": "synthesize",
+    "monitor": "program"
+  },
+  {
+    "panel": "transmit",
+    "circuit": "synthesize",
+    "pixel": "quantify",
+    "driver": "navigate"
+  }
+]

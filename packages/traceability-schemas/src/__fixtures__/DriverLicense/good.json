@@ -8,9 +8,25 @@
     "licenseNumber": "Y5327288",
     "registrationAuthority": {
       "type": "LEIauthority",
+      "validationAuthorityID": "RA000002",
+      "otherValidationAuthorityID": "AGZMPLDW",
+      "validationAuthorityEntityID": "Q1WAYY2WEG3MC966NGDC"
+    },
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "DriverLicense",
+    "legalName": "Matt Shi",
+    "licenseNumber": "Y5327288",
+    "registrationAuthority": {
+      "type": "LEIauthority",
       "validationAuthorityID": "RA000001",
-      "otherValidationAuthorityID": "T8YWZLRC",
-      "validationAuthorityEntityID": "DP3HRDKPF8WB4FH90EGK"
+      "otherValidationAuthorityID": "J150EDRT",
+      "validationAuthorityEntityID": "HZZ5DLQDEYTUKU2G1E49"
     },
     "issuanceDate": "2021-03-09",
     "expirationDate": "2022-07-11"
@@ -25,24 +41,8 @@
     "registrationAuthority": {
       "type": "LEIauthority",
       "validationAuthorityID": "RA000003",
-      "otherValidationAuthorityID": "X29JPY2I",
-      "validationAuthorityEntityID": "5M7PAGZMPLDWQ1WAYY2W"
-    },
-    "issuanceDate": "2021-03-09",
-    "expirationDate": "2022-07-11"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "DriverLicense",
-    "legalName": "Matt Shi",
-    "licenseNumber": "Y5327288",
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000005",
-      "otherValidationAuthorityID": "O954W2TX",
-      "validationAuthorityEntityID": "YEQKMXF2XVVJ150EDRTH"
+      "otherValidationAuthorityID": "RM1C940O",
+      "validationAuthorityEntityID": "HIHRTIBUTJYK3VSEL4H1"
     },
     "issuanceDate": "2021-03-09",
     "expirationDate": "2022-07-11"

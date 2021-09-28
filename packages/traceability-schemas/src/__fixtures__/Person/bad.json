@@ -1,40 +1,19 @@
 [
   {
-    "jobTitle": "Human Web Manager",
-    "alarm": "back up",
-    "monitor": "input",
-    "card": "parse"
-  },
-  {
-    "lastName": "Thiel",
-    "hard drive": "back up"
+    "bandwidth": "override",
+    "port": "index"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
+    "application": "navigate"
+  },
+  {
     "type": "Person",
-    "firstName": "Ella",
-    "email": "Melyssa.Farrell60@example.org",
-    "phoneNumber": "555-458-2370",
-    "worksFor": {
-      "type": "Organization",
-      "name": "Padberg, Bailey and Lockman",
-      "description": "Total solution-oriented productivity",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "311 Auer Fort",
-        "addressLocality": "West Evans",
-        "addressRegion": "Rhode Island",
-        "postalCode": "52363-5052",
-        "addressCountry": "Northern Mariana Islands"
-      },
-      "email": "Osbaldo.Greenfelder@example.com",
-      "phoneNumber": "555-681-5935",
-      "faxNumber": "555-976-8913"
-    },
-    "jobTitle": "Central Applications Producer",
-    "protocol": "quantify",
-    "capacitor": "compress"
+    "firstName": "Isai",
+    "phoneNumber": "555-667-3072",
+    "capacitor": "transmit",
+    "application": "connect"
   }
 ]

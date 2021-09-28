@@ -4,17 +4,20 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "LegalEntityIdentifierCredential",
-    "sensor": "parse",
-    "bandwidth": "synthesize"
+    "alarm": "back up",
+    "panel": "input"
   },
   {
+    "leiCode": "O3BBO02O66UN8ZU2A2NC",
+    "array": "override",
+    "protocol": "back up"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
     "type": "LegalEntityIdentifierCredential",
-    "leiCode": "QMB5ZVZFN540OK3I1PTW",
     "certificateName": "US Legal Entity Certificate",
-    "monitor": "parse",
-    "microchip": "navigate"
-  },
-  {
-    "monitor": "hack"
+    "bandwidth": "index"
   }
 ]

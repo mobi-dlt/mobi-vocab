@@ -14,24 +14,24 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "Organization",
-    "name": "Stiedemann LLC",
-    "description": "Focused zero administration support",
+    "name": "Kozey - Roberts",
+    "description": "Visionary impactful data-warehouse",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "34342 Lockman Trace",
-      "addressLocality": "West Harleyshire",
-      "addressRegion": "South Dakota",
-      "postalCode": "44004",
-      "addressCountry": "Rwanda"
+      "streetAddress": "141 Lonie Place",
+      "addressLocality": "New Pasquale",
+      "addressRegion": "Oklahoma",
+      "postalCode": "26511-2374",
+      "addressCountry": "Vietnam"
     },
-    "email": "Nicklaus_Price1@example.net",
-    "phoneNumber": "555-124-9262",
-    "faxNumber": "555-969-3520"
+    "email": "Guy.Bernier0@example.com",
+    "phoneNumber": "555-687-3364",
+    "faxNumber": "555-955-3444"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..5Hqk2Ds2UtiYLvc6NPV2faB9gvAtnrZeUesgJiDsOmG5P-D-f22dkxzDju7vYbLXcXrrRvvmfPE6NXjz_wUPBA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..fD7IwZr-8lMc6uBmAmb4Ds4yVxjJmgv1ThfWCG_d-4b2XsUg8cH98zh7xwhpv3kU48qsZUzfLQicJEtHdDGECw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

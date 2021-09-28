@@ -3,29 +3,28 @@
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "panel": "parse",
-    "hard drive": "input",
-    "application": "program",
-    "sensor": "quantify"
-  },
-  {
-    "organizationName": "Smith Inc",
-    "addressLocality": "Alvisberg",
-    "addressRegion": "South Dakota",
-    "postalCode": "18578",
-    "addressCountry": "Bermuda",
-    "sensor": "reboot",
-    "alarm": "back up"
+    "organizationName": "Wilkinson, Zemlak and Kunde",
+    "streetAddress": "57436 Romaguera Key",
+    "addressLocality": "Port Anastasiashire",
+    "circuit": "reboot"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "organizationName": "Turcotte and Sons",
-    "addressRegion": "New York",
-    "addressCountry": "Uruguay",
-    "matrix": "compress",
-    "interface": "calculate",
-    "hard drive": "navigate"
+    "organizationName": "Brakus, Barrows and Lakin",
+    "addressRegion": "Iowa",
+    "panel": "navigate",
+    "system": "reboot"
+  },
+  {
+    "type": "PostalAddress",
+    "organizationName": "West, Stamm and Trantow",
+    "streetAddress": "4778 Jess Manor",
+    "addressLocality": "Conorville",
+    "postalCode": "12358",
+    "addressCountry": "Antigua and Barbuda",
+    "protocol": "copy",
+    "capacitor": "program"
   }
 ]

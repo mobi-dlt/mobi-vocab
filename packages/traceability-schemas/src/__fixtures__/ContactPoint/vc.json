@@ -14,22 +14,22 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "ContactPoint",
-    "name": "Dare Group",
+    "name": "Ward, Marks and Bernier",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "647 Lukas Inlet",
-      "addressLocality": "Marcellaport",
-      "addressRegion": "Utah",
-      "postalCode": "27425",
-      "addressCountry": "Angola"
+      "streetAddress": "599 Grimes Summit",
+      "addressLocality": "West Claud",
+      "addressRegion": "Texas",
+      "postalCode": "34135",
+      "addressCountry": "Hungary"
     },
-    "email": "Janet91@example.net",
-    "phoneNumber": "555-791-6809"
+    "email": "Corene_Morar35@example.org",
+    "phoneNumber": "555-942-8597"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..tRmTARets6R1LbQTJnNP7TAKV6_ei4SPxPk9L1z0G911pmrN90jNU4kIslTyKlVLCPOgh95XyAGTdIjEU9OHBA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..RdRCrY534kC9Yexbn03e_85uHW5503E2YZ7QfJ6a1U4mKkFTG4RD3K2quiy9m9Ng3EuGPXXiZSYOi66NA3YrBg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

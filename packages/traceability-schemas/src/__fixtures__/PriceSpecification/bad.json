@@ -1,17 +1,27 @@
 [
   {
-    "driver": "generate"
-  },
-  {
-    "panel": "program"
+    "type": "PriceSpecification",
+    "price": 4605,
+    "bus": "back up",
+    "card": "input",
+    "feed": "input",
+    "application": "navigate"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
     "type": "PriceSpecification",
-    "price": 2832,
-    "hard drive": "synthesize",
-    "system": "quantify"
+    "priceCurrency": "NGN",
+    "sensor": "generate",
+    "protocol": "copy",
+    "port": "index",
+    "capacitor": "back up"
+  },
+  {
+    "price": 1287,
+    "interface": "bypass",
+    "firewall": "navigate",
+    "protocol": "input"
   }
 ]

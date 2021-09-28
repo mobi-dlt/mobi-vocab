@@ -16,38 +16,38 @@
     "type": "Product",
     "manufacturer": {
       "type": "Organization",
-      "name": "West - Lowe",
-      "description": "Networked dynamic function",
+      "name": "Pacocha Inc",
+      "description": "Balanced client-server knowledge user",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "883 Schoen Garden",
-        "addressLocality": "East Bryceborough",
-        "addressRegion": "Hawaii",
-        "postalCode": "69181",
-        "addressCountry": "Philippines"
+        "streetAddress": "18881 Muller Ranch",
+        "addressLocality": "West Saul",
+        "addressRegion": "South Dakota",
+        "postalCode": "57023-6958",
+        "addressCountry": "Spain"
       },
-      "email": "Carter.Lakin73@example.com",
-      "phoneNumber": "555-788-7543",
-      "faxNumber": "555-703-6058"
+      "email": "Eduardo19@example.org",
+      "phoneNumber": "555-983-9154",
+      "faxNumber": "555-665-1109"
     },
-    "name": "Licensed Fresh Computer",
-    "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+    "name": "Incredible Cotton Fish",
+    "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "3850"
+      "value": "4122"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "261"
+      "value": "9351"
     },
-    "sku": "797549382847"
+    "sku": "404533338815"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..K8xREuMOZAMfFmlullSEBD5TvZ-mmZw4Ej9mCr4O-n4db811NulRsl1ZOakhiKjI-2M3uIpuo10v874HPhV4DA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..DiPYuxEoKSm8ntlXYeQS1WB53IZ0mkPTq3-6ywwHvrsk-RMoOMck3yqNzZNAJ0SG6tm1L1am3J1iizaL3nrFDA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

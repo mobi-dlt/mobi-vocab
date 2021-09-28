@@ -1,18 +1,28 @@
 [
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "PermissionsCredential",
+    "permission": {
+      "type": "Permissions",
+      "userLocation": "true",
+      "vehicleLocation": "true",
+      "vid": "true",
+      "batteryid": "true",
+      "dataSharingForRewards": "true"
+    },
     "issuanceDate": "2021-03-09",
-    "application": "quantify",
-    "hard drive": "transmit",
-    "capacitor": "connect"
+    "expirationDate": "2022-07-11",
+    "hard drive": "bypass",
+    "alarm": "transmit"
   },
   {
-    "issuanceDate": "2021-03-09",
-    "feed": "copy",
-    "program": "compress"
+    "permission": {
+      "type": "Permissions",
+      "userLocation": "true",
+      "vehicleLocation": "true",
+      "vid": "true",
+      "batteryid": "true",
+      "dataSharingForRewards": "true"
+    },
+    "array": "compress"
   },
   {
     "@context": [
@@ -27,8 +37,7 @@
       "batteryid": "true",
       "dataSharingForRewards": "true"
     },
-    "feed": "back up",
-    "panel": "override",
-    "port": "synthesize"
+    "issuanceDate": "2021-03-09",
+    "port": "back up"
   }
 ]

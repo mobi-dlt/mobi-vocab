@@ -1,11 +1,9 @@
 [
   {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
     "type": "User",
-    "matrix": "calculate",
-    "protocol": "compress",
-    "hard drive": "hack"
-  },
-  {
     "EntityInfo": {
       "type": "EC",
       "EntityType": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
@@ -18,17 +16,47 @@
       "Expiration": "10-19-2021",
       "IssuerSig": "sig"
     },
-    "microchip": "synthesize"
+    "PermissionedEID": "eid",
+    "protocol": "index"
+  },
+  {
+    "type": "User",
+    "EntityInfo": {
+      "type": "EC",
+      "EntityType": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+      "PubKey": "pubkey",
+      "RevURI": "sampleuri",
+      "ALURI": "sampleuri",
+      "BLURI": "blocked uri",
+      "SignAlgo": "algo",
+      "HashAlgo": "algo",
+      "Expiration": "10-19-2021",
+      "IssuerSig": "sig"
+    },
+    "PermissionedURI": "uri",
+    "pixel": "program",
+    "program": "program",
+    "feed": "calculate"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "type": "User",
-    "PermissionedURI": "uri",
-    "PermissionedEID": "eid",
-    "feed": "connect",
-    "bus": "parse",
-    "microchip": "bypass"
+    "EntityInfo": {
+      "type": "EC",
+      "EntityType": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+      "PubKey": "pubkey",
+      "RevURI": "sampleuri",
+      "ALURI": "sampleuri",
+      "BLURI": "blocked uri",
+      "SignAlgo": "algo",
+      "HashAlgo": "algo",
+      "Expiration": "10-19-2021",
+      "IssuerSig": "sig"
+    },
+    "circuit": "synthesize",
+    "microchip": "navigate",
+    "monitor": "transmit",
+    "port": "program"
   }
 ]

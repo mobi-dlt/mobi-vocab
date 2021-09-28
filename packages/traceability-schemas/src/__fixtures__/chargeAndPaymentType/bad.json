@@ -3,17 +3,25 @@
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "alarm": "program",
-    "microchip": "copy",
-    "protocol": "generate",
-    "panel": "program"
+    "type": "chargeAndPaymentType",
+    "chargePrepaid": 260,
+    "firewall": "compress",
+    "pixel": "program",
+    "application": "back up"
   },
   {
-    "firewall": "connect"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "chargeAndPaymentType",
+    "chargePrepaid": 795,
+    "application": "compress",
+    "panel": "compress"
   },
   {
-    "chargePrepaid": 744,
-    "bus": "transmit",
-    "array": "hack"
+    "chargeCollect": 464,
+    "chargePrepaid": 559,
+    "sensor": "compress",
+    "capacitor": "parse"
   }
 ]

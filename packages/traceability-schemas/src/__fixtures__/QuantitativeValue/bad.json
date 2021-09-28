@@ -5,24 +5,24 @@
     ],
     "type": "QuantitativeValue",
     "unitCode": "hg/ha",
-    "microchip": "override",
-    "protocol": "back up"
-  },
-  {
-    "type": "QuantitativeValue",
-    "value": "4798",
-    "matrix": "program",
-    "protocol": "generate",
-    "alarm": "parse"
+    "hard drive": "back up",
+    "card": "connect",
+    "program": "bypass",
+    "array": "input"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
     "type": "QuantitativeValue",
-    "system": "compress",
-    "matrix": "reboot",
-    "hard drive": "back up",
-    "card": "connect"
+    "value": "6088",
+    "array": "input"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "QuantitativeValue",
+    "interface": "override"
   }
 ]

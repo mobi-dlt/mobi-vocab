@@ -1,19 +1,15 @@
 [
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "identifier": "Trust Anchor Name",
-    "program": "connect",
-    "matrix": "connect"
+    "bus": "connect",
+    "transmitter": "synthesize"
   },
   {
-    "type": "TrustAnchor",
-    "capacitor": "connect",
-    "firewall": "back up"
+    "interface": "program",
+    "panel": "quantify",
+    "hard drive": "program",
+    "port": "calculate"
   },
   {
-    "bandwidth": "reboot",
-    "capacitor": "override"
+    "array": "quantify"
   }
 ]

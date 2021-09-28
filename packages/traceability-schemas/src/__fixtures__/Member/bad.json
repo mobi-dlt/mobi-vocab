@@ -1,25 +1,31 @@
 [
   {
-    "firstName": "Marian",
-    "matrix": "program"
-  },
-  {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "lastName": "Goyette",
-    "email": "Ludwig_Hayes51@example.org",
-    "protocol": "back up"
+    "port": "calculate",
+    "bus": "connect",
+    "bandwidth": "override"
+  },
+  {
+    "type": "Member",
+    "firstName": "Mazie",
+    "lastName": "Carter",
+    "email": "Annetta24@example.com",
+    "sensor": "copy",
+    "card": "transmit",
+    "pixel": "bypass"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
     "type": "Member",
-    "firstName": "Norbert",
-    "protocol": "calculate",
-    "circuit": "compress",
-    "alarm": "reboot",
-    "bus": "synthesize"
+    "firstName": "Elfrieda",
+    "lastName": "Farrell",
+    "bus": "program",
+    "feed": "copy",
+    "pixel": "navigate",
+    "circuit": "parse"
   }
 ]
