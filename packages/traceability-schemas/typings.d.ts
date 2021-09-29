@@ -49,5 +49,6 @@ TrustAnchor: require('./schemas/TrustAnchor.json'),
 User: require('./schemas/User.json'),
 UserEntityID: require('./schemas/UserEntityID.json'),
 VID: require('./schemas/VID.json'),
+VehicleToGridCommunication: require('./schemas/VehicleToGridCommunication.json'),
 chargeAndPaymentType: require('./schemas/chargeAndPaymentType.json'),
 }

@@ -1124,6 +1124,47 @@
         }
       }
     },
+    "VehicleToGridCommunication": {
+      "@id": "https://dlt.mobi/mobility#VehicleToGridCommunication",
+      "@context": {
+        "DateTime": {
+          "@id": "https://schema.org/DateTime"
+        },
+        "EnergyExchange": {
+          "@id": "https://schema.org/Number"
+        },
+        "RecipientBuyerUserID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "RecipientBuyerVehicleID": {
+          "@id": "https://schema.org/url"
+        },
+        "SellerUserID": {
+          "@id": "https://https://schema.org/Person"
+        },
+        "UtilityIdentifier": {
+          "@id": "https://schema.org/Text"
+        },
+        "VehicleGeocoordinates": {
+          "@id": "https://schema.org/GeoCoordinates"
+        },
+        "Cost": {
+          "@id": "https://schema.org/price"
+        },
+        "SellerVehicleID": {
+          "@id": "https://schema.org/Vehicle"
+        },
+        "DateOfLastChargeDischarge": {
+          "@id": "https://schema.org/Date"
+        },
+        "EnergyAvaliable": {
+          "@id": "https://schema.org/QuantitativeValue"
+        },
+        "EnergySource": {
+          "@id": "https://schema.org/Name"
+        }
+      }
+    },
     "chargeAndPaymentType": {
       "@id": "https://dlt.mobi/mobility#chargeAndPaymentType",
       "@context": {

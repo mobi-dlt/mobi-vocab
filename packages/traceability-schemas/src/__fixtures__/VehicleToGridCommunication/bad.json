@@ -1,0 +1,37 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "VehicleToGridCommunication",
+    "RecipientBuyerUserID": "sampleuri",
+    "RecipientBuyerVehicleID": "target EID",
+    "SellerUserID": "algo",
+    "UtilityIdentifier": " expired",
+    "Cost": "Cost",
+    "SellerVehicleID": "SellerVehicleID",
+    "DateOfLastChargeDischarge": "DateOfLastChargeDischarge",
+    "EnergySource": "EnergySource",
+    "program": "quantify",
+    "port": "input",
+    "driver": "calculate"
+  },
+  {
+    "EnergySource": "EnergySource",
+    "card": "connect"
+  },
+  {
+    "type": "VehicleToGridCommunication",
+    "DateTime": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+    "EnergyExchange": "uri",
+    "RecipientBuyerUserID": "sampleuri",
+    "RecipientBuyerVehicleID": "target EID",
+    "SellerUserID": "algo",
+    "UtilityIdentifier": " expired",
+    "VehicleGeocoordinates": "VehicleGeocoordinates",
+    "Cost": "Cost",
+    "SellerVehicleID": "SellerVehicleID",
+    "pixel": "override",
+    "capacitor": "compress"
+  }
+]
