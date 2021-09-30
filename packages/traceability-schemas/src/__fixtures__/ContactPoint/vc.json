@@ -14,22 +14,22 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "ContactPoint",
-    "name": "Ward, Marks and Bernier",
+    "name": "Bradtke, Hudson and Becker",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "599 Grimes Summit",
-      "addressLocality": "West Claud",
-      "addressRegion": "Texas",
-      "postalCode": "34135",
-      "addressCountry": "Hungary"
+      "streetAddress": "582 Nestor Lane",
+      "addressLocality": "Nickolasberg",
+      "addressRegion": "Colorado",
+      "postalCode": "95548",
+      "addressCountry": "Hong Kong"
     },
-    "email": "Corene_Morar35@example.org",
-    "phoneNumber": "555-942-8597"
+    "email": "Verona.Ullrich35@example.org",
+    "phoneNumber": "555-388-3678"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..RdRCrY534kC9Yexbn03e_85uHW5503E2YZ7QfJ6a1U4mKkFTG4RD3K2quiy9m9Ng3EuGPXXiZSYOi66NA3YrBg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AeLvcm8fRsN2tcoRHrloWo_JDbggLnCzU-Luxfk5WjUGMt7HWFakEDRvUsao--Jwz-Xc0CmSGp618p2U07prAg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

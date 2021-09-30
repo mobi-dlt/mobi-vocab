@@ -1,39 +1,36 @@
 [
   {
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000002",
-      "otherValidationAuthorityID": "AGZMPLDW",
-      "validationAuthorityEntityID": "Q1WAYY2WEG3MC966NGDC"
-    },
-    "issuanceDate": "2021-03-09",
-    "system": "synthesize",
-    "driver": "generate",
-    "port": "copy",
-    "interface": "transmit"
-  },
-  {
-    "type": "DriverLicense",
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
     "legalName": "Matt Shi",
     "licenseNumber": "Y5327288",
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000001",
-      "otherValidationAuthorityID": "J150EDRT",
-      "validationAuthorityEntityID": "HZZ5DLQDEYTUKU2G1E49"
+      "validationAuthorityID": "RA000004",
+      "otherValidationAuthorityID": "4POWUIQJ",
+      "validationAuthorityEntityID": "13VGCJE839QD60KBU73B"
     },
     "issuanceDate": "2021-03-09",
     "expirationDate": "2022-07-11",
-    "feed": "transmit",
-    "firewall": "parse",
-    "monitor": "parse",
-    "circuit": "generate"
+    "array": "transmit",
+    "sensor": "synthesize",
+    "alarm": "connect"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "DriverLicense",
+    "legalName": "Matt Shi",
+    "licenseNumber": "Y5327288",
+    "circuit": "index"
   },
   {
     "type": "DriverLicense",
-    "panel": "calculate",
-    "driver": "parse",
-    "array": "quantify",
-    "pixel": "calculate"
+    "legalName": "Matt Shi",
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11",
+    "hard drive": "parse"
   }
 ]

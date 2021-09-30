@@ -16,23 +16,23 @@
     "type": "LEIregistration",
     "initialRegistrationDate": "2020-01-01",
     "lastUpdateDate": "2020-01-01",
-    "status": "REQUESTED",
+    "status": "REJECTED",
     "nextRenewalDate": "2021-02-02",
-    "managingLou": "FDWRWEWGGYLOZTUOAOBC",
+    "managingLou": "UVAZZQSOHQVNHQWLCFSD",
     "validationSources": "PARTIALLY_CORROBORATED",
     "validationAuthority": [
       {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000004",
-        "otherValidationAuthorityID": "EGNQJA2S",
-        "validationAuthorityEntityID": "I4TCGZ1SSH7C9V5JBRRR"
+        "validationAuthorityID": "RA000661",
+        "otherValidationAuthorityID": "G8VDJ4DE",
+        "validationAuthorityEntityID": "ZS3HF01FQ0XYA4UPAZWT"
       }
     ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..nQtn-w8xMmP3BWeEMYtORPoOieNWO8vMBMs7WzGgDFqwbD2wBroH7sOp6pwlUG3RNzz6psCJpHZ8aesI0uuaDw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..mmzfueYs_uSgSuLFlLM6YsrwYXnyQ2Kf_tOah4FbFvOTprl_Oj0zKNDayGK7vMVhxUV92QpNdawhVdbuKwXUCA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

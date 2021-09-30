@@ -3,26 +3,24 @@
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "type": "QuantitativeValue",
     "unitCode": "hg/ha",
-    "hard drive": "back up",
-    "card": "connect",
-    "program": "bypass",
-    "array": "input"
+    "feed": "parse",
+    "circuit": "generate",
+    "alarm": "connect",
+    "capacitor": "index"
+  },
+  {
+    "type": "QuantitativeValue",
+    "capacitor": "bypass",
+    "hard drive": "input",
+    "pixel": "bypass"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
     "type": "QuantitativeValue",
-    "value": "6088",
-    "array": "input"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "QuantitativeValue",
-    "interface": "override"
+    "value": "5945",
+    "protocol": "index"
   }
 ]

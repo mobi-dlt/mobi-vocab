@@ -1,32 +1,39 @@
 [
   {
+    "driver": "input",
+    "bus": "quantify"
+  },
+  {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "email": "Mina3@example.com",
-    "bandwidth": "program"
+    "name": "Feil Group",
+    "description": "De-engineered stable collaboration",
+    "phoneNumber": "555-933-9196",
+    "faxNumber": "555-505-2105",
+    "interface": "navigate",
+    "protocol": "input",
+    "array": "override"
   },
   {
-    "bus": "override"
-  },
-  {
-    "worksFor": {
-      "type": "Organization",
-      "name": "Ortiz, Schuster and Ward",
-      "description": "Realigned leading edge internet solution",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "88005 Predovic Brook",
-        "addressLocality": "Ziemeland",
-        "addressRegion": "Vermont",
-        "postalCode": "59980",
-        "addressCountry": "Solomon Islands"
-      },
-      "email": "Jarvis_Goyette20@example.com",
-      "phoneNumber": "555-977-3321",
-      "faxNumber": "555-541-2537"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "name": "Johnston Inc",
+    "description": "Universal dynamic frame",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "34589 Konopelski Valleys",
+      "addressLocality": "South Myriam",
+      "addressRegion": "Virginia",
+      "postalCode": "52049",
+      "addressCountry": "Burundi"
     },
-    "firewall": "quantify",
-    "protocol": "navigate"
+    "email": "Kraig.Gottlieb@example.net",
+    "phoneNumber": "555-323-2587",
+    "faxNumber": "555-619-5485",
+    "firewall": "override",
+    "matrix": "parse",
+    "sensor": "hack"
   }
 ]

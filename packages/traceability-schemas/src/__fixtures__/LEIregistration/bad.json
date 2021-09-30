@@ -1,25 +1,48 @@
 [
   {
+    "type": "LEIregistration",
+    "initialRegistrationDate": "2020-01-01",
+    "lastUpdateDate": "2020-01-01",
+    "status": "REJECTED",
+    "nextRenewalDate": "2021-02-02",
+    "managingLou": "UVAZZQSOHQVNHQWLCFSD",
+    "validationSources": "PARTIALLY_CORROBORATED",
+    "validationAuthority": [
+      {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000661",
+        "otherValidationAuthorityID": "G8VDJ4DE",
+        "validationAuthorityEntityID": "ZS3HF01FQ0XYA4UPAZWT"
+      }
+    ],
+    "program": "back up",
+    "driver": "quantify"
+  },
+  {
+    "type": "LEIregistration",
+    "initialRegistrationDate": "2020-01-01",
+    "lastUpdateDate": "2020-01-01",
+    "status": "IN PROGRESS",
+    "circuit": "parse"
+  },
+  {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
     "type": "LEIregistration",
+    "initialRegistrationDate": "2020-01-01",
+    "status": "REQUESTED",
     "nextRenewalDate": "2021-02-02",
-    "managingLou": "FDWRWEWGGYLOZTUOAOBC",
-    "validationSources": "PARTIALLY_CORROBORATED",
-    "transmitter": "bypass",
-    "array": "calculate"
-  },
-  {
-    "bus": "program"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
+    "managingLou": "CGJUMZQGYHPMTZNGQKBX",
+    "validationSources": "FULLY_CORROBORATED",
+    "validationAuthority": [
+      {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000004",
+        "otherValidationAuthorityID": "K0IPF2BW",
+        "validationAuthorityEntityID": "FGR4LCW5F6LYMGLSPN8O"
+      }
     ],
-    "array": "generate",
-    "microchip": "compress",
-    "monitor": "hack",
-    "transmitter": "bypass"
+    "sensor": "quantify"
   }
 ]

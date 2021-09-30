@@ -14,26 +14,26 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "Place",
-    "globalLocationNumber": "5921736591912",
+    "globalLocationNumber": "9863725298432",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "-57.5446",
-      "longitude": "-24.1862"
+      "latitude": "45.7647",
+      "longitude": "94.4939"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Baumbach - MacGyver",
-      "streetAddress": "84428 Rosalee Cape",
-      "addressLocality": "Port Zariafort",
-      "addressRegion": "Nebraska",
-      "postalCode": "32691-1694",
-      "addressCountry": "Zambia"
+      "organizationName": "Littel - McLaughlin",
+      "streetAddress": "63045 Al Shore",
+      "addressLocality": "East Osborneport",
+      "addressRegion": "New Jersey",
+      "postalCode": "96042",
+      "addressCountry": "Guinea"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..5HCpQ36LNa1v8VJC5sISynP0kiKOz5zdpP10Hr_w_oLSPRvdmoVoD8dpY4GnZp5HKUFrPTuBvx8nxuR5tgyuCw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..WkCsyd2KA9LvDMByImWYd_HHNPC4O4hy3FxmGS_iqESrcjFM0VRcDEugUm8g5Ex3QONna12guF6Lny0d_iVYDQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

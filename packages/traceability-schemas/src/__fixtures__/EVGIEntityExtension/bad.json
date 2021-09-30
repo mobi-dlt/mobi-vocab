@@ -1,33 +1,31 @@
 [
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
     "Address": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
     "URI": "uri",
-    "BREID": "target EID",
-    "SignAlgo": "algo",
-    "Reason": " expired",
-    "panel": "synthesize",
-    "alarm": "override"
+    "IssuerEID": "sampleuri",
+    "application": "override",
+    "transmitter": "hack",
+    "microchip": "transmit"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
     "type": "EVGIEntityExtension",
+    "Address": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
     "URI": "uri",
-    "IssuerEID": "sampleuri",
     "SignAlgo": "algo",
     "Reason": " expired",
-    "circuit": "program",
-    "sensor": "generate"
+    "circuit": "navigate",
+    "card": "program",
+    "pixel": "index"
   },
   {
-    "BREID": "target EID",
-    "SignAlgo": "algo",
-    "microchip": "back up",
-    "port": "navigate",
-    "bandwidth": "generate"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "IssuerEID": "sampleuri",
+    "pixel": "copy",
+    "firewall": "input"
   }
 ]

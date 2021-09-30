@@ -1,46 +1,41 @@
 [
   {
-    "type": "Organization",
-    "name": "Kozey - Roberts",
-    "description": "Visionary impactful data-warehouse",
-    "phoneNumber": "555-687-3364",
-    "faxNumber": "555-955-3444",
-    "circuit": "hack"
-  },
-  {
-    "type": "Organization",
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "name": "Lemke - Hickle",
+    "description": "Switchable context-sensitive leverage",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "434 Cleve Manors",
-      "addressLocality": "New Isadore",
-      "addressRegion": "Iowa",
-      "postalCode": "25550",
-      "addressCountry": "Swaziland"
+      "streetAddress": "739 Balistreri Dale",
+      "addressLocality": "Lulubury",
+      "addressRegion": "New York",
+      "postalCode": "33074",
+      "addressCountry": "Montserrat"
     },
-    "email": "Ian51@example.net",
-    "phoneNumber": "555-106-1445",
-    "transmitter": "bypass",
-    "port": "calculate"
+    "email": "Keely68@example.net",
+    "phoneNumber": "555-380-1911",
+    "program": "back up",
+    "matrix": "generate"
+  },
+  {
+    "name": "Krajcik Group",
+    "email": "Karley28@example.net",
+    "phoneNumber": "555-204-4333",
+    "array": "input",
+    "firewall": "parse",
+    "panel": "connect",
+    "hard drive": "generate"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
     "type": "Organization",
-    "name": "Ratke, Gerlach and Mohr",
-    "description": "Progressive dynamic encoding",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "558 Padberg Burg",
-      "addressLocality": "Alvenashire",
-      "addressRegion": "Minnesota",
-      "postalCode": "92133",
-      "addressCountry": "Ireland"
-    },
-    "email": "Miles_Wilkinson72@example.net",
-    "faxNumber": "555-894-9168",
-    "driver": "back up",
-    "monitor": "compress",
-    "transmitter": "bypass"
+    "name": "Schumm - Kuhn",
+    "email": "Murl62@example.net",
+    "faxNumber": "555-499-2354",
+    "microchip": "input",
+    "interface": "hack"
   }
 ]

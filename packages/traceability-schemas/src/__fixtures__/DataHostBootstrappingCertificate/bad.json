@@ -1,36 +1,36 @@
 [
   {
-    "type": "DataHostBootstrappingCertificate",
-    "UIUD": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
-    "WebURI": "pubkey",
     "DataStructure": "sampleuri",
+    "CommitFrequencyT": "1",
+    "ReceiverEID": "sampleuri",
     "RootAuthEID": "sig",
     "OwnerEID": "sampleuri",
     "RootAuthSig": "sig",
     "SignAlgo": "algo",
-    "protocol": "input",
+    "bandwidth": "generate",
+    "sensor": "navigate",
+    "microchip": "reboot"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "UIUD": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+    "CommitFrequencyT": "1",
+    "RootAuthEID": "sig",
+    "RootAuthSig": "sig",
+    "SignAlgo": "algo",
     "bandwidth": "transmit"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "CommitFrequencyT": "1",
-    "RootAuthSig": "sig",
-    "port": "bypass",
-    "bus": "generate"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "DataHostBootstrappingCertificate",
     "UIUD": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
     "WebURI": "pubkey",
-    "CommitFrequencyT": "1",
-    "ReceiverEID": "sampleuri",
-    "RootAuthEID": "sig",
+    "DataStructure": "sampleuri",
+    "OwnerEID": "sampleuri",
     "RootAuthSig": "sig",
-    "matrix": "parse"
+    "interface": "bypass",
+    "driver": "compress",
+    "bus": "transmit",
+    "bandwidth": "input"
   }
 ]

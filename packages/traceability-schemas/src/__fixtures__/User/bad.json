@@ -1,22 +1,37 @@
 [
   {
-    "feed": "calculate",
-    "pixel": "connect",
-    "capacitor": "program"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "EntityInfo": {
+      "type": "EC",
+      "EntityType": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+      "PubKey": "pubkey",
+      "RevURI": "sampleuri",
+      "ALURI": "sampleuri",
+      "BLURI": "blocked uri",
+      "SignAlgo": "algo",
+      "HashAlgo": "algo",
+      "Expiration": "10-19-2021",
+      "IssuerSig": "sig"
+    },
+    "PermissionedURI": "uri",
+    "PermissionedEID": "eid",
+    "microchip": "synthesize",
+    "interface": "back up",
+    "transmitter": "override"
   },
   {
-    "PermissionedEID": "eid",
-    "system": "parse"
+    "type": "User",
+    "program": "quantify"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "type": "User",
-    "PermissionedURI": "uri",
-    "circuit": "reboot",
-    "card": "bypass",
-    "hard drive": "navigate",
-    "application": "bypass"
+    "interface": "navigate",
+    "protocol": "copy",
+    "driver": "input",
+    "transmitter": "index"
   }
 ]

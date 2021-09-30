@@ -4,9 +4,18 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "LEIauthority",
-    "validationAuthorityID": "RA000004",
-    "otherValidationAuthorityID": "2CEB4ZK7",
-    "validationAuthorityEntityID": "OOST716O3YM4PW1LXM1M"
+    "validationAuthorityID": "RA000001",
+    "otherValidationAuthorityID": "63QO5F8V",
+    "validationAuthorityEntityID": "Y69ONUZYDO0H8MTVVKR1"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "LEIauthority",
+    "validationAuthorityID": "RA000661",
+    "otherValidationAuthorityID": "TEONK3CN",
+    "validationAuthorityEntityID": "5ZL1BZVEZVRS3KAQ3VNE"
   },
   {
     "@context": [
@@ -14,16 +23,7 @@
     ],
     "type": "LEIauthority",
     "validationAuthorityID": "RA000002",
-    "otherValidationAuthorityID": "H2NWJJLT",
-    "validationAuthorityEntityID": "SGHN1I5QF2Q2L8N5HVM7"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "LEIauthority",
-    "validationAuthorityID": "RA000004",
-    "otherValidationAuthorityID": "N8BZJZHN",
-    "validationAuthorityEntityID": "27EO72F179UG6VYQEQUF"
+    "otherValidationAuthorityID": "SBFVTD4A",
+    "validationAuthorityEntityID": "JN0BBMDLEKPDDJGL8JDF"
   }
 ]

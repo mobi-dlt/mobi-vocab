@@ -1,27 +1,20 @@
 [
   {
-    "type": "PriceSpecification",
-    "price": 4605,
-    "bus": "back up",
-    "card": "input",
-    "feed": "input",
-    "application": "navigate"
+    "monitor": "override",
+    "feed": "quantify",
+    "system": "override"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "PriceSpecification",
-    "priceCurrency": "NGN",
-    "sensor": "generate",
-    "protocol": "copy",
-    "port": "index",
-    "capacitor": "back up"
+    "price": 5202,
+    "priceCurrency": "GTQ",
+    "microchip": "generate",
+    "sensor": "input",
+    "port": "calculate"
   },
   {
-    "price": 1287,
-    "interface": "bypass",
-    "firewall": "navigate",
-    "protocol": "input"
+    "type": "PriceSpecification",
+    "pixel": "bypass",
+    "microchip": "bypass",
+    "capacitor": "parse"
   }
 ]

@@ -4,41 +4,41 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 4867.5,
-    "totalCollect": 1622.5,
-    "sourceCurrency": "OMR",
-    "destinationCurrency": "YER",
-    "currencyConversionRate": 2,
-    "ccChargesDestinationCurrency": "OMR",
-    "chargesDestination": 79,
-    "totalCollectCharge": 19.75
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "TotalCharge",
-    "totalPrepaid": 4351.5,
-    "totalCollect": 1450.5,
-    "sourceCurrency": "ALL",
-    "destinationCurrency": "JPY",
-    "currencyConversionRate": 3,
-    "ccChargesDestinationCurrency": "ALL",
-    "chargesDestination": 671,
-    "totalCollectCharge": 167.75
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "TotalCharge",
-    "totalPrepaid": 4795.5,
-    "totalCollect": 1598.5,
-    "sourceCurrency": "UGX",
-    "destinationCurrency": "LTL",
+    "totalPrepaid": 7114.5,
+    "totalCollect": 2371.5,
+    "sourceCurrency": "CZK",
+    "destinationCurrency": "UYU",
     "currencyConversionRate": 5,
-    "ccChargesDestinationCurrency": "UGX",
-    "chargesDestination": 494,
-    "totalCollectCharge": 123.5
+    "ccChargesDestinationCurrency": "CZK",
+    "chargesDestination": 49,
+    "totalCollectCharge": 12.25
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "TotalCharge",
+    "totalPrepaid": 55.5,
+    "totalCollect": 18.5,
+    "sourceCurrency": "MMK",
+    "destinationCurrency": "KES",
+    "currencyConversionRate": 4,
+    "ccChargesDestinationCurrency": "MMK",
+    "chargesDestination": 472,
+    "totalCollectCharge": 118
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "TotalCharge",
+    "totalPrepaid": 1286.25,
+    "totalCollect": 428.75,
+    "sourceCurrency": "SOS",
+    "destinationCurrency": "KHR",
+    "currencyConversionRate": 1,
+    "ccChargesDestinationCurrency": "SOS",
+    "chargesDestination": 678,
+    "totalCollectCharge": 169.5
   }
 ]

@@ -1,158 +1,61 @@
 [
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
     "type": "LEIentity",
-    "legalName": "Jakubowski, Upton and Mills",
     "otherNames": [
-      "Murray - Smith",
-      "Feil, Cole and Sanford"
+      "Mohr - Huels",
+      "Lowe, Schulist and Rogahn"
     ],
-    "transliteratedOtherNames": [
-      "Murray - Smith",
-      "Feil, Cole and Sanford"
-    ],
-    "legalAddress": {
+    "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "ko",
+      "language": "en_AU_ocker",
       "addressLines": [
-        "Hintz Group",
-        "44208 Medhurst Knolls"
+        "Parker Group",
+        "217 Gerhold Parks"
       ],
-      "addressNumber": "207",
-      "addressNumberWithinBuilding": "9",
-      "mailRouting": "5365 O'Hara Corner, 39328",
-      "city": "Adelbertborough",
-      "region": "Bedfordshire",
-      "country": "Luxembourg",
-      "postalCode": "75139-2422"
+      "addressNumber": "263",
+      "addressNumberWithinBuilding": "2",
+      "mailRouting": "944 Raven Club, 30561-9066",
+      "city": "Larkinhaven",
+      "region": "Buckinghamshire",
+      "country": "Christmas Island",
+      "postalCode": "27266-1438"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000661",
-      "otherValidationAuthorityID": "19Z24J8X",
-      "validationAuthorityEntityID": "11N48G6X3B3IL1O5EZHY"
+      "validationAuthorityID": "RA000005",
+      "otherValidationAuthorityID": "WWRCK89S",
+      "validationAuthorityEntityID": "A9QTUFOOT3RM5GFL568Q"
     },
-    "legalJurisdiction": "Bedfordshire",
-    "entityCategory": "Grocery",
-    "legalForm": "CORPORATION",
-    "associatedEntity": {
-      "type": "Organization",
-      "leiCode": "F1QEHLVLWSFN9ZLAWC7D",
-      "name": "Hand, Nikolaus and Wiza"
-    },
-    "status": "IN PROGRESS",
-    "expirationDate": "2022-07-11",
-    "successorEntity": {
-      "type": "Organization",
-      "leiCode": "IIHCOJ5414B5PX7QO5Y6",
-      "name": "Renner LLC"
-    },
-    "otherAddresses": [],
-    "microchip": "compress",
-    "feed": "calculate",
-    "bus": "parse",
-    "capacitor": "navigate"
+    "expirationReason": "utilize granular systems",
+    "application": "bypass",
+    "port": "bypass"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
+    "expirationReason": "engineer intuitive schemas",
+    "sensor": "back up"
+  },
+  {
     "type": "LEIentity",
-    "legalName": "Cronin - Zulauf",
-    "legalNameLanguage": "nb_NO",
+    "legalNameLanguage": "az",
     "otherNames": [
-      "Huels, Orn and O'Hara",
-      "Breitenberg - Heidenreich"
+      "Auer LLC",
+      "O'Conner - Hickle"
     ],
     "transliteratedOtherNames": [
-      "Huels, Orn and O'Hara",
-      "Breitenberg - Heidenreich"
+      "Auer LLC",
+      "O'Conner - Hickle"
     ],
-    "legalAddress": {
-      "type": "LEIaddress",
-      "language": "cz",
-      "addressLines": [
-        "Wolff Group",
-        "052 Thiel Run"
-      ],
-      "addressNumber": "436",
-      "addressNumberWithinBuilding": "8",
-      "mailRouting": "4739 Schowalter Radial, 78734-8831",
-      "city": "South Lynn",
-      "region": "Cambridgeshire",
-      "country": "Indonesia",
-      "postalCode": "33636"
-    },
-    "headquartersAddress": {
-      "type": "LEIaddress",
-      "language": "fa",
-      "addressLines": [
-        "Powlowski - Hoeger",
-        "53420 Lee Circles"
-      ],
-      "addressNumber": "225",
-      "addressNumberWithinBuilding": "6",
-      "mailRouting": "66674 Littel Mill, 95849-0831",
-      "city": "East Grayce",
-      "region": "Borders",
-      "country": "Honduras",
-      "postalCode": "52546-3758"
-    },
     "registrationAuthority": {
       "type": "LEIauthority",
       "validationAuthorityID": "RA000004",
-      "otherValidationAuthorityID": "QPPYI0T7",
-      "validationAuthorityEntityID": "F0WN2WY8NXD27XHC735H"
+      "otherValidationAuthorityID": "U8MZ7S2Y",
+      "validationAuthorityEntityID": "1HD39JNGHU935H45VB8Q"
     },
-    "entityCategory": "Industrial",
-    "legalForm": "LLC",
-    "associatedEntity": {
-      "type": "Organization",
-      "leiCode": "O0H8MTVVKR14XSOXOL7X",
-      "name": "Ortiz and Sons"
-    },
+    "legalJurisdiction": "Borders",
     "status": "IN PROGRESS",
-    "expirationReason": "engineer back-end architectures",
-    "successorEntity": {
-      "type": "Organization",
-      "leiCode": "KB3LPPE9ZET4I64OU6SI",
-      "name": "Quitzon and Sons"
-    },
+    "expirationDate": "2022-07-11",
     "otherAddresses": [],
-    "port": "reboot"
-  },
-  {
-    "otherNames": [
-      "Effertz, Oberbrunner and Monahan",
-      "Jenkins and Sons"
-    ],
-    "legalAddress": {
-      "type": "LEIaddress",
-      "language": "hr",
-      "addressLines": [
-        "Gaylord Group",
-        "466 Runolfsson Station"
-      ],
-      "addressNumber": "366",
-      "addressNumberWithinBuilding": "9",
-      "mailRouting": "1445 Feil Dale, 88425-0103",
-      "city": "Darenstad",
-      "region": "Bedfordshire",
-      "country": "French Polynesia",
-      "postalCode": "56223"
-    },
-    "legalJurisdiction": "Berkshire",
-    "entityCategory": "Jewelery",
-    "legalForm": "CORPORATION",
-    "associatedEntity": {
-      "type": "Organization",
-      "leiCode": "YFH3TTJD1IM4Y0LMTIVL",
-      "name": "Hoeger, Ondricka and Hettinger"
-    },
-    "capacitor": "input",
-    "firewall": "compress",
-    "bus": "synthesize"
+    "firewall": "program",
+    "panel": "bypass"
   }
 ]

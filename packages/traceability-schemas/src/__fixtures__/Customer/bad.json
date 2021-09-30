@@ -1,43 +1,45 @@
 [
   {
     "type": "Customer",
-    "name": "Niko Carter",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "0074 Hegmann Station",
-      "addressLocality": "South Horaciofurt",
-      "addressRegion": "Maryland",
-      "postalCode": "69680",
-      "addressCountry": "Equatorial Guinea"
+      "streetAddress": "9709 Valentina Gateway",
+      "addressLocality": "Port Gloriaview",
+      "addressRegion": "Colorado",
+      "postalCode": "32116-4332",
+      "addressCountry": "Monaco"
     },
-    "firewall": "calculate",
-    "feed": "hack"
+    "telephone": "555-598-7258",
+    "email": "Cassidy69@example.com",
+    "port": "copy",
+    "system": "synthesize",
+    "driver": "generate"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "type": "Customer",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "074 Earnestine Squares",
-      "addressLocality": "Charlotteview",
-      "addressRegion": "Pennsylvania",
-      "postalCode": "85974-1327",
-      "addressCountry": "Moldova"
-    },
-    "program": "bypass",
-    "feed": "input",
-    "monitor": "input"
+    "name": "Anibal Koss",
+    "telephone": "555-612-8544",
+    "email": "Harvey1@example.org",
+    "circuit": "synthesize"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "type": "Customer",
-    "name": "Tomasa Kunde",
-    "telephone": "555-202-1820",
-    "email": "Anastasia.Zieme@example.net",
-    "program": "parse"
+    "name": "Giuseppe Luettgen",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "8697 Walter Curve",
+      "addressLocality": "Kulasmouth",
+      "addressRegion": "Illinois",
+      "postalCode": "40964",
+      "addressCountry": "Guadeloupe"
+    },
+    "email": "Aubrey.Turner54@example.com",
+    "program": "navigate",
+    "protocol": "generate",
+    "panel": "connect"
   }
 ]

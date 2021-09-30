@@ -17,19 +17,19 @@
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "manufacturer": {
       "type": "Organization",
-      "name": "Morissette - Schneider",
-      "description": "Decentralized bi-directional info-mediaries",
+      "name": "Wyman, Denesik and Weimann",
+      "description": "Implemented heuristic system engine",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "18233 Elizabeth Inlet",
-        "addressLocality": "Port Corrineville",
-        "addressRegion": "South Dakota",
-        "postalCode": "17308-9120",
-        "addressCountry": "Bhutan"
+        "streetAddress": "573 Zboncak Plaza",
+        "addressLocality": "Hahnburgh",
+        "addressRegion": "Kentucky",
+        "postalCode": "03482",
+        "addressCountry": "Belize"
       },
-      "email": "Osborne14@example.com",
-      "phoneNumber": "555-536-8463",
-      "faxNumber": "555-372-7360"
+      "email": "Angeline23@example.org",
+      "phoneNumber": "555-409-9925",
+      "faxNumber": "555-851-5869"
     },
     "make": "Ford",
     "model": "Mach_E",
@@ -38,7 +38,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..og73wqK3vHmjJ4boFOKjDEsESSHTw1d4bZYDTK8jO-hasSCYrBUP98g4BjIWsw-MLqelUfpOJ_zn3zZQvcgMBQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..j7NPxZiHmqsq7t7D22a9F8YzPmakfcrNADbSHrHrzW5WpznmT3r2moRBADbEar-jDZSqZAdrbanuJbpVxJJvCQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

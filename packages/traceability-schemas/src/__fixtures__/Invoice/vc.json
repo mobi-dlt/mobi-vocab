@@ -14,12 +14,12 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "Invoice",
-    "identifier": "IN-16637"
+    "identifier": "IN-84045"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..TDecx_gToADfTVHY9vcEYyCabKWBE9x43RrDuGVqB0OurWNGoT-GHS1Hpts9nKweH8JM3wvGKOmMUXWdPA_NBQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..1I7Km_4wQJf-n9gM977n-YHSk3H9qQA8Jumhni_BtjETLJ7PrIIWBnKMFohx2riTcom8Z3FO2IkL2z6Iy1ISDg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

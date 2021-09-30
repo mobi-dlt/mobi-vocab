@@ -1,23 +1,23 @@
 [
   {
+    "array": "override",
+    "matrix": "synthesize",
+    "driver": "override",
+    "port": "override"
+  },
+  {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "type": "TimeDependentSmartEnergyTariffs",
-    "Date": "date",
-    "TimeOfDay": "TimeOfDay",
     "Amount": "Amount",
-    "CarbonIntensity": "arbonIntensity",
-    "matrix": "connect",
-    "alarm": "program"
+    "PaymentCurrencyType": "PaymentCurrencyType",
+    "driver": "calculate",
+    "bus": "quantify",
+    "transmitter": "back up",
+    "alarm": "navigate"
   },
   {
-    "type": "TimeDependentSmartEnergyTariffs",
-    "transmitter": "synthesize",
-    "array": "synthesize"
-  },
-  {
-    "SOC": "soc",
-    "feed": "calculate"
+    "PaymentCurrencyType": "PaymentCurrencyType",
+    "card": "connect"
   }
 ]

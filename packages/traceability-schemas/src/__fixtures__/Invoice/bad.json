@@ -1,20 +1,22 @@
 [
   {
-    "sensor": "navigate",
-    "protocol": "back up"
+    "type": "Invoice",
+    "monitor": "program",
+    "system": "calculate",
+    "array": "input"
   },
   {
-    "system": "input",
-    "alarm": "hack",
-    "pixel": "input",
-    "interface": "back up"
+    "bus": "generate",
+    "hard drive": "quantify",
+    "system": "back up"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "type": "Invoice",
-    "array": "connect",
-    "transmitter": "input"
+    "pixel": "reboot",
+    "transmitter": "index",
+    "alarm": "compress",
+    "matrix": "quantify"
   }
 ]

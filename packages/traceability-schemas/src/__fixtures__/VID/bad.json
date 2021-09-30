@@ -1,37 +1,76 @@
 [
   {
-    "type": "VID",
-    "manufacturer": {
-      "type": "Organization",
-      "name": "Morissette - Schneider",
-      "description": "Decentralized bi-directional info-mediaries",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "18233 Elizabeth Inlet",
-        "addressLocality": "Port Corrineville",
-        "addressRegion": "South Dakota",
-        "postalCode": "17308-9120",
-        "addressCountry": "Bhutan"
-      },
-      "email": "Osborne14@example.com",
-      "phoneNumber": "555-536-8463",
-      "faxNumber": "555-372-7360"
-    },
-    "model": "Mach_E",
-    "vin": "JTERU5JR7M5861170",
-    "sensor": "program"
-  },
-  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
     "type": "VID",
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "make": "Ford",
+    "model": "Mach_E",
     "vin": "JTERU5JR7M5861170",
-    "microchip": "generate",
-    "capacitor": "transmit",
-    "hard drive": "input"
+    "panel": "navigate",
+    "matrix": "connect"
   },
   {
-    "microchip": "parse",
-    "feed": "back up"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "VID",
+    "manufacturer": {
+      "type": "Person",
+      "firstName": "Monty",
+      "lastName": "Denesik",
+      "email": "Eve_Mitchell@example.net",
+      "phoneNumber": "555-496-2715",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Torp, Hermiston and Tremblay",
+        "description": "Reverse-engineered transitional encoding",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "40697 Dorcas Port",
+          "addressLocality": "Charlieside",
+          "addressRegion": "Iowa",
+          "postalCode": "17907-0428",
+          "addressCountry": "Northern Mariana Islands"
+        },
+        "email": "Eliezer27@example.org",
+        "phoneNumber": "555-324-4700",
+        "faxNumber": "555-745-4621"
+      },
+      "jobTitle": "Internal Creative Executive"
+    },
+    "make": "Ford",
+    "vin": "JTERU5JR7M5861170",
+    "bandwidth": "copy",
+    "feed": "connect",
+    "capacitor": "copy"
+  },
+  {
+    "type": "VID",
+    "manufacturer": {
+      "type": "Person",
+      "firstName": "Audrey",
+      "lastName": "Wuckert",
+      "email": "Cristobal89@example.com",
+      "phoneNumber": "555-425-2068",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Anderson, Boehm and Shanahan",
+        "description": "Exclusive responsive productivity",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "1513 Turcotte Orchard",
+          "addressLocality": "West Cyrilchester",
+          "addressRegion": "Alabama",
+          "postalCode": "59188-5566",
+          "addressCountry": "Tonga"
+        },
+        "email": "Ayla46@example.org",
+        "phoneNumber": "555-469-4595",
+        "faxNumber": "555-604-3941"
+      },
+      "jobTitle": "Investor Accounts Producer"
+    },
+    "bandwidth": "program"
   }
 ]

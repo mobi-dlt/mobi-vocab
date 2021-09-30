@@ -1,19 +1,46 @@
 [
   {
-    "bandwidth": "override",
-    "port": "index"
-  },
-  {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "application": "navigate"
+    "type": "Person",
+    "firstName": "Florine",
+    "lastName": "Johns",
+    "phoneNumber": "555-607-6164",
+    "worksFor": {
+      "type": "Organization",
+      "name": "Beer, Wiegand and Kilback",
+      "description": "Organized didactic frame",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "2044 Aaron Turnpike",
+        "addressLocality": "Port Edwinaland",
+        "addressRegion": "Maryland",
+        "postalCode": "99940-5743",
+        "addressCountry": "New Zealand"
+      },
+      "email": "Paris38@example.com",
+      "phoneNumber": "555-453-1816",
+      "faxNumber": "555-778-1293"
+    },
+    "jobTitle": "Chief Metrics Executive",
+    "program": "input",
+    "driver": "parse",
+    "microchip": "hack"
   },
   {
     "type": "Person",
-    "firstName": "Isai",
-    "phoneNumber": "555-667-3072",
-    "capacitor": "transmit",
-    "application": "connect"
+    "firstName": "Alexane",
+    "email": "Antonetta29@example.com",
+    "phoneNumber": "555-634-8695",
+    "protocol": "copy",
+    "monitor": "synthesize",
+    "application": "input",
+    "array": "calculate"
+  },
+  {
+    "jobTitle": "Product Interactions Director",
+    "circuit": "parse",
+    "transmitter": "index"
   }
 ]

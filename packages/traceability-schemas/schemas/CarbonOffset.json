@@ -1,0 +1,151 @@
+{
+    "$id": "https://dlt.mobi/mobility/CarbonOffset.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"CarbonOffset\", \"@id\": \"https://dlt.mobi/mobility#CarbonOffset\"}",
+    "title": "EVGI CarbonOffset",
+    "description": "EVGI: Carbon Offset",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "CarbonIntensity": {
+            "$comment": "{\"term\": \"CarbonIntensity\", \"@id\": \"https://schema.org/QuantitativeValue\"}",
+            "title": "CarbonIntensity",
+            "description": "Carbon Intensity"
+        },
+        "CarbonIntensitySource": {
+            "$comment": "{\"term\": \"CarbonIntensitySource\", \"@id\": \"https://schema.org/Text\"}",
+            "title": "CarbonIntensitySource",
+            "description": "CarbonIntensitySource"
+        },
+        "ChargeStartTime": {
+            "$comment": "{\"term\": \"ChargeStartTime\", \"@id\": \"https://schema.org/startTime\"}",
+            "title": "ChargeStartTime",
+            "description": "RCharge Start Time",
+            "type":"string"
+        },
+        "ChargeEndTime": {
+            "$comment": "{\"term\": \"ChargeEndTime\", \"@id\": \"https://schema.org/endTime\"}",
+            "title": "ChargeEndTime",
+            "description": "ChargeEndTime",
+            "type":"string"
+        },
+        "InfrastructureOwnerEntityID": {
+            "$comment": "{\"term\": \"InfrastructureOwnerEntityID\", \"@id\": \"https://schema.org/url\"}",
+            "title": "InfrastructureOwnerEntityID",
+            "description": "InfrastructureOwnerEntityID",
+            "type":"string"
+        },
+        "ChargingDataSource": {
+            "$comment": "{\"term\": \"ChargingDataSource\", \"@id\": \"https://https://schema.org/Person\"}",
+            "title": "ChargingDataSource",
+            "description": "ChargingDataSource",
+            "type":"string"
+        },
+        "CreditOwnerAccount": {
+            "$comment": "{\"term\": \"CreditOwnerAccount\", \"@id\": \"https://schema.org/accountId\"}",
+            "title": "CreditOwnerAccount",
+            "description": "CreditOwnerAccount",
+            "type":"string"
+        },
+        "EnergyConsumed": {
+            "$comment": "{\"term\": \"EnergyConsumed\", \"@id\": \"https://schema.org/Energy\"}",
+            "title": "EnergyConsumed",
+            "description": "EnergyConsumed",
+            "type":"string"
+        },
+        "ChargeSessionGeolocation": {
+            "$comment": "{\"term\": \"ChargeSessionGeolocation\", \"@id\": \"https://schema.org/GeoCoordinates\"}",
+            "title": "ChargeSessionGeolocation",
+            "description": "ChargeSessionGeolocation",
+            "type":"string"
+        },
+        "TranscationDateTime": {
+            "$comment": "{\"term\": \"TranscationDateTime\", \"@id\": \"https://schema.org/DateTime\"}",
+            "title": "TranscationDateTime",
+            "description": "TranscationDateTime",
+            "type":"string"
+        },
+        "VID": {
+            "$comment": "{\"term\": \"VID\", \"@id\": \"https://dlt.mobi/mobility#VID\"}",
+            "title": "VID",
+            "$ref": "https://dlt.mobi/mobility/schemas/VID.json"
+        },
+        "ChargerID": {
+            "$comment": "{\"term\": \"ChargerID\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "ChargerID",
+            "description": "ChargerID",
+            "type":"string"
+        },
+        "ChargeRate": {
+            "$comment": "{\"term\": \"ChargeRate\", \"@id\": \"https://schema.org/price\"}",
+            "title": "ChargeRate",
+            "description": "Charge Rate",
+            "type":"string"
+        },
+        "OrganizationTaxID": {
+            "$comment": "{\"term\": \"OrganizationTaxID\", \"@id\": \"https://schema.org/taxIS\"}",
+            "title": "OrganizationTaxID",
+            "description": "Organization Tax ID",
+            "type":"string"
+        },
+        "ResidentialIncrementalVSNonResidential": {
+            "$comment": "{\"term\": \"ResidentialIncrementalVSNonResidential\", \"@id\": \"https://schema.org/Name\"}",
+            "title": "ResidentialIncrementalVSNonResidential",
+            "description": "Residential Incremental vs NonResidential",
+            "type":"string"
+        },
+        "DesignationOfVehicle": {
+            "$comment": "{\"term\": \"DesignationOfVehicle\", \"@id\": \"https://schema.org/location\"}",
+            "title": "Designation Of Vehicle",
+            "description": "Designation Of Vehicle",
+            "type":"string"
+        },
+        "EnergyEconomyRatio": {
+            "$comment": "{\"term\": \"EnergyEconomyRatio\", \"@id\": \"https://schema.org/Number\"}",
+            "title": "Energy Economy Ratio",
+            "description": "Energy Economy Ratio",
+            "type":"string"
+        },
+        "EPACompanyID": {
+            "$comment": "{\"term\": \"EPACompanyID\", \"@id\": \"https://schema.org/Organization\"}",
+            "title": "EPACompanyID",
+            "description": "EPACompanyID",
+            "type":"string"
+        },
+
+        "SystemID": {
+            "$comment": "{\"term\": \"SystemID\", \"@id\": \"https://schema.org/SoftwareApplication\"}",
+            "title": "System ID",
+            "description": "System ID",
+            "type":"string"
+        },
+        "TransactionNumber": {
+            "$comment": "{\"term\": \"TransactionNumber\", \"@id\": \"https://schema.org/PaymentChargeSpecification\"}",
+            "title": "Transaction Number",
+            "description": "Transaction Number, specific to credit system",
+            "type":"string"
+        },
+        "TransactionType": {
+            "$comment": "{\"term\": \"TransactionType\", \"@id\": \"https://schema.org/PaymentService\"}",
+            "title": "Transaction Type",
+            "description": "Transaction Type, specific to credit system",
+            "type":"string"
+        }
+
+      
+    },
+    "additionalProperties": false,
+    "examples": []
+}

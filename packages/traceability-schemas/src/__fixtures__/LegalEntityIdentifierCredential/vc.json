@@ -14,13 +14,13 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "LegalEntityIdentifierCredential",
-    "leiCode": "3P8F5WCQG6QMNFMKCQUT",
+    "leiCode": "1W589GYGBHHM7GLGAH7L",
     "certificateName": "US Legal Entity Certificate"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..gRGNjrUfUMPuo_q0132XUfeKshK3paPbE1NUU1TPS6kNh_EAPBEMNSmgkCjPi0STwiqNsHksmSfLvFHB68-7Cg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..aHWWKDC7CoqNjAboQtE8bWSyIsRaQyg9rHeBMNsvrerFkmaUncQdMgXQuY-cgl_3foyly9bMRbtTicVKp9kHBQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

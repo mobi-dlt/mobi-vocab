@@ -14,22 +14,22 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "Customer",
-    "name": "Niko Carter",
+    "name": "Vladimir Blanda",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "0074 Hegmann Station",
-      "addressLocality": "South Horaciofurt",
-      "addressRegion": "Maryland",
-      "postalCode": "69680",
-      "addressCountry": "Equatorial Guinea"
+      "streetAddress": "9709 Valentina Gateway",
+      "addressLocality": "Port Gloriaview",
+      "addressRegion": "Colorado",
+      "postalCode": "32116-4332",
+      "addressCountry": "Monaco"
     },
-    "telephone": "555-420-2427",
-    "email": "Eve4@example.org"
+    "telephone": "555-598-7258",
+    "email": "Cassidy69@example.com"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..NeOYt6lDnfX_xnE-UFG9zLcNFSQd6L4w514GGBDtDMujhf3LkRQdjhFGXLXpAzqjw9boFUKxMnK_XTg3lkJiBQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..4Vfq0YW976OD5OPHEHZLCAuD0E2uPJDxIDehdTR7MTiWI1kNMOpPEJuAwK7Ef9LWG9f446OzqFIaj7m9EYe_CQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

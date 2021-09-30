@@ -1,0 +1,27 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "Begin_DateTime": "2021-09-29T22:32:24+00:00",
+    "End_DateTime": "2021-09-29T23:31:24+00:00",
+    "interface": "navigate",
+    "firewall": "generate",
+    "protocol": "reboot",
+    "program": "calculate"
+  },
+  {
+    "type": "EmissionMeasurement",
+    "totalDistanceTraveled": "20000",
+    "Begin_DateTime": "2021-09-29T22:32:24+00:00",
+    "monitor": "navigate",
+    "feed": "hack",
+    "microchip": "transmit"
+  },
+  {
+    "panel": "input",
+    "card": "synthesize",
+    "program": "transmit",
+    "monitor": "hack"
+  }
+]

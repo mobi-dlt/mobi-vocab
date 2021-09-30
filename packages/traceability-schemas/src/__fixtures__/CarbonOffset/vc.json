@@ -1,0 +1,76 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://dlt.mobi/mobility"
+  ],
+  "id": "http://example.org/credentials/",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuanceDate": "2021-02-04T20:29:37+00:00",
+  "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
+  "credentialSubject": {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "CarbonOffset",
+    "CarbonIntensity": "CarbonIntensity",
+    "CarbonIntensitySource": "CarbonIntensitySource",
+    "ChargeStartTime": "ChargeStartTime",
+    "ChargeEndTime": "ChargeEndTime",
+    "InfrastructureOwnerEntityID": "InfrastructureOwnerEntityID",
+    "ChargingDataSource": "ChargingDataSource",
+    "CreditOwnerAccount": "CreditOwnerAccount",
+    "EnergyConsumed": "EnergyConsumed",
+    "ChargeSessionGeolocation": "ChargeSessionGeolocation",
+    "TranscationDateTime": "TranscationDateTime",
+    "VID": {
+      "type": "VID",
+      "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+      "manufacturer": {
+        "type": "Person",
+        "firstName": "Shaun",
+        "lastName": "Hilpert",
+        "email": "Adrienne.Wilderman42@example.net",
+        "phoneNumber": "555-351-9233",
+        "worksFor": {
+          "type": "Organization",
+          "name": "Marquardt Inc",
+          "description": "Right-sized multimedia alliance",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "3622 Watson Forest",
+            "addressLocality": "Huelport",
+            "addressRegion": "Vermont",
+            "postalCode": "64735-6564",
+            "addressCountry": "Switzerland"
+          },
+          "email": "Zane_Weimann@example.org",
+          "phoneNumber": "555-275-3071",
+          "faxNumber": "555-750-5492"
+        },
+        "jobTitle": "Customer Usability Planner"
+      },
+      "make": "Ford",
+      "model": "Mach_E",
+      "vin": "JTERU5JR7M5861170"
+    },
+    "ChargerID": " ChargerID",
+    "ChargeRate": "ChargeRate",
+    "OrganizationTaxID": "OrganizationTaxID",
+    "ResidentialIncrementalVSNonResidential": "ResidentialIncrementalVSNonResidential",
+    "DesignationOfVehicle": "DesignationOfVehicle",
+    "EnergyEconomyRatio": "EnergyEconomyRatio",
+    "EPACompanyID": "EPACompanyID",
+    "SystemID": "SystemID",
+    "TransactionNumber": "TransactionNumber",
+    "TransactionType": "TransactionType"
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2019-12-11T03:50:55Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..aaypDdWV0DMhsVcC5IZDsWAi0Fr1Xh6-hzjqWlL1LKgYK9Eb-_C8G0F0j5urHmeY1Fh7t6opcXUKE_Wwys3vBg",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
+  }
+}

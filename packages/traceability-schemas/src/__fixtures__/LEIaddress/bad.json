@@ -3,26 +3,34 @@
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "mailRouting": "228 Marilyne Cliffs, 61289",
-    "region": "Berkshire",
-    "circuit": "input",
-    "program": "input"
+    "type": "LEIaddress",
+    "addressNumber": "316",
+    "addressNumberWithinBuilding": "9",
+    "mailRouting": "1623 Chet Walk, 80442",
+    "city": "Port Gunnarview",
+    "country": "Netherlands Antilles",
+    "driver": "copy",
+    "pixel": "hack"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
+    "addressLines": [
+      "Ferry, Kling and Feil",
+      "35436 Keeling Stream"
     ],
-    "addressNumberWithinBuilding": "6",
-    "country": "Niue",
-    "postalCode": "40151",
-    "protocol": "calculate"
+    "mailRouting": "2569 Cummings Road, 13067",
+    "city": "New Kacie",
+    "postalCode": "78784",
+    "matrix": "bypass",
+    "bandwidth": "generate"
   },
   {
-    "addressNumber": "156",
-    "addressNumberWithinBuilding": "10",
-    "country": "Seychelles",
-    "bandwidth": "program",
-    "array": "bypass",
-    "driver": "transmit"
+    "addressNumberWithinBuilding": "2",
+    "city": "McClureview",
+    "region": "Bedfordshire",
+    "country": "Brazil",
+    "postalCode": "55436",
+    "capacitor": "override",
+    "monitor": "synthesize",
+    "panel": "parse"
   }
 ]

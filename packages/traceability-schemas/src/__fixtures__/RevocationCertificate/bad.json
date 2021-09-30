@@ -1,27 +1,33 @@
 [
   {
+    "type": "RevocationCertificate",
+    "UIUD": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+    "RevokeHeader": "REVOKE",
     "PrevCert": "previ UIUD",
-    "bandwidth": "generate",
-    "protocol": "bypass",
-    "hard drive": "input",
-    "system": "quantify"
+    "Expiration": "2021-10-21",
+    "Reason": "Revoaked due to expiration",
+    "circuit": "synthesize",
+    "alarm": "quantify"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
     "type": "RevocationCertificate",
+    "UIUD": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
     "RevokeHeader": "REVOKE",
     "IssuerEID": "sampleuri",
-    "firewall": "input",
-    "panel": "back up",
-    "feed": "override"
+    "Expiration": "2021-10-21",
+    "SignAlgo": "algo",
+    "circuit": "synthesize",
+    "microchip": "navigate",
+    "monitor": "transmit",
+    "port": "program"
   },
   {
     "RevokeHeader": "REVOKE",
-    "PrevCert": "previ UIUD",
-    "SignAlgo": "algo",
-    "circuit": "index",
-    "monitor": "hack"
+    "matrix": "calculate",
+    "sensor": "reboot",
+    "bus": "input"
   }
 ]

@@ -1,35 +1,65 @@
 [
   {
     "type": "Product",
-    "sizeOrAmount": {
+    "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+    "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "4122"
+      "value": "9272"
     },
-    "sku": "404533338815",
-    "system": "navigate"
+    "sku": "712962875672",
+    "panel": "generate",
+    "protocol": "transmit",
+    "microchip": "reboot"
   },
   {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
     "type": "Product",
-    "name": "Intelligent Metal Towels",
+    "manufacturer": {
+      "type": "Organization",
+      "name": "Wilderman, Schaden and Hansen",
+      "description": "Proactive even-keeled framework",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "641 Adams Station",
+        "addressLocality": "Port Delta",
+        "addressRegion": "Minnesota",
+        "postalCode": "55237-3088",
+        "addressCountry": "Senegal"
+      },
+      "email": "Donna87@example.com",
+      "phoneNumber": "555-845-3770",
+      "faxNumber": "555-294-9224"
+    },
+    "name": "Ergonomic Rubber Bacon",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "4042"
+      "value": "1034"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "7382"
+      "value": "3933"
     },
-    "sku": "204448530687",
-    "pixel": "override",
-    "firewall": "connect"
+    "feed": "program",
+    "bus": "connect",
+    "monitor": "index"
   },
   {
-    "circuit": "back up",
-    "microchip": "input",
-    "pixel": "calculate",
-    "feed": "navigate"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "Product",
+    "description": "The Football Is Good For Training And Recreational Purposes",
+    "sizeOrAmount": {
+      "type": "QuantitativeValue",
+      "unitCode": "hg/ha",
+      "value": "2203"
+    },
+    "feed": "input",
+    "microchip": "override"
   }
 ]

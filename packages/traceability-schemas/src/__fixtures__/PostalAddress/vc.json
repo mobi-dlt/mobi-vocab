@@ -14,17 +14,17 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "PostalAddress",
-    "organizationName": "Wilkinson, Zemlak and Kunde",
-    "streetAddress": "57436 Romaguera Key",
-    "addressLocality": "Port Anastasiashire",
-    "addressRegion": "Minnesota",
-    "postalCode": "23679-2355",
-    "addressCountry": "Guernsey"
+    "organizationName": "Purdy - Kuvalis",
+    "streetAddress": "755 Amely Vista",
+    "addressLocality": "South Elroy",
+    "addressRegion": "Oklahoma",
+    "postalCode": "81198",
+    "addressCountry": "Portugal"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19.._jT7Q4cQI1LBM6EZoKQaWllL0RwvpRTvgVZGrgkB8DJx3R94EG21GuCBsNctv6JBlW58i9zzJ-nVSb7WF_b0Dw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..XEO8aR09M6Jsh-FZNZuYFsojnq4GBjJ71H5DTWnQCYZ_gX9Gvu-VspN2ZjXXEohYkguMS-RErB6WGr_yz3yJDg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

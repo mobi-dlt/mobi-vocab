@@ -18,70 +18,62 @@
     "eventId": "12345",
     "actor": [
       {
-        "type": "Person",
-        "firstName": "Brook",
-        "lastName": "Shields",
-        "email": "Neoma.Douglas82@example.net",
-        "phoneNumber": "555-857-8033",
-        "worksFor": {
-          "type": "Organization",
-          "name": "Renner, Zboncak and Wehner",
-          "description": "Diverse client-server function",
-          "address": {
-            "type": "PostalAddress",
-            "streetAddress": "59236 Gaylord Station",
-            "addressLocality": "New Abdulmouth",
-            "addressRegion": "Colorado",
-            "postalCode": "44647-3198",
-            "addressCountry": "South Georgia and the South Sandwich Islands"
-          },
-          "email": "Tierra_Robel4@example.org",
-          "phoneNumber": "555-771-9685",
-          "faxNumber": "555-467-2118"
+        "type": "Organization",
+        "name": "Ratke, Kling and Legros",
+        "description": "Open-source intangible help-desk",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "9152 Bergstrom Pike",
+          "addressLocality": "Lake Herta",
+          "addressRegion": "Hawaii",
+          "postalCode": "83241-6034",
+          "addressCountry": "Sri Lanka"
         },
-        "jobTitle": "Corporate Directives Assistant"
+        "email": "Gregorio_Kuphal@example.com",
+        "phoneNumber": "555-608-6287",
+        "faxNumber": "555-159-3646"
       },
       {
         "type": "Person",
-        "firstName": "Trisha",
-        "lastName": "Hartmann",
-        "email": "Moriah.Harvey16@example.com",
-        "phoneNumber": "555-205-4883",
+        "firstName": "Bailee",
+        "lastName": "Schneider",
+        "email": "Yasmin_Reichert@example.org",
+        "phoneNumber": "555-314-7487",
         "worksFor": {
           "type": "Organization",
-          "name": "Tromp - Huel",
-          "description": "Innovative intangible intranet",
+          "name": "Lakin, Aufderhar and Mertz",
+          "description": "Configurable encompassing projection",
           "address": {
             "type": "PostalAddress",
-            "streetAddress": "338 Paucek Path",
-            "addressLocality": "Kleinview",
-            "addressRegion": "Oklahoma",
-            "postalCode": "84635",
-            "addressCountry": "Saint Helena"
+            "streetAddress": "097 Goldner Islands",
+            "addressLocality": "Nolanmouth",
+            "addressRegion": "Massachusetts",
+            "postalCode": "09187-8640",
+            "addressCountry": "Marshall Islands"
           },
-          "email": "Suzanne_Fay@example.org",
-          "phoneNumber": "555-494-5524",
-          "faxNumber": "555-619-3089"
+          "email": "Chauncey_Torphy@example.com",
+          "phoneNumber": "555-299-3284",
+          "faxNumber": "555-307-2765"
         },
-        "jobTitle": "Forward Accountability Orchestrator"
+        "jobTitle": "Forward Creative Strategist"
       }
     ],
     "place": {
       "type": "Place",
-      "globalLocationNumber": "5458812580114",
+      "globalLocationNumber": "4574651949965",
       "geo": {
         "type": "GeoCoordinates",
-        "latitude": "43.4630",
-        "longitude": "141.8014"
+        "latitude": "30.2553",
+        "longitude": "-129.2106"
       },
       "address": {
         "type": "PostalAddress",
-        "organizationName": "Schamberger - Zieme",
-        "streetAddress": "73727 Bartoletti Shoal",
-        "addressLocality": "South Micahmouth",
-        "addressRegion": "Missouri",
-        "postalCode": "73185-1384",
-        "addressCountry": "Brunei Darussalam"
+        "organizationName": "Jaskolski and Sons",
+        "streetAddress": "80060 Stanton Rue",
+        "addressLocality": "North Cheyannehaven",
+        "addressRegion": "New Jersey",
+        "postalCode": "47898-6332",
+        "addressCountry": "South Africa"
       }
     },
     "eventTime": "2019-12-11T03:50:55Z",
@@ -89,73 +81,81 @@
       {
         "type": "Product",
         "manufacturer": {
-          "type": "Organization",
-          "name": "White LLC",
-          "description": "Decentralized uniform leverage",
-          "address": {
-            "type": "PostalAddress",
-            "streetAddress": "1424 Milton Roads",
-            "addressLocality": "New Lavinachester",
-            "addressRegion": "New Hampshire",
-            "postalCode": "72538-1993",
-            "addressCountry": "Monaco"
+          "type": "Person",
+          "firstName": "Helga",
+          "lastName": "Wyman",
+          "email": "Jules69@example.org",
+          "phoneNumber": "555-680-8514",
+          "worksFor": {
+            "type": "Organization",
+            "name": "Langworth and Sons",
+            "description": "Reduced interactive open system",
+            "address": {
+              "type": "PostalAddress",
+              "streetAddress": "86347 Kertzmann Oval",
+              "addressLocality": "Grimesberg",
+              "addressRegion": "West Virginia",
+              "postalCode": "77118-5498",
+              "addressCountry": "Republic of Korea"
+            },
+            "email": "Griffin13@example.com",
+            "phoneNumber": "555-819-2638",
+            "faxNumber": "555-482-5363"
           },
-          "email": "Jocelyn.Bradtke@example.org",
-          "phoneNumber": "555-304-4607",
-          "faxNumber": "555-481-5158"
+          "jobTitle": "Future Quality Supervisor"
         },
-        "name": "Unbranded Wooden Towels",
-        "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+        "name": "Licensed Rubber Shoes",
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
         "sizeOrAmount": {
           "type": "QuantitativeValue",
           "unitCode": "hg/ha",
-          "value": "7264"
+          "value": "9144"
         },
         "weight": {
           "type": "QuantitativeValue",
           "unitCode": "hg/ha",
-          "value": "5934"
+          "value": "1186"
         },
-        "sku": "696653852180"
+        "sku": "67184724265"
       },
       {
         "type": "Product",
         "manufacturer": {
           "type": "Organization",
-          "name": "Strosin and Sons",
-          "description": "Open-architected context-sensitive matrices",
+          "name": "Jones - Beahan",
+          "description": "Grass-roots clear-thinking time-frame",
           "address": {
             "type": "PostalAddress",
-            "streetAddress": "75360 Rippin Landing",
-            "addressLocality": "Port Romaside",
-            "addressRegion": "Virginia",
-            "postalCode": "11291",
+            "streetAddress": "721 Collins Branch",
+            "addressLocality": "Port Dixie",
+            "addressRegion": "Utah",
+            "postalCode": "52666-4159",
             "addressCountry": "Sri Lanka"
           },
-          "email": "Grayce74@example.com",
-          "phoneNumber": "555-267-2121",
-          "faxNumber": "555-853-9287"
+          "email": "Christina60@example.net",
+          "phoneNumber": "555-476-4639",
+          "faxNumber": "555-444-7938"
         },
-        "name": "Small Rubber Pants",
-        "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+        "name": "Refined Plastic Table",
+        "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
         "sizeOrAmount": {
           "type": "QuantitativeValue",
           "unitCode": "hg/ha",
-          "value": "2063"
+          "value": "2461"
         },
         "weight": {
           "type": "QuantitativeValue",
           "unitCode": "hg/ha",
-          "value": "7880"
+          "value": "3899"
         },
-        "sku": "398174715800"
+        "sku": "915514517496"
       }
     ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ZQSmzkxVm_utWZFEFeGFyrDpTdwQNLJDYhpg_wMyNlI0wXOcsS-AXq2Kk1N7B-giPrgeIO4_qvMQEC90RmPvBg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..3GeJfnX5vzD_V9LvThhNPL1-g4mlTVxyHjnaF7iwY4jtGDGFbaMiLgQCW7TDsST62AAEDQB2oBagIvsui_7SBw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

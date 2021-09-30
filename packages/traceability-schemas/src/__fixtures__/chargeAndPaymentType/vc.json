@@ -14,13 +14,13 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "chargeAndPaymentType",
-    "chargeCollect": 788,
-    "chargePrepaid": 910
+    "chargeCollect": 765,
+    "chargePrepaid": 391
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..KqMtfLoISNeD6HNbqhYYWBawSXeq5b9XKASvxadynVncMLaYSS3Jx8X0YmuQeu_2Xdz8uMoZ-uCiOjNKQ8GyAA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..6v_D1xGAOs2U-RK2_d9iF4hrU5DO2zkTQkPwNYR0TULBwEnLGqQ7D8QbeLOTJW5ZAJBe19uvWcn0tXM1DmupDg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -5,28 +5,33 @@
     ],
     "type": "Permissions",
     "vehicleLocation": "true",
-    "vid": "true",
-    "dataSharingForRewards": "true",
-    "system": "program",
-    "hard drive": "reboot",
-    "application": "index",
-    "bandwidth": "copy"
+    "batteryid": "true",
+    "array": "copy",
+    "monitor": "override",
+    "firewall": "parse",
+    "transmitter": "back up"
   },
   {
     "type": "Permissions",
     "userLocation": "true",
+    "vehicleLocation": "true",
     "vid": "true",
     "batteryid": "true",
-    "application": "generate",
-    "matrix": "hack"
+    "program": "navigate",
+    "interface": "calculate",
+    "application": "hack"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
     "type": "Permissions",
+    "userLocation": "true",
+    "vid": "true",
     "batteryid": "true",
-    "array": "quantify",
-    "monitor": "program"
+    "dataSharingForRewards": "true",
+    "interface": "reboot",
+    "alarm": "program",
+    "feed": "synthesize"
   }
 ]

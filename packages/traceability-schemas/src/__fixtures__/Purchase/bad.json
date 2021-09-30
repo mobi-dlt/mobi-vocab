@@ -1,21 +1,66 @@
 [
   {
-    "interface": "index",
-    "application": "index",
-    "bus": "generate"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "customer": {
+      "type": "Organization",
+      "name": "Rogahn, Schmitt and Schoen",
+      "description": "Progressive systematic ability",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "85379 Manuel Lights",
+        "addressLocality": "Botsfordhaven",
+        "addressRegion": "Pennsylvania",
+        "postalCode": "85709",
+        "addressCountry": "Bermuda"
+      },
+      "email": "Jameson.Flatley@example.net",
+      "phoneNumber": "555-843-9990",
+      "faxNumber": "555-912-3939"
+    },
+    "panel": "parse",
+    "driver": "reboot"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "alarm": "override",
-    "feed": "synthesize",
-    "port": "program",
-    "driver": "input"
+    "customer": {
+      "type": "Person",
+      "firstName": "Keven",
+      "lastName": "Metz",
+      "email": "Tina.Hoeger34@example.net",
+      "phoneNumber": "555-620-3059",
+      "worksFor": {
+        "type": "Organization",
+        "name": "McClure - Bernhard",
+        "description": "Vision-oriented motivating pricing structure",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "30632 Auer Bridge",
+          "addressLocality": "Vonstad",
+          "addressRegion": "Oklahoma",
+          "postalCode": "30185-6059",
+          "addressCountry": "Netherlands Antilles"
+        },
+        "email": "Iliana.Padberg38@example.net",
+        "phoneNumber": "555-473-8779",
+        "faxNumber": "555-462-6282"
+      },
+      "jobTitle": "Investor Operations Orchestrator"
+    },
+    "system": "parse",
+    "sensor": "synthesize",
+    "bus": "transmit"
   },
   {
-    "matrix": "bypass",
-    "system": "navigate",
-    "firewall": "transmit"
+    "type": [
+      "Purchase"
+    ],
+    "capacitor": "override",
+    "protocol": "back up",
+    "feed": "transmit",
+    "driver": "quantify"
   }
 ]

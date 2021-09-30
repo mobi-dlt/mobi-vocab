@@ -14,32 +14,32 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "Person",
-    "firstName": "Marianne",
-    "lastName": "Ruecker",
-    "email": "Jack77@example.org",
-    "phoneNumber": "555-567-4578",
+    "firstName": "Florine",
+    "lastName": "Johns",
+    "email": "Roselyn.Fisher87@example.com",
+    "phoneNumber": "555-607-6164",
     "worksFor": {
       "type": "Organization",
-      "name": "Jakubowski, Harris and Lemke",
-      "description": "Triple-buffered methodical data-warehouse",
+      "name": "Beer, Wiegand and Kilback",
+      "description": "Organized didactic frame",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "175 Bradtke Neck",
-        "addressLocality": "Pfeffertown",
-        "addressRegion": "Illinois",
-        "postalCode": "93807",
-        "addressCountry": "British Indian Ocean Territory (Chagos Archipelago)"
+        "streetAddress": "2044 Aaron Turnpike",
+        "addressLocality": "Port Edwinaland",
+        "addressRegion": "Maryland",
+        "postalCode": "99940-5743",
+        "addressCountry": "New Zealand"
       },
-      "email": "Modesto_Kohler4@example.org",
-      "phoneNumber": "555-953-4722",
-      "faxNumber": "555-128-5435"
+      "email": "Paris38@example.com",
+      "phoneNumber": "555-453-1816",
+      "faxNumber": "555-778-1293"
     },
-    "jobTitle": "Dynamic Operations Liaison"
+    "jobTitle": "Chief Metrics Executive"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vk1ElnMmCJHWijMxnRpZhRcyNgCJdUr81CBdg4Jk_JjFJRdz1BPLyioOdUDoHjXKGOGpJr6JvF7yemhi3yXdAA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..hhLStdzZJe_Yc7dsHeTdMin-k4bo3GhZDlRGhfnjzyGk71HfDwQkN8MGl--dpjiQ49ejFQEXomm9y6s3AmTHAQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

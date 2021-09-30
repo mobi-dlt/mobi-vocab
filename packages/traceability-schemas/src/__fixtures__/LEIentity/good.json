@@ -4,205 +4,205 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "LEIentity",
-    "legalName": "Jakubowski, Upton and Mills",
-    "legalNameLanguage": "ja",
+    "legalName": "Rau, Wilkinson and Lebsack",
+    "legalNameLanguage": "hy",
     "otherNames": [
-      "Murray - Smith",
-      "Feil, Cole and Sanford"
+      "Mohr - Huels",
+      "Lowe, Schulist and Rogahn"
     ],
     "transliteratedOtherNames": [
-      "Murray - Smith",
-      "Feil, Cole and Sanford"
+      "Mohr - Huels",
+      "Lowe, Schulist and Rogahn"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "ko",
+      "language": "ro",
       "addressLines": [
-        "Hintz Group",
-        "44208 Medhurst Knolls"
+        "Keeling Inc",
+        "269 Donnelly Isle"
       ],
-      "addressNumber": "207",
+      "addressNumber": "36",
       "addressNumberWithinBuilding": "9",
-      "mailRouting": "5365 O'Hara Corner, 39328",
-      "city": "Adelbertborough",
-      "region": "Bedfordshire",
-      "country": "Luxembourg",
-      "postalCode": "75139-2422"
+      "mailRouting": "431 Kuhic Corners, 25263-9855",
+      "city": "Elvieton",
+      "region": "Borders",
+      "country": "Tokelau",
+      "postalCode": "77329-4815"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "sv",
+      "language": "en_AU_ocker",
       "addressLines": [
-        "Kihn Inc",
-        "814 McKenzie Locks"
+        "Parker Group",
+        "217 Gerhold Parks"
       ],
-      "addressNumber": "225",
+      "addressNumber": "263",
+      "addressNumberWithinBuilding": "2",
+      "mailRouting": "944 Raven Club, 30561-9066",
+      "city": "Larkinhaven",
+      "region": "Buckinghamshire",
+      "country": "Christmas Island",
+      "postalCode": "27266-1438"
+    },
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000005",
+      "otherValidationAuthorityID": "WWRCK89S",
+      "validationAuthorityEntityID": "A9QTUFOOT3RM5GFL568Q"
+    },
+    "legalJurisdiction": "Avon",
+    "entityCategory": "Finance",
+    "legalForm": "CORPORATION",
+    "associatedEntity": {
+      "type": "Organization",
+      "leiCode": "GIDJVYIUHW0TC3D5EIK8",
+      "name": "Leuschke Inc"
+    },
+    "status": "REQUESTED",
+    "expirationDate": "2022-07-11",
+    "expirationReason": "utilize granular systems",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "8L7JM89EML2H5Z94LPOE",
+      "name": "Keebler - Kilback"
+    },
+    "otherAddresses": []
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "LEIentity",
+    "legalName": "Feeney - Hane",
+    "legalNameLanguage": "ko",
+    "otherNames": [
+      "Goldner - Thompson",
+      "O'Conner - Parisian"
+    ],
+    "transliteratedOtherNames": [
+      "Goldner - Thompson",
+      "O'Conner - Parisian"
+    ],
+    "legalAddress": {
+      "type": "LEIaddress",
+      "language": "en_ZA",
+      "addressLines": [
+        "Ortiz Inc",
+        "9744 McClure Hill"
+      ],
+      "addressNumber": "331",
       "addressNumberWithinBuilding": "4",
-      "mailRouting": "9721 Hoeger Island, 67365",
-      "city": "Lake Rosalind",
-      "region": "Borders",
-      "country": "Gibraltar",
-      "postalCode": "84588-5251"
+      "mailRouting": "0991 Nico Point, 15404",
+      "city": "Lake Nicolette",
+      "region": "Berkshire",
+      "country": "Zambia",
+      "postalCode": "33697"
+    },
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "fr_CA",
+      "addressLines": [
+        "Homenick, Feest and Carter",
+        "797 Spinka Mountains"
+      ],
+      "addressNumber": "77",
+      "addressNumberWithinBuilding": "1",
+      "mailRouting": "506 Schaefer Fork, 81685-7170",
+      "city": "North Ellenberg",
+      "region": "Cambridgeshire",
+      "country": "Iceland",
+      "postalCode": "33303"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
       "validationAuthorityID": "RA000661",
-      "otherValidationAuthorityID": "19Z24J8X",
-      "validationAuthorityEntityID": "11N48G6X3B3IL1O5EZHY"
-    },
-    "legalJurisdiction": "Bedfordshire",
-    "entityCategory": "Grocery",
-    "legalForm": "CORPORATION",
-    "associatedEntity": {
-      "type": "Organization",
-      "leiCode": "F1QEHLVLWSFN9ZLAWC7D",
-      "name": "Hand, Nikolaus and Wiza"
-    },
-    "status": "IN PROGRESS",
-    "expirationDate": "2022-07-11",
-    "expirationReason": "incubate bleeding-edge ROI",
-    "successorEntity": {
-      "type": "Organization",
-      "leiCode": "IIHCOJ5414B5PX7QO5Y6",
-      "name": "Renner LLC"
-    },
-    "otherAddresses": []
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "LEIentity",
-    "legalName": "Cronin - Zulauf",
-    "legalNameLanguage": "nb_NO",
-    "otherNames": [
-      "Huels, Orn and O'Hara",
-      "Breitenberg - Heidenreich"
-    ],
-    "transliteratedOtherNames": [
-      "Huels, Orn and O'Hara",
-      "Breitenberg - Heidenreich"
-    ],
-    "legalAddress": {
-      "type": "LEIaddress",
-      "language": "cz",
-      "addressLines": [
-        "Wolff Group",
-        "052 Thiel Run"
-      ],
-      "addressNumber": "436",
-      "addressNumberWithinBuilding": "8",
-      "mailRouting": "4739 Schowalter Radial, 78734-8831",
-      "city": "South Lynn",
-      "region": "Cambridgeshire",
-      "country": "Indonesia",
-      "postalCode": "33636"
-    },
-    "headquartersAddress": {
-      "type": "LEIaddress",
-      "language": "fa",
-      "addressLines": [
-        "Powlowski - Hoeger",
-        "53420 Lee Circles"
-      ],
-      "addressNumber": "225",
-      "addressNumberWithinBuilding": "6",
-      "mailRouting": "66674 Littel Mill, 95849-0831",
-      "city": "East Grayce",
-      "region": "Borders",
-      "country": "Honduras",
-      "postalCode": "52546-3758"
-    },
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000004",
-      "otherValidationAuthorityID": "QPPYI0T7",
-      "validationAuthorityEntityID": "F0WN2WY8NXD27XHC735H"
-    },
-    "legalJurisdiction": "Borders",
-    "entityCategory": "Industrial",
-    "legalForm": "LLC",
-    "associatedEntity": {
-      "type": "Organization",
-      "leiCode": "O0H8MTVVKR14XSOXOL7X",
-      "name": "Ortiz and Sons"
-    },
-    "status": "IN PROGRESS",
-    "expirationDate": "2022-07-11",
-    "expirationReason": "engineer back-end architectures",
-    "successorEntity": {
-      "type": "Organization",
-      "leiCode": "KB3LPPE9ZET4I64OU6SI",
-      "name": "Quitzon and Sons"
-    },
-    "otherAddresses": []
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "LEIentity",
-    "legalName": "Ullrich, Tromp and Russel",
-    "legalNameLanguage": "en_CA",
-    "otherNames": [
-      "Effertz, Oberbrunner and Monahan",
-      "Jenkins and Sons"
-    ],
-    "transliteratedOtherNames": [
-      "Effertz, Oberbrunner and Monahan",
-      "Jenkins and Sons"
-    ],
-    "legalAddress": {
-      "type": "LEIaddress",
-      "language": "hr",
-      "addressLines": [
-        "Gaylord Group",
-        "466 Runolfsson Station"
-      ],
-      "addressNumber": "366",
-      "addressNumberWithinBuilding": "9",
-      "mailRouting": "1445 Feil Dale, 88425-0103",
-      "city": "Darenstad",
-      "region": "Bedfordshire",
-      "country": "French Polynesia",
-      "postalCode": "56223"
-    },
-    "headquartersAddress": {
-      "type": "LEIaddress",
-      "language": "ko",
-      "addressLines": [
-        "Beer - Kunze",
-        "6644 Raynor Lane"
-      ],
-      "addressNumber": "138",
-      "addressNumberWithinBuilding": "2",
-      "mailRouting": "609 Schuppe Hills, 67359",
-      "city": "Lake Arjun",
-      "region": "Cambridgeshire",
-      "country": "Burundi",
-      "postalCode": "06851"
-    },
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000002",
-      "otherValidationAuthorityID": "EBD8CCM2",
-      "validationAuthorityEntityID": "FIT2OS28NJ9VLNOJ8BGB"
+      "otherValidationAuthorityID": "X8JIATEA",
+      "validationAuthorityEntityID": "GXLVI5XSHKZKUE7IXE4J"
     },
     "legalJurisdiction": "Berkshire",
     "entityCategory": "Jewelery",
     "legalForm": "CORPORATION",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "YFH3TTJD1IM4Y0LMTIVL",
-      "name": "Hoeger, Ondricka and Hettinger"
+      "leiCode": "NWL6EBD8CCM2FIT2OS28",
+      "name": "Thiel, Lemke and Stroman"
     },
     "status": "REJECTED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "recontextualize bricks-and-clicks vortals",
+    "expirationReason": "engineer intuitive schemas",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "GC2KK3YY6MOR76JE3FGT",
-      "name": "Abbott, Heidenreich and Gutkowski"
+      "leiCode": "7AT2BE065P8CYZKNXTK4",
+      "name": "Stoltenberg - Haley"
+    },
+    "otherAddresses": []
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "LEIentity",
+    "legalName": "Howe Inc",
+    "legalNameLanguage": "az",
+    "otherNames": [
+      "Auer LLC",
+      "O'Conner - Hickle"
+    ],
+    "transliteratedOtherNames": [
+      "Auer LLC",
+      "O'Conner - Hickle"
+    ],
+    "legalAddress": {
+      "type": "LEIaddress",
+      "language": "pt_BR",
+      "addressLines": [
+        "Koelpin Inc",
+        "66294 Conroy Fords"
+      ],
+      "addressNumber": "498",
+      "addressNumberWithinBuilding": "8",
+      "mailRouting": "17321 Mateo Drives, 65692",
+      "city": "Feeststad",
+      "region": "Berkshire",
+      "country": "Azerbaijan",
+      "postalCode": "31665"
+    },
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "sk",
+      "addressLines": [
+        "Reilly - Christiansen",
+        "1335 Shields Lakes"
+      ],
+      "addressNumber": "203",
+      "addressNumberWithinBuilding": "5",
+      "mailRouting": "73790 Collier Forge, 40725",
+      "city": "Parkerland",
+      "region": "Cambridgeshire",
+      "country": "Serbia",
+      "postalCode": "56230"
+    },
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000004",
+      "otherValidationAuthorityID": "U8MZ7S2Y",
+      "validationAuthorityEntityID": "1HD39JNGHU935H45VB8Q"
+    },
+    "legalJurisdiction": "Borders",
+    "entityCategory": "Industrial",
+    "legalForm": "LLC",
+    "associatedEntity": {
+      "type": "Organization",
+      "leiCode": "I48Y2JRY4FLBXIVF93UN",
+      "name": "Morar - Huels"
+    },
+    "status": "IN PROGRESS",
+    "expirationDate": "2022-07-11",
+    "expirationReason": "brand 24/365 schemas",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "YW4Y3SNBXOTF29AUX19W",
+      "name": "Koepp, Shanahan and Nienow"
     },
     "otherAddresses": []
   }

@@ -1,14 +1,6 @@
 [
   {
-    "bus": "quantify",
-    "firewall": "calculate",
-    "application": "hack",
-    "card": "connect"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
+    "type": "ServiceProvider",
     "EntityInfo": {
       "type": "EC",
       "EntityType": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
@@ -22,32 +14,44 @@
       "IssuerSig": "sig"
     },
     "LegalName": "mobi",
-    "Email": "hi@dlt.mobi",
-    "microchip": "quantify",
-    "card": "override"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "EntityInfo": {
-      "type": "EC",
-      "EntityType": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
-      "PubKey": "pubkey",
-      "RevURI": "sampleuri",
-      "ALURI": "sampleuri",
-      "BLURI": "blocked uri",
-      "SignAlgo": "algo",
-      "HashAlgo": "algo",
-      "Expiration": "10-19-2021",
-      "IssuerSig": "sig"
-    },
-    "LegalName": "mobi",
+    "Address": "entity address",
     "PhoneNumber": "312-888-0766",
     "Email": "hi@dlt.mobi",
-    "system": "program",
-    "circuit": "input",
-    "firewall": "input",
-    "microchip": "quantify"
+    "array": "bypass",
+    "system": "parse"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "ServiceProvider",
+    "EntityInfo": {
+      "type": "EC",
+      "EntityType": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+      "PubKey": "pubkey",
+      "RevURI": "sampleuri",
+      "ALURI": "sampleuri",
+      "BLURI": "blocked uri",
+      "SignAlgo": "algo",
+      "HashAlgo": "algo",
+      "Expiration": "10-19-2021",
+      "IssuerSig": "sig"
+    },
+    "LegalName": "mobi",
+    "capacitor": "copy",
+    "bandwidth": "generate",
+    "interface": "transmit",
+    "protocol": "index"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "LegalName": "mobi",
+    "Address": "entity address",
+    "PhoneNumber": "312-888-0766",
+    "Email": "hi@dlt.mobi",
+    "sensor": "back up",
+    "port": "reboot"
   }
 ]

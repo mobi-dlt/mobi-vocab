@@ -1,21 +1,19 @@
 [
   {
-    "chargePrepaid": 910,
-    "application": "synthesize",
-    "panel": "calculate",
-    "sensor": "input",
+    "driver": "hack",
+    "feed": "reboot",
+    "protocol": "synthesize",
     "system": "generate"
   },
   {
-    "transmitter": "connect",
-    "microchip": "synthesize",
-    "driver": "input"
+    "alarm": "calculate"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "chargePrepaid": 55,
-    "pixel": "synthesize"
+    "type": "chargeAndPaymentType",
+    "bus": "bypass",
+    "program": "hack"
   }
 ]

@@ -14,74 +14,74 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "LEIentity",
-    "legalName": "Jakubowski, Upton and Mills",
-    "legalNameLanguage": "ja",
+    "legalName": "Rau, Wilkinson and Lebsack",
+    "legalNameLanguage": "hy",
     "otherNames": [
-      "Murray - Smith",
-      "Feil, Cole and Sanford"
+      "Mohr - Huels",
+      "Lowe, Schulist and Rogahn"
     ],
     "transliteratedOtherNames": [
-      "Murray - Smith",
-      "Feil, Cole and Sanford"
+      "Mohr - Huels",
+      "Lowe, Schulist and Rogahn"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "ko",
+      "language": "ro",
       "addressLines": [
-        "Hintz Group",
-        "44208 Medhurst Knolls"
+        "Keeling Inc",
+        "269 Donnelly Isle"
       ],
-      "addressNumber": "207",
+      "addressNumber": "36",
       "addressNumberWithinBuilding": "9",
-      "mailRouting": "5365 O'Hara Corner, 39328",
-      "city": "Adelbertborough",
-      "region": "Bedfordshire",
-      "country": "Luxembourg",
-      "postalCode": "75139-2422"
+      "mailRouting": "431 Kuhic Corners, 25263-9855",
+      "city": "Elvieton",
+      "region": "Borders",
+      "country": "Tokelau",
+      "postalCode": "77329-4815"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "sv",
+      "language": "en_AU_ocker",
       "addressLines": [
-        "Kihn Inc",
-        "814 McKenzie Locks"
+        "Parker Group",
+        "217 Gerhold Parks"
       ],
-      "addressNumber": "225",
-      "addressNumberWithinBuilding": "4",
-      "mailRouting": "9721 Hoeger Island, 67365",
-      "city": "Lake Rosalind",
-      "region": "Borders",
-      "country": "Gibraltar",
-      "postalCode": "84588-5251"
+      "addressNumber": "263",
+      "addressNumberWithinBuilding": "2",
+      "mailRouting": "944 Raven Club, 30561-9066",
+      "city": "Larkinhaven",
+      "region": "Buckinghamshire",
+      "country": "Christmas Island",
+      "postalCode": "27266-1438"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000661",
-      "otherValidationAuthorityID": "19Z24J8X",
-      "validationAuthorityEntityID": "11N48G6X3B3IL1O5EZHY"
+      "validationAuthorityID": "RA000005",
+      "otherValidationAuthorityID": "WWRCK89S",
+      "validationAuthorityEntityID": "A9QTUFOOT3RM5GFL568Q"
     },
-    "legalJurisdiction": "Bedfordshire",
-    "entityCategory": "Grocery",
+    "legalJurisdiction": "Avon",
+    "entityCategory": "Finance",
     "legalForm": "CORPORATION",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "F1QEHLVLWSFN9ZLAWC7D",
-      "name": "Hand, Nikolaus and Wiza"
+      "leiCode": "GIDJVYIUHW0TC3D5EIK8",
+      "name": "Leuschke Inc"
     },
-    "status": "IN PROGRESS",
+    "status": "REQUESTED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "incubate bleeding-edge ROI",
+    "expirationReason": "utilize granular systems",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "IIHCOJ5414B5PX7QO5Y6",
-      "name": "Renner LLC"
+      "leiCode": "8L7JM89EML2H5Z94LPOE",
+      "name": "Keebler - Kilback"
     },
     "otherAddresses": []
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..wCMvFPOLGK17rftle_Kv13dPG0ccLHNntTscX7fVIkpMDBPK2X8rXe1NAj9PFy6tK59yGCt4oiTyNaiXIQ0FDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..3VTvrxvYIGgqMX8mMGczhOLmlO0lZ6u_eyRH3DLCo3e9pdcOM0gDQGKo_HFfNs5YdObrowyDwOI0VW30EhIjCw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

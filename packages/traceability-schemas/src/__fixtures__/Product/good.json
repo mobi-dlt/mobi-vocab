@@ -6,33 +6,33 @@
     "type": "Product",
     "manufacturer": {
       "type": "Organization",
-      "name": "Pacocha Inc",
-      "description": "Balanced client-server knowledge user",
+      "name": "Schaden and Sons",
+      "description": "Persistent 3rd generation complexity",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "18881 Muller Ranch",
-        "addressLocality": "West Saul",
-        "addressRegion": "South Dakota",
-        "postalCode": "57023-6958",
-        "addressCountry": "Spain"
+        "streetAddress": "744 Delmer Plaza",
+        "addressLocality": "Medafort",
+        "addressRegion": "Michigan",
+        "postalCode": "45619",
+        "addressCountry": "Saudi Arabia"
       },
-      "email": "Eduardo19@example.org",
-      "phoneNumber": "555-983-9154",
-      "faxNumber": "555-665-1109"
+      "email": "Lambert.Kuvalis@example.org",
+      "phoneNumber": "555-157-4774",
+      "faxNumber": "555-842-5500"
     },
-    "name": "Incredible Cotton Fish",
-    "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+    "name": "Intelligent Wooden Ball",
+    "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "4122"
+      "value": "4916"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "9351"
+      "value": "9272"
     },
-    "sku": "404533338815"
+    "sku": "712962875672"
   },
   {
     "@context": [
@@ -41,33 +41,33 @@
     "type": "Product",
     "manufacturer": {
       "type": "Organization",
-      "name": "Wuckert, Anderson and Bergstrom",
-      "description": "Multi-channelled incremental utilisation",
+      "name": "Wilderman, Schaden and Hansen",
+      "description": "Proactive even-keeled framework",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "33996 Mozelle Spurs",
-        "addressLocality": "Bettyeville",
-        "addressRegion": "South Carolina",
-        "postalCode": "77619",
-        "addressCountry": "Faroe Islands"
+        "streetAddress": "641 Adams Station",
+        "addressLocality": "Port Delta",
+        "addressRegion": "Minnesota",
+        "postalCode": "55237-3088",
+        "addressCountry": "Senegal"
       },
-      "email": "Beatrice.Witting@example.org",
-      "phoneNumber": "555-392-3486",
-      "faxNumber": "555-947-4888"
+      "email": "Donna87@example.com",
+      "phoneNumber": "555-845-3770",
+      "faxNumber": "555-294-9224"
     },
-    "name": "Intelligent Metal Towels",
-    "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+    "name": "Ergonomic Rubber Bacon",
+    "description": "The Football Is Good For Training And Recreational Purposes",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "4042"
+      "value": "1034"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "7382"
+      "value": "3933"
     },
-    "sku": "204448530687"
+    "sku": "348896586093"
   },
   {
     "@context": [
@@ -75,33 +75,41 @@
     ],
     "type": "Product",
     "manufacturer": {
-      "type": "Organization",
-      "name": "Armstrong - Prosacco",
-      "description": "Versatile explicit database",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "6691 Arely Pines",
-        "addressLocality": "North Tiannashire",
-        "addressRegion": "Arkansas",
-        "postalCode": "40654",
-        "addressCountry": "Netherlands Antilles"
+      "type": "Person",
+      "firstName": "Courtney",
+      "lastName": "Mohr",
+      "email": "Dejon24@example.org",
+      "phoneNumber": "555-206-5673",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Reynolds Group",
+        "description": "Team-oriented content-based attitude",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "46417 Fay Ridge",
+          "addressLocality": "North Hillard",
+          "addressRegion": "Florida",
+          "postalCode": "08757-7521",
+          "addressCountry": "Mali"
+        },
+        "email": "Lorenzo.Braun@example.com",
+        "phoneNumber": "555-175-4107",
+        "faxNumber": "555-117-4727"
       },
-      "email": "Mariam_Klein61@example.com",
-      "phoneNumber": "555-182-6836",
-      "faxNumber": "555-598-3406"
+      "jobTitle": "Regional Functionality Manager"
     },
-    "name": "Gorgeous Rubber Chair",
-    "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+    "name": "Awesome Rubber Chips",
+    "description": "The Football Is Good For Training And Recreational Purposes",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "3136"
+      "value": "2203"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "2718"
+      "value": "9599"
     },
-    "sku": "174089928139"
+    "sku": "414741678374"
   }
 ]

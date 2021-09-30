@@ -1,0 +1,89 @@
+[
+  {
+    "feed": "parse",
+    "array": "hack",
+    "port": "generate"
+  },
+  {
+    "CarbonIntensitySource": "CarbonIntensitySource",
+    "VID": {
+      "type": "VID",
+      "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+      "manufacturer": {
+        "type": "Person",
+        "firstName": "Ian",
+        "lastName": "Mayert",
+        "email": "Alfred.Harber@example.net",
+        "phoneNumber": "555-620-1845",
+        "worksFor": {
+          "type": "Organization",
+          "name": "Bernier - Prosacco",
+          "description": "Integrated responsive analyzer",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "177 Eldora Island",
+            "addressLocality": "Lake Heber",
+            "addressRegion": "South Dakota",
+            "postalCode": "86905",
+            "addressCountry": "Albania"
+          },
+          "email": "Sheridan37@example.net",
+          "phoneNumber": "555-551-6651",
+          "faxNumber": "555-818-2748"
+        },
+        "jobTitle": "Global Metrics Specialist"
+      },
+      "make": "Ford",
+      "model": "Mach_E",
+      "vin": "JTERU5JR7M5861170"
+    },
+    "SystemID": "SystemID",
+    "bus": "back up"
+  },
+  {
+    "CarbonIntensity": "CarbonIntensity",
+    "ChargingDataSource": "ChargingDataSource",
+    "CreditOwnerAccount": "CreditOwnerAccount",
+    "ChargeSessionGeolocation": "ChargeSessionGeolocation",
+    "VID": {
+      "type": "VID",
+      "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+      "manufacturer": {
+        "type": "Person",
+        "firstName": "Tracy",
+        "lastName": "Goyette",
+        "email": "Verda_Larson55@example.com",
+        "phoneNumber": "555-264-6941",
+        "worksFor": {
+          "type": "Organization",
+          "name": "Jast, Beer and D'Amore",
+          "description": "Universal bottom-line hierarchy",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "617 Wade Crescent",
+            "addressLocality": "Michaelborough",
+            "addressRegion": "Arizona",
+            "postalCode": "32447-0201",
+            "addressCountry": "Vanuatu"
+          },
+          "email": "Dax71@example.org",
+          "phoneNumber": "555-172-8523",
+          "faxNumber": "555-485-7263"
+        },
+        "jobTitle": "District Communications Producer"
+      },
+      "make": "Ford",
+      "model": "Mach_E",
+      "vin": "JTERU5JR7M5861170"
+    },
+    "ChargeRate": "ChargeRate",
+    "OrganizationTaxID": "OrganizationTaxID",
+    "ResidentialIncrementalVSNonResidential": "ResidentialIncrementalVSNonResidential",
+    "DesignationOfVehicle": "DesignationOfVehicle",
+    "EPACompanyID": "EPACompanyID",
+    "SystemID": "SystemID",
+    "TransactionNumber": "TransactionNumber",
+    "TransactionType": "TransactionType",
+    "protocol": "bypass"
+  }
+]

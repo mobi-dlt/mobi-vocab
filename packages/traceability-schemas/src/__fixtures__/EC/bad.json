@@ -1,28 +1,41 @@
 [
   {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
     "type": "EC",
     "EntityType": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
-    "PubKey": "pubkey",
+    "RevURI": "sampleuri",
     "ALURI": "sampleuri",
-    "SignAlgo": "algo",
-    "Expiration": "10-19-2021",
-    "hard drive": "generate",
-    "system": "transmit"
+    "BLURI": "blocked uri",
+    "HashAlgo": "algo",
+    "IssuerSig": "sig",
+    "port": "hack"
   },
   {
-    "sensor": "back up",
-    "port": "bypass",
-    "matrix": "calculate"
+    "type": "EC",
+    "SignAlgo": "algo",
+    "IssuerSig": "sig",
+    "array": "bypass",
+    "capacitor": "program",
+    "transmitter": "input",
+    "matrix": "index"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
+    "type": "EC",
+    "EntityType": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+    "PubKey": "pubkey",
+    "RevURI": "sampleuri",
     "ALURI": "sampleuri",
     "BLURI": "blocked uri",
+    "HashAlgo": "algo",
     "Expiration": "10-19-2021",
-    "IssuerSig": "sig",
-    "protocol": "generate",
-    "panel": "connect"
+    "capacitor": "override",
+    "microchip": "navigate",
+    "protocol": "reboot",
+    "monitor": "synthesize"
   }
 ]

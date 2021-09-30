@@ -1,0 +1,54 @@
+{
+    "$id": "https://dlt.mobi/mobility/schemas/EmissionMeasurement.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"EmissionMeasurement\", \"@id\": \"https://dlt.mobi/mobility#EmissionMeasurement\"}",
+    "title": "EmissionMeasurement",
+    "description": "Emission Measurement",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "uuid": {
+            "$comment": "{\"term\": \"uuid\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "uuid",
+            "description": "uuid v4",
+            "type": "string"
+        },
+        "totalFuelConsumed": {
+            "$comment": "{\"term\": \"totalFuelConsumed\", \"@id\": \"https://schema.org/fuelConsumption\"}",
+            "title": "totalFuelConsumed",
+            "description": "total Fuel Consumed by the vehicle in kg"
+        },
+        "totalDistanceTraveled": {
+            "$comment": "{\"term\": \"totalDistanceTraveled\", \"@id\": \"https://schema.org/milageFromOdometer\"}",
+            "title": "totalDistanceTraveled",
+            "description": "lifetime distrance traveled in km",
+            "type": "string"
+        },
+        "Begin_DateTime": {
+            "$comment": "{\"term\": \"Begin_DateTime\", \"@id\": \"https://schema.org/DateTime\"}",
+            "title": "Begin_DateTime",
+            "description": "Begining DateTime of the trip",
+            "type": "string"
+        },
+        "End_DateTime": {
+            "$comment": "{\"term\": \"End_DateTime\", \"@id\": \"https://schema.org/Time\"}",
+            "title": "End_DateTime",
+            "description": "End_DateTime of the trip",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}

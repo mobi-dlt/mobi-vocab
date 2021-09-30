@@ -3,11 +3,26 @@
     "@context": [
       "https://dlt.mobi/mobility"
     ],
+    "type": "DataHost",
     "Endpoint": "url",
-    "transmitter": "compress",
-    "capacitor": "reboot",
-    "matrix": "quantify",
-    "application": "navigate"
+    "HostType": "<name,type> pair",
+    "interface": "hack"
+  },
+  {
+    "EntityInfo": {
+      "type": "EC",
+      "EntityType": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+      "PubKey": "pubkey",
+      "RevURI": "sampleuri",
+      "ALURI": "sampleuri",
+      "BLURI": "blocked uri",
+      "SignAlgo": "algo",
+      "HashAlgo": "algo",
+      "Expiration": "10-19-2021",
+      "IssuerSig": "sig"
+    },
+    "interface": "reboot",
+    "bus": "connect"
   },
   {
     "type": "DataHost",
@@ -23,24 +38,7 @@
       "Expiration": "10-19-2021",
       "IssuerSig": "sig"
     },
-    "HostType": "<name,type> pair",
-    "application": "navigate",
-    "hard drive": "synthesize"
-  },
-  {
-    "EntityInfo": {
-      "type": "EC",
-      "EntityType": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
-      "PubKey": "pubkey",
-      "RevURI": "sampleuri",
-      "ALURI": "sampleuri",
-      "BLURI": "blocked uri",
-      "SignAlgo": "algo",
-      "HashAlgo": "algo",
-      "Expiration": "10-19-2021",
-      "IssuerSig": "sig"
-    },
-    "Endpoint": "url",
-    "system": "connect"
+    "microchip": "navigate",
+    "driver": "transmit"
   }
 ]

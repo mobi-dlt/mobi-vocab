@@ -3,34 +3,44 @@
     "@context": [
       "https://dlt.mobi/mobility"
     ],
+    "application": "quantify"
+  },
+  {
     "type": "Place",
-    "hard drive": "override",
-    "port": "connect",
-    "system": "reboot"
+    "globalLocationNumber": "1922643802652",
+    "geo": {
+      "type": "GeoCoordinates",
+      "latitude": "2.4938",
+      "longitude": "75.0563"
+    },
+    "address": {
+      "type": "PostalAddress",
+      "organizationName": "D'Amore - Hills",
+      "streetAddress": "948 Chelsie Dam",
+      "addressLocality": "Aydenview",
+      "addressRegion": "South Dakota",
+      "postalCode": "16178-8320",
+      "addressCountry": "Singapore"
+    },
+    "array": "override"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "globalLocationNumber": "6342048258482",
+    "type": "Place",
+    "globalLocationNumber": "4020494698633",
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Ankunding - Wunsch",
-      "streetAddress": "18779 Maxime Inlet",
-      "addressLocality": "Huelsport",
-      "addressRegion": "West Virginia",
-      "postalCode": "97318-4773",
-      "addressCountry": "Ecuador"
+      "organizationName": "Carter, Prohaska and Runolfsdottir",
+      "streetAddress": "654 Jerrell Village",
+      "addressLocality": "West Jaylen",
+      "addressRegion": "Florida",
+      "postalCode": "73793-0078",
+      "addressCountry": "British Indian Ocean Territory (Chagos Archipelago)"
     },
-    "application": "input",
-    "matrix": "quantify"
-  },
-  {
-    "geo": {
-      "type": "GeoCoordinates",
-      "latitude": "18.5516",
-      "longitude": "-175.6429"
-    },
-    "interface": "parse"
+    "pixel": "parse",
+    "bus": "index",
+    "bandwidth": "compress"
   }
 ]

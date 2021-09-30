@@ -3,40 +3,40 @@
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "name": "Ward, Marks and Bernier",
+    "type": "ContactPoint",
+    "name": "Bradtke, Hudson and Becker",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "599 Grimes Summit",
-      "addressLocality": "West Claud",
-      "addressRegion": "Texas",
-      "postalCode": "34135",
-      "addressCountry": "Hungary"
+      "streetAddress": "582 Nestor Lane",
+      "addressLocality": "Nickolasberg",
+      "addressRegion": "Colorado",
+      "postalCode": "95548",
+      "addressCountry": "Hong Kong"
     },
-    "email": "Corene_Morar35@example.org",
-    "phoneNumber": "555-942-8597",
-    "card": "input",
-    "bus": "synthesize"
+    "capacitor": "connect",
+    "hard drive": "connect",
+    "alarm": "bypass"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "name": "Hauck, Barrows and Hirthe",
+    "type": "ContactPoint",
+    "name": "Wisozk Inc",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "5228 Deshaun Land",
-      "addressLocality": "Mooreside",
+      "streetAddress": "3562 Pauline Shore",
+      "addressLocality": "Schambergerland",
       "addressRegion": "California",
-      "postalCode": "05671-6073",
-      "addressCountry": "Seychelles"
+      "postalCode": "49095-0478",
+      "addressCountry": "Malta"
     },
-    "email": "Aurelia_Kessler@example.com",
-    "phoneNumber": "555-145-9010",
-    "panel": "generate",
-    "matrix": "copy"
+    "email": "Noemy_Smith@example.net",
+    "system": "synthesize"
   },
   {
-    "system": "index",
-    "monitor": "bypass"
+    "email": "Jaydon_Sanford@example.org",
+    "sensor": "compress",
+    "driver": "index"
   }
 ]

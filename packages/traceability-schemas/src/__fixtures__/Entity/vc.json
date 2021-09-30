@@ -14,32 +14,32 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "Person",
-    "firstName": "Frida",
-    "lastName": "Lemke",
-    "email": "Mina3@example.com",
-    "phoneNumber": "555-656-7839",
+    "firstName": "Cheyenne",
+    "lastName": "Williamson",
+    "email": "Eveline40@example.net",
+    "phoneNumber": "555-411-8441",
     "worksFor": {
       "type": "Organization",
-      "name": "Rogahn LLC",
-      "description": "Digitized zero defect concept",
+      "name": "Rutherford, Reichel and Anderson",
+      "description": "Profit-focused methodical open system",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "83153 Batz Rest",
-        "addressLocality": "Lake Jaydestad",
-        "addressRegion": "Ohio",
-        "postalCode": "58193",
-        "addressCountry": "Azerbaijan"
+        "streetAddress": "487 Schuster Hills",
+        "addressLocality": "Berniecebury",
+        "addressRegion": "Texas",
+        "postalCode": "16357",
+        "addressCountry": "Maldives"
       },
-      "email": "Gabe.Walsh@example.com",
-      "phoneNumber": "555-102-3491",
-      "faxNumber": "555-881-8255"
+      "email": "Karen59@example.com",
+      "phoneNumber": "555-234-5377",
+      "faxNumber": "555-306-4680"
     },
-    "jobTitle": "Corporate Functionality Liaison"
+    "jobTitle": "District Applications Specialist"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Wgkhhq-BSgYfRYNYAdn1iyvBxeptowflpGwQ0aevoqf02N-hUfM0uIWuCUEAz_u4it6j9jIRyOei_nRFe2ATDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..4vQ5P2opSqxpv7q_bnCN6Vfcla66mNGdNfZf_BZwwgH1r7mXLnYEVMuvzPHdK6pGYNjfEV9WgNcl7HTahaIrBQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

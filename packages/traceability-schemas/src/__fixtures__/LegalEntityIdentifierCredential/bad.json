@@ -1,23 +1,18 @@
 [
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
     "type": "LegalEntityIdentifierCredential",
-    "alarm": "back up",
-    "panel": "input"
-  },
-  {
-    "leiCode": "O3BBO02O66UN8ZU2A2NC",
-    "array": "override",
-    "protocol": "back up"
+    "protocol": "override"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
     "type": "LegalEntityIdentifierCredential",
-    "certificateName": "US Legal Entity Certificate",
-    "bandwidth": "index"
+    "firewall": "navigate"
+  },
+  {
+    "feed": "copy",
+    "card": "transmit",
+    "monitor": "parse"
   }
 ]

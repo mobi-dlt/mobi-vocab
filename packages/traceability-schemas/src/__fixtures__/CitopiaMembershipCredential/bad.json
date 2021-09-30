@@ -1,55 +1,15 @@
 [
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "identifier": "did:mobinet:123456789abcdefghi",
-    "member": {
-      "@context": [
-        "https://dlt.mobi/mobility"
-      ],
-      "type": "Member",
-      "firstName": "Elouise",
-      "lastName": "Mante",
-      "email": "Augustus_Lang@example.com"
-    },
+    "driver": "bypass"
+  },
+  {
     "issuanceDate": "2020-05-17",
-    "expirationDate": "2021-5-29",
-    "matrix": "parse",
-    "interface": "connect",
-    "circuit": "reboot"
+    "bandwidth": "synthesize",
+    "feed": "navigate"
   },
   {
-    "holder": "Matt Shi",
-    "member": {
-      "@context": [
-        "https://dlt.mobi/mobility"
-      ],
-      "type": "Member",
-      "firstName": "London",
-      "lastName": "Kerluke",
-      "email": "Federico_Kuvalis@example.net"
-    },
-    "port": "quantify",
-    "driver": "input"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "CitopiaMembershipCredential",
-    "holder": "Matt Shi",
-    "identifier": "did:mobinet:123456789abcdefghi",
-    "member": {
-      "@context": [
-        "https://dlt.mobi/mobility"
-      ],
-      "type": "Member",
-      "firstName": "Lula",
-      "lastName": "Baumbach",
-      "email": "Zane_Weimann@example.org"
-    },
-    "monitor": "back up",
-    "capacitor": "reboot"
+    "matrix": "input",
+    "interface": "hack",
+    "array": "compress"
   }
 ]

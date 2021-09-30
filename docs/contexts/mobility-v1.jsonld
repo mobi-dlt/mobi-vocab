@@ -116,6 +116,130 @@
         }
       }
     },
+    "CarbonOffset": {
+      "@id": "https://dlt.mobi/mobility#CarbonOffset",
+      "@context": {
+        "CarbonIntensity": {
+          "@id": "https://schema.org/QuantitativeValue"
+        },
+        "CarbonIntensitySource": {
+          "@id": "https://schema.org/Text"
+        },
+        "ChargeStartTime": {
+          "@id": "https://schema.org/startTime"
+        },
+        "ChargeEndTime": {
+          "@id": "https://schema.org/endTime"
+        },
+        "InfrastructureOwnerEntityID": {
+          "@id": "https://schema.org/url"
+        },
+        "ChargingDataSource": {
+          "@id": "https://https://schema.org/Person"
+        },
+        "CreditOwnerAccount": {
+          "@id": "https://schema.org/accountId"
+        },
+        "EnergyConsumed": {
+          "@id": "https://schema.org/Energy"
+        },
+        "ChargeSessionGeolocation": {
+          "@id": "https://schema.org/GeoCoordinates"
+        },
+        "TranscationDateTime": {
+          "@id": "https://schema.org/DateTime"
+        },
+        "VID": {
+          "@id": "https://dlt.mobi/mobility#VID"
+        },
+        "ChargerID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "ChargeRate": {
+          "@id": "https://schema.org/price"
+        },
+        "OrganizationTaxID": {
+          "@id": "https://schema.org/taxIS"
+        },
+        "ResidentialIncrementalVSNonResidential": {
+          "@id": "https://schema.org/Name"
+        },
+        "DesignationOfVehicle": {
+          "@id": "https://schema.org/location"
+        },
+        "EnergyEconomyRatio": {
+          "@id": "https://schema.org/Number"
+        },
+        "EPACompanyID": {
+          "@id": "https://schema.org/Organization"
+        },
+        "SystemID": {
+          "@id": "https://schema.org/SoftwareApplication"
+        },
+        "TransactionNumber": {
+          "@id": "https://schema.org/PaymentChargeSpecification"
+        },
+        "TransactionType": {
+          "@id": "https://schema.org/PaymentService"
+        }
+      }
+    },
+    "ChargerIdentity": {
+      "@id": "https://dlt.mobi/mobility#ChargerIdentity",
+      "@context": {
+        "Make": {
+          "@id": "https://schema.org/manufacturer"
+        },
+        "Model": {
+          "@id": "https://schema.org/model"
+        },
+        "ChargerAdapterStandard": {
+          "@id": "https://schema.org/boolean"
+        },
+        "ACDCType": {
+          "@id": "https://schema.org/addiontalProperty"
+        },
+        "UniBiDirectional": {
+          "@id": "https://schema.org/Property"
+        },
+        "ChargeRate": {
+          "@id": "https://schema.org/PaymentChargeSpecification"
+        },
+        "ChargerSoftwareVersion": {
+          "@id": "https://schema.org/version"
+        },
+        "ChargerUniqueIdentifier": {
+          "@id": "https://schema.org/identifier"
+        },
+        "ChargerStationIdentifier": {
+          "@id": "https://schema.org/url"
+        },
+        "GeoCoordinates": {
+          "@id": "https://schema.org/GeoCoordinates"
+        },
+        "Voltage": {
+          "@id": "https://schema.org/Number"
+        },
+        "Cost": {
+          "@id": "https://schema.org/price"
+        },
+        "Availability": {
+          "@id": "https://schema.org/availability"
+        },
+        "ProductionDate": {
+          "@id": "https://schema.org/Date"
+        },
+        "ChargeTransmissionType": {
+          "@id": "https://schema.org/Rating"
+        },
+        "WirelessChargingType": {
+          "@id": "https://schema.org/Text"
+        },
+        "ChargingStructureType": {
+          "@id": "https://schema.org/Documentation"
+        }
+      }
+    },
     "CitopiaMembershipCredential": {
       "@id": "https://dlt.mobi/mobility#CitopiaMemberShipCredential",
       "@context": {
@@ -126,7 +250,7 @@
           "@id": "https://schema.org/Number"
         },
         "member": {
-          "@id": "https://schema.org/https://dlt.mobi/mobility#Member"
+          "@id": "https://dlt.mobi/mobility#Member"
         },
         "issuanceDate": {
           "@id": "https://schema.org/Date"
@@ -291,6 +415,26 @@
         },
         "Reason": {
           "@id": "https://schema.org/Text"
+        }
+      }
+    },
+    "EmissionMeasurement": {
+      "@id": "https://dlt.mobi/mobility#EmissionMeasurement",
+      "@context": {
+        "uuid": {
+          "@id": "https://schema.org/identifier"
+        },
+        "totalFuelConsumed": {
+          "@id": "https://schema.org/fuelConsumption"
+        },
+        "totalDistanceTraveled": {
+          "@id": "https://schema.org/milageFromOdometer"
+        },
+        "Begin_DateTime": {
+          "@id": "https://schema.org/DateTime"
+        },
+        "End_DateTime": {
+          "@id": "https://schema.org/Time"
         }
       }
     },
@@ -1121,6 +1265,32 @@
         },
         "vin": {
           "@id": "https://schema.org/vehicleIdentificationNumber"
+        }
+      }
+    },
+    "VehicleSpec": {
+      "@id": "https://dlt.mobi/mobility#VehicleSpec",
+      "@context": {
+        "uuid": {
+          "@id": "https://schema.org/identifier"
+        },
+        "OEM": {
+          "@id": "https://schema.org/manufacturer"
+        },
+        "MODEL": {
+          "@id": "https://schema.org/model"
+        },
+        "typeRating": {
+          "@id": "https://schema.org/Rating"
+        },
+        "fuelType": {
+          "@id": "https://schema.org/fuelType"
+        },
+        "weight": {
+          "@id": "https://schema.org/weight"
+        },
+        "power": {
+          "@id": "https://schema.org/enginePower"
         }
       }
     },

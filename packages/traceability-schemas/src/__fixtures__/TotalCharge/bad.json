@@ -3,25 +3,29 @@
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "totalPrepaid": 4867.5,
-    "destinationCurrency": "YER",
-    "totalCollectCharge": 19.75,
-    "microchip": "synthesize"
-  },
-  {
-    "chargesDestination": 671,
-    "system": "transmit",
-    "feed": "parse"
+    "totalPrepaid": 7114.5,
+    "totalCollect": 2371.5,
+    "sourceCurrency": "CZK",
+    "destinationCurrency": "UYU",
+    "ccChargesDestinationCurrency": "CZK",
+    "chargesDestination": 49,
+    "application": "reboot"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "totalPrepaid": 4795.5,
-    "totalCollect": 1598.5,
-    "sourceCurrency": "UGX",
-    "ccChargesDestinationCurrency": "UGX",
-    "alarm": "reboot",
-    "protocol": "quantify"
+    "totalCollectCharge": 118,
+    "matrix": "reboot",
+    "application": "navigate",
+    "interface": "synthesize"
+  },
+  {
+    "type": "TotalCharge",
+    "destinationCurrency": "KHR",
+    "sensor": "generate",
+    "application": "generate",
+    "bandwidth": "back up",
+    "alarm": "back up"
   }
 ]
