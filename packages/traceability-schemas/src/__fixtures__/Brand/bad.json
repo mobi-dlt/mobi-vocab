@@ -3,25 +3,22 @@
     "@context": [
       "https://dlt.mobi/mobility"
     ],
+    "logo": "http://placeimg.com/640/480",
+    "alarm": "index",
+    "transmitter": "navigate",
+    "firewall": "calculate",
+    "hard drive": "synthesize"
+  },
+  {
     "type": "Brand",
     "logo": "http://placeimg.com/640/480",
-    "matrix": "back up",
-    "port": "hack",
-    "card": "generate"
+    "monitor": "connect"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
+    "type": "Brand",
     "url": "https://brand.example.com",
-    "matrix": "compress",
-    "microchip": "synthesize",
-    "driver": "compress"
-  },
-  {
-    "logo": "http://placeimg.com/640/480",
-    "url": "https://brand.example.com",
-    "array": "calculate",
-    "monitor": "calculate"
+    "alarm": "back up",
+    "microchip": "parse",
+    "capacitor": "copy"
   }
 ]

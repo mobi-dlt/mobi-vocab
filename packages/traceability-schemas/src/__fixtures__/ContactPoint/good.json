@@ -4,50 +4,50 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "ContactPoint",
-    "name": "Bradtke, Hudson and Becker",
+    "name": "Lueilwitz LLC",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "582 Nestor Lane",
-      "addressLocality": "Nickolasberg",
+      "streetAddress": "28030 Susana Branch",
+      "addressLocality": "Boscoborough",
+      "addressRegion": "Kansas",
+      "postalCode": "96945-4604",
+      "addressCountry": "Benin"
+    },
+    "email": "Nia_West78@example.org",
+    "phoneNumber": "555-363-6421"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "ContactPoint",
+    "name": "Feest Group",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "91678 Barrett Plains",
+      "addressLocality": "Boehmview",
+      "addressRegion": "Oklahoma",
+      "postalCode": "03887",
+      "addressCountry": "Cambodia"
+    },
+    "email": "Garnet_Stracke@example.com",
+    "phoneNumber": "555-173-5619"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "ContactPoint",
+    "name": "Legros, Fadel and Kertzmann",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "14420 Marquardt Knolls",
+      "addressLocality": "Lake Blairmouth",
       "addressRegion": "Colorado",
-      "postalCode": "95548",
-      "addressCountry": "Hong Kong"
+      "postalCode": "67765-2943",
+      "addressCountry": "Kyrgyz Republic"
     },
-    "email": "Verona.Ullrich35@example.org",
-    "phoneNumber": "555-388-3678"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "ContactPoint",
-    "name": "Wisozk Inc",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "3562 Pauline Shore",
-      "addressLocality": "Schambergerland",
-      "addressRegion": "California",
-      "postalCode": "49095-0478",
-      "addressCountry": "Malta"
-    },
-    "email": "Noemy_Smith@example.net",
-    "phoneNumber": "555-415-7352"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "ContactPoint",
-    "name": "Hirthe - Quigley",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "871 Arvel Cliffs",
-      "addressLocality": "Port Kristabury",
-      "addressRegion": "Utah",
-      "postalCode": "88299",
-      "addressCountry": "Western Sahara"
-    },
-    "email": "Jaydon_Sanford@example.org",
-    "phoneNumber": "555-632-7780"
+    "email": "Prince_Anderson55@example.net",
+    "phoneNumber": "555-357-1746"
   }
 ]

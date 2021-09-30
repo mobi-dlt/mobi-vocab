@@ -1,43 +1,20 @@
 [
   {
-    "type": "IdentityCredential",
     "legalName": "Matt Shi",
     "licenseNumber": "Y5327288",
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000004",
-      "otherValidationAuthorityID": "50G2OEEH",
-      "validationAuthorityEntityID": "ZLPANPRUYSW1QHQ3583Z"
-    },
     "issuanceDate": "2021-03-09",
     "expirationDate": "2022-07-11",
-    "sensor": "calculate",
-    "program": "synthesize"
+    "driver": "override",
+    "port": "program"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "expirationDate": "2022-07-11",
-    "sensor": "bypass",
-    "alarm": "reboot",
-    "hard drive": "generate",
-    "pixel": "transmit"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
     "type": "IdentityCredential",
-    "licenseNumber": "Y5327288",
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000002",
-      "otherValidationAuthorityID": "BZGCQ6VS",
-      "validationAuthorityEntityID": "FN1H5J0PN8BZJZHN27EO"
-    },
-    "issuanceDate": "2021-03-09",
-    "expirationDate": "2022-07-11",
-    "microchip": "compress"
+    "array": "parse"
+  },
+  {
+    "legalName": "Matt Shi",
+    "feed": "compress",
+    "microchip": "navigate",
+    "driver": "quantify"
   }
 ]

@@ -28,28 +28,20 @@
       "type": "VID",
       "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
       "manufacturer": {
-        "type": "Person",
-        "firstName": "Shaun",
-        "lastName": "Hilpert",
-        "email": "Adrienne.Wilderman42@example.net",
-        "phoneNumber": "555-351-9233",
-        "worksFor": {
-          "type": "Organization",
-          "name": "Marquardt Inc",
-          "description": "Right-sized multimedia alliance",
-          "address": {
-            "type": "PostalAddress",
-            "streetAddress": "3622 Watson Forest",
-            "addressLocality": "Huelport",
-            "addressRegion": "Vermont",
-            "postalCode": "64735-6564",
-            "addressCountry": "Switzerland"
-          },
-          "email": "Zane_Weimann@example.org",
-          "phoneNumber": "555-275-3071",
-          "faxNumber": "555-750-5492"
+        "type": "Organization",
+        "name": "Weber - Sporer",
+        "description": "Quality-focused upward-trending local area network",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "934 Kiana Oval",
+          "addressLocality": "Wuckerthaven",
+          "addressRegion": "Arkansas",
+          "postalCode": "33182",
+          "addressCountry": "Georgia"
         },
-        "jobTitle": "Customer Usability Planner"
+        "email": "Avis_Durgan@example.org",
+        "phoneNumber": "555-536-2525",
+        "faxNumber": "555-435-6011"
       },
       "make": "Ford",
       "model": "Mach_E",
@@ -69,7 +61,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..aaypDdWV0DMhsVcC5IZDsWAi0Fr1Xh6-hzjqWlL1LKgYK9Eb-_C8G0F0j5urHmeY1Fh7t6opcXUKE_Wwys3vBg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..g948KBeA3O6bz4SfRHTrH6y42rKKU50W7GhtdEg9h8MsLeVctnn9dn2B0rhTdaE1pcDfVbfu59Was81F1kx0Cw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -16,38 +16,38 @@
     "type": "Product",
     "manufacturer": {
       "type": "Organization",
-      "name": "Schaden and Sons",
-      "description": "Persistent 3rd generation complexity",
+      "name": "Wilderman - Johnston",
+      "description": "Robust 24/7 methodology",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "744 Delmer Plaza",
-        "addressLocality": "Medafort",
-        "addressRegion": "Michigan",
-        "postalCode": "45619",
-        "addressCountry": "Saudi Arabia"
+        "streetAddress": "560 Bette Mountain",
+        "addressLocality": "Leliaport",
+        "addressRegion": "Colorado",
+        "postalCode": "34196-5213",
+        "addressCountry": "Saint Pierre and Miquelon"
       },
-      "email": "Lambert.Kuvalis@example.org",
-      "phoneNumber": "555-157-4774",
-      "faxNumber": "555-842-5500"
+      "email": "Ruth.Bernhard40@example.net",
+      "phoneNumber": "555-906-7110",
+      "faxNumber": "555-283-7956"
     },
-    "name": "Intelligent Wooden Ball",
-    "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+    "name": "Handcrafted Metal Ball",
+    "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "4916"
+      "value": "8858"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "9272"
+      "value": "2227"
     },
-    "sku": "712962875672"
+    "sku": "9988677009"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..sjZIc-vgEbCH8MtL_v01ozaSm-grPr8WAJhQTO1iBgMKw5qmwdTR2zmMeWHk40J8vriJ1fDWiQJ2dS_NKkKgDA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..qRiBcvgChIlGpiKtAQkpN4aHBj8cF3xkIessRleTW2D21Cjb9tYXBavK1nsMw7JK75P6n9C9usTmgiLzr6CKCw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

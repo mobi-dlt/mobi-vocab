@@ -1,0 +1,59 @@
+{
+    "$id": "https://dlt.mobi/mobility/ControlAcceptance.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"ControlAcceptance\", \"@id\": \"https://dlt.mobi/mobility#ControlAcceptance\"}",
+    "title": "EVGI ControlAcceptance",
+    "description": "EVGI: ControlAcceptance",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "SellerID": {
+            "$comment": "{\"term\": \"SellerID\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "SellerID",
+            "description": "Seller ID"
+        },
+        "BuyerID": {
+            "$comment": "{\"term\": \"BuyerID\", \"@id\": \"https://schema.org/Number\"}",
+            "title": "Buyer ID",
+            "description": "Buyer ID"
+        },
+        "ExchangeRate": {
+            "$comment": "{\"term\": \"ExchangeRate\", \"@id\": \"https://schema.org/ExchangeRate\"}",
+            "title": "ExchangeRate",
+            "description": "ExchangeRate",
+            "type":"string"
+        },
+        "SuccessCriteria": {
+            "$comment": "{\"term\": \"SuccessCriteria\", \"@id\": \"https://schema.org/Text\"}",
+            "title": "SuccessCriteria",
+            "description": "SuccessCriteria",
+            "type":"string"
+        },
+        "SettlementURI": {
+            "$comment": "{\"term\": \"SettlementURI\", \"@id\": \"https://https://schema.org/url\"}",
+            "title": "SettlementURI",
+            "description": "SettlementURI",
+            "type":"string"
+        },
+        "PaymentPlatform": {
+            "$comment": "{\"term\": \"PaymentPlatform\", \"@id\": \"https://schema.org/Name\"}",
+            "title": "PaymentPlatform",
+            "description": "PaymentPlatform",
+            "type":"string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}

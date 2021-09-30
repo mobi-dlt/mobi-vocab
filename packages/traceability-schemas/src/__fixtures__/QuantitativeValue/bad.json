@@ -4,23 +4,21 @@
       "https://dlt.mobi/mobility"
     ],
     "unitCode": "hg/ha",
-    "feed": "parse",
-    "circuit": "generate",
-    "alarm": "connect",
-    "capacitor": "index"
+    "value": "3043",
+    "driver": "compress",
+    "microchip": "connect",
+    "circuit": "bypass"
   },
   {
-    "type": "QuantitativeValue",
-    "capacitor": "bypass",
-    "hard drive": "input",
-    "pixel": "bypass"
+    "port": "index"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
     "type": "QuantitativeValue",
-    "value": "5945",
-    "protocol": "index"
+    "value": "4590",
+    "hard drive": "generate",
+    "feed": "parse"
   }
 ]

@@ -1,45 +1,18 @@
 [
   {
-    "type": "Customer",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "9709 Valentina Gateway",
-      "addressLocality": "Port Gloriaview",
-      "addressRegion": "Colorado",
-      "postalCode": "32116-4332",
-      "addressCountry": "Monaco"
-    },
-    "telephone": "555-598-7258",
-    "email": "Cassidy69@example.com",
-    "port": "copy",
-    "system": "synthesize",
-    "driver": "generate"
-  },
-  {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "name": "Anibal Koss",
-    "telephone": "555-612-8544",
-    "email": "Harvey1@example.org",
-    "circuit": "synthesize"
+    "capacitor": "input",
+    "bus": "navigate",
+    "program": "compress"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "name": "Giuseppe Luettgen",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "8697 Walter Curve",
-      "addressLocality": "Kulasmouth",
-      "addressRegion": "Illinois",
-      "postalCode": "40964",
-      "addressCountry": "Guadeloupe"
-    },
-    "email": "Aubrey.Turner54@example.com",
-    "program": "navigate",
-    "protocol": "generate",
-    "panel": "connect"
+    "matrix": "calculate"
+  },
+  {
+    "application": "navigate",
+    "firewall": "connect",
+    "monitor": "input"
   }
 ]

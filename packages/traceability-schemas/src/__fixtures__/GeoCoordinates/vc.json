@@ -14,13 +14,13 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "GeoCoordinates",
-    "latitude": "-14.4491",
-    "longitude": "128.6497"
+    "latitude": "87.5993",
+    "longitude": "25.5256"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..OTD_KIhqjwgDawyuUnuFU4ksJu3eYKBXLBV1gvxGSV1ZCynSK3sJUc_Qmpi5gr4RlY8B34lWqLvLfCB2ZZf3Dg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..eZwV-TFbA43ZhCzrtZzW-Dq7KBwlfj3PfVfbjsRe1oVox0gQigGRzWHlX5HKN7EzkdbG2BLjFseOjlqO_oTHAw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

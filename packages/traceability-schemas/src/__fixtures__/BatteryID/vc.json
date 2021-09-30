@@ -19,19 +19,19 @@
       "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
       "manufacturer": {
         "type": "Organization",
-        "name": "Bergnaum - Ankunding",
-        "description": "User-centric value-added toolset",
+        "name": "Mante - Denesik",
+        "description": "Assimilated well-modulated software",
         "address": {
           "type": "PostalAddress",
-          "streetAddress": "56310 Frederick Glens",
-          "addressLocality": "South Aubreemouth",
-          "addressRegion": "New Mexico",
-          "postalCode": "35954",
-          "addressCountry": "Aruba"
+          "streetAddress": "00262 Bonita Loaf",
+          "addressLocality": "Jermeyfort",
+          "addressRegion": "Alaska",
+          "postalCode": "93216",
+          "addressCountry": "Saint Lucia"
         },
-        "email": "Raheem1@example.com",
-        "phoneNumber": "555-873-6467",
-        "faxNumber": "555-712-2534"
+        "email": "Isom_Weimann@example.net",
+        "phoneNumber": "555-380-4826",
+        "faxNumber": "555-568-2871"
       },
       "make": "Ford",
       "model": "Mach_E",
@@ -43,7 +43,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..7Frf75KXJZ3OjH11ScmL-XNk8xKj39vZYFOmAxKsXtEJtW7pQY6aMt1AoRPiFaDQP5nnqPsdlL6DGAmRTN7KBg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..YqohSGcGiuvFQC-9NczwH2-6eMKvjI3d2DxdgP69thJUWy1RkMfU8BVHkxj9BdrhlICuk5JygjDMm7LPOE75CA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -1,27 +1,36 @@
 [
   {
+    "type": "EmissionMeasurement",
+    "uuid": "123e4567-e89b-12d3-a456-426614174000",
+    "totalFuelConsumed": "20",
+    "totalDistanceTraveled": "20000",
+    "End_DateTime": "2021-09-29T23:31:24+00:00",
+    "pixel": "reboot",
+    "bandwidth": "quantify",
+    "capacitor": "synthesize",
+    "application": "reboot"
+  },
+  {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
+    "type": "EmissionMeasurement",
+    "uuid": "123e4567-e89b-12d3-a456-426614174000",
+    "totalFuelConsumed": "20",
     "Begin_DateTime": "2021-09-29T22:32:24+00:00",
     "End_DateTime": "2021-09-29T23:31:24+00:00",
-    "interface": "navigate",
-    "firewall": "generate",
-    "protocol": "reboot",
-    "program": "calculate"
-  },
-  {
-    "type": "EmissionMeasurement",
-    "totalDistanceTraveled": "20000",
-    "Begin_DateTime": "2021-09-29T22:32:24+00:00",
-    "monitor": "navigate",
-    "feed": "hack",
-    "microchip": "transmit"
-  },
-  {
     "panel": "input",
-    "card": "synthesize",
-    "program": "transmit",
-    "monitor": "hack"
+    "hard drive": "navigate",
+    "pixel": "bypass"
+  },
+  {
+    "uuid": "123e4567-e89b-12d3-a456-426614174000",
+    "totalFuelConsumed": "20",
+    "totalDistanceTraveled": "20000",
+    "End_DateTime": "2021-09-29T23:31:24+00:00",
+    "bus": "reboot",
+    "circuit": "connect",
+    "bandwidth": "hack",
+    "program": "parse"
   }
 ]

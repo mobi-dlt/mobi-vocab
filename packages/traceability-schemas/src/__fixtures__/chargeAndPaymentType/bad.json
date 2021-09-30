@@ -1,19 +1,28 @@
 [
   {
-    "driver": "hack",
-    "feed": "reboot",
-    "protocol": "synthesize",
-    "system": "generate"
+    "chargeCollect": 700,
+    "chargePrepaid": 967,
+    "program": "navigate",
+    "bus": "synthesize",
+    "transmitter": "transmit"
   },
   {
-    "alarm": "calculate"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "chargeCollect": 446,
+    "chargePrepaid": 948,
+    "application": "calculate",
+    "port": "connect"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
     "type": "chargeAndPaymentType",
-    "bus": "bypass",
-    "program": "hack"
+    "chargeCollect": 991,
+    "microchip": "calculate",
+    "sensor": "synthesize",
+    "system": "hack"
   }
 ]

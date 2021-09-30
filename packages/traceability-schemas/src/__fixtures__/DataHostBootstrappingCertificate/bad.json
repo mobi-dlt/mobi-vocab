@@ -1,36 +1,24 @@
 [
   {
     "DataStructure": "sampleuri",
-    "CommitFrequencyT": "1",
     "ReceiverEID": "sampleuri",
-    "RootAuthEID": "sig",
     "OwnerEID": "sampleuri",
-    "RootAuthSig": "sig",
     "SignAlgo": "algo",
-    "bandwidth": "generate",
-    "sensor": "navigate",
-    "microchip": "reboot"
+    "circuit": "navigate"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "UIUD": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
-    "CommitFrequencyT": "1",
-    "RootAuthEID": "sig",
-    "RootAuthSig": "sig",
+    "type": "DataHostBootstrappingCertificate",
+    "OwnerEID": "sampleuri",
     "SignAlgo": "algo",
-    "bandwidth": "transmit"
+    "pixel": "generate"
   },
   {
-    "UIUD": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
-    "WebURI": "pubkey",
-    "DataStructure": "sampleuri",
-    "OwnerEID": "sampleuri",
     "RootAuthSig": "sig",
-    "interface": "bypass",
-    "driver": "compress",
-    "bus": "transmit",
-    "bandwidth": "input"
+    "SignAlgo": "algo",
+    "array": "reboot",
+    "alarm": "quantify"
   }
 ]

@@ -21,9 +21,9 @@
         "https://dlt.mobi/mobility"
       ],
       "type": "Member",
-      "firstName": "Karli",
-      "lastName": "Schuster",
-      "email": "Lisa_Howe65@example.net"
+      "firstName": "Liana",
+      "lastName": "Paucek",
+      "email": "Antonette38@example.com"
     },
     "issuanceDate": "2020-05-17",
     "expirationDate": "2021-5-29"
@@ -31,7 +31,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ko3OxoiR2zQEutGHz_LAulKhPr7V4e5xGuP01TJjzoKZRaxaNy8jCP1m0VCCDdpkaFFMXoL-cYJUF8ijoMquAA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..vWqeYOjN8kW7FN7o4hL_Yiz9xHswGDXEEQKHDtKVK6LGa3AxBbKU9kTl3BFYZwE5wh-3uaPHU15WViNnXIbDDg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

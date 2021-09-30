@@ -1,5 +1,8 @@
 [
   {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
     "type": "ServiceProvider",
     "EntityInfo": {
       "type": "EC",
@@ -13,12 +16,11 @@
       "Expiration": "10-19-2021",
       "IssuerSig": "sig"
     },
-    "LegalName": "mobi",
-    "Address": "entity address",
     "PhoneNumber": "312-888-0766",
     "Email": "hi@dlt.mobi",
-    "array": "bypass",
-    "system": "parse"
+    "hard drive": "generate",
+    "sensor": "program",
+    "alarm": "index"
   },
   {
     "@context": [
@@ -37,11 +39,12 @@
       "Expiration": "10-19-2021",
       "IssuerSig": "sig"
     },
-    "LegalName": "mobi",
-    "capacitor": "copy",
-    "bandwidth": "generate",
-    "interface": "transmit",
-    "protocol": "index"
+    "Address": "entity address",
+    "PhoneNumber": "312-888-0766",
+    "array": "input",
+    "alarm": "copy",
+    "panel": "hack",
+    "hard drive": "program"
   },
   {
     "@context": [
@@ -51,7 +54,9 @@
     "Address": "entity address",
     "PhoneNumber": "312-888-0766",
     "Email": "hi@dlt.mobi",
-    "sensor": "back up",
-    "port": "reboot"
+    "program": "connect",
+    "microchip": "index",
+    "transmitter": "reboot",
+    "port": "quantify"
   }
 ]

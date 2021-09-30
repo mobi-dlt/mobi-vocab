@@ -1,42 +1,48 @@
 [
   {
+    "type": "ContactPoint",
+    "name": "Lueilwitz LLC",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "28030 Susana Branch",
+      "addressLocality": "Boscoborough",
+      "addressRegion": "Kansas",
+      "postalCode": "96945-4604",
+      "addressCountry": "Benin"
+    },
+    "email": "Nia_West78@example.org",
+    "phoneNumber": "555-363-6421",
+    "sensor": "parse",
+    "protocol": "parse",
+    "hard drive": "bypass",
+    "system": "input"
+  },
+  {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "type": "ContactPoint",
-    "name": "Bradtke, Hudson and Becker",
+    "array": "navigate",
+    "feed": "bypass",
+    "sensor": "input",
+    "interface": "quantify"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "name": "Legros, Fadel and Kertzmann",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "582 Nestor Lane",
-      "addressLocality": "Nickolasberg",
+      "streetAddress": "14420 Marquardt Knolls",
+      "addressLocality": "Lake Blairmouth",
       "addressRegion": "Colorado",
-      "postalCode": "95548",
-      "addressCountry": "Hong Kong"
+      "postalCode": "67765-2943",
+      "addressCountry": "Kyrgyz Republic"
     },
-    "capacitor": "connect",
-    "hard drive": "connect",
-    "alarm": "bypass"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "ContactPoint",
-    "name": "Wisozk Inc",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "3562 Pauline Shore",
-      "addressLocality": "Schambergerland",
-      "addressRegion": "California",
-      "postalCode": "49095-0478",
-      "addressCountry": "Malta"
-    },
-    "email": "Noemy_Smith@example.net",
-    "system": "synthesize"
-  },
-  {
-    "email": "Jaydon_Sanford@example.org",
-    "sensor": "compress",
-    "driver": "index"
+    "email": "Prince_Anderson55@example.net",
+    "phoneNumber": "555-357-1746",
+    "protocol": "generate",
+    "capacitor": "bypass",
+    "port": "generate"
   }
 ]

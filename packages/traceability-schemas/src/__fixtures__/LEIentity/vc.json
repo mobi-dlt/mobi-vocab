@@ -14,74 +14,74 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "LEIentity",
-    "legalName": "Rau, Wilkinson and Lebsack",
-    "legalNameLanguage": "hy",
+    "legalName": "Stracke, Kozey and Emmerich",
+    "legalNameLanguage": "fr",
     "otherNames": [
-      "Mohr - Huels",
-      "Lowe, Schulist and Rogahn"
+      "McGlynn - Cremin",
+      "Feil LLC"
     ],
     "transliteratedOtherNames": [
-      "Mohr - Huels",
-      "Lowe, Schulist and Rogahn"
+      "McGlynn - Cremin",
+      "Feil LLC"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "ro",
+      "language": "de_AT",
       "addressLines": [
-        "Keeling Inc",
-        "269 Donnelly Isle"
+        "Bailey and Sons",
+        "6223 Andre Point"
       ],
-      "addressNumber": "36",
-      "addressNumberWithinBuilding": "9",
-      "mailRouting": "431 Kuhic Corners, 25263-9855",
-      "city": "Elvieton",
-      "region": "Borders",
-      "country": "Tokelau",
-      "postalCode": "77329-4815"
+      "addressNumber": "304",
+      "addressNumberWithinBuilding": "3",
+      "mailRouting": "1921 Mariam Pine, 44477",
+      "city": "Aftonshire",
+      "region": "Bedfordshire",
+      "country": "Nicaragua",
+      "postalCode": "18167"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "en_AU_ocker",
+      "language": "en_ZA",
       "addressLines": [
-        "Parker Group",
-        "217 Gerhold Parks"
+        "Ullrich - Goodwin",
+        "8514 Farrell Haven"
       ],
-      "addressNumber": "263",
-      "addressNumberWithinBuilding": "2",
-      "mailRouting": "944 Raven Club, 30561-9066",
-      "city": "Larkinhaven",
-      "region": "Buckinghamshire",
-      "country": "Christmas Island",
-      "postalCode": "27266-1438"
+      "addressNumber": "133",
+      "addressNumberWithinBuilding": "1",
+      "mailRouting": "3604 Annamarie Motorway, 80265-2856",
+      "city": "Kaceyberg",
+      "region": "Avon",
+      "country": "Samoa",
+      "postalCode": "43160"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000005",
-      "otherValidationAuthorityID": "WWRCK89S",
-      "validationAuthorityEntityID": "A9QTUFOOT3RM5GFL568Q"
+      "validationAuthorityID": "RA000661",
+      "otherValidationAuthorityID": "ZDNDKZQG",
+      "validationAuthorityEntityID": "GC2KK3YY6MOR76JE3FGT"
     },
-    "legalJurisdiction": "Avon",
-    "entityCategory": "Finance",
+    "legalJurisdiction": "Borders",
+    "entityCategory": "Grocery",
     "legalForm": "CORPORATION",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "GIDJVYIUHW0TC3D5EIK8",
-      "name": "Leuschke Inc"
+      "leiCode": "WRCK89SA9QTUFOOT3RM5",
+      "name": "O'Reilly Group"
     },
-    "status": "REQUESTED",
+    "status": "IN PROGRESS",
     "expirationDate": "2022-07-11",
-    "expirationReason": "utilize granular systems",
+    "expirationReason": "grow plug-and-play niches",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "8L7JM89EML2H5Z94LPOE",
-      "name": "Keebler - Kilback"
+      "leiCode": "84EZ50ZQXRJ8UOI3M93S",
+      "name": "Stracke, Champlin and Mohr"
     },
     "otherAddresses": []
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..3VTvrxvYIGgqMX8mMGczhOLmlO0lZ6u_eyRH3DLCo3e9pdcOM0gDQGKo_HFfNs5YdObrowyDwOI0VW30EhIjCw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..RPwk8Qd-UqtUMLgu4DmF4p5MtgOM9SDDLpCZwAls2IMXU6PpCFUWGwN8NLsXb9D4GqDx82K75GXxvyhegyIrAQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

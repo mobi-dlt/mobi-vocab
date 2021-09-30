@@ -14,32 +14,32 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "Person",
-    "firstName": "Cheyenne",
-    "lastName": "Williamson",
-    "email": "Eveline40@example.net",
-    "phoneNumber": "555-411-8441",
+    "firstName": "Delmer",
+    "lastName": "Dare",
+    "email": "Jessica.Cummerata@example.com",
+    "phoneNumber": "555-921-2267",
     "worksFor": {
       "type": "Organization",
-      "name": "Rutherford, Reichel and Anderson",
-      "description": "Profit-focused methodical open system",
+      "name": "Konopelski - Heidenreich",
+      "description": "Multi-tiered optimal synergy",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "487 Schuster Hills",
-        "addressLocality": "Berniecebury",
-        "addressRegion": "Texas",
-        "postalCode": "16357",
-        "addressCountry": "Maldives"
+        "streetAddress": "383 McLaughlin Motorway",
+        "addressLocality": "Graycebury",
+        "addressRegion": "Arizona",
+        "postalCode": "32870-6313",
+        "addressCountry": "Iraq"
       },
-      "email": "Karen59@example.com",
-      "phoneNumber": "555-234-5377",
-      "faxNumber": "555-306-4680"
+      "email": "Kylie45@example.com",
+      "phoneNumber": "555-583-8771",
+      "faxNumber": "555-927-9306"
     },
-    "jobTitle": "District Applications Specialist"
+    "jobTitle": "Chief Paradigm Coordinator"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..4vQ5P2opSqxpv7q_bnCN6Vfcla66mNGdNfZf_BZwwgH1r7mXLnYEVMuvzPHdK6pGYNjfEV9WgNcl7HTahaIrBQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..luYhqdNbcW1PW_JiN7B_olWu9p0_OSHDlEu9TWG-Gcwc7PqcQce_ga4cZfJI4ty_bhofSn5_NAzSzsknIpQ5DQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

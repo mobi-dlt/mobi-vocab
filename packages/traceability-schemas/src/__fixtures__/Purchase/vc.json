@@ -18,25 +18,25 @@
     ],
     "customer": {
       "type": "Organization",
-      "name": "Rogahn, Schmitt and Schoen",
-      "description": "Progressive systematic ability",
+      "name": "Mertz - Bechtelar",
+      "description": "Reactive 4th generation application",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "85379 Manuel Lights",
-        "addressLocality": "Botsfordhaven",
-        "addressRegion": "Pennsylvania",
-        "postalCode": "85709",
-        "addressCountry": "Bermuda"
+        "streetAddress": "484 Victor Squares",
+        "addressLocality": "Leuschkefurt",
+        "addressRegion": "Missouri",
+        "postalCode": "48155-8269",
+        "addressCountry": "Belarus"
       },
-      "email": "Jameson.Flatley@example.net",
-      "phoneNumber": "555-843-9990",
-      "faxNumber": "555-912-3939"
+      "email": "Darian_Boehm61@example.com",
+      "phoneNumber": "555-624-7665",
+      "faxNumber": "555-633-1854"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Z32JjBgenjymOmY4pboddIVBu1vD8BQO7mA89xgXTRWo68_XDG9N-g7dnoSbr6wbNk0Mu7Od2MHj0y_w9zrpBA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..GWhb8dMSC5OIwgdso3WTnje4h7DZNGAufm2XWrE8eREsvx2kEkik4xVDaq2sFtoZ2s2O61SokqdkMEkh4QEUBA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

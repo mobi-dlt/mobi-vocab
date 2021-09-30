@@ -1,46 +1,33 @@
 [
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "ChargerIdentity",
     "Make": "charger manufac",
     "Model": "model",
-    "ChargerAdapterStandard": "CHAdeMO",
+    "ACDCType": "AC",
     "UniBiDirectional": "Uni",
-    "ChargeRate": "ChargeRate",
+    "ChargerStationIdentifier": "stationIdentifier",
+    "Cost": "Cost",
+    "ProductionDate": "ProductionDate",
+    "alarm": "synthesize",
+    "panel": "calculate",
+    "protocol": "reboot"
+  },
+  {
+    "Make": "charger manufac",
+    "Model": "model",
+    "ACDCType": "AC",
+    "UniBiDirectional": "Uni",
+    "Availability": "Yes",
+    "ChargeTransmissionType": "Wired",
+    "transmitter": "reboot"
+  },
+  {
+    "ChargerAdapterStandard": "CHAdeMO",
     "ChargerSoftwareVersion": "ChargerSoftwareVersion",
     "ChargerUniqueIdentifier": "ChargerUniqueIdentifier",
-    "ChargerStationIdentifier": "stationIdentifier",
-    "GeoCoordinates": "GeoCoordinates",
     "Voltage": "200",
     "Cost": "Cost",
     "Availability": "Yes",
-    "ProductionDate": "ProductionDate",
-    "ChargeTransmissionType": "Wired",
     "WirelessChargingType": "NA",
-    "ChargingStructureType": "NA",
-    "matrix": "synthesize",
-    "microchip": "connect",
-    "driver": "bypass",
-    "application": "connect"
-  },
-  {
-    "GeoCoordinates": "GeoCoordinates",
-    "ProductionDate": "ProductionDate",
-    "ChargeTransmissionType": "Wired",
-    "capacitor": "generate",
-    "firewall": "calculate"
-  },
-  {
-    "Make": "charger manufac",
-    "ChargerAdapterStandard": "CHAdeMO",
-    "ACDCType": "AC",
-    "UniBiDirectional": "Uni",
-    "ChargerSoftwareVersion": "ChargerSoftwareVersion",
-    "Availability": "Yes",
-    "interface": "quantify",
-    "alarm": "hack",
-    "system": "transmit"
+    "driver": "bypass"
   }
 ]

@@ -14,17 +14,17 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "PostalAddress",
-    "organizationName": "Purdy - Kuvalis",
-    "streetAddress": "755 Amely Vista",
-    "addressLocality": "South Elroy",
-    "addressRegion": "Oklahoma",
-    "postalCode": "81198",
-    "addressCountry": "Portugal"
+    "organizationName": "Daniel, West and Carroll",
+    "streetAddress": "41692 Sharon Rue",
+    "addressLocality": "East Olinstad",
+    "addressRegion": "New York",
+    "postalCode": "36046-0359",
+    "addressCountry": "Egypt"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..XEO8aR09M6Jsh-FZNZuYFsojnq4GBjJ71H5DTWnQCYZ_gX9Gvu-VspN2ZjXXEohYkguMS-RErB6WGr_yz3yJDg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..V230XfAAT2VHAyAUmQw1hZmzoxzhVxsvaP-X-hqWRVAePia_zoFFWoQDJYMh2YlZXtY17taaQ53DbO2iwRa9AQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

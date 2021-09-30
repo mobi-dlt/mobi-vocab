@@ -1,21 +1,28 @@
 [
   {
-    "Address": "address",
-    "Email": "matt@dlt.mobi",
-    "PhoneNumber": "3128880765",
-    "array": "copy",
-    "driver": "copy"
-  },
-  {
-    "alarm": "synthesize",
-    "microchip": "copy",
-    "card": "program"
-  },
-  {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
     "type": "UserEntityID",
-    "port": "navigate"
+    "Email": "matt@dlt.mobi",
+    "Name": "matt",
+    "array": "override"
+  },
+  {
+    "EntityUserID": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+    "hard drive": "generate",
+    "alarm": "synthesize",
+    "circuit": "index",
+    "interface": "quantify"
+  },
+  {
+    "EntityUserID": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+    "Address": "address",
+    "Email": "matt@dlt.mobi",
+    "Name": "matt",
+    "port": "transmit",
+    "application": "bypass",
+    "bandwidth": "quantify",
+    "protocol": "connect"
   }
 ]

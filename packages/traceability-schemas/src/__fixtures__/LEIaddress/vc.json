@@ -14,23 +14,23 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "LEIaddress",
-    "language": "en_IND",
+    "language": "ar",
     "addressLines": [
-      "Herzog, Ebert and Hoppe",
-      "217 Upton Roads"
+      "Cartwright - Fahey",
+      "15506 Yost Curve"
     ],
-    "addressNumber": "316",
-    "addressNumberWithinBuilding": "9",
-    "mailRouting": "1623 Chet Walk, 80442",
-    "city": "Port Gunnarview",
-    "region": "Berkshire",
-    "country": "Netherlands Antilles",
-    "postalCode": "55365-0163"
+    "addressNumber": "467",
+    "addressNumberWithinBuilding": "1",
+    "mailRouting": "9600 Nikolaus Villages, 85425-5436",
+    "city": "Brodyland",
+    "region": "Bedfordshire",
+    "country": "Kazakhstan",
+    "postalCode": "13179"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Vsw-mqGd43zv-13FmTMSOphqljEee4eKZIueYleMheKVFKq5pk2VbgQoEM4w0Uk5nuWGtMQ0ktP_UZzs5SI3BQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..d5U2DnNZIoWQBS5ekd6k4VxvSDT65SIE8ynPs5o3C7JwG3DDi-2n97g5ouixE5wCut1hXbaUmLkCE9ALSK6vAg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -14,26 +14,26 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "Place",
-    "globalLocationNumber": "9863725298432",
+    "globalLocationNumber": "6591632941495",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "45.7647",
-      "longitude": "94.4939"
+      "latitude": "-29.8710",
+      "longitude": "-25.0055"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Littel - McLaughlin",
-      "streetAddress": "63045 Al Shore",
-      "addressLocality": "East Osborneport",
-      "addressRegion": "New Jersey",
-      "postalCode": "96042",
-      "addressCountry": "Guinea"
+      "organizationName": "Thiel, Jakubowski and Moen",
+      "streetAddress": "27320 Pfannerstill Light",
+      "addressLocality": "Estebanton",
+      "addressRegion": "Arizona",
+      "postalCode": "33996",
+      "addressCountry": "Saudi Arabia"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..WkCsyd2KA9LvDMByImWYd_HHNPC4O4hy3FxmGS_iqESrcjFM0VRcDEugUm8g5Ex3QONna12guF6Lny0d_iVYDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..kXAcT-JPfprbMQHaM5-J4_fPgxWhUMvUXrnlHyG6PB3qwkCE8N7pSae4HWHDfMuoT3uCmXKBlN8mw5XxloXqBQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

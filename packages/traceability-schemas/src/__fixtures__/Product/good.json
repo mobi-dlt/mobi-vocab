@@ -6,33 +6,33 @@
     "type": "Product",
     "manufacturer": {
       "type": "Organization",
-      "name": "Schaden and Sons",
-      "description": "Persistent 3rd generation complexity",
+      "name": "Wilderman - Johnston",
+      "description": "Robust 24/7 methodology",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "744 Delmer Plaza",
-        "addressLocality": "Medafort",
-        "addressRegion": "Michigan",
-        "postalCode": "45619",
-        "addressCountry": "Saudi Arabia"
+        "streetAddress": "560 Bette Mountain",
+        "addressLocality": "Leliaport",
+        "addressRegion": "Colorado",
+        "postalCode": "34196-5213",
+        "addressCountry": "Saint Pierre and Miquelon"
       },
-      "email": "Lambert.Kuvalis@example.org",
-      "phoneNumber": "555-157-4774",
-      "faxNumber": "555-842-5500"
+      "email": "Ruth.Bernhard40@example.net",
+      "phoneNumber": "555-906-7110",
+      "faxNumber": "555-283-7956"
     },
-    "name": "Intelligent Wooden Ball",
-    "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+    "name": "Handcrafted Metal Ball",
+    "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "4916"
+      "value": "8858"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "9272"
+      "value": "2227"
     },
-    "sku": "712962875672"
+    "sku": "9988677009"
   },
   {
     "@context": [
@@ -41,33 +41,33 @@
     "type": "Product",
     "manufacturer": {
       "type": "Organization",
-      "name": "Wilderman, Schaden and Hansen",
-      "description": "Proactive even-keeled framework",
+      "name": "Roberts - Wisoky",
+      "description": "Switchable actuating intranet",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "641 Adams Station",
-        "addressLocality": "Port Delta",
-        "addressRegion": "Minnesota",
-        "postalCode": "55237-3088",
-        "addressCountry": "Senegal"
+        "streetAddress": "848 Ankunding Manors",
+        "addressLocality": "West Gideonfurt",
+        "addressRegion": "South Dakota",
+        "postalCode": "92220",
+        "addressCountry": "Armenia"
       },
-      "email": "Donna87@example.com",
-      "phoneNumber": "555-845-3770",
-      "faxNumber": "555-294-9224"
+      "email": "William.Blanda@example.com",
+      "phoneNumber": "555-889-5313",
+      "faxNumber": "555-450-2635"
     },
-    "name": "Ergonomic Rubber Bacon",
+    "name": "Intelligent Frozen Sausages",
     "description": "The Football Is Good For Training And Recreational Purposes",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "1034"
+      "value": "8040"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "3933"
+      "value": "4340"
     },
-    "sku": "348896586093"
+    "sku": "42847126446"
   },
   {
     "@context": [
@@ -75,41 +75,33 @@
     ],
     "type": "Product",
     "manufacturer": {
-      "type": "Person",
-      "firstName": "Courtney",
-      "lastName": "Mohr",
-      "email": "Dejon24@example.org",
-      "phoneNumber": "555-206-5673",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Reynolds Group",
-        "description": "Team-oriented content-based attitude",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "46417 Fay Ridge",
-          "addressLocality": "North Hillard",
-          "addressRegion": "Florida",
-          "postalCode": "08757-7521",
-          "addressCountry": "Mali"
-        },
-        "email": "Lorenzo.Braun@example.com",
-        "phoneNumber": "555-175-4107",
-        "faxNumber": "555-117-4727"
+      "type": "Organization",
+      "name": "Lowe - Sauer",
+      "description": "Open-source optimizing forecast",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "7063 Addison Road",
+        "addressLocality": "East Rickie",
+        "addressRegion": "North Dakota",
+        "postalCode": "43068-0715",
+        "addressCountry": "Aruba"
       },
-      "jobTitle": "Regional Functionality Manager"
+      "email": "Marianne.Leannon1@example.net",
+      "phoneNumber": "555-159-6229",
+      "faxNumber": "555-789-4834"
     },
-    "name": "Awesome Rubber Chips",
-    "description": "The Football Is Good For Training And Recreational Purposes",
+    "name": "Handmade Cotton Mouse",
+    "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "2203"
+      "value": "2080"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "9599"
+      "value": "7135"
     },
-    "sku": "414741678374"
+    "sku": "194983249425"
   }
 ]

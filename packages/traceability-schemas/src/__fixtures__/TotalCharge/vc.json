@@ -14,19 +14,19 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 7114.5,
-    "totalCollect": 2371.5,
-    "sourceCurrency": "CZK",
-    "destinationCurrency": "UYU",
+    "totalPrepaid": 4673.25,
+    "totalCollect": 1557.75,
+    "sourceCurrency": "PEN",
+    "destinationCurrency": "GTQ",
     "currencyConversionRate": 5,
-    "ccChargesDestinationCurrency": "CZK",
-    "chargesDestination": 49,
-    "totalCollectCharge": 12.25
+    "ccChargesDestinationCurrency": "PEN",
+    "chargesDestination": 441,
+    "totalCollectCharge": 110.25
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..YOYyBcLfpE96Y5b4eJ4IsL-WphSLTfkXKR8Y2-1p_oRnND4nCfvlnvYtkQyS1JcUE_JxhZN0r99v0A78thlpAg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..izEoi1H0UUbQdKiTcfrwtzJESZmD2KqAPrguAnrEk2TLh8T5H1egmc36td6b3JWLJp6Vmxqx_QOavtrxwuRJCA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

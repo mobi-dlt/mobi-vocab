@@ -11,25 +11,6 @@
         "https://dlt.mobi/mobility"
       ],
       "type": "Member",
-      "firstName": "Karli",
-      "lastName": "Schuster",
-      "email": "Lisa_Howe65@example.net"
-    },
-    "issuanceDate": "2020-05-17",
-    "expirationDate": "2021-5-29"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "CitopiaMembershipCredential",
-    "holder": "Matt Shi",
-    "identifier": "did:mobinet:123456789abcdefghi",
-    "member": {
-      "@context": [
-        "https://dlt.mobi/mobility"
-      ],
-      "type": "Member",
       "firstName": "Liana",
       "lastName": "Paucek",
       "email": "Antonette38@example.com"
@@ -52,6 +33,25 @@
       "firstName": "Logan",
       "lastName": "Wehner",
       "email": "Alison_Rice@example.net"
+    },
+    "issuanceDate": "2020-05-17",
+    "expirationDate": "2021-5-29"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "CitopiaMembershipCredential",
+    "holder": "Matt Shi",
+    "identifier": "did:mobinet:123456789abcdefghi",
+    "member": {
+      "@context": [
+        "https://dlt.mobi/mobility"
+      ],
+      "type": "Member",
+      "firstName": "Oran",
+      "lastName": "McClure",
+      "email": "Sandra_Waters@example.com"
     },
     "issuanceDate": "2020-05-17",
     "expirationDate": "2021-5-29"

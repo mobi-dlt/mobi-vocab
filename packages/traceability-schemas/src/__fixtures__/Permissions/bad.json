@@ -4,34 +4,31 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "Permissions",
-    "vehicleLocation": "true",
-    "batteryid": "true",
-    "array": "copy",
-    "monitor": "override",
-    "firewall": "parse",
-    "transmitter": "back up"
-  },
-  {
-    "type": "Permissions",
     "userLocation": "true",
-    "vehicleLocation": "true",
     "vid": "true",
-    "batteryid": "true",
-    "program": "navigate",
-    "interface": "calculate",
-    "application": "hack"
+    "feed": "back up",
+    "panel": "override",
+    "port": "synthesize"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "type": "Permissions",
     "userLocation": "true",
+    "vehicleLocation": "true",
     "vid": "true",
     "batteryid": "true",
     "dataSharingForRewards": "true",
-    "interface": "reboot",
-    "alarm": "program",
-    "feed": "synthesize"
+    "circuit": "navigate",
+    "bus": "back up"
+  },
+  {
+    "type": "Permissions",
+    "userLocation": "true",
+    "batteryid": "true",
+    "capacitor": "compress",
+    "application": "generate",
+    "matrix": "calculate",
+    "hard drive": "calculate"
   }
 ]

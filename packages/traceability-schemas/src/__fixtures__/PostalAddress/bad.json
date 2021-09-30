@@ -1,31 +1,23 @@
 [
   {
-    "streetAddress": "755 Amely Vista",
-    "addressLocality": "South Elroy",
-    "addressRegion": "Oklahoma",
-    "transmitter": "hack",
-    "feed": "copy",
-    "alarm": "copy",
-    "card": "program"
-  },
-  {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "type": "PostalAddress",
-    "addressRegion": "Illinois",
-    "postalCode": "10150-2331",
-    "circuit": "index",
-    "pixel": "bypass",
-    "program": "transmit"
+    "addressLocality": "East Olinstad",
+    "addressRegion": "New York",
+    "bus": "calculate",
+    "microchip": "input",
+    "feed": "override"
   },
   {
-    "type": "PostalAddress",
-    "addressRegion": "Wyoming",
-    "postalCode": "76761-1747",
-    "system": "reboot",
-    "matrix": "back up",
-    "protocol": "connect",
-    "firewall": "parse"
+    "streetAddress": "74308 Volkman Shoals",
+    "addressCountry": "Malta",
+    "microchip": "transmit",
+    "circuit": "back up",
+    "monitor": "reboot"
+  },
+  {
+    "hard drive": "transmit",
+    "microchip": "index"
   }
 ]

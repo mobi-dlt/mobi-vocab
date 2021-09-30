@@ -1,65 +1,73 @@
 [
   {
-    "type": "Product",
-    "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "weight": {
-      "type": "QuantitativeValue",
-      "unitCode": "hg/ha",
-      "value": "9272"
-    },
-    "sku": "712962875672",
-    "panel": "generate",
-    "protocol": "transmit",
-    "microchip": "reboot"
-  },
-  {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "type": "Product",
     "manufacturer": {
       "type": "Organization",
-      "name": "Wilderman, Schaden and Hansen",
-      "description": "Proactive even-keeled framework",
+      "name": "Wilderman - Johnston",
+      "description": "Robust 24/7 methodology",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "641 Adams Station",
-        "addressLocality": "Port Delta",
-        "addressRegion": "Minnesota",
-        "postalCode": "55237-3088",
-        "addressCountry": "Senegal"
+        "streetAddress": "560 Bette Mountain",
+        "addressLocality": "Leliaport",
+        "addressRegion": "Colorado",
+        "postalCode": "34196-5213",
+        "addressCountry": "Saint Pierre and Miquelon"
       },
-      "email": "Donna87@example.com",
-      "phoneNumber": "555-845-3770",
-      "faxNumber": "555-294-9224"
+      "email": "Ruth.Bernhard40@example.net",
+      "phoneNumber": "555-906-7110",
+      "faxNumber": "555-283-7956"
     },
-    "name": "Ergonomic Rubber Bacon",
-    "sizeOrAmount": {
-      "type": "QuantitativeValue",
-      "unitCode": "hg/ha",
-      "value": "1034"
-    },
-    "weight": {
-      "type": "QuantitativeValue",
-      "unitCode": "hg/ha",
-      "value": "3933"
-    },
-    "feed": "program",
-    "bus": "connect",
-    "monitor": "index"
+    "bus": "program",
+    "microchip": "connect",
+    "panel": "navigate",
+    "port": "transmit"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "Product",
+    "manufacturer": {
+      "type": "Organization",
+      "name": "Roberts - Wisoky",
+      "description": "Switchable actuating intranet",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "848 Ankunding Manors",
+        "addressLocality": "West Gideonfurt",
+        "addressRegion": "South Dakota",
+        "postalCode": "92220",
+        "addressCountry": "Armenia"
+      },
+      "email": "William.Blanda@example.com",
+      "phoneNumber": "555-889-5313",
+      "faxNumber": "555-450-2635"
+    },
     "description": "The Football Is Good For Training And Recreational Purposes",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "2203"
+      "value": "8040"
     },
-    "feed": "input",
-    "microchip": "override"
+    "weight": {
+      "type": "QuantitativeValue",
+      "unitCode": "hg/ha",
+      "value": "4340"
+    },
+    "sku": "42847126446",
+    "monitor": "navigate",
+    "pixel": "bypass"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "Product",
+    "name": "Handmade Cotton Mouse",
+    "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+    "weight": {
+      "type": "QuantitativeValue",
+      "unitCode": "hg/ha",
+      "value": "7135"
+    },
+    "circuit": "compress"
   }
 ]

@@ -4,136 +4,136 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "LEIentity",
-    "legalName": "Rau, Wilkinson and Lebsack",
-    "legalNameLanguage": "hy",
+    "legalName": "Stracke, Kozey and Emmerich",
+    "legalNameLanguage": "fr",
     "otherNames": [
-      "Mohr - Huels",
-      "Lowe, Schulist and Rogahn"
+      "McGlynn - Cremin",
+      "Feil LLC"
     ],
     "transliteratedOtherNames": [
-      "Mohr - Huels",
-      "Lowe, Schulist and Rogahn"
+      "McGlynn - Cremin",
+      "Feil LLC"
+    ],
+    "legalAddress": {
+      "type": "LEIaddress",
+      "language": "de_AT",
+      "addressLines": [
+        "Bailey and Sons",
+        "6223 Andre Point"
+      ],
+      "addressNumber": "304",
+      "addressNumberWithinBuilding": "3",
+      "mailRouting": "1921 Mariam Pine, 44477",
+      "city": "Aftonshire",
+      "region": "Bedfordshire",
+      "country": "Nicaragua",
+      "postalCode": "18167"
+    },
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "en_ZA",
+      "addressLines": [
+        "Ullrich - Goodwin",
+        "8514 Farrell Haven"
+      ],
+      "addressNumber": "133",
+      "addressNumberWithinBuilding": "1",
+      "mailRouting": "3604 Annamarie Motorway, 80265-2856",
+      "city": "Kaceyberg",
+      "region": "Avon",
+      "country": "Samoa",
+      "postalCode": "43160"
+    },
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000661",
+      "otherValidationAuthorityID": "ZDNDKZQG",
+      "validationAuthorityEntityID": "GC2KK3YY6MOR76JE3FGT"
+    },
+    "legalJurisdiction": "Borders",
+    "entityCategory": "Grocery",
+    "legalForm": "CORPORATION",
+    "associatedEntity": {
+      "type": "Organization",
+      "leiCode": "WRCK89SA9QTUFOOT3RM5",
+      "name": "O'Reilly Group"
+    },
+    "status": "IN PROGRESS",
+    "expirationDate": "2022-07-11",
+    "expirationReason": "grow plug-and-play niches",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "84EZ50ZQXRJ8UOI3M93S",
+      "name": "Stracke, Champlin and Mohr"
+    },
+    "otherAddresses": []
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "LEIentity",
+    "legalName": "Connelly, Schamberger and Effertz",
+    "legalNameLanguage": "ja",
+    "otherNames": [
+      "Pacocha - Thiel",
+      "Stroman - Reichert"
+    ],
+    "transliteratedOtherNames": [
+      "Pacocha - Thiel",
+      "Stroman - Reichert"
     ],
     "legalAddress": {
       "type": "LEIaddress",
       "language": "ro",
       "addressLines": [
-        "Keeling Inc",
-        "269 Donnelly Isle"
-      ],
-      "addressNumber": "36",
-      "addressNumberWithinBuilding": "9",
-      "mailRouting": "431 Kuhic Corners, 25263-9855",
-      "city": "Elvieton",
-      "region": "Borders",
-      "country": "Tokelau",
-      "postalCode": "77329-4815"
-    },
-    "headquartersAddress": {
-      "type": "LEIaddress",
-      "language": "en_AU_ocker",
-      "addressLines": [
-        "Parker Group",
-        "217 Gerhold Parks"
-      ],
-      "addressNumber": "263",
-      "addressNumberWithinBuilding": "2",
-      "mailRouting": "944 Raven Club, 30561-9066",
-      "city": "Larkinhaven",
-      "region": "Buckinghamshire",
-      "country": "Christmas Island",
-      "postalCode": "27266-1438"
-    },
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000005",
-      "otherValidationAuthorityID": "WWRCK89S",
-      "validationAuthorityEntityID": "A9QTUFOOT3RM5GFL568Q"
-    },
-    "legalJurisdiction": "Avon",
-    "entityCategory": "Finance",
-    "legalForm": "CORPORATION",
-    "associatedEntity": {
-      "type": "Organization",
-      "leiCode": "GIDJVYIUHW0TC3D5EIK8",
-      "name": "Leuschke Inc"
-    },
-    "status": "REQUESTED",
-    "expirationDate": "2022-07-11",
-    "expirationReason": "utilize granular systems",
-    "successorEntity": {
-      "type": "Organization",
-      "leiCode": "8L7JM89EML2H5Z94LPOE",
-      "name": "Keebler - Kilback"
-    },
-    "otherAddresses": []
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "LEIentity",
-    "legalName": "Feeney - Hane",
-    "legalNameLanguage": "ko",
-    "otherNames": [
-      "Goldner - Thompson",
-      "O'Conner - Parisian"
-    ],
-    "transliteratedOtherNames": [
-      "Goldner - Thompson",
-      "O'Conner - Parisian"
-    ],
-    "legalAddress": {
-      "type": "LEIaddress",
-      "language": "en_ZA",
-      "addressLines": [
-        "Ortiz Inc",
-        "9744 McClure Hill"
-      ],
-      "addressNumber": "331",
-      "addressNumberWithinBuilding": "4",
-      "mailRouting": "0991 Nico Point, 15404",
-      "city": "Lake Nicolette",
-      "region": "Berkshire",
-      "country": "Zambia",
-      "postalCode": "33697"
-    },
-    "headquartersAddress": {
-      "type": "LEIaddress",
-      "language": "fr_CA",
-      "addressLines": [
-        "Homenick, Feest and Carter",
-        "797 Spinka Mountains"
+        "Hand and Sons",
+        "39956 Kimberly Viaduct"
       ],
       "addressNumber": "77",
-      "addressNumberWithinBuilding": "1",
-      "mailRouting": "506 Schaefer Fork, 81685-7170",
-      "city": "North Ellenberg",
-      "region": "Cambridgeshire",
-      "country": "Iceland",
-      "postalCode": "33303"
+      "addressNumberWithinBuilding": "7",
+      "mailRouting": "48396 Moen Meadow, 78135-9381",
+      "city": "Fredyland",
+      "region": "Bedfordshire",
+      "country": "Angola",
+      "postalCode": "40512"
+    },
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "zh_CN",
+      "addressLines": [
+        "Lowe Group",
+        "95842 Lucile Course"
+      ],
+      "addressNumber": "217",
+      "addressNumberWithinBuilding": "6",
+      "mailRouting": "20666 Howe Islands, 57142",
+      "city": "South Zariamouth",
+      "region": "Avon",
+      "country": "Venezuela",
+      "postalCode": "66294"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000661",
-      "otherValidationAuthorityID": "X8JIATEA",
-      "validationAuthorityEntityID": "GXLVI5XSHKZKUE7IXE4J"
+      "validationAuthorityID": "RA000003",
+      "otherValidationAuthorityID": "86524SA9",
+      "validationAuthorityEntityID": "36OO2MIMZ8T8M7B6MNIU"
     },
-    "legalJurisdiction": "Berkshire",
+    "legalJurisdiction": "Bedfordshire",
     "entityCategory": "Jewelery",
     "legalForm": "CORPORATION",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "NWL6EBD8CCM2FIT2OS28",
-      "name": "Thiel, Lemke and Stroman"
+      "leiCode": "XLVI5XSHKZKUE7IXE4JT",
+      "name": "Torphy, Jakubowski and Kirlin"
     },
     "status": "REJECTED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "engineer intuitive schemas",
+    "expirationReason": "reinvent viral portals",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "7AT2BE065P8CYZKNXTK4",
-      "name": "Stoltenberg - Haley"
+      "leiCode": "IEHT6QDRY08E4HF0S9KR",
+      "name": "Collins, Dickens and Leuschke"
     },
     "otherAddresses": []
   },
@@ -142,67 +142,67 @@
       "https://dlt.mobi/mobility"
     ],
     "type": "LEIentity",
-    "legalName": "Howe Inc",
-    "legalNameLanguage": "az",
+    "legalName": "Schaefer LLC",
+    "legalNameLanguage": "sk",
     "otherNames": [
-      "Auer LLC",
-      "O'Conner - Hickle"
+      "Huel - Schaden",
+      "Toy, Cole and Wilkinson"
     ],
     "transliteratedOtherNames": [
-      "Auer LLC",
-      "O'Conner - Hickle"
+      "Huel - Schaden",
+      "Toy, Cole and Wilkinson"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "pt_BR",
+      "language": "vi",
       "addressLines": [
-        "Koelpin Inc",
-        "66294 Conroy Fords"
+        "Schowalter, Kertzmann and Blick",
+        "29748 Okuneva Points"
       ],
-      "addressNumber": "498",
-      "addressNumberWithinBuilding": "8",
-      "mailRouting": "17321 Mateo Drives, 65692",
-      "city": "Feeststad",
-      "region": "Berkshire",
-      "country": "Azerbaijan",
-      "postalCode": "31665"
+      "addressNumber": "421",
+      "addressNumberWithinBuilding": "10",
+      "mailRouting": "8462 Annabelle Plains, 58117",
+      "city": "Langworthview",
+      "region": "Bedfordshire",
+      "country": "El Salvador",
+      "postalCode": "00007-7608"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "sk",
+      "language": "de",
       "addressLines": [
-        "Reilly - Christiansen",
-        "1335 Shields Lakes"
+        "Anderson Inc",
+        "4293 Trystan Walk"
       ],
-      "addressNumber": "203",
-      "addressNumberWithinBuilding": "5",
-      "mailRouting": "73790 Collier Forge, 40725",
-      "city": "Parkerland",
-      "region": "Cambridgeshire",
-      "country": "Serbia",
-      "postalCode": "56230"
+      "addressNumber": "369",
+      "addressNumberWithinBuilding": "4",
+      "mailRouting": "7131 Lowe Lake, 87024-0005",
+      "city": "Trompburgh",
+      "region": "Borders",
+      "country": "Uzbekistan",
+      "postalCode": "72693-6201"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000004",
-      "otherValidationAuthorityID": "U8MZ7S2Y",
-      "validationAuthorityEntityID": "1HD39JNGHU935H45VB8Q"
+      "validationAuthorityID": "RA000001",
+      "otherValidationAuthorityID": "9M9R2NYJ",
+      "validationAuthorityEntityID": "H1WYBS4AHZ4LHKXQITMN"
     },
-    "legalJurisdiction": "Borders",
-    "entityCategory": "Industrial",
-    "legalForm": "LLC",
+    "legalJurisdiction": "Bedfordshire",
+    "entityCategory": "Grocery",
+    "legalForm": "CORPORATION",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "I48Y2JRY4FLBXIVF93UN",
-      "name": "Morar - Huels"
+      "leiCode": "NGHU935H45VB8QNHTDME",
+      "name": "Brown - Walter"
     },
-    "status": "IN PROGRESS",
+    "status": "REJECTED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "brand 24/365 schemas",
+    "expirationReason": "architect scalable portals",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "YW4Y3SNBXOTF29AUX19W",
-      "name": "Koepp, Shanahan and Nienow"
+      "leiCode": "DFJFDM5X98X4O7HV0NZA",
+      "name": "Schultz, Halvorson and Stoltenberg"
     },
     "otherAddresses": []
   }

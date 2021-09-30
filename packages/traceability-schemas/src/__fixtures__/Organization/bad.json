@@ -1,41 +1,30 @@
 [
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "name": "Lemke - Hickle",
-    "description": "Switchable context-sensitive leverage",
+    "program": "bypass",
+    "card": "program",
+    "port": "connect",
+    "driver": "generate"
+  },
+  {
+    "type": "Organization",
+    "name": "Will - Schimmel",
+    "description": "Adaptive zero tolerance workforce",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "739 Balistreri Dale",
-      "addressLocality": "Lulubury",
-      "addressRegion": "New York",
-      "postalCode": "33074",
-      "addressCountry": "Montserrat"
+      "streetAddress": "074 Alexander Viaduct",
+      "addressLocality": "Savannachester",
+      "addressRegion": "Nebraska",
+      "postalCode": "62638",
+      "addressCountry": "Singapore"
     },
-    "email": "Keely68@example.net",
-    "phoneNumber": "555-380-1911",
-    "program": "back up",
-    "matrix": "generate"
+    "email": "Mariane.Ziemann29@example.org",
+    "phoneNumber": "555-400-3508",
+    "faxNumber": "555-759-2896",
+    "monitor": "navigate"
   },
   {
-    "name": "Krajcik Group",
-    "email": "Karley28@example.net",
-    "phoneNumber": "555-204-4333",
-    "array": "input",
-    "firewall": "parse",
-    "panel": "connect",
-    "hard drive": "generate"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "Organization",
-    "name": "Schumm - Kuhn",
-    "email": "Murl62@example.net",
-    "faxNumber": "555-499-2354",
-    "microchip": "input",
-    "interface": "hack"
+    "transmitter": "compress",
+    "feed": "connect",
+    "protocol": "synthesize"
   }
 ]

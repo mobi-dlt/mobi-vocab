@@ -1,39 +1,37 @@
 [
   {
-    "driver": "input",
-    "bus": "quantify"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "name": "Feil Group",
-    "description": "De-engineered stable collaboration",
-    "phoneNumber": "555-933-9196",
-    "faxNumber": "555-505-2105",
-    "interface": "navigate",
-    "protocol": "input",
-    "array": "override"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "name": "Johnston Inc",
-    "description": "Universal dynamic frame",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "34589 Konopelski Valleys",
-      "addressLocality": "South Myriam",
-      "addressRegion": "Virginia",
-      "postalCode": "52049",
-      "addressCountry": "Burundi"
+    "worksFor": {
+      "type": "Organization",
+      "name": "Konopelski - Heidenreich",
+      "description": "Multi-tiered optimal synergy",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "383 McLaughlin Motorway",
+        "addressLocality": "Graycebury",
+        "addressRegion": "Arizona",
+        "postalCode": "32870-6313",
+        "addressCountry": "Iraq"
+      },
+      "email": "Kylie45@example.com",
+      "phoneNumber": "555-583-8771",
+      "faxNumber": "555-927-9306"
     },
-    "email": "Kraig.Gottlieb@example.net",
-    "phoneNumber": "555-323-2587",
-    "faxNumber": "555-619-5485",
-    "firewall": "override",
-    "matrix": "parse",
-    "sensor": "hack"
+    "microchip": "parse",
+    "matrix": "connect",
+    "panel": "quantify"
+  },
+  {
+    "firstName": "Chloe",
+    "email": "Archibald.West27@example.net",
+    "phoneNumber": "555-239-1926",
+    "monitor": "program",
+    "alarm": "index",
+    "driver": "generate",
+    "program": "compress"
+  },
+  {
+    "type": "Person",
+    "interface": "input",
+    "hard drive": "navigate"
   }
 ]

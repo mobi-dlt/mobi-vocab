@@ -5,39 +5,42 @@
     ],
     "DateTime": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
     "EnergyExchange": "uri",
-    "RecipientBuyerVehicleID": "target EID",
-    "SellerUserID": "algo",
-    "UtilityIdentifier": " expired",
-    "Cost": "Cost",
-    "DateOfLastChargeDischarge": "DateOfLastChargeDischarge",
-    "EnergyAvaliable": "EnergyAvaliable",
-    "EnergySource": "EnergySource",
-    "transmitter": "bypass",
-    "sensor": "reboot",
-    "array": "transmit"
-  },
-  {
-    "type": "VehicleToGridCommunication",
     "RecipientBuyerUserID": "sampleuri",
-    "SellerUserID": "algo",
     "UtilityIdentifier": " expired",
+    "VehicleGeocoordinates": "VehicleGeocoordinates",
     "Cost": "Cost",
-    "SellerVehicleID": "SellerVehicleID",
-    "EnergyAvaliable": "EnergyAvaliable",
     "EnergySource": "EnergySource",
-    "bandwidth": "program"
+    "transmitter": "back up",
+    "firewall": "reboot",
+    "bus": "compress"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "EnergyExchange": "uri",
+    "DateTime": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
     "RecipientBuyerUserID": "sampleuri",
     "VehicleGeocoordinates": "VehicleGeocoordinates",
     "Cost": "Cost",
     "SellerVehicleID": "SellerVehicleID",
+    "EnergyAvaliable": "EnergyAvaliable",
+    "program": "connect",
+    "hard drive": "generate",
+    "port": "copy",
+    "circuit": "quantify"
+  },
+  {
+    "type": "VehicleToGridCommunication",
+    "DateTime": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+    "EnergyExchange": "uri",
+    "RecipientBuyerVehicleID": "target EID",
+    "SellerUserID": "algo",
+    "UtilityIdentifier": " expired",
+    "Cost": "Cost",
+    "SellerVehicleID": "SellerVehicleID",
+    "DateOfLastChargeDischarge": "DateOfLastChargeDischarge",
     "EnergySource": "EnergySource",
-    "panel": "transmit",
-    "hard drive": "transmit"
+    "transmitter": "back up",
+    "monitor": "parse"
   }
 ]

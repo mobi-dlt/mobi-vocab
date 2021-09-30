@@ -1,97 +1,41 @@
 [
   {
-    "bic": [
-      "DKRKADTZNL"
-    ],
-    "microchip": "transmit",
-    "interface": "bypass"
+    "protocol": "copy"
   },
   {
-    "type": "LEIevidenceDocument",
-    "lei": "INQ23K8KPK1LHOLSL90T",
-    "entity": {
-      "@context": [
-        "https://dlt.mobi/mobility"
-      ],
-      "type": "LEIentity",
-      "legalName": "Berge LLC",
-      "legalNameLanguage": "de_CH",
-      "otherNames": [
-        "Rice and Sons",
-        "Bogisich and Sons"
-      ],
-      "transliteratedOtherNames": [
-        "Rice and Sons",
-        "Bogisich and Sons"
-      ],
-      "legalAddress": {
-        "type": "LEIaddress",
-        "language": "nl_BE",
-        "addressLines": [
-          "Zulauf, Rice and Watsica",
-          "6471 Haley Cove"
-        ],
-        "addressNumber": "87",
-        "addressNumberWithinBuilding": "5",
-        "mailRouting": "873 Valentina Run, 21539-3107",
-        "city": "New Rickystad",
-        "region": "Borders",
-        "country": "French Polynesia",
-        "postalCode": "65927"
-      },
-      "headquartersAddress": {
-        "type": "LEIaddress",
-        "language": "vi",
-        "addressLines": [
-          "Gerlach Group",
-          "414 Koch Squares"
-        ],
-        "addressNumber": "437",
-        "addressNumberWithinBuilding": "4",
-        "mailRouting": "471 Beatty Point, 94947-7070",
-        "city": "East Leoneland",
-        "region": "Bedfordshire",
-        "country": "Israel",
-        "postalCode": "37964"
-      },
-      "registrationAuthority": {
-        "type": "LEIauthority",
-        "validationAuthorityID": "RA000001",
-        "otherValidationAuthorityID": "Y02A21A1",
-        "validationAuthorityEntityID": "9989WS8Z9DRFGUR925HU"
-      },
-      "legalJurisdiction": "Buckinghamshire",
-      "entityCategory": "Grocery",
-      "legalForm": "CORPORATION",
-      "associatedEntity": {
-        "type": "Organization",
-        "leiCode": "BHM252PCQSZP7STIIFD5",
-        "name": "Ullrich - MacGyver"
-      },
-      "status": "REQUESTED",
-      "expirationDate": "2022-07-11",
-      "expirationReason": "harness back-end e-services",
-      "successorEntity": {
-        "type": "Organization",
-        "leiCode": "ERC3W80QNJY4KVXE1TFS",
-        "name": "Muller LLC"
-      },
-      "otherAddresses": []
-    },
-    "bic": [
-      "EDYRSYKPWM"
-    ],
-    "bus": "index",
-    "sensor": "calculate"
+    "lei": "9WS8Z9DRFGUR925HU112",
+    "microchip": "navigate",
+    "bus": "copy",
+    "transmitter": "reboot",
+    "firewall": "bypass"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "lei": "SI4TCGZ1SSH7C9V5JBRR",
-    "feed": "back up",
-    "hard drive": "override",
-    "bandwidth": "index",
-    "system": "navigate"
+    "lei": "GWTNGBC9HTTVCI68P4T3",
+    "registration": {
+      "@context": [
+        "https://dlt.mobi/mobility"
+      ],
+      "type": "LEIregistration",
+      "initialRegistrationDate": "2020-01-01",
+      "lastUpdateDate": "2020-01-01",
+      "status": "IN PROGRESS",
+      "nextRenewalDate": "2021-02-02",
+      "managingLou": "LMUDPIXELEPYQLPUSQGR",
+      "validationSources": "PARTIALLY_CORROBORATED",
+      "validationAuthority": [
+        {
+          "type": "LEIauthority",
+          "validationAuthorityID": "RA000002",
+          "otherValidationAuthorityID": "UKIN29T7",
+          "validationAuthorityEntityID": "LH4Q3IW1OVT2VYK0IPF2"
+        }
+      ]
+    },
+    "port": "calculate",
+    "sensor": "input",
+    "matrix": "generate"
   }
 ]

@@ -1,22 +1,20 @@
 [
   {
-    "capacitor": "calculate"
+    "circuit": "calculate"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "type": "LEIauthority",
-    "otherValidationAuthorityID": "TEONK3CN",
-    "transmitter": "reboot",
-    "application": "program"
+    "validationAuthorityEntityID": "7XHC735HM9IAOBXSJJKB",
+    "interface": "transmit",
+    "bandwidth": "generate",
+    "microchip": "hack",
+    "feed": "program"
   },
   {
     "type": "LEIauthority",
-    "validationAuthorityID": "RA000002",
-    "otherValidationAuthorityID": "SBFVTD4A",
-    "validationAuthorityEntityID": "JN0BBMDLEKPDDJGL8JDF",
-    "pixel": "input",
-    "feed": "calculate"
+    "otherValidationAuthorityID": "6SI6PA3S",
+    "program": "calculate",
+    "pixel": "override",
+    "interface": "navigate",
+    "bus": "reboot"
   }
 ]

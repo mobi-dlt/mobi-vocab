@@ -1,20 +1,17 @@
 [
   {
-    "monitor": "override",
-    "feed": "quantify",
-    "system": "override"
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "port": "bypass",
+    "application": "navigate",
+    "system": "reboot"
   },
   {
-    "price": 5202,
-    "priceCurrency": "GTQ",
-    "microchip": "generate",
-    "sensor": "input",
-    "port": "calculate"
+    "circuit": "reboot",
+    "bus": "calculate"
   },
   {
-    "type": "PriceSpecification",
-    "pixel": "bypass",
-    "microchip": "bypass",
-    "capacitor": "parse"
+    "alarm": "synthesize"
   }
 ]

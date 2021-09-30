@@ -36,6 +36,32 @@
         }
       }
     },
+    "AssetRegistry": {
+      "@id": "https://dlt.mobi/mobility#AssetRegistry",
+      "@context": {
+        "AssetID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "OwnerID": {
+          "@id": "https://schema.org/Number"
+        },
+        "Classification": {
+          "@id": "https://schema.org/DefinedTerm"
+        },
+        "VehicleDesignation": {
+          "@id": "https://schema.org/Place"
+        },
+        "SystemID": {
+          "@id": "https://https://schema.org/url"
+        },
+        "OrganizationFEIN": {
+          "@id": "https://schema.org/Organization"
+        },
+        "EPACompanyID": {
+          "@id": "https://schema.org/Text"
+        }
+      }
+    },
     "BatteryID": {
       "@id": "https://dlt.mobi/mobility#BatteryID",
       "@context": {
@@ -274,6 +300,29 @@
         },
         "phoneNumber": {
           "@id": "https://schema.org/telephone"
+        }
+      }
+    },
+    "ControlAcceptance": {
+      "@id": "https://dlt.mobi/mobility#ControlAcceptance",
+      "@context": {
+        "SellerID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "BuyerID": {
+          "@id": "https://schema.org/Number"
+        },
+        "ExchangeRate": {
+          "@id": "https://schema.org/ExchangeRate"
+        },
+        "SuccessCriteria": {
+          "@id": "https://schema.org/Text"
+        },
+        "SettlementURI": {
+          "@id": "https://https://schema.org/url"
+        },
+        "PaymentPlatform": {
+          "@id": "https://schema.org/Name"
         }
       }
     },
@@ -811,6 +860,38 @@
         },
         "contactPoint": {
           "@id": "https://schema.org/ContactPoint"
+        }
+      }
+    },
+    "P2PChargingCommunication": {
+      "@id": "https://dlt.mobi/mobility#P2PChargingCommunication",
+      "@context": {
+        "DateTime": {
+          "@id": "https://schema.org/DateTime"
+        },
+        "EnergyExchange": {
+          "@id": "https://schema.org/Number"
+        },
+        "RecipientBuyerUserID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "RecipientBuyerVehicleID": {
+          "@id": "https://schema.org/url"
+        },
+        "SellerUserID": {
+          "@id": "https://https://schema.org/Person"
+        },
+        "TransactionGeocoordinates": {
+          "@id": "https://schema.org/GeoCoordinates"
+        },
+        "Cost": {
+          "@id": "https://schema.org/price"
+        },
+        "SellerVehicleID": {
+          "@id": "https://schema.org/Vehicle"
+        },
+        "EnergySource": {
+          "@id": "https://schema.org/Name"
         }
       }
     },

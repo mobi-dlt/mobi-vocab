@@ -1,25 +1,26 @@
 [
   {
+    "port": "back up",
+    "card": "reboot",
+    "program": "index",
+    "firewall": "generate"
+  },
+  {
     "type": "PrivacyPolicy",
-    "interface": "quantify"
+    "issuanceDate": "2021-03-09",
+    "holder": "did:mobinet:123456789abcdefghi",
+    "privacyPolicyAccepted": "true",
+    "interface": "compress",
+    "monitor": "synthesize"
   },
   {
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
       "https://dlt.mobi/mobility"
     ],
-    "type": "PrivacyPolicy",
-    "issuanceDate": "2021-03-09",
     "holder": "did:mobinet:123456789abcdefghi",
-    "privacyPolicyAccepted": "true",
-    "transmitter": "program"
-  },
-  {
-    "type": "PrivacyPolicy",
-    "expirationDate": "2022-07-11",
-    "holder": "did:mobinet:123456789abcdefghi",
-    "transmitter": "generate",
-    "array": "compress",
-    "bus": "navigate"
+    "firewall": "synthesize",
+    "feed": "input",
+    "microchip": "override"
   }
 ]

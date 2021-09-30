@@ -1,61 +1,68 @@
 [
   {
-    "type": "LEIentity",
-    "otherNames": [
-      "Mohr - Huels",
-      "Lowe, Schulist and Rogahn"
+    "transliteratedOtherNames": [
+      "McGlynn - Cremin",
+      "Feil LLC"
     ],
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "84EZ50ZQXRJ8UOI3M93S",
+      "name": "Stracke, Champlin and Mohr"
+    },
+    "otherAddresses": [],
+    "program": "generate",
+    "firewall": "copy",
+    "transmitter": "index",
+    "port": "connect"
+  },
+  {
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "en_AU_ocker",
+      "language": "zh_CN",
       "addressLines": [
-        "Parker Group",
-        "217 Gerhold Parks"
+        "Lowe Group",
+        "95842 Lucile Course"
       ],
-      "addressNumber": "263",
-      "addressNumberWithinBuilding": "2",
-      "mailRouting": "944 Raven Club, 30561-9066",
-      "city": "Larkinhaven",
-      "region": "Buckinghamshire",
-      "country": "Christmas Island",
-      "postalCode": "27266-1438"
+      "addressNumber": "217",
+      "addressNumberWithinBuilding": "6",
+      "mailRouting": "20666 Howe Islands, 57142",
+      "city": "South Zariamouth",
+      "region": "Avon",
+      "country": "Venezuela",
+      "postalCode": "66294"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000005",
-      "otherValidationAuthorityID": "WWRCK89S",
-      "validationAuthorityEntityID": "A9QTUFOOT3RM5GFL568Q"
+      "validationAuthorityID": "RA000003",
+      "otherValidationAuthorityID": "86524SA9",
+      "validationAuthorityEntityID": "36OO2MIMZ8T8M7B6MNIU"
     },
-    "expirationReason": "utilize granular systems",
-    "application": "bypass",
-    "port": "bypass"
-  },
-  {
-    "expirationReason": "engineer intuitive schemas",
-    "sensor": "back up"
+    "legalJurisdiction": "Bedfordshire",
+    "entityCategory": "Jewelery",
+    "legalForm": "CORPORATION",
+    "status": "REJECTED",
+    "array": "bypass",
+    "port": "generate"
   },
   {
     "type": "LEIentity",
-    "legalNameLanguage": "az",
-    "otherNames": [
-      "Auer LLC",
-      "O'Conner - Hickle"
-    ],
-    "transliteratedOtherNames": [
-      "Auer LLC",
-      "O'Conner - Hickle"
-    ],
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000004",
-      "otherValidationAuthorityID": "U8MZ7S2Y",
-      "validationAuthorityEntityID": "1HD39JNGHU935H45VB8Q"
+    "legalAddress": {
+      "type": "LEIaddress",
+      "language": "vi",
+      "addressLines": [
+        "Schowalter, Kertzmann and Blick",
+        "29748 Okuneva Points"
+      ],
+      "addressNumber": "421",
+      "addressNumberWithinBuilding": "10",
+      "mailRouting": "8462 Annabelle Plains, 58117",
+      "city": "Langworthview",
+      "region": "Bedfordshire",
+      "country": "El Salvador",
+      "postalCode": "00007-7608"
     },
-    "legalJurisdiction": "Borders",
-    "status": "IN PROGRESS",
-    "expirationDate": "2022-07-11",
-    "otherAddresses": [],
-    "firewall": "program",
-    "panel": "bypass"
+    "protocol": "override",
+    "card": "generate",
+    "application": "parse"
   }
 ]

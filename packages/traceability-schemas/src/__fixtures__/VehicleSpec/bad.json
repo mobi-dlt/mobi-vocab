@@ -3,18 +3,10 @@
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "type": "VehicleSpec",
-    "uuid": "123e4567-e89b-12d3-a456-426614174000",
     "OEM": "Volkswagen",
-    "typeRating": "M1",
+    "MODEL": "Golf",
     "fuelType": "petrol",
-    "power": "162",
-    "card": "quantify",
-    "capacitor": "compress",
-    "transmitter": "index"
-  },
-  {
-    "bandwidth": "back up"
+    "bus": "program"
   },
   {
     "@context": [
@@ -25,10 +17,15 @@
     "OEM": "Volkswagen",
     "MODEL": "Golf",
     "typeRating": "M1",
+    "fuelType": "petrol",
     "weight": "1389",
+    "circuit": "navigate",
+    "alarm": "copy"
+  },
+  {
+    "type": "VehicleSpec",
+    "typeRating": "M1",
     "power": "162",
-    "system": "override",
-    "program": "parse",
-    "pixel": "quantify"
+    "feed": "transmit"
   }
 ]

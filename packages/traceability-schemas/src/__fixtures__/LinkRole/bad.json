@@ -1,25 +1,27 @@
 [
   {
-    "driver": "back up",
-    "monitor": "compress",
-    "transmitter": "bypass"
+    "type": "LinkRole",
+    "target": "https://example.com/related/link/123",
+    "linkRelationship": "alternate",
+    "interface": "index",
+    "panel": "index",
+    "driver": "copy",
+    "application": "hack"
+  },
+  {
+    "target": "https://example.com/related/link/123",
+    "linkRelationship": "alternate",
+    "circuit": "program"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility"
     ],
-    "type": "LinkRole",
-    "linkRelationship": "alternate",
-    "feed": "compress",
-    "bandwidth": "calculate",
-    "interface": "transmit",
-    "system": "calculate"
-  },
-  {
     "target": "https://example.com/related/link/123",
     "linkRelationship": "alternate",
-    "system": "generate",
-    "application": "reboot",
-    "protocol": "index"
+    "array": "copy",
+    "sensor": "program",
+    "system": "quantify",
+    "matrix": "transmit"
   }
 ]

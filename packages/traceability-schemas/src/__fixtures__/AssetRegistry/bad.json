@@ -1,0 +1,37 @@
+[
+  {
+    "AssetID": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+    "VehicleDesignation": "VehicleDesignation",
+    "OrganizationFEIN": "OrganizationFEIN",
+    "EPACompanyID": "EPACompanyID",
+    "interface": "hack",
+    "protocol": "copy",
+    "matrix": "navigate"
+  },
+  {
+    "type": "AssetRegistry",
+    "AssetID": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+    "OwnerID": "OwnerID",
+    "VehicleDesignation": "VehicleDesignation",
+    "SystemID": "SystemID",
+    "EPACompanyID": "EPACompanyID",
+    "microchip": "navigate",
+    "firewall": "parse",
+    "pixel": "connect"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility"
+    ],
+    "type": "AssetRegistry",
+    "AssetID": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+    "OwnerID": "OwnerID",
+    "Classification": "Classification",
+    "VehicleDesignation": "VehicleDesignation",
+    "SystemID": "SystemID",
+    "EPACompanyID": "EPACompanyID",
+    "feed": "override",
+    "system": "bypass",
+    "driver": "parse"
+  }
+]

@@ -1,8 +1,15 @@
 [
   {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
+    "system": "override",
+    "monitor": "override"
+  },
+  {
+    "bandwidth": "override",
+    "monitor": "connect",
+    "firewall": "hack",
+    "port": "synthesize"
+  },
+  {
     "EntityInfo": {
       "type": "EC",
       "EntityType": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
@@ -16,22 +23,8 @@
       "IssuerSig": "sig"
     },
     "PermissionedURI": "uri",
-    "PermissionedEID": "eid",
-    "microchip": "synthesize",
-    "interface": "back up",
-    "transmitter": "override"
-  },
-  {
-    "type": "User",
-    "program": "quantify"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility"
-    ],
-    "interface": "navigate",
-    "protocol": "copy",
-    "driver": "input",
-    "transmitter": "index"
+    "monitor": "index",
+    "alarm": "hack",
+    "pixel": "hack"
   }
 ]
