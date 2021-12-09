@@ -90,44 +90,6 @@
         }
       }
     },
-    "CommonEntityCertificate": {
-      "@id": "https://dlt.mobi/mobility#CommonEntityCertificate",
-      "@context": {
-        "EID": {
-          "@id": "https://schema.org/identifier"
-        },
-        "EntityType": {
-          "@id": "https://schema.org/Number"
-        },
-        "PubKey": {
-          "@id": "https://schema.org/Type"
-        },
-        "RevURI": {
-          "@id": "https://schema.org/url"
-        },
-        "ALURI": {
-          "@id": "https://schema.org/itemList"
-        },
-        "BLURI": {
-          "@id": "https://schema.org/LinkRole"
-        },
-        "SignAlgo": {
-          "@id": "https://schema.org/algorithm"
-        },
-        "HashAlgo": {
-          "@id": "https://schema.org/character"
-        },
-        "Expiration": {
-          "@id": "https://schema.org/Time"
-        },
-        "Issuer": {
-          "@id": "https://schema.org/Name"
-        },
-        "IssuerSig": {
-          "@id": "https://schema.org/PropertyValue"
-        }
-      }
-    },
     "ContactPoint": {
       "@id": "https://schema.org/ContactPoint",
       "@context": {
