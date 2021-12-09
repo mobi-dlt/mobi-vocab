@@ -1,0 +1,64 @@
+{
+    "$id": "https://dlt.mobi/mobility/schemas/mobiNETIdentity.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"mobiNETIdentity\", \"@id\": \"https://dlt.mobi/mobility#mobiNETIdentity\"}",
+    "title": "mobiNETIdentity",
+    "description": "W3C Verifiable Credential Credential Subject Schema of an ITN Identity Definition: Defines the required data properties of the credential subject in the W3C ITN Identity Credential",
+    "type": "object",
+    "required": [
+        "memberID",       
+        "type",
+        "length"
+        ],
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "membershipID": {
+            "$comment": "{\"term\": \"membershipID\", \"@id\": \"https://dlt.mobi/mobility#membershipID\"}",
+            "title": "membershipID",
+            "description": "W3C DID of the member organization"
+        },
+        "membershipType": {
+            "description": "membershipType",
+            "type": "string"
+        },
+        "length": {
+            "description": "membership length in year",
+            "type": "number"
+        },
+        "lengthBODmembership": {
+            "description": "Length of Board of Directors membership",
+            "type": "number"
+        },
+        "numberOfCertifications": {
+            "description": "number of certifications currently held",
+            "type": "number"
+        },
+        "certifications": {
+            "description": "Trip of a roaming person/entity/device from Origin to Destination based on segments traveled",
+            "type": "array"
+        },
+        "additionalID": {
+            "description": "Array of additional identifiers associated with the member such as VAT number, LEI etc.",
+            "type": "array"
+        },
+        "memberDetails": {
+            "description": "Business relevant entity details of the Member",
+            "$ref": "https://w3id.org/traceability/schemas/Entity.json"
+        }
+
+    },
+    "additionalProperties": false,
+    "examples": []
+}
