@@ -1,0 +1,55 @@
+{
+    "$id": "https://dlt.mobi/mobility/schemas/EntityCertificate.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"EntityCertificate\", \"@id\": \"https://dlt.mobi/mobility#EntityCertificate\"}",
+    "title": "EntityCertificate",
+    "description": "Entity Certificate as defined in VID I",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "entityIdentifier": {
+            "$comment": "{\"term\": \"entityIdentifier\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "entityIdentifier",
+            "description": "unique identifier for the entity.",
+            "type": "string"
+        },
+        "publicKey": {
+            "$comment": "{\"term\": \"publicKey\", \"@id\": \"https://schema.org/propertyID\"}",
+            "title": "The public key of the entity",
+            "description": "The entity manufacturing the vehicle.",
+            "type": "string"
+        },
+        "signature": {
+            "$comment": "{\"term\": \"signature\", \"@id\": \"https://schema.org/additionalProperty\"}",
+            "title": "Signature",
+            "description": "The signature for the certificate associated with the public key",
+            "type": "string"
+        },
+        "sigAlgId": {
+            "$comment": "{\"term\": \"sigAlgId\", \"@id\": \"https://schema.org/name\"}",
+            "title": "sigAlgId",
+            "description": "Id of the signature algorithm",
+            "type": "string"
+        },
+        "validityPeriod": {
+            "$comment": "{\"term\": \"validityPeriod\", \"@id\": \"https://schema.org/validUntil\"}",
+            "title": "validityPeriod",
+            "description": "period during which the entity certificate is valid",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}
