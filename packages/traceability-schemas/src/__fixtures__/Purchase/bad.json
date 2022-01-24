@@ -1,13 +1,13 @@
 [
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "alarm": "synthesize"
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": [
       "Purchase"

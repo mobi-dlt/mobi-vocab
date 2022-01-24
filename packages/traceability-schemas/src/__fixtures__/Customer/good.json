@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "Customer",
     "name": "Vince Bode",
@@ -18,7 +18,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "Customer",
     "name": "Antone Welch",
@@ -35,7 +35,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "Customer",
     "name": "Ryann Ferry",

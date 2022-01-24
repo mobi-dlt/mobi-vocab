@@ -1,6 +1,6 @@
 const getmobiNETIdentity = () => {
     const example = {
-      '@context': ['https://goodlookingtech.com'],
+      '@context': ['https://dlt.mobi/mobility-schema'],
       type: 'mobiNETIdentity',
       membershipID: '64bitstring'
     };

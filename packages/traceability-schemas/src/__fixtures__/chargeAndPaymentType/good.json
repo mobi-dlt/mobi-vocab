@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "chargeAndPaymentType",
     "chargeCollect": 319,
@@ -9,7 +9,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "chargeAndPaymentType",
     "chargeCollect": 918,
@@ -17,7 +17,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "chargeAndPaymentType",
     "chargeCollect": 623,

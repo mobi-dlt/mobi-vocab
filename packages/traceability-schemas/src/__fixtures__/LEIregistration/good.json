@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "LEIregistration",
     "initialRegistrationDate": "2020-01-01",
@@ -21,7 +21,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "LEIregistration",
     "initialRegistrationDate": "2020-01-01",
@@ -41,7 +41,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "LEIregistration",
     "initialRegistrationDate": "2020-01-01",

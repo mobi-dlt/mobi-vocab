@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "VID",
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
@@ -27,7 +27,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "VID",
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
@@ -53,7 +53,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "VID",
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",

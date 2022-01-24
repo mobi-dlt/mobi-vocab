@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "TotalCharge",
     "totalPrepaid": 47.25,
@@ -15,7 +15,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "TotalCharge",
     "totalPrepaid": 5751,
@@ -29,7 +29,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "TotalCharge",
     "totalPrepaid": 2904,

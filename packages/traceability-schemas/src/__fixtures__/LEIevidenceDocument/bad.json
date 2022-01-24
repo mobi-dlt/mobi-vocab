@@ -1,13 +1,13 @@
 [
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "LEIevidenceDocument",
     "lei": "SA9QTUFOOT3RM5GFL568",
     "registration": {
       "@context": [
-        "https://goodlookingtech.com"
+        "https://dlt.mobi/mobility-schema"
       ],
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",
@@ -33,7 +33,7 @@
     "lei": "I48Y2JRY4FLBXIVF93UN",
     "entity": {
       "@context": [
-        "https://goodlookingtech.com"
+        "https://dlt.mobi/mobility-schema"
       ],
       "type": "LEIentity",
       "legalName": "Cartwright Group",
@@ -105,7 +105,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "microchip": "quantify"
   }
