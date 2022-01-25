@@ -1,6 +1,6 @@
 const getLinkRole = () => {
   const example = {
-    '@context': ['https://goodlookingtech.com'],
+    '@context': ['https://dlt.mobi/mobility-schema'],
     type: 'LinkRole',
     target: 'https://example.com/related/link/123',
     linkRelationship: 'alternate',

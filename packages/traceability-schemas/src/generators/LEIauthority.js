@@ -10,7 +10,7 @@ const getLEIauthority = () => {
   const regid = faker.random.alphaNumeric(20).toUpperCase();
 
   const example = {
-    '@context': ['https://goodlookingtech.com'],
+    '@context': ['https://dlt.mobi/mobility-schema'],
     type: 'LEIauthority',
     validationAuthorityID: getRegCode(),
     otherValidationAuthorityID: id,

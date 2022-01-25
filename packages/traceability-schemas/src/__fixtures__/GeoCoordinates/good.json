@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "GeoCoordinates",
     "latitude": "-76.0023",
@@ -9,7 +9,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "GeoCoordinates",
     "latitude": "75.1165",
@@ -17,7 +17,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "GeoCoordinates",
     "latitude": "46.5107",

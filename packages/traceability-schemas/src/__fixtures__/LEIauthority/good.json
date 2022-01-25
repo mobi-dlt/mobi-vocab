@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "LEIauthority",
     "validationAuthorityID": "RA000661",
@@ -10,7 +10,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "LEIauthority",
     "validationAuthorityID": "RA000003",
@@ -19,7 +19,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "LEIauthority",
     "validationAuthorityID": "RA000003",

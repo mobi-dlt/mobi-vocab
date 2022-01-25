@@ -9,7 +9,7 @@ const getCustomer = () => {
   delete address.organizationName;
 
   const example = {
-    '@context': ['https://goodlookingtech.com'],
+    '@context': ['https://dlt.mobi/mobility-schema'],
     type: 'Customer',
     name: `${person.firstName} ${person.lastName}`,
     address,

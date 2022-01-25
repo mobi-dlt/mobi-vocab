@@ -1,1 +1,0 @@
-This directory is for programatic generation associated with this vocabulary.

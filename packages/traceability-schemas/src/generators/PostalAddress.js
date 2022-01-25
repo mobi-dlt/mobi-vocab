@@ -2,7 +2,7 @@ const faker = require('faker');
 
 const getPostalAddress = () => {
   const example = {
-    '@context': ['https://goodlookingtech.com'],
+    '@context': ['https://dlt.mobi/mobility-schema'],
     type: 'PostalAddress',
     organizationName: faker.company.companyName(),
     streetAddress: faker.address.streetAddress(),

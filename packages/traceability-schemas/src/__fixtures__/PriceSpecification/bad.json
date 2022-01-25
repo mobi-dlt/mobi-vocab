@@ -7,14 +7,14 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "monitor": "parse",
     "matrix": "generate"
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "priceCurrency": "MDL",
     "pixel": "back up",
