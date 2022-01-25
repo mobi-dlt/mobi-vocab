@@ -1,0 +1,802 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "name": "https://schema.org/name",
+    "description": "https://schema.org/description",
+    "identifier": "https://schema.org/identifier",
+    "image": {
+      "@id": "https://schema.org/image",
+      "@type": "@id"
+    },
+    "relatedLink": {
+      "@id": "https://w3id.org/traceability#LinkRole"
+    },
+    "BatteryID": {
+      "@id": "https://w3id.org/traceability#BatteryID",
+      "@context": {
+        "vid": {
+          "@id": "https://w3id.org/traceability#VID"
+        },
+        "batteryid": {
+          "@id": "https://schema.org/identifier"
+        },
+        "serialNumber": {
+          "@id": "https://schema.org/serialNumber"
+        }
+      }
+    },
+    "BatterySOH": {
+      "@id": "https://w3id.org/traceability#BatterySOH",
+      "@context": {
+        "batteryid": {
+          "@id": "https://w3id.org/traceability#BatteryID"
+        },
+        "previousSOHVal": {
+          "@id": "https://schema.org/value"
+        },
+        "previousSOHTimeStamp": {
+          "@id": "https://schema.org/Date"
+        },
+        "newSOHVal": {
+          "@id": "https://schema.org/Number"
+        },
+        "newSOHTimeStamp": {
+          "@id": "https://schema.org/startDate"
+        },
+        "chargeCycles": {
+          "@id": "https://w3id.org/traceability#QuantitativeValue"
+        },
+        "impedance": {
+          "@id": "https://schema.org/QuantitativeValue"
+        },
+        "maxCapacity": {
+          "@id": "https://schema.org/fuelCapacity"
+        },
+        "batteryAge": {
+          "@id": "https://schema.org/Text"
+        }
+      }
+    },
+    "Brand": {
+      "@id": "https://schema.org/Brand",
+      "@context": {
+        "logo": {
+          "@id": "https://schema.org/logo"
+        },
+        "url": {
+          "@id": "https://schema.org/url"
+        }
+      }
+    },
+    "CitopiaMembershipCredential": {
+      "@id": "https://w3id.org/traceability#CitopiaMemberShipCredential",
+      "@context": {
+        "holder": {
+          "@id": "https://schema.org/identifier"
+        },
+        "identifier": {
+          "@id": "https://schema.org/Number"
+        },
+        "member": {
+          "@id": "https://schema.org/https://w3id.org/traceability#Member"
+        },
+        "issuanceDate": {
+          "@id": "https://schema.org/Date"
+        },
+        "expirationDate": {
+          "@id": "https://schema.org/expires"
+        }
+      }
+    },
+    "ContactPoint": {
+      "@id": "https://schema.org/ContactPoint",
+      "@context": {
+        "name": {
+          "@id": "https://schema.org/name"
+        },
+        "address": {
+          "@id": "https://schema.org/PostalAddress"
+        },
+        "email": {
+          "@id": "https://schema.org/email"
+        },
+        "phoneNumber": {
+          "@id": "https://schema.org/telephone"
+        }
+      }
+    },
+    "Customer": {
+      "@id": "https://w3id.org/traceability#Customer",
+      "@context": {
+        "name": {
+          "@id": "https://schema.org/name"
+        },
+        "address": {
+          "@id": "https://schema.org/PostalAddress"
+        },
+        "telephone": {
+          "@id": "https://schema.org/telephone"
+        },
+        "email": {
+          "@id": "https://schema.org/email"
+        }
+      }
+    },
+    "DriverLicense": {
+      "@id": "https://w3id.org/traceability#DriverLicense",
+      "@context": {
+        "legalName": {
+          "@id": "https://schema.org/legalName"
+        },
+        "licenseNumber": {
+          "@id": "https://schema.org/Number"
+        },
+        "registrationAuthority": {
+          "@id": "https://w3id.org/traceability#LEIauthority"
+        },
+        "issuanceDate": {
+          "@id": "https://schema.org/Date"
+        },
+        "expirationDate": {
+          "@id": "https://schema.org/expires"
+        }
+      }
+    },
+    "Entity": {
+      "@id": "https://w3id.org/traceability#Entity",
+      "@context": {}
+    },
+    "Event": {
+      "@id": "https://schema.org/Event",
+      "@context": {
+        "eventType": {
+          "@id": "https://schema.org/value"
+        },
+        "eventId": {
+          "@id": "https://schema.org/identifier"
+        },
+        "actor": {
+          "@id": "https://w3id.org/traceability#Organization"
+        },
+        "place": {
+          "@id": "https://w3id.org/traceability#place"
+        },
+        "eventTime": {
+          "@id": "https://schema.org/DateTime#v2"
+        },
+        "products": {
+          "@id": "https://schema.org/Product"
+        }
+      }
+    },
+    "GeoCoordinates": {
+      "@id": "https://schema.org/GeoCoordinates",
+      "@context": {
+        "latitude": {
+          "@id": "https://schema.org/latitude"
+        },
+        "longitude": {
+          "@id": "https://schema.org/longitude"
+        }
+      }
+    },
+    "IdentityCredential": {
+      "@id": "https://w3id.org/traceability#IdentityCredential",
+      "@context": {
+        "legalName": {
+          "@id": "https://schema.org/legalName"
+        },
+        "licenseNumber": {
+          "@id": "https://schema.org/Number"
+        },
+        "registrationAuthority": {
+          "@id": "https://w3id.org/traceability#LEIauthority"
+        },
+        "issuanceDate": {
+          "@id": "https://schema.org/Date"
+        },
+        "expirationDate": {
+          "@id": "https://schema.org/expires"
+        }
+      }
+    },
+    "Invoice": {
+      "@id": "https://schema.org/Invoice",
+      "@context": {
+        "identifier": {
+          "@id": "https://schema.org/identifier"
+        },
+        "portOfEntry": {
+          "@id": "https://schema.org/address"
+        },
+        "purchaseDate": {
+          "@id": "https://schema.org/paymentDueDate"
+        },
+        "totalPaymentDue": {
+          "@id": "https://schema.org/totalPaymentDue"
+        },
+        "destinationCountry": {
+          "@id": "https://schema.org/addressCountry"
+        },
+        "merchandise": {
+          "@id": "https://schema.org/itemShipped"
+        },
+        "customer": {
+          "@id": "https://schema.org/customer"
+        },
+        "provider": {
+          "@id": "https://schema.org/provider"
+        }
+      }
+    },
+    "LEIaddress": {
+      "@id": "https://w3id.org/traceability#LEIaddress",
+      "@context": {
+        "language": {
+          "@id": "https://schema.org/Language"
+        },
+        "addressLines": {
+          "@id": "https://schema.org/streetAddress"
+        },
+        "addressNumber": {
+          "@id": "https://schema.org/Number"
+        },
+        "addressNumberWithinBuilding": {
+          "@id": "https://schema.org/value"
+        },
+        "mailRouting": {
+          "@id": "https://schema.org/Trip"
+        },
+        "city": {
+          "@id": "https://schema.org/addressLocality"
+        },
+        "region": {
+          "@id": "https://schema.org/addressRegion"
+        },
+        "country": {
+          "@id": "https://schema.org/addressCountry"
+        },
+        "postalCode": {
+          "@id": "https://schema.org/postalCode"
+        }
+      }
+    },
+    "LEIauthority": {
+      "@id": "https://w3id.org/traceability#LEIauthority",
+      "@context": {
+        "validationAuthorityID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "otherValidationAuthorityID": {
+          "@id": "https://schema.org/taxID"
+        },
+        "validationAuthorityEntityID": {
+          "@id": "https://schema.org/leiCode"
+        }
+      }
+    },
+    "LEIentity": {
+      "@id": "https://w3id.org/traceability#LEIentity",
+      "@context": {
+        "legalName": {
+          "@id": "https://schema.org/legalName"
+        },
+        "legalNameLanguage": {
+          "@id": "https://schema.org/Language"
+        },
+        "otherNames": {
+          "@id": "https://schema.org/alternateName"
+        },
+        "transliteratedOtherNames": {
+          "@id": "https://schema.org/name"
+        },
+        "legalAddress": {
+          "@id": "https://w3id.org/traceability#LEIaddress"
+        },
+        "headquartersAddress": {
+          "@id": "https://schema.org/PostalAddress"
+        },
+        "registrationAuthority": {
+          "@id": "https://w3id.org/traceability#LEIauthority"
+        },
+        "legalJurisdiction": {
+          "@id": "https://schema.org/countryOfOrigin"
+        },
+        "entityCategory": {
+          "@id": "https://schema.org/category"
+        },
+        "legalForm": {
+          "@id": "https://schema.org/additionalType"
+        },
+        "associatedEntity": {
+          "@id": "https://schema.org/Organization"
+        },
+        "status": {
+          "@id": "https://schema.org/status"
+        },
+        "expirationDate": {
+          "@id": "https://schema.org/expires"
+        },
+        "expirationReason": {
+          "@id": "https://schema.org/Answer"
+        },
+        "successorEntity": {
+          "@id": "https://schema.org/Corporation"
+        },
+        "otherAddresses": {
+          "@id": "https://schema.org/Place"
+        }
+      }
+    },
+    "LEIevidenceDocument": {
+      "@id": "https://w3id.org/traceability#LEIevidenceDocument",
+      "@context": {
+        "lei": {
+          "@id": "https://www.gleif.org/en/about-lei/iso-17442-the-lei-code-structure#"
+        },
+        "entity": {
+          "@id": "https://w3id.org/traceability#LEIentity"
+        },
+        "registration": {
+          "@id": "https://w3id.org/traceability#LEIregistration"
+        },
+        "bic": {
+          "@id": "https://www.iso.org/obp/ui/#iso:std:60390:en"
+        }
+      }
+    },
+    "LEIregistration": {
+      "@id": "https://w3id.org/traceability#LEIregistration",
+      "@context": {
+        "initialRegistrationDate": {
+          "@id": "https://schema.org/dateIssued"
+        },
+        "lastUpdateDate": {
+          "@id": "https://schema.org/dateModified"
+        },
+        "status": {
+          "@id": "https://schema.org/status"
+        },
+        "nextRenewalDate": {
+          "@id": "https://schema.org/validThrough"
+        },
+        "managingLou": {
+          "@id": "https://www.gleif.org/en/about-lei/iso-17442-the-lei-code-structure#"
+        },
+        "validationSources": {
+          "@id": "https://schema.org/eventStatus"
+        },
+        "validationAuthority": {
+          "@id": "https://w3id.org/traceability#LEIauthority"
+        }
+      }
+    },
+    "LegalEntityIdentifierCredential": {
+      "@id": "https://w3id.org/traceability#LegalEntityIdentifierCredential",
+      "@context": {
+        "leiCode": {
+          "@id": "https://schema.org/leiCode"
+        },
+        "certificateName": {
+          "@id": "https://schema.org/name"
+        }
+      }
+    },
+    "LinkRole": {
+      "@id": "https://schema.org/LinkRole",
+      "@context": {
+        "target": {
+          "@id": "https://schema.org/target"
+        },
+        "linkRelationship": {
+          "@id": "https://schema.org/linkRelationship"
+        }
+      }
+    },
+    "Member": {
+      "@id": "https://w3id.org/traceability#Member",
+      "@context": {
+        "firstName": {
+          "@id": "https://schema.org/givenName"
+        },
+        "lastName": {
+          "@id": "https://schema.org/familyName"
+        },
+        "email": {
+          "@id": "https://schema.org/email"
+        }
+      }
+    },
+    "Organization": {
+      "@id": "https://schema.org/Organization",
+      "@context": {
+        "name": {
+          "@id": "https://schema.org/name"
+        },
+        "leiCode": {
+          "@id": "https://schema.org/leiCode"
+        },
+        "url": {
+          "@id": "https://schema.org/url"
+        },
+        "description": {
+          "@id": "https://schema.org/description"
+        },
+        "globalLocationNumber": {
+          "@id": "https://schema.org/globalLocationNumber"
+        },
+        "address": {
+          "@id": "https://schema.org/PostalAddress"
+        },
+        "email": {
+          "@id": "https://schema.org/email"
+        },
+        "phoneNumber": {
+          "@id": "https://schema.org/telephone"
+        },
+        "faxNumber": {
+          "@id": "https://schema.org/faxNumber"
+        },
+        "brand": {
+          "@id": "https://schema.org/Brand"
+        },
+        "contactPoint": {
+          "@id": "https://schema.org/ContactPoint"
+        }
+      }
+    },
+    "Permissions": {
+      "@id": "https://w3id.org/traceability#Permissions",
+      "@context": {
+        "vid": {
+          "@id": "https://w3id.org/traceability#VID"
+        },
+        "batteryid": {
+          "@id": "https://w3id.org/traceability#BatteryID"
+        },
+        "userLocation": {
+          "@id": "https://schema.org/place"
+        },
+        "vehicleLocation": {
+          "@id": "https://schema.org/location"
+        },
+        "dataSharingForRewards": {
+          "@id": "https://schema.org/Text"
+        }
+      }
+    },
+    "PermissionsCredential": {
+      "@id": "https://w3id.org/traceability#PermissionsCredential",
+      "@context": {
+        "permission": {
+          "@id": "https://w3id.org/traceability#Permissions"
+        },
+        "holder": {
+          "@id": "https://schema.org/identifier"
+        },
+        "issuanceDate": {
+          "@id": "https://schema.org/Date"
+        },
+        "expirationDate": {
+          "@id": "https://schema.org/expires"
+        }
+      }
+    },
+    "Person": {
+      "@id": "https://schema.org/Person",
+      "@context": {
+        "firstName": {
+          "@id": "https://schema.org/givenName"
+        },
+        "lastName": {
+          "@id": "https://schema.org/familyName"
+        },
+        "email": {
+          "@id": "https://schema.org/email"
+        },
+        "phoneNumber": {
+          "@id": "https://schema.org/telephone"
+        },
+        "worksFor": {
+          "@id": "https://schema.org/worksFor"
+        },
+        "jobTitle": {
+          "@id": "https://schema.org/jobTitle"
+        }
+      }
+    },
+    "Place": {
+      "@id": "https://schema.org/Place",
+      "@context": {
+        "globalLocationNumber": {
+          "@id": "https://schema.org/globalLocationNumber"
+        },
+        "geo": {
+          "@id": "https://schema.org/GeoCoordinates"
+        },
+        "address": {
+          "@id": "https://schema.org/PostalAddress"
+        }
+      }
+    },
+    "PostalAddress": {
+      "@id": "https://schema.org/PostalAddress",
+      "@context": {
+        "organizationName": {
+          "@id": "https://gs1.org/voc/organizationName"
+        },
+        "streetAddress": {
+          "@id": "https://schema.org/streetAddress"
+        },
+        "addressLocality": {
+          "@id": "https://schema.org/addressLocality"
+        },
+        "addressRegion": {
+          "@id": "https://schema.org/addressRegion"
+        },
+        "addressCountry": {
+          "@id": "https://schema.org/addressCountry"
+        },
+        "crossStreet": {
+          "@id": "https://gs1.org/voc/crossStreet"
+        },
+        "countyCode": {
+          "@id": "https://gs1.org/voc/countyCode"
+        },
+        "postalCode": {
+          "@id": "https://schema.org/postalCode"
+        },
+        "postOfficeBoxNumber": {
+          "@id": "https://schema.org/postOfficeBoxNumber"
+        }
+      }
+    },
+    "PriceSpecification": {
+      "@id": "https://schema.org/PriceSpecification",
+      "@context": {
+        "price": {
+          "@id": "https://schema.org/price"
+        },
+        "priceCurrency": {
+          "@id": "https://schema.org/priceCurrency"
+        }
+      }
+    },
+    "PrivacyPolicy": {
+      "@id": "https://w3id.org/traceability#PrivacyPolicy",
+      "@context": {
+        "issuanceDate": {
+          "@id": "https://schema.org/Date"
+        },
+        "expirationDate": {
+          "@id": "https://schema.org/expires"
+        },
+        "holder": {
+          "@id": "https://schema.org/identifier"
+        },
+        "privacyPolicyAccepted": {
+          "@id": "https://schema.org/Text"
+        }
+      }
+    },
+    "Product": {
+      "@id": "https://schema.org/Product",
+      "@context": {
+        "manufacturer": {
+          "@id": "https://schema.org/manufacturer"
+        },
+        "name": {
+          "@id": "https://schema.org/name"
+        },
+        "description": {
+          "@id": "https://schema.org/description"
+        },
+        "category": {
+          "@id": "https://schema.org/category"
+        },
+        "sizeOrAmount": {
+          "@id": "https://schema.org/size"
+        },
+        "weight": {
+          "@id": "https://schema.org/weight"
+        },
+        "depth": {
+          "@id": "https://schema.org/depth"
+        },
+        "width": {
+          "@id": "https://schema.org/width"
+        },
+        "height": {
+          "@id": "https://schema.org/height"
+        },
+        "quantity": {
+          "@id": "https://www.gs1.org/voc/netContent"
+        },
+        "packagingType": {
+          "@id": "https://www.gs1.org/voc/packagingMaterial"
+        },
+        "priceSpecification": {
+          "@id": "https://schema.org/priceSpecification"
+        },
+        "sku": {
+          "@id": "https://schema.org/sku"
+        }
+      }
+    },
+    "ProductRegistrationEvidenceDocument": {
+      "@id": "https://w3id.org/traceability#ProductRegistrationEvidenceDocument",
+      "@context": {
+        "category": {
+          "@id": "https://schema.org/category"
+        },
+        "inProductGroupWithID": {
+          "@id": "https://schema.org/inProductGroupWithID"
+        },
+        "productID": {
+          "@id": "https://schema.org/productID"
+        },
+        "mpn": {
+          "@id": "https://schema.org/mpn"
+        },
+        "gtin": {
+          "@id": "https://schema.org/gtin"
+        },
+        "isAccessoryOrSparePartFor": {
+          "@id": "https://schema.org/isAccessoryOrSparePartFor"
+        },
+        "releaseDate": {
+          "@id": "https://schema.org/releaseDate"
+        },
+        "manufacturer": {
+          "@id": "https://schema.org/manufacturer"
+        },
+        "globalLocationNumber": {
+          "@id": "https://schema.org/globalLocationNumber"
+        },
+        "leiCode": {
+          "@id": "https://schema.org/leiCode"
+        },
+        "name": {
+          "@id": "https://schema.org/name"
+        },
+        "description": {
+          "@id": "https://schema.org/description"
+        },
+        "model": {
+          "@id": "https://schema.org/model"
+        },
+        "color": {
+          "@id": "https://schema.org/color"
+        },
+        "material": {
+          "@id": "https://schema.org/material"
+        },
+        "weight": {
+          "@id": "https://schema.org/weight"
+        },
+        "height": {
+          "@id": "https://schema.org/height"
+        },
+        "width": {
+          "@id": "https://schema.org/width"
+        },
+        "depth": {
+          "@id": "https://schema.org/depth"
+        },
+        "url": {
+          "@id": "https://schema.org/url"
+        },
+        "isBasedOn": {
+          "@id": "https://schema.org/isBasedOn"
+        },
+        "image": {
+          "@id": "https://schema.org/image"
+        }
+      }
+    },
+    "Purchase": {
+      "@id": "https://w3id.org/traceability#Purchase",
+      "@context": {
+        "customer": {
+          "@id": "https://w3id.org/traceability#Entity?v4"
+        },
+        "invoice": {
+          "@id": "https://w3id.org/traceability#Invoice"
+        },
+        "purchaseOrder": {
+          "@id": "https://schema.org/identifier"
+        }
+      }
+    },
+    "QuantitativeValue": {
+      "@id": "https://schema.org/QuantitativeValue",
+      "@context": {
+        "unitCode": {
+          "@id": "https://schema.org/unitCode"
+        },
+        "value": {
+          "@id": "https://schema.org/value"
+        }
+      }
+    },
+    "StripeCustomerCredential": {
+      "@id": "https://w3id.org/traceability#StripeCustomerCredential",
+      "@context": {
+        "holder": {
+          "@id": "https://schema.org/Text"
+        },
+        "customerID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "issuanceDate": {
+          "@id": "https://schema.org/Date"
+        },
+        "expirationDate": {
+          "@id": "https://schema.org/expires"
+        }
+      }
+    },
+    "TotalCharge": {
+      "@id": "https://w3id.org/traceability#TotalCharge",
+      "@context": {
+        "totalPrepaid": {
+          "@id": "https://schema.org/Price"
+        },
+        "totalCollect": {
+          "@id": "https://schema.org/totalPrice"
+        },
+        "sourceCurrency": {
+          "@id": "https://schema.org/priceCurrency"
+        },
+        "destinationCurrency": {
+          "@id": "https://schema.org/currency"
+        },
+        "currencyConversionRate": {
+          "@id": "https://schema.org/ExchangeRateSpecification"
+        },
+        "ccChargesDestinationCurrency": {
+          "@id": "https://schema.org/discountCurrency"
+        },
+        "chargesDestination": {
+          "@id": "https://schema.org/Number"
+        },
+        "totalCollectCharge": {
+          "@id": "https://schema.org/estimatedCost"
+        }
+      }
+    },
+    "VID": {
+      "@id": "https://w3id.org/traceability#VID",
+      "@context": {
+        "vid": {
+          "@id": "https://schema.org/identifier"
+        },
+        "manufacturer": {
+          "@id": "https://schema.org/manufacturer"
+        },
+        "make": {
+          "@id": "https://schema.org/make"
+        },
+        "model": {
+          "@id": "https://schema.org/model"
+        },
+        "vin": {
+          "@id": "https://schema.org/vehicleIdentificationNumber"
+        }
+      }
+    },
+    "chargeAndPaymentType": {
+      "@id": "https://w3id.org/traceability#chargeAndPaymentType",
+      "@context": {
+        "chargeCollect": {
+          "@id": "https://schema.org/discountPrice"
+        },
+        "chargePrepaid": {
+          "@id": "https://schema.org/totalPrice"
+        }
+      }
+    }
+  }
+}
