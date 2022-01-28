@@ -27,4 +27,4 @@ const getVehicleBirthCertificate = () => {
     return example;
 };
 
-module.exports = { getVehicleBirthCertificate};
+module.exports = { getVehicleBirthCertificate };
