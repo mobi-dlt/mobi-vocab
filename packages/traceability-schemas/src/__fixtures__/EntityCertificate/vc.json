@@ -13,23 +13,17 @@
     "@context": [
       "https://goodlookingtech.com"
     ],
-    "type": "ContactPoint",
-    "name": "Boyer Inc",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "45959 Arch Wall",
-      "addressLocality": "West Gerda",
-      "addressRegion": "Georgia",
-      "postalCode": "23413-5398",
-      "addressCountry": "Paraguay"
-    },
-    "email": "Marcus.Zboncak@example.com",
-    "phoneNumber": "555-937-6130"
+    "type": "EntityCertificate",
+    "entityIdentifier": "testing",
+    "publicKey": "testing... parth",
+    "signature": "testing... signature",
+    "sigAlgId": "testing.....",
+    "validityPeriod": "testing....."
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..bWJ9_0xvthNs-ipJ9EmZ3qSupeS-QflpD6_Mwki29QhVzWBExfKbp7kokQAr0_0_CjX9kTNU1MjXGD0E_AEaDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..2NEw2XctUOqNtG18upkmSK_5rs0JPwERWfNiOKiMnO7tsIEzeuG__N2-60e_6pbmzGEex-ph8LMohUJvl3IBDQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

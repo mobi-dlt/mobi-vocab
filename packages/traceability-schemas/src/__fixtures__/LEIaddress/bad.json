@@ -1,48 +1,39 @@
 [
   {
-    "language": "tr",
-    "addressNumberWithinBuilding": "3",
-    "mailRouting": "369 Ashlee Orchard, 42302",
-    "pixel": "reboot",
-    "transmitter": "quantify",
-    "array": "calculate"
-  },
-  {
-    "type": "LEIaddress",
-    "language": "ne",
-    "addressLines": [
-      "Mann - Stracke",
-      "862 Stroman Summit"
+    "@context": [
+      "https://goodlookingtech.com"
     ],
-    "addressNumber": "440",
-    "addressNumberWithinBuilding": "6",
-    "mailRouting": "73826 Benjamin Viaduct, 67118-8984",
-    "city": "Port Reytown",
-    "region": "Buckinghamshire",
-    "postalCode": "83279",
-    "transmitter": "input",
-    "firewall": "compress",
-    "driver": "override"
+    "type": "LEIaddress",
+    "language": "zh_CN",
+    "addressLines": [
+      "Heaney, Huel and Nader",
+      "916 White Springs"
+    ],
+    "addressNumber": "377",
+    "addressNumberWithinBuilding": "2",
+    "mailRouting": "17707 Hegmann Pass, 60088",
+    "city": "Wizafurt",
+    "region": "Cambridgeshire",
+    "postalCode": "47615-7300",
+    "array": "connect",
+    "transmitter": "input"
   },
   {
     "@context": [
       "https://goodlookingtech.com"
     ],
-    "type": "LEIaddress",
-    "language": "en_IND",
-    "addressLines": [
-      "Morissette and Sons",
-      "36058 Breitenberg Spur"
+    "mailRouting": "228 Marilyne Cliffs, 61289",
+    "region": "Berkshire",
+    "circuit": "input",
+    "program": "input"
+  },
+  {
+    "@context": [
+      "https://goodlookingtech.com"
     ],
-    "addressNumber": "316",
-    "addressNumberWithinBuilding": "2",
-    "mailRouting": "70549 Huel Streets, 19717-9167",
-    "city": "Port Eliseville",
-    "region": "Borders",
-    "postalCode": "70754-3060",
-    "matrix": "parse",
-    "feed": "parse",
-    "system": "input",
-    "alarm": "hack"
+    "addressNumberWithinBuilding": "6",
+    "country": "Niue",
+    "postalCode": "40151",
+    "protocol": "calculate"
   }
 ]

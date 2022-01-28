@@ -1,16 +1,26 @@
 [
   {
-    "chargePrepaid": 89,
-    "driver": "input"
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "interface": "transmit",
+    "circuit": "calculate",
+    "bus": "bypass",
+    "capacitor": "hack"
   },
   {
-    "chargeCollect": 918,
-    "bus": "generate"
+    "chargePrepaid": 900,
+    "bandwidth": "reboot",
+    "alarm": "parse"
   },
   {
-    "chargeCollect": 623,
-    "interface": "quantify",
-    "protocol": "parse",
-    "alarm": "input"
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "chargeCollect": 15,
+    "chargePrepaid": 291,
+    "sensor": "synthesize",
+    "system": "calculate",
+    "matrix": "compress"
   }
 ]

@@ -4,136 +4,67 @@
       "https://goodlookingtech.com"
     ],
     "type": "LEIentity",
-    "legalName": "Reilly and Sons",
-    "legalNameLanguage": "en_IND",
+    "legalName": "Littel, Wolf and Kunde",
+    "legalNameLanguage": "en_AU",
     "otherNames": [
-      "Powlowski - Rosenbaum",
-      "Wilderman, Satterfield and Upton"
+      "Aufderhar - Reichel",
+      "Fay - Hartmann"
     ],
     "transliteratedOtherNames": [
-      "Powlowski - Rosenbaum",
-      "Wilderman, Satterfield and Upton"
+      "Aufderhar - Reichel",
+      "Fay - Hartmann"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "de_AT",
+      "language": "de",
       "addressLines": [
-        "Flatley Inc",
-        "4627 Ora Hollow"
+        "Jacobson LLC",
+        "28418 Hassie Vista"
       ],
-      "addressNumber": "72",
+      "addressNumber": "210",
       "addressNumberWithinBuilding": "1",
-      "mailRouting": "93055 Felicita Club, 08033",
-      "city": "North Wilbert",
-      "region": "Borders",
-      "country": "Western Sahara",
-      "postalCode": "26688-2016"
-    },
-    "headquartersAddress": {
-      "type": "LEIaddress",
-      "language": "de_AT",
-      "addressLines": [
-        "Nienow, Casper and Quigley",
-        "0652 Sasha Road"
-      ],
-      "addressNumber": "298",
-      "addressNumberWithinBuilding": "10",
-      "mailRouting": "768 Moore Spurs, 40685-5587",
-      "city": "South Luella",
+      "mailRouting": "846 Gabriel Hollow, 95058-5554",
+      "city": "Lake Goldenport",
       "region": "Avon",
-      "country": "Tokelau",
-      "postalCode": "51740"
-    },
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000002",
-      "otherValidationAuthorityID": "Q2L8N5HV",
-      "validationAuthorityEntityID": "M7BZGCQ6VSFN1H5J0PN8"
-    },
-    "legalJurisdiction": "Buckinghamshire",
-    "entityCategory": "Finance",
-    "legalForm": "LLC",
-    "associatedEntity": {
-      "type": "Organization",
-      "leiCode": "KB9LSFBZG50G2OEEHZLP",
-      "name": "Kunde, O'Conner and Bode"
-    },
-    "status": "REQUESTED",
-    "expirationDate": "2022-07-11",
-    "expirationReason": "synergize cross-platform eyeballs",
-    "successorEntity": {
-      "type": "Organization",
-      "leiCode": "2F179UG6VYQEQUFMCQDR",
-      "name": "Labadie, Batz and Littel"
-    },
-    "otherAddresses": []
-  },
-  {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "type": "LEIentity",
-    "legalName": "McClure - Herzog",
-    "legalNameLanguage": "fr_CH",
-    "otherNames": [
-      "Franecki - Boyle",
-      "Jakubowski, Kilback and Medhurst"
-    ],
-    "transliteratedOtherNames": [
-      "Franecki - Boyle",
-      "Jakubowski, Kilback and Medhurst"
-    ],
-    "legalAddress": {
-      "type": "LEIaddress",
-      "language": "it",
-      "addressLines": [
-        "Cruickshank LLC",
-        "86035 Brenda Springs"
-      ],
-      "addressNumber": "485",
-      "addressNumberWithinBuilding": "4",
-      "mailRouting": "9242 Anya Fords, 13543",
-      "city": "Rhodaland",
-      "region": "Bedfordshire",
-      "country": "Hong Kong",
-      "postalCode": "42569"
+      "country": "Cuba",
+      "postalCode": "85974-6295"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "nl",
+      "language": "en_IND",
       "addressLines": [
-        "Cummings and Sons",
-        "365 Rosalind Mall"
+        "Herzog, Ebert and Hoppe",
+        "217 Upton Roads"
       ],
-      "addressNumber": "19",
-      "addressNumberWithinBuilding": "7",
-      "mailRouting": "845 Keara Trace, 51029",
-      "city": "North Justonberg",
+      "addressNumber": "316",
+      "addressNumberWithinBuilding": "9",
+      "mailRouting": "1623 Chet Walk, 80442",
+      "city": "Port Gunnarview",
       "region": "Berkshire",
-      "country": "Central African Republic",
-      "postalCode": "00612-4190"
+      "country": "Netherlands Antilles",
+      "postalCode": "55365-0163"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
       "validationAuthorityID": "RA000001",
-      "otherValidationAuthorityID": "B3IL1O5E",
-      "validationAuthorityEntityID": "ZHYO00YBNZVKG9IIHCOJ"
+      "otherValidationAuthorityID": "BYE9UN0B",
+      "validationAuthorityEntityID": "LRL4EY8G88V2F6BIGCOT"
     },
     "legalJurisdiction": "Borders",
-    "entityCategory": "Grocery",
+    "entityCategory": "Industrial",
     "legalForm": "CORPORATION",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "MUQ84RPEWL6M8DYI6EU2",
-      "name": "Hackett Inc"
+      "leiCode": "L8N5HVM7BZGCQ6VSFN1H",
+      "name": "McKenzie LLC"
     },
-    "status": "REJECTED",
+    "status": "IN PROGRESS",
     "expirationDate": "2022-07-11",
-    "expirationReason": "matrix sticky mindshare",
+    "expirationReason": "repurpose end-to-end initiatives",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "O5Y63QO5F8VY69ONUZYD",
-      "name": "Auer, Kuphal and Frami"
+      "leiCode": "C6D1LQCNJHSUPTGLVVK7",
+      "name": "Brown - Barton"
     },
     "otherAddresses": []
   },
@@ -142,67 +73,136 @@
       "https://goodlookingtech.com"
     ],
     "type": "LEIentity",
-    "legalName": "Orn, Kessler and Schowalter",
-    "legalNameLanguage": "nl_BE",
+    "legalName": "Lemke, Connelly and Cassin",
+    "legalNameLanguage": "id_ID",
     "otherNames": [
-      "Thiel LLC",
-      "Runolfsdottir - Hansen"
+      "Gaylord - Larkin",
+      "Kuhn - Heathcote"
     ],
     "transliteratedOtherNames": [
-      "Thiel LLC",
-      "Runolfsdottir - Hansen"
+      "Gaylord - Larkin",
+      "Kuhn - Heathcote"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "pt_BR",
+      "language": "en",
       "addressLines": [
-        "Schmeler, Hamill and Kertzmann",
-        "56033 Monahan Plaza"
+        "Conroy LLC",
+        "91076 Feest Dam"
       ],
-      "addressNumber": "188",
-      "addressNumberWithinBuilding": "2",
-      "mailRouting": "5633 Metz Orchard, 53420",
-      "city": "New Leeville",
-      "region": "Buckinghamshire",
-      "country": "Taiwan",
-      "postalCode": "66745-3589"
+      "addressNumber": "367",
+      "addressNumberWithinBuilding": "7",
+      "mailRouting": "912 Rodrigo Rest, 93604-2688",
+      "city": "Marksmouth",
+      "region": "Bedfordshire",
+      "country": "United Kingdom",
+      "postalCode": "19769"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "ge",
+      "language": "ne",
       "addressLines": [
-        "Kris, Volkman and Balistreri",
-        "35525 Glennie Manor"
+        "Emmerich - Weissnat",
+        "5136 Lelah Dam"
       ],
-      "addressNumber": "55",
-      "addressNumberWithinBuilding": "4",
-      "mailRouting": "587 Vergie Roads, 08140-8608",
-      "city": "Framifurt",
-      "region": "Berkshire",
-      "country": "Slovenia",
-      "postalCode": "30194-3111"
+      "addressNumber": "197",
+      "addressNumberWithinBuilding": "7",
+      "mailRouting": "39849 Otha Track, 52718",
+      "city": "Guillermomouth",
+      "region": "Buckinghamshire",
+      "country": "Norfolk Island",
+      "postalCode": "96489"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000002",
-      "otherValidationAuthorityID": "HM9IAOBX",
-      "validationAuthorityEntityID": "SJJKB3LPPE9ZET4I64OU"
+      "validationAuthorityID": "RA000003",
+      "otherValidationAuthorityID": "RVSBFVTD",
+      "validationAuthorityEntityID": "4AJN0BBMDLEKPDDJGL8J"
     },
-    "legalJurisdiction": "Cambridgeshire",
-    "entityCategory": "Finance",
+    "legalJurisdiction": "Avon",
+    "entityCategory": "Industrial",
+    "legalForm": "CORPORATION",
+    "associatedEntity": {
+      "type": "Organization",
+      "leiCode": "3B3IL1O5EZHYO00YBNZV",
+      "name": "Bins LLC"
+    },
+    "status": "REJECTED",
+    "expirationDate": "2022-07-11",
+    "expirationReason": "leverage open-source systems",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "MRGIDJVYIUHW0TC3D5EI",
+      "name": "Franecki - Lesch"
+    },
+    "otherAddresses": []
+  },
+  {
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "type": "LEIentity",
+    "legalName": "Borer LLC",
+    "legalNameLanguage": "en_IND",
+    "otherNames": [
+      "Hackett, Ward and Schmitt",
+      "Lindgren - McClure"
+    ],
+    "transliteratedOtherNames": [
+      "Hackett, Ward and Schmitt",
+      "Lindgren - McClure"
+    ],
+    "legalAddress": {
+      "type": "LEIaddress",
+      "language": "nl",
+      "addressLines": [
+        "Goldner - Wolf",
+        "16817 Quitzon Mountain"
+      ],
+      "addressNumber": "61",
+      "addressNumberWithinBuilding": "6",
+      "mailRouting": "17512 Herbert Valley, 08853",
+      "city": "South Loraineland",
+      "region": "Buckinghamshire",
+      "country": "Iran",
+      "postalCode": "06685-8527"
+    },
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "en_BORK",
+      "addressLines": [
+        "Monahan - Daniel",
+        "735 Sauer Fords"
+      ],
+      "addressNumber": "420",
+      "addressNumberWithinBuilding": "10",
+      "mailRouting": "27884 Raleigh Ramp, 76144",
+      "city": "Candiceville",
+      "region": "Berkshire",
+      "country": "Iran",
+      "postalCode": "78842"
+    },
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000003",
+      "otherValidationAuthorityID": "J360BN8L",
+      "validationAuthorityEntityID": "7JM89EML2H5Z94LPOEFF"
+    },
+    "legalJurisdiction": "Buckinghamshire",
+    "entityCategory": "Jewelery",
     "legalForm": "LLC",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "NK3CN5ZL1BZVEZVRS3KA",
-      "name": "Quitzon and Sons"
+      "leiCode": "N2WY8NXD27XHC735HM9I",
+      "name": "Armstrong, Zboncak and Heaney"
     },
     "status": "REQUESTED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "extend efficient channels",
+    "expirationReason": "revolutionize scalable e-commerce",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "9XYFH3TTJD1IM4Y0LMTI",
-      "name": "Medhurst, Farrell and Schimmel"
+      "leiCode": "QCKW9R293NWL6EBD8CCM",
+      "name": "Kihn LLC"
     },
     "otherAddresses": []
   }

@@ -8,9 +8,25 @@
     "licenseNumber": "Y5327288",
     "registrationAuthority": {
       "type": "LEIauthority",
+      "validationAuthorityID": "RA000005",
+      "otherValidationAuthorityID": "TNQQOL8Y",
+      "validationAuthorityEntityID": "EDHA2VJ8FYS0ZYK1BW1I"
+    },
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11"
+  },
+  {
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "type": "DriverLicense",
+    "legalName": "Matt Shi",
+    "licenseNumber": "Y5327288",
+    "registrationAuthority": {
+      "type": "LEIauthority",
       "validationAuthorityID": "RA000001",
-      "otherValidationAuthorityID": "FQVJCP4Y",
-      "validationAuthorityEntityID": "5ORUMV3U3FP82ETWP52I"
+      "otherValidationAuthorityID": "66NGDC8L",
+      "validationAuthorityEntityID": "92CZ9ZGP1JABETLO954W"
     },
     "issuanceDate": "2021-03-09",
     "expirationDate": "2022-07-11"
@@ -24,25 +40,9 @@
     "licenseNumber": "Y5327288",
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000003",
-      "otherValidationAuthorityID": "FH90EGK2",
-      "validationAuthorityEntityID": "Q4R4TNQQOL8YEDHA2VJ8"
-    },
-    "issuanceDate": "2021-03-09",
-    "expirationDate": "2022-07-11"
-  },
-  {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "type": "DriverLicense",
-    "legalName": "Matt Shi",
-    "licenseNumber": "Y5327288",
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000002",
-      "otherValidationAuthorityID": "YY2WEG3M",
-      "validationAuthorityEntityID": "C966NGDC8L92CZ9ZGP1J"
+      "validationAuthorityID": "RA000001",
+      "otherValidationAuthorityID": "G1E49022",
+      "validationAuthorityEntityID": "VOTJZQZWJLRQYRUD88G7"
     },
     "issuanceDate": "2021-03-09",
     "expirationDate": "2022-07-11"

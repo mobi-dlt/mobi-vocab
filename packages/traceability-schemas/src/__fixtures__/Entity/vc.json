@@ -13,25 +13,33 @@
     "@context": [
       "https://goodlookingtech.com"
     ],
-    "type": "Organization",
-    "name": "Bergnaum, Koss and Bashirian",
-    "description": "Inverse bi-directional definition",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "9409 Katlyn Trail",
-      "addressLocality": "East Aleenbury",
-      "addressRegion": "Maine",
-      "postalCode": "84991-3573",
-      "addressCountry": "Hong Kong"
+    "type": "Person",
+    "firstName": "Aubrey",
+    "lastName": "Turner",
+    "email": "Faustino.Lockman@example.net",
+    "phoneNumber": "555-599-4937",
+    "worksFor": {
+      "type": "Organization",
+      "name": "Effertz, Turner and Collins",
+      "description": "Polarised 24/7 utilisation",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "64547 Eloise Street",
+        "addressLocality": "Schummmouth",
+        "addressRegion": "Wisconsin",
+        "postalCode": "08745-1404",
+        "addressCountry": "Saint Lucia"
+      },
+      "email": "Lenore.McLaughlin@example.com",
+      "phoneNumber": "555-806-6582",
+      "faxNumber": "555-675-7336"
     },
-    "email": "Anabelle_Blanda81@example.org",
-    "phoneNumber": "555-972-8462",
-    "faxNumber": "555-857-6121"
+    "jobTitle": "Forward Interactions Coordinator"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..W2drlzKTWtppx6cgjXkn0JwBdjIb3WkEYWUnmPrDiA0a0g4jXxR9t0ohTUlHlmEBUfPmraYcTf0aMDvNyjqEAg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..5HhrBgwPC8Fz66naVL7ID9oUrPuRj4k4_FeGypeM9UALOyiI6aE6Y8Shsov0vrHZYEgrffYx4Lbg5kqDmmToAA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

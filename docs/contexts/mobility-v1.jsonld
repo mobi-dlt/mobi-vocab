@@ -70,6 +70,17 @@
         }
       }
     },
+    "chargeAndPaymentType": {
+      "@id": "https://dlt.mobi/mobility#chargeAndPaymentType",
+      "@context": {
+        "chargeCollect": {
+          "@id": "https://schema.org/discountPrice"
+        },
+        "chargePrepaid": {
+          "@id": "https://schema.org/totalPrice"
+        }
+      }
+    },
     "CitopiaMembershipCredential": {
       "@id": "https://dlt.mobi/mobility#CitopiaMemberShipCredential",
       "@context": {
@@ -147,6 +158,26 @@
     "Entity": {
       "@id": "https://dlt.mobi/mobility#Entity",
       "@context": {}
+    },
+    "EntityCertificate": {
+      "@id": "https://dlt.mobi/mobility#EntityCertificate",
+      "@context": {
+        "entityIdentifier": {
+          "@id": "https://schema.org/identifier"
+        },
+        "publicKey": {
+          "@id": "https://schema.org/propertyID"
+        },
+        "signature": {
+          "@id": "https://schema.org/additionalProperty"
+        },
+        "sigAlgId": {
+          "@id": "https://schema.org/name"
+        },
+        "validityPeriod": {
+          "@id": "https://schema.org/validUntil"
+        }
+      }
     },
     "Event": {
       "@id": "https://schema.org/Event",
@@ -228,6 +259,17 @@
         },
         "provider": {
           "@id": "https://schema.org/provider"
+        }
+      }
+    },
+    "LegalEntityIdentifierCredential": {
+      "@id": "https://dlt.mobi/mobility#LegalEntityIdentifierCredential",
+      "@context": {
+        "leiCode": {
+          "@id": "https://schema.org/leiCode"
+        },
+        "certificateName": {
+          "@id": "https://schema.org/name"
         }
       }
     },
@@ -370,17 +412,6 @@
         },
         "validationAuthority": {
           "@id": "https://dlt.mobi/mobility#LEIauthority"
-        }
-      }
-    },
-    "LegalEntityIdentifierCredential": {
-      "@id": "https://dlt.mobi/mobility#LegalEntityIdentifierCredential",
-      "@context": {
-        "leiCode": {
-          "@id": "https://schema.org/leiCode"
-        },
-        "certificateName": {
-          "@id": "https://schema.org/name"
         }
       }
     },
@@ -767,6 +798,14 @@
         }
       }
     },
+    "UniqueVehicleIdentifier": {
+      "@id": "https://dlt.mobi/mobility#UniqueVehicleIdentifier",
+      "@context": {
+        "vid": {
+          "@id": "https://schema.org/identifier"
+        }
+      }
+    },
     "VID": {
       "@id": "https://dlt.mobi/mobility#VID",
       "@context": {
@@ -784,17 +823,6 @@
         },
         "vin": {
           "@id": "https://schema.org/vehicleIdentificationNumber"
-        }
-      }
-    },
-    "chargeAndPaymentType": {
-      "@id": "https://dlt.mobi/mobility#chargeAndPaymentType",
-      "@context": {
-        "chargeCollect": {
-          "@id": "https://schema.org/discountPrice"
-        },
-        "chargePrepaid": {
-          "@id": "https://schema.org/totalPrice"
         }
       }
     }

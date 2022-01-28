@@ -3,38 +3,67 @@
     "@context": [
       "https://goodlookingtech.com"
     ],
-    "type": "Organization",
-    "description": "Inverse bi-directional definition",
-    "application": "input",
-    "capacitor": "input",
-    "bus": "navigate"
-  },
-  {
-    "monitor": "navigate",
-    "hard drive": "generate",
-    "system": "transmit",
-    "circuit": "index"
-  },
-  {
-    "email": "Hanna.Treutel51@example.com",
-    "phoneNumber": "555-676-2620",
+    "type": "Person",
+    "firstName": "Aubrey",
+    "phoneNumber": "555-599-4937",
     "worksFor": {
       "type": "Organization",
-      "name": "Blanda - Lind",
-      "description": "Cross-platform high-level benchmark",
+      "name": "Effertz, Turner and Collins",
+      "description": "Polarised 24/7 utilisation",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "971 Ronny Lodge",
-        "addressLocality": "Lake Destin",
-        "addressRegion": "Arkansas",
-        "postalCode": "09643",
-        "addressCountry": "Gibraltar"
+        "streetAddress": "64547 Eloise Street",
+        "addressLocality": "Schummmouth",
+        "addressRegion": "Wisconsin",
+        "postalCode": "08745-1404",
+        "addressCountry": "Saint Lucia"
       },
-      "email": "Camryn69@example.com",
-      "phoneNumber": "555-288-6700",
-      "faxNumber": "555-621-3161"
+      "email": "Lenore.McLaughlin@example.com",
+      "phoneNumber": "555-806-6582",
+      "faxNumber": "555-675-7336"
     },
-    "port": "navigate",
-    "microchip": "back up"
+    "capacitor": "program",
+    "panel": "connect"
+  },
+  {
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "phoneNumber": "555-301-1367",
+    "worksFor": {
+      "type": "Organization",
+      "name": "Jenkins - Treutel",
+      "description": "Synergized holistic instruction set",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "96433 Korey Ferry",
+        "addressLocality": "West Ardellamouth",
+        "addressRegion": "Connecticut",
+        "postalCode": "15141",
+        "addressCountry": "Peru"
+      },
+      "email": "Wava.DAmore@example.net",
+      "phoneNumber": "555-676-2620",
+      "faxNumber": "555-263-7268"
+    },
+    "firewall": "copy"
+  },
+  {
+    "type": "Organization",
+    "description": "Reverse-engineered explicit internet solution",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "466 Schuyler Cliffs",
+      "addressLocality": "Port Gavinton",
+      "addressRegion": "Alabama",
+      "postalCode": "88075",
+      "addressCountry": "Cocos (Keeling) Islands"
+    },
+    "email": "Mina3@example.com",
+    "phoneNumber": "555-987-2884",
+    "faxNumber": "555-582-4334",
+    "feed": "reboot",
+    "bus": "generate",
+    "monitor": "generate"
   }
 ]

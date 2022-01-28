@@ -1,17 +1,23 @@
 [
   {
+    "type": "LinkRole",
+    "target": "https://example.com/related/link/123",
+    "linkRelationship": "alternate",
+    "circuit": "input",
+    "alarm": "transmit"
+  },
+  {
     "@context": [
       "https://goodlookingtech.com"
     ],
-    "type": "LinkRole",
-    "circuit": "reboot",
-    "port": "override"
+    "target": "https://example.com/related/link/123",
+    "linkRelationship": "alternate",
+    "transmitter": "calculate",
+    "matrix": "bypass"
   },
   {
-    "microchip": "navigate"
-  },
-  {
-    "system": "transmit",
-    "pixel": "parse"
+    "card": "parse",
+    "matrix": "index",
+    "sensor": "parse"
   }
 ]

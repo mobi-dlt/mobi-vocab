@@ -1,0 +1,139 @@
+{
+    "$id": "https://dlt.mobi/mobility/schemas/VehicleBirthCertificate.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"VBC\", \"@id\": \"https://dlt.mobi/mobility#VehicleBirthCertificate\"}",
+    "title": "Vehicle Birth Certificate",
+    "description": "Vehicle Birth Certificate as defined by VID I Standard.",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "certURI": {
+            "$comment": "{\"term\": \"CertURI\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "certURI",
+            "description": "Uniform Resource Identifier for the Certificate",
+            "type": "string"
+        },
+        "colorOemCode": {
+            "$comment": "{\"term\": \"ColorOemCode\", \"@id\": \"https://schema.org/color\"}",
+            "title": "colorOemCode",
+            "description": "OEM code for vehicle color",
+            "type": "string"
+        },
+        "countryOfOrigin": {
+            "$comment": "{\"term\": \"countryOfOrigin\", \"@id\": \"https://schema.org/countryOforigin\"}",
+            "title": "countryOfOrigin",
+            "description": "Vehicle's country of origin",
+            "type": "string"
+        },
+        "productionDate": {
+            "$comment": "{\"term\": \"productionDate\", \"@id\": \"https://schema.org/productionDate\"}",
+            "title": "productionDate",
+            "description": "date of production for the vehicle",
+            "type": "string"
+        },
+        "engineCode": {
+            "$comment": "{\"term\": \"engineCode\", \"@id\": \"https://schema.org/additionalProperty\"}",
+            "title": "engineCode",
+            "description": "the vehicle's OBD II engine codes",
+            "type": "string"
+        },
+        "engineSerialNumber": {
+            "$comment": "{\"term\": \"engineSerialNumber\", \"@id\": \"https://schema.org/serialNumber\"}",
+            "title": "engineSerialNumber",
+            "description": "the engine's serial number",
+            "type": "string"
+        },
+        "fuelType": {
+            "$comment": "{\"term\": \"fuelType\", \"@id\": \"https://schema.org/fuelType\"}",
+            "title": "fuelType",
+            "description": "the type of fuel accepted by the vehicle",
+            "type": "string"
+        },
+        "issuer": {
+            "$comment": "{\"term\": \"issuer\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "issuer",
+            "description": "the certificate's issuing entity",
+            "type": "string"
+        },
+        "issuerSig": {
+            "$comment": "{\"term\": \"issuerSig\", \"@id\": \"https://schema.org/additionalProperty\"}",
+            "title": "issuerSig",
+            "description": "the signed VBC certificate",
+            "type": "string"
+        },
+        "manufacturer": {
+            "$comment": "{\"term\": \"manufacturer\", \"@id\": \"https://schema.org/manufacturer\"}",
+            "title": "Manufacturer",
+            "description": "The entity manufacturing the vehicle.",
+            "$ref": "https://dlt.mobi/mobility/schemas/manufacturer.json"
+        },
+        "model": {
+            "$comment": "{\"term\": \"model\", \"@id\": \"https://schema.org/model\"}",
+            "title": "Model",
+            "description": "Name of Vehicle Model",
+            "type": "string"
+        },
+        "modelYear": {
+            "$comment": "{\"term\": \"modelYear\", \"@id\": \"https://schema.org/vehicleModelDate\"}",
+            "title": "modelYear",
+            "description": "The vehicle model's year",
+            "type": "string"
+        },
+        "plantCode": {
+            "$comment": "{\"term\": \"plantCode\", \"@id\": \"https://schema.org/vehicleIdentificationNumber\"}",
+            "title": "plantCode",
+            "description": "The 11th character of the VIN, designating the assembly plant where the vehicle was built",
+            "type": "string"
+        },
+        "previousVBC": {
+            "$comment": "{\"term\": \"previousVBC\", \"@id\": \"https://schema.org/VBC\"}",
+            "title": "previousVBC",
+            "description": "The URI to any previous VBC",
+            "$ref": "https://dlt.mobi/mobility/schemas/UniqueVehicleIdentifier.json"
+        },
+        "sigAlg": {
+            "$comment": "{\"term\": \"sigalg\", \"@id\": \"https://schema.org/additionalProperty\"}",
+            "title": "sigAlg",
+            "description": "the algorithm used to produce the digital signature",
+            "type": "string"
+        },
+        "transmissionSerialNumber": {
+            "$comment": "{\"term\": \"transmissionSerialNumber\", \"@id\": \"https://schema.org/vehicleTransmission\"}",
+            "title": "transmissionSerialNumber",
+            "description": "the serial number of the transmission",
+            "type": "string"
+        },
+        "trimType": {
+            "$comment": "{\"term\": \"trimType\", \"@id\": \"https://schema.org/vehicleConfiguration\"}",
+            "title": "trimType",
+            "description": "the trim of the vehicle",
+            "type": "string"
+        },
+        "UVI": {
+            "$comment": "{\"term\": \"UVI\", \"@id\": \"https://schema.org/VBC\"}",
+            "title": "UVI",
+            "description": "the unique vehicle identifier for the vehicle",
+            "$ref": "https://dlt.mobi/mobility/schemas/UniqueVehicleIdentifier.json"
+        },
+        "vin": {
+            "$comment": "{\"term\": \"vin\", \"@id\": \"https://schema.org/vehicleIdentificationNumber\"}",
+            "title": "vin",
+            "description": "vin number.",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}

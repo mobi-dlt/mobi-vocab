@@ -1,34 +1,33 @@
 [
   {
+    "panel": "calculate",
+    "program": "synthesize",
+    "card": "connect"
+  },
+  {
     "@context": [
       "https://goodlookingtech.com"
     ],
-    "type": "DriverLicense",
+    "system": "bypass",
+    "capacitor": "program",
+    "bus": "generate",
+    "protocol": "hack"
+  },
+  {
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
     "legalName": "Matt Shi",
+    "licenseNumber": "Y5327288",
     "registrationAuthority": {
       "type": "LEIauthority",
       "validationAuthorityID": "RA000001",
-      "otherValidationAuthorityID": "FQVJCP4Y",
-      "validationAuthorityEntityID": "5ORUMV3U3FP82ETWP52I"
+      "otherValidationAuthorityID": "G1E49022",
+      "validationAuthorityEntityID": "VOTJZQZWJLRQYRUD88G7"
     },
     "issuanceDate": "2021-03-09",
-    "bus": "navigate",
-    "circuit": "transmit"
-  },
-  {
-    "protocol": "generate",
-    "capacitor": "bypass",
-    "port": "generate"
-  },
-  {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "type": "DriverLicense",
-    "licenseNumber": "Y5327288",
-    "expirationDate": "2022-07-11",
-    "port": "hack",
-    "panel": "reboot",
-    "protocol": "transmit"
+    "microchip": "compress",
+    "circuit": "synthesize",
+    "application": "calculate"
   }
 ]

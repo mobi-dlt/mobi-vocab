@@ -1,32 +1,15 @@
 [
   {
-    "type": "IdentityCredential",
-    "legalName": "Matt Shi",
-    "issuanceDate": "2021-03-09",
-    "system": "input",
-    "interface": "bypass"
+    "interface": "back up"
   },
   {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "type": "IdentityCredential",
-    "issuanceDate": "2021-03-09",
-    "expirationDate": "2022-07-11",
-    "monitor": "compress",
-    "driver": "bypass",
-    "sensor": "navigate"
+    "microchip": "input",
+    "matrix": "bypass",
+    "program": "index",
+    "capacitor": "program"
   },
   {
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000661",
-      "otherValidationAuthorityID": "YYSS93LF",
-      "validationAuthorityEntityID": "ZVVYLGWMZ6QZ28EXUN8L"
-    },
-    "issuanceDate": "2021-03-09",
-    "expirationDate": "2022-07-11",
-    "program": "back up",
-    "microchip": "parse"
+    "circuit": "back up",
+    "capacitor": "program"
   }
 ]

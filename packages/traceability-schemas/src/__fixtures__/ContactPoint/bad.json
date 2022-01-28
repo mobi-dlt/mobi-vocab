@@ -1,27 +1,40 @@
 [
   {
-    "hard drive": "parse"
-  },
-  {
-    "email": "Rosetta70@example.net",
-    "transmitter": "compress",
-    "bus": "calculate"
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "name": "Boyer Inc",
+    "email": "Marcus.Zboncak@example.com",
+    "phoneNumber": "555-937-6130",
+    "card": "input",
+    "bus": "synthesize",
+    "panel": "synthesize",
+    "monitor": "navigate"
   },
   {
     "@context": [
       "https://goodlookingtech.com"
     ],
-    "name": "Konopelski Inc",
+    "type": "ContactPoint",
+    "name": "Botsford - Kessler",
+    "email": "Margarete46@example.com",
+    "phoneNumber": "555-124-4380",
+    "port": "program",
+    "pixel": "program",
+    "driver": "back up"
+  },
+  {
+    "type": "ContactPoint",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "6716 Gracie Circle",
-      "addressLocality": "Bechtelarhaven",
-      "addressRegion": "Vermont",
-      "postalCode": "03504",
-      "addressCountry": "Moldova"
+      "streetAddress": "35872 Lina Field",
+      "addressLocality": "North Ronaldo",
+      "addressRegion": "Arizona",
+      "postalCode": "54566",
+      "addressCountry": "Burkina Faso"
     },
-    "email": "Willie_Grant86@example.com",
-    "phoneNumber": "555-704-1323",
-    "driver": "transmit"
+    "phoneNumber": "555-753-2194",
+    "driver": "override",
+    "matrix": "bypass"
   }
 ]

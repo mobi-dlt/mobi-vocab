@@ -1,0 +1,30 @@
+[
+  {
+    "type": "EntityCertificate",
+    "entityIdentifier": "testing",
+    "publicKey": "testing... parth",
+    "signature": "testing... signature",
+    "sigAlgId": "testing.....",
+    "validityPeriod": "testing.....",
+    "system": "navigate",
+    "firewall": "index",
+    "program": "bypass",
+    "port": "input"
+  },
+  {
+    "entityIdentifier": "testing",
+    "publicKey": "testing... parth",
+    "sigAlgId": "testing.....",
+    "validityPeriod": "testing.....",
+    "bus": "override",
+    "bandwidth": "copy"
+  },
+  {
+    "type": "EntityCertificate",
+    "signature": "testing... signature",
+    "sigAlgId": "testing.....",
+    "sensor": "synthesize",
+    "array": "transmit",
+    "alarm": "connect"
+  }
+]

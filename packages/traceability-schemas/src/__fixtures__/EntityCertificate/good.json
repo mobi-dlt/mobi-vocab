@@ -1,0 +1,35 @@
+[
+  {
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "type": "EntityCertificate",
+    "entityIdentifier": "testing",
+    "publicKey": "testing... parth",
+    "signature": "testing... signature",
+    "sigAlgId": "testing.....",
+    "validityPeriod": "testing....."
+  },
+  {
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "type": "EntityCertificate",
+    "entityIdentifier": "testing",
+    "publicKey": "testing... parth",
+    "signature": "testing... signature",
+    "sigAlgId": "testing.....",
+    "validityPeriod": "testing....."
+  },
+  {
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "type": "EntityCertificate",
+    "entityIdentifier": "testing",
+    "publicKey": "testing... parth",
+    "signature": "testing... signature",
+    "sigAlgId": "testing.....",
+    "validityPeriod": "testing....."
+  }
+]
