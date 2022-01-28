@@ -1,7 +1,7 @@
 {
     "$id": "https://dlt.mobi/mobility/schemas/VehicleBirthCertificate.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"VBC\", \"@id\": \"https://dlt.mobi/mobility#VehicleBirthCertificate\"}",
+    "$comment": "{\"term\": \"VehicleBirthCertificate\", \"@id\": \"https://dlt.mobi/mobility#VehicleBirthCertificate\"}",
     "title": "Vehicle Birth Certificate",
     "description": "Vehicle Birth Certificate as defined by VID I Standard.",
     "type": "object",
@@ -20,13 +20,13 @@
             ]
         },
         "certURI": {
-            "$comment": "{\"term\": \"CertURI\", \"@id\": \"https://schema.org/identifier\"}",
+            "$comment": "{\"term\": \"certURI\", \"@id\": \"https://schema.org/identifier\"}",
             "title": "certURI",
             "description": "Uniform Resource Identifier for the Certificate",
             "type": "string"
         },
         "colorOemCode": {
-            "$comment": "{\"term\": \"ColorOemCode\", \"@id\": \"https://schema.org/color\"}",
+            "$comment": "{\"term\": \"colorOemCode\", \"@id\": \"https://schema.org/color\"}",
             "title": "colorOemCode",
             "description": "OEM code for vehicle color",
             "type": "string"
@@ -62,22 +62,15 @@
             "type": "string"
         },
         "issuer": {
-            "$comment": "{\"term\": \"issuer\", \"@id\": \"https://schema.org/identifier\"}",
+            "$comment": "{\"term\": \"issuer\", \"@id\": \"https://schema.org/Person\"}",
             "title": "issuer",
             "description": "the certificate's issuing entity",
-            "type": "string"
-        },
-        "issuerSig": {
-            "$comment": "{\"term\": \"issuerSig\", \"@id\": \"https://schema.org/additionalProperty\"}",
-            "title": "issuerSig",
-            "description": "the signed VBC certificate",
             "type": "string"
         },
         "manufacturer": {
             "$comment": "{\"term\": \"manufacturer\", \"@id\": \"https://schema.org/manufacturer\"}",
             "title": "Manufacturer",
-            "description": "The entity manufacturing the vehicle.",
-            "$ref": "https://dlt.mobi/mobility/schemas/manufacturer.json"
+            "description": "The entity manufacturing the vehicle."
         },
         "model": {
             "$comment": "{\"term\": \"model\", \"@id\": \"https://schema.org/model\"}",
@@ -92,47 +85,46 @@
             "type": "string"
         },
         "plantCode": {
-            "$comment": "{\"term\": \"plantCode\", \"@id\": \"https://schema.org/vehicleIdentificationNumber\"}",
+            "$comment": "{\"term\": \"plantCode\", \"@id\": \"https://schema.org/Number\"}",
             "title": "plantCode",
             "description": "The 11th character of the VIN, designating the assembly plant where the vehicle was built",
             "type": "string"
         },
         "previousVBC": {
-            "$comment": "{\"term\": \"previousVBC\", \"@id\": \"https://schema.org/VBC\"}",
+            "$comment": "{\"term\": \"previousVBC\", \"@id\": \"https://dlt.mobi/mobility#Text\"}",
             "title": "previousVBC",
-            "description": "The URI to any previous VBC",
-            "$ref": "https://dlt.mobi/mobility/schemas/UniqueVehicleIdentifier.json"
+            "description": "The URI to any previous VBC"
         },
         "sigAlg": {
-            "$comment": "{\"term\": \"sigalg\", \"@id\": \"https://schema.org/additionalProperty\"}",
+            "$comment": "{\"term\": \"sigAlg\", \"@id\": \"https://schema.org/DigitalDocument\"}",
             "title": "sigAlg",
             "description": "the algorithm used to produce the digital signature",
             "type": "string"
         },
         "transmissionSerialNumber": {
-            "$comment": "{\"term\": \"transmissionSerialNumber\", \"@id\": \"https://schema.org/vehicleTransmission\"}",
+            "$comment": "{\"term\": \"transmissionSerialNumber\", \"@id\": \"https://schema.org/IndividualProduct\"}",
             "title": "transmissionSerialNumber",
             "description": "the serial number of the transmission",
             "type": "string"
         },
         "trimType": {
-            "$comment": "{\"term\": \"trimType\", \"@id\": \"https://schema.org/vehicleConfiguration\"}",
+            "$comment": "{\"term\": \"trimType\", \"@id\": \"https://schema.org/amenityFeature\"}",
             "title": "trimType",
             "description": "the trim of the vehicle",
             "type": "string"
         },
-        "UVI": {
-            "$comment": "{\"term\": \"UVI\", \"@id\": \"https://schema.org/VBC\"}",
-            "title": "UVI",
-            "description": "the unique vehicle identifier for the vehicle",
-            "$ref": "https://dlt.mobi/mobility/schemas/UniqueVehicleIdentifier.json"
-        },
         "vin": {
             "$comment": "{\"term\": \"vin\", \"@id\": \"https://schema.org/vehicleIdentificationNumber\"}",
             "title": "vin",
-            "description": "vin number.",
-            "type": "string"
+            "description": "the unique vehicle identifier for the vehicle"
+        },
+        "uvi": {
+            "$comment": "{\"term\": \"uvi\", \"@id\": \"https://schema.org/url\"}",
+            "title": "uvi",
+            "description": "the unique vehicle identifier for the vehicle"
         }
+       
+
     },
     "additionalProperties": false,
     "examples": []
