@@ -46,7 +46,9 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..j3WCt076nRsz9JhGMrVOrZhJAHb-NtSQusDqD2iBISyH8_j06rS6GWnC6Dfqh3LTY7QHoPcZi3TT_qjr71AGDg",
+
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..btGOoW0F5ZRns7t6o8TAYPxQDmlzWI2aAyiogmdkDhtlF9g8kOhwxLhBdumRMbv94rDhrrptnyepOGzNCULICw",
+
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

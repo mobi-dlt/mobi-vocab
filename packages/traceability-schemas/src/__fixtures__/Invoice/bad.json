@@ -14,5 +14,16 @@
     "identifier": "IN-99490",
     "firewall": "input",
     "sensor": "synthesize"
+
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": "Invoice",
+    "sensor": "compress",
+    "pixel": "compress",
+    "monitor": "generate",
+    "driver": "quantify"
   }
 ]

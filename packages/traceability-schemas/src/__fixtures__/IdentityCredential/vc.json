@@ -28,7 +28,9 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..JWj5yprqE5qjxyWq8y-3uN2nKelqeAf5tUE5_YddHGhQ5TImxY6gVrQ8Y1dng6k2XSkJxgJ0UdeYAyBrxPC1Ag",
+
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..iS8N3_FRiNNhnqMPoJ2tveaZtptW8GEcoRSCxHDknHpD0zqVoZ3kL3NCtfSWKmwc3spUDDcLwb07PPsawkxwDQ",
+
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

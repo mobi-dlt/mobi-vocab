@@ -2,6 +2,32 @@
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
+
+    ],
+    "type": "TotalCharge",
+    "totalPrepaid": 47.25,
+    "totalCollect": 15.75,
+    "sourceCurrency": "KMF",
+    "destinationCurrency": "HRK",
+    "currencyConversionRate": 5,
+    "chargesDestination": 636,
+    "totalCollectCharge": 159,
+    "hard drive": "back up"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": "TotalCharge",
+    "totalCollect": 1917,
+    "totalCollectCharge": 108,
+    "application": "hack",
+    "driver": "synthesize",
+    "microchip": "calculate"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "TotalCharge",
     "totalPrepaid": 2904,
