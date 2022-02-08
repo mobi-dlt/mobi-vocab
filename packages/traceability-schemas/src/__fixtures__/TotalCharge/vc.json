@@ -14,19 +14,21 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 47.25,
-    "totalCollect": 15.75,
-    "sourceCurrency": "KMF",
-    "destinationCurrency": "HRK",
-    "currencyConversionRate": 5,
-    "ccChargesDestinationCurrency": "KMF",
-    "chargesDestination": 636,
-    "totalCollectCharge": 159
+    "totalPrepaid": 2904,
+    "totalCollect": 968,
+    "sourceCurrency": "PEN",
+    "destinationCurrency": "PYG",
+    "currencyConversionRate": 4,
+    "ccChargesDestinationCurrency": "PEN",
+    "chargesDestination": 178,
+    "totalCollectCharge": 44.5
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
+
     "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..6m2hohdfCalepC8k1oiQSjf41y8cbTq2kCyeEsPELha9L062LxchAR3ylxzWcP2nd6GXKY7JV7lIH2LB5spPBA",
+
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

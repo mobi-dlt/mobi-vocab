@@ -1,0 +1,24 @@
+[
+  {
+    "feed": "hack",
+    "interface": "index",
+    "transmitter": "connect"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "port": "generate",
+    "feed": "generate"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "uvi": "testing...",
+    "monitor": "calculate",
+    "program": "copy",
+    "firewall": "compress",
+    "transmitter": "override"
+  }
+]

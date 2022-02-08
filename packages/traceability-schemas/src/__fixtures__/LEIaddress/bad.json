@@ -1,41 +1,32 @@
 [
   {
-    "language": "tr",
-    "addressNumberWithinBuilding": "3",
-    "mailRouting": "369 Ashlee Orchard, 42302",
-    "pixel": "reboot",
-    "transmitter": "quantify",
-    "array": "calculate"
+    "addressNumber": "312",
+    "city": "New Toney",
+    "country": "Democratic People's Republic of Korea",
+    "protocol": "parse",
+    "bus": "bypass",
+    "sensor": "generate"
   },
   {
-    "type": "LEIaddress",
-    "language": "ne",
     "addressLines": [
-      "Mann - Stracke",
-      "862 Stroman Summit"
+      "Shanahan, Marquardt and Heidenreich",
+      "278 Sanford Mount"
     ],
-    "addressNumber": "440",
-    "addressNumberWithinBuilding": "6",
-    "mailRouting": "73826 Benjamin Viaduct, 67118-8984",
-    "city": "Port Reytown",
-    "region": "Buckinghamshire",
-    "postalCode": "83279",
-    "transmitter": "input",
-    "firewall": "compress",
-    "driver": "override"
+    "postalCode": "40880-1832",
+    "microchip": "copy"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "LEIaddress",
-    "language": "en_IND",
+    "language": "de",
     "addressLines": [
-      "Morissette and Sons",
-      "36058 Breitenberg Spur"
+      "Hansen - Wunsch",
+      "6058 Breitenberg Spur"
     ],
-    "addressNumber": "316",
-    "addressNumberWithinBuilding": "2",
+    "addressNumber": "58",
+    "addressNumberWithinBuilding": "3",
     "mailRouting": "70549 Huel Streets, 19717-9167",
     "city": "Port Eliseville",
     "region": "Borders",

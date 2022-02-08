@@ -1,26 +1,35 @@
 [
   {
-    "pixel": "connect",
-    "bandwidth": "reboot",
-    "array": "index"
+    "type": [
+      "StripeCustomerCredential",
+      "VerifiableCredential"
+    ],
+    "holder": "did:mobi:f436e12ec21ebfdb1f712ebc3h",
+    "expirationDate": "2022-07-11",
+    "bus": "bypass",
+    "feed": "connect",
+    "interface": "quantify",
+    "circuit": "calculate"
   },
   {
     "type": [
       "StripeCustomerCredential",
       "VerifiableCredential"
     ],
-    "issuanceDate": "2021-03-09",
-    "interface": "navigate",
-    "sensor": "connect",
-    "driver": "bypass"
+    "holder": "did:mobi:f436e12ec21ebfdb1f712ebc3h",
+    "alarm": "parse",
+    "protocol": "connect",
+    "interface": "generate"
   },
   {
-    "type": [
-      "StripeCustomerCredential",
-      "VerifiableCredential"
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://dlt.mobi/mobility-schema"
     ],
     "customerID": "customer123",
-    "program": "transmit",
-    "alarm": "program"
+    "feed": "generate",
+    "application": "hack",
+    "driver": "synthesize",
+    "microchip": "calculate"
   }
 ]

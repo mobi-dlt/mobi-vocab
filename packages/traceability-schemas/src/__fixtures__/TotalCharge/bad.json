@@ -2,6 +2,7 @@
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
+
     ],
     "type": "TotalCharge",
     "totalPrepaid": 47.25,
@@ -37,5 +38,24 @@
     "chargesDestination": 178,
     "monitor": "hack",
     "circuit": "compress"
+  },
+  {
+    "totalPrepaid": 4482,
+    "totalCollectCharge": 109.75,
+    "interface": "synthesize",
+    "monitor": "compress"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "totalPrepaid": 4416.75,
+    "totalCollect": 1472.25,
+    "sourceCurrency": "HUF",
+    "currencyConversionRate": 1,
+    "ccChargesDestinationCurrency": "HUF",
+    "totalCollectCharge": 80.25,
+    "bus": "reboot",
+    "monitor": "generate"
   }
 ]

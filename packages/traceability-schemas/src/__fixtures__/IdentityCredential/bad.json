@@ -1,32 +1,27 @@
 [
   {
-    "type": "IdentityCredential",
-    "legalName": "Matt Shi",
-    "issuanceDate": "2021-03-09",
-    "system": "input",
-    "interface": "bypass"
-  },
-  {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "IdentityCredential",
-    "issuanceDate": "2021-03-09",
-    "expirationDate": "2022-07-11",
-    "monitor": "compress",
-    "driver": "bypass",
-    "sensor": "navigate"
-  },
-  {
+    "legalName": "Matt Shi",
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000661",
-      "otherValidationAuthorityID": "YYSS93LF",
-      "validationAuthorityEntityID": "ZVVYLGWMZ6QZ28EXUN8L"
+      "validationAuthorityID": "RA000004",
+      "otherValidationAuthorityID": "B14PQA6X",
+      "validationAuthorityEntityID": "4YFXSHQV1UGBITN1NLD8"
     },
     "issuanceDate": "2021-03-09",
     "expirationDate": "2022-07-11",
-    "program": "back up",
-    "microchip": "parse"
+    "circuit": "synthesize"
+  },
+  {
+    "firewall": "input",
+    "monitor": "compress"
+  },
+  {
+    "legalName": "Matt Shi",
+    "issuanceDate": "2021-03-09",
+    "protocol": "override"
   }
 ]

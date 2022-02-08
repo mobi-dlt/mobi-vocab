@@ -1,0 +1,29 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": "EntityCertificate",
+    "entityIdentifier": "testing",
+    "signature": "testing... signature",
+    "sigAlgId": "testing.....",
+    "validityPeriod": "testing.....",
+    "firewall": "connect"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "publicKey": "testing... parth",
+    "signature": "testing... signature",
+    "sigAlgId": "testing.....",
+    "firewall": "copy"
+  },
+  {
+    "publicKey": "testing... parth",
+    "sigAlgId": "testing.....",
+    "feed": "bypass",
+    "firewall": "program",
+    "panel": "reboot"
+  }
+]

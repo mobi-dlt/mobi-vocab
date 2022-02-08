@@ -4,53 +4,53 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "LEIaddress",
-    "language": "tr",
+    "language": "zh_TW",
     "addressLines": [
-      "Stokes - Bosco",
-      "14809 Alfonzo Summit"
+      "Treutel Group",
+      "505 Ryley Turnpike"
     ],
-    "addressNumber": "196",
+    "addressNumber": "312",
     "addressNumberWithinBuilding": "3",
-    "mailRouting": "369 Ashlee Orchard, 42302",
-    "city": "Mitcheltown",
-    "region": "Cambridgeshire",
-    "country": "Kenya",
-    "postalCode": "50921"
+    "mailRouting": "48322 Towne Crescent, 98808",
+    "city": "New Toney",
+    "region": "Bedfordshire",
+    "country": "Democratic People's Republic of Korea",
+    "postalCode": "70242-3026"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "LEIaddress",
-    "language": "ne",
+    "language": "it",
     "addressLines": [
-      "Mann - Stracke",
-      "862 Stroman Summit"
+      "Shanahan, Marquardt and Heidenreich",
+      "278 Sanford Mount"
     ],
-    "addressNumber": "440",
+    "addressNumber": "272",
     "addressNumberWithinBuilding": "6",
-    "mailRouting": "73826 Benjamin Viaduct, 67118-8984",
-    "city": "Port Reytown",
+    "mailRouting": "2818 Estelle Divide, 26961-6671",
+    "city": "Port Shanieshire",
     "region": "Buckinghamshire",
-    "country": "Estonia",
-    "postalCode": "83279"
+    "country": "Northern Mariana Islands",
+    "postalCode": "40880-1832"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "LEIaddress",
-    "language": "en_IND",
+    "language": "de",
     "addressLines": [
-      "Morissette and Sons",
-      "36058 Breitenberg Spur"
+      "Hansen - Wunsch",
+      "6058 Breitenberg Spur"
     ],
-    "addressNumber": "316",
-    "addressNumberWithinBuilding": "2",
+    "addressNumber": "58",
+    "addressNumberWithinBuilding": "3",
     "mailRouting": "70549 Huel Streets, 19717-9167",
     "city": "Port Eliseville",
     "region": "Borders",
-    "country": "Wallis and Futuna",
+    "country": "Mauritania",
     "postalCode": "70754-3060"
   }
 ]

@@ -16,20 +16,28 @@
     "type": "VID",
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "manufacturer": {
-      "type": "Organization",
-      "name": "Rodriguez - Dibbert",
-      "description": "Optional analyzing leverage",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "7885 Nils Mountains",
-        "addressLocality": "West Jarenbury",
-        "addressRegion": "Oklahoma",
-        "postalCode": "23253-1252",
-        "addressCountry": "Switzerland"
+      "type": "Person",
+      "firstName": "Manuela",
+      "lastName": "Sawayn",
+      "email": "Hilda88@example.org",
+      "phoneNumber": "555-135-8723",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Gerlach - Gislason",
+        "description": "Assimilated fresh-thinking structure",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "8206 Reilly Springs",
+          "addressLocality": "Koeppmouth",
+          "addressRegion": "Wyoming",
+          "postalCode": "70767",
+          "addressCountry": "Guinea-Bissau"
+        },
+        "email": "Dedric_Senger@example.net",
+        "phoneNumber": "555-235-4891",
+        "faxNumber": "555-295-1280"
       },
-      "email": "Bret_Hoppe@example.net",
-      "phoneNumber": "555-482-8817",
-      "faxNumber": "555-917-7519"
+      "jobTitle": "Global Tactics Producer"
     },
     "make": "Ford",
     "model": "Mach_E",
@@ -38,7 +46,9 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
+
     "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..btGOoW0F5ZRns7t6o8TAYPxQDmlzWI2aAyiogmdkDhtlF9g8kOhwxLhBdumRMbv94rDhrrptnyepOGzNCULICw",
+
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

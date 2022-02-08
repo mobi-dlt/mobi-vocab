@@ -1,16 +1,22 @@
 [
   {
-    "chargePrepaid": 89,
-    "driver": "input"
+    "firewall": "calculate",
+    "sensor": "parse",
+    "interface": "program",
+    "panel": "quantify"
   },
   {
-    "chargeCollect": 918,
-    "bus": "generate"
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": "chargeAndPaymentType",
+    "hard drive": "input"
   },
   {
-    "chargeCollect": 623,
-    "interface": "quantify",
-    "protocol": "parse",
-    "alarm": "input"
+    "type": "chargeAndPaymentType",
+    "chargePrepaid": 104,
+    "driver": "bypass",
+    "system": "compress",
+    "bandwidth": "reboot"
   }
 ]

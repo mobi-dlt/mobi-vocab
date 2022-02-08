@@ -4,34 +4,6 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 47.25,
-    "totalCollect": 15.75,
-    "sourceCurrency": "KMF",
-    "destinationCurrency": "HRK",
-    "currencyConversionRate": 5,
-    "ccChargesDestinationCurrency": "KMF",
-    "chargesDestination": 636,
-    "totalCollectCharge": 159
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "type": "TotalCharge",
-    "totalPrepaid": 5751,
-    "totalCollect": 1917,
-    "sourceCurrency": "ARS",
-    "destinationCurrency": "MKD",
-    "currencyConversionRate": 3,
-    "ccChargesDestinationCurrency": "ARS",
-    "chargesDestination": 432,
-    "totalCollectCharge": 108
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "type": "TotalCharge",
     "totalPrepaid": 2904,
     "totalCollect": 968,
     "sourceCurrency": "PEN",
@@ -40,5 +12,33 @@
     "ccChargesDestinationCurrency": "PEN",
     "chargesDestination": 178,
     "totalCollectCharge": 44.5
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": "TotalCharge",
+    "totalPrepaid": 4482,
+    "totalCollect": 1494,
+    "sourceCurrency": "RON",
+    "destinationCurrency": "MUR",
+    "currencyConversionRate": 4,
+    "ccChargesDestinationCurrency": "RON",
+    "chargesDestination": 439,
+    "totalCollectCharge": 109.75
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": "TotalCharge",
+    "totalPrepaid": 4416.75,
+    "totalCollect": 1472.25,
+    "sourceCurrency": "HUF",
+    "destinationCurrency": "CNY",
+    "currencyConversionRate": 1,
+    "ccChargesDestinationCurrency": "HUF",
+    "chargesDestination": 321,
+    "totalCollectCharge": 80.25
   }
 ]
