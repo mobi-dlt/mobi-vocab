@@ -1,7 +1,7 @@
 {
-    "$id": "https://w3id.org/traceability/schemas/Customer.json",
+    "$id": "https://dlt.mobi/mobility-schmea/schemas/Customer.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"Customer\", \"@id\": \"https://w3id.org/traceability#Customer\"}",
+    "$comment": "{\"term\": \"Customer\", \"@id\": \"https://dlt.mobi/mobility-schmea#Customer\"}",
     "title": "Customer",
     "description": "Customer record based on Customer from schema.org",
     "type": "object",
@@ -38,7 +38,7 @@
         "address": {
             "$comment": "{\"term\": \"address\", \"@id\": \"https://schema.org/PostalAddress\"}",
             "title": "Address of the Customer",
-            "$ref": "https://w3id.org/traceability/schemas/PostalAddress.json"
+            "$ref": "https://dlt.mobi/mobility-schmea/schemas/PostalAddress.json"
         },
         "telephone": {
             "$comment": "{\"term\": \"telephone\", \"@id\": \"https://schema.org/telephone\"}",

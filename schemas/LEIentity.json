@@ -1,7 +1,7 @@
 {
-    "$id": "https://w3id.org/traceability/schemas/LEIentity.json",
+    "$id": "https://dlt.mobi/mobility-schmea/schemas/LEIentity.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"LEIentity\", \"@id\": \"https://w3id.org/traceability#LEIentity\"}",
+    "$comment": "{\"term\": \"LEIentity\", \"@id\": \"https://dlt.mobi/mobility-schmea#LEIentity\"}",
     "title": "LEIentity",
     "description": "GLEIF LEI Redord Level 1 Schema for LEI Entity",
 	"type": "object",
@@ -59,19 +59,19 @@
                 "default": []
             },
             "legalAddress": {
-                "$comment": "{\"term\": \"legalAddress\", \"@id\": \"https://w3id.org/traceability#LEIaddress\"}",
+                "$comment": "{\"term\": \"legalAddress\", \"@id\": \"https://dlt.mobi/mobility-schmea#LEIaddress\"}",
                 "title": "LegalAddress",
-                "$ref": "https://w3id.org/traceability/schemas/LEIaddress.json"
+                "$ref": "https://dlt.mobi/mobility-schmea/schemas/LEIaddress.json"
             },
             "headquartersAddress": {
                 "$comment": "{\"term\": \"headquartersAddress\", \"@id\": \"https://schema.org/PostalAddress\"}",
                 "title": "HeadquartersAddress",
-                "$ref": "https://w3id.org/traceability/schemas/LEIaddress.json"
+                "$ref": "https://dlt.mobi/mobility-schmea/schemas/LEIaddress.json"
             },
             "registrationAuthority": {
-                "$comment": "{\"term\": \"registrationAuthority\", \"@id\": \"https://w3id.org/traceability#LEIauthority\"}",
+                "$comment": "{\"term\": \"registrationAuthority\", \"@id\": \"https://dlt.mobi/mobility-schmea#LEIauthority\"}",
                 "title": "RegistrationAuthority",
-                "$ref": "https://w3id.org/traceability/schemas/LEIauthority.json"
+                "$ref": "https://dlt.mobi/mobility-schmea/schemas/LEIauthority.json"
             },
             "legalJurisdiction": {
                 "$comment": "{\"term\": \"legalJurisdiction\", \"@id\": \"https://schema.org/countryOfOrigin\"}",
@@ -91,7 +91,7 @@
             "associatedEntity": {
                 "$comment": "{\"term\": \"associatedEntity\", \"@id\": \"https://schema.org/Organization\"}",
                 "title": "AssociatedEntity",
-                "$ref": "https://w3id.org/traceability/schemas/Organization.json"
+                "$ref": "https://dlt.mobi/mobility-schmea/schemas/Organization.json"
             },
             "status": {
                 "$comment": "{\"term\": \"status\", \"@id\": \"https://schema.org/status\"}",
@@ -111,14 +111,14 @@
             "successorEntity": {
                 "$comment": "{\"term\": \"successorEntity\", \"@id\": \"https://schema.org/Corporation\"}",
                 "title": "SuccessorEntity",
-                "$ref": "https://w3id.org/traceability/schemas/Organization.json"
+                "$ref": "https://dlt.mobi/mobility-schmea/schemas/Organization.json"
             },
             "otherAddresses": {
                 "$comment": "{\"term\": \"otherAddresses\", \"@id\": \"https://schema.org/Place\"}",
                 "title": "OtherAddresses",
                 "type": "array",
                 "items": {
-                "$ref": "https://w3id.org/traceability/schemas/LEIaddress.json"
+                "$ref": "https://dlt.mobi/mobility-schmea/schemas/LEIaddress.json"
                 }
             }
     },

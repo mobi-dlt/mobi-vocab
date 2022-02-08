@@ -1,7 +1,7 @@
 {
-    "$id": "https://w3id.org/traceability/schemas/LEIregistration.json",
+    "$id": "https://dlt.mobi/mobility-schmea/schemas/LEIregistration.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"LEIregistration\", \"@id\": \"https://w3id.org/traceability#LEIregistration\"}",
+    "$comment": "{\"term\": \"LEIregistration\", \"@id\": \"https://dlt.mobi/mobility-schmea#LEIregistration\"}",
     "title": "LEIregistration",
     "description": "GLEIF LEI Redord Level 1 Schema for LEI Registration",
 	"type": "object",
@@ -59,11 +59,11 @@
                 "type": "string"
             },
             "validationAuthority": {
-              "$comment": "{\"term\": \"validationAuthority\", \"@id\": \"https://w3id.org/traceability#LEIauthority\"}",
+              "$comment": "{\"term\": \"validationAuthority\", \"@id\": \"https://dlt.mobi/mobility-schmea#LEIauthority\"}",
                 "title": "validationAuthority",
                 "type": "array",
                 "items": {
-                "$ref": "https://w3id.org/traceability/schemas/LEIauthority.json"
+                "$ref": "https://dlt.mobi/mobility-schmea/schemas/LEIauthority.json"
                 }
             }
 		},

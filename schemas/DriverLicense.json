@@ -1,0 +1,55 @@
+{
+    "$id": "https://dlt.mobi/mobility-schmea/schemas/DriverLicense.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"DriverLicense\", \"@id\": \"https://dlt.mobi/mobility-schmea#DriverLicense\"}",
+    "title": "DriverLicense",
+    "description": "Driver License user use to register",
+    "type": "object",
+    "required": [
+          "legalName",       
+          "registrationAuthority",
+          "expirationDate"
+          ],
+      "properties": {
+            "@context": {
+              "type": "array"
+              },
+            "type": {
+              "oneOf": [
+                {
+                "type": "string"
+                },
+                {
+                "type": "array"
+                }
+              ]
+            },
+            "legalName": {
+                "$comment": "{\"term\": \"legalName\", \"@id\": \"https://schema.org/legalName\"}",
+                "title": "Legalname",
+                "type": "string"
+            },
+            "licenseNumber": {
+                "$comment": "{\"term\": \"licenseNumber\", \"@id\": \"https://schema.org/Number\"}",
+                "title": "licenseNumber",
+                "type": "string"
+            },
+            "registrationAuthority": {
+                "$comment": "{\"term\": \"registrationAuthority\", \"@id\": \"https://dlt.mobi/mobility-schmea#LEIauthority\"}",
+                "title": "RegistrationAuthority",
+                "$ref": "https://dlt.mobi/mobility-schmea/schemas/LEIauthority.json"
+            },
+            "issuanceDate": {
+                "$comment": "{\"term\": \"issuanceDate\", \"@id\": \"https://schema.org/Date\"}",
+                "title": "issuance Date",
+                "type": "string"
+            },
+            "expirationDate": {
+                "$comment": "{\"term\": \"expirationDate\", \"@id\": \"https://schema.org/expires\"}",
+                "title": "ExpirationDate",
+                "type": "string"
+            }
+    },
+	"additionalProperties": false,
+	"examples": []
+}

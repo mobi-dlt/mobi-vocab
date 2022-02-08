@@ -1,0 +1,55 @@
+{
+    "$id": "https://dlt.mobi/mobility-schmea/schemas/VID.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"VID\", \"@id\": \"https://dlt.mobi/mobility-schmea#VID\"}",
+    "title": "VID",
+    "description": "VID information for vehicle.",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "vid": {
+            "$comment": "{\"term\": \"vid\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "vid",
+            "description": "Logo of the entity.",
+            "type": "string"
+        },
+        "manufacturer": {
+            "$comment": "{\"term\": \"manufacturer\", \"@id\": \"https://schema.org/manufacturer\"}",
+            "title": "Manufacturer",
+            "description": "The entity manufacturing the vehicle.",
+            "$ref": "https://dlt.mobi/mobility-schmea/schemas/Entity.json"
+        },
+        "make": {
+            "$comment": "{\"term\": \"make\", \"@id\": \"https://schema.org/make\"}",
+            "title": "Make",
+            "description": "Name of the vehicle brand",
+            "type": "string"
+        },
+        "model": {
+            "$comment": "{\"term\": \"model\", \"@id\": \"https://schema.org/model\"}",
+            "title": "Model",
+            "description": "Name of Vehicle Model",
+            "type": "string"
+        },
+        "vin": {
+            "$comment": "{\"term\": \"vin\", \"@id\": \"https://schema.org/vehicleIdentificationNumber\"}",
+            "title": "vin",
+            "description": "vin number.",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}

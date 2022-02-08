@@ -1,7 +1,7 @@
 {
-    "$id": "https://w3id.org/traceability/schemas/Purchase.json",
+    "$id": "https://dlt.mobi/mobility-schmea/schemas/Purchase.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"Purchase\", \"@id\": \"https://w3id.org/traceability#Purchase\"}",
+    "$comment": "{\"term\": \"Purchase\", \"@id\": \"https://dlt.mobi/mobility-schmea#Purchase\"}",
     "title": "Purchase",
     "description": "A purchase of a Product",
     "type": "object",
@@ -20,16 +20,16 @@
             ]
         },
         "customer": {
-            "$comment": "{\"term\": \"customer\", \"@id\": \"https://w3id.org/traceability#Entity?v4\"}",
+            "$comment": "{\"term\": \"customer\", \"@id\": \"https://dlt.mobi/mobility-schmea#Entity?v4\"}",
             "title": "Customer",
             "description": "The buying party of a purchase",
-            "$ref": "https://w3id.org/traceability/schemas/Entity.json"
+            "$ref": "https://dlt.mobi/mobility-schmea/schemas/Entity.json"
         },
         "invoice": {
-            "$comment": "{\"term\": \"invoice\", \"@id\": \"https://w3id.org/traceability#Invoice\"}",
+            "$comment": "{\"term\": \"invoice\", \"@id\": \"https://dlt.mobi/mobility-schmea#Invoice\"}",
             "title": "Invoice",
             "description": "The invoice associated with a purchase",
-            "$ref": "https://w3id.org/traceability/schemas/Invoice.json"
+            "$ref": "https://dlt.mobi/mobility-schmea/schemas/Invoice.json"
         },
         "purchaseOrder": {
             "$comment": "{\"term\": \"purchaseOrder\", \"@id\": \"https://schema.org/identifier\"}",

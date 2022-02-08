@@ -11,13 +11,13 @@
       "@type": "@id"
     },
     "relatedLink": {
-      "@id": "https://w3id.org/traceability#LinkRole"
+      "@id": "https://dlt.mobi/mobility-schmea#LinkRole"
     },
     "BatteryID": {
-      "@id": "https://w3id.org/traceability#BatteryID",
+      "@id": "https://dlt.mobi/mobility-schmea#BatteryID",
       "@context": {
         "vid": {
-          "@id": "https://w3id.org/traceability#VID"
+          "@id": "https://dlt.mobi/mobility-schmea#VID"
         },
         "batteryid": {
           "@id": "https://schema.org/identifier"
@@ -28,10 +28,10 @@
       }
     },
     "BatterySOH": {
-      "@id": "https://w3id.org/traceability#BatterySOH",
+      "@id": "https://dlt.mobi/mobility-schmea#BatterySOH",
       "@context": {
         "batteryid": {
-          "@id": "https://w3id.org/traceability#BatteryID"
+          "@id": "https://dlt.mobi/mobility-schmea#BatteryID"
         },
         "previousSOHVal": {
           "@id": "https://schema.org/value"
@@ -46,7 +46,7 @@
           "@id": "https://schema.org/startDate"
         },
         "chargeCycles": {
-          "@id": "https://w3id.org/traceability#QuantitativeValue"
+          "@id": "https://dlt.mobi/mobility-schmea#QuantitativeValue"
         },
         "impedance": {
           "@id": "https://schema.org/QuantitativeValue"
@@ -71,7 +71,7 @@
       }
     },
     "CitopiaMembershipCredential": {
-      "@id": "https://w3id.org/traceability#CitopiaMemberShipCredential",
+      "@id": "https://dlt.mobi/mobility-schmea#CitopiaMemberShipCredential",
       "@context": {
         "holder": {
           "@id": "https://schema.org/identifier"
@@ -80,7 +80,7 @@
           "@id": "https://schema.org/Number"
         },
         "member": {
-          "@id": "https://schema.org/https://w3id.org/traceability#Member"
+          "@id": "https://schema.org/https://dlt.mobi/mobility-schmea#Member"
         },
         "issuanceDate": {
           "@id": "https://schema.org/Date"
@@ -108,7 +108,7 @@
       }
     },
     "Customer": {
-      "@id": "https://w3id.org/traceability#Customer",
+      "@id": "https://dlt.mobi/mobility-schmea#Customer",
       "@context": {
         "name": {
           "@id": "https://schema.org/name"
@@ -124,8 +124,25 @@
         }
       }
     },
+    "DocumentVerificationEvidence": {
+      "@id": "https://w3id.org/traceability#DocumentVerificationEvidence",
+      "@context": {
+        "verifier": {
+          "@id": "https://schema.org/Organization"
+        },
+        "evidenceDocument": {
+          "@id": "https://schema.org/DigitalDocument"
+        },
+        "subjectPresence": {
+          "@id": "https://schema.org/Person"
+        },
+        "documentPresence": {
+          "@id": "https://schema.org/PresentationDigitalDocument"
+        }
+      }
+    },
     "DriverLicense": {
-      "@id": "https://w3id.org/traceability#DriverLicense",
+      "@id": "https://dlt.mobi/mobility-schmea#DriverLicense",
       "@context": {
         "legalName": {
           "@id": "https://schema.org/legalName"
@@ -134,7 +151,7 @@
           "@id": "https://schema.org/Number"
         },
         "registrationAuthority": {
-          "@id": "https://w3id.org/traceability#LEIauthority"
+          "@id": "https://dlt.mobi/mobility-schmea#LEIauthority"
         },
         "issuanceDate": {
           "@id": "https://schema.org/Date"
@@ -145,8 +162,28 @@
       }
     },
     "Entity": {
-      "@id": "https://w3id.org/traceability#Entity",
+      "@id": "https://dlt.mobi/mobility-schmea#Entity",
       "@context": {}
+    },
+    "EntityCertificate": {
+      "@id": "https://dlt.mobi/mobility-schmea#EntityCertificate",
+      "@context": {
+        "entityIdentifier": {
+          "@id": "https://schema.org/identifier"
+        },
+        "publicKey": {
+          "@id": "https://schema.org/propertyID"
+        },
+        "signature": {
+          "@id": "https://schema.org/additionalProperty"
+        },
+        "sigAlgId": {
+          "@id": "https://schema.org/name"
+        },
+        "validityPeriod": {
+          "@id": "https://schema.org/validUntil"
+        }
+      }
     },
     "Event": {
       "@id": "https://schema.org/Event",
@@ -158,10 +195,10 @@
           "@id": "https://schema.org/identifier"
         },
         "actor": {
-          "@id": "https://w3id.org/traceability#Organization"
+          "@id": "https://dlt.mobi/mobility-schmea#Organization"
         },
         "place": {
-          "@id": "https://w3id.org/traceability#place"
+          "@id": "https://dlt.mobi/mobility-schmea#place"
         },
         "eventTime": {
           "@id": "https://schema.org/DateTime#v2"
@@ -183,7 +220,7 @@
       }
     },
     "IdentityCredential": {
-      "@id": "https://w3id.org/traceability#IdentityCredential",
+      "@id": "https://dlt.mobi/mobility-schmea#IdentityCredential",
       "@context": {
         "legalName": {
           "@id": "https://schema.org/legalName"
@@ -192,7 +229,7 @@
           "@id": "https://schema.org/Number"
         },
         "registrationAuthority": {
-          "@id": "https://w3id.org/traceability#LEIauthority"
+          "@id": "https://dlt.mobi/mobility-schmea#LEIauthority"
         },
         "issuanceDate": {
           "@id": "https://schema.org/Date"
@@ -232,7 +269,7 @@
       }
     },
     "LEIaddress": {
-      "@id": "https://w3id.org/traceability#LEIaddress",
+      "@id": "https://dlt.mobi/mobility-schmea#LEIaddress",
       "@context": {
         "language": {
           "@id": "https://schema.org/Language"
@@ -264,7 +301,7 @@
       }
     },
     "LEIauthority": {
-      "@id": "https://w3id.org/traceability#LEIauthority",
+      "@id": "https://dlt.mobi/mobility-schmea#LEIauthority",
       "@context": {
         "validationAuthorityID": {
           "@id": "https://schema.org/identifier"
@@ -278,7 +315,7 @@
       }
     },
     "LEIentity": {
-      "@id": "https://w3id.org/traceability#LEIentity",
+      "@id": "https://dlt.mobi/mobility-schmea#LEIentity",
       "@context": {
         "legalName": {
           "@id": "https://schema.org/legalName"
@@ -293,13 +330,13 @@
           "@id": "https://schema.org/name"
         },
         "legalAddress": {
-          "@id": "https://w3id.org/traceability#LEIaddress"
+          "@id": "https://dlt.mobi/mobility-schmea#LEIaddress"
         },
         "headquartersAddress": {
           "@id": "https://schema.org/PostalAddress"
         },
         "registrationAuthority": {
-          "@id": "https://w3id.org/traceability#LEIauthority"
+          "@id": "https://dlt.mobi/mobility-schmea#LEIauthority"
         },
         "legalJurisdiction": {
           "@id": "https://schema.org/countryOfOrigin"
@@ -331,16 +368,16 @@
       }
     },
     "LEIevidenceDocument": {
-      "@id": "https://w3id.org/traceability#LEIevidenceDocument",
+      "@id": "https://dlt.mobi/mobility-schmea#LEIevidenceDocument",
       "@context": {
         "lei": {
           "@id": "https://www.gleif.org/en/about-lei/iso-17442-the-lei-code-structure#"
         },
         "entity": {
-          "@id": "https://w3id.org/traceability#LEIentity"
+          "@id": "https://dlt.mobi/mobility-schmea#LEIentity"
         },
         "registration": {
-          "@id": "https://w3id.org/traceability#LEIregistration"
+          "@id": "https://dlt.mobi/mobility-schmea#LEIregistration"
         },
         "bic": {
           "@id": "https://www.iso.org/obp/ui/#iso:std:60390:en"
@@ -348,7 +385,7 @@
       }
     },
     "LEIregistration": {
-      "@id": "https://w3id.org/traceability#LEIregistration",
+      "@id": "https://dlt.mobi/mobility-schmea#LEIregistration",
       "@context": {
         "initialRegistrationDate": {
           "@id": "https://schema.org/dateIssued"
@@ -369,12 +406,12 @@
           "@id": "https://schema.org/eventStatus"
         },
         "validationAuthority": {
-          "@id": "https://w3id.org/traceability#LEIauthority"
+          "@id": "https://dlt.mobi/mobility-schmea#LEIauthority"
         }
       }
     },
     "LegalEntityIdentifierCredential": {
-      "@id": "https://w3id.org/traceability#LegalEntityIdentifierCredential",
+      "@id": "https://dlt.mobi/mobility-schmea#LegalEntityIdentifierCredential",
       "@context": {
         "leiCode": {
           "@id": "https://schema.org/leiCode"
@@ -396,7 +433,7 @@
       }
     },
     "Member": {
-      "@id": "https://w3id.org/traceability#Member",
+      "@id": "https://dlt.mobi/mobility-schmea#Member",
       "@context": {
         "firstName": {
           "@id": "https://schema.org/givenName"
@@ -448,13 +485,13 @@
       }
     },
     "Permissions": {
-      "@id": "https://w3id.org/traceability#Permissions",
+      "@id": "https://dlt.mobi/mobility-schmea#Permissions",
       "@context": {
         "vid": {
-          "@id": "https://w3id.org/traceability#VID"
+          "@id": "https://dlt.mobi/mobility-schmea#VID"
         },
         "batteryid": {
-          "@id": "https://w3id.org/traceability#BatteryID"
+          "@id": "https://dlt.mobi/mobility-schmea#BatteryID"
         },
         "userLocation": {
           "@id": "https://schema.org/place"
@@ -468,10 +505,10 @@
       }
     },
     "PermissionsCredential": {
-      "@id": "https://w3id.org/traceability#PermissionsCredential",
+      "@id": "https://dlt.mobi/mobility-schmea#PermissionsCredential",
       "@context": {
         "permission": {
-          "@id": "https://w3id.org/traceability#Permissions"
+          "@id": "https://dlt.mobi/mobility-schmea#Permissions"
         },
         "holder": {
           "@id": "https://schema.org/identifier"
@@ -565,7 +602,7 @@
       }
     },
     "PrivacyPolicy": {
-      "@id": "https://w3id.org/traceability#PrivacyPolicy",
+      "@id": "https://dlt.mobi/mobility-schmea#PrivacyPolicy",
       "@context": {
         "issuanceDate": {
           "@id": "https://schema.org/Date"
@@ -626,7 +663,7 @@
       }
     },
     "ProductRegistrationEvidenceDocument": {
-      "@id": "https://w3id.org/traceability#ProductRegistrationEvidenceDocument",
+      "@id": "https://dlt.mobi/mobility-schmea#ProductRegistrationEvidenceDocument",
       "@context": {
         "category": {
           "@id": "https://schema.org/category"
@@ -697,13 +734,13 @@
       }
     },
     "Purchase": {
-      "@id": "https://w3id.org/traceability#Purchase",
+      "@id": "https://dlt.mobi/mobility-schmea#Purchase",
       "@context": {
         "customer": {
-          "@id": "https://w3id.org/traceability#Entity?v4"
+          "@id": "https://dlt.mobi/mobility-schmea#Entity?v4"
         },
         "invoice": {
-          "@id": "https://w3id.org/traceability#Invoice"
+          "@id": "https://dlt.mobi/mobility-schmea#Invoice"
         },
         "purchaseOrder": {
           "@id": "https://schema.org/identifier"
@@ -721,8 +758,39 @@
         }
       }
     },
+    "RevocationCertificate": {
+      "@id": "https://dlt.mobi/mobility-schmea#RevocationCertificate",
+      "@context": {
+        "revokeHeader": {
+          "@id": "https://schema.org/text"
+        },
+        "identifier": {
+          "@id": "https://schema.org/identifier"
+        },
+        "issuer": {
+          "@id": "https://schema.org/Number"
+        },
+        "signature": {
+          "@id": "https://schema.org/additionalProperty"
+        },
+        "sigAlgId": {
+          "@id": "https://schema.org/Name"
+        }
+      }
+    },
+    "RevocationList2020Status": {
+      "@id": "https://w3id.org/traceability#RevocationList2020Status",
+      "@context": {
+        "revocationListIndex": {
+          "@id": "https://schema.org/itemListElement"
+        },
+        "revocationListCredential": {
+          "@id": "https://schema.org/LinkRole"
+        }
+      }
+    },
     "StripeCustomerCredential": {
-      "@id": "https://w3id.org/traceability#StripeCustomerCredential",
+      "@id": "https://dlt.mobi/mobility-schmea#StripeCustomerCredential",
       "@context": {
         "holder": {
           "@id": "https://schema.org/Text"
@@ -739,7 +807,7 @@
       }
     },
     "TotalCharge": {
-      "@id": "https://w3id.org/traceability#TotalCharge",
+      "@id": "https://dlt.mobi/mobility-schmea#TotalCharge",
       "@context": {
         "totalPrepaid": {
           "@id": "https://schema.org/Price"
@@ -767,8 +835,16 @@
         }
       }
     },
+    "UniqueVehicleIdentifier": {
+      "@id": "https://dlt.mobi/mobility-schmea#UniqueVehicleIdentifier",
+      "@context": {
+        "uvi": {
+          "@id": "https://schema.org/identifier"
+        }
+      }
+    },
     "VID": {
-      "@id": "https://w3id.org/traceability#VID",
+      "@id": "https://dlt.mobi/mobility-schmea#VID",
       "@context": {
         "vid": {
           "@id": "https://schema.org/identifier"
@@ -787,8 +863,67 @@
         }
       }
     },
+    "VehicleBirthCertificate": {
+      "@id": "https://dlt.mobi/mobility-schmea#VehicleBirthCertificate",
+      "@context": {
+        "certURI": {
+          "@id": "https://schema.org/identifier"
+        },
+        "colorOemCode": {
+          "@id": "https://schema.org/color"
+        },
+        "countryOfOrigin": {
+          "@id": "https://schema.org/countryOforigin"
+        },
+        "productionDate": {
+          "@id": "https://schema.org/productionDate"
+        },
+        "engineCode": {
+          "@id": "https://schema.org/additionalProperty"
+        },
+        "engineSerialNumber": {
+          "@id": "https://schema.org/serialNumber"
+        },
+        "fuelType": {
+          "@id": "https://schema.org/fuelType"
+        },
+        "issuer": {
+          "@id": "https://schema.org/Person"
+        },
+        "manufacturer": {
+          "@id": "https://schema.org/manufacturer"
+        },
+        "model": {
+          "@id": "https://schema.org/model"
+        },
+        "modelYear": {
+          "@id": "https://schema.org/vehicleModelDate"
+        },
+        "plantCode": {
+          "@id": "https://schema.org/Number"
+        },
+        "previousVBC": {
+          "@id": "https://dlt.mobi/mobility-schmea#Text"
+        },
+        "sigAlg": {
+          "@id": "https://schema.org/DigitalDocument"
+        },
+        "transmissionSerialNumber": {
+          "@id": "https://schema.org/IndividualProduct"
+        },
+        "trimType": {
+          "@id": "https://schema.org/amenityFeature"
+        },
+        "vin": {
+          "@id": "https://schema.org/vehicleIdentificationNumber"
+        },
+        "uvi": {
+          "@id": "https://schema.org/url"
+        }
+      }
+    },
     "chargeAndPaymentType": {
-      "@id": "https://w3id.org/traceability#chargeAndPaymentType",
+      "@id": "https://dlt.mobi/mobility-schmea#chargeAndPaymentType",
       "@context": {
         "chargeCollect": {
           "@id": "https://schema.org/discountPrice"

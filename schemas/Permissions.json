@@ -1,0 +1,57 @@
+{
+    "$id": "https://dlt.mobi/mobility-schmea/schemas/Permissions.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"Permissions\", \"@id\": \"https://dlt.mobi/mobility-schmea#Permissions\"}",
+    "title": "Permissions",
+    "description": "Permissions subject",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "vid": {
+            "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility-schmea#VID\"}",
+            "title": "vid",
+            "description": "vid",
+            "type": "string"
+        },
+        "batteryid": {
+            "$comment": "{\"term\": \"batteryid\", \"@id\": \"https://dlt.mobi/mobility-schmea#BatteryID\"}",
+            "title": "batteryid",
+            "description": "Battery ID.",
+            "type": "string"
+        },
+        "userLocation": {
+            "$comment": "{\"term\": \"userLocation\", \"@id\": \"https://schema.org/place\"}",
+            "title": "Serial Number",
+            "description": "vehicle Identification Number",
+            "type": "string"
+        },
+        "vehicleLocation": {
+            "$comment": "{\"term\": \"vehicleLocation\", \"@id\": \"https://schema.org/location\"}",
+            "title": "Serial Number",
+            "description": "vehicle Identification Number",
+            "type": "string"
+        },
+        "dataSharingForRewards": {
+            "$comment": "{\"term\": \"dataSharingForRewards\", \"@id\": \"https://schema.org/Text\"}",
+            "title": "data Sharing For Rewards",
+            "description": "dataSharingForRewards",
+            "type": "string"
+        }
+
+        
+    },
+    "additionalProperties": false,
+    "examples": []
+}

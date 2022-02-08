@@ -1,7 +1,7 @@
 {
-    "$id": "https://w3id.org/traceability/schemas/TotalCharge.json",
+    "$id": "https://dlt.mobi/mobility-schmea/schemas/TotalCharge.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"TotalCharge\", \"@id\": \"https://w3id.org/traceability#TotalCharge\"}",
+    "$comment": "{\"term\": \"TotalCharge\", \"@id\": \"https://dlt.mobi/mobility-schmea#TotalCharge\"}",
     "title": "TotalCharge",
     "description": "TotalCharge definition based on IATA electronic Air Way Bill https://blanker.org/files/air-waybill-2.xls",
     "type": "object",

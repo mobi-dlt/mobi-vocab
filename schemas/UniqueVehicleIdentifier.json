@@ -1,0 +1,32 @@
+{
+    "$id": "https://dlt.mobi/mobility-schmea/schemas/UniqueVehicleIdentifier.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"UniqueVehicleIdentifier\", \"@id\": \"https://dlt.mobi/mobility-schmea#UniqueVehicleIdentifier\"}",
+    "title": "UniqueVehicleIdentifier",
+    "description": "Unique Vehicle Identifier as defined in VID I.",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "uvi": {
+            "$comment": "{\"term\": \"uvi\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "uvi",
+            "description": "64 character alphanumeric string.",
+            "type": "string"
+        }
+
+    },
+    "additionalProperties": false,
+    "examples": []
+}

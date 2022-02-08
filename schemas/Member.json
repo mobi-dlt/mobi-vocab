@@ -1,9 +1,9 @@
 {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/Person.json",
+    "$id": "https://dlt.mobi/mobility-schmea/schemas/Member.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"Person\", \"@id\": \"https://schema.org/Person\"}",
-    "title": "Person",
-    "description": "A person",
+    "$comment": "{\"term\": \"Member\", \"@id\": \"https://dlt.mobi/mobility-schmea#Member\"}",
+    "title": "Member",
+    "description": "A member",
     "type": "object",
     "properties": {
         "@context": {
@@ -35,24 +35,6 @@
             "$comment": "{\"term\": \"email\", \"@id\": \"https://schema.org/email\"}",
             "title": "Person's Email Address",
             "description": "Person's email address.",
-            "type": "string"
-        },
-        "phoneNumber": {
-            "$comment": "{\"term\": \"phoneNumber\", \"@id\": \"https://schema.org/telephone\"}",
-            "title": "Phone Number",
-            "description": "Person's contact phone number.",
-            "type": "string"
-        },
-        "worksFor": {
-            "$comment": "{\"term\": \"worksFor\", \"@id\": \"https://schema.org/worksFor\"}",
-            "title": "Works For",
-            "description": "Company which employs the person.",
-            "$ref": "https://dlt.mobi/mobility-schmea/schemas/Organization.json"
-        },
-        "jobTitle": {
-            "$comment": "{\"term\": \"jobTitle\", \"@id\": \"https://schema.org/jobTitle\"}",
-            "title": "Job Title",
-            "description": "Person's job title.",
             "type": "string"
         }
     },

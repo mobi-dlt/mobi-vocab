@@ -1,7 +1,7 @@
 {
-    "$id": "https://w3id.org/traceability/schemas/LEIevidenceDocument.json",
+    "$id": "https://dlt.mobi/mobility-schmea/schemas/LEIevidenceDocument.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"LEIevidenceDocument\", \"@id\": \"https://w3id.org/traceability#LEIevidenceDocument\"}",
+    "$comment": "{\"term\": \"LEIevidenceDocument\", \"@id\": \"https://dlt.mobi/mobility-schmea#LEIevidenceDocument\"}",
     "title": "LEIevidenceDocument",
     "description": "GLEIF LEI Redord Level 1 Schema",
 	"type": "object",
@@ -31,14 +31,14 @@
                 "type": "string"
             },
             "entity": {
-                "$comment": "{\"term\": \"entity\", \"@id\": \"https://w3id.org/traceability#LEIentity\"}",
+                "$comment": "{\"term\": \"entity\", \"@id\": \"https://dlt.mobi/mobility-schmea#LEIentity\"}",
                 "title": "LEIentity",
-                "$ref": "https://w3id.org/traceability/schemas/LEIentity.json"
+                "$ref": "https://dlt.mobi/mobility-schmea/schemas/LEIentity.json"
             },
             "registration": {
-                "$comment": "{\"term\": \"registration\", \"@id\": \"https://w3id.org/traceability#LEIregistration\"}",
+                "$comment": "{\"term\": \"registration\", \"@id\": \"https://dlt.mobi/mobility-schmea#LEIregistration\"}",
                 "title": "LEIregistration",
-                "$ref": "https://w3id.org/traceability/schemas/LEIregistration.json"
+                "$ref": "https://dlt.mobi/mobility-schmea/schemas/LEIregistration.json"
             },
             "bic": {
                 "$comment": "{\"term\": \"bic\", \"@id\": \"https://www.iso.org/obp/ui/#iso:std:60390:en\"}",

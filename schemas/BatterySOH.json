@@ -1,0 +1,83 @@
+{
+    "$id": "https://dlt.mobi/mobility-schmea/schemas/BatterySOH.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"BatterySOH\", \"@id\": \"https://dlt.mobi/mobility-schmea#BatterySOH\"}",
+    "title": "BatterySOH",
+    "description": "Battery SOH information for vehicle.",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "batteryid": {
+            "$comment": "{\"term\": \"batteryid\", \"@id\": \"https://dlt.mobi/mobility-schmea#BatteryID\"}",
+            "title": "batteryid",
+            "description": "Battery ID number",
+            "$ref": "https://dlt.mobi/mobility-schmea/schemas/BatteryID.json"
+        },
+        "previousSOHVal": {
+            "$comment": "{\"term\": \"previousSOHVal\", \"@id\": \"https://schema.org/value\"}",
+            "title": "previousSOHVal",
+            "description": "previous SOH Val",
+            "type": "string"
+        },
+        "previousSOHTimeStamp": {
+            "$comment": "{\"term\": \"previousSOHTimeStamp\", \"@id\": \"https://schema.org/Date\"}",
+            "title": "previousSOHTimeStamp",
+            "description": "previous SOH TimeStamp",
+            "type": "string"
+        },
+        "newSOHVal": {
+            "$comment": "{\"term\": \"newSOHVal\", \"@id\": \"https://schema.org/Number\"}",
+            "title": "newSOHVal",
+            "description": "previous SOH Val",
+            "type": "string"
+        },
+        "newSOHTimeStamp": {
+            "$comment": "{\"term\": \"newSOHTimeStamp\", \"@id\": \"https://schema.org/startDate\"}",
+            "title": "newSOHTimeStamp",
+            "description": "previous SOH TimeStamp",
+            "type": "string"
+        },
+        "chargeCycles": {
+            "$comment": "{\"term\": \"chargeCycles\", \"@id\": \"https://dlt.mobi/mobility-schmea#QuantitativeValue\"}",
+            "title": "chargeCycles",
+            "description": "charge Cycles",
+            "type": "string"
+        },
+        "impedance": {
+            "$comment": "{\"term\": \"impedance\", \"@id\": \"https://schema.org/QuantitativeValue\"}",
+            "title": "impedance",
+            "description": "impedance of battery",
+            "type": "string"
+        },
+        "maxCapacity": {
+            "$comment": "{\"term\": \"maxCapacity\", \"@id\": \"https://schema.org/fuelCapacity\"}",
+            "title": "maxCapacity",
+            "description": "max Capacity",
+            "type": "string"
+        },
+        "batteryAge": {
+            "$comment": "{\"term\": \"batteryAge\", \"@id\": \"https://schema.org/Text\"}",
+            "title": "batteryAge",
+            "description": "battery age",
+            "type": "string"
+        }
+        
+
+
+        
+    },
+    "additionalProperties": false,
+    "examples": []
+}

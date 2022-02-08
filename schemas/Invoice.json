@@ -1,5 +1,5 @@
 {
-  "$id": "https://w3id.org/traceability/schemas/Invoice.json",
+  "$id": "https://dlt.mobi/mobility-schmea/schemas/Invoice.json",
   "$schema": "https://json-schema.org/draft-07/schema#",
   "$comment": "{\"term\": \"Invoice\", \"@id\": \"https://schema.org/Invoice\"}",
   "title": "Invoice",
@@ -29,7 +29,7 @@
       "$comment": "{\"term\": \"portOfEntry\", \"@id\": \"https://schema.org/address\"}",
       "title": "Port Of Entry",
       "description": "Port where the purchased goods will enter first.",
-      "$ref": "https://w3id.org/traceability/schemas/PostalAddress.json"
+      "$ref": "https://dlt.mobi/mobility-schmea/schemas/PostalAddress.json"
     },
     "purchaseDate": {
       "$comment": "{\"term\": \"purchaseDate\", \"@id\": \"https://schema.org/paymentDueDate\"}",
@@ -41,7 +41,7 @@
       "$comment": "{\"term\": \"totalPaymentDue\", \"@id\": \"https://schema.org/totalPaymentDue\"}",
       "title": "Total Payment Due",
       "description": "The total amount due.",
-      "$ref": "https://w3id.org/traceability/schemas/PriceSpecification.json"
+      "$ref": "https://dlt.mobi/mobility-schmea/schemas/PriceSpecification.json"
     },
     "destinationCountry": {
       "$comment": "{\"term\": \"destinationCountry\", \"@id\": \"https://schema.org/addressCountry\"}",
@@ -55,20 +55,20 @@
       "description": "Identifiers for a property.",
       "type": "array",
       "items": {
-        "$ref": "https://w3id.org/traceability/schemas/Product.json"
+        "$ref": "https://dlt.mobi/mobility-schmea/schemas/Product.json"
       }
     },
     "customer": {
       "$comment": "{\"term\": \"customer\", \"@id\": \"https://schema.org/customer\"}",
       "title": "Customer",
       "description": "Party placing the order or paying the invoice.",
-      "$ref": "https://w3id.org/traceability/schemas/Organization.json"
+      "$ref": "https://dlt.mobi/mobility-schmea/schemas/Organization.json"
     },
     "provider": {
       "$comment": "{\"term\": \"provider\", \"@id\": \"https://schema.org/provider\"}",
       "title": "Provider",
       "description": "The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller.",
-      "$ref": "https://w3id.org/traceability/schemas/Organization.json"
+      "$ref": "https://dlt.mobi/mobility-schmea/schemas/Organization.json"
     }
   },
   "additionalProperties": false,
