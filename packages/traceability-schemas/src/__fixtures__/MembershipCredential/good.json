@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "MembershipCredential",
     "holder": "Matt Shi",
@@ -9,7 +9,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "MembershipCredential",
     "holder": "Matt Shi",
@@ -17,7 +17,7 @@
   },
   {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "MembershipCredential",
     "holder": "Matt Shi",

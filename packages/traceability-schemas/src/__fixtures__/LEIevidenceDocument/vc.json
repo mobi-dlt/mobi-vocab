@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://goodlookingtech.com"
+    "https://dlt.mobi/mobility-schema"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,13 +11,13 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "type": "LEIevidenceDocument",
     "lei": "SA9QTUFOOT3RM5GFL568",
     "entity": {
       "@context": [
-        "https://goodlookingtech.com"
+        "https://dlt.mobi/mobility-schema"
       ],
       "type": "LEIentity",
       "legalName": "Padberg, Jakubowski and Kihn",
@@ -86,7 +86,7 @@
     },
     "registration": {
       "@context": [
-        "https://goodlookingtech.com"
+        "https://dlt.mobi/mobility-schema"
       ],
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",

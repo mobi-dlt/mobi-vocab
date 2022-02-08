@@ -9,7 +9,7 @@ const getLEIaddress = () => {
   const addressNumberWithinBuilding = `${faker.random.number({ min: 1, max: 10 })}`;
 
   const example = {
-    '@context': ['https://goodlookingtech.com'],
+    '@context': ['https://dlt.mobi/mobility-schema'],
     type: 'LEIaddress',
     language,
     addressLines: [companyName, faker.address.streetAddress()],

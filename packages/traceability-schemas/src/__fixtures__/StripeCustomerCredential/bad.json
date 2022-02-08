@@ -24,7 +24,7 @@
   {
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
-      "https://goodlookingtech.com"
+      "https://dlt.mobi/mobility-schema"
     ],
     "customerID": "customer123",
     "feed": "generate",

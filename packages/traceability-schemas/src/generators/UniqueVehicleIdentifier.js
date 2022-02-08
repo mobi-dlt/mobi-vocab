@@ -2,7 +2,7 @@ const faker = require('faker');
 
 const getUniqueVehicleIdentifier = () => {
     const example = {
-        '@context': ['https://goodlookingtech.com'],
+        '@context': ['https://dlt.mobi/mobility-schema'],
         type: 'UniqueVehicleIdentifier',
         uvi: 'testing...'
     };

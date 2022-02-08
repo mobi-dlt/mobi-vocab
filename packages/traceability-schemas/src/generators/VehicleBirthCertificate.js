@@ -2,7 +2,7 @@ const faker = require('faker');
 
 const getVehicleBirthCertificate = () => {
     const example = {
-        '@context': ['https://goodlookingtech.com'],
+        '@context': ['https://dlt.mobi/mobility-schema'],
         type: 'VehicleBirthCertificate',
         certURI: 'dOQKyOs1nUfj5svRato3bCM1XUOpGpxeBnLZDHiLUswgkHh55lyIuZmpTBGG4ixr',
         colorOemCode: 'Bl',

@@ -35,7 +35,7 @@ const getLEIentity = () => {
   delete auth['@context'];
 
   const example = {
-    '@context': ['https://goodlookingtech.com'],
+    '@context': ['https://dlt.mobi/mobility-schema'],
     type: 'LEIentity',
     legalName: companyName,
     legalNameLanguage: language,

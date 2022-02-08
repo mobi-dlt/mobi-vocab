@@ -2,7 +2,7 @@ const faker = require('faker');
 
 const getRevocationCertificate = () => {
     const example = {
-        '@context': ['https://goodlookingtech.com'],
+        '@context': ['https://dlt.mobi/mobility-schema'],
         type: 'RevocationCertificate',
         identifier: 'testing...',
         revokeHeader: 'testing...',

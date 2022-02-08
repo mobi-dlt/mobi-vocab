@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility/schemas/EntityCertificate.json",
+    "$id": "https://dlt.mobi/mobility-schmea/schemas/EntityCertificate.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"EntityCertificate\", \"@id\": \"https://dlt.mobi/mobility#EntityCertificate\"}",
+    "$comment": "{\"term\": \"EntityCertificate\", \"@id\": \"https://dlt.mobi/mobility-schmea#EntityCertificate\"}",
     "title": "EntityCertificate",
     "description": "Entity Certificate as defined in VID I",
     "type": "object",

@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility/schemas/RevocationCertificate.json",
+    "$id": "https://dlt.mobi/mobility-schmea/schemas/RevocationCertificate.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"RevocationCertificate\", \"@id\": \"https://dlt.mobi/mobility#RevocationCertificate\"}",
+    "$comment": "{\"term\": \"RevocationCertificate\", \"@id\": \"https://dlt.mobi/mobility-schmea#RevocationCertificate\"}",
     "title": "RevocationCertificate",
     "description": "Revocation Certificate as defined in VID I.",
     "type": "object",

@@ -2,7 +2,7 @@ const faker = require('faker');
 
 const getEntityCertificate = () => {
     const example = {
-        '@context': ['https://goodlookingtech.com'],
+        '@context': ['https://dlt.mobi/mobility-schema'],
         type: 'EntityCertificate',
         entityIdentifier: 'testing',
         publicKey: 'testing... parth',

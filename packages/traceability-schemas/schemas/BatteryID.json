@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility/schemas/BatteryID.json",
+    "$id": "https://dlt.mobi/mobility-schmea/schemas/BatteryID.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"BatteryID\", \"@id\": \"https://dlt.mobi/mobility#BatteryID\"}",
+    "$comment": "{\"term\": \"BatteryID\", \"@id\": \"https://dlt.mobi/mobility-schmea#BatteryID\"}",
     "title": "BatteryID",
     "description": "VID information for vehicle.",
     "type": "object",
@@ -20,10 +20,10 @@
             ]
         },
         "vid": {
-            "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility#VID\"}",
+            "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility-schmea#VID\"}",
             "title": "vid",
             "description": "vehicle identity",
-            "$ref": "https://dlt.mobi/mobility/schemas/VID.json"
+            "$ref": "https://dlt.mobi/mobility-schmea/schemas/VID.json"
         },
 
         "batteryid": {

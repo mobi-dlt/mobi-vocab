@@ -9,7 +9,7 @@ const getPlace = () => {
   const address = getPostalAddress();
   delete address['@context'];
   const example = {
-    '@context': ['https://goodlookingtech.com'],
+    '@context': ['https://dlt.mobi/mobility-schema'],
     type: 'Place',
     globalLocationNumber,
     geo,
