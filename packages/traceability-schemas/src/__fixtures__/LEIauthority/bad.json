@@ -1,21 +1,23 @@
 [
   {
-    "validationAuthorityEntityID": "G50G2OEEHZLPANPRUYSW",
-    "bandwidth": "parse"
+    "otherValidationAuthorityID": "LRD020TB",
+    "feed": "compress",
+    "alarm": "hack",
+    "port": "program",
+    "capacitor": "parse"
   },
   {
     "@context": [
       "https://goodlookingtech.com"
     ],
-    "validationAuthorityID": "RA000005",
-    "transmitter": "override",
-    "driver": "override",
-    "feed": "bypass",
-    "capacitor": "calculate"
+    "otherValidationAuthorityID": "51FQXWFU",
+    "matrix": "hack",
+    "microchip": "override",
+    "bus": "bypass"
   },
   {
-    "panel": "input",
-    "system": "bypass",
-    "monitor": "bypass"
+    "validationAuthorityID": "RA000003",
+    "validationAuthorityEntityID": "MS4A1WXYM6SGH04L4LO8",
+    "protocol": "calculate"
   }
 ]

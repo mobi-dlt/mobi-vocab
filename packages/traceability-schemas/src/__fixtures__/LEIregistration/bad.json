@@ -1,43 +1,60 @@
 [
   {
-    "type": "LEIregistration",
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
     "initialRegistrationDate": "2020-01-01",
     "lastUpdateDate": "2020-01-01",
     "nextRenewalDate": "2021-02-02",
+    "managingLou": "LYMSDQCBSXMXLUSATBEF",
+    "validationSources": "PARTIALLY_CORROBORATED",
     "validationAuthority": [
       {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000005",
-        "otherValidationAuthorityID": "NJY4KVXE",
-        "validationAuthorityEntityID": "1TFS9MQHZZ95NQ76KCGB"
+        "validationAuthorityID": "RA000661",
+        "otherValidationAuthorityID": "DZC50P0L",
+        "validationAuthorityEntityID": "TL9PIXASX29UF8VDUG6H"
       }
     ],
-    "hard drive": "generate",
-    "pixel": "bypass",
-    "program": "connect"
+    "capacitor": "calculate",
+    "sensor": "parse",
+    "driver": "bypass",
+    "port": "bypass"
   },
   {
     "@context": [
       "https://goodlookingtech.com"
     ],
     "type": "LEIregistration",
-    "initialRegistrationDate": "2020-01-01",
-    "nextRenewalDate": "2021-02-02",
-    "managingLou": "MFIGWEOITTTNAFDWRWEW",
-    "validationSources": "FULLY_CORROBORATED",
-    "application": "input",
-    "hard drive": "bypass",
-    "bandwidth": "connect"
+    "lastUpdateDate": "2020-01-01",
+    "status": "REQUESTED",
+    "validationAuthority": [
+      {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000004",
+        "otherValidationAuthorityID": "1A19989W",
+        "validationAuthorityEntityID": "S8Z9DRFGUR925HU112MW"
+      }
+    ],
+    "matrix": "parse",
+    "port": "hack"
   },
   {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
+    "type": "LEIregistration",
     "initialRegistrationDate": "2020-01-01",
     "lastUpdateDate": "2020-01-01",
+    "status": "REQUESTED",
     "nextRenewalDate": "2021-02-02",
-    "managingLou": "IUQKFXXNNELSOUEIPWJX",
     "validationSources": "NOT_CORROBORATED",
-    "pixel": "override"
+    "validationAuthority": [
+      {
+        "type": "LEIauthority",
+        "validationAuthorityID": "RA000001",
+        "otherValidationAuthorityID": "NQ76KCGB",
+        "validationAuthorityEntityID": "YYLYC6405P8F93UOKJIZ"
+      }
+    ],
+    "bus": "index",
+    "sensor": "calculate"
   }
 ]

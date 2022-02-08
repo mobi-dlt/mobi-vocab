@@ -1,0 +1,43 @@
+[
+  {
+    "certURI": "dOQKyOs1nUfj5svRato3bCM1XUOpGpxeBnLZDHiLUswgkHh55lyIuZmpTBGG4ixr",
+    "countryOfOrigin": "United States of America",
+    "fuelType": "unleaded gasoline",
+    "port": "generate"
+  },
+  {
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "type": "VehicleBirthCertificate",
+    "certURI": "dOQKyOs1nUfj5svRato3bCM1XUOpGpxeBnLZDHiLUswgkHh55lyIuZmpTBGG4ixr",
+    "colorOemCode": "Bl",
+    "countryOfOrigin": "United States of America",
+    "productionDate": "01/01/2021",
+    "engineCode": "None",
+    "engineSerialNumber": "DJ51279",
+    "fuelType": "unleaded gasoline",
+    "issuer": "did:mobi:c276e14rc81ebfeb1f782ebd6e",
+    "model": "Taurus",
+    "plantCode": "H",
+    "sigAlg": "ECDSA",
+    "trimType": "SE",
+    "uvi": "36h948q767wuxUlzLk2dAIzWWVgTTN8X9F8nmr7upRgRdL4VomOqJLOg4ftP3Gkg",
+    "vin": "JTERU5JR7M5861170",
+    "microchip": "override",
+    "feed": "back up"
+  },
+  {
+    "colorOemCode": "Bl",
+    "countryOfOrigin": "United States of America",
+    "productionDate": "01/01/2021",
+    "engineCode": "None",
+    "engineSerialNumber": "DJ51279",
+    "issuer": "did:mobi:c276e14rc81ebfeb1f782ebd6e",
+    "manufacturer": "Ford",
+    "modelYear": "2015",
+    "transmissionSerialNumber": "6F00001",
+    "uvi": "36h948q767wuxUlzLk2dAIzWWVgTTN8X9F8nmr7upRgRdL4VomOqJLOg4ftP3Gkg",
+    "pixel": "override"
+  }
+]

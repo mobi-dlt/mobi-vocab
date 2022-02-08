@@ -6,20 +6,28 @@
     "type": "VID",
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "manufacturer": {
-      "type": "Organization",
-      "name": "Rodriguez - Dibbert",
-      "description": "Optional analyzing leverage",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "7885 Nils Mountains",
-        "addressLocality": "West Jarenbury",
-        "addressRegion": "Oklahoma",
-        "postalCode": "23253-1252",
-        "addressCountry": "Switzerland"
+      "type": "Person",
+      "firstName": "Manuela",
+      "lastName": "Sawayn",
+      "email": "Hilda88@example.org",
+      "phoneNumber": "555-135-8723",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Gerlach - Gislason",
+        "description": "Assimilated fresh-thinking structure",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "8206 Reilly Springs",
+          "addressLocality": "Koeppmouth",
+          "addressRegion": "Wyoming",
+          "postalCode": "70767",
+          "addressCountry": "Guinea-Bissau"
+        },
+        "email": "Dedric_Senger@example.net",
+        "phoneNumber": "555-235-4891",
+        "faxNumber": "555-295-1280"
       },
-      "email": "Bret_Hoppe@example.net",
-      "phoneNumber": "555-482-8817",
-      "faxNumber": "555-917-7519"
+      "jobTitle": "Global Tactics Producer"
     },
     "make": "Ford",
     "model": "Mach_E",
@@ -33,19 +41,19 @@
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "manufacturer": {
       "type": "Organization",
-      "name": "Rutherford LLC",
-      "description": "Reduced explicit capability",
+      "name": "Mann - Ankunding",
+      "description": "Fully-configurable asymmetric monitoring",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "52814 Erdman Ridge",
-        "addressLocality": "Lauriannefort",
-        "addressRegion": "Indiana",
-        "postalCode": "67887",
-        "addressCountry": "Kiribati"
+        "streetAddress": "993 Preston View",
+        "addressLocality": "Pacochahaven",
+        "addressRegion": "Alabama",
+        "postalCode": "42503-4319",
+        "addressCountry": "Angola"
       },
-      "email": "Cydney.Bartell@example.com",
-      "phoneNumber": "555-784-9849",
-      "faxNumber": "555-268-8080"
+      "email": "Darion1@example.org",
+      "phoneNumber": "555-902-4243",
+      "faxNumber": "555-864-8053"
     },
     "make": "Ford",
     "model": "Mach_E",
@@ -59,19 +67,19 @@
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "manufacturer": {
       "type": "Organization",
-      "name": "Rogahn, Schmitt and Schoen",
-      "description": "Progressive systematic ability",
+      "name": "Ward - Hilpert",
+      "description": "Future-proofed mobile interface",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "85379 Manuel Lights",
-        "addressLocality": "Botsfordhaven",
-        "addressRegion": "Pennsylvania",
-        "postalCode": "85709",
-        "addressCountry": "Bermuda"
+        "streetAddress": "4845 Ansel Junctions",
+        "addressLocality": "Nienowmouth",
+        "addressRegion": "Oregon",
+        "postalCode": "67135",
+        "addressCountry": "Czech Republic"
       },
-      "email": "Jameson.Flatley@example.net",
-      "phoneNumber": "555-843-9990",
-      "faxNumber": "555-912-3939"
+      "email": "Coty.Koss98@example.com",
+      "phoneNumber": "555-612-6371",
+      "faxNumber": "555-881-9353"
     },
     "make": "Ford",
     "model": "Mach_E",

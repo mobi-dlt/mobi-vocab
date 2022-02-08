@@ -1,27 +1,18 @@
 [
   {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
     "type": "Invoice",
-    "alarm": "reboot",
-    "hard drive": "input"
+    "identifier": "IN-38409",
+    "capacitor": "transmit"
   },
   {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "identifier": "IN-8698",
-    "array": "back up",
-    "port": "synthesize"
+    "type": "Invoice",
+    "matrix": "override",
+    "circuit": "generate",
+    "capacitor": "quantify"
   },
   {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "identifier": "IN-72342",
-    "protocol": "parse",
-    "program": "bypass",
-    "feed": "reboot"
+    "identifier": "IN-99490",
+    "firewall": "input",
+    "sensor": "synthesize"
   }
 ]

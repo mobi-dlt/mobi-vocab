@@ -4,73 +4,73 @@
       "https://goodlookingtech.com"
     ],
     "type": "LEIevidenceDocument",
-    "lei": "KZQGGC2KK3YY6MOR76JE",
+    "lei": "SA9QTUFOOT3RM5GFL568",
     "entity": {
       "@context": [
         "https://goodlookingtech.com"
       ],
       "type": "LEIentity",
-      "legalName": "Bosco - Mueller",
-      "legalNameLanguage": "zh_TW",
+      "legalName": "Padberg, Jakubowski and Kihn",
+      "legalNameLanguage": "it",
       "otherNames": [
-        "Walter, Runte and Lindgren",
-        "Spinka LLC"
+        "Kunze Inc",
+        "Goodwin, Collins and Metz"
       ],
       "transliteratedOtherNames": [
-        "Walter, Runte and Lindgren",
-        "Spinka LLC"
+        "Kunze Inc",
+        "Goodwin, Collins and Metz"
       ],
       "legalAddress": {
         "type": "LEIaddress",
-        "language": "de_AT",
+        "language": "fr",
         "addressLines": [
-          "Roob, Stracke and Champlin",
-          "70013 Heaney Flats"
+          "Reilly, Pouros and Armstrong",
+          "67359 Arjun Garden"
         ],
-        "addressNumber": "254",
-        "addressNumberWithinBuilding": "8",
-        "mailRouting": "3039 Johathan Fords, 83249",
-        "city": "Schuylerport",
-        "region": "Buckinghamshire",
-        "country": "Myanmar",
-        "postalCode": "97459"
+        "addressNumber": "65",
+        "addressNumberWithinBuilding": "9",
+        "mailRouting": "06851 Hilll Knoll, 33604",
+        "city": "Ricoton",
+        "region": "Berkshire",
+        "country": "Yemen",
+        "postalCode": "80265-2856"
       },
       "headquartersAddress": {
         "type": "LEIaddress",
-        "language": "id_ID",
+        "language": "ne",
         "addressLines": [
-          "Hudson, Durgan and Kuvalis",
-          "636 Sanford Trail"
+          "Feeney - Hane",
+          "93635 Isabella Well"
         ],
-        "addressNumber": "59",
-        "addressNumberWithinBuilding": "6",
-        "mailRouting": "817 Schuppe Ferry, 34011",
-        "city": "Damonborough",
-        "region": "Berkshire",
-        "country": "Ukraine",
-        "postalCode": "95698-5148"
+        "addressNumber": "96",
+        "addressNumberWithinBuilding": "7",
+        "mailRouting": "3055 Vida Club, 66721",
+        "city": "Haleighton",
+        "region": "Bedfordshire",
+        "country": "Kenya",
+        "postalCode": "48703"
       },
       "registrationAuthority": {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000661",
-        "otherValidationAuthorityID": "BXLH5LWR",
-        "validationAuthorityEntityID": "T6BIYET5ND42H0I48Y2J"
+        "validationAuthorityID": "RA000005",
+        "otherValidationAuthorityID": "ANZSHXD8",
+        "validationAuthorityEntityID": "4EZ50ZQXRJ8UOI3M93SR"
       },
-      "legalJurisdiction": "Bedfordshire",
-      "entityCategory": "Finance",
-      "legalForm": "CORPORATION",
+      "legalJurisdiction": "Berkshire",
+      "entityCategory": "Grocery",
+      "legalForm": "LLC",
       "associatedEntity": {
         "type": "Organization",
-        "leiCode": "3FGTR0CANZSHXD84EZ50",
-        "name": "Mertz - Hahn"
+        "leiCode": "QVVH7J360BN8L7JM89EM",
+        "name": "Lakin, Sauer and Cronin"
       },
-      "status": "IN PROGRESS",
+      "status": "REJECTED",
       "expirationDate": "2022-07-11",
-      "expirationReason": "syndicate user-centric content",
+      "expirationReason": "streamline vertical infrastructures",
       "successorEntity": {
         "type": "Organization",
-        "leiCode": "93UN070MLND5D2KS6G72",
-        "name": "Ziemann - Romaguera"
+        "leiCode": "A89CCD3CX8JIATEAGXLV",
+        "name": "Crooks - VonRueden"
       },
       "otherAddresses": []
     },
@@ -81,21 +81,21 @@
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",
       "lastUpdateDate": "2020-01-01",
-      "status": "REQUESTED",
+      "status": "CONFIRMED",
       "nextRenewalDate": "2021-02-02",
-      "managingLou": "QRNWLSDUXKLRFJJNKMVE",
-      "validationSources": "NOT_CORROBORATED",
+      "managingLou": "AEDSFIYZOQYVODMWIXPM",
+      "validationSources": "FULLY_CORROBORATED",
       "validationAuthority": [
         {
           "type": "LEIauthority",
           "validationAuthorityID": "RA000002",
-          "otherValidationAuthorityID": "2MPAZF86",
-          "validationAuthorityEntityID": "524SA936OO2MIMZ8T8M7"
+          "otherValidationAuthorityID": "SHKZKUE7",
+          "validationAuthorityEntityID": "IXE4JTMDOVJVPT5S7AT2"
         }
       ]
     },
     "bic": [
-      "KUZADZZJRJ"
+      "PXTVCIJOGG"
     ]
   },
   {
@@ -103,73 +103,73 @@
       "https://goodlookingtech.com"
     ],
     "type": "LEIevidenceDocument",
-    "lei": "6JM7B0U8MZ7S2Y1HD39J",
+    "lei": "I48Y2JRY4FLBXIVF93UN",
     "entity": {
       "@context": [
         "https://goodlookingtech.com"
       ],
       "type": "LEIentity",
-      "legalName": "Schaefer LLC",
-      "legalNameLanguage": "sk",
+      "legalName": "Cartwright Group",
+      "legalNameLanguage": "ja",
       "otherNames": [
-        "Huel - Schaden",
-        "Toy, Cole and Wilkinson"
+        "Gulgowski, Wyman and Keeling",
+        "Dach Inc"
       ],
       "transliteratedOtherNames": [
-        "Huel - Schaden",
-        "Toy, Cole and Wilkinson"
+        "Gulgowski, Wyman and Keeling",
+        "Dach Inc"
       ],
       "legalAddress": {
         "type": "LEIaddress",
-        "language": "vi",
+        "language": "en_IE",
         "addressLines": [
-          "Schowalter, Kertzmann and Blick",
-          "29748 Okuneva Points"
+          "Daugherty LLC",
+          "9282 Haag Plains"
         ],
-        "addressNumber": "421",
-        "addressNumberWithinBuilding": "10",
-        "mailRouting": "8462 Annabelle Plains, 58117",
-        "city": "Langworthview",
-        "region": "Bedfordshire",
-        "country": "El Salvador",
-        "postalCode": "00007-7608"
+        "addressNumber": "310",
+        "addressNumberWithinBuilding": "6",
+        "mailRouting": "66584 Schiller Roads, 44613-3544",
+        "city": "Darechester",
+        "region": "Avon",
+        "country": "Papua New Guinea",
+        "postalCode": "79024"
       },
       "headquartersAddress": {
         "type": "LEIaddress",
-        "language": "de",
+        "language": "en",
         "addressLines": [
-          "Anderson Inc",
-          "4293 Trystan Walk"
+          "Johnson - Aufderhar",
+          "115 Hane Plains"
         ],
-        "addressNumber": "369",
-        "addressNumberWithinBuilding": "4",
-        "mailRouting": "7131 Lowe Lake, 87024-0005",
-        "city": "Trompburgh",
-        "region": "Borders",
-        "country": "Uzbekistan",
-        "postalCode": "72693-6201"
+        "addressNumber": "292",
+        "addressNumberWithinBuilding": "8",
+        "mailRouting": "82691 Williamson Squares, 43125",
+        "city": "Jacintoport",
+        "region": "Bedfordshire",
+        "country": "Senegal",
+        "postalCode": "20141-1832"
       },
       "registrationAuthority": {
         "type": "LEIauthority",
         "validationAuthorityID": "RA000001",
-        "otherValidationAuthorityID": "9M9R2NYJ",
-        "validationAuthorityEntityID": "H1WYBS4AHZ4LHKXQITMN"
+        "otherValidationAuthorityID": "QNHTDMEU",
+        "validationAuthorityEntityID": "GESYW4Y3SNBXOTF29AUX"
       },
       "legalJurisdiction": "Bedfordshire",
-      "entityCategory": "Grocery",
-      "legalForm": "CORPORATION",
+      "entityCategory": "Industrial",
+      "legalForm": "LLC",
       "associatedEntity": {
         "type": "Organization",
-        "leiCode": "NGHU935H45VB8QNHTDME",
-        "name": "Brown - Walter"
+        "leiCode": "070MLND5D2KS6G72HZR2",
+        "name": "Koepp, Shanahan and Nienow"
       },
-      "status": "REJECTED",
+      "status": "CONFIRMED",
       "expirationDate": "2022-07-11",
-      "expirationReason": "architect scalable portals",
+      "expirationReason": "reintermediate 24/365 functionalities",
       "successorEntity": {
         "type": "Organization",
-        "leiCode": "DFJFDM5X98X4O7HV0NZA",
-        "name": "Schultz, Halvorson and Stoltenberg"
+        "leiCode": "GM8MW2GIV53QZIFO1113",
+        "name": "Rau, Okuneva and Bins"
       },
       "otherAddresses": []
     },
@@ -180,21 +180,21 @@
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",
       "lastUpdateDate": "2020-01-01",
-      "status": "REQUESTED",
+      "status": "CONFIRMED",
       "nextRenewalDate": "2021-02-02",
-      "managingLou": "CDRSCVZFMNDVITKOTPTN",
-      "validationSources": "PARTIALLY_CORROBORATED",
+      "managingLou": "LACCNZXHUTFQZJRFADGP",
+      "validationSources": "FULLY_CORROBORATED",
       "validationAuthority": [
         {
           "type": "LEIauthority",
-          "validationAuthorityID": "RA000661",
-          "otherValidationAuthorityID": "VU9XJ9MR",
-          "validationAuthorityEntityID": "7GZUQQKR6N16BJRZ9XJ1"
+          "validationAuthorityID": "RA000001",
+          "otherValidationAuthorityID": "S2301YIQ",
+          "validationAuthorityEntityID": "DCGAZCYRXNS6C6E3JNTR"
         }
       ]
     },
     "bic": [
-      "HCODOMPTRD"
+      "UBQYLTDBMA"
     ]
   },
   {
@@ -202,73 +202,73 @@
       "https://goodlookingtech.com"
     ],
     "type": "LEIevidenceDocument",
-    "lei": "8QQVZA36EVSN7BJQQTMM",
+    "lei": "KXQITMN541C3XL83DDFJ",
     "entity": {
       "@context": [
         "https://goodlookingtech.com"
       ],
       "type": "LEIentity",
-      "legalName": "Zieme - Casper",
-      "legalNameLanguage": "es",
+      "legalName": "Ernser, Koelpin and Wolff",
+      "legalNameLanguage": "sk",
       "otherNames": [
-        "Hansen, Roob and Cormier",
-        "Haag, Kovacek and Terry"
+        "Stamm, Gerlach and VonRueden",
+        "Funk - Nicolas"
       ],
       "transliteratedOtherNames": [
-        "Hansen, Roob and Cormier",
-        "Haag, Kovacek and Terry"
+        "Stamm, Gerlach and VonRueden",
+        "Funk - Nicolas"
       ],
       "legalAddress": {
         "type": "LEIaddress",
-        "language": "es_MX",
+        "language": "pl",
         "addressLines": [
-          "Nolan - Reichert",
-          "36406 Barrows Estate"
+          "Lynch, Sanford and Davis",
+          "7929 Rempel Mountains"
         ],
-        "addressNumber": "109",
-        "addressNumberWithinBuilding": "6",
-        "mailRouting": "1317 Jacobson Junctions, 84567-0152",
-        "city": "Maynardmouth",
-        "region": "Cambridgeshire",
-        "country": "Sao Tome and Principe",
-        "postalCode": "64658"
+        "addressNumber": "89",
+        "addressNumberWithinBuilding": "4",
+        "mailRouting": "11670 Cristal Stravenue, 51837",
+        "city": "South Nikolas",
+        "region": "Avon",
+        "country": "Norfolk Island",
+        "postalCode": "75621-5160"
       },
       "headquartersAddress": {
         "type": "LEIaddress",
-        "language": "it",
+        "language": "sv",
         "addressLines": [
-          "Bahringer Group",
-          "06377 Cornelius Wall"
+          "Nicolas - Terry",
+          "5082 Shanna Run"
         ],
-        "addressNumber": "319",
-        "addressNumberWithinBuilding": "1",
-        "mailRouting": "855 Corkery Loaf, 37420",
-        "city": "East Angie",
+        "addressNumber": "81",
+        "addressNumberWithinBuilding": "2",
+        "mailRouting": "201 Polly Knoll, 23577-8661",
+        "city": "Fionabury",
         "region": "Berkshire",
-        "country": "Germany",
-        "postalCode": "87797-9261"
+        "country": "Saint Martin",
+        "postalCode": "55508-7808"
       },
       "registrationAuthority": {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000661",
-        "otherValidationAuthorityID": "FMMHS64O",
-        "validationAuthorityEntityID": "EZUQDQKYL76KDZC50P0L"
+        "validationAuthorityID": "RA000003",
+        "otherValidationAuthorityID": "Q07QYRDO",
+        "validationAuthorityEntityID": "BR5UBGVIZ4DDGNPSV7L4"
       },
-      "legalJurisdiction": "Berkshire",
+      "legalJurisdiction": "Cambridgeshire",
       "entityCategory": "Jewelery",
       "legalForm": "CORPORATION",
       "associatedEntity": {
         "type": "Organization",
-        "leiCode": "6OCDSJJI0URU1TQ07QYR",
-        "name": "Leannon, Ward and Gusikowski"
+        "leiCode": "FDM5X98X4O7HV0NZAOTB",
+        "name": "Predovic Inc"
       },
-      "status": "IN PROGRESS",
+      "status": "REQUESTED",
       "expirationDate": "2022-07-11",
-      "expirationReason": "matrix proactive ROI",
+      "expirationReason": "utilize extensible initiatives",
       "successorEntity": {
         "type": "Organization",
-        "leiCode": "UF8VDUG6HSFGXHP4M21Q",
-        "name": "Kunze, Vandervort and Kertzmann"
+        "leiCode": "C6SD3ELVHINQ23K8KPK1",
+        "name": "Kuhlman - Padberg"
       },
       "otherAddresses": []
     },
@@ -279,21 +279,21 @@
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",
       "lastUpdateDate": "2020-01-01",
-      "status": "REQUESTED",
+      "status": "CONFIRMED",
       "nextRenewalDate": "2021-02-02",
-      "managingLou": "ZHJTLLVUGBEMWABBQXOD",
-      "validationSources": "PARTIALLY_CORROBORATED",
+      "managingLou": "GCJFBPUTTZTYHQEKQQMU",
+      "validationSources": "FULLY_CORROBORATED",
       "validationAuthority": [
         {
           "type": "LEIauthority",
           "validationAuthorityID": "RA000661",
-          "otherValidationAuthorityID": "SQ0R258L",
-          "validationAuthorityEntityID": "44ERXNGY02A21A19989W"
+          "otherValidationAuthorityID": "LSL90TBH",
+          "validationAuthorityEntityID": "M252PCQSZP7STIIFD54B"
         }
       ]
     },
     "bic": [
-      "NIKUGPMOAV"
+      "DRKZSVZCPM"
     ]
   }
 ]

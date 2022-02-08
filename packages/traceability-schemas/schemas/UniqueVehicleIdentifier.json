@@ -3,7 +3,7 @@
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": "{\"term\": \"UniqueVehicleIdentifier\", \"@id\": \"https://dlt.mobi/mobility#UniqueVehicleIdentifier\"}",
     "title": "UniqueVehicleIdentifier",
-    "description": "Unique Vehicle Identifier String",
+    "description": "Unique Vehicle Identifier as defined in VID I.",
     "type": "object",
     "properties": {
         "@context": {
@@ -20,12 +20,13 @@
             ]
         },
         "uvi": {
-            "$comment": "{\"term\": \"vid\", \"@id\": \"https://schema.org/identifier\"}",
+            "$comment": "{\"term\": \"uvi\", \"@id\": \"https://schema.org/identifier\"}",
             "title": "uvi",
             "description": "64 character alphanumeric string.",
             "type": "string"
-        },
+        }
+
+    },
     "additionalProperties": false,
     "examples": []
-    }
 }

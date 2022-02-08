@@ -14,23 +14,23 @@
       "https://goodlookingtech.com"
     ],
     "type": "LEIaddress",
-    "language": "zh_CN",
+    "language": "zh_TW",
     "addressLines": [
-      "Heaney, Huel and Nader",
-      "916 White Springs"
+      "Treutel Group",
+      "505 Ryley Turnpike"
     ],
-    "addressNumber": "377",
-    "addressNumberWithinBuilding": "2",
-    "mailRouting": "17707 Hegmann Pass, 60088",
-    "city": "Wizafurt",
-    "region": "Cambridgeshire",
-    "country": "China",
-    "postalCode": "47615-7300"
+    "addressNumber": "312",
+    "addressNumberWithinBuilding": "3",
+    "mailRouting": "48322 Towne Crescent, 98808",
+    "city": "New Toney",
+    "region": "Bedfordshire",
+    "country": "Democratic People's Republic of Korea",
+    "postalCode": "70242-3026"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..XCGqoEkl0USceE6eg68aGmjijY04KVlxzamDjj2GgS7BbugGedW9PmcNF6HOVPzRyezRT0bOkLNg9-oqZoBDDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..YpNCtEQQ0iZtlobkSsrCFSAliJ4IZr7vhlKtiFKCb7mRadYKtq__oylAH6vpsZrxalrk8Rb-UUJrYaeZYCc5Bg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

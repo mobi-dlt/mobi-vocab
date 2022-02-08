@@ -1,21 +1,16 @@
 [
   {
-    "latitude": "-57.4965",
-    "bandwidth": "synthesize"
+    "latitude": "53.8949",
+    "bandwidth": "navigate",
+    "card": "bypass",
+    "transmitter": "reboot"
   },
   {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "type": "GeoCoordinates",
-    "latitude": "41.5843",
-    "matrix": "index"
+    "bandwidth": "generate"
   },
   {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "type": "GeoCoordinates",
-    "bus": "connect"
+    "monitor": "synthesize",
+    "alarm": "program",
+    "matrix": "compress"
   }
 ]

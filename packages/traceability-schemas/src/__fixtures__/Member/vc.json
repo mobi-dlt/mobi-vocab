@@ -14,14 +14,14 @@
       "https://goodlookingtech.com"
     ],
     "type": "Member",
-    "firstName": "Boris",
-    "lastName": "Orn",
-    "email": "Lorenzo99@example.net"
+    "firstName": "Arnulfo",
+    "lastName": "Stiedemann",
+    "email": "Bill_Schneider31@example.net"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Ovhfpjf8h6-mpdVTKqnLu3iyNw5nbk9zDJv62aSVL7ZRxKiV15AuCiK2sbEhYr8Wm6u1cqCEvyfepxDSfPJxDw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..LNQbaQqdW_FyH8HUN69pAhXfZF6sn5-sB6nu5ExtpRVH_oIIVJKEIqnvmj0LjwYbwuCcrMn4EVJoTIVSrB3vAQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

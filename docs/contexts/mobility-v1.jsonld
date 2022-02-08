@@ -70,17 +70,6 @@
         }
       }
     },
-    "chargeAndPaymentType": {
-      "@id": "https://dlt.mobi/mobility#chargeAndPaymentType",
-      "@context": {
-        "chargeCollect": {
-          "@id": "https://schema.org/discountPrice"
-        },
-        "chargePrepaid": {
-          "@id": "https://schema.org/totalPrice"
-        }
-      }
-    },
     "CitopiaMembershipCredential": {
       "@id": "https://dlt.mobi/mobility#CitopiaMemberShipCredential",
       "@context": {
@@ -262,17 +251,6 @@
         }
       }
     },
-    "LegalEntityIdentifierCredential": {
-      "@id": "https://dlt.mobi/mobility#LegalEntityIdentifierCredential",
-      "@context": {
-        "leiCode": {
-          "@id": "https://schema.org/leiCode"
-        },
-        "certificateName": {
-          "@id": "https://schema.org/name"
-        }
-      }
-    },
     "LEIaddress": {
       "@id": "https://dlt.mobi/mobility#LEIaddress",
       "@context": {
@@ -412,6 +390,17 @@
         },
         "validationAuthority": {
           "@id": "https://dlt.mobi/mobility#LEIauthority"
+        }
+      }
+    },
+    "LegalEntityIdentifierCredential": {
+      "@id": "https://dlt.mobi/mobility#LegalEntityIdentifierCredential",
+      "@context": {
+        "leiCode": {
+          "@id": "https://schema.org/leiCode"
+        },
+        "certificateName": {
+          "@id": "https://schema.org/name"
         }
       }
     },
@@ -752,6 +741,26 @@
         }
       }
     },
+    "RevocationCertificate": {
+      "@id": "https://dlt.mobi/mobility#RevocationCertificate",
+      "@context": {
+        "revokeHeader": {
+          "@id": "https://schema.org/text"
+        },
+        "identifier": {
+          "@id": "https://schema.org/identifier"
+        },
+        "issuer": {
+          "@id": "https://schema.org/Number"
+        },
+        "signature": {
+          "@id": "https://schema.org/additionalProperty"
+        },
+        "sigAlgId": {
+          "@id": "https://schema.org/Name"
+        }
+      }
+    },
     "StripeCustomerCredential": {
       "@id": "https://dlt.mobi/mobility#StripeCustomerCredential",
       "@context": {
@@ -801,7 +810,7 @@
     "UniqueVehicleIdentifier": {
       "@id": "https://dlt.mobi/mobility#UniqueVehicleIdentifier",
       "@context": {
-        "vid": {
+        "uvi": {
           "@id": "https://schema.org/identifier"
         }
       }
@@ -823,6 +832,76 @@
         },
         "vin": {
           "@id": "https://schema.org/vehicleIdentificationNumber"
+        }
+      }
+    },
+    "VehicleBirthCertificate": {
+      "@id": "https://dlt.mobi/mobility#VehicleBirthCertificate",
+      "@context": {
+        "certURI": {
+          "@id": "https://schema.org/identifier"
+        },
+        "colorOemCode": {
+          "@id": "https://schema.org/color"
+        },
+        "countryOfOrigin": {
+          "@id": "https://schema.org/countryOforigin"
+        },
+        "productionDate": {
+          "@id": "https://schema.org/productionDate"
+        },
+        "engineCode": {
+          "@id": "https://schema.org/additionalProperty"
+        },
+        "engineSerialNumber": {
+          "@id": "https://schema.org/serialNumber"
+        },
+        "fuelType": {
+          "@id": "https://schema.org/fuelType"
+        },
+        "issuer": {
+          "@id": "https://schema.org/Person"
+        },
+        "manufacturer": {
+          "@id": "https://schema.org/manufacturer"
+        },
+        "model": {
+          "@id": "https://schema.org/model"
+        },
+        "modelYear": {
+          "@id": "https://schema.org/vehicleModelDate"
+        },
+        "plantCode": {
+          "@id": "https://schema.org/Number"
+        },
+        "previousVBC": {
+          "@id": "https://dlt.mobi/mobility#Text"
+        },
+        "sigAlg": {
+          "@id": "https://schema.org/DigitalDocument"
+        },
+        "transmissionSerialNumber": {
+          "@id": "https://schema.org/IndividualProduct"
+        },
+        "trimType": {
+          "@id": "https://schema.org/amenityFeature"
+        },
+        "vin": {
+          "@id": "https://schema.org/vehicleIdentificationNumber"
+        },
+        "uvi": {
+          "@id": "https://schema.org/url"
+        }
+      }
+    },
+    "chargeAndPaymentType": {
+      "@id": "https://dlt.mobi/mobility#chargeAndPaymentType",
+      "@context": {
+        "chargeCollect": {
+          "@id": "https://schema.org/discountPrice"
+        },
+        "chargePrepaid": {
+          "@id": "https://schema.org/totalPrice"
         }
       }
     }

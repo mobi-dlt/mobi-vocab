@@ -32,7 +32,7 @@
             "type": "string"
         },
         "issuer": {
-            "$comment": "{\"term\": \"issuer\", \"@id\": \"https://schema.org/identifier\"}",
+            "$comment": "{\"term\": \"issuer\", \"@id\": \"https://schema.org/Number\"}",
             "title": "issuer",
             "description": "the certificate's issuing entity",
             "type": "string"
@@ -44,7 +44,7 @@
             "type": "string"
         },
         "sigAlgId": {
-            "$comment": "{\"term\": \"sigAlgId\", \"@id\": \"https://schema.org/identifier\"}",
+            "$comment": "{\"term\": \"sigAlgId\", \"@id\": \"https://schema.org/Name\"}",
             "title": "sigAlgId",
             "description": "Id of the signature algorithm",
             "type": "string"

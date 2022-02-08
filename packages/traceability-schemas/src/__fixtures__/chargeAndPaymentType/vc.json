@@ -14,13 +14,13 @@
       "https://goodlookingtech.com"
     ],
     "type": "chargeAndPaymentType",
-    "chargeCollect": 356,
-    "chargePrepaid": 704
+    "chargeCollect": 703,
+    "chargePrepaid": 459
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19.._-H82-0gBE5FAgkqIYwtZzZw0pYW9vajddZMa-UU75IC4Lc_06-eHNqYoAAsscJRqxUdvlk_zQMRa_H_MfSVAw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..mtm8KK1pCF_gtG5y76eqQO2RcBx-kReuPwZXnX1_KLflwLpLQnK1qgVbdvPvCimI84KTxlOG9Y6NRk5jLhPdCQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -1,28 +1,24 @@
 [
   {
     "userLocation": "true",
-    "batteryid": "true",
     "dataSharingForRewards": "true",
-    "sensor": "parse",
-    "alarm": "compress",
-    "capacitor": "compress",
-    "pixel": "connect"
+    "program": "navigate"
   },
   {
     "@context": [
       "https://goodlookingtech.com"
     ],
-    "vehicleLocation": "true",
-    "transmitter": "synthesize",
-    "driver": "program",
-    "alarm": "back up",
-    "protocol": "synthesize"
+    "type": "Permissions",
+    "vid": "true",
+    "dataSharingForRewards": "true",
+    "circuit": "reboot",
+    "feed": "synthesize"
   },
   {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "bus": "quantify",
-    "circuit": "input"
+    "type": "Permissions",
+    "system": "index",
+    "feed": "bypass",
+    "port": "generate",
+    "card": "program"
   }
 ]

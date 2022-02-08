@@ -14,14 +14,14 @@
       "https://goodlookingtech.com"
     ],
     "type": "LEIauthority",
-    "validationAuthorityID": "RA000001",
-    "otherValidationAuthorityID": "KB9LSFBZ",
-    "validationAuthorityEntityID": "G50G2OEEHZLPANPRUYSW"
+    "validationAuthorityID": "RA000661",
+    "otherValidationAuthorityID": "LRD020TB",
+    "validationAuthorityEntityID": "DHTR9O0G59GZXF3GU5IS"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..TGg3hyFLwKfoo9ftngvMf7B8ZxbyLTKXD3gT8lhda-RSMS0xz1pVYvPtmz61eGdCgm6xE79u_-EaDW9ZkwSiAA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..L0_E3dfpEBgeU9J2oKpoojiH1IqoQvQCCWruz8gD5TwNGFVFqD3NIerm31lZ90ErFYy2X9H3mrytBN41eFA5Dg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

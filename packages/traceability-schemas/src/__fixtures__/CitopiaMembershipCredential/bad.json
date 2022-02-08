@@ -1,20 +1,23 @@
 [
   {
+    "holder": "Matt Shi",
+    "circuit": "synthesize",
+    "pixel": "quantify",
+    "driver": "navigate",
+    "bandwidth": "reboot"
+  },
+  {
     "@context": [
       "https://goodlookingtech.com"
     ],
-    "hard drive": "generate",
-    "bandwidth": "generate"
-  },
-  {
-    "firewall": "calculate",
-    "hard drive": "synthesize"
-  },
-  {
+    "type": "CitopiaMembershipCredential",
     "identifier": "did:mobinet:123456789abcdefghi",
-    "expirationDate": "2021-5-29",
-    "capacitor": "copy",
-    "circuit": "program",
-    "array": "input"
+    "microchip": "synthesize"
+  },
+  {
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "firewall": "navigate"
   }
 ]

@@ -1,113 +1,97 @@
 [
   {
+    "legalName": "Reilly and Sons",
+    "expirationReason": "synergize cross-platform eyeballs",
+    "pixel": "connect",
+    "circuit": "navigate",
+    "program": "navigate"
+  },
+  {
     "type": "LEIentity",
-    "legalNameLanguage": "en_AU",
+    "legalNameLanguage": "fr_CH",
     "otherNames": [
-      "Aufderhar - Reichel",
-      "Fay - Hartmann"
+      "Franecki - Boyle",
+      "Jakubowski, Kilback and Medhurst"
+    ],
+    "transliteratedOtherNames": [
+      "Franecki - Boyle",
+      "Jakubowski, Kilback and Medhurst"
+    ],
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "nl",
+      "addressLines": [
+        "Cummings and Sons",
+        "365 Rosalind Mall"
+      ],
+      "addressNumber": "19",
+      "addressNumberWithinBuilding": "7",
+      "mailRouting": "845 Keara Trace, 51029",
+      "city": "North Justonberg",
+      "region": "Berkshire",
+      "country": "Central African Republic",
+      "postalCode": "00612-4190"
+    },
+    "associatedEntity": {
+      "type": "Organization",
+      "leiCode": "MUQ84RPEWL6M8DYI6EU2",
+      "name": "Hackett Inc"
+    },
+    "program": "reboot",
+    "alarm": "transmit",
+    "interface": "synthesize"
+  },
+  {
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "type": "LEIentity",
+    "legalNameLanguage": "nl_BE",
+    "otherNames": [
+      "Thiel LLC",
+      "Runolfsdottir - Hansen"
+    ],
+    "transliteratedOtherNames": [
+      "Thiel LLC",
+      "Runolfsdottir - Hansen"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "de",
+      "language": "pt_BR",
       "addressLines": [
-        "Jacobson LLC",
-        "28418 Hassie Vista"
+        "Schmeler, Hamill and Kertzmann",
+        "56033 Monahan Plaza"
       ],
-      "addressNumber": "210",
-      "addressNumberWithinBuilding": "1",
-      "mailRouting": "846 Gabriel Hollow, 95058-5554",
-      "city": "Lake Goldenport",
-      "region": "Avon",
-      "country": "Cuba",
-      "postalCode": "85974-6295"
-    },
-    "headquartersAddress": {
-      "type": "LEIaddress",
-      "language": "en_IND",
-      "addressLines": [
-        "Herzog, Ebert and Hoppe",
-        "217 Upton Roads"
-      ],
-      "addressNumber": "316",
-      "addressNumberWithinBuilding": "9",
-      "mailRouting": "1623 Chet Walk, 80442",
-      "city": "Port Gunnarview",
-      "region": "Berkshire",
-      "country": "Netherlands Antilles",
-      "postalCode": "55365-0163"
+      "addressNumber": "188",
+      "addressNumberWithinBuilding": "2",
+      "mailRouting": "5633 Metz Orchard, 53420",
+      "city": "New Leeville",
+      "region": "Buckinghamshire",
+      "country": "Taiwan",
+      "postalCode": "66745-3589"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000001",
-      "otherValidationAuthorityID": "BYE9UN0B",
-      "validationAuthorityEntityID": "LRL4EY8G88V2F6BIGCOT"
+      "validationAuthorityID": "RA000002",
+      "otherValidationAuthorityID": "HM9IAOBX",
+      "validationAuthorityEntityID": "SJJKB3LPPE9ZET4I64OU"
     },
-    "entityCategory": "Industrial",
-    "legalForm": "CORPORATION",
+    "legalJurisdiction": "Cambridgeshire",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "L8N5HVM7BZGCQ6VSFN1H",
-      "name": "McKenzie LLC"
+      "leiCode": "NK3CN5ZL1BZVEZVRS3KA",
+      "name": "Quitzon and Sons"
     },
-    "status": "IN PROGRESS",
+    "status": "REQUESTED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "repurpose end-to-end initiatives",
+    "expirationReason": "extend efficient channels",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "C6D1LQCNJHSUPTGLVVK7",
-      "name": "Brown - Barton"
+      "leiCode": "9XYFH3TTJD1IM4Y0LMTI",
+      "name": "Medhurst, Farrell and Schimmel"
     },
-    "protocol": "back up",
-    "alarm": "hack",
-    "program": "connect",
-    "microchip": "reboot"
-  },
-  {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "type": "LEIentity",
-    "legalName": "Lemke, Connelly and Cassin",
-    "legalNameLanguage": "id_ID",
-    "otherNames": [
-      "Gaylord - Larkin",
-      "Kuhn - Heathcote"
-    ],
-    "transliteratedOtherNames": [
-      "Gaylord - Larkin",
-      "Kuhn - Heathcote"
-    ],
-    "headquartersAddress": {
-      "type": "LEIaddress",
-      "language": "ne",
-      "addressLines": [
-        "Emmerich - Weissnat",
-        "5136 Lelah Dam"
-      ],
-      "addressNumber": "197",
-      "addressNumberWithinBuilding": "7",
-      "mailRouting": "39849 Otha Track, 52718",
-      "city": "Guillermomouth",
-      "region": "Buckinghamshire",
-      "country": "Norfolk Island",
-      "postalCode": "96489"
-    },
-    "status": "REJECTED",
-    "successorEntity": {
-      "type": "Organization",
-      "leiCode": "MRGIDJVYIUHW0TC3D5EI",
-      "name": "Franecki - Lesch"
-    },
-    "driver": "reboot",
-    "microchip": "index"
-  },
-  {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "expirationReason": "revolutionize scalable e-commerce",
     "otherAddresses": [],
-    "card": "override",
-    "feed": "back up"
+    "bus": "reboot",
+    "circuit": "input"
   }
 ]

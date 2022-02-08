@@ -1,26 +1,24 @@
 [
   {
-    "bus": "hack"
-  },
-  {
     "@context": [
       "https://goodlookingtech.com"
     ],
-    "type": "LegalEntityIdentifierCredential",
-    "leiCode": "V5PCU8PXO3MPR65VVYVG",
-    "driver": "hack",
-    "transmitter": "navigate",
-    "program": "input",
+    "firewall": "back up",
+    "microchip": "hack",
     "circuit": "hack"
   },
   {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
     "type": "LegalEntityIdentifierCredential",
-    "certificateName": "US Legal Entity Certificate",
-    "application": "back up",
-    "bandwidth": "copy",
-    "firewall": "index"
+    "leiCode": "V98YGKZRRK0J23GCWAJE",
+    "alarm": "connect",
+    "transmitter": "index"
+  },
+  {
+    "type": "LegalEntityIdentifierCredential",
+    "leiCode": "D3RFY776I3ACSRK9MBSN",
+    "firewall": "generate",
+    "panel": "connect",
+    "feed": "quantify",
+    "transmitter": "hack"
   }
 ]

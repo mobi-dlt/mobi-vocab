@@ -1,0 +1,24 @@
+[
+  {
+    "feed": "hack",
+    "interface": "index",
+    "transmitter": "connect"
+  },
+  {
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "port": "generate",
+    "feed": "generate"
+  },
+  {
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "uvi": "testing...",
+    "monitor": "calculate",
+    "program": "copy",
+    "firewall": "compress",
+    "transmitter": "override"
+  }
+]

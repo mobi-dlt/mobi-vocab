@@ -14,73 +14,73 @@
       "https://goodlookingtech.com"
     ],
     "type": "LEIevidenceDocument",
-    "lei": "KZQGGC2KK3YY6MOR76JE",
+    "lei": "SA9QTUFOOT3RM5GFL568",
     "entity": {
       "@context": [
         "https://goodlookingtech.com"
       ],
       "type": "LEIentity",
-      "legalName": "Bosco - Mueller",
-      "legalNameLanguage": "zh_TW",
+      "legalName": "Padberg, Jakubowski and Kihn",
+      "legalNameLanguage": "it",
       "otherNames": [
-        "Walter, Runte and Lindgren",
-        "Spinka LLC"
+        "Kunze Inc",
+        "Goodwin, Collins and Metz"
       ],
       "transliteratedOtherNames": [
-        "Walter, Runte and Lindgren",
-        "Spinka LLC"
+        "Kunze Inc",
+        "Goodwin, Collins and Metz"
       ],
       "legalAddress": {
         "type": "LEIaddress",
-        "language": "de_AT",
+        "language": "fr",
         "addressLines": [
-          "Roob, Stracke and Champlin",
-          "70013 Heaney Flats"
+          "Reilly, Pouros and Armstrong",
+          "67359 Arjun Garden"
         ],
-        "addressNumber": "254",
-        "addressNumberWithinBuilding": "8",
-        "mailRouting": "3039 Johathan Fords, 83249",
-        "city": "Schuylerport",
-        "region": "Buckinghamshire",
-        "country": "Myanmar",
-        "postalCode": "97459"
+        "addressNumber": "65",
+        "addressNumberWithinBuilding": "9",
+        "mailRouting": "06851 Hilll Knoll, 33604",
+        "city": "Ricoton",
+        "region": "Berkshire",
+        "country": "Yemen",
+        "postalCode": "80265-2856"
       },
       "headquartersAddress": {
         "type": "LEIaddress",
-        "language": "id_ID",
+        "language": "ne",
         "addressLines": [
-          "Hudson, Durgan and Kuvalis",
-          "636 Sanford Trail"
+          "Feeney - Hane",
+          "93635 Isabella Well"
         ],
-        "addressNumber": "59",
-        "addressNumberWithinBuilding": "6",
-        "mailRouting": "817 Schuppe Ferry, 34011",
-        "city": "Damonborough",
-        "region": "Berkshire",
-        "country": "Ukraine",
-        "postalCode": "95698-5148"
+        "addressNumber": "96",
+        "addressNumberWithinBuilding": "7",
+        "mailRouting": "3055 Vida Club, 66721",
+        "city": "Haleighton",
+        "region": "Bedfordshire",
+        "country": "Kenya",
+        "postalCode": "48703"
       },
       "registrationAuthority": {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000661",
-        "otherValidationAuthorityID": "BXLH5LWR",
-        "validationAuthorityEntityID": "T6BIYET5ND42H0I48Y2J"
+        "validationAuthorityID": "RA000005",
+        "otherValidationAuthorityID": "ANZSHXD8",
+        "validationAuthorityEntityID": "4EZ50ZQXRJ8UOI3M93SR"
       },
-      "legalJurisdiction": "Bedfordshire",
-      "entityCategory": "Finance",
-      "legalForm": "CORPORATION",
+      "legalJurisdiction": "Berkshire",
+      "entityCategory": "Grocery",
+      "legalForm": "LLC",
       "associatedEntity": {
         "type": "Organization",
-        "leiCode": "3FGTR0CANZSHXD84EZ50",
-        "name": "Mertz - Hahn"
+        "leiCode": "QVVH7J360BN8L7JM89EM",
+        "name": "Lakin, Sauer and Cronin"
       },
-      "status": "IN PROGRESS",
+      "status": "REJECTED",
       "expirationDate": "2022-07-11",
-      "expirationReason": "syndicate user-centric content",
+      "expirationReason": "streamline vertical infrastructures",
       "successorEntity": {
         "type": "Organization",
-        "leiCode": "93UN070MLND5D2KS6G72",
-        "name": "Ziemann - Romaguera"
+        "leiCode": "A89CCD3CX8JIATEAGXLV",
+        "name": "Crooks - VonRueden"
       },
       "otherAddresses": []
     },
@@ -91,27 +91,27 @@
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",
       "lastUpdateDate": "2020-01-01",
-      "status": "REQUESTED",
+      "status": "CONFIRMED",
       "nextRenewalDate": "2021-02-02",
-      "managingLou": "QRNWLSDUXKLRFJJNKMVE",
-      "validationSources": "NOT_CORROBORATED",
+      "managingLou": "AEDSFIYZOQYVODMWIXPM",
+      "validationSources": "FULLY_CORROBORATED",
       "validationAuthority": [
         {
           "type": "LEIauthority",
           "validationAuthorityID": "RA000002",
-          "otherValidationAuthorityID": "2MPAZF86",
-          "validationAuthorityEntityID": "524SA936OO2MIMZ8T8M7"
+          "otherValidationAuthorityID": "SHKZKUE7",
+          "validationAuthorityEntityID": "IXE4JTMDOVJVPT5S7AT2"
         }
       ]
     },
     "bic": [
-      "KUZADZZJRJ"
+      "PXTVCIJOGG"
     ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..PF8ucFExU_XZ-pdabw907nJ28NUpN4uQmarKkJ9IpoKV6w5-2d3sbCmGb5lRh0dqmgiiVWMZkAzmbZgyHoPHDw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..GiXfiA4PdPjSlV7GOVLLUHBtwTE-NngtKiWeDZuHz1JAVbcZYiw46VAHCq6ylx4_f9RfHTS7GYQEh06MVPi8DA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

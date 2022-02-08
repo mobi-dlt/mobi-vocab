@@ -14,13 +14,13 @@
       "https://goodlookingtech.com"
     ],
     "type": "LegalEntityIdentifierCredential",
-    "leiCode": "2ZU2HVHILWTKCNOJKV9Q",
+    "leiCode": "QJA2SI4TCGZ1SSH7C9V5",
     "certificateName": "US Legal Entity Certificate"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UuD5m2J9YmfLG2hgPnc_sBnL28OCPvgfHuWgOpWbDORd-7pkbINpJ4aSuNFzjXOjC3yst7fpq6qaCGTEY_DLAQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..FAiA5YpwKOJFSYRqdP7iQLxiO7lpcTr2CLOePcs1_p5mSAbt8-Xt4iIB0SHwZX3XtEwCSDMR1KtiNK_RvGz_Bg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

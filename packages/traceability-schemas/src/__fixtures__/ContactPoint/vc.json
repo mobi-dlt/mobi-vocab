@@ -14,22 +14,22 @@
       "https://goodlookingtech.com"
     ],
     "type": "ContactPoint",
-    "name": "Boyer Inc",
+    "name": "Baumbach - Dare",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "45959 Arch Wall",
-      "addressLocality": "West Gerda",
-      "addressRegion": "Georgia",
-      "postalCode": "23413-5398",
-      "addressCountry": "Paraguay"
+      "streetAddress": "59934 London Tunnel",
+      "addressLocality": "Lake Federico",
+      "addressRegion": "Montana",
+      "postalCode": "56481-2742",
+      "addressCountry": "Mexico"
     },
-    "email": "Marcus.Zboncak@example.com",
-    "phoneNumber": "555-937-6130"
+    "email": "Tristian.Kovacek91@example.net",
+    "phoneNumber": "555-121-7916"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..bWJ9_0xvthNs-ipJ9EmZ3qSupeS-QflpD6_Mwki29QhVzWBExfKbp7kokQAr0_0_CjX9kTNU1MjXGD0E_AEaDQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..F_wqAKWeWbM8vNclZINCCumunH7ClVtFKMhumP6XV9QY_sezByIEUKYZYZIycSeWSM_i2vftOL4tEP9tVjUgCw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

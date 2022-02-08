@@ -1,47 +1,33 @@
 [
   {
+    "transmitter": "quantify"
+  },
+  {
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "bus": "generate"
+  },
+  {
     "@context": [
       "https://goodlookingtech.com"
     ],
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "model": "Mach_E",
-    "hard drive": "synthesize",
-    "firewall": "compress"
-  },
-  {
-    "type": "VID",
-    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "make": "Ford",
-    "model": "Mach_E",
-    "vin": "JTERU5JR7M5861170",
-    "circuit": "compress",
-    "transmitter": "quantify",
-    "alarm": "back up",
-    "bus": "synthesize"
-  },
-  {
     "manufacturer": {
       "type": "Organization",
-      "name": "Rogahn, Schmitt and Schoen",
-      "description": "Progressive systematic ability",
+      "name": "Ward - Hilpert",
+      "description": "Future-proofed mobile interface",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "85379 Manuel Lights",
-        "addressLocality": "Botsfordhaven",
-        "addressRegion": "Pennsylvania",
-        "postalCode": "85709",
-        "addressCountry": "Bermuda"
+        "streetAddress": "4845 Ansel Junctions",
+        "addressLocality": "Nienowmouth",
+        "addressRegion": "Oregon",
+        "postalCode": "67135",
+        "addressCountry": "Czech Republic"
       },
-      "email": "Jameson.Flatley@example.net",
-      "phoneNumber": "555-843-9990",
-      "faxNumber": "555-912-3939"
+      "email": "Coty.Koss98@example.com",
+      "phoneNumber": "555-612-6371",
+      "faxNumber": "555-881-9353"
     },
-    "make": "Ford",
-    "model": "Mach_E",
-    "vin": "JTERU5JR7M5861170",
-    "driver": "reboot",
-    "array": "program",
-    "application": "index",
-    "hard drive": "back up"
+    "capacitor": "connect",
+    "firewall": "back up"
   }
 ]

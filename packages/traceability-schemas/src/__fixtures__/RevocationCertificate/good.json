@@ -1,0 +1,35 @@
+[
+  {
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "type": "RevocationCertificate",
+    "identifier": "testing...",
+    "revokeHeader": "testing...",
+    "issuer": "testing...",
+    "signature": "testing...",
+    "sigAlgId": "testing..."
+  },
+  {
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "type": "RevocationCertificate",
+    "identifier": "testing...",
+    "revokeHeader": "testing...",
+    "issuer": "testing...",
+    "signature": "testing...",
+    "sigAlgId": "testing..."
+  },
+  {
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "type": "RevocationCertificate",
+    "identifier": "testing...",
+    "revokeHeader": "testing...",
+    "issuer": "testing...",
+    "signature": "testing...",
+    "sigAlgId": "testing..."
+  }
+]

@@ -1,26 +1,22 @@
 [
   {
-    "@context": [
-      "https://goodlookingtech.com"
-    ],
-    "interface": "transmit",
-    "circuit": "calculate",
-    "bus": "bypass",
-    "capacitor": "hack"
-  },
-  {
-    "chargePrepaid": 900,
-    "bandwidth": "reboot",
-    "alarm": "parse"
+    "firewall": "calculate",
+    "sensor": "parse",
+    "interface": "program",
+    "panel": "quantify"
   },
   {
     "@context": [
       "https://goodlookingtech.com"
     ],
-    "chargeCollect": 15,
-    "chargePrepaid": 291,
-    "sensor": "synthesize",
-    "system": "calculate",
-    "matrix": "compress"
+    "type": "chargeAndPaymentType",
+    "hard drive": "input"
+  },
+  {
+    "type": "chargeAndPaymentType",
+    "chargePrepaid": 104,
+    "driver": "bypass",
+    "system": "compress",
+    "bandwidth": "reboot"
   }
 ]

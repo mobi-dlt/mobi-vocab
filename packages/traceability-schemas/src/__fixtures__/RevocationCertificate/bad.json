@@ -1,0 +1,28 @@
+[
+  {
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "identifier": "testing...",
+    "revokeHeader": "testing...",
+    "issuer": "testing...",
+    "program": "hack",
+    "array": "calculate",
+    "bandwidth": "quantify"
+  },
+  {
+    "revokeHeader": "testing...",
+    "signature": "testing...",
+    "sigAlgId": "testing...",
+    "protocol": "compress"
+  },
+  {
+    "@context": [
+      "https://goodlookingtech.com"
+    ],
+    "issuer": "testing...",
+    "signature": "testing...",
+    "sigAlgId": "testing...",
+    "monitor": "parse"
+  }
+]
