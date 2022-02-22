@@ -1,9 +1,8 @@
 {
-    "@context": ["https://w3id.org/traceability/v1"],
+    "@context": ["https://dlt.mobi/mobility-schema"],
     "type": [
         "DocumentVerificationEvidence"
       ],
-      "id": "https://example.acme.com/evidence/?queryID=0xFd5FEB812fFa20bEBDcBCD63dC11e96A7A1D59c14fAbEAF9c55D006Ac9DEac3B",
       "verifier": [
         "did:web:www.acme.com"
       ],
