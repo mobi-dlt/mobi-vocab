@@ -73,8 +73,8 @@
             "type": "string"
         },
         "jursidictionSpecificRequirement": {
-            "$comment": "{\"term\": \"otherAncillaryData\", \"@id\": \"https://schema.org/text\"}",
-            "title": "otherAncillaryData",
+            "$comment": "{\"term\": \"jursidictionSpecificRequirement\", \"@id\": \"https://schema.org/text\"}",
+            "title": "jursidictionSpecificRequirement",
             "description": "any metadata not captured by previous attributes",
             "type": "string"
         }
