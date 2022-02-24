@@ -13,7 +13,7 @@ const getVcSchemaForAccidentDamageAndTheftReports = () => {
         geolocation: 'testing...',
         dateTime: 'testing...',
         eventDescription: 'testing...',
-        jursidictionSpecificRequirement: 'testing...'
+        jurisdictionSpecificRequirement: 'testing...'
     };
     return example;
 };

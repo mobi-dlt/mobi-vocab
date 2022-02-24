@@ -893,7 +893,7 @@
         "eventDescription": {
           "@id": "https://schema.org/description"
         },
-        "otherAncillaryData": {
+        "jurisdictionSpecificRequirement": {
           "@id": "https://schema.org/text"
         }
       }

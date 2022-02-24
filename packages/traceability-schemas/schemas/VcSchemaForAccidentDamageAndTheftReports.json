@@ -72,9 +72,9 @@
             "description": "identifier for the transaction processor",
             "type": "string"
         },
-        "jursidictionSpecificRequirement": {
-            "$comment": "{\"term\": \"jursidictionSpecificRequirement\", \"@id\": \"https://schema.org/text\"}",
-            "title": "jursidictionSpecificRequirement",
+        "jurisdictionSpecificRequirement": {
+            "$comment": "{\"term\": \"jurisdictionSpecificRequirement\", \"@id\": \"https://schema.org/text\"}",
+            "title": "jurisdictionSpecificRequirement",
             "description": "any metadata not captured by previous attributes",
             "type": "string"
         }
