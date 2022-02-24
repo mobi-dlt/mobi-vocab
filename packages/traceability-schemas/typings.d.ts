@@ -41,6 +41,7 @@ TotalCharge: require('./schemas/TotalCharge.json'),
 UniqueVehicleIdentifier: require('./schemas/UniqueVehicleIdentifier.json'),
 VID: require('./schemas/VID.json'),
 VcSchemaForAccidentDamageAndTheftReports: require('./schemas/VcSchemaForAccidentDamageAndTheftReports.json'),
+VcSchemaForEndOfLifeDocuments: require('./schemas/VcSchemaForEndOfLifeDocuments.json'),
 VehicleBirthCertificate: require('./schemas/VehicleBirthCertificate.json'),
 chargeAndPaymentType: require('./schemas/chargeAndPaymentType.json'),
 }

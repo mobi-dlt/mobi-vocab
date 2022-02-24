@@ -1,24 +1,18 @@
 [
   {
+    "type": "chargeAndPaymentType",
+    "chargePrepaid": 215,
+    "program": "back up"
+  },
+  {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
-    "chargeCollect": 778,
-    "chargePrepaid": 71,
-    "protocol": "index",
-    "matrix": "index"
+    "chargePrepaid": 829,
+    "feed": "copy",
+    "protocol": "parse"
   },
   {
-    "interface": "transmit",
-    "protocol": "index",
-    "program": "override"
-  },
-  {
-    "chargeCollect": 237,
-    "chargePrepaid": 480,
-    "bandwidth": "bypass",
-    "microchip": "index",
-    "panel": "generate",
-    "matrix": "parse"
+    "bus": "parse"
   }
 ]

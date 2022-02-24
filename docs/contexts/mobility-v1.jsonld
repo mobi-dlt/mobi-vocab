@@ -898,6 +898,44 @@
         }
       }
     },
+    "VcSchemaForEndOfLifeDocuments": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#VcSchemaForEndOfLifeDocuments",
+      "@context": {
+        "endOfLifeDispositionType": {
+          "@id": "https://schema.org/additionalType"
+        },
+        "vid": {
+          "@id": "https://dlt.mobi/mobility-schema#VID"
+        },
+        "reason": {
+          "@id": "https://schema.org/description"
+        },
+        "eventDateTime": {
+          "@id": "https://schema.org/DateTime"
+        },
+        "dispositionGeolocation": {
+          "@id": "https://schema.org/brand"
+        },
+        "prevOwnerId": {
+          "@id": "https://schema.org/identifier"
+        },
+        "newOwnerId": {
+          "@id": "https://schema.org/text"
+        },
+        "titleNumber": {
+          "@id": "https://schema.org/PropertyValue"
+        },
+        "titleAuthority": {
+          "@id": "https://schema.org/legalName"
+        },
+        "wasteCert": {
+          "@id": "https://schema.org/productId"
+        },
+        "jurisdictionSpecificRequirement": {
+          "@id": "https://schema.org/additionalProperty"
+        }
+      }
+    },
     "VehicleBirthCertificate": {
       "@id": "https://dlt.mobi/mobility-schmea#VehicleBirthCertificate",
       "@context": {

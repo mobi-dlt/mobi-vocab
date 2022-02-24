@@ -1,0 +1,90 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForEndOfLifeDocuments.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"VcSchemaForEndOfLifeDocuments\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#VcSchemaForEndOfLifeDocuments\"}",
+    "title": "VcSchemaForEndOfLifeDocuments",
+    "description": "Attributes necessary to construct verifiable credential for end of life documents",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "endOfLifeDispositionType": {
+            "$comment": "{\"term\": \"endOfLifeDispositionType\", \"@id\": \"https://schema.org/additionalType\"}",
+            "title": "endOfLifeDispositionType",
+            "description": "the type of end of life disposition",
+            "type": "string"
+        },
+        "vid": {
+            "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility-schema#VID\"}",
+            "title": "vid",
+            "description": "Logo of the entity."
+        },
+        "reason": {
+            "$comment": "{\"term\": \"reason\", \"@id\": \"https://schema.org/description\"}",
+            "title": "reason",
+            "description": "reason for the vehicle's end of life",
+            "type": "string"
+        },
+        "eventDateTime": {
+            "$comment": "{\"term\": \"eventDateTime\", \"@id\": \"https://schema.org/DateTime\"}",
+            "title": "eventDateTime",
+            "description": "date and time of the event associated with vehicle's end of life",
+            "type": "string"
+        },
+        "dispositionGeolocation": {
+            "$comment": "{\"term\": \"dispositionGeolocation\", \"@id\": \"https://schema.org/brand\"}",
+            "title": "dispositionGeolocation",
+            "description": "the geolocation of the disposition",
+            "type": "string"
+        },
+        "prevOwnerId": {
+            "$comment": "{\"term\": \"prevOwnerId\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "chargeEndTime",
+            "description": "the ID of the previous owner(s)",
+            "type": "string"
+        },
+        "newOwnerId": {
+            "$comment": "{\"term\": \"newOwnerId\", \"@id\": \"https://schema.org/text\"}",
+            "title": "newOwnerId",
+            "description": "the Id of the new owner(s)",
+            "type": "string"
+        },
+        "titleNumber": {
+            "$comment": "{\"term\": \"titleNumber\", \"@id\": \"https://schema.org/PropertyValue\"}",
+            "title": "titleNumber",
+            "description": "the identifying number for the title",
+            "type": "string"
+        },
+        "titleAuthority": {
+            "$comment": "{\"term\": \"titleAuthority\", \"@id\": \"https://schema.org/legalName\"}",
+            "title": "titleAuthority",
+            "description": "the authority that issued that title",
+            "type": "string"
+        },
+        "wasteCert": {
+            "$comment": "{\"term\": \"wasteCert\", \"@id\": \"https://schema.org/productId\"}",
+            "title": "wasteCert",
+            "description": "the waste certificates",
+            "type": "string"
+        },
+        "jurisdictionSpecificRequirement": {
+            "$comment": "{\"term\": \"jurisdictionSpecificRequirement\", \"@id\": \"https://schema.org/additionalProperty\"}",
+            "title": "jurisdictionSpecificRequirement",
+            "description": "any metadata not captured by previous attributes",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}
