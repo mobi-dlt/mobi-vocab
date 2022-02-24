@@ -14,24 +14,24 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "Organization",
-    "name": "O'Conner - Kerluke",
-    "description": "Pre-emptive logistical forecast",
+    "name": "Padberg, Breitenberg and Hane",
+    "description": "Fully-configurable needs-based ability",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "883 Frami Mountain",
-      "addressLocality": "Bertrandfort",
-      "addressRegion": "California",
-      "postalCode": "72419",
-      "addressCountry": "Guadeloupe"
+      "streetAddress": "374 Lesly Extension",
+      "addressLocality": "Howellstad",
+      "addressRegion": "New Hampshire",
+      "postalCode": "78848",
+      "addressCountry": "Virgin Islands, U.S."
     },
-    "email": "Ron_Schoen@example.net",
-    "phoneNumber": "555-765-5053",
-    "faxNumber": "555-272-7739"
+    "email": "Marion85@example.org",
+    "phoneNumber": "555-328-6707",
+    "faxNumber": "555-128-2136"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..E06KZStjVW5ny1i5w155oHDWjEwGnF6Mz1mDcb6bA45FWMJLBbC_Oib3-8x8n7pHtb15wa_p_B_yUVeMElGGBg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Vr8I6ynhCt4SsuzID7Fe-CycMPvjlLw601_55iBuVQj_dPi9_qtbZfu-D5iEGKB0jak_ueebVf23Tu9POc34BA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

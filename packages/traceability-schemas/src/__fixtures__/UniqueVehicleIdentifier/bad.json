@@ -1,24 +1,24 @@
 [
   {
-    "feed": "hack",
-    "interface": "index",
-    "transmitter": "connect"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "port": "generate",
-    "feed": "generate"
-  },
-  {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
     "uvi": "testing...",
-    "monitor": "calculate",
-    "program": "copy",
-    "firewall": "compress",
-    "transmitter": "override"
+    "transmitter": "transmit",
+    "application": "parse",
+    "microchip": "transmit"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": "UniqueVehicleIdentifier",
+    "monitor": "navigate",
+    "panel": "index",
+    "program": "back up"
+  },
+  {
+    "uvi": "testing...",
+    "interface": "program"
   }
 ]

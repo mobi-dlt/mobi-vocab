@@ -6,80 +6,72 @@
     "type": "VID",
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "manufacturer": {
-      "type": "Person",
-      "firstName": "Manuela",
-      "lastName": "Sawayn",
-      "email": "Hilda88@example.org",
-      "phoneNumber": "555-135-8723",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Gerlach - Gislason",
-        "description": "Assimilated fresh-thinking structure",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "8206 Reilly Springs",
-          "addressLocality": "Koeppmouth",
-          "addressRegion": "Wyoming",
-          "postalCode": "70767",
-          "addressCountry": "Guinea-Bissau"
-        },
-        "email": "Dedric_Senger@example.net",
-        "phoneNumber": "555-235-4891",
-        "faxNumber": "555-295-1280"
-      },
-      "jobTitle": "Global Tactics Producer"
-    },
-    "make": "Ford",
-    "model": "Mach_E",
-    "vin": "JTERU5JR7M5861170"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "type": "VID",
-    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "manufacturer": {
       "type": "Organization",
-      "name": "Mann - Ankunding",
-      "description": "Fully-configurable asymmetric monitoring",
+      "name": "Zulauf, Turner and Hansen",
+      "description": "Upgradable optimizing projection",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "993 Preston View",
-        "addressLocality": "Pacochahaven",
-        "addressRegion": "Alabama",
-        "postalCode": "42503-4319",
-        "addressCountry": "Angola"
-      },
-      "email": "Darion1@example.org",
-      "phoneNumber": "555-902-4243",
-      "faxNumber": "555-864-8053"
-    },
-    "make": "Ford",
-    "model": "Mach_E",
-    "vin": "JTERU5JR7M5861170"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "type": "VID",
-    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "manufacturer": {
-      "type": "Organization",
-      "name": "Ward - Hilpert",
-      "description": "Future-proofed mobile interface",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "4845 Ansel Junctions",
-        "addressLocality": "Nienowmouth",
+        "streetAddress": "0867 Treutel Haven",
+        "addressLocality": "Port Jordanborough",
         "addressRegion": "Oregon",
-        "postalCode": "67135",
-        "addressCountry": "Czech Republic"
+        "postalCode": "49680-8728",
+        "addressCountry": "Micronesia"
       },
-      "email": "Coty.Koss98@example.com",
-      "phoneNumber": "555-612-6371",
-      "faxNumber": "555-881-9353"
+      "email": "Margot99@example.net",
+      "phoneNumber": "555-736-1605",
+      "faxNumber": "555-970-1854"
+    },
+    "make": "Ford",
+    "model": "Mach_E",
+    "vin": "JTERU5JR7M5861170"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": "VID",
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "manufacturer": {
+      "type": "Organization",
+      "name": "McGlynn - Hudson",
+      "description": "Persevering analyzing workforce",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "5030 Feeney Ports",
+        "addressLocality": "North Agustinamouth",
+        "addressRegion": "Virginia",
+        "postalCode": "77301-8560",
+        "addressCountry": "Mauritius"
+      },
+      "email": "Nikita_Reynolds@example.com",
+      "phoneNumber": "555-944-6621",
+      "faxNumber": "555-473-8779"
+    },
+    "make": "Ford",
+    "model": "Mach_E",
+    "vin": "JTERU5JR7M5861170"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": "VID",
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "manufacturer": {
+      "type": "Organization",
+      "name": "Becker - Pollich",
+      "description": "Profit-focused neutral utilisation",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "9494 Quentin Ports",
+        "addressLocality": "Lake Trisha",
+        "addressRegion": "New Jersey",
+        "postalCode": "09486-3683",
+        "addressCountry": "Bosnia and Herzegovina"
+      },
+      "email": "Ansley.Gorczany@example.com",
+      "phoneNumber": "555-947-9325",
+      "faxNumber": "555-250-6684"
     },
     "make": "Ford",
     "model": "Mach_E",

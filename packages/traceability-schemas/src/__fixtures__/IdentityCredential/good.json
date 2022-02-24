@@ -8,41 +8,41 @@
     "licenseNumber": "Y5327288",
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000004",
-      "otherValidationAuthorityID": "B14PQA6X",
-      "validationAuthorityEntityID": "4YFXSHQV1UGBITN1NLD8"
-    },
-    "issuanceDate": "2021-03-09",
-    "expirationDate": "2022-07-11"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "type": "IdentityCredential",
-    "legalName": "Matt Shi",
-    "licenseNumber": "Y5327288",
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000004",
-      "otherValidationAuthorityID": "V8F0GVZ0",
-      "validationAuthorityEntityID": "0V6JDXXS2Z0C1R3E1HHM"
-    },
-    "issuanceDate": "2021-03-09",
-    "expirationDate": "2022-07-11"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "type": "IdentityCredential",
-    "legalName": "Matt Shi",
-    "licenseNumber": "Y5327288",
-    "registrationAuthority": {
-      "type": "LEIauthority",
       "validationAuthorityID": "RA000005",
-      "otherValidationAuthorityID": "EO47YYSS",
-      "validationAuthorityEntityID": "93LFZVVYLGWMZ6QZ28EX"
+      "otherValidationAuthorityID": "2KBSJJSN",
+      "validationAuthorityEntityID": "BQMIVFMV8F0GVZ00V6JD"
+    },
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": "IdentityCredential",
+    "legalName": "Matt Shi",
+    "licenseNumber": "Y5327288",
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000003",
+      "otherValidationAuthorityID": "CAAUAP8L",
+      "validationAuthorityEntityID": "190WZ1F3DEO47YYSS93L"
+    },
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": "IdentityCredential",
+    "legalName": "Matt Shi",
+    "licenseNumber": "Y5327288",
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000004",
+      "otherValidationAuthorityID": "Y7VIXLZI",
+      "validationAuthorityEntityID": "69EIRHPZ5WTG8M8QJ1LW"
     },
     "issuanceDate": "2021-03-09",
     "expirationDate": "2022-07-11"

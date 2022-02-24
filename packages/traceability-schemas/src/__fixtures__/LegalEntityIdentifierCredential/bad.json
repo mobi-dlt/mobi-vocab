@@ -3,22 +3,21 @@
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
-    "firewall": "back up",
-    "microchip": "hack",
-    "circuit": "hack"
+    "leiCode": "074VNV5V98YGKZRRK0J2",
+    "certificateName": "US Legal Entity Certificate",
+    "circuit": "copy",
+    "firewall": "index"
   },
   {
-    "type": "LegalEntityIdentifierCredential",
-    "leiCode": "V98YGKZRRK0J23GCWAJE",
-    "alarm": "connect",
-    "transmitter": "index"
+    "transmitter": "calculate",
+    "interface": "override"
   },
   {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
     "type": "LegalEntityIdentifierCredential",
-    "leiCode": "D3RFY776I3ACSRK9MBSN",
-    "firewall": "generate",
-    "panel": "connect",
-    "feed": "quantify",
-    "transmitter": "hack"
+    "certificateName": "US Legal Entity Certificate",
+    "driver": "override"
   }
 ]

@@ -1,0 +1,84 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForAccidentDamageAndTheftReports.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"VcSchemaForAccidentDamageAndTheftReports\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#VcSchemaForAccidentDamageAndTheftReports\"}",
+    "title": "VcSchemaForAccidentDamageAndTheftReports",
+    "description": "Attributes necessary to construct verifiable credential for accident, damage, and theft reports",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "eventId": {
+            "$comment": "{\"term\": \"eventId\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "maintenanceType",
+            "description": "Type of maintenance as defined in ISO 18542",
+            "type": "string"
+        },
+        "vid": {
+            "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility-schema#VID\"}",
+            "title": "vid",
+            "description": "MOBI VID"
+        },
+        "reportID": {
+            "$comment": "{\"term\": \"reportID\", \"@id\": \"https://schema.org/propertyID\"}",
+            "title": "dateOfTx",
+            "description": "unique identifier for the accident/damage/event",
+            "type": "string"
+        },
+        "insuranceClaimNumber": {
+            "$comment": "{\"term\": \"insuranceClaimNumber\", \"@id\": \"https://schema.org/definedTerm\"}",
+            "title": "transactionID",
+            "description": "the number for the insurance claim",
+            "type": "string"
+        },
+        "repairOrderNumber": {
+            "$comment": "{\"term\": \"repairOrderNumber\", \"@id\": \"https://schema.org/orderNumber\"}",
+            "title": "repairOrderNumber",
+            "description": "order number for the repair",
+            "type": "string"
+        },
+        "driverID": {
+            "$comment": "{\"term\": \"driverID\", \"@id\": \"https://schema.org/additionalProperty\"}",
+            "title": "driverID",
+            "description": "unique identifier for the driver",
+            "type": "string"
+        },
+        "geolocation": {
+            "$comment": "{\"term\": \"geolocation\", \"@id\": \"https://schema.org/location\"}",
+            "title": "geolocation",
+            "description": "the vehicle's location at time of accident",
+            "type": "string"
+        },
+        "dateTime": {
+            "$comment": "{\"term\": \"dateTime\", \"@id\": \"https://schema.org/DateTime\"}",
+            "title": "dateTime",
+            "description": "the time and date of the accident/damage/event",
+            "type": "string"
+        },
+        "eventDescription": {
+            "$comment": "{\"term\": \"eventDescription\", \"@id\": \"https://schema.org/description\"}",
+            "title": "processorID",
+            "description": "identifier for the transaction processor",
+            "type": "string"
+        },
+        "jursidictionSpecificRequirement": {
+            "$comment": "{\"term\": \"otherAncillaryData\", \"@id\": \"https://schema.org/text\"}",
+            "title": "otherAncillaryData",
+            "description": "any metadata not captured by previous attributes",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}

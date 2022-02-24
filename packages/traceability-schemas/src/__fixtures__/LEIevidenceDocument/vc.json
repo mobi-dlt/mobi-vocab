@@ -14,73 +14,73 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "LEIevidenceDocument",
-    "lei": "SA9QTUFOOT3RM5GFL568",
+    "lei": "8L7JM89EML2H5Z94LPOE",
     "entity": {
       "@context": [
         "https://dlt.mobi/mobility-schema"
       ],
       "type": "LEIentity",
-      "legalName": "Padberg, Jakubowski and Kihn",
-      "legalNameLanguage": "it",
+      "legalName": "Hilll Inc",
+      "legalNameLanguage": "en_IE",
       "otherNames": [
-        "Kunze Inc",
-        "Goodwin, Collins and Metz"
+        "Oberbrunner Group",
+        "Dicki - Jacobs"
       ],
       "transliteratedOtherNames": [
-        "Kunze Inc",
-        "Goodwin, Collins and Metz"
+        "Oberbrunner Group",
+        "Dicki - Jacobs"
       ],
       "legalAddress": {
         "type": "LEIaddress",
-        "language": "fr",
+        "language": "es",
         "addressLines": [
-          "Reilly, Pouros and Armstrong",
-          "67359 Arjun Garden"
+          "Bernhard - Kihn",
+          "026 Thompson Mountains"
         ],
-        "addressNumber": "65",
-        "addressNumberWithinBuilding": "9",
-        "mailRouting": "06851 Hilll Knoll, 33604",
-        "city": "Ricoton",
-        "region": "Berkshire",
-        "country": "Yemen",
-        "postalCode": "80265-2856"
+        "addressNumber": "34",
+        "addressNumberWithinBuilding": "7",
+        "mailRouting": "6652 Hartmann Haven, 60936",
+        "city": "South Zelda",
+        "region": "Buckinghamshire",
+        "country": "Macao",
+        "postalCode": "44305-5099"
       },
       "headquartersAddress": {
         "type": "LEIaddress",
-        "language": "ne",
+        "language": "en_AU_ocker",
         "addressLines": [
-          "Feeney - Hane",
-          "93635 Isabella Well"
+          "Pollich - Roob",
+          "44870 O'Reilly Inlet"
         ],
-        "addressNumber": "96",
-        "addressNumberWithinBuilding": "7",
-        "mailRouting": "3055 Vida Club, 66721",
-        "city": "Haleighton",
+        "addressNumber": "268",
+        "addressNumberWithinBuilding": "5",
+        "mailRouting": "749 Carter Junction, 91097",
+        "city": "Runtemouth",
         "region": "Bedfordshire",
-        "country": "Kenya",
-        "postalCode": "48703"
+        "country": "Cook Islands",
+        "postalCode": "86506"
       },
       "registrationAuthority": {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000005",
-        "otherValidationAuthorityID": "ANZSHXD8",
-        "validationAuthorityEntityID": "4EZ50ZQXRJ8UOI3M93SR"
+        "validationAuthorityID": "RA000661",
+        "otherValidationAuthorityID": "93SRV4LT",
+        "validationAuthorityEntityID": "IS5P214A89CCD3CX8JIA"
       },
       "legalJurisdiction": "Berkshire",
-      "entityCategory": "Grocery",
-      "legalForm": "LLC",
+      "entityCategory": "Industrial",
+      "legalForm": "CORPORATION",
       "associatedEntity": {
         "type": "Organization",
-        "leiCode": "QVVH7J360BN8L7JM89EM",
-        "name": "Lakin, Sauer and Cronin"
+        "leiCode": "FFGPQO0ZC4T3LQCKW9R2",
+        "name": "Weissnat - Mills"
       },
-      "status": "REJECTED",
+      "status": "IN PROGRESS",
       "expirationDate": "2022-07-11",
-      "expirationReason": "streamline vertical infrastructures",
+      "expirationReason": "syndicate strategic experiences",
       "successorEntity": {
         "type": "Organization",
-        "leiCode": "A89CCD3CX8JIATEAGXLV",
-        "name": "Crooks - VonRueden"
+        "leiCode": "SHKZKUE7IXE4JTMDOVJV",
+        "name": "Schoen, Connelly and Schamberger"
       },
       "otherAddresses": []
     },
@@ -91,27 +91,27 @@
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",
       "lastUpdateDate": "2020-01-01",
-      "status": "CONFIRMED",
+      "status": "IN PROGRESS",
       "nextRenewalDate": "2021-02-02",
-      "managingLou": "AEDSFIYZOQYVODMWIXPM",
-      "validationSources": "FULLY_CORROBORATED",
+      "managingLou": "VEINYKVDRJDBMANDGZCO",
+      "validationSources": "NOT_CORROBORATED",
       "validationAuthority": [
         {
           "type": "LEIauthority",
-          "validationAuthorityID": "RA000002",
-          "otherValidationAuthorityID": "SHKZKUE7",
-          "validationAuthorityEntityID": "IXE4JTMDOVJVPT5S7AT2"
+          "validationAuthorityID": "RA000005",
+          "otherValidationAuthorityID": "7AT2BE06",
+          "validationAuthorityEntityID": "5P8CYZKNXTK4HVBXLH5L"
         }
       ]
     },
     "bic": [
-      "PXTVCIJOGG"
+      "ZDLPGDEAIQ"
     ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..9uIvTrLIufWx-LW5G2tahLtgePXpRrz_ziDTDCBspo4LxgE9i4U4A4mMWnROmnB5oPRZQU8t8a1Z7KLm-rpBBA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..FkaGdzsLRfkYc2eJ8vtvf1YQ22D-FZncig7tkAYzJo8Se03F9rvYSbLnyYY9TC2AGWyxvfm7mta9LTZr_g5FAw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

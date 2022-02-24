@@ -1,42 +1,22 @@
 [
   {
-
-
-
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "model": "Mach_E",
+    "vin": "JTERU5JR7M5861170",
+    "card": "hack",
+    "matrix": "back up"
+  },
+  {
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "vin": "JTERU5JR7M5861170",
+    "bus": "reboot",
+    "interface": "reboot",
+    "array": "navigate"
+  },
+  {
+    "vin": "JTERU5JR7M5861170",
+    "protocol": "connect",
     "hard drive": "synthesize",
-    "firewall": "compress"
-  },
-  {
-    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "bus": "generate"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "manufacturer": {
-      "type": "Organization",
-      "name": "Ward - Hilpert",
-      "description": "Future-proofed mobile interface",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "4845 Ansel Junctions",
-        "addressLocality": "Nienowmouth",
-        "addressRegion": "Oregon",
-        "postalCode": "67135",
-        "addressCountry": "Czech Republic"
-      },
-      "email": "Coty.Koss98@example.com",
-      "phoneNumber": "555-612-6371",
-      "faxNumber": "555-881-9353"
-    },
-    "capacitor": "connect",
-    "firewall": "back up"
+    "system": "program"
   }
 ]

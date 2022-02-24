@@ -2,52 +2,6 @@
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
-
-    ],
-    "type": "TotalCharge",
-    "totalPrepaid": 47.25,
-    "totalCollect": 15.75,
-    "sourceCurrency": "KMF",
-    "destinationCurrency": "HRK",
-    "currencyConversionRate": 5,
-    "chargesDestination": 636,
-    "totalCollectCharge": 159,
-    "hard drive": "back up"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "type": "TotalCharge",
-    "totalCollect": 1917,
-    "totalCollectCharge": 108,
-    "application": "hack",
-    "driver": "synthesize",
-    "microchip": "calculate"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "type": "TotalCharge",
-    "totalPrepaid": 2904,
-    "sourceCurrency": "PEN",
-    "destinationCurrency": "PYG",
-    "currencyConversionRate": 4,
-    "ccChargesDestinationCurrency": "PEN",
-    "chargesDestination": 178,
-    "monitor": "hack",
-    "circuit": "compress"
-  },
-  {
-    "totalPrepaid": 4482,
-    "totalCollectCharge": 109.75,
-    "interface": "synthesize",
-    "monitor": "compress"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
     ],
     "totalPrepaid": 4416.75,
     "totalCollect": 1472.25,
@@ -57,5 +11,30 @@
     "totalCollectCharge": 80.25,
     "bus": "reboot",
     "monitor": "generate"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "totalPrepaid": 4188,
+    "currencyConversionRate": 3,
+    "system": "compress",
+    "hard drive": "synthesize",
+    "firewall": "compress",
+    "alarm": "reboot"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "totalPrepaid": 1693.5,
+    "totalCollect": 564.5,
+    "destinationCurrency": "MZN",
+    "currencyConversionRate": 3,
+    "ccChargesDestinationCurrency": "QAR",
+    "totalCollectCharge": 82.75,
+    "port": "override",
+    "alarm": "quantify",
+    "transmitter": "compress"
   }
 ]

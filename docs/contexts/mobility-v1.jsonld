@@ -124,6 +124,23 @@
         }
       }
     },
+    "DocumentVerificationEvidence": {
+      "@id": "https://w3id.org/traceability#DocumentVerificationEvidence",
+      "@context": {
+        "verifier": {
+          "@id": "https://schema.org/Organization"
+        },
+        "evidenceDocument": {
+          "@id": "https://schema.org/DigitalDocument"
+        },
+        "subjectPresence": {
+          "@id": "https://schema.org/Person"
+        },
+        "documentPresence": {
+          "@id": "https://schema.org/PresentationDigitalDocument"
+        }
+      }
+    },
     "DriverLicense": {
       "@id": "https://dlt.mobi/mobility-schmea#DriverLicense",
       "@context": {
@@ -149,7 +166,7 @@
       "@context": {}
     },
     "EntityCertificate": {
-      "@id": "https://dlt.mobi/mobility#EntityCertificate",
+      "@id": "https://dlt.mobi/mobility-schmea#EntityCertificate",
       "@context": {
         "entityIdentifier": {
           "@id": "https://schema.org/identifier"
@@ -742,7 +759,7 @@
       }
     },
     "RevocationCertificate": {
-      "@id": "https://dlt.mobi/mobility#RevocationCertificate",
+      "@id": "https://dlt.mobi/mobility-schmea#RevocationCertificate",
       "@context": {
         "revokeHeader": {
           "@id": "https://schema.org/text"
@@ -758,6 +775,17 @@
         },
         "sigAlgId": {
           "@id": "https://schema.org/Name"
+        }
+      }
+    },
+    "RevocationList2020Status": {
+      "@id": "https://w3id.org/traceability#RevocationList2020Status",
+      "@context": {
+        "revocationListIndex": {
+          "@id": "https://schema.org/itemListElement"
+        },
+        "revocationListCredential": {
+          "@id": "https://schema.org/LinkRole"
         }
       }
     },
@@ -808,7 +836,7 @@
       }
     },
     "UniqueVehicleIdentifier": {
-      "@id": "https://dlt.mobi/mobility#UniqueVehicleIdentifier",
+      "@id": "https://dlt.mobi/mobility-schmea#UniqueVehicleIdentifier",
       "@context": {
         "uvi": {
           "@id": "https://schema.org/identifier"
@@ -835,8 +863,43 @@
         }
       }
     },
+    "VcSchemaForAccidentDamageAndTheftReports": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#VcSchemaForAccidentDamageAndTheftReports",
+      "@context": {
+        "eventId": {
+          "@id": "https://schema.org/identifier"
+        },
+        "vid": {
+          "@id": "https://dlt.mobi/mobility-schema#VID"
+        },
+        "reportID": {
+          "@id": "https://schema.org/propertyID"
+        },
+        "insuranceClaimNumber": {
+          "@id": "https://schema.org/definedTerm"
+        },
+        "repairOrderNumber": {
+          "@id": "https://schema.org/orderNumber"
+        },
+        "driverID": {
+          "@id": "https://schema.org/additionalProperty"
+        },
+        "geolocation": {
+          "@id": "https://schema.org/location"
+        },
+        "dateTime": {
+          "@id": "https://schema.org/DateTime"
+        },
+        "eventDescription": {
+          "@id": "https://schema.org/description"
+        },
+        "otherAncillaryData": {
+          "@id": "https://schema.org/text"
+        }
+      }
+    },
     "VehicleBirthCertificate": {
-      "@id": "https://dlt.mobi/mobility#VehicleBirthCertificate",
+      "@id": "https://dlt.mobi/mobility-schmea#VehicleBirthCertificate",
       "@context": {
         "certURI": {
           "@id": "https://schema.org/identifier"
@@ -875,7 +938,7 @@
           "@id": "https://schema.org/Number"
         },
         "previousVBC": {
-          "@id": "https://dlt.mobi/mobility#Text"
+          "@id": "https://dlt.mobi/mobility-schmea#Text"
         },
         "sigAlg": {
           "@id": "https://schema.org/DigitalDocument"

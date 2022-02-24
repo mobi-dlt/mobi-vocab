@@ -14,74 +14,74 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "LEIentity",
-    "legalName": "Reilly and Sons",
-    "legalNameLanguage": "en_IND",
+    "legalName": "Block, Herzog and Hyatt",
+    "legalNameLanguage": "de",
     "otherNames": [
-      "Powlowski - Rosenbaum",
-      "Wilderman, Satterfield and Upton"
+      "Lesch - Bogisich",
+      "Heller, Boehm and Bartoletti"
     ],
     "transliteratedOtherNames": [
-      "Powlowski - Rosenbaum",
-      "Wilderman, Satterfield and Upton"
+      "Lesch - Bogisich",
+      "Heller, Boehm and Bartoletti"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "de_AT",
+      "language": "en",
       "addressLines": [
-        "Flatley Inc",
-        "4627 Ora Hollow"
+        "Mante, Douglas and Pollich",
+        "16196 Sonya Coves"
       ],
-      "addressNumber": "72",
-      "addressNumberWithinBuilding": "1",
-      "mailRouting": "93055 Felicita Club, 08033",
-      "city": "North Wilbert",
-      "region": "Borders",
-      "country": "Western Sahara",
-      "postalCode": "26688-2016"
+      "addressNumber": "411",
+      "addressNumberWithinBuilding": "3",
+      "mailRouting": "59606 Quitzon Mountains, 89768-7368",
+      "city": "North Magnus",
+      "region": "Buckinghamshire",
+      "country": "Paraguay",
+      "postalCode": "55587-4460"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "de_AT",
+      "language": "hy",
       "addressLines": [
-        "Nienow, Casper and Quigley",
-        "0652 Sasha Road"
+        "Reynolds and Sons",
+        "61486 Wolf Fields"
       ],
-      "addressNumber": "298",
-      "addressNumberWithinBuilding": "10",
-      "mailRouting": "768 Moore Spurs, 40685-5587",
-      "city": "South Luella",
-      "region": "Avon",
-      "country": "Tokelau",
-      "postalCode": "51740"
+      "addressNumber": "31",
+      "addressNumberWithinBuilding": "6",
+      "mailRouting": "3718 Okuneva Square, 41507",
+      "city": "Danteborough",
+      "region": "Buckinghamshire",
+      "country": "Belarus",
+      "postalCode": "59460-1462"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000002",
-      "otherValidationAuthorityID": "Q2L8N5HV",
-      "validationAuthorityEntityID": "M7BZGCQ6VSFN1H5J0PN8"
+      "validationAuthorityID": "RA000003",
+      "otherValidationAuthorityID": "2F179UG6",
+      "validationAuthorityEntityID": "VYQEQUFMCQDRZI1JVIKL"
     },
-    "legalJurisdiction": "Buckinghamshire",
-    "entityCategory": "Finance",
+    "legalJurisdiction": "Bedfordshire",
+    "entityCategory": "Grocery",
     "legalForm": "LLC",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "KB9LSFBZG50G2OEEHZLP",
-      "name": "Kunde, O'Conner and Bode"
+      "leiCode": "Q3583ZK50HHM7PCKR0XB",
+      "name": "Kuhlman - Moen"
     },
-    "status": "REQUESTED",
+    "status": "IN PROGRESS",
     "expirationDate": "2022-07-11",
-    "expirationReason": "synergize cross-platform eyeballs",
+    "expirationReason": "engage customized schemas",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "2F179UG6VYQEQUFMCQDR",
-      "name": "Labadie, Batz and Littel"
+      "leiCode": "FN9ZLAWC7DMGMUQ84RPE",
+      "name": "Mills, Daugherty and Nader"
     },
     "otherAddresses": []
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ajMwGH_-9aDZOcvDP4QktbT5kyxG5K2RwdTsucFyb161iPztR4SP0h7a42khPzTAzrzdls4-QmIS0bU_X_zLAA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..2Y7_llwfo9lLbzRlCppR5X0TkB_4hjHpCfTu-zFRy5AZSK52sdqKcwYa1gcPdSemBHD5OSFADBAzvY6e2zF2DA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

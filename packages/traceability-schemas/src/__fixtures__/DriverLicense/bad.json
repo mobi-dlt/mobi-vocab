@@ -1,34 +1,19 @@
 [
   {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "type": "DriverLicense",
     "legalName": "Matt Shi",
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000001",
-      "otherValidationAuthorityID": "FQVJCP4Y",
-      "validationAuthorityEntityID": "5ORUMV3U3FP82ETWP52I"
-    },
-    "issuanceDate": "2021-03-09",
-    "bus": "navigate",
-    "circuit": "transmit"
+    "feed": "quantify",
+    "program": "parse",
+    "interface": "navigate"
   },
   {
-    "protocol": "generate",
-    "capacitor": "bypass",
-    "port": "generate"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
     "type": "DriverLicense",
-    "licenseNumber": "Y5327288",
+    "issuanceDate": "2021-03-09",
     "expirationDate": "2022-07-11",
-    "port": "hack",
-    "panel": "reboot",
-    "protocol": "transmit"
+    "microchip": "calculate"
+  },
+  {
+    "bus": "bypass",
+    "sensor": "back up",
+    "interface": "hack"
   }
 ]

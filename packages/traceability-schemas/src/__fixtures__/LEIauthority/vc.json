@@ -15,13 +15,13 @@
     ],
     "type": "LEIauthority",
     "validationAuthorityID": "RA000661",
-    "otherValidationAuthorityID": "LRD020TB",
-    "validationAuthorityEntityID": "DHTR9O0G59GZXF3GU5IS"
+    "otherValidationAuthorityID": "8N49VYY5",
+    "validationAuthorityEntityID": "1FQXWFUMYER9FZBEBWQ8"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..CRzrR4eyEpJE-fGHbgYelfC2lO-Y9yZRNNAAO3oDK12qE6cByTeiz4pow755AlVBNsdKwgaJyoZvIiOlPojyCQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..zPuHDqWV5gC7l7igAXH6EpeeYvYH8Dr_ufqADfgV7kkjEZqbvT2M4cT6RypB385xBDdp0rrHpVVqUufHcDsWAg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -1,23 +1,22 @@
 [
   {
-    "otherValidationAuthorityID": "LRD020TB",
-    "feed": "compress",
-    "alarm": "hack",
-    "port": "program",
-    "capacitor": "parse"
+    "validationAuthorityID": "RA000661",
+    "otherValidationAuthorityID": "8N49VYY5",
+    "validationAuthorityEntityID": "1FQXWFUMYER9FZBEBWQ8",
+    "alarm": "synthesize",
+    "array": "quantify",
+    "bus": "connect",
+    "sensor": "generate"
+  },
+  {
+    "type": "LEIauthority",
+    "validationAuthorityID": "RA000001",
+    "system": "quantify"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
-    "otherValidationAuthorityID": "51FQXWFU",
-    "matrix": "hack",
-    "microchip": "override",
-    "bus": "bypass"
-  },
-  {
-    "validationAuthorityID": "RA000003",
-    "validationAuthorityEntityID": "MS4A1WXYM6SGH04L4LO8",
-    "protocol": "calculate"
+    "monitor": "connect"
   }
 ]
