@@ -936,6 +936,59 @@
         }
       }
     },
+    "VcSchemaForInspectionsReport": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#VcSchemaForInspectionsReport",
+      "@context": {
+        "dateTime": {
+          "@id": "https://schema.org/DateTime"
+        },
+        "serviceProviderEntityId": {
+          "@id": "https://schema.org/identifier"
+        },
+        "serviceProviderName": {
+          "@id": "https://schema.org/name"
+        },
+        "serviceInspectorId": {
+          "@id": "https://schema.org/text"
+        },
+        "inspectionType": {
+          "@id": "https://schema.org/additionalType"
+        },
+        "inspectionGeolocation": {
+          "@id": "https://schema.org/location"
+        },
+        "vehicleType": {
+          "@id": "https://schema.org/Vehicle"
+        },
+        "requestedAction": {
+          "@id": "https://schema.org/description"
+        },
+        "vin": {
+          "@id": "https://schema.org/vehicleIdentificationNumber"
+        },
+        "inspectionOutcome": {
+          "@id": "https://schema.org/result"
+        },
+        "inspectionCertId": {
+          "@id": "https://schema.org/propertyId"
+        },
+        "certIssuer": {
+          "@id": "https://schema.org/mainEntity"
+        },
+        "certExpDate": {
+          "@id": "https://schema.org/endDate"
+        },
+        "inspectionDetails": {
+          "@id": "https://schema.org/Observation"
+        },
+        "inspectionComment": {
+          "@id": "https://schema.org/Comment"
+        },
+        "jurisdictionSpecificRequirement": {
+          "@id": "https://schema.org/additionalProperty"
+        }
+      }
+    },
     "VehicleBirthCertificate": {
       "@id": "https://dlt.mobi/mobility-schmea#VehicleBirthCertificate",
       "@context": {

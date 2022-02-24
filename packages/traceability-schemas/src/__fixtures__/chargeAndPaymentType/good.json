@@ -4,23 +4,23 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "chargeAndPaymentType",
-    "chargeCollect": 801,
-    "chargePrepaid": 215
+    "chargeCollect": 281,
+    "chargePrepaid": 182
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "chargeAndPaymentType",
-    "chargeCollect": 138,
-    "chargePrepaid": 829
+    "chargeCollect": 824,
+    "chargePrepaid": 718
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "chargeAndPaymentType",
-    "chargeCollect": 218,
-    "chargePrepaid": 178
+    "chargeCollect": 353,
+    "chargePrepaid": 579
   }
 ]
