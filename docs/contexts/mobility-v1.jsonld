@@ -989,6 +989,32 @@
         }
       }
     },
+    "VcSchemaForMileage": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas/#VcSchemaForMileage",
+      "@context": {
+        "odometerReading": {
+          "@id": "https://schema.org/mileageFromOdometer"
+        },
+        "unit": {
+          "@id": "https://schema.org/odometerReading"
+        },
+        "dateTime": {
+          "@id": "https://schema.org/DateTime"
+        },
+        "reportingAgencySource": {
+          "@id": "https://schema.org/identifier"
+        },
+        "technicalSource": {
+          "@id": "https://schema.org/description"
+        },
+        "trigger": {
+          "@id": "https://schema.org/text"
+        },
+        "jurisdictionSpecificRequirement": {
+          "@id": "https://schema.org/additionalProperty"
+        }
+      }
+    },
     "VehicleBirthCertificate": {
       "@id": "https://dlt.mobi/mobility-schmea#VehicleBirthCertificate",
       "@context": {
