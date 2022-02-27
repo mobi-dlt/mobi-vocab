@@ -989,6 +989,95 @@
         }
       }
     },
+    "VcSchemaForInsuranceClaimsAndPolicies": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#VcSchemaForInsuranceClaimsAndPolicies",
+      "@context": {
+        "driverId": {
+          "@id": "https://schema.org/identifier"
+        },
+        "driverName": {
+          "@id": "https://schema.org/name"
+        },
+        "driverPostalAddress": {
+          "@id": "https://schema.org/PostalAddress"
+        },
+        "driverOccupation": {
+          "@id": "https://schema.org/Occupation"
+        },
+        "financialAccount": {
+          "@id": "https://schema.org/accountId"
+        },
+        "insuranceClaimNumber": {
+          "@id": "https://schema.org/propertyId"
+        },
+        "insuranceCompany": {
+          "@id": "https://schema.org/InsuranceAgency"
+        },
+        "insurancePolicyNumber": {
+          "@id": "https://schema.org/productId"
+        },
+        "counterpartInsurancePolicyNumber": {
+          "@id": "https://schema.org/Number"
+        },
+        "counterpartInsuranceCompany": {
+          "@id": "https://schema.org/Organization"
+        },
+        "insuranceType": {
+          "@id": "https://schema.org/serviceType"
+        },
+        "vid": {
+          "@id": "https://dlt.mobi/mobility-schema#VID"
+        },
+        "dateTime": {
+          "@id": "https://schema.org/DateTime"
+        },
+        "geolocation": {
+          "@id": "https://schema.org/location"
+        },
+        "participantType": {
+          "@id": "https://schema.org/participant"
+        },
+        "numberOfParticipants": {
+          "@id": "https://schema.org/Quantity"
+        },
+        "otherParticipantInformation": {
+          "@id": "https://schema.org/description"
+        },
+        "claimType": {
+          "@id": "https://schema.org/category"
+        },
+        "textualDescription": {
+          "@id": "https://schema.org/text"
+        },
+        "policeReportNumber": {
+          "@id": "https://schema.org/reportNumber"
+        },
+        "damageValue": {
+          "@id": "https://schema.org/amount"
+        },
+        "repairDurationInDays": {
+          "@id": "https://schema.org/Duration"
+        },
+        "repairFacilityId": {
+          "@id": "https://schema.org/LocalBusiness"
+        },
+        "fault": {
+          "@id": "https://schema.org/about"
+        },
+        "carrier": {
+          "@id": "https://schema.org/ProptertyValue"
+        },
+        "policyNumber": {
+          "@id": "https://schema.org/FinancialProduct"
+        },
+        "effectiveDate": {
+          "@id": "https://schema.org/startDate"
+        },
+        "jurisdictionSpecificRequirement": {
+          "@id": "https://schema.org/additionalProperty"
+        }
+      }
+    },
     "VcSchemaForMileage": {
       "@id": "https://dlt.mobi/mobility-schema/schemas/#VcSchemaForMileage",
       "@context": {

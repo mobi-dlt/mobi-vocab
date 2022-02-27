@@ -1,28 +1,22 @@
 [
   {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "matrix": "input",
-    "alarm": "program",
-    "microchip": "copy"
+    "panel": "transmit",
+    "array": "compress"
+  },
+  {
+    "type": "chargeAndPaymentType",
+    "chargeCollect": 800,
+    "hard drive": "input",
+    "bus": "quantify"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "chargeAndPaymentType",
-    "chargeCollect": 54,
-    "matrix": "input",
-    "circuit": "reboot",
-    "array": "back up"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "chargeCollect": 203,
-    "sensor": "synthesize",
-    "bus": "calculate"
+    "chargeCollect": 798,
+    "driver": "override",
+    "port": "override",
+    "firewall": "program"
   }
 ]

@@ -1,0 +1,192 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForInsuranceClaimsAndPolicies.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"VcSchemaForInsuranceClaimsAndPolicies\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#VcSchemaForInsuranceClaimsAndPolicies\"}",
+    "title": "VcSchemaForInsuranceClaimsAndPolicies",
+    "description": "Attributes necessary to construct verifiable credential for insurance claims and policies",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "driverId": {
+            "$comment": "{\"term\": \"driverId\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "driverId",
+            "description": "unique identifier for the driver",
+            "type": "string"
+        },
+        "driverName": {
+            "$comment": "{\"term\": \"driverName\", \"@id\": \"https://schema.org/name\"}",
+            "title": "driverName",
+            "description": "the driver's full name",
+            "type": "string"
+        },
+        "driverPostalAddress": {
+            "$comment": "{\"term\": \"driverPostalAddress\", \"@id\": \"https://schema.org/PostalAddress\"}",
+            "title": "driverPostalAddress",
+            "description": "the driver's postal address",
+            "type": "string"
+        },
+        "driverOccupation": {
+            "$comment": "{\"term\": \"driverOccupation\", \"@id\": \"https://schema.org/Occupation\"}",
+            "title": "driverOccupation",
+            "description": "the driver's occupation",
+            "type": "string"
+        },
+        "financialAccount": {
+            "$comment": "{\"term\": \"financialAccount\", \"@id\": \"https://schema.org/accountId\"}",
+            "title": "financialAccount",
+            "description": "the financial account or wallet information",
+            "type": "string"
+        },
+        "insuranceClaimNumber": {
+            "$comment": "{\"term\": \"insuranceClaimNumber\", \"@id\": \"https://schema.org/propertyId\"}",
+            "title": "insuranceClaimNumber",
+            "description": "the identification number associated with the insurance claim",
+            "type": "string"
+        },
+        "insuranceCompany": {
+            "$comment": "{\"term\": \"insuranceCompany\", \"@id\": \"https://schema.org/InsuranceAgency\"}",
+            "title": "insuranceCompany",
+            "description": "the name of the insurance company",
+            "type": "string"
+        },
+        "insurancePolicyNumber": {
+            "$comment": "{\"term\": \"insurancePolicyNumber\", \"@id\": \"https://schema.org/productId\"}",
+            "title": "insurancePolicyNumber",
+            "description": "the identification number associated with the insurance policy",
+            "type": "string"
+        },
+        "counterpartInsurancePolicyNumber": {
+            "$comment": "{\"term\": \"counterpartInsurancePolicyNumber\", \"@id\": \"https://schema.org/Number\"}",
+            "title": "counterpartInsurancePolicyNumber",
+            "description": "counterpart's insurance policy number",
+            "type": "string"
+        },
+        "counterpartInsuranceCompany": {
+            "$comment": "{\"term\": \"counterpartInsuranceCompany\", \"@id\": \"https://schema.org/Organization\"}",
+            "title": "counterpartInsuranceCompany",
+            "description": "name of the counterpart's insurance company",
+            "type": "string"
+        },
+        "insuranceType": {
+            "$comment": "{\"term\": \"insuranceType\", \"@id\": \"https://schema.org/serviceType\"}",
+            "title": "insuranceType",
+            "description": "the type of insurance held by the driver",
+            "type": "string"
+        },
+        "vid": {
+            "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility-schema#VID\"}",
+            "title": "vid",
+            "description": "MOBI VID of the vehicle."
+        },
+        "dateTime": {
+            "$comment": "{\"term\": \"dateTime\", \"@id\": \"https://schema.org/DateTime\"}",
+            "title": "dateTime",
+            "description": "the time and date of the accident/damage/event",
+            "type": "string"
+        },
+        "geolocation": {
+            "$comment": "{\"term\": \"geolocation\", \"@id\": \"https://schema.org/location\"}",
+            "title": "geolocation",
+            "description": "the vehicle's location at time of accident",
+            "type": "string"
+        },
+        "participantType": {
+            "$comment": "{\"term\": \"participantType\", \"@id\": \"https://schema.org/participant\"}",
+            "title": "participantType",
+            "description": "the type of participant",
+            "type": "string"
+        },
+        "numberOfParticipants": {
+            "$comment": "{\"term\": \"numberOfParticipants\", \"@id\": \"https://schema.org/Quantity\"}",
+            "title": "numberOfParticipants",
+            "description": "the number of participants",
+            "type": "string"
+        },
+        "otherParticipantInformation": {
+            "$comment": "{\"term\": \"otherParticipantInformation\", \"@id\": \"https://schema.org/description\"}",
+            "title": "otherParticipantInformation",
+            "description": "the information, like EID, VID, or policy information associated with other participants",
+            "type": "string"
+        },
+        "claimType": {
+            "$comment": "{\"term\": \"claimType\", \"@id\": \"https://schema.org/category\"}",
+            "title": "claimType",
+            "description": "the type of claim",
+            "type": "string"
+        },
+        "textualDescription": {
+            "$comment": "{\"term\": \"textualDescription\", \"@id\": \"https://schema.org/text\"}",
+            "title": "textualDescription",
+            "description": "text description",
+            "type": "string"
+        },
+        "policeReportNumber": {
+            "$comment": "{\"term\": \"policeReportNumber\", \"@id\": \"https://schema.org/reportNumber\"}",
+            "title": "policeReportNumber",
+            "description": "the number of the police report associated with accident",
+            "type": "string"
+        },
+        "damageValue": {
+            "$comment": "{\"term\": \"damageValue\", \"@id\": \"https://schema.org/amount\"}",
+            "title": "damageValue",
+            "description": "the cost of the damage",
+            "type": "integer"
+        },
+        "repairDurationInDays": {
+            "$comment": "{\"term\": \"repairDurationInDays\", \"@id\": \"https://schema.org/Duration\"}",
+            "title": "repairDurationInDays",
+            "description": "the number of days required to complete the repair",
+            "type": "integer"
+        },
+        "repairFacilityId": {
+            "$comment": "{\"term\": \"repairFacilityId\", \"@id\": \"https://schema.org/LocalBusiness\"}",
+            "title": "repairFacilityId",
+            "description": "the ID of the repair facility",
+            "type": "integer"
+        },
+        "fault": {
+            "$comment": "{\"term\": \"fault\", \"@id\": \"https://schema.org/about\"}",
+            "title": "fault",
+            "description": "overview of the fault outcomes of the accident",
+            "type": "string"
+        },
+        "carrier": {
+            "$comment": "{\"term\": \"carrier\", \"@id\": \"https://schema.org/ProptertyValue\"}",
+            "title": "carrier",
+            "description": "carrier associated with the policy",
+            "type": "string"
+        },
+        "policyNumber": {
+            "$comment": "{\"term\": \"policyNumber\", \"@id\": \"https://schema.org/FinancialProduct\"}",
+            "title": "policyNumber",
+            "description": "the policy identifying number",
+            "type": "string"
+        },
+        "effectiveDate": {
+            "$comment": "{\"term\": \"effectiveDate\", \"@id\": \"https://schema.org/startDate\"}",
+            "title": "effectiveDate",
+            "description": "the policy identifying number",
+            "type": "string"
+        },
+        "jurisdictionSpecificRequirement": {
+            "$comment": "{\"term\": \"jurisdictionSpecificRequirement\", \"@id\": \"https://schema.org/additionalProperty\"}",
+            "title": "jurisdictionSpecificRequirement",
+            "description": "any metadata not captured by previous attributes",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}
