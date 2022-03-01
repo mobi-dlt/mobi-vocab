@@ -1104,6 +1104,14 @@
         }
       }
     },
+    "VcSchemaForOwnersTitlesAndBordersDocs": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#VcSchemaForOwnersTitlesAndBordersDocs",
+      "@context": {
+        "titleType": {
+          "@id": "https://schema.org/additionalType"
+        }
+      }
+    },
     "VehicleBirthCertificate": {
       "@id": "https://dlt.mobi/mobility-schmea#VehicleBirthCertificate",
       "@context": {
