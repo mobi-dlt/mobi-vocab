@@ -10,35 +10,13 @@
     "productionDate": "01/01/2021",
     "engineCode": "None",
     "engineSerialNumber": "DJ51279",
+    "fuelType": "unleaded gasoline",
+    "issuer": "did:mobi:c276e14rc81ebfeb1f782ebd6e",
+    "manufacturer": "Ford",
     "model": "Taurus",
     "plantCode": "H",
     "previousVBC": "0LmbSknoaLjkVnPkFQt5N3LxJydTOKS9o4ITgEjo9IqYnMh7gPPLZJ5U0zEXlJ5j",
     "sigAlg": "ECDSA",
-    "transmissionSerialNumber": "6F00001",
-    "trimType": "SE",
-    "panel": "transmit",
-    "array": "compress"
-  },
-  {
-    "colorOemCode": "Bl",
-    "fuelType": "unleaded gasoline",
-    "modelYear": "2015",
-    "transmissionSerialNumber": "6F00001",
-    "program": "generate",
-    "bus": "generate"
-  },
-  {
-    "type": "VehicleBirthCertificate",
-    "certURI": "dOQKyOs1nUfj5svRato3bCM1XUOpGpxeBnLZDHiLUswgkHh55lyIuZmpTBGG4ixr",
-    "colorOemCode": "Bl",
-    "countryOfOrigin": "United States of America",
-    "engineCode": "None",
-    "engineSerialNumber": "DJ51279",
-    "fuelType": "unleaded gasoline",
-    "issuer": "did:mobi:c276e14rc81ebfeb1f782ebd6e",
-    "manufacturer": "Ford",
-    "plantCode": "H",
-    "previousVBC": "0LmbSknoaLjkVnPkFQt5N3LxJydTOKS9o4ITgEjo9IqYnMh7gPPLZJ5U0zEXlJ5j",
     "transmissionSerialNumber": "6F00001",
     "trimType": "SE",
     "uvi": "36h948q767wuxUlzLk2dAIzWWVgTTN8X9F8nmr7upRgRdL4VomOqJLOg4ftP3Gkg",
@@ -47,5 +25,31 @@
     "protocol": "calculate",
     "interface": "input",
     "program": "hack"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "certURI": "dOQKyOs1nUfj5svRato3bCM1XUOpGpxeBnLZDHiLUswgkHh55lyIuZmpTBGG4ixr",
+    "countryOfOrigin": "United States of America",
+    "productionDate": "01/01/2021",
+    "fuelType": "unleaded gasoline",
+    "manufacturer": "Ford",
+    "modelYear": "2015",
+    "plantCode": "H",
+    "previousVBC": "0LmbSknoaLjkVnPkFQt5N3LxJydTOKS9o4ITgEjo9IqYnMh7gPPLZJ5U0zEXlJ5j",
+    "sigAlg": "ECDSA",
+    "transmissionSerialNumber": "6F00001",
+    "trimType": "SE",
+    "uvi": "36h948q767wuxUlzLk2dAIzWWVgTTN8X9F8nmr7upRgRdL4VomOqJLOg4ftP3Gkg",
+    "vin": "JTERU5JR7M5861170",
+    "program": "reboot",
+    "capacitor": "back up"
+  },
+  {
+    "engineSerialNumber": "DJ51279",
+    "pixel": "synthesize",
+    "matrix": "reboot",
+    "application": "navigate"
   }
 ]

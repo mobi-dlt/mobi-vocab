@@ -1,23 +1,15 @@
 [
   {
-    "chargePrepaid": 464,
-    "sensor": "compress",
-    "capacitor": "parse"
+    "microchip": "back up",
+    "array": "calculate",
+    "firewall": "compress",
+    "pixel": "synthesize"
   },
   {
-    "type": "chargeAndPaymentType",
-    "chargePrepaid": 946,
-    "program": "transmit",
-    "circuit": "quantify",
-    "sensor": "input"
+    "chargeCollect": 912,
+    "alarm": "back up"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "type": "chargeAndPaymentType",
-    "chargePrepaid": 706,
-    "application": "index",
-    "firewall": "quantify"
+    "transmitter": "back up"
   }
 ]

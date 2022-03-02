@@ -1171,6 +1171,32 @@
         }
       }
     },
+    "VcSchemaForPaymentsAndTxReceipts": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#VcSchemaForPaymentsAndTxReceipts",
+      "@context": {
+        "eventId": {
+          "@id": "https://schema.org/identifier"
+        },
+        "vid": {
+          "@id": "https://dlt.mobi/mobility-schema#VID"
+        },
+        "dateOfTx": {
+          "@id": "https://schema.org/Date"
+        },
+        "transactionId": {
+          "@id": "https://schema.org/propertyId"
+        },
+        "geolocation": {
+          "@id": "https://schema.org/location"
+        },
+        "transactionAmount": {
+          "@id": "https://schema.org/amount"
+        },
+        "otherInfo": {
+          "@id": "https://schema.org/description"
+        }
+      }
+    },
     "VehicleBirthCertificate": {
       "@id": "https://dlt.mobi/mobility-schmea#VehicleBirthCertificate",
       "@context": {

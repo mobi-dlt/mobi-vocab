@@ -1,0 +1,66 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForPaymentsAndTxReceipts.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"VcSchemaForPaymentsAndTxReceipts\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#VcSchemaForPaymentsAndTxReceipts\"}",
+    "title": "VcSchemaForPaymentsAndTxReceipts",
+    "description": "Attributes necessary to construct verifiable credential for payments and transaction receipts",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "eventId": {
+            "$comment": "{\"term\": \"eventId\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "eventId",
+            "description": "Type of maintenance as defined in ISO 18542",
+            "type": "string"
+        },
+        "vid": {
+            "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility-schema#VID\"}",
+            "title": "vid",
+            "description": "Logo of the entity."
+        },
+        "dateOfTx": {
+            "$comment": "{\"term\": \"dateOfTx\", \"@id\": \"https://schema.org/Date\"}",
+            "title": "dateOfTx",
+            "description": "date of transaction",
+            "type": "string"
+        },
+        "transactionId": {
+            "$comment": "{\"term\": \"transactionId\", \"@id\": \"https://schema.org/propertyId\"}",
+            "title": "transactionId",
+            "description": "transaction ID",
+            "type": "string"
+        },
+        "geolocation": {
+            "$comment": "{\"term\": \"geolocation\", \"@id\": \"https://schema.org/location\"}",
+            "title": "geolocation",
+            "description": "the vehicle's location at time of tx",
+            "type": "string"
+        },
+        "transactionAmount": {
+            "$comment": "{\"term\": \"transactionAmount\", \"@id\": \"https://schema.org/amount\"}",
+            "title": "transactionAmount",
+            "description": "quantity of money being transacted",
+            "type": "string"
+        },
+        "otherInfo": {
+            "$comment": "{\"term\": \"otherInfo\", \"@id\": \"https://schema.org/description\"}",
+            "title": "otherInfo",
+            "description": "any remaining contextual information",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}
