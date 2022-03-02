@@ -46,6 +46,7 @@ VcSchemaForInspectionsReport: require('./schemas/VcSchemaForInspectionsReport.js
 VcSchemaForInsuranceClaimsAndPolicies: require('./schemas/VcSchemaForInsuranceClaimsAndPolicies.json'),
 VcSchemaForMileage: require('./schemas/VcSchemaForMileage.json'),
 VcSchemaForOwnersTitlesAndBorderDocs: require('./schemas/VcSchemaForOwnersTitlesAndBorderDocs.json'),
+VcSchemaForPartsReplacementReport: require('./schemas/VcSchemaForPartsReplacementReport.json'),
 VehicleBirthCertificate: require('./schemas/VehicleBirthCertificate.json'),
 chargeAndPaymentType: require('./schemas/chargeAndPaymentType.json'),
 }

@@ -1112,6 +1112,65 @@
         }
       }
     },
+    "VcSchemaForPartsReplacementReport": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#VcSchemaForPartsReplacementReport",
+      "@context": {
+        "dateTime": {
+          "@id": "https://schema.org/DateTime"
+        },
+        "serviceProviderEntityId": {
+          "@id": "https://schema.org/identifier"
+        },
+        "geolocation": {
+          "@id": "https://schema.org/location"
+        },
+        "estimateNumber": {
+          "@id": "https://schema.org/amount"
+        },
+        "invoiceNumber": {
+          "@id": "https://schema.org/accountId"
+        },
+        "oldPartNumber": {
+          "@id": "https://schema.org/productId"
+        },
+        "oldPartSerialNumber": {
+          "@id": "https://schema.org/serialNumber"
+        },
+        "oldPartManufacturer": {
+          "@id": "https://schema.org/manufacturer"
+        },
+        "oldPartCondition": {
+          "@id": "https://schema.org/itemCondition"
+        },
+        "finalPartNumber": {
+          "@id": "https://schema.org/item"
+        },
+        "finalPartSerialNumber": {
+          "@id": "https://schema.org/description"
+        },
+        "finalPartManufacturer": {
+          "@id": "https://schema.org/Organization"
+        },
+        "partRepairedOrReplaced": {
+          "@id": "https://schema.org/status"
+        },
+        "aftermarketLikeNewPart": {
+          "@id": "https://schema.org/text"
+        },
+        "reasonForReplacement": {
+          "@id": "https://schema.org/review"
+        },
+        "oldSoftwareVersion": {
+          "@id": "https://schema.org/version"
+        },
+        "newSoftwareVersion": {
+          "@id": "https://schema.org/softwareVersion"
+        },
+        "jurisdictionSpecificRequirement": {
+          "@id": "https://schema.org/additionalProperty"
+        }
+      }
+    },
     "VehicleBirthCertificate": {
       "@id": "https://dlt.mobi/mobility-schmea#VehicleBirthCertificate",
       "@context": {

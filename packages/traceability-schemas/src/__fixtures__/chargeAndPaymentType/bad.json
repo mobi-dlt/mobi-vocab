@@ -1,22 +1,23 @@
 [
   {
-    "panel": "transmit",
-    "array": "compress"
+    "chargePrepaid": 464,
+    "sensor": "compress",
+    "capacitor": "parse"
   },
   {
     "type": "chargeAndPaymentType",
-    "chargeCollect": 800,
-    "hard drive": "input",
-    "bus": "quantify"
+    "chargePrepaid": 946,
+    "program": "transmit",
+    "circuit": "quantify",
+    "sensor": "input"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "chargeAndPaymentType",
-    "chargeCollect": 798,
-    "driver": "override",
-    "port": "override",
-    "firewall": "program"
+    "chargePrepaid": 706,
+    "application": "index",
+    "firewall": "quantify"
   }
 ]

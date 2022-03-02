@@ -4,7 +4,7 @@ const getVcSchemaForOwnersTitlesAndBordersDocs = () => {
     const example = {
         '@context': ['https://dlt.mobi/mobility-schemas'],
         type: 'VcSchemaForOwnersTitlesAndBordersDocs',
-        titleType: 'test'//,
+        titleType: 'test'// ,
         // status: 'test'// ,
         // brands: 'test',
         // titleJurisdiction: 'test',
@@ -37,7 +37,6 @@ const getVcSchemaForOwnersTitlesAndBordersDocs = () => {
 };
 
 module.exports = { getVcSchemaForOwnersTitlesAndBordersDocs };
-
 
 /**
  *  Need to ask Matt what to do.. issue with not generating the fixtures...
