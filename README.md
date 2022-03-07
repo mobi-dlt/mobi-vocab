@@ -11,7 +11,7 @@ Credentials related to mobility information, such as vehicle ideneity,
 This repo is based on the [W3C traceability vocab](https://github.com/w3c-ccg/traceability-vocab). Mobility specific vocabulary and schemas are created based on MOBI standards. This repo provides sample verifiable credentials for members who want to implement MOBI standards. 
 
 We encourage contributions meeting the [Contribution
-Guidelines](CONTRIBUTING.md). 
+Guidelines](CONTRIBUTING.md). Detaield License information can be found in [License.md](https://github.com/mobi-dlts/mobi-vocab/blob/main/LICENSE.md)
 
 
 ## Testing 
@@ -270,6 +270,20 @@ data so as to avoid unnecessary changes in the repository on build.
 
 Some useful environment variables to make testing, generation, and validation
 stricter or more verbose are detailed here:
+
+## License
+
+Detaield License information can be found in [License.md](https://github.com/mobi-dlts/mobi-vocab/blob/main/LICENSE.md)
+
+All Reports in this Repository are licensed by Contributors under the [W3C Software and Document
+License](https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document).
+
+Contributions to Specifications are made under the
+[W3C CLA](https://www.w3.org/community/about/agreements/cla/).
+
+Contributions to Software, including sample implementations, are under the
+[Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
+
 
 ```
 VERBOSE_BUILD=true        # sets general verbosity levels up when building
