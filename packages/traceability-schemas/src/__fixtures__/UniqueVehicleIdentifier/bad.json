@@ -1,24 +1,20 @@
 [
   {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
     "uvi": "testing...",
-    "transmitter": "transmit",
-    "application": "parse",
-    "microchip": "transmit"
+    "capacitor": "calculate",
+    "interface": "quantify"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
+    "uvi": "testing...",
+    "alarm": "input",
+    "monitor": "index",
+    "feed": "synthesize",
+    "panel": "index"
+  },
+  {
     "type": "UniqueVehicleIdentifier",
-    "monitor": "navigate",
-    "panel": "index",
-    "program": "back up"
-  },
-  {
-    "uvi": "testing...",
-    "interface": "program"
+    "bus": "reboot",
+    "interface": "reboot",
+    "array": "navigate"
   }
 ]

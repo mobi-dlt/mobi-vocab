@@ -3,21 +3,19 @@
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
-    "leiCode": "074VNV5V98YGKZRRK0J2",
-    "certificateName": "US Legal Entity Certificate",
-    "circuit": "copy",
-    "firewall": "index"
+    "leiCode": "GTED3RFY776I3ACSRK9M",
+    "microchip": "reboot",
+    "circuit": "generate"
   },
   {
-    "transmitter": "calculate",
-    "interface": "override"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
     "type": "LegalEntityIdentifierCredential",
+    "leiCode": "I5GPKS5BMUDWW96ZI5L7",
     "certificateName": "US Legal Entity Certificate",
-    "driver": "override"
+    "circuit": "input",
+    "alarm": "transmit"
+  },
+  {
+    "certificateName": "US Legal Entity Certificate",
+    "matrix": "program"
   }
 ]

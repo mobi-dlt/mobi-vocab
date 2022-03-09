@@ -14,13 +14,16 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "GeoCoordinates",
-    "latitude": "-57.4965",
-    "longitude": "20.0904"
+    "latitude": "-83.3387",
+    "longitude": "54.0603",
+    "elevation": "5000 ft",
+    "timestamp": "2021-08-04T06:20:18.175Z",
+    "description": "geo coordinates"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..V7ojNiDJlA-nrj_sOHXI04dkLiHE6ntSVBJ0P-ohRBslPg-MZTGZbi52J33a989Au8nVGrBfMk_v-hWR_-ThCg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..GJHb1vW2dLylYN76X0XftqNESX2N4YGn4zlOblS7y5ER5N8olnypNaioRJRai3GX_jNj753r1yG5TDsmdUwWBA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

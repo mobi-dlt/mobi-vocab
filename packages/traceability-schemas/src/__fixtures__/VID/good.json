@@ -7,58 +7,6 @@
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "manufacturer": {
       "type": "Organization",
-      "name": "Zulauf, Turner and Hansen",
-      "description": "Upgradable optimizing projection",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "0867 Treutel Haven",
-        "addressLocality": "Port Jordanborough",
-        "addressRegion": "Oregon",
-        "postalCode": "49680-8728",
-        "addressCountry": "Micronesia"
-      },
-      "email": "Margot99@example.net",
-      "phoneNumber": "555-736-1605",
-      "faxNumber": "555-970-1854"
-    },
-    "make": "Ford",
-    "model": "Mach_E",
-    "vin": "JTERU5JR7M5861170"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "type": "VID",
-    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "manufacturer": {
-      "type": "Organization",
-      "name": "McGlynn - Hudson",
-      "description": "Persevering analyzing workforce",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "5030 Feeney Ports",
-        "addressLocality": "North Agustinamouth",
-        "addressRegion": "Virginia",
-        "postalCode": "77301-8560",
-        "addressCountry": "Mauritius"
-      },
-      "email": "Nikita_Reynolds@example.com",
-      "phoneNumber": "555-944-6621",
-      "faxNumber": "555-473-8779"
-    },
-    "make": "Ford",
-    "model": "Mach_E",
-    "vin": "JTERU5JR7M5861170"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "type": "VID",
-    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "manufacturer": {
-      "type": "Organization",
       "name": "Becker - Pollich",
       "description": "Profit-focused neutral utilisation",
       "address": {
@@ -72,6 +20,58 @@
       "email": "Ansley.Gorczany@example.com",
       "phoneNumber": "555-947-9325",
       "faxNumber": "555-250-6684"
+    },
+    "make": "Ford",
+    "model": "Mach_E",
+    "vin": "JTERU5JR7M5861170"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": "VID",
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "manufacturer": {
+      "type": "Organization",
+      "name": "McCullough LLC",
+      "description": "Persistent asynchronous forecast",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "706 Jace Drive",
+        "addressLocality": "Klockofort",
+        "addressRegion": "Ohio",
+        "postalCode": "95649-4815",
+        "addressCountry": "Mexico"
+      },
+      "email": "America6@example.com",
+      "phoneNumber": "555-850-3493",
+      "faxNumber": "555-678-9291"
+    },
+    "make": "Ford",
+    "model": "Mach_E",
+    "vin": "JTERU5JR7M5861170"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": "VID",
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "manufacturer": {
+      "type": "Organization",
+      "name": "Harvey and Sons",
+      "description": "Business-focused global utilisation",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "861 Polly Isle",
+        "addressLocality": "Port Priscilla",
+        "addressRegion": "Connecticut",
+        "postalCode": "20286-6696",
+        "addressCountry": "Democratic People's Republic of Korea"
+      },
+      "email": "Reagan_Ortiz93@example.com",
+      "phoneNumber": "555-946-8626",
+      "faxNumber": "555-798-1561"
     },
     "make": "Ford",
     "model": "Mach_E",

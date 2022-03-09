@@ -3,26 +3,33 @@
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
-    "identifier": "testing...",
+    "type": "RevocationCertificate",
     "revokeHeader": "testing...",
     "issuer": "testing...",
-    "program": "hack",
-    "array": "calculate",
-    "bandwidth": "quantify"
-  },
-  {
-    "revokeHeader": "testing...",
     "signature": "testing...",
     "sigAlgId": "testing...",
-    "protocol": "compress"
+    "alarm": "transmit",
+    "driver": "reboot"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
+    "revokeHeader": "testing...",
     "issuer": "testing...",
     "signature": "testing...",
     "sigAlgId": "testing...",
-    "monitor": "parse"
+    "protocol": "program"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "revokeHeader": "testing...",
+    "sigAlgId": "testing...",
+    "bus": "bypass",
+    "hard drive": "calculate",
+    "matrix": "bypass",
+    "system": "navigate"
   }
 ]

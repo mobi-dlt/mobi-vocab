@@ -14,32 +14,32 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "Person",
-    "firstName": "Darrin",
-    "lastName": "Senger",
-    "email": "Queenie_Greenfelder@example.org",
-    "phoneNumber": "555-516-7425",
+    "firstName": "Maria",
+    "lastName": "Borer",
+    "email": "Marquis_Baumbach@example.org",
+    "phoneNumber": "555-942-9676",
     "worksFor": {
       "type": "Organization",
-      "name": "Kirlin, Kling and McGlynn",
-      "description": "Stand-alone modular knowledge user",
+      "name": "Marquardt Group",
+      "description": "Triple-buffered tertiary throughput",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "91429 McCullough Brook",
-        "addressLocality": "Lake Danial",
-        "addressRegion": "Nevada",
-        "postalCode": "29062-3467",
-        "addressCountry": "Brazil"
+        "streetAddress": "7805 Abernathy Street",
+        "addressLocality": "East Tristian",
+        "addressRegion": "Pennsylvania",
+        "postalCode": "39183",
+        "addressCountry": "Brunei Darussalam"
       },
-      "email": "Louisa.Parker@example.org",
-      "phoneNumber": "555-269-8997",
-      "faxNumber": "555-747-5527"
+      "email": "Helmer.Vandervort@example.com",
+      "phoneNumber": "555-343-6084",
+      "faxNumber": "555-858-8798"
     },
-    "jobTitle": "Global Research Liaison"
+    "jobTitle": "Regional Factors Orchestrator"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..7Tf485GTm0Uz4G6OvTJFLcn9YDZT9WW0VXG5W7900z82RKb3NPhNVjqiyF1hAq3bEf1GCTE8rQQrUPBXaQjiCQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..gQjoYzf1TV0vzU-9M6WqknzcWZI27YtFmr-CUtSy-yLRtBMaCdXdNWZUHdN9c87h-4QYgTRJatgLZXvZX6GLBA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -17,34 +17,26 @@
       "Purchase"
     ],
     "customer": {
-      "type": "Person",
-      "firstName": "Domenico",
-      "lastName": "Streich",
-      "email": "Taylor_Tremblay3@example.com",
-      "phoneNumber": "555-584-4002",
-      "worksFor": {
-        "type": "Organization",
-        "name": "Yundt, Lebsack and Greenfelder",
-        "description": "Business-focused real-time framework",
-        "address": {
-          "type": "PostalAddress",
-          "streetAddress": "503 Smitham Villages",
-          "addressLocality": "Schneiderbury",
-          "addressRegion": "Tennessee",
-          "postalCode": "92572",
-          "addressCountry": "Hungary"
-        },
-        "email": "Thalia_DuBuque@example.com",
-        "phoneNumber": "555-655-5622",
-        "faxNumber": "555-768-3280"
+      "type": "Organization",
+      "name": "Lueilwitz - Leuschke",
+      "description": "Exclusive executive portal",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "2911 Antoinette Divide",
+        "addressLocality": "Denesikside",
+        "addressRegion": "North Dakota",
+        "postalCode": "87886-4182",
+        "addressCountry": "Albania"
       },
-      "jobTitle": "Forward Data Architect"
+      "email": "Ardith_Shields82@example.com",
+      "phoneNumber": "555-378-9321",
+      "faxNumber": "555-324-4989"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..fA9DHwenfaTvArfsrNqnHjsbY7INCPN4V9UC9eZbXWVVGY5reaoaxFlGDU-F-cgzcbnOPFsjfIeaE6GddbARAw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..VP3LEbEKqRBUXrJ8ems1aeNHwBOqKYm42et-F_YBE6nqI8nnKoWAsKsW0oG_c1wwkQu3lwKlF9HuQTDu7Vu7BA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

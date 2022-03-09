@@ -1,15 +1,25 @@
 [
   {
-    "microchip": "back up",
-    "array": "calculate",
-    "firewall": "compress",
-    "pixel": "synthesize"
+    "firewall": "reboot",
+    "matrix": "override",
+    "capacitor": "navigate",
+    "system": "reboot"
   },
   {
-    "chargeCollect": 912,
-    "alarm": "back up"
+    "type": "chargeAndPaymentType",
+    "chargeCollect": 206,
+    "chargePrepaid": 71,
+    "panel": "synthesize"
   },
   {
-    "transmitter": "back up"
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "chargeCollect": 599,
+    "chargePrepaid": 280,
+    "system": "connect",
+    "circuit": "generate",
+    "microchip": "compress",
+    "driver": "connect"
   }
 ]

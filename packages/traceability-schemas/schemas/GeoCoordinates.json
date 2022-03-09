@@ -5,6 +5,10 @@
     "title": "Geographic Coordinates",
     "description": "The geographic coordinates of a place or event.",
     "type": "object",
+    "required": [
+        "latitude",
+        "longitude"
+    ],
     "properties": {
         "@context": {
             "type": "array"
@@ -22,20 +26,34 @@
         "latitude": {
             "$comment": "{\"term\": \"latitude\", \"@id\": \"https://schema.org/latitude\"}",
             "title": "Latitude",
-            "description": "Angular distance North or South from the earth's equator measured through 90 degrees.",
+            "description": "Angular distance North or South from the earth's equator measured through 90 degrees. Latitude of location based on ISO 6709",
             "type": "string"
         },
         "longitude": {
             "$comment": "{\"term\": \"longitude\", \"@id\": \"https://schema.org/longitude\"}",
             "title": "Longitude",
-            "description": "The arc or portion of the earth's equator intersected between the meridian of a given place and the prime meridian and expressed in degrees.",
+            "description": "The arc or portion of the earth's equator intersected between the meridian of a given place and the prime meridian and expressed in degrees. Longitude of location based on ISO 6709",
+            "type": "string"
+        },
+        "elevation": {
+            "$comment": "{\"term\": \"elevation\", \"@id\": \"https://schema.org/elevation\"}",
+            "title": "elevation",
+            "description": "Elevation of coordinate.",
+            "type": "string"
+        },
+        "timestamp": {
+            "$comment": "{\"term\": \"timestamp\", \"@id\": \"https://schema.org/dateCreated\"}",
+            "title": "timestamp",
+            "description": "Date and Time based on IETF RFC 3339.",
+            "type": "string"
+        },
+        "description": {
+            "$comment": "{\"term\": \"description\", \"@id\": \"https://schema.org/description\"}",
+            "title": "description",
+            "description": "Description of location such as \"Free Standing Residential Home\" \nor may be a URI that points to a more detailed description such as an address registry. Date and Time based on IETF RFC 3339.",
             "type": "string"
         }
     },
-    "required": [
-        "latitude",
-        "longitude"
-    ],
     "additionalProperties": false,
     "examples": []
 }

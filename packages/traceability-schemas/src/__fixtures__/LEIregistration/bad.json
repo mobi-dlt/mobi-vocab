@@ -1,45 +1,47 @@
 [
   {
-    "port": "bypass",
-    "panel": "connect",
-    "bus": "back up",
-    "protocol": "bypass"
-  },
-  {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
+    "type": "LEIregistration",
     "initialRegistrationDate": "2020-01-01",
     "lastUpdateDate": "2020-01-01",
-    "status": "REJECTED",
+    "status": "IN PROGRESS",
     "nextRenewalDate": "2021-02-02",
     "validationSources": "FULLY_CORROBORATED",
     "validationAuthority": [
       {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000004",
-        "otherValidationAuthorityID": "MWK5CJBE",
-        "validationAuthorityEntityID": "RC3W80QNJY4KVXE1TFS9"
+        "validationAuthorityID": "RA000005",
+        "otherValidationAuthorityID": "44ERXNGY",
+        "validationAuthorityEntityID": "02A21A19989WS8Z9DRFG"
       }
     ],
-    "port": "bypass",
-    "bus": "synthesize"
+    "hard drive": "parse",
+    "panel": "quantify",
+    "circuit": "reboot"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
+    "type": "LEIregistration",
     "lastUpdateDate": "2020-01-01",
-    "status": "REQUESTED",
-    "managingLou": "MWKLQTOHBUNCUJLZBUUM",
+    "managingLou": "SFKGCWROONZCFWKSOBUS",
+    "validationSources": "PARTIALLY_CORROBORATED",
+    "system": "hack",
+    "panel": "parse"
+  },
+  {
+    "lastUpdateDate": "2020-01-01",
     "validationAuthority": [
       {
         "type": "LEIauthority",
-        "validationAuthorityID": "RA000661",
-        "otherValidationAuthorityID": "KJIZ48UE",
-        "validationAuthorityEntityID": "QJ2SPJJM28GUHF55YNU7"
+        "validationAuthorityID": "RA000005",
+        "otherValidationAuthorityID": "NU7O3GVE",
+        "validationAuthorityEntityID": "GNQJA2SI4TCGZ1SSH7C9"
       }
     ],
-    "application": "generate"
+    "port": "generate",
+    "interface": "connect",
+    "transmitter": "bypass",
+    "array": "calculate"
   }
 ]

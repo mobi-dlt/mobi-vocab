@@ -4,23 +4,32 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "GeoCoordinates",
-    "latitude": "-57.4965",
-    "longitude": "20.0904"
+    "latitude": "-83.3387",
+    "longitude": "54.0603",
+    "elevation": "5000 ft",
+    "timestamp": "2021-08-04T06:20:18.175Z",
+    "description": "geo coordinates"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "GeoCoordinates",
-    "latitude": "41.5843",
-    "longitude": "-72.9544"
+    "latitude": "-28.8225",
+    "longitude": "-21.2284",
+    "elevation": "5000 ft",
+    "timestamp": "2021-06-18T08:42:20.352Z",
+    "description": "geo coordinates"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "GeoCoordinates",
-    "latitude": "79.9680",
-    "longitude": "106.3231"
+    "latitude": "69.4760",
+    "longitude": "-26.3459",
+    "elevation": "5000 ft",
+    "timestamp": "2021-07-28T02:42:03.854Z",
+    "description": "geo coordinates"
   }
 ]

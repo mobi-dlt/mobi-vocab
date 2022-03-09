@@ -1,22 +1,56 @@
 [
   {
-    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "model": "Mach_E",
-    "vin": "JTERU5JR7M5861170",
-    "card": "hack",
-    "matrix": "back up"
-  },
-  {
-    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "vin": "JTERU5JR7M5861170",
-    "bus": "reboot",
-    "interface": "reboot",
-    "array": "navigate"
-  },
-  {
     "vin": "JTERU5JR7M5861170",
     "protocol": "connect",
     "hard drive": "synthesize",
     "system": "program"
+  },
+  {
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "manufacturer": {
+      "type": "Organization",
+      "name": "McCullough LLC",
+      "description": "Persistent asynchronous forecast",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "706 Jace Drive",
+        "addressLocality": "Klockofort",
+        "addressRegion": "Ohio",
+        "postalCode": "95649-4815",
+        "addressCountry": "Mexico"
+      },
+      "email": "America6@example.com",
+      "phoneNumber": "555-850-3493",
+      "faxNumber": "555-678-9291"
+    },
+    "make": "Ford",
+    "model": "Mach_E",
+    "pixel": "program",
+    "program": "program",
+    "feed": "calculate"
+  },
+  {
+    "type": "VID",
+    "manufacturer": {
+      "type": "Organization",
+      "name": "Harvey and Sons",
+      "description": "Business-focused global utilisation",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "861 Polly Isle",
+        "addressLocality": "Port Priscilla",
+        "addressRegion": "Connecticut",
+        "postalCode": "20286-6696",
+        "addressCountry": "Democratic People's Republic of Korea"
+      },
+      "email": "Reagan_Ortiz93@example.com",
+      "phoneNumber": "555-946-8626",
+      "faxNumber": "555-798-1561"
+    },
+    "model": "Mach_E",
+    "vin": "JTERU5JR7M5861170",
+    "protocol": "index",
+    "program": "connect",
+    "sensor": "back up"
   }
 ]

@@ -64,16 +64,19 @@
       "geo": {
         "type": "GeoCoordinates",
         "latitude": "-32.2844",
-        "longitude": "11.7322"
+        "longitude": "11.7322",
+        "elevation": "5000 ft",
+        "timestamp": "2021-08-05T03:14:47.824Z",
+        "description": "geo coordinates"
       },
       "address": {
         "type": "PostalAddress",
-        "organizationName": "Bechtelar - Hills",
-        "streetAddress": "4150 Collin Orchard",
-        "addressLocality": "New Ralph",
-        "addressRegion": "California",
-        "postalCode": "16071",
-        "addressCountry": "Montserrat"
+        "organizationName": "Hills and Sons",
+        "streetAddress": "1505 Hand Ways",
+        "addressLocality": "Ralphton",
+        "addressRegion": "Illinois",
+        "postalCode": "60715",
+        "addressCountry": "Kuwait"
       }
     },
     "eventTime": "2019-12-11T03:50:55Z",
@@ -82,80 +85,88 @@
         "type": "Product",
         "manufacturer": {
           "type": "Person",
-          "firstName": "Sydney",
-          "lastName": "Herzog",
-          "email": "Serena_McKenzie@example.org",
-          "phoneNumber": "555-670-5707",
+          "firstName": "Lorena",
+          "lastName": "Ledner",
+          "email": "Flossie_Halvorson39@example.net",
+          "phoneNumber": "555-312-6986",
           "worksFor": {
             "type": "Organization",
-            "name": "Schinner, Rohan and Douglas",
-            "description": "Secured clear-thinking secured line",
+            "name": "Shields Group",
+            "description": "Reverse-engineered cohesive projection",
             "address": {
               "type": "PostalAddress",
-              "streetAddress": "319 Nathen Summit",
-              "addressLocality": "Jastland",
+              "streetAddress": "1988 Hailey Shoal",
+              "addressLocality": "Port Morrisshire",
               "addressRegion": "Washington",
-              "postalCode": "99213-0977",
-              "addressCountry": "Micronesia"
+              "postalCode": "13097",
+              "addressCountry": "Qatar"
             },
-            "email": "Chyna66@example.org",
-            "phoneNumber": "555-143-8576",
-            "faxNumber": "555-803-2257"
+            "email": "Reva81@example.org",
+            "phoneNumber": "555-617-1432",
+            "faxNumber": "555-857-8033"
           },
-          "jobTitle": "Forward Division Administrator"
+          "jobTitle": "International Creative Architect"
         },
-        "name": "Generic Plastic Hat",
-        "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+        "name": "Practical Rubber Gloves",
+        "description": "The Football Is Good For Training And Recreational Purposes",
         "sizeOrAmount": {
           "type": "QuantitativeValue",
           "unitCode": "hg/ha",
-          "value": "3776"
+          "value": "7141"
         },
         "weight": {
           "type": "QuantitativeValue",
           "unitCode": "hg/ha",
-          "value": "4632"
+          "value": "8998"
         },
-        "sku": "438750291180"
+        "sku": "747611905935"
       },
       {
         "type": "Product",
         "manufacturer": {
-          "type": "Organization",
-          "name": "Schamberger - Zieme",
-          "description": "Decentralized optimizing extranet",
-          "address": {
-            "type": "PostalAddress",
-            "streetAddress": "335 Ullrich Neck",
-            "addressLocality": "New Kariland",
-            "addressRegion": "Michigan",
-            "postalCode": "36736-1178",
-            "addressCountry": "Nepal"
+          "type": "Person",
+          "firstName": "Micah",
+          "lastName": "Ruecker",
+          "email": "Selmer.Romaguera@example.com",
+          "phoneNumber": "555-284-6129",
+          "worksFor": {
+            "type": "Organization",
+            "name": "Schamberger - Zieme",
+            "description": "Decentralized optimizing extranet",
+            "address": {
+              "type": "PostalAddress",
+              "streetAddress": "8335 Ullrich Neck",
+              "addressLocality": "New Kariland",
+              "addressRegion": "Michigan",
+              "postalCode": "36736-1178",
+              "addressCountry": "Nepal"
+            },
+            "email": "Delores.Satterfield3@example.net",
+            "phoneNumber": "555-545-5801",
+            "faxNumber": "555-767-9045"
           },
-          "email": "Delores.Satterfield3@example.net",
-          "phoneNumber": "555-545-5801",
-          "faxNumber": "555-767-9045"
+          "jobTitle": "Internal Operations Executive"
         },
-        "name": "Sleek Fresh Cheese",
-        "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+        "name": "Generic Cotton Hat",
+        "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
         "sizeOrAmount": {
           "type": "QuantitativeValue",
           "unitCode": "hg/ha",
-          "value": "5703"
+          "value": "8466"
         },
         "weight": {
           "type": "QuantitativeValue",
           "unitCode": "hg/ha",
-          "value": "7627"
+          "value": "1283"
         },
-        "sku": "102925000354"
+        "sku": "539865239019"
       }
     ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..urZGE11vFAyBDBaFFxs6up55-DXvRHTbF5e89whu-iX7braXasU4C51LDXFzHvvvdDw9sTdo8t--EJX5A6SuCQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..22TfrJWf1XCZWrH--V2zpZDHYVKorBKiIRwcheNDm3nLVMyG63A8JnfQZSNs9wmGyrXqyfDc3rslfD6UHuoDDA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

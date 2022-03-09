@@ -1,22 +1,23 @@
 [
   {
-    "validationAuthorityID": "RA000661",
-    "otherValidationAuthorityID": "8N49VYY5",
-    "validationAuthorityEntityID": "1FQXWFUMYER9FZBEBWQ8",
-    "alarm": "synthesize",
-    "array": "quantify",
-    "bus": "connect",
-    "sensor": "generate"
+    "type": "LEIauthority",
+    "program": "connect"
   },
   {
-    "type": "LEIauthority",
-    "validationAuthorityID": "RA000001",
-    "system": "quantify"
+    "validationAuthorityID": "RA000005",
+    "bandwidth": "hack",
+    "program": "bypass",
+    "matrix": "quantify"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
-    "monitor": "connect"
+    "type": "LEIauthority",
+    "validationAuthorityEntityID": "KR0XB2IJ3VC21T2CEB4Z",
+    "transmitter": "override",
+    "driver": "override",
+    "feed": "bypass",
+    "capacitor": "calculate"
   }
 ]

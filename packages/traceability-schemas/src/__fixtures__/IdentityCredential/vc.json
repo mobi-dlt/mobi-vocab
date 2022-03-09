@@ -18,9 +18,9 @@
     "licenseNumber": "Y5327288",
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000005",
-      "otherValidationAuthorityID": "2KBSJJSN",
-      "validationAuthorityEntityID": "BQMIVFMV8F0GVZ00V6JD"
+      "validationAuthorityID": "RA000003",
+      "otherValidationAuthorityID": "ZER3FCFI",
+      "validationAuthorityEntityID": "QQ803GCAAUAP8L190WZ1"
     },
     "issuanceDate": "2021-03-09",
     "expirationDate": "2022-07-11"
@@ -28,7 +28,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..MSYiD6rk9QmvMBQhiSGtXlGgGexLfqOVaB52xfcGMeWKtdD4lT_rjWr5rnCWllvigSNp6aUBSiBuMYlypAAQCw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..0a0cMiQYF_lDXMAMDAUoEmmzr7aywi57AiMgBXG6E9s29yDGUB7MUf_Rx3Ds8pXF6hJwPx0-2LsI2-4fzZRZDA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

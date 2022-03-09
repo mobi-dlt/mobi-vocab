@@ -1,21 +1,23 @@
 [
   {
-    "latitude": "-57.4965",
-    "bandwidth": "synthesize"
+    "latitude": "-83.3387",
+    "longitude": "54.0603",
+    "timestamp": "2021-08-04T06:20:18.175Z",
+    "description": "geo coordinates",
+    "protocol": "program",
+    "feed": "generate"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
     "type": "GeoCoordinates",
-    "latitude": "41.5843",
-    "matrix": "index"
+    "longitude": "-21.2284",
+    "timestamp": "2021-06-18T08:42:20.352Z",
+    "description": "geo coordinates",
+    "firewall": "generate",
+    "application": "calculate",
+    "card": "input",
+    "alarm": "generate"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "type": "GeoCoordinates",
-    "bus": "connect"
+    "bus": "override"
   }
 ]

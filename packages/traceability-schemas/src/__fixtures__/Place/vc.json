@@ -14,26 +14,29 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "Place",
-    "globalLocationNumber": "4556178713977",
+    "globalLocationNumber": "4443222826434",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "38.3773",
-      "longitude": "-11.4645"
+      "latitude": "-23.8080",
+      "longitude": "-136.7254",
+      "elevation": "5000 ft",
+      "timestamp": "2022-01-02T13:37:37.718Z",
+      "description": "geo coordinates"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Mayert Group",
-      "streetAddress": "20360 Sauer Stream",
-      "addressLocality": "Karinaburgh",
-      "addressRegion": "California",
-      "postalCode": "60239-3807",
-      "addressCountry": "British Indian Ocean Territory (Chagos Archipelago)"
+      "organizationName": "Kerluke Inc",
+      "streetAddress": "23775 Nitzsche Flat",
+      "addressLocality": "South Abbie",
+      "addressRegion": "New Hampshire",
+      "postalCode": "66598",
+      "addressCountry": "Suriname"
     }
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..O8vie3Rme4vQSZay9O2yXVbNsye9qPdzMVGkgMxca0gCwNGRobTbi1aO8utEDZuN81b3CYVAOT8AFf8LqMq7Ag",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..s6KVyxYCk58hj7D_K6cVa8PNsTE--l5m79vtqXMTKaVTfQM7z0shHmcTDG2yhhl37stmQwAgLr-HBfpD62nCDg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

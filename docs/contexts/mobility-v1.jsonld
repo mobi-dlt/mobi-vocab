@@ -216,6 +216,15 @@
         },
         "longitude": {
           "@id": "https://schema.org/longitude"
+        },
+        "elevation": {
+          "@id": "https://schema.org/elevation"
+        },
+        "timestamp": {
+          "@id": "https://schema.org/dateCreated"
+        },
+        "description": {
+          "@id": "https://schema.org/description"
         }
       }
     },

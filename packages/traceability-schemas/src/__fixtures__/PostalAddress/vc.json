@@ -14,17 +14,17 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "PostalAddress",
-    "organizationName": "Farrell, Wehner and Franecki",
-    "streetAddress": "4470 Anastasia Mall",
-    "addressLocality": "Vernieshire",
-    "addressRegion": "West Virginia",
-    "postalCode": "75965",
-    "addressCountry": "Niger"
+    "organizationName": "Lehner Group",
+    "streetAddress": "35969 Dorris Cliff",
+    "addressLocality": "Schoenmouth",
+    "addressRegion": "Minnesota",
+    "postalCode": "51440-5184",
+    "addressCountry": "Lao People's Democratic Republic"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..DBhY3Y24YLK_GhTX7sHW-dGKuKbd36gKEHK26XA0lqbt26nt-C2ZpKtrHFQdfzYEzIFl_azvQ5OW2L8IgiaYCA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Vf-pJx35Is5JKzUCTMZz6F7S0KvYSPwNbSz_CJAE3ddwW_gT4_d699fFKcK_n6xCP0hog8uCBNQVhkEY_AkHCw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

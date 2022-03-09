@@ -4,67 +4,136 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "LEIentity",
-    "legalName": "Block, Herzog and Hyatt",
-    "legalNameLanguage": "de",
+    "legalName": "Sawayn, Klein and Kshlerin",
+    "legalNameLanguage": "ja",
     "otherNames": [
-      "Lesch - Bogisich",
-      "Heller, Boehm and Bartoletti"
+      "Kuhic, Block and Olson",
+      "Lueilwitz, Lowe and Metz"
     ],
     "transliteratedOtherNames": [
-      "Lesch - Bogisich",
-      "Heller, Boehm and Bartoletti"
+      "Kuhic, Block and Olson",
+      "Lueilwitz, Lowe and Metz"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "en",
+      "language": "ar",
       "addressLines": [
-        "Mante, Douglas and Pollich",
-        "16196 Sonya Coves"
+        "Cruickshank - Reynolds",
+        "2614 Daija Trafficway"
       ],
-      "addressNumber": "411",
-      "addressNumberWithinBuilding": "3",
-      "mailRouting": "59606 Quitzon Mountains, 89768-7368",
-      "city": "North Magnus",
-      "region": "Buckinghamshire",
-      "country": "Paraguay",
-      "postalCode": "55587-4460"
+      "addressNumber": "363",
+      "addressNumberWithinBuilding": "1",
+      "mailRouting": "94371 Horacio Trafficway, 04150-7623",
+      "city": "Littelshire",
+      "region": "Avon",
+      "country": "Japan",
+      "postalCode": "60146"
+    },
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "en_CA",
+      "addressLines": [
+        "Johnson Inc",
+        "89747 Murphy Summit"
+      ],
+      "addressNumber": "421",
+      "addressNumberWithinBuilding": "5",
+      "mailRouting": "7379 Littel Mills, 55540-7346",
+      "city": "Metzside",
+      "region": "Bedfordshire",
+      "country": "Cook Islands",
+      "postalCode": "46295-2932"
+    },
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000003",
+      "otherValidationAuthorityID": "DMGMUQ84",
+      "validationAuthorityEntityID": "RPEWL6M8DYI6EU2HF83V"
+    },
+    "legalJurisdiction": "Borders",
+    "entityCategory": "Industrial",
+    "legalForm": "LLC",
+    "associatedEntity": {
+      "type": "Organization",
+      "leiCode": "4PW1LXM1MJAPXVYPMSSC",
+      "name": "McClure - Herzog"
+    },
+    "status": "REJECTED",
+    "expirationDate": "2022-07-11",
+    "expirationReason": "engage scalable initiatives",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "NEBYE9UN0BLRL4EY8G88",
+      "name": "Bins, Kihn and Dach"
+    },
+    "otherAddresses": []
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": "LEIentity",
+    "legalName": "Beer, Casper and Lemke",
+    "legalNameLanguage": "sk",
+    "otherNames": [
+      "Macejkovic, DuBuque and Lindgren",
+      "Barton and Sons"
+    ],
+    "transliteratedOtherNames": [
+      "Macejkovic, DuBuque and Lindgren",
+      "Barton and Sons"
+    ],
+    "legalAddress": {
+      "type": "LEIaddress",
+      "language": "vi",
+      "addressLines": [
+        "Batz LLC",
+        "031 Allene Mission"
+      ],
+      "addressNumber": "227",
+      "addressNumberWithinBuilding": "2",
+      "mailRouting": "139 Marlin Manor, 09369",
+      "city": "McClureview",
+      "region": "Bedfordshire",
+      "country": "Brazil",
+      "postalCode": "55436"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
       "language": "hy",
       "addressLines": [
-        "Reynolds and Sons",
-        "61486 Wolf Fields"
+        "Cassin Inc",
+        "276 Citlalli Divide"
       ],
-      "addressNumber": "31",
-      "addressNumberWithinBuilding": "6",
-      "mailRouting": "3718 Okuneva Square, 41507",
-      "city": "Danteborough",
-      "region": "Buckinghamshire",
-      "country": "Belarus",
-      "postalCode": "59460-1462"
+      "addressNumber": "72",
+      "addressNumberWithinBuilding": "8",
+      "mailRouting": "76142 Charlie Track, 66899",
+      "city": "New Ahmad",
+      "region": "Bedfordshire",
+      "country": "Bulgaria",
+      "postalCode": "26888"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
       "validationAuthorityID": "RA000003",
-      "otherValidationAuthorityID": "2F179UG6",
-      "validationAuthorityEntityID": "VYQEQUFMCQDRZI1JVIKL"
+      "otherValidationAuthorityID": "KR14XSOX",
+      "validationAuthorityEntityID": "OL7XNTEONK3CN5ZL1BZV"
     },
     "legalJurisdiction": "Bedfordshire",
-    "entityCategory": "Grocery",
+    "entityCategory": "Finance",
     "legalForm": "LLC",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "Q3583ZK50HHM7PCKR0XB",
-      "name": "Kuhlman - Moen"
+      "leiCode": "YP96C6D1LQCNJHSUPTGL",
+      "name": "Sawayn, Borer and Mante"
     },
-    "status": "IN PROGRESS",
+    "status": "CONFIRMED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "engage customized schemas",
+    "expirationReason": "scale leading-edge e-business",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "FN9ZLAWC7DMGMUQ84RPE",
-      "name": "Mills, Daugherty and Nader"
+      "leiCode": "NERBXOFTWRVSBFVTD4AJ",
+      "name": "Abshire - Harber"
     },
     "otherAddresses": []
   },
@@ -73,136 +142,67 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "LEIentity",
-    "legalName": "Tillman Inc",
-    "legalNameLanguage": "it",
+    "legalName": "Jacobi LLC",
+    "legalNameLanguage": "ge",
     "otherNames": [
-      "Hyatt Group",
-      "Kling Inc"
+      "Kris, Volkman and Balistreri",
+      "Heaney, Brekke and Hoeger"
     ],
     "transliteratedOtherNames": [
-      "Hyatt Group",
-      "Kling Inc"
+      "Kris, Volkman and Balistreri",
+      "Heaney, Brekke and Hoeger"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "en_AU",
+      "language": "en_GB",
       "addressLines": [
-        "Leannon and Sons",
-        "4256 Denis Village"
+        "Kreiger - Mohr",
+        "779 Schuster Mount"
       ],
-      "addressNumber": "415",
-      "addressNumberWithinBuilding": "2",
-      "mailRouting": "31306 Ondricka Rue, 47878-4588",
-      "city": "Constantinmouth",
+      "addressNumber": "275",
+      "addressNumberWithinBuilding": "9",
+      "mailRouting": "40860 Dedrick Turnpike, 93019-4311",
+      "city": "South Lexusberg",
       "region": "Buckinghamshire",
-      "country": "Greenland",
-      "postalCode": "02901"
+      "country": "Hungary",
+      "postalCode": "26398-5553"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "hy",
+      "language": "de_AT",
       "addressLines": [
-        "Wehner Inc",
-        "1903 Kurt Course"
+        "Raynor - Rau",
+        "151 Rylee Coves"
       ],
-      "addressNumber": "62",
-      "addressNumberWithinBuilding": "3",
-      "mailRouting": "61394 Abigale Vista, 93698",
-      "city": "Jackberg",
-      "region": "Borders",
-      "country": "Argentina",
-      "postalCode": "54365-1101"
-    },
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000003",
-      "otherValidationAuthorityID": "B5PX7QO5",
-      "validationAuthorityEntityID": "Y63QO5F8VY69ONUZYDO0"
-    },
-    "legalJurisdiction": "Berkshire",
-    "entityCategory": "Grocery",
-    "legalForm": "LLC",
-    "associatedEntity": {
-      "type": "Organization",
-      "leiCode": "LIKCNL35NEBYE9UN0BLR",
-      "name": "Stroman, Stracke and Marks"
-    },
-    "status": "IN PROGRESS",
-    "expirationDate": "2022-07-11",
-    "expirationReason": "utilize leading-edge experiences",
-    "successorEntity": {
-      "type": "Organization",
-      "leiCode": "SOXOL7XNTEONK3CN5ZL1",
-      "name": "Wolff Group"
-    },
-    "otherAddresses": []
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "type": "LEIentity",
-    "legalName": "Powlowski - Hoeger",
-    "legalNameLanguage": "az",
-    "otherNames": [
-      "Hane LLC",
-      "Monahan - Hyatt"
-    ],
-    "transliteratedOtherNames": [
-      "Hane LLC",
-      "Monahan - Hyatt"
-    ],
-    "legalAddress": {
-      "type": "LEIaddress",
-      "language": "hr",
-      "addressLines": [
-        "Metz - Ferry",
-        "05616 Noble Port"
-      ],
-      "addressNumber": "223",
-      "addressNumberWithinBuilding": "3",
-      "mailRouting": "5358 Roselyn Villages, 90831",
-      "city": "East Grayce",
-      "region": "Berkshire",
-      "country": "Malta",
-      "postalCode": "52546-3758"
-    },
-    "headquartersAddress": {
-      "type": "LEIaddress",
-      "language": "pl",
-      "addressLines": [
-        "Rau, Wilkinson and Lebsack",
-        "86089 Tillman Forest"
-      ],
-      "addressNumber": "98",
+      "addressNumber": "489",
       "addressNumberWithinBuilding": "5",
-      "mailRouting": "0194 Bradtke Inlet, 46252",
-      "city": "Eloisaside",
-      "region": "Buckinghamshire",
-      "country": "Andorra",
-      "postalCode": "55530-6773"
+      "mailRouting": "75172 Kenton Court, 29944",
+      "city": "Lake Ravenmouth",
+      "region": "Bedfordshire",
+      "country": "Iceland",
+      "postalCode": "05619"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000004",
-      "otherValidationAuthorityID": "9ZET4I64",
-      "validationAuthorityEntityID": "OU6SI6PA3SK69XYFH3TT"
+      "validationAuthorityID": "RA000005",
+      "otherValidationAuthorityID": "0LMTIVL8",
+      "validationAuthorityEntityID": "S7NL6ECUWWRCK89SA9QT"
     },
-    "legalJurisdiction": "Berkshire",
+    "legalJurisdiction": "Borders",
     "entityCategory": "Industrial",
-    "legalForm": "CORPORATION",
+    "legalForm": "LLC",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "ERBXOFTWRVSBFVTD4AJN",
-      "name": "Nader - Bruen"
+      "leiCode": "8JDF802LL6ONMRGIDJVY",
+      "name": "Schowalter, Boyer and Runolfsson"
     },
-    "status": "IN PROGRESS",
+    "status": "REJECTED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "implement seamless systems",
+    "expirationReason": "enable bleeding-edge content",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "TIVL8S7NL6ECUWWRCK89",
-      "name": "Gutkowski, Goodwin and Reynolds"
+      "leiCode": "L568QVVH7J360BN8L7JM",
+      "name": "Gerhold and Sons"
     },
     "otherAddresses": []
   }

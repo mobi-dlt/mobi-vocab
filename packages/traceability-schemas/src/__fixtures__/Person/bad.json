@@ -1,21 +1,35 @@
 [
   {
-    "transmitter": "calculate"
+    "worksFor": {
+      "type": "Organization",
+      "name": "Marquardt Group",
+      "description": "Triple-buffered tertiary throughput",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "7805 Abernathy Street",
+        "addressLocality": "East Tristian",
+        "addressRegion": "Pennsylvania",
+        "postalCode": "39183",
+        "addressCountry": "Brunei Darussalam"
+      },
+      "email": "Helmer.Vandervort@example.com",
+      "phoneNumber": "555-343-6084",
+      "faxNumber": "555-858-8798"
+    },
+    "alarm": "override",
+    "matrix": "copy",
+    "application": "hack",
+    "capacitor": "synthesize"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
-    "type": "Person",
-    "phoneNumber": "555-490-4801",
-    "driver": "hack",
-    "microchip": "compress",
-    "monitor": "program"
+    "email": "Nicklaus29@example.net",
+    "interface": "synthesize"
   },
   {
-    "jobTitle": "Human Web Manager",
-    "alarm": "back up",
-    "monitor": "input",
-    "card": "parse"
+    "lastName": "Windler",
+    "protocol": "input"
   }
 ]

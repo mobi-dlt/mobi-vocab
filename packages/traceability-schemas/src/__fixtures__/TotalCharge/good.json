@@ -4,41 +4,41 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 4416.75,
-    "totalCollect": 1472.25,
-    "sourceCurrency": "HUF",
-    "destinationCurrency": "CNY",
-    "currencyConversionRate": 1,
-    "ccChargesDestinationCurrency": "HUF",
-    "chargesDestination": 321,
-    "totalCollectCharge": 80.25
+    "totalPrepaid": 1872.75,
+    "totalCollect": 624.25,
+    "sourceCurrency": "THB",
+    "destinationCurrency": "QAR",
+    "currencyConversionRate": 3,
+    "ccChargesDestinationCurrency": "THB",
+    "chargesDestination": 815,
+    "totalCollectCharge": 203.75
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 4188,
-    "totalCollect": 1396,
-    "sourceCurrency": "PYG",
-    "destinationCurrency": "CHF",
-    "currencyConversionRate": 3,
-    "ccChargesDestinationCurrency": "PYG",
-    "chargesDestination": 86,
-    "totalCollectCharge": 21.5
+    "totalPrepaid": 4287,
+    "totalCollect": 1429,
+    "sourceCurrency": "KES",
+    "destinationCurrency": "CZK",
+    "currencyConversionRate": 2,
+    "ccChargesDestinationCurrency": "KES",
+    "chargesDestination": 49,
+    "totalCollectCharge": 12.25
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "TotalCharge",
-    "totalPrepaid": 1693.5,
-    "totalCollect": 564.5,
-    "sourceCurrency": "QAR",
-    "destinationCurrency": "MZN",
-    "currencyConversionRate": 3,
-    "ccChargesDestinationCurrency": "QAR",
-    "chargesDestination": 331,
-    "totalCollectCharge": 82.75
+    "totalPrepaid": 608.25,
+    "totalCollect": 202.75,
+    "sourceCurrency": "CAD",
+    "destinationCurrency": "GBP",
+    "currencyConversionRate": 2,
+    "ccChargesDestinationCurrency": "CAD",
+    "chargesDestination": 658,
+    "totalCollectCharge": 164.5
   }
 ]

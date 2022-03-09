@@ -14,73 +14,73 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "LEIevidenceDocument",
-    "lei": "8L7JM89EML2H5Z94LPOE",
+    "lei": "T3LQCKW9R293NWL6EBD8",
     "entity": {
       "@context": [
         "https://dlt.mobi/mobility-schema"
       ],
       "type": "LEIentity",
-      "legalName": "Hilll Inc",
-      "legalNameLanguage": "en_IE",
+      "legalName": "Hoeger, Ondricka and Hettinger",
+      "legalNameLanguage": "en_CA",
       "otherNames": [
-        "Oberbrunner Group",
-        "Dicki - Jacobs"
+        "Koch and Sons",
+        "Ortiz Inc"
       ],
       "transliteratedOtherNames": [
-        "Oberbrunner Group",
-        "Dicki - Jacobs"
+        "Koch and Sons",
+        "Ortiz Inc"
       ],
       "legalAddress": {
         "type": "LEIaddress",
-        "language": "es",
+        "language": "zh_TW",
         "addressLines": [
-          "Bernhard - Kihn",
-          "026 Thompson Mountains"
+          "King, Konopelski and Hartmann",
+          "916 Colin Rest"
         ],
-        "addressNumber": "34",
-        "addressNumberWithinBuilding": "7",
-        "mailRouting": "6652 Hartmann Haven, 60936",
-        "city": "South Zelda",
-        "region": "Buckinghamshire",
-        "country": "Macao",
-        "postalCode": "44305-5099"
+        "addressNumber": "282",
+        "addressNumberWithinBuilding": "1",
+        "mailRouting": "54044 Abbey Stravenue, 36974",
+        "city": "Homenickberg",
+        "region": "Borders",
+        "country": "Azerbaijan",
+        "postalCode": "39109"
       },
       "headquartersAddress": {
         "type": "LEIaddress",
-        "language": "en_AU_ocker",
+        "language": "nl_BE",
         "addressLines": [
-          "Pollich - Roob",
-          "44870 O'Reilly Inlet"
+          "Runte, Lindgren and Frami",
+          "2077 Mohr Trace"
         ],
-        "addressNumber": "268",
-        "addressNumberWithinBuilding": "5",
-        "mailRouting": "749 Carter Junction, 91097",
-        "city": "Runtemouth",
-        "region": "Bedfordshire",
-        "country": "Cook Islands",
-        "postalCode": "86506"
+        "addressNumber": "261",
+        "addressNumberWithinBuilding": "1",
+        "mailRouting": "571 Bashirian Road, 32233",
+        "city": "North Fabian",
+        "region": "Buckinghamshire",
+        "country": "Sudan",
+        "postalCode": "25538-3249"
       },
       "registrationAuthority": {
         "type": "LEIauthority",
         "validationAuthorityID": "RA000661",
-        "otherValidationAuthorityID": "93SRV4LT",
-        "validationAuthorityEntityID": "IS5P214A89CCD3CX8JIA"
+        "otherValidationAuthorityID": "LVI5XSHK",
+        "validationAuthorityEntityID": "ZKUE7IXE4JTMDOVJVPT5"
       },
-      "legalJurisdiction": "Berkshire",
-      "entityCategory": "Industrial",
+      "legalJurisdiction": "Borders",
+      "entityCategory": "Grocery",
       "legalForm": "CORPORATION",
       "associatedEntity": {
         "type": "Organization",
-        "leiCode": "FFGPQO0ZC4T3LQCKW9R2",
-        "name": "Weissnat - Mills"
+        "leiCode": "CCM2FIT2OS28NJ9VLNOJ",
+        "name": "Bode, Hand and Jacobson"
       },
-      "status": "IN PROGRESS",
+      "status": "REQUESTED",
       "expirationDate": "2022-07-11",
-      "expirationReason": "syndicate strategic experiences",
+      "expirationReason": "leverage intuitive models",
       "successorEntity": {
         "type": "Organization",
-        "leiCode": "SHKZKUE7IXE4JTMDOVJV",
-        "name": "Schoen, Connelly and Schamberger"
+        "leiCode": "8CYZKNXTK4HVBXLH5LWR",
+        "name": "Daniel, Hamill and Kuvalis"
       },
       "otherAddresses": []
     },
@@ -91,27 +91,27 @@
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",
       "lastUpdateDate": "2020-01-01",
-      "status": "IN PROGRESS",
+      "status": "REJECTED",
       "nextRenewalDate": "2021-02-02",
-      "managingLou": "VEINYKVDRJDBMANDGZCO",
-      "validationSources": "NOT_CORROBORATED",
+      "managingLou": "AFAQPQJDKBOUELFBMZTB",
+      "validationSources": "PARTIALLY_CORROBORATED",
       "validationAuthority": [
         {
           "type": "LEIauthority",
           "validationAuthorityID": "RA000005",
-          "otherValidationAuthorityID": "7AT2BE06",
-          "validationAuthorityEntityID": "5P8CYZKNXTK4HVBXLH5L"
+          "otherValidationAuthorityID": "YET5ND42",
+          "validationAuthorityEntityID": "H0I48Y2JRY4FLBXIVF93"
         }
       ]
     },
     "bic": [
-      "ZDLPGDEAIQ"
+      "SHZLDMAZID"
     ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..FkaGdzsLRfkYc2eJ8vtvf1YQ22D-FZncig7tkAYzJo8Se03F9rvYSbLnyYY9TC2AGWyxvfm7mta9LTZr_g5FAw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..M00dFmDo0t2s3KPl3ueYEmtIvQu42RCV7iR_MGnWbMiJzmGUA_y1Z9nCmnUT_dM4fF9yZP-uMYhUBiRfvn3LAQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

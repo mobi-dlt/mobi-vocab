@@ -4,20 +4,23 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "Place",
-    "globalLocationNumber": "4556178713977",
+    "globalLocationNumber": "4443222826434",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "38.3773",
-      "longitude": "-11.4645"
+      "latitude": "-23.8080",
+      "longitude": "-136.7254",
+      "elevation": "5000 ft",
+      "timestamp": "2022-01-02T13:37:37.718Z",
+      "description": "geo coordinates"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Mayert Group",
-      "streetAddress": "20360 Sauer Stream",
-      "addressLocality": "Karinaburgh",
-      "addressRegion": "California",
-      "postalCode": "60239-3807",
-      "addressCountry": "British Indian Ocean Territory (Chagos Archipelago)"
+      "organizationName": "Kerluke Inc",
+      "streetAddress": "23775 Nitzsche Flat",
+      "addressLocality": "South Abbie",
+      "addressRegion": "New Hampshire",
+      "postalCode": "66598",
+      "addressCountry": "Suriname"
     }
   },
   {
@@ -25,20 +28,23 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "Place",
-    "globalLocationNumber": "1089314752378",
+    "globalLocationNumber": "9095096159122",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "-6.4629",
-      "longitude": "135.9530"
+      "latitude": "37.8244",
+      "longitude": "-97.8353",
+      "elevation": "5000 ft",
+      "timestamp": "2021-04-01T18:13:38.984Z",
+      "description": "geo coordinates"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Bauch, Leannon and Jacobi",
-      "streetAddress": "734 Rutherford Springs",
-      "addressLocality": "South Brendenshire",
-      "addressRegion": "Texas",
-      "postalCode": "50073",
-      "addressCountry": "Singapore"
+      "organizationName": "Mitchell and Sons",
+      "streetAddress": "7046 Vernie Center",
+      "addressLocality": "Weissnatberg",
+      "addressRegion": "South Carolina",
+      "postalCode": "96569-5073",
+      "addressCountry": "Costa Rica"
     }
   },
   {
@@ -46,20 +52,23 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "Place",
-    "globalLocationNumber": "4076233795828",
+    "globalLocationNumber": "6204685348615",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "43.0248",
-      "longitude": "6.4658"
+      "latitude": "-63.5467",
+      "longitude": "173.3952",
+      "elevation": "5000 ft",
+      "timestamp": "2021-05-17T20:13:06.200Z",
+      "description": "geo coordinates"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Heidenreich LLC",
-      "streetAddress": "5052 Katelin Prairie",
-      "addressLocality": "Thielhaven",
-      "addressRegion": "North Dakota",
-      "postalCode": "58876",
-      "addressCountry": "Sao Tome and Principe"
+      "organizationName": "Nicolas - Ullrich",
+      "streetAddress": "1662 White Station",
+      "addressLocality": "Hauckburgh",
+      "addressRegion": "Oregon",
+      "postalCode": "58076",
+      "addressCountry": "Bahamas"
     }
   }
 ]

@@ -3,102 +3,127 @@
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
-    "type": "LEIentity",
-    "legalNameLanguage": "de",
+    "legalName": "Sawayn, Klein and Kshlerin",
+    "legalNameLanguage": "ja",
     "otherNames": [
-      "Lesch - Bogisich",
-      "Heller, Boehm and Bartoletti"
+      "Kuhic, Block and Olson",
+      "Lueilwitz, Lowe and Metz"
     ],
-    "transliteratedOtherNames": [
-      "Lesch - Bogisich",
-      "Heller, Boehm and Bartoletti"
-    ],
+    "legalAddress": {
+      "type": "LEIaddress",
+      "language": "ar",
+      "addressLines": [
+        "Cruickshank - Reynolds",
+        "2614 Daija Trafficway"
+      ],
+      "addressNumber": "363",
+      "addressNumberWithinBuilding": "1",
+      "mailRouting": "94371 Horacio Trafficway, 04150-7623",
+      "city": "Littelshire",
+      "region": "Avon",
+      "country": "Japan",
+      "postalCode": "60146"
+    },
     "registrationAuthority": {
       "type": "LEIauthority",
       "validationAuthorityID": "RA000003",
-      "otherValidationAuthorityID": "2F179UG6",
-      "validationAuthorityEntityID": "VYQEQUFMCQDRZI1JVIKL"
+      "otherValidationAuthorityID": "DMGMUQ84",
+      "validationAuthorityEntityID": "RPEWL6M8DYI6EU2HF83V"
     },
-    "entityCategory": "Grocery",
+    "entityCategory": "Industrial",
     "legalForm": "LLC",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "Q3583ZK50HHM7PCKR0XB",
-      "name": "Kuhlman - Moen"
+      "leiCode": "4PW1LXM1MJAPXVYPMSSC",
+      "name": "McClure - Herzog"
     },
-    "status": "IN PROGRESS",
     "expirationDate": "2022-07-11",
-    "expirationReason": "engage customized schemas",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "FN9ZLAWC7DMGMUQ84RPE",
-      "name": "Mills, Daugherty and Nader"
+      "leiCode": "NEBYE9UN0BLRL4EY8G88",
+      "name": "Bins, Kihn and Dach"
     },
-    "protocol": "connect",
+    "otherAddresses": [],
     "system": "compress",
-    "bandwidth": "program",
-    "interface": "connect"
+    "pixel": "calculate"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
-    "legalName": "Tillman Inc",
-    "legalNameLanguage": "it",
-    "transliteratedOtherNames": [
-      "Hyatt Group",
-      "Kling Inc"
+    "type": "LEIentity",
+    "legalName": "Beer, Casper and Lemke",
+    "legalNameLanguage": "sk",
+    "otherNames": [
+      "Macejkovic, DuBuque and Lindgren",
+      "Barton and Sons"
     ],
-    "legalAddress": {
-      "type": "LEIaddress",
-      "language": "en_AU",
-      "addressLines": [
-        "Leannon and Sons",
-        "4256 Denis Village"
-      ],
-      "addressNumber": "415",
-      "addressNumberWithinBuilding": "2",
-      "mailRouting": "31306 Ondricka Rue, 47878-4588",
-      "city": "Constantinmouth",
-      "region": "Buckinghamshire",
-      "country": "Greenland",
-      "postalCode": "02901"
-    },
     "headquartersAddress": {
       "type": "LEIaddress",
       "language": "hy",
       "addressLines": [
-        "Wehner Inc",
-        "1903 Kurt Course"
+        "Cassin Inc",
+        "276 Citlalli Divide"
       ],
-      "addressNumber": "62",
-      "addressNumberWithinBuilding": "3",
-      "mailRouting": "61394 Abigale Vista, 93698",
-      "city": "Jackberg",
-      "region": "Borders",
-      "country": "Argentina",
-      "postalCode": "54365-1101"
+      "addressNumber": "72",
+      "addressNumberWithinBuilding": "8",
+      "mailRouting": "76142 Charlie Track, 66899",
+      "city": "New Ahmad",
+      "region": "Bedfordshire",
+      "country": "Bulgaria",
+      "postalCode": "26888"
     },
-    "legalJurisdiction": "Berkshire",
-    "entityCategory": "Grocery",
-    "expirationReason": "utilize leading-edge experiences",
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000003",
+      "otherValidationAuthorityID": "KR14XSOX",
+      "validationAuthorityEntityID": "OL7XNTEONK3CN5ZL1BZV"
+    },
+    "associatedEntity": {
+      "type": "Organization",
+      "leiCode": "YP96C6D1LQCNJHSUPTGL",
+      "name": "Sawayn, Borer and Mante"
+    },
+    "status": "CONFIRMED",
+    "expirationReason": "scale leading-edge e-business",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "SOXOL7XNTEONK3CN5ZL1",
-      "name": "Wolff Group"
-    },
-    "circuit": "calculate"
-  },
-  {
-    "legalJurisdiction": "Berkshire",
-    "successorEntity": {
-      "type": "Organization",
-      "leiCode": "TIVL8S7NL6ECUWWRCK89",
-      "name": "Gutkowski, Goodwin and Reynolds"
+      "leiCode": "NERBXOFTWRVSBFVTD4AJ",
+      "name": "Abshire - Harber"
     },
     "otherAddresses": [],
-    "bus": "program",
-    "sensor": "override",
-    "firewall": "bypass"
+    "interface": "generate",
+    "system": "quantify"
+  },
+  {
+    "type": "LEIentity",
+    "otherNames": [
+      "Kris, Volkman and Balistreri",
+      "Heaney, Brekke and Hoeger"
+    ],
+    "legalAddress": {
+      "type": "LEIaddress",
+      "language": "en_GB",
+      "addressLines": [
+        "Kreiger - Mohr",
+        "779 Schuster Mount"
+      ],
+      "addressNumber": "275",
+      "addressNumberWithinBuilding": "9",
+      "mailRouting": "40860 Dedrick Turnpike, 93019-4311",
+      "city": "South Lexusberg",
+      "region": "Buckinghamshire",
+      "country": "Hungary",
+      "postalCode": "26398-5553"
+    },
+    "legalForm": "LLC",
+    "expirationReason": "enable bleeding-edge content",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "L568QVVH7J360BN8L7JM",
+      "name": "Gerhold and Sons"
+    },
+    "system": "synthesize",
+    "monitor": "synthesize"
   }
 ]

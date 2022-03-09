@@ -1,42 +1,25 @@
 [
   {
-    "addressNumber": "259",
-    "program": "input",
-    "circuit": "hack"
+    "addressLines": [
+      "Tillman Group",
+      "801 Fay Stravenue"
+    ],
+    "addressNumberWithinBuilding": "1",
+    "interface": "calculate",
+    "microchip": "reboot"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
+    "addressLines": [
+      "Schamberger Group",
+      "317 Quitzon Springs"
     ],
+    "bandwidth": "connect",
+    "bus": "hack"
+  },
+  {
     "type": "LEIaddress",
-    "language": "az",
-    "addressLines": [
-      "Lynch, Sipes and Roob",
-      "06395 Gerlach Point"
-    ],
-    "addressNumber": "4",
-    "addressNumberWithinBuilding": "2",
-    "mailRouting": "6058 Breitenberg Spur, 70549",
-    "city": "Heaneybury",
-    "region": "Bedfordshire",
-    "country": "Liechtenstein",
-    "panel": "synthesize",
-    "application": "bypass"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "language": "nl",
-    "addressLines": [
-      "Krajcik - Hegmann",
-      "899 Isabel Ranch"
-    ],
-    "addressNumber": "38",
-    "mailRouting": "615 Bailey Shores, 08334",
-    "postalCode": "04124-9941",
-    "card": "override",
-    "bus": "bypass",
-    "application": "synthesize"
+    "addressNumberWithinBuilding": "8",
+    "sensor": "generate",
+    "matrix": "hack"
   }
 ]

@@ -1,24 +1,25 @@
 [
   {
-    "matrix": "transmit",
-    "firewall": "program",
-    "interface": "compress",
-    "alarm": "parse"
-  },
-  {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
-    "monitor": "parse",
-    "matrix": "generate"
+    "type": "PriceSpecification",
+    "price": 470,
+    "microchip": "program",
+    "firewall": "input"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "priceCurrency": "MDL",
-    "pixel": "back up",
-    "protocol": "override",
-    "matrix": "back up"
+    "price": 963,
+    "priceCurrency": "SEK",
+    "interface": "connect"
+  },
+  {
+    "type": "PriceSpecification",
+    "price": 6628,
+    "priceCurrency": "TZS",
+    "port": "hack",
+    "interface": "parse",
+    "capacitor": "parse",
+    "matrix": "connect"
   }
 ]
