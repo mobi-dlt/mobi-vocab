@@ -1,0 +1,35 @@
+[
+  {
+    "type": [
+      "DocumentVerificationEvidence"
+    ],
+    "verifier": [
+      "did:web:www.acme.com"
+    ],
+    "evidenceDocument": "ACME-Evidence-Document-0x2b440EbE-2-4-2021",
+    "subjectPresence": "InPerson",
+    "documentPresence": "Digital"
+  },
+  {
+    "type": [
+      "DocumentVerificationEvidence"
+    ],
+    "verifier": [
+      "did:web:www.acme.com"
+    ],
+    "evidenceDocument": "ACME-Evidence-Document-0x2b440EbE-2-4-2021",
+    "subjectPresence": "InPerson",
+    "documentPresence": "Digital"
+  },
+  {
+    "type": [
+      "DocumentVerificationEvidence"
+    ],
+    "verifier": [
+      "did:web:www.acme.com"
+    ],
+    "evidenceDocument": "ACME-Evidence-Document-0x2b440EbE-2-4-2021",
+    "subjectPresence": "InPerson",
+    "documentPresence": "Digital"
+  }
+]

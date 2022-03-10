@@ -1,0 +1,21 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schmea/schemas-schema"
+    ],
+    "microchip": "input",
+    "application": "quantify",
+    "pixel": "hack",
+    "system": "hack"
+  },
+  {
+    "type": [
+      "AdvancedShipmentNotice"
+    ],
+    "bus": "navigate",
+    "pixel": "hack"
+  },
+  {
+    "matrix": "synthesize"
+  }
+]

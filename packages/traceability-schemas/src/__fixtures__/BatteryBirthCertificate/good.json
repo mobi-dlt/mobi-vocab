@@ -1,0 +1,68 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schmea/schemas-schema"
+    ],
+    "type": "BatteryBirthCertificate",
+    "batteryid": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+    "batterySoftwareVersion": "1.0",
+    "energyCapacity": "30kwh",
+    "maxChargeRate": "5kw",
+    "maxDischargeRate": "10kW",
+    "yearOfManufacture": "2020",
+    "supplierID": "id",
+    "usageOfBatteryHistory": "Mobility",
+    "batterySerialNumber": "sampel SN",
+    "batteryPartlNumber": "PartlNumber",
+    "batteryPackDimension": "dimension",
+    "batteryWeight": "weight",
+    "cellType": "type",
+    "manufactureOfCell": "manufacturer",
+    "maxCellTemperature": "max temp",
+    "minCellTemperature": "min temp"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schmea/schemas-schema"
+    ],
+    "type": "BatteryBirthCertificate",
+    "batteryid": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+    "batterySoftwareVersion": "1.0",
+    "energyCapacity": "30kwh",
+    "maxChargeRate": "5kw",
+    "maxDischargeRate": "10kW",
+    "yearOfManufacture": "2020",
+    "supplierID": "id",
+    "usageOfBatteryHistory": "Mobility",
+    "batterySerialNumber": "sampel SN",
+    "batteryPartlNumber": "PartlNumber",
+    "batteryPackDimension": "dimension",
+    "batteryWeight": "weight",
+    "cellType": "type",
+    "manufactureOfCell": "manufacturer",
+    "maxCellTemperature": "max temp",
+    "minCellTemperature": "min temp"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schmea/schemas-schema"
+    ],
+    "type": "BatteryBirthCertificate",
+    "batteryid": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+    "batterySoftwareVersion": "1.0",
+    "energyCapacity": "30kwh",
+    "maxChargeRate": "5kw",
+    "maxDischargeRate": "10kW",
+    "yearOfManufacture": "2020",
+    "supplierID": "id",
+    "usageOfBatteryHistory": "Mobility",
+    "batterySerialNumber": "sampel SN",
+    "batteryPartlNumber": "PartlNumber",
+    "batteryPackDimension": "dimension",
+    "batteryWeight": "weight",
+    "cellType": "type",
+    "manufactureOfCell": "manufacturer",
+    "maxCellTemperature": "max temp",
+    "minCellTemperature": "min temp"
+  }
+]

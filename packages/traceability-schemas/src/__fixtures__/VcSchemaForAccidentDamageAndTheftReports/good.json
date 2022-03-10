@@ -1,0 +1,50 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schmea/schemas-schemas"
+    ],
+    "type": "VcSchemaForAccidentDamageAndTheftReports",
+    "eventId": "123",
+    "vid": "ABC123",
+    "reportID": "DEF123",
+    "insuranceClaimNumber": "ZXC123",
+    "repairOrderNumber": "testing...",
+    "driverID": "testing...",
+    "geolocation": "testing...",
+    "dateTime": "testing...",
+    "eventDescription": "testing...",
+    "jurisdictionSpecificRequirement": "testing..."
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schmea/schemas-schemas"
+    ],
+    "type": "VcSchemaForAccidentDamageAndTheftReports",
+    "eventId": "123",
+    "vid": "ABC123",
+    "reportID": "DEF123",
+    "insuranceClaimNumber": "ZXC123",
+    "repairOrderNumber": "testing...",
+    "driverID": "testing...",
+    "geolocation": "testing...",
+    "dateTime": "testing...",
+    "eventDescription": "testing...",
+    "jurisdictionSpecificRequirement": "testing..."
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schmea/schemas-schemas"
+    ],
+    "type": "VcSchemaForAccidentDamageAndTheftReports",
+    "eventId": "123",
+    "vid": "ABC123",
+    "reportID": "DEF123",
+    "insuranceClaimNumber": "ZXC123",
+    "repairOrderNumber": "testing...",
+    "driverID": "testing...",
+    "geolocation": "testing...",
+    "dateTime": "testing...",
+    "eventDescription": "testing...",
+    "jurisdictionSpecificRequirement": "testing..."
+  }
+]

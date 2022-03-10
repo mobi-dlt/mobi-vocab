@@ -1,0 +1,40 @@
+[
+  {
+    "type": "BatteryPackMaintenanceCertificate",
+    "batteryID": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+    "dealerID": "sampel SN",
+    "maintenanceID": "PartlNumber",
+    "serviceReason": "Failed battery pack",
+    "serviceDate": "2022-2-10",
+    "serviceDetails": "Replaced battery pack",
+    "serviceAction": "Replace battery pack",
+    "serviceActionDate": "2022-2-10",
+    "serviceCloseDate": "2022-2-10",
+    "replacedBatteryID": "did:mobi:e436e12ec21ebfeb1f712ebcer",
+    "array": "reboot",
+    "alarm": "compress"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schmea/schemas-schema"
+    ],
+    "dealerID": "sampel SN",
+    "serviceCloseDate": "2022-2-10",
+    "application": "navigate"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schmea/schemas-schema"
+    ],
+    "type": "BatteryPackMaintenanceCertificate",
+    "dealerID": "sampel SN",
+    "maintenanceID": "PartlNumber",
+    "serviceReason": "Failed battery pack",
+    "serviceDate": "2022-2-10",
+    "serviceDetails": "Replaced battery pack",
+    "serviceAction": "Replace battery pack",
+    "replacedBatteryID": "did:mobi:e436e12ec21ebfeb1f712ebcer",
+    "sensor": "calculate",
+    "matrix": "calculate"
+  }
+]

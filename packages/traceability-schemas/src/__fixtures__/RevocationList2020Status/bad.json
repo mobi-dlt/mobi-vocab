@@ -1,0 +1,18 @@
+[
+  {
+    "revocationListIndex": "23323",
+    "revocationListCredential": "https://example.com/credentials/status/?queryID=0xFd5FEB812fFa20bEBDcBCD63dC11e96A7A1D59c14fAbEAF9c55D006Ac9DEac3B",
+    "card": "compress",
+    "driver": "input"
+  },
+  {
+    "driver": "hack",
+    "bus": "generate"
+  },
+  {
+    "revocationListIndex": "23323",
+    "pixel": "index",
+    "bus": "index",
+    "hard drive": "bypass"
+  }
+]

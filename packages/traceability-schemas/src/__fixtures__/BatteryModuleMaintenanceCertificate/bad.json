@@ -1,0 +1,36 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schmea/schemas-schema"
+    ],
+    "dealerID": "sampel SN",
+    "serviceReason": "Failed battery pack",
+    "serviceDate": "2022-2-10",
+    "serviceDetails": "Replaced battery pack",
+    "serviceAction": "Replace battery pack",
+    "serviceActionDate": "2022-2-10",
+    "serviceCloseDate": "2022-2-10",
+    "program": "generate",
+    "hard drive": "synthesize"
+  },
+  {
+    "type": "BatteryModuleMaintenanceCertificate",
+    "moduleID": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+    "serviceReason": "Failed battery pack",
+    "serviceDate": "2022-2-10",
+    "serviceDetails": "Replaced battery pack",
+    "serviceAction": "Replace battery pack",
+    "serviceActionDate": "2022-2-10",
+    "port": "synthesize"
+  },
+  {
+    "moduleID": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+    "serviceReason": "Failed battery pack",
+    "serviceDate": "2022-2-10",
+    "serviceDetails": "Replaced battery pack",
+    "serviceActionDate": "2022-2-10",
+    "serviceCloseDate": "2022-2-10",
+    "pixel": "parse",
+    "firewall": "index"
+  }
+]

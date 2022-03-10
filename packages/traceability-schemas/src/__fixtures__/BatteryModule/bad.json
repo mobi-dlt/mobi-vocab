@@ -1,0 +1,28 @@
+[
+  {
+    "type": "BatteryModule",
+    "moduleID": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+    "moduleSerialNumber": "sampel SN",
+    "array": "copy",
+    "circuit": "bypass",
+    "port": "compress",
+    "alarm": "index"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schmea/schemas-schema"
+    ],
+    "type": "BatteryModule",
+    "moduleID": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+    "moduleSerialNumber": "sampel SN",
+    "bus": "copy",
+    "driver": "hack"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schmea/schemas-schema"
+    ],
+    "modulePartlNumber": "PartlNumber",
+    "feed": "hack"
+  }
+]

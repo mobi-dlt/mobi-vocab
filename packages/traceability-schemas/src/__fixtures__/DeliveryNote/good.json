@@ -1,0 +1,50 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schmea/schemas-schema"
+    ],
+    "type": [
+      "DeliveryNote"
+    ],
+    "deliverTo": "Ford",
+    "shipTo": "Ford",
+    "deliveryNoteNumber": "deliveryNoteNumberxxx",
+    "deliveryDate": "2022-3-20",
+    "PONumber": "PONumberxxx",
+    "shippingDate": "2022-1-20",
+    "item": "item list",
+    "weightAndVolume": "10 ton 50 items"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schmea/schemas-schema"
+    ],
+    "type": [
+      "DeliveryNote"
+    ],
+    "deliverTo": "Ford",
+    "shipTo": "Ford",
+    "deliveryNoteNumber": "deliveryNoteNumberxxx",
+    "deliveryDate": "2022-3-20",
+    "PONumber": "PONumberxxx",
+    "shippingDate": "2022-1-20",
+    "item": "item list",
+    "weightAndVolume": "10 ton 50 items"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schmea/schemas-schema"
+    ],
+    "type": [
+      "DeliveryNote"
+    ],
+    "deliverTo": "Ford",
+    "shipTo": "Ford",
+    "deliveryNoteNumber": "deliveryNoteNumberxxx",
+    "deliveryDate": "2022-3-20",
+    "PONumber": "PONumberxxx",
+    "shippingDate": "2022-1-20",
+    "item": "item list",
+    "weightAndVolume": "10 ton 50 items"
+  }
+]
