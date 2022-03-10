@@ -1,20 +1,19 @@
 [
   {
-    "uvi": "testing...",
-    "capacitor": "calculate",
-    "interface": "quantify"
-  },
-  {
-    "uvi": "testing...",
-    "alarm": "input",
-    "monitor": "index",
-    "feed": "synthesize",
-    "panel": "index"
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "sensor": "parse"
   },
   {
     "type": "UniqueVehicleIdentifier",
-    "bus": "reboot",
-    "interface": "reboot",
-    "array": "navigate"
+    "bus": "transmit",
+    "sensor": "synthesize",
+    "capacitor": "quantify"
+  },
+  {
+    "type": "UniqueVehicleIdentifier",
+    "transmitter": "synthesize",
+    "array": "synthesize"
   }
 ]
