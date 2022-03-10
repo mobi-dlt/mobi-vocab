@@ -7,7 +7,7 @@ const getBatterySOH = () => {
     delete batteryIdentifier['@context'];
 
     const example = {
-        '@context': ['https://dlt.mobi/mobility'],
+        '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
         type: 'BatterySOH',
         batteryid: batteryIdentifier,
         previousSOHVal: '95',

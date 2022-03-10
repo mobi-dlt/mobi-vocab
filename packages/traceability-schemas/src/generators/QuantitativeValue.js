@@ -10,7 +10,7 @@ const getQuantitativeValue = () => {
   const unitCode = prods[randomProd].Unit;
 
   const example = {
-    '@context': ['https://dlt.mobi/mobility'],
+    '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
     type: 'QuantitativeValue',
     unitCode,
     value: faker.random.number({ min: 10, max: 10000 }).toString(),

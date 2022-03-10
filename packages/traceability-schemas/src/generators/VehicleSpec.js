@@ -1,6 +1,6 @@
 const getVehicleSpec = () => {
     const example = {
-        '@context': ['https://dlt.mobi/mobility'],
+        '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
         type: 'VehicleSpec',
         uuid: '123e4567-e89b-12d3-a456-426614174000',
         OEM: 'Volkswagen',

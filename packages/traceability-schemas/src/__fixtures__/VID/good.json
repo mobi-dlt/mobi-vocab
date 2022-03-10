@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://dlt.mobi/mobility"
+      "https://dlt.mobi/mobility-schmea/schemas"
     ],
     "type": "VID",
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
@@ -35,7 +35,7 @@
   },
   {
     "@context": [
-      "https://dlt.mobi/mobility"
+      "https://dlt.mobi/mobility-schmea/schemas"
     ],
     "type": "VID",
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
@@ -69,7 +69,7 @@
   },
   {
     "@context": [
-      "https://dlt.mobi/mobility"
+      "https://dlt.mobi/mobility-schmea/schemas"
     ],
     "type": "VID",
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",

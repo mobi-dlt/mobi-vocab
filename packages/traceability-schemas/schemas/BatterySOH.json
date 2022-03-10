@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility/schemas/BatterySOH.json",
+    "$id": "https://dlt.mobi/mobility-schmea/schemas/schemas/BatterySOH.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"BatterySOH\", \"@id\": \"https://dlt.mobi/mobility#BatterySOH\"}",
+    "$comment": "{\"term\": \"BatterySOH\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#BatterySOH\"}",
     "title": "BatterySOH",
     "description": "Battery SOH information for vehicle.",
     "type": "object",
@@ -20,10 +20,10 @@
             ]
         },
         "batteryid": {
-            "$comment": "{\"term\": \"batteryid\", \"@id\": \"https://dlt.mobi/mobility#BatteryID\"}",
+            "$comment": "{\"term\": \"batteryid\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#BatteryID\"}",
             "title": "batteryid",
             "description": "Battery ID number",
-            "$ref": "https://dlt.mobi/mobility/schemas/BatteryID.json"
+            "$ref": "https://dlt.mobi/mobility-schmea/schemas/schemas/BatteryID.json"
         },
         "previousSOHVal": {
             "$comment": "{\"term\": \"previousSOHVal\", \"@id\": \"https://schema.org/value\"}",
@@ -50,7 +50,7 @@
             "type": "string"
         },
         "chargeCycles": {
-            "$comment": "{\"term\": \"chargeCycles\", \"@id\": \"https://dlt.mobi/mobility#QuantitativeValue\"}",
+            "$comment": "{\"term\": \"chargeCycles\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#QuantitativeValue\"}",
             "title": "chargeCycles",
             "description": "charge Cycles",
             "type": "string"

@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://dlt.mobi/mobility"
+      "https://dlt.mobi/mobility-schmea/schemas"
     ],
     "type": "GroupPermissionChangeCertificate",
     "URI": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
@@ -13,7 +13,7 @@
   },
   {
     "@context": [
-      "https://dlt.mobi/mobility"
+      "https://dlt.mobi/mobility-schmea/schemas"
     ],
     "type": "GroupPermissionChangeCertificate",
     "URI": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
@@ -25,7 +25,7 @@
   },
   {
     "@context": [
-      "https://dlt.mobi/mobility"
+      "https://dlt.mobi/mobility-schmea/schemas"
     ],
     "type": "GroupPermissionChangeCertificate",
     "URI": "did:mobi:e436e12ec21ebfeb1f712ebc3f",

@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://dlt.mobi/mobility"
+    "https://dlt.mobi/mobility-schmea/schemas"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,7 +11,7 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://dlt.mobi/mobility"
+      "https://dlt.mobi/mobility-schmea/schemas"
     ],
     "type": "Member",
     "firstName": "Karley",
@@ -21,7 +21,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..q5xmgPS4Vt5DCriTgPvMpm3dGT8GBgzl4u6_Xmtnm_rfVmU8cRzbOT9R7gXfm15yYDFUs3Frfe6GnsLEtipTAw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..6W8FcrCERZxIV4VQZZz6XMKfz-VVkdVwID9guMDaBPDY-e2tgRG0uMVij2g9dh91H8duOYbAhlzVaJm09umqDg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility/VehicleToGridCommunication.json",
+    "$id": "https://dlt.mobi/mobility-schmea/schemas/VehicleToGridCommunication.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"VehicleToGridCommunication\", \"@id\": \"https://dlt.mobi/mobility#VehicleToGridCommunication\"}",
+    "$comment": "{\"term\": \"VehicleToGridCommunication\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#VehicleToGridCommunication\"}",
     "title": "EVGI VehicleToGridCommunication",
     "description": "EVGI: VehicleToGridCommunication",
     "type": "object",

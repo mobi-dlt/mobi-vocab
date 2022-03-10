@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://dlt.mobi/mobility"
+    "https://dlt.mobi/mobility-schmea/schemas"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -12,7 +12,7 @@
   "credentialSubject": {
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
-      "https://dlt.mobi/mobility"
+      "https://dlt.mobi/mobility-schmea/schemas"
     ],
     "type": "PrivacyPolicy",
     "issuanceDate": "2021-03-09",
@@ -23,7 +23,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..KQ2nNUW-046g0ASfFAqDPOFsHQWavb3LTmdZfEIy5-kWI1ZqvLbHPWRpqJg-qzz0Wn3vJOds06Kltp8_fwiiAA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..0dqBBrgCxfUdPtyUYzXK_DXyYAHU39A_p6tUEtI-np8fes0v_Bxjyzu-OyOI_YNC4dl8C8mdrNkyR0B33niADw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

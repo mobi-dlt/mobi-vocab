@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://dlt.mobi/mobility"
+    "https://dlt.mobi/mobility-schmea/schemas"
   ],
   "id": "http://example.org/credentials/",
   "type": [
@@ -11,7 +11,7 @@
   "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
   "credentialSubject": {
     "@context": [
-      "https://dlt.mobi/mobility"
+      "https://dlt.mobi/mobility-schmea/schemas"
     ],
     "type": "EVGIEntityExtension",
     "Address": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
@@ -24,7 +24,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..uaqgKHPhEDBNaClr9pZbXkvoj1HZHf-iGx3v3C_sPhBGkj385Jnqr_FuELEDrjt_Qqi6TbCA-9rpCp8QLnXkDw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..11QT-DeXxe6L2w2eK0dgJKZo0NM0HB5Rt1ygX3ZNaPEeE7t4BgOfvebTPUDueod9vMgzQJSsuN_czBWiktglAg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

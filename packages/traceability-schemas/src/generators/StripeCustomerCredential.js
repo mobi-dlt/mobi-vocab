@@ -13,7 +13,7 @@ const getStripeCustomerCredential = () => {
   const example = {
     '@context': [
         'https://www.w3.org/2018/credentials/v1',
-        'https://dlt.mobi/mobility',
+        'https://dlt.mobi/mobility-schmea/schemas',
       ],
     type: ['StripeCustomerCredential', 'VerifiableCredential'],
     holder: 'did:mobi:f436e12ec21ebfdb1f712ebc3h',

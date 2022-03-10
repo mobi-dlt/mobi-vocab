@@ -15,7 +15,7 @@
   },
   {
     "@context": [
-      "https://dlt.mobi/mobility"
+      "https://dlt.mobi/mobility-schmea/schemas"
     ],
     "target": "https://example.com/related/link/123",
     "linkRelationship": "alternate",

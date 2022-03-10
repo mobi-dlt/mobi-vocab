@@ -11,13 +11,13 @@
   },
   {
     "@context": [
-      "https://dlt.mobi/mobility"
+      "https://dlt.mobi/mobility-schmea/schemas"
     ],
     "type": "CitopiaMembershipCredential",
     "holder": "Matt Shi",
     "member": {
       "@context": [
-        "https://dlt.mobi/mobility"
+        "https://dlt.mobi/mobility-schmea/schemas"
       ],
       "type": "Member",
       "firstName": "Oran",

@@ -7,7 +7,7 @@ const getTrustAnchor = () => {
     delete entityInfo['@context'];
 
     const example = {
-        '@context': ['https://dlt.mobi/mobility'],
+        '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
         type: 'TrustAnchor',
         EntityInfo: entityInfo,
         identifier: 'Trust Anchor Name',

@@ -1,6 +1,6 @@
 const getMeter = () => {
     const example = {
-        '@context': ['https://dlt.mobi/mobility'],
+        '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
         type: 'Meter',
         Make: 'did:mobi:e436e12ec21ebfeb1f712ebc3f',
         Model: 'model',

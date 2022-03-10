@@ -4,7 +4,7 @@ const { getVID } = require('./VID');
 
 const getBlockList = () => {
     const example = {
-        '@context': ['https://dlt.mobi/mobility'],
+        '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
         type: 'BlockList',
         UIUD: 'did:mobi:e436e12ec21ebfeb1f712ebc3f',
         URI: 'uri',

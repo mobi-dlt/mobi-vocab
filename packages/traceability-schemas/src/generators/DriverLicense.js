@@ -11,7 +11,7 @@ const getDriverLicense = () => {
   delete auth['@context'];
 
   const example = {
-    '@context': ['https://dlt.mobi/mobility'],
+    '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
     type: 'DriverLicense',
     legalName: 'Matt Shi',
     licenseNumber: 'Y5327288',

@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://dlt.mobi/mobility"
+      "https://dlt.mobi/mobility-schmea/schemas"
     ],
     "type": "MembershipCredential",
     "holder": "Matt Shi",
@@ -9,7 +9,7 @@
   },
   {
     "@context": [
-      "https://dlt.mobi/mobility"
+      "https://dlt.mobi/mobility-schmea/schemas"
     ],
     "type": "MembershipCredential",
     "holder": "Matt Shi",
@@ -17,7 +17,7 @@
   },
   {
     "@context": [
-      "https://dlt.mobi/mobility"
+      "https://dlt.mobi/mobility-schmea/schemas"
     ],
     "type": "MembershipCredential",
     "holder": "Matt Shi",

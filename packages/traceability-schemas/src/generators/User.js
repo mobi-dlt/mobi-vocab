@@ -7,7 +7,7 @@ const getUser = () => {
     delete entityInfo['@context'];
 
     const example = {
-        '@context': ['https://dlt.mobi/mobility'],
+        '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
         type: 'User',
         EntityInfo: entityInfo,
         PermissionedURI: 'uri',

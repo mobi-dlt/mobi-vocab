@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility/AccessCertificate.json",
+    "$id": "https://dlt.mobi/mobility-schmea/schemas/AccessCertificate.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"AccessCertificate\", \"@id\": \"https://dlt.mobi/mobility#AccessCertificate\"}",
+    "$comment": "{\"term\": \"AccessCertificate\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#AccessCertificate\"}",
     "title": "AccessCertificate",
     "description": "EVGI: Access Certificate act as the main key to entry for accessing",
     "type": "object",

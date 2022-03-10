@@ -1,6 +1,6 @@
 const getTimeDependentSmartEnergyTariffs = () => {
     const example = {
-        '@context': ['https://dlt.mobi/mobility'],
+        '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
         type: 'TimeDependentSmartEnergyTariffs',
         Date: 'date',
         SOC: 'soc',

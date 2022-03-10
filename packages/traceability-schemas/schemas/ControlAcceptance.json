@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility/ControlAcceptance.json",
+    "$id": "https://dlt.mobi/mobility-schmea/schemas/ControlAcceptance.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"ControlAcceptance\", \"@id\": \"https://dlt.mobi/mobility#ControlAcceptance\"}",
+    "$comment": "{\"term\": \"ControlAcceptance\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#ControlAcceptance\"}",
     "title": "EVGI ControlAcceptance",
     "description": "EVGI: ControlAcceptance",
     "type": "object",

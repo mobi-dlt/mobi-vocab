@@ -7,7 +7,7 @@ const getServiceProvider = () => {
     delete entityInfo['@context'];
 
     const example = {
-        '@context': ['https://dlt.mobi/mobility'],
+        '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
         type: 'ServiceProvider',
         EntityInfo: entityInfo,
         LegalName: 'mobi',

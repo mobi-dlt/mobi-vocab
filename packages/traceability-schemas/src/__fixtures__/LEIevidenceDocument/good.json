@@ -1,13 +1,13 @@
 [
   {
     "@context": [
-      "https://dlt.mobi/mobility"
+      "https://dlt.mobi/mobility-schmea/schemas"
     ],
     "type": "LEIevidenceDocument",
     "lei": "Q534OQ3TY7HI5UCQEJRL",
     "entity": {
       "@context": [
-        "https://dlt.mobi/mobility"
+        "https://dlt.mobi/mobility-schmea/schemas"
       ],
       "type": "LEIentity",
       "legalName": "Jacobs Group",
@@ -76,7 +76,7 @@
     },
     "registration": {
       "@context": [
-        "https://dlt.mobi/mobility"
+        "https://dlt.mobi/mobility-schmea/schemas"
       ],
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",
@@ -100,13 +100,13 @@
   },
   {
     "@context": [
-      "https://dlt.mobi/mobility"
+      "https://dlt.mobi/mobility-schmea/schemas"
     ],
     "type": "LEIevidenceDocument",
     "lei": "9WS8Z9DRFGUR925HU112",
     "entity": {
       "@context": [
-        "https://dlt.mobi/mobility"
+        "https://dlt.mobi/mobility-schmea/schemas"
       ],
       "type": "LEIentity",
       "legalName": "Renner - Kunde",
@@ -175,7 +175,7 @@
     },
     "registration": {
       "@context": [
-        "https://dlt.mobi/mobility"
+        "https://dlt.mobi/mobility-schmea/schemas"
       ],
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",
@@ -199,13 +199,13 @@
   },
   {
     "@context": [
-      "https://dlt.mobi/mobility"
+      "https://dlt.mobi/mobility-schmea/schemas"
     ],
     "type": "LEIevidenceDocument",
     "lei": "GWTNGBC9HTTVCI68P4T3",
     "entity": {
       "@context": [
-        "https://dlt.mobi/mobility"
+        "https://dlt.mobi/mobility-schmea/schemas"
       ],
       "type": "LEIentity",
       "legalName": "Breitenberg, Hane and Haley",
@@ -274,7 +274,7 @@
     },
     "registration": {
       "@context": [
-        "https://dlt.mobi/mobility"
+        "https://dlt.mobi/mobility-schmea/schemas"
       ],
       "type": "LEIregistration",
       "initialRegistrationDate": "2020-01-01",

@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility/schemas/Member.json",
+    "$id": "https://dlt.mobi/mobility-schmea/schemas/schemas/Member.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"Member\", \"@id\": \"https://dlt.mobi/mobility#Member\"}",
+    "$comment": "{\"term\": \"Member\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#Member\"}",
     "title": "Member",
     "description": "A member",
     "type": "object",

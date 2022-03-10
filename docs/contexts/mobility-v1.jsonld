@@ -11,10 +11,10 @@
       "@type": "@id"
     },
     "relatedLink": {
-      "@id": "https://dlt.mobi/mobility#LinkRole"
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#LinkRole"
     },
     "AccessCertificate": {
-      "@id": "https://dlt.mobi/mobility#AccessCertificate",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#AccessCertificate",
       "@context": {
         "UIUD": {
           "@id": "https://schema.org/codeValue"
@@ -37,7 +37,7 @@
       }
     },
     "AssetRegistry": {
-      "@id": "https://dlt.mobi/mobility#AssetRegistry",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#AssetRegistry",
       "@context": {
         "AssetID": {
           "@id": "https://schema.org/identifier"
@@ -63,10 +63,10 @@
       }
     },
     "BatteryID": {
-      "@id": "https://dlt.mobi/mobility#BatteryID",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#BatteryID",
       "@context": {
         "vid": {
-          "@id": "https://dlt.mobi/mobility#VID"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#VID"
         },
         "batteryid": {
           "@id": "https://schema.org/identifier"
@@ -77,10 +77,10 @@
       }
     },
     "BatterySOH": {
-      "@id": "https://dlt.mobi/mobility#BatterySOH",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#BatterySOH",
       "@context": {
         "batteryid": {
-          "@id": "https://dlt.mobi/mobility#BatteryID"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#BatteryID"
         },
         "previousSOHVal": {
           "@id": "https://schema.org/value"
@@ -95,7 +95,7 @@
           "@id": "https://schema.org/startDate"
         },
         "chargeCycles": {
-          "@id": "https://dlt.mobi/mobility#QuantitativeValue"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#QuantitativeValue"
         },
         "impedance": {
           "@id": "https://schema.org/QuantitativeValue"
@@ -109,7 +109,7 @@
       }
     },
     "BlockList": {
-      "@id": "https://dlt.mobi/mobility#BlockList",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#BlockList",
       "@context": {
         "UIUD": {
           "@id": "https://schema.org/codeValue"
@@ -143,7 +143,7 @@
       }
     },
     "CarbonOffset": {
-      "@id": "https://dlt.mobi/mobility#CarbonOffset",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#CarbonOffset",
       "@context": {
         "CarbonIntensity": {
           "@id": "https://schema.org/QuantitativeValue"
@@ -176,7 +176,7 @@
           "@id": "https://schema.org/DateTime"
         },
         "VID": {
-          "@id": "https://dlt.mobi/mobility#VID"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#VID"
         },
         "ChargerID": {
           "@id": "https://schema.org/identifier"
@@ -211,7 +211,7 @@
       }
     },
     "ChargerIdentity": {
-      "@id": "https://dlt.mobi/mobility#ChargerIdentity",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#ChargerIdentity",
       "@context": {
         "Make": {
           "@id": "https://schema.org/manufacturer"
@@ -267,7 +267,7 @@
       }
     },
     "CitopiaMembershipCredential": {
-      "@id": "https://dlt.mobi/mobility#CitopiaMemberShipCredential",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#CitopiaMemberShipCredential",
       "@context": {
         "holder": {
           "@id": "https://schema.org/identifier"
@@ -276,7 +276,7 @@
           "@id": "https://schema.org/Number"
         },
         "member": {
-          "@id": "https://dlt.mobi/mobility#Member"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#Member"
         },
         "issuanceDate": {
           "@id": "https://schema.org/Date"
@@ -304,7 +304,7 @@
       }
     },
     "ControlAcceptance": {
-      "@id": "https://dlt.mobi/mobility#ControlAcceptance",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#ControlAcceptance",
       "@context": {
         "SellerID": {
           "@id": "https://schema.org/identifier"
@@ -327,7 +327,7 @@
       }
     },
     "Customer": {
-      "@id": "https://dlt.mobi/mobility#Customer",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#Customer",
       "@context": {
         "name": {
           "@id": "https://schema.org/name"
@@ -344,10 +344,10 @@
       }
     },
     "DataHost": {
-      "@id": "https://dlt.mobi/mobility#DataHost",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#DataHost",
       "@context": {
         "EntityInfo": {
-          "@id": "https://dlt.mobi/mobility#EC"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#EC"
         },
         "Endpoint": {
           "@id": "https://schema.org/Name"
@@ -358,7 +358,7 @@
       }
     },
     "DataHostBootstrappingCertificate": {
-      "@id": "https://dlt.mobi/mobility#DataHostBootstrappingCertificate",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#DataHostBootstrappingCertificate",
       "@context": {
         "UIUD": {
           "@id": "https://schema.org/codeValue"
@@ -390,7 +390,7 @@
       }
     },
     "DriverLicense": {
-      "@id": "https://dlt.mobi/mobility#DriverLicense",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#DriverLicense",
       "@context": {
         "legalName": {
           "@id": "https://schema.org/legalName"
@@ -399,7 +399,7 @@
           "@id": "https://schema.org/Number"
         },
         "registrationAuthority": {
-          "@id": "https://dlt.mobi/mobility#LEIauthority"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#LEIauthority"
         },
         "issuanceDate": {
           "@id": "https://schema.org/Date"
@@ -410,7 +410,7 @@
       }
     },
     "EC": {
-      "@id": "https://dlt.mobi/mobility#EC",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#EC",
       "@context": {
         "EID": {
           "@id": "https://schema.org/identifier"
@@ -445,7 +445,7 @@
       }
     },
     "EVGIEntityExtension": {
-      "@id": "https://dlt.mobi/mobility#EVGIEntityExtension",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#EVGIEntityExtension",
       "@context": {
         "Address": {
           "@id": "https://schema.org/codeValue"
@@ -468,7 +468,7 @@
       }
     },
     "EmissionMeasurement": {
-      "@id": "https://dlt.mobi/mobility#EmissionMeasurement",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#EmissionMeasurement",
       "@context": {
         "uuid": {
           "@id": "https://schema.org/identifier"
@@ -488,7 +488,7 @@
       }
     },
     "Entity": {
-      "@id": "https://dlt.mobi/mobility#Entity",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#Entity",
       "@context": {}
     },
     "Event": {
@@ -501,10 +501,10 @@
           "@id": "https://schema.org/identifier"
         },
         "actor": {
-          "@id": "https://dlt.mobi/mobility#Organization"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#Organization"
         },
         "place": {
-          "@id": "https://dlt.mobi/mobility#place"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#place"
         },
         "eventTime": {
           "@id": "https://schema.org/DateTime#v2"
@@ -526,7 +526,7 @@
       }
     },
     "GroupPermissionChangeCertificate": {
-      "@id": "https://dlt.mobi/mobility#GroupPermissionChangeCertificate",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#GroupPermissionChangeCertificate",
       "@context": {
         "URI": {
           "@id": "https://schema.org/url"
@@ -549,7 +549,7 @@
       }
     },
     "IdentityCredential": {
-      "@id": "https://dlt.mobi/mobility#IdentityCredential",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#IdentityCredential",
       "@context": {
         "legalName": {
           "@id": "https://schema.org/legalName"
@@ -558,7 +558,7 @@
           "@id": "https://schema.org/Number"
         },
         "registrationAuthority": {
-          "@id": "https://dlt.mobi/mobility#LEIauthority"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#LEIauthority"
         },
         "issuanceDate": {
           "@id": "https://schema.org/Date"
@@ -598,7 +598,7 @@
       }
     },
     "LEIaddress": {
-      "@id": "https://dlt.mobi/mobility#LEIaddress",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#LEIaddress",
       "@context": {
         "language": {
           "@id": "https://schema.org/Language"
@@ -630,7 +630,7 @@
       }
     },
     "LEIauthority": {
-      "@id": "https://dlt.mobi/mobility#LEIauthority",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#LEIauthority",
       "@context": {
         "validationAuthorityID": {
           "@id": "https://schema.org/identifier"
@@ -644,7 +644,7 @@
       }
     },
     "LEIentity": {
-      "@id": "https://dlt.mobi/mobility#LEIentity",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#LEIentity",
       "@context": {
         "legalName": {
           "@id": "https://schema.org/legalName"
@@ -659,13 +659,13 @@
           "@id": "https://schema.org/name"
         },
         "legalAddress": {
-          "@id": "https://dlt.mobi/mobility#LEIaddress"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#LEIaddress"
         },
         "headquartersAddress": {
           "@id": "https://schema.org/PostalAddress"
         },
         "registrationAuthority": {
-          "@id": "https://dlt.mobi/mobility#LEIauthority"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#LEIauthority"
         },
         "legalJurisdiction": {
           "@id": "https://schema.org/countryOfOrigin"
@@ -697,16 +697,16 @@
       }
     },
     "LEIevidenceDocument": {
-      "@id": "https://dlt.mobi/mobility#LEIevidenceDocument",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#LEIevidenceDocument",
       "@context": {
         "lei": {
           "@id": "https://www.gleif.org/en/about-lei/iso-17442-the-lei-code-structure#"
         },
         "entity": {
-          "@id": "https://dlt.mobi/mobility#LEIentity"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#LEIentity"
         },
         "registration": {
-          "@id": "https://dlt.mobi/mobility#LEIregistration"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#LEIregistration"
         },
         "bic": {
           "@id": "https://www.iso.org/obp/ui/#iso:std:60390:en"
@@ -714,7 +714,7 @@
       }
     },
     "LEIregistration": {
-      "@id": "https://dlt.mobi/mobility#LEIregistration",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#LEIregistration",
       "@context": {
         "initialRegistrationDate": {
           "@id": "https://schema.org/dateIssued"
@@ -735,12 +735,12 @@
           "@id": "https://schema.org/eventStatus"
         },
         "validationAuthority": {
-          "@id": "https://dlt.mobi/mobility#LEIauthority"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#LEIauthority"
         }
       }
     },
     "LegalEntityIdentifierCredential": {
-      "@id": "https://dlt.mobi/mobility#LegalEntityIdentifierCredential",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#LegalEntityIdentifierCredential",
       "@context": {
         "leiCode": {
           "@id": "https://schema.org/leiCode"
@@ -762,7 +762,7 @@
       }
     },
     "Member": {
-      "@id": "https://dlt.mobi/mobility#Member",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#Member",
       "@context": {
         "firstName": {
           "@id": "https://schema.org/givenName"
@@ -776,7 +776,7 @@
       }
     },
     "Meter": {
-      "@id": "https://dlt.mobi/mobility#Meter",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#Meter",
       "@context": {
         "Make": {
           "@id": "https://schema.org/Name"
@@ -864,7 +864,7 @@
       }
     },
     "P2PChargingCommunication": {
-      "@id": "https://dlt.mobi/mobility#P2PChargingCommunication",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#P2PChargingCommunication",
       "@context": {
         "DateTime": {
           "@id": "https://schema.org/DateTime"
@@ -896,13 +896,13 @@
       }
     },
     "Permissions": {
-      "@id": "https://dlt.mobi/mobility#Permissions",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#Permissions",
       "@context": {
         "vid": {
-          "@id": "https://dlt.mobi/mobility#VID"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#VID"
         },
         "batteryid": {
-          "@id": "https://dlt.mobi/mobility#BatteryID"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#BatteryID"
         },
         "userLocation": {
           "@id": "https://schema.org/place"
@@ -916,10 +916,10 @@
       }
     },
     "PermissionsCredential": {
-      "@id": "https://dlt.mobi/mobility#PermissionsCredential",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#PermissionsCredential",
       "@context": {
         "permission": {
-          "@id": "https://dlt.mobi/mobility#Permissions"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#Permissions"
         },
         "holder": {
           "@id": "https://schema.org/identifier"
@@ -1013,7 +1013,7 @@
       }
     },
     "PrivacyPolicy": {
-      "@id": "https://dlt.mobi/mobility#PrivacyPolicy",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#PrivacyPolicy",
       "@context": {
         "issuanceDate": {
           "@id": "https://schema.org/Date"
@@ -1074,7 +1074,7 @@
       }
     },
     "ProductRegistrationEvidenceDocument": {
-      "@id": "https://dlt.mobi/mobility#ProductRegistrationEvidenceDocument",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#ProductRegistrationEvidenceDocument",
       "@context": {
         "category": {
           "@id": "https://schema.org/category"
@@ -1145,13 +1145,13 @@
       }
     },
     "Purchase": {
-      "@id": "https://dlt.mobi/mobility#Purchase",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#Purchase",
       "@context": {
         "customer": {
-          "@id": "https://dlt.mobi/mobility#Entity?v4"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#Entity?v4"
         },
         "invoice": {
-          "@id": "https://dlt.mobi/mobility#Invoice"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#Invoice"
         },
         "purchaseOrder": {
           "@id": "https://schema.org/identifier"
@@ -1170,7 +1170,7 @@
       }
     },
     "RevocationCertificate": {
-      "@id": "https://dlt.mobi/mobility#RevocationCertificate",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#RevocationCertificate",
       "@context": {
         "RevokeHeader": {
           "@id": "https://schema.org/Name"
@@ -1196,7 +1196,7 @@
       }
     },
     "ServiceProvider": {
-      "@id": "https://dlt.mobi/mobility#ServiceProvider",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#ServiceProvider",
       "@context": {
         "LegalName": {
           "@id": "https://schema.org/Name"
@@ -1211,12 +1211,12 @@
           "@id": "https://schema.org/email"
         },
         "EntityInfo": {
-          "@id": "https://dlt.mobi/mobility#EC"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#EC"
         }
       }
     },
     "StripeCustomerCredential": {
-      "@id": "https://dlt.mobi/mobility#StripeCustomerCredential",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#StripeCustomerCredential",
       "@context": {
         "holder": {
           "@id": "https://schema.org/Text"
@@ -1233,7 +1233,7 @@
       }
     },
     "TimeDependentSmartEnergyTariffs": {
-      "@id": "https://dlt.mobi/mobility#TimeDependentSmartEnergyTariffs",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#TimeDependentSmartEnergyTariffs",
       "@context": {
         "Date": {
           "@id": "https://schema.org/Date"
@@ -1256,7 +1256,7 @@
       }
     },
     "TotalCharge": {
-      "@id": "https://dlt.mobi/mobility#TotalCharge",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#TotalCharge",
       "@context": {
         "totalPrepaid": {
           "@id": "https://schema.org/Price"
@@ -1285,10 +1285,10 @@
       }
     },
     "TrustAnchor": {
-      "@id": "https://dlt.mobi/mobility#TrustAnchor",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#TrustAnchor",
       "@context": {
         "EntityInfo": {
-          "@id": "https://dlt.mobi/mobility#EC"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#EC"
         },
         "identifier": {
           "@id": "https://schema.org/identifier"
@@ -1296,10 +1296,10 @@
       }
     },
     "User": {
-      "@id": "https://dlt.mobi/mobility#User",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#User",
       "@context": {
         "EntityInfo": {
-          "@id": "https://dlt.mobi/mobility#EC"
+          "@id": "https://dlt.mobi/mobility-schmea/schemas#EC"
         },
         "PermissionedURI": {
           "@id": "https://schema.org/url"
@@ -1310,7 +1310,7 @@
       }
     },
     "UserEntityID": {
-      "@id": "https://dlt.mobi/mobility#UserEntityID",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#UserEntityID",
       "@context": {
         "EntityUserID": {
           "@id": "https://schema.org/identifier"
@@ -1330,7 +1330,7 @@
       }
     },
     "VID": {
-      "@id": "https://dlt.mobi/mobility#VID",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#VID",
       "@context": {
         "vid": {
           "@id": "https://schema.org/identifier"
@@ -1350,7 +1350,7 @@
       }
     },
     "VehicleSpec": {
-      "@id": "https://dlt.mobi/mobility#VehicleSpec",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#VehicleSpec",
       "@context": {
         "uuid": {
           "@id": "https://schema.org/identifier"
@@ -1376,7 +1376,7 @@
       }
     },
     "VehicleToGridCommunication": {
-      "@id": "https://dlt.mobi/mobility#VehicleToGridCommunication",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#VehicleToGridCommunication",
       "@context": {
         "DateTime": {
           "@id": "https://schema.org/DateTime"
@@ -1417,7 +1417,7 @@
       }
     },
     "chargeAndPaymentType": {
-      "@id": "https://dlt.mobi/mobility#chargeAndPaymentType",
+      "@id": "https://dlt.mobi/mobility-schmea/schemas#chargeAndPaymentType",
       "@context": {
         "chargeCollect": {
           "@id": "https://schema.org/discountPrice"

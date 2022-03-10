@@ -1,6 +1,6 @@
 const getAccessCertificate = () => {
     const example = {
-        '@context': ['https://dlt.mobi/mobility'],
+        '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
         type: 'AccessCertificate',
         UIUD: 'did:mobi:e436e12ec21ebfeb1f712ebc3f',
         URI: 'pubkey',

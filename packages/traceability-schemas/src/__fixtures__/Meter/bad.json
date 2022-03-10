@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://dlt.mobi/mobility"
+      "https://dlt.mobi/mobility-schmea/schemas"
     ],
     "type": "Meter",
     "GeoCoordinates": "GeoCoordinates",

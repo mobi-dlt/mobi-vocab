@@ -1,7 +1,7 @@
 [
   {
     "@context": [
-      "https://dlt.mobi/mobility"
+      "https://dlt.mobi/mobility-schmea/schemas"
     ],
     "type": "Place",
     "globalLocationNumber": "6591632941495",
@@ -22,7 +22,7 @@
   },
   {
     "@context": [
-      "https://dlt.mobi/mobility"
+      "https://dlt.mobi/mobility-schmea/schemas"
     ],
     "type": "Place",
     "globalLocationNumber": "3486871947144",
@@ -43,7 +43,7 @@
   },
   {
     "@context": [
-      "https://dlt.mobi/mobility"
+      "https://dlt.mobi/mobility-schmea/schemas"
     ],
     "type": "Place",
     "globalLocationNumber": "6432734635823",

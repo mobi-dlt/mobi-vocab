@@ -21,7 +21,7 @@ const getLEIregistration = () => {
   valautharray.push(valauth);
 
   const example = {
-    '@context': ['https://dlt.mobi/mobility'],
+    '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
     type: 'LEIregistration',
     initialRegistrationDate: pastDate,
     lastUpdateDate: pastDate,

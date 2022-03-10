@@ -1,6 +1,6 @@
 const getVehicleToGridCommunication = () => {
     const example = {
-        '@context': ['https://dlt.mobi/mobility'],
+        '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
         type: 'VehicleToGridCommunication',
         DateTime: 'did:mobi:e436e12ec21ebfeb1f712ebc3f',
         EnergyExchange: 'uri',

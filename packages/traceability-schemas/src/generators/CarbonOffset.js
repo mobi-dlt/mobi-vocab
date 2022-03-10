@@ -7,7 +7,7 @@ const getCarbonOffset = () => {
     const vid = getVID();
     delete vid['@context'];
     const example = {
-        '@context': ['https://dlt.mobi/mobility'],
+        '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
         type: 'CarbonOffset',
         CarbonIntensity: 'CarbonIntensity',
         CarbonIntensitySource: 'CarbonIntensitySource',

@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility/schemas/EC.json",
+    "$id": "https://dlt.mobi/mobility-schmea/schemas/schemas/EC.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"EC\", \"@id\": \"https://dlt.mobi/mobility#EC\"}",
+    "$comment": "{\"term\": \"EC\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#EC\"}",
     "title": "EC",
     "description": "EVGI: Common structure that wraps EID. ECs are extensible for addtional fileds",
     "type": "object",

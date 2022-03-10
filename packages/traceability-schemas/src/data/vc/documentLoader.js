@@ -24,7 +24,7 @@ const documentLoader = (iri) => {
       document: securityContexts.contexts.get(iri),
     };
   }
-  if (iri.startsWith('https://dlt.mobi/mobility')) {
+  if (iri.startsWith('https://dlt.mobi/mobility-schmea/schemas')) {
     return {
       documentUrl: iri,
       document: JSON.parse(

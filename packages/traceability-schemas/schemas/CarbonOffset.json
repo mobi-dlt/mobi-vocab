@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility/CarbonOffset.json",
+    "$id": "https://dlt.mobi/mobility-schmea/schemas/CarbonOffset.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"CarbonOffset\", \"@id\": \"https://dlt.mobi/mobility#CarbonOffset\"}",
+    "$comment": "{\"term\": \"CarbonOffset\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#CarbonOffset\"}",
     "title": "EVGI CarbonOffset",
     "description": "EVGI: Carbon Offset",
     "type": "object",
@@ -78,9 +78,9 @@
             "type":"string"
         },
         "VID": {
-            "$comment": "{\"term\": \"VID\", \"@id\": \"https://dlt.mobi/mobility#VID\"}",
+            "$comment": "{\"term\": \"VID\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#VID\"}",
             "title": "VID",
-            "$ref": "https://dlt.mobi/mobility/schemas/VID.json"
+            "$ref": "https://dlt.mobi/mobility-schmea/schemas/schemas/VID.json"
         },
         "ChargerID": {
             "$comment": "{\"term\": \"ChargerID\", \"@id\": \"https://schema.org/identifier\"}",

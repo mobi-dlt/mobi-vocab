@@ -16,7 +16,7 @@
   {
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
-      "https://dlt.mobi/mobility"
+      "https://dlt.mobi/mobility-schmea/schemas"
     ],
     "holder": "did:mobinet:123456789abcdefghi",
     "firewall": "synthesize",

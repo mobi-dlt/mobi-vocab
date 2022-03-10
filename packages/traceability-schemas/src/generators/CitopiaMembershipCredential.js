@@ -7,7 +7,7 @@ const getCitopiaMembershipCredential = () => {
   // Get organization
   const memberInfo = getMember();
   const example = {
-    '@context': ['https://dlt.mobi/mobility'],
+    '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
     type: 'CitopiaMembershipCredential',
     holder: 'Matt Shi',
     identifier: 'did:mobinet:123456789abcdefghi',

@@ -6,7 +6,7 @@ const getVID = () => {
     delete manufacturer['@context'];
 
     const example = {
-        '@context': ['https://dlt.mobi/mobility'],
+        '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
         type: 'VID',
         vid: 'did:mobi:c276e12ec21ebfeb1f712ebc6f',
         manufacturer,
