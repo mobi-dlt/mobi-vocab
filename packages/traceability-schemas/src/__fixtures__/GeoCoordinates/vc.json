@@ -17,13 +17,13 @@
     "latitude": "-83.3387",
     "longitude": "54.0603",
     "elevation": "5000 ft",
-    "timestamp": "2021-08-09T08:26:42.588Z",
+    "timestamp": "2021-08-09T08:32:09.258Z",
     "locationDescription": "geo coordinates"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..QcL_J9cGMw-oJKzWYnvodm4ao26VdezI4uVsp4q3DCMOBMA582eCBgKrmYhkLAD5RXFk0544o9f9I4tRKQncAQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..1fteKacxozgL0kPSTSaxVZKEt9GUoEDyAU1uEZPJRJWPzE7ZlGzZ3jXKMi3HnlUVNDvStiGradCotmRvJHYiDA",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -1196,11 +1196,23 @@
         "transactionId": {
           "@id": "https://schema.org/propertyId"
         },
+        "transactionType": {
+          "@id": "https://schema.org/PaymentChargeSpecification"
+        },
+        "merchantId": {
+          "@id": "https://schema.org/productID"
+        },
         "geolocation": {
           "@id": "https://schema.org/location"
         },
         "transactionAmount": {
           "@id": "https://schema.org/amount"
+        },
+        "processorId": {
+          "@id": "https://schema.org/accountId"
+        },
+        "otherAncillaryData": {
+          "@id": "https://schema.org/text"
         },
         "otherInfo": {
           "@id": "https://schema.org/description"

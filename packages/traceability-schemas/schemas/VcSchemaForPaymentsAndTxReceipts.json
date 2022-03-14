@@ -42,6 +42,18 @@
             "description": "transaction ID",
             "type": "string"
         },
+        "transactionType": {
+            "$comment": "{\"term\": \"transactionType\", \"@id\": \"https://schema.org/PaymentChargeSpecification\"}",
+            "title": "transactionType",
+            "description": "type of transaction",
+            "type": "string"
+        },
+        "merchantId": {
+            "$comment": "{\"term\": \"merchantId\", \"@id\": \"https://schema.org/productID\"}",
+            "title": "merchantId",
+            "description": "unique identifier for the merchant",
+            "type": "string"
+        },
         "geolocation": {
             "$comment": "{\"term\": \"geolocation\", \"@id\": \"https://schema.org/location\"}",
             "title": "geolocation",
@@ -52,6 +64,18 @@
             "$comment": "{\"term\": \"transactionAmount\", \"@id\": \"https://schema.org/amount\"}",
             "title": "transactionAmount",
             "description": "quantity of money being transacted",
+            "type": "string"
+        },
+        "processorId": {
+            "$comment": "{\"term\": \"processorId\", \"@id\": \"https://schema.org/accountId\"}",
+            "title": "processorId",
+            "description": "identifier for the transaction processor",
+            "type": "string"
+        },
+        "otherAncillaryData": {
+            "$comment": "{\"term\": \"otherAncillaryData\", \"@id\": \"https://schema.org/text\"}",
+            "title": "otherAncillaryData",
+            "description": "any metadata not captured by previous attributes",
             "type": "string"
         },
         "otherInfo": {
