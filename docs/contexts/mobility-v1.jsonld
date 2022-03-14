@@ -1134,6 +1134,9 @@
         "invoiceNumber": {
           "@id": "https://schema.org/accountId"
         },
+        "partType": {
+          "@id": "https://schema.org/alternateName"
+        },
         "oldPartNumber": {
           "@id": "https://schema.org/productId"
         },
@@ -1154,6 +1157,9 @@
         },
         "finalPartManufacturer": {
           "@id": "https://schema.org/Organization"
+        },
+        "finalPartCondition": {
+          "@id": "https://schema.org/category"
         },
         "partRepairedOrReplaced": {
           "@id": "https://schema.org/status"

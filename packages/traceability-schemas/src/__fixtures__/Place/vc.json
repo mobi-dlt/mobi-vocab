@@ -20,7 +20,7 @@
       "latitude": "-23.8080",
       "longitude": "-136.7254",
       "elevation": "5000 ft",
-      "timestamp": "2022-01-07T15:36:42.556Z",
+      "timestamp": "2022-01-07T15:44:02.126Z",
       "locationDescription": "geo coordinates"
     },
     "address": {
@@ -36,7 +36,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..XFyTV--rqzj8OhjGyiPjFLvwv5kueVQSfToakuF-XPy3LvxCjbq0B-WVUkLqUAA7fVVmVKCI5NKhI3VimbimBg",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..rGAu6QiJcHa9Df_w0MdVMr1hHX9xRZlk3f1CGxf7_LhNDmsR1v0dZdemV-JbLwdd0p32mQYo8iZ35OmuPHSUBQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

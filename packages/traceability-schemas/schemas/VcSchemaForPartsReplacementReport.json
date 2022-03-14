@@ -49,6 +49,12 @@
             "description": "the financial account or wallet information",
             "type": "string"
         },
+        "partType": {
+            "$comment": "{\"term\": \"partType\", \"@id\": \"https://schema.org/alternateName\"}",
+            "title": "partType",
+            "description": "the type of part involved in the replacement",
+            "type": "string"
+        },
         "oldPartNumber": {
             "$comment": "{\"term\": \"oldPartNumber\", \"@id\": \"https://schema.org/productId\"}",
             "title": "oldPartNumber",
@@ -89,6 +95,12 @@
             "$comment": "{\"term\": \"finalPartManufacturer\", \"@id\": \"https://schema.org/Organization\"}",
             "title": "finalPartManufacturer",
             "description": "the manufacturer of the new part",
+            "type": "string"
+        },
+        "finalPartCondition": {
+            "$comment": "{\"term\": \"finalPartCondition\", \"@id\": \"https://schema.org/category\"}",
+            "title": "finalPartCondition",
+            "description": "the condition of the new part installed into the vehicle",
             "type": "string"
         },
         "partRepairedOrReplaced": {
