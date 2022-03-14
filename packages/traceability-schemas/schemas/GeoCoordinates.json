@@ -47,9 +47,9 @@
             "description": "Date and Time based on IETF RFC 3339.",
             "type": "string"
         },
-        "description": {
-            "$comment": "{\"term\": \"description\", \"@id\": \"https://schema.org/description\"}",
-            "title": "description",
+        "locationDescription": {
+            "$comment": "{\"term\": \"locationDescription\", \"@id\": \"https://schema.org/description\"}",
+            "title": "locationDescription",
             "description": "Description of location such as \"Free Standing Residential Home\" \nor may be a URI that points to a more detailed description such as an address registry. Date and Time based on IETF RFC 3339.",
             "type": "string"
         }

@@ -26,7 +26,7 @@ const getVcSchemaForInsuranceClaimsAndPolicies = () => {
         policeReportNumber: 'test',
         damageValue: 123,
         repairDurationInDays: 2,
-        // otherVehicleId: 'test',
+        otherVehicleId: 'test',
         repairFacilityId: 1,
         fault: 'test',
         carrier: 'test',
@@ -38,13 +38,3 @@ const getVcSchemaForInsuranceClaimsAndPolicies = () => {
 };
 
 module.exports = { getVcSchemaForInsuranceClaimsAndPolicies };
-
-/**
- *  Need to ask Matt what to do.. issue with the url as it was already used in vid (attribute)
- *
- * "otherVehicleId": {
-            "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility-schema#VID\"}",
-            "title": "vid",
-            "description": "Logo of the entity."
-        }
- */

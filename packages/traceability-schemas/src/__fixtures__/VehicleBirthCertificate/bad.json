@@ -1,55 +1,48 @@
 [
   {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": "VehicleBirthCertificate",
     "certURI": "dOQKyOs1nUfj5svRato3bCM1XUOpGpxeBnLZDHiLUswgkHh55lyIuZmpTBGG4ixr",
-    "colorOemCode": "Bl",
     "countryOfOrigin": "United States of America",
+    "productionDate": "01/01/2021",
     "engineCode": "None",
+    "engineSerialNumber": "DJ51279",
     "fuelType": "unleaded gasoline",
     "issuer": "did:mobi:c276e14rc81ebfeb1f782ebd6e",
     "manufacturer": "Ford",
     "model": "Taurus",
     "modelYear": "2015",
     "previousVBC": "0LmbSknoaLjkVnPkFQt5N3LxJydTOKS9o4ITgEjo9IqYnMh7gPPLZJ5U0zEXlJ5j",
-    "sigAlg": "ECDSA",
     "transmissionSerialNumber": "6F00001",
     "trimType": "SE",
     "uvi": "36h948q767wuxUlzLk2dAIzWWVgTTN8X9F8nmr7upRgRdL4VomOqJLOg4ftP3Gkg",
-    "alarm": "synthesize",
-    "pixel": "calculate",
-    "microchip": "copy"
+    "vin": "JTERU5JR7M5861170",
+    "hard drive": "synthesize"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
+    "issuer": "did:mobi:c276e14rc81ebfeb1f782ebd6e",
+    "vin": "JTERU5JR7M5861170",
+    "card": "parse"
+  },
+  {
     "type": "VehicleBirthCertificate",
     "certURI": "dOQKyOs1nUfj5svRato3bCM1XUOpGpxeBnLZDHiLUswgkHh55lyIuZmpTBGG4ixr",
     "colorOemCode": "Bl",
     "countryOfOrigin": "United States of America",
-    "productionDate": "01/01/2021",
     "engineCode": "None",
+    "engineSerialNumber": "DJ51279",
     "fuelType": "unleaded gasoline",
     "issuer": "did:mobi:c276e14rc81ebfeb1f782ebd6e",
     "modelYear": "2015",
-    "plantCode": "H",
     "previousVBC": "0LmbSknoaLjkVnPkFQt5N3LxJydTOKS9o4ITgEjo9IqYnMh7gPPLZJ5U0zEXlJ5j",
     "sigAlg": "ECDSA",
-    "uvi": "36h948q767wuxUlzLk2dAIzWWVgTTN8X9F8nmr7upRgRdL4VomOqJLOg4ftP3Gkg",
-    "array": "parse",
-    "circuit": "copy"
-  },
-  {
-    "type": "VehicleBirthCertificate",
-    "certURI": "dOQKyOs1nUfj5svRato3bCM1XUOpGpxeBnLZDHiLUswgkHh55lyIuZmpTBGG4ixr",
-    "colorOemCode": "Bl",
-    "countryOfOrigin": "United States of America",
-    "productionDate": "01/01/2021",
-    "fuelType": "unleaded gasoline",
-    "issuer": "did:mobi:c276e14rc81ebfeb1f782ebd6e",
-    "modelYear": "2015",
+    "transmissionSerialNumber": "6F00001",
     "trimType": "SE",
-    "uvi": "36h948q767wuxUlzLk2dAIzWWVgTTN8X9F8nmr7upRgRdL4VomOqJLOg4ftP3Gkg",
-    "port": "navigate",
-    "panel": "bypass"
+    "vin": "JTERU5JR7M5861170",
+    "alarm": "synthesize",
+    "microchip": "copy",
+    "card": "program"
   }
 ]

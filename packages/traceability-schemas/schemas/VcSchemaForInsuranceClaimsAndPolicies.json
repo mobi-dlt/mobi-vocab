@@ -150,6 +150,11 @@
             "description": "the number of days required to complete the repair",
             "type": "integer"
         },
+        "otherVehicleId": {
+            "$comment": "{\"term\": \"otherVehicleId\", \"@id\": \"https://schema.org/Vehicle\"}",
+            "title": "otherVehicleId",
+            "description": "Logo of the entity."
+        },
         "repairFacilityId": {
             "$comment": "{\"term\": \"repairFacilityId\", \"@id\": \"https://schema.org/LocalBusiness\"}",
             "title": "repairFacilityId",

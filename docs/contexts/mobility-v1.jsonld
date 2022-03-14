@@ -223,7 +223,7 @@
         "timestamp": {
           "@id": "https://schema.org/dateCreated"
         },
-        "description": {
+        "locationDescription": {
           "@id": "https://schema.org/description"
         }
       }
@@ -844,14 +844,6 @@
         }
       }
     },
-    "TrustedTripLocationAndTime": {
-      "@id": "https://dlt.mobi/mobility-schema#TrustedTripLocationAndTime",
-      "@context": {
-        "locationAndTime": {
-          "@id": "https://dlt.mobi/mobility-schema#GeoCoordinates"
-        }
-      }
-    },
     "UniqueVehicleIdentifier": {
       "@id": "https://dlt.mobi/mobility-schema#UniqueVehicleIdentifier",
       "@context": {
@@ -1075,6 +1067,9 @@
         "repairDurationInDays": {
           "@id": "https://schema.org/Duration"
         },
+        "otherVehicleId": {
+          "@id": "https://schema.org/Vehicle"
+        },
         "repairFacilityId": {
           "@id": "https://schema.org/LocalBusiness"
         },
@@ -1118,14 +1113,6 @@
         },
         "jurisdictionSpecificRequirement": {
           "@id": "https://schema.org/additionalProperty"
-        }
-      }
-    },
-    "VcSchemaForOwnersTitlesAndBordersDocs": {
-      "@id": "https://dlt.mobi/mobility-schema/schemas#VcSchemaForOwnersTitlesAndBordersDocs",
-      "@context": {
-        "titleType": {
-          "@id": "https://schema.org/additionalType"
         }
       }
     },
