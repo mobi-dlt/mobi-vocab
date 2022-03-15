@@ -45,6 +45,7 @@ VcSchemaForEndOfLifeDocuments: require('./schemas/VcSchemaForEndOfLifeDocuments.
 VcSchemaForInspectionsReport: require('./schemas/VcSchemaForInspectionsReport.json'),
 VcSchemaForInsuranceClaimsAndPolicies: require('./schemas/VcSchemaForInsuranceClaimsAndPolicies.json'),
 VcSchemaForMileage: require('./schemas/VcSchemaForMileage.json'),
+VcSchemaForOwnersTitlesAndBordersDocs: require('./schemas/VcSchemaForOwnersTitlesAndBordersDocs.json'),
 VcSchemaForPartsReplacementReport: require('./schemas/VcSchemaForPartsReplacementReport.json'),
 VcSchemaForPaymentsAndTxReceipts: require('./schemas/VcSchemaForPaymentsAndTxReceipts.json'),
 VcSchemaForUsageDataReports: require('./schemas/VcSchemaForUsageDataReports.json'),

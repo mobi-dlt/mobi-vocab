@@ -1116,6 +1116,95 @@
         }
       }
     },
+    "VcSchemaForOwnersTitlesAndBordersDocs": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#VcSchemaForOwnersTitlesAndBordersDocs",
+      "@context": {
+        "titleType": {
+          "@id": "https://schema.org/serviceType"
+        },
+        "status": {
+          "@id": "https://schema.org/status"
+        },
+        "brands": {
+          "@id": "https://schema.org/brand"
+        },
+        "titleJurisdiction": {
+          "@id": "https://schema.org/jurisdiction"
+        },
+        "prevTitleJurisdiction": {
+          "@id": "https://schema.org/title"
+        },
+        "prevOwners": {
+          "@id": "https://schema.org/acquiredFrom"
+        },
+        "vid": {
+          "@id": "https://dlt.mobi/mobility-schema#VID"
+        },
+        "lienId": {
+          "@id": "https://schema.org/accountId"
+        },
+        "lenderId": {
+          "@id": "https://schema.org/identifier"
+        },
+        "lienHolderName": {
+          "@id": "https://schema.org/funder"
+        },
+        "lienHolderAddress": {
+          "@id": "https://schema.org/streetAddress"
+        },
+        "titleNumber": {
+          "@id": "https://schema.org/PropertyValue"
+        },
+        "issueDate": {
+          "@id": "https://schema.org/dateVehicleFirstRegistered"
+        },
+        "effectiveDate": {
+          "@id": "https://schema.org/dateCreated"
+        },
+        "city": {
+          "@id": "https://schema.org/City"
+        },
+        "county": {
+          "@id": "https://schema.org/addressRegion"
+        },
+        "state": {
+          "@id": "https://schema.org/State"
+        },
+        "country": {
+          "@id": "https://schema.org/Country"
+        },
+        "odometerReading": {
+          "@id": "https://schema.org/mileageFromOdometer"
+        },
+        "jurisdictionSpecificRequirement": {
+          "@id": "https://schema.org/legislationJurisdiction"
+        },
+        "geolocation": {
+          "@id": "https://schema.org/workLocation"
+        },
+        "dateTime": {
+          "@id": "https://schema.org/DateTime"
+        },
+        "transactionType": {
+          "@id": "https://schema.org/PaymentService"
+        },
+        "transactionContract": {
+          "@id": "https://schema.org/termsOfService"
+        },
+        "titleEvidence": {
+          "@id": "https://schema.org/qualifications"
+        },
+        "newOwnerName": {
+          "@id": "https://schema.org/sponsor"
+        },
+        "newOwnerAddress": {
+          "@id": "https://schema.org/billingAddress"
+        },
+        "lienExistence": {
+          "@id": "https://schema.org/publicAccess"
+        }
+      }
+    },
     "VcSchemaForPartsReplacementReport": {
       "@id": "https://dlt.mobi/mobility-schema/schemas#VcSchemaForPartsReplacementReport",
       "@context": {
