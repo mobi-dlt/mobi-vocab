@@ -1219,6 +1219,71 @@
         }
       }
     },
+    "VcSchemaForUsageDataReports": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#VcSchemaForUsageDataReports",
+      "@context": {
+        "infraOwnerEntityId": {
+          "@id": "https://schema.org/identifier"
+        },
+        "dateTime": {
+          "@id": "https://schema.org/DateTime"
+        },
+        "energyConsumed": {
+          "@id": "https://schema.org/amount"
+        },
+        "chargerId": {
+          "@id": "https://schema.org/accountId"
+        },
+        "chargeStartTime": {
+          "@id": "https://schema.org/startTime"
+        },
+        "chargeEndTime": {
+          "@id": "https://schema.org/availabilityEnds"
+        },
+        "meterId": {
+          "@id": "https://schema.org/productId"
+        },
+        "chargingDataSource": {
+          "@id": "https://schema.org/text"
+        },
+        "chargerGeolocation": {
+          "@id": "https://schema.org/location"
+        },
+        "fuelStationId": {
+          "@id": "https://schema.org/merchant"
+        },
+        "fuelType": {
+          "@id": "https://schema.org/fuelType"
+        },
+        "fuelVolumeConsumed": {
+          "@id": "https://schema.org/item"
+        },
+        "fuelEventDataSource": {
+          "@id": "https://schema.org/description"
+        },
+        "fuelEventGeolocation": {
+          "@id": "https://schema.org/serviceLocation"
+        },
+        "parkingAtHome": {
+          "@id": "https://schema.org/homeLocation"
+        },
+        "parkingAtWork": {
+          "@id": "https://schema.org/workLocation"
+        },
+        "parkingEventDateTime": {
+          "@id": "https://schema.org/startDate"
+        },
+        "parkingEventGeolocation": {
+          "@id": "https://schema.org/geo"
+        },
+        "parkingEventType": {
+          "@id": "https://schema.org/additionalType"
+        },
+        "jurisdictionSpecificRequirement": {
+          "@id": "https://schema.org/additionalProperty"
+        }
+      }
+    },
     "VehicleBirthCertificate": {
       "@id": "https://dlt.mobi/mobility-schema#VehicleBirthCertificate",
       "@context": {
