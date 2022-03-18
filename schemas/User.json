@@ -1,0 +1,41 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/User.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"User\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#User\"}",
+    "title": "User",
+    "description": "EVGI: User Info. Must be distibuted through data host a d permission system.",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "EntityInfo": {
+            "$comment": "{\"term\": \"EntityInfo\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#EC\"}",
+            "title": "EntityInfo",
+            "$ref": "https://dlt.mobi/mobility-schema/schemas/EC.json"
+        },
+        "PermissionedURI": {
+            "$comment": "{\"term\": \"PermissionedURI\", \"@id\": \"https://schema.org/url\"}",
+            "title": "Permissioned URI",
+            "description": "The Permissioned URI is the URI of the Data Host where permissioned personal informaiton is stored"
+        },
+        "PermissionedEID": {
+            "$comment": "{\"term\": \"PermissionedEID\", \"@id\": \"https://schema.org/address\"}",
+            "title": "Permissioned EID",
+            "description": "The Permissioned ID is the EID of the Data Host that is stroing premissioned perosnal info",
+            "type":"string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}

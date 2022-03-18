@@ -1,0 +1,65 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/AssetRegistry.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"AssetRegistry\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#AssetRegistry\"}",
+    "title": "EVGI AssetRegistry",
+    "description": "EVGI: AssetRegistry",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "AssetID": {
+            "$comment": "{\"term\": \"AssetID\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "AssetID",
+            "description": "Asset ID"
+        },
+        "OwnerID": {
+            "$comment": "{\"term\": \"OwnerID\", \"@id\": \"https://schema.org/Number\"}",
+            "title": "OwnerID",
+            "description": "OwnerID"
+        },
+        "Classification": {
+            "$comment": "{\"term\": \"Classification\", \"@id\": \"https://schema.org/DefinedTerm\"}",
+            "title": "Classification",
+            "description": "Classification",
+            "type":"string"
+        },
+        "VehicleDesignation": {
+            "$comment": "{\"term\": \"VehicleDesignation\", \"@id\": \"https://schema.org/Place\"}",
+            "title": "VehicleDesignation",
+            "description": "VehicleDesignation",
+            "type":"string"
+        },
+        "SystemID": {
+            "$comment": "{\"term\": \"SystemID\", \"@id\": \"https://https://schema.org/url\"}",
+            "title": "SystemID",
+            "description": "SystemID",
+            "type":"string"
+        },
+        "OrganizationFEIN": {
+            "$comment": "{\"term\": \"OrganizationFEIN\", \"@id\": \"https://schema.org/Organization\"}",
+            "title": "OrganizationFEIN",
+            "description": "OrganizationFEIN",
+            "type":"string"
+        },
+        "EPACompanyID": {
+            "$comment": "{\"term\": \"EPACompanyID\", \"@id\": \"https://schema.org/Text\"}",
+            "title": "EPACompanyID",
+            "description": "EPA Company ID",
+            "type":"string"  
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}

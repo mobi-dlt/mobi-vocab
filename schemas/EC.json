@@ -1,0 +1,83 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/EC.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"EC\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#EC\"}",
+    "title": "EC",
+    "description": "EVGI: Common structure that wraps EID. ECs are extensible for addtional fileds",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "EID": {
+            "$comment": "{\"term\": \"EID\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "EID",
+            "description": "Self pointer to EID"
+        },
+        "EntityType": {
+            "$comment": "{\"term\": \"EntityType\", \"@id\": \"https://schema.org/Number\"}",
+            "title": "EntityType",
+            "description": "Self pointer to EID"
+        },
+        "PubKey": {
+            "$comment": "{\"term\": \"PubKey\", \"@id\": \"https://schema.org/Text\"}",
+            "title": "PubKey",
+            "description": "Publick key used to communicate with this EID",
+            "type":"string"
+        },
+        "RevURI": {
+            "$comment": "{\"term\": \"RevURI\", \"@id\": \"https://schema.org/url\"}",
+            "title": "Revocation URI",
+            "description": "Revocation URI used for keeping track of all revocation certificate",
+            "type":"string"
+        },
+        "ALURI": {
+            "$comment": "{\"term\": \"ALURI\", \"@id\": \"https://schema.org/itemList\"}",
+            "title": "Allow List URI",
+            "description": "Allow List URI used for keeping track of all Allow List certificate",
+            "type":"string"
+        },
+        "BLURI": {
+            "$comment": "{\"term\": \"BLURI\", \"@id\": \"https://schema.org/LinkRole\"}",
+            "title": "BLocked List URI",
+            "description": "Blocked List URI used for keeping track of all Blcoked List certificate",
+            "type":"string"
+        },
+        "SignAlgo": {
+            "$comment": "{\"term\": \"SignAlgo\", \"@id\": \"https://schema.org/algorithm\"}",
+            "title": "Signature Algorithm",
+            "description": "cryptographic scheme used to sign the certificate",
+            "type":"string"
+        },
+        "HashAlgo": {
+            "$comment": "{\"term\": \"HashAlgo\", \"@id\": \"https://schema.org/character\"}",
+            "title": "Hash Algorithm",
+            "description": "cryptographic scheme used to hash the certificate",
+            "type":"string"
+        },
+        "Expiration": {
+            "$comment": "{\"term\": \"Expiration\", \"@id\": \"https://schema.org/Time\"}",
+            "title": "Expiration",
+            "description": "timestamp when the certificate expires",
+            "type":"string"
+        },
+        "IssuerSig": {
+            "$comment": "{\"term\": \"IssuerSig\", \"@id\": \"https://schema.org/PropertyValue\"}",
+            "title": "Issuer Signature",
+            "description": "Signature on the hash of rest of the certificate",
+            "type":"string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}

@@ -14,6 +14,52 @@
     "version": "0.0.1"
   },
   "paths": {
+    "/AccessCertificate": {
+      "get": {
+        "description": "AccessCertificate",
+        "responses": {
+          "200": {
+            "description": "A list of all AccessCertificate objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AccessCertificate"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/AssetRegistry": {
+      "get": {
+        "description": "AssetRegistry",
+        "responses": {
+          "200": {
+            "description": "A list of all AssetRegistry objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AssetRegistry"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
     "/BatteryID": {
       "get": {
         "description": "BatteryID",
@@ -60,6 +106,29 @@
         }
       }
     },
+    "/BlockList": {
+      "get": {
+        "description": "BlockList",
+        "responses": {
+          "200": {
+            "description": "A list of all BlockList objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BlockList"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
     "/Brand": {
       "get": {
         "description": "Brand",
@@ -72,6 +141,52 @@
                   "type": "array",
                   "items": {
                     "$ref": "#/components/schemas/Brand"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/CarbonOffset": {
+      "get": {
+        "description": "CarbonOffset",
+        "responses": {
+          "200": {
+            "description": "A list of all CarbonOffset objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CarbonOffset"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/ChargerIdentity": {
+      "get": {
+        "description": "ChargerIdentity",
+        "responses": {
+          "200": {
+            "description": "A list of all ChargerIdentity objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ChargerIdentity"
                   }
                 }
               }
@@ -129,6 +244,29 @@
         }
       }
     },
+    "/ControlAcceptance": {
+      "get": {
+        "description": "ControlAcceptance",
+        "responses": {
+          "200": {
+            "description": "A list of all ControlAcceptance objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ControlAcceptance"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
     "/Customer": {
       "get": {
         "description": "Customer",
@@ -141,6 +279,52 @@
                   "type": "array",
                   "items": {
                     "$ref": "#/components/schemas/Customer"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/DataHost": {
+      "get": {
+        "description": "DataHost",
+        "responses": {
+          "200": {
+            "description": "A list of all DataHost objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DataHost"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/DataHostBootstrappingCertificate": {
+      "get": {
+        "description": "DataHostBootstrappingCertificate",
+        "responses": {
+          "200": {
+            "description": "A list of all DataHostBootstrappingCertificate objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DataHostBootstrappingCertificate"
                   }
                 }
               }
@@ -187,6 +371,75 @@
                   "type": "array",
                   "items": {
                     "$ref": "#/components/schemas/DriverLicense"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/EC": {
+      "get": {
+        "description": "EC",
+        "responses": {
+          "200": {
+            "description": "A list of all EC objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EC"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/EVGIEntityExtension": {
+      "get": {
+        "description": "EVGIEntityExtension",
+        "responses": {
+          "200": {
+            "description": "A list of all EVGIEntityExtension objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EVGIEntityExtension"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/EmissionMeasurement": {
+      "get": {
+        "description": "EmissionMeasurement",
+        "responses": {
+          "200": {
+            "description": "A list of all EmissionMeasurement objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EmissionMeasurement"
                   }
                 }
               }
@@ -279,6 +532,29 @@
                   "type": "array",
                   "items": {
                     "$ref": "#/components/schemas/GeoCoordinates"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/GroupPermissionChangeCertificate": {
+      "get": {
+        "description": "GroupPermissionChangeCertificate",
+        "responses": {
+          "200": {
+            "description": "A list of all GroupPermissionChangeCertificate objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/GroupPermissionChangeCertificate"
                   }
                 }
               }
@@ -520,6 +796,29 @@
         }
       }
     },
+    "/Meter": {
+      "get": {
+        "description": "Meter",
+        "responses": {
+          "200": {
+            "description": "A list of all Meter objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Meter"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
     "/Organization": {
       "get": {
         "description": "Organization",
@@ -532,6 +831,29 @@
                   "type": "array",
                   "items": {
                     "$ref": "#/components/schemas/Organization"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/P2PChargingCommunication": {
+      "get": {
+        "description": "P2PChargingCommunication",
+        "responses": {
+          "200": {
+            "description": "A list of all P2PChargingCommunication objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/P2PChargingCommunication"
                   }
                 }
               }
@@ -842,6 +1164,29 @@
         }
       }
     },
+    "/ServiceProvider": {
+      "get": {
+        "description": "ServiceProvider",
+        "responses": {
+          "200": {
+            "description": "A list of all ServiceProvider objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ServiceProvider"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
     "/StripeCustomerCredential": {
       "get": {
         "description": "StripeCustomerCredential",
@@ -854,6 +1199,29 @@
                   "type": "array",
                   "items": {
                     "$ref": "#/components/schemas/StripeCustomerCredential"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/TimeDependentSmartEnergyTariffs": {
+      "get": {
+        "description": "TimeDependentSmartEnergyTariffs",
+        "responses": {
+          "200": {
+            "description": "A list of all TimeDependentSmartEnergyTariffs objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TimeDependentSmartEnergyTariffs"
                   }
                 }
               }
@@ -888,6 +1256,29 @@
         }
       }
     },
+    "/TrustAnchor": {
+      "get": {
+        "description": "TrustAnchor",
+        "responses": {
+          "200": {
+            "description": "A list of all TrustAnchor objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TrustAnchor"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
     "/UniqueVehicleIdentifier": {
       "get": {
         "description": "UniqueVehicleIdentifier",
@@ -900,6 +1291,52 @@
                   "type": "array",
                   "items": {
                     "$ref": "#/components/schemas/UniqueVehicleIdentifier"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/User": {
+      "get": {
+        "description": "User",
+        "responses": {
+          "200": {
+            "description": "A list of all User objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/User"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/UserEntityID": {
+      "get": {
+        "description": "UserEntityID",
+        "responses": {
+          "200": {
+            "description": "A list of all UserEntityID objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserEntityID"
                   }
                 }
               }
@@ -1164,6 +1601,52 @@
         }
       }
     },
+    "/VehicleSpec": {
+      "get": {
+        "description": "VehicleSpec",
+        "responses": {
+          "200": {
+            "description": "A list of all VehicleSpec objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VehicleSpec"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/VehicleToGridCommunication": {
+      "get": {
+        "description": "VehicleToGridCommunication",
+        "responses": {
+          "200": {
+            "description": "A list of all VehicleToGridCommunication objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VehicleToGridCommunication"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
     "/chargeAndPaymentType": {
       "get": {
         "description": "chargeAndPaymentType",
@@ -1190,6 +1673,113 @@
   },
   "components": {
     "schemas": {
+      "AccessCertificate": {
+        "title": "AccessCertificate",
+        "description": "EVGI: Access Certificate act as the main key to entry for accessing",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "UIUD": {
+            "title": "UIUD",
+            "description": "A unique ID generated through the hash of the rest of the informaiton in certiciate"
+          },
+          "URI": {
+            "title": "URI",
+            "description": "URI of the information the AC grants access to"
+          },
+          "IssuerEID": {
+            "title": "IssuerEID",
+            "description": "The EID of the entity issuing the AC",
+            "type": "string"
+          },
+          "RootAuthEID": {
+            "title": "RootAuthEID",
+            "description": "Pmerission groups",
+            "type": "string"
+          },
+          "Expiration": {
+            "title": "Expiration",
+            "description": "Timestamp that this certificate expires on",
+            "type": "string"
+          },
+          "SignAlgo": {
+            "title": "Signature Algorithm",
+            "description": "cryptographic scheme used to sign the certificate",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "AssetRegistry": {
+        "title": "EVGI AssetRegistry",
+        "description": "EVGI: AssetRegistry",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "AssetID": {
+            "title": "AssetID",
+            "description": "Asset ID"
+          },
+          "OwnerID": {
+            "title": "OwnerID",
+            "description": "OwnerID"
+          },
+          "Classification": {
+            "title": "Classification",
+            "description": "Classification",
+            "type": "string"
+          },
+          "VehicleDesignation": {
+            "title": "VehicleDesignation",
+            "description": "VehicleDesignation",
+            "type": "string"
+          },
+          "SystemID": {
+            "title": "SystemID",
+            "description": "SystemID",
+            "type": "string"
+          },
+          "OrganizationFEIN": {
+            "title": "OrganizationFEIN",
+            "description": "OrganizationFEIN",
+            "type": "string"
+          },
+          "EPACompanyID": {
+            "title": "EPACompanyID",
+            "description": "EPA Company ID",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
       "BatteryID": {
         "title": "BatteryID",
         "description": "VID information for vehicle.",
@@ -1294,6 +1884,57 @@
         },
         "additionalProperties": false
       },
+      "BlockList": {
+        "title": "Block List",
+        "description": "EVGI: Block List",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "UIUD": {
+            "title": "UIUD",
+            "description": "Unqiue Block List ID generated through the hash of informaiton in the block list informaiton"
+          },
+          "URI": {
+            "title": "URI",
+            "description": "URI of the information the entity is being block-listed for"
+          },
+          "IssuerEID": {
+            "title": "IssuerEID",
+            "description": "The EID of the owner fo this data",
+            "type": "string"
+          },
+          "BREID": {
+            "title": "BREID",
+            "description": "Block List target's EID, or the EID that is barred from accessing URI",
+            "type": "string"
+          },
+          "SignAlgo": {
+            "title": "Signature Algorithm",
+            "description": "cryptographic scheme used to sign the certificate",
+            "type": "string"
+          },
+          "Reason": {
+            "title": "Reason",
+            "description": "Reason why the AC was invoked",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
       "Brand": {
         "title": "Brand",
         "description": "Brand information for entities.",
@@ -1322,6 +1963,236 @@
           "url": {
             "title": "URL",
             "description": "URL of the entity.",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CarbonOffset": {
+        "title": "EVGI CarbonOffset",
+        "description": "EVGI: Carbon Offset",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "CarbonIntensity": {
+            "title": "CarbonIntensity",
+            "description": "Carbon Intensity"
+          },
+          "CarbonIntensitySource": {
+            "title": "CarbonIntensitySource",
+            "description": "CarbonIntensitySource"
+          },
+          "ChargeStartTime": {
+            "title": "ChargeStartTime",
+            "description": "RCharge Start Time",
+            "type": "string"
+          },
+          "ChargeEndTime": {
+            "title": "ChargeEndTime",
+            "description": "ChargeEndTime",
+            "type": "string"
+          },
+          "InfrastructureOwnerEntityID": {
+            "title": "InfrastructureOwnerEntityID",
+            "description": "InfrastructureOwnerEntityID",
+            "type": "string"
+          },
+          "ChargingDataSource": {
+            "title": "ChargingDataSource",
+            "description": "ChargingDataSource",
+            "type": "string"
+          },
+          "CreditOwnerAccount": {
+            "title": "CreditOwnerAccount",
+            "description": "CreditOwnerAccount",
+            "type": "string"
+          },
+          "EnergyConsumed": {
+            "title": "EnergyConsumed",
+            "description": "EnergyConsumed",
+            "type": "string"
+          },
+          "ChargeSessionGeolocation": {
+            "title": "ChargeSessionGeolocation",
+            "description": "ChargeSessionGeolocation",
+            "type": "string"
+          },
+          "TranscationDateTime": {
+            "title": "TranscationDateTime",
+            "description": "TranscationDateTime",
+            "type": "string"
+          },
+          "VID": {
+            "title": "VID"
+          },
+          "ChargerID": {
+            "title": "ChargerID",
+            "description": "ChargerID",
+            "type": "string"
+          },
+          "ChargeRate": {
+            "title": "ChargeRate",
+            "description": "Charge Rate",
+            "type": "string"
+          },
+          "OrganizationTaxID": {
+            "title": "OrganizationTaxID",
+            "description": "Organization Tax ID",
+            "type": "string"
+          },
+          "ResidentialIncrementalVSNonResidential": {
+            "title": "ResidentialIncrementalVSNonResidential",
+            "description": "Residential Incremental vs NonResidential",
+            "type": "string"
+          },
+          "DesignationOfVehicle": {
+            "title": "Designation Of Vehicle",
+            "description": "Designation Of Vehicle",
+            "type": "string"
+          },
+          "EnergyEconomyRatio": {
+            "title": "Energy Economy Ratio",
+            "description": "Energy Economy Ratio",
+            "type": "string"
+          },
+          "EPACompanyID": {
+            "title": "EPACompanyID",
+            "description": "EPACompanyID",
+            "type": "string"
+          },
+          "SystemID": {
+            "title": "System ID",
+            "description": "System ID",
+            "type": "string"
+          },
+          "TransactionNumber": {
+            "title": "Transaction Number",
+            "description": "Transaction Number, specific to credit system",
+            "type": "string"
+          },
+          "TransactionType": {
+            "title": "Transaction Type",
+            "description": "Transaction Type, specific to credit system",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ChargerIdentity": {
+        "title": "EVGI ChargerIdentity",
+        "description": "EVGI: ChargerIdentity",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "Make": {
+            "title": "Make",
+            "description": "Make"
+          },
+          "Model": {
+            "title": "Model",
+            "description": "Model"
+          },
+          "ChargerAdapterStandard": {
+            "title": "Charger Adapter/Standard",
+            "description": "Charger Adapter/Standard",
+            "type": "string"
+          },
+          "ACDCType": {
+            "title": "ACDC Type",
+            "description": "AC/DC Type",
+            "type": "string"
+          },
+          "UniBiDirectional": {
+            "title": "UniBiDirectional",
+            "description": "Uni or Bi Directional",
+            "type": "string"
+          },
+          "ChargeRate": {
+            "title": "ChargeRate",
+            "description": "ChargeRate",
+            "type": "string"
+          },
+          "ChargerSoftwareVersion": {
+            "title": "ChargerSoftwareVersion",
+            "description": "ChargerSoftwareVersion",
+            "type": "string"
+          },
+          "ChargerUniqueIdentifier": {
+            "title": "ChargerUniqueIdentifier",
+            "description": "ChargerUniqueIdentifier",
+            "type": "string"
+          },
+          "ChargerStationIdentifier": {
+            "title": "ChargerStationIdentifier",
+            "description": "Charger Station Identifier",
+            "type": "string"
+          },
+          "GeoCoordinates": {
+            "title": "GeoCoordinates",
+            "description": "GeoCoordinates",
+            "type": "string"
+          },
+          "Voltage": {
+            "title": "Voltage",
+            "description": "Voltage",
+            "type": "string"
+          },
+          "Cost": {
+            "title": "Cost",
+            "description": "Cost",
+            "type": "string"
+          },
+          "Availability": {
+            "title": "Availability",
+            "description": "Availability",
+            "type": "string"
+          },
+          "ProductionDate": {
+            "title": "ProductionDate",
+            "description": "ProductionDate",
+            "type": "string"
+          },
+          "ChargeTransmissionType": {
+            "title": "ChargeTransmissionType",
+            "description": "ChargeTransmissionType",
+            "type": "string"
+          },
+          "WirelessChargingType": {
+            "title": "WirelessChargingType",
+            "description": "WirelessChargingType",
+            "type": "string"
+          },
+          "ChargingStructureType": {
+            "title": "ChargingStructureType",
+            "description": "ChargingStructureType",
             "type": "string"
           }
         },
@@ -1416,6 +2287,57 @@
         },
         "additionalProperties": false
       },
+      "ControlAcceptance": {
+        "title": "EVGI ControlAcceptance",
+        "description": "EVGI: ControlAcceptance",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "SellerID": {
+            "title": "SellerID",
+            "description": "Seller ID"
+          },
+          "BuyerID": {
+            "title": "Buyer ID",
+            "description": "Buyer ID"
+          },
+          "ExchangeRate": {
+            "title": "ExchangeRate",
+            "description": "ExchangeRate",
+            "type": "string"
+          },
+          "SuccessCriteria": {
+            "title": "SuccessCriteria",
+            "description": "SuccessCriteria",
+            "type": "string"
+          },
+          "SettlementURI": {
+            "title": "SettlementURI",
+            "description": "SettlementURI",
+            "type": "string"
+          },
+          "PaymentPlatform": {
+            "title": "PaymentPlatform",
+            "description": "PaymentPlatform",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
       "Customer": {
         "title": "Customer",
         "description": "Customer record based on Customer from schema.org",
@@ -1463,6 +2385,106 @@
             "type": "string",
             "default": "",
             "example": "mailto:jane-doe@xyz.edu"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DataHost": {
+        "title": "Data Host",
+        "description": "EVGI: Data Host that ingest and expose data",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "EntityInfo": {
+            "title": "EntityInfo"
+          },
+          "Endpoint": {
+            "title": "Endpoint",
+            "description": "The root URI that this entity distributes data from"
+          },
+          "HostType": {
+            "title": "Host Type",
+            "description": "They types of data that this entity distributes",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DataHostBootstrappingCertificate": {
+        "title": "Data Host BootstrappingCertificate",
+        "description": "EVGI: Data Host Bootstrapping Certificate",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "UIUD": {
+            "title": "UIUD",
+            "description": "A unique ID generated through the hash of the rest of the informaiton in certiciate"
+          },
+          "WebURI": {
+            "title": "WebURI",
+            "description": "WebURI to tie to a receiverEID"
+          },
+          "DataStructure": {
+            "title": "DataStructure",
+            "description": "A string specifying the structure of the data."
+          },
+          "CommitFrequencyT": {
+            "title": "CommitFrequencyT",
+            "description": "Frequency of commitment to chain in time in milliseconds",
+            "type": "string"
+          },
+          "ReceiverEID": {
+            "title": "ReceiverEID",
+            "description": "The EID of the data host receiving these permissions",
+            "type": "string"
+          },
+          "RootAuthEID": {
+            "title": "RootAuthEID",
+            "description": "Pmerission groups",
+            "type": "string"
+          },
+          "OwnerEID": {
+            "title": "OwnerEID",
+            "description": "The EID of the owner fo this data",
+            "type": "string"
+          },
+          "RootAuthSig": {
+            "title": "RootAuthSig",
+            "description": "singatuer from the trust anchor",
+            "type": "string"
+          },
+          "SignAlgo": {
+            "title": "Signature Algorithm",
+            "description": "cryptographic scheme used to sign the certificate",
+            "type": "string"
           }
         },
         "additionalProperties": false
@@ -1556,6 +2578,175 @@
           },
           "expirationDate": {
             "title": "ExpirationDate",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EC": {
+        "title": "EC",
+        "description": "EVGI: Common structure that wraps EID. ECs are extensible for addtional fileds",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "EID": {
+            "title": "EID",
+            "description": "Self pointer to EID"
+          },
+          "EntityType": {
+            "title": "EntityType",
+            "description": "Self pointer to EID"
+          },
+          "PubKey": {
+            "title": "PubKey",
+            "description": "Publick key used to communicate with this EID",
+            "type": "string"
+          },
+          "RevURI": {
+            "title": "Revocation URI",
+            "description": "Revocation URI used for keeping track of all revocation certificate",
+            "type": "string"
+          },
+          "ALURI": {
+            "title": "Allow List URI",
+            "description": "Allow List URI used for keeping track of all Allow List certificate",
+            "type": "string"
+          },
+          "BLURI": {
+            "title": "BLocked List URI",
+            "description": "Blocked List URI used for keeping track of all Blcoked List certificate",
+            "type": "string"
+          },
+          "SignAlgo": {
+            "title": "Signature Algorithm",
+            "description": "cryptographic scheme used to sign the certificate",
+            "type": "string"
+          },
+          "HashAlgo": {
+            "title": "Hash Algorithm",
+            "description": "cryptographic scheme used to hash the certificate",
+            "type": "string"
+          },
+          "Expiration": {
+            "title": "Expiration",
+            "description": "timestamp when the certificate expires",
+            "type": "string"
+          },
+          "IssuerSig": {
+            "title": "Issuer Signature",
+            "description": "Signature on the hash of rest of the certificate",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EVGIEntityExtension": {
+        "title": "EVGI Entity Extension",
+        "description": "EVGI: EVGI Entity Extension includes metadata about payment parameters",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "Address": {
+            "title": "Address",
+            "description": "The address on this entity on given platform/ledger"
+          },
+          "URI": {
+            "title": "URI",
+            "description": "URI of the information the entity is being block-listed for"
+          },
+          "IssuerEID": {
+            "title": "IssuerEID",
+            "description": "The EID of the owner fo this data",
+            "type": "string"
+          },
+          "BREID": {
+            "title": "BREID",
+            "description": "Block List target's EID, or the EID that is barred from accessing URI",
+            "type": "string"
+          },
+          "SignAlgo": {
+            "title": "Signature Algorithm",
+            "description": "cryptographic scheme used to sign the certificate",
+            "type": "string"
+          },
+          "Reason": {
+            "title": "Reason",
+            "description": "Reason why the AC was invoked",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmissionMeasurement": {
+        "title": "EmissionMeasurement",
+        "description": "Emission Measurement",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "uuid": {
+            "title": "uuid",
+            "description": "uuid v4",
+            "type": "string"
+          },
+          "totalFuelConsumed": {
+            "title": "totalFuelConsumed",
+            "description": "total Fuel Consumed by the vehicle in kg"
+          },
+          "totalDistanceTraveled": {
+            "title": "totalDistanceTraveled",
+            "description": "lifetime distrance traveled in km",
+            "type": "string"
+          },
+          "Begin_DateTime": {
+            "title": "Begin_DateTime",
+            "description": "Begining DateTime of the trip",
+            "type": "string"
+          },
+          "End_DateTime": {
+            "title": "End_DateTime",
+            "description": "End_DateTime of the trip",
             "type": "string"
           }
         },
@@ -1718,6 +2909,58 @@
           "locationDescription": {
             "title": "locationDescription",
             "description": "Description of location such as \"Free Standing Residential Home\" \nor may be a URI that points to a more detailed description such as an address registry. Date and Time based on IETF RFC 3339.",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GroupPermissionChangeCertificate": {
+        "title": "GroupPermissionChangeCertificate",
+        "description": "EVGI: GroupPermissionChangeCertificate",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "URI": {
+            "title": "URI",
+            "description": "URL of the information that should be modified"
+          },
+          "OwnerEID": {
+            "title": "OwnerEID",
+            "description": "The EID of the data owner",
+            "type": "string"
+          },
+          "Group": {
+            "title": "Group",
+            "description": "Pmerission groups",
+            "type": "string"
+          },
+          "Read": {
+            "title": "Read",
+            "description": "New write permission",
+            "type": "string"
+          },
+          "Write": {
+            "title": "Write",
+            "description": "New Read Permission",
+            "type": "string"
+          },
+          "SignAlgo": {
+            "title": "Signature Algorithm",
+            "description": "cryptographic scheme used to sign the certificate",
             "type": "string"
           }
         },
@@ -2259,6 +3502,102 @@
         },
         "additionalProperties": false
       },
+      "Meter": {
+        "title": "EVGI Meter",
+        "description": "EVGI: meter",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "Make": {
+            "title": "Make",
+            "description": "Make"
+          },
+          "Model": {
+            "title": "Model",
+            "description": "Model"
+          },
+          "ChargeRate": {
+            "title": "ChargeRate",
+            "description": "ChargeRate",
+            "type": "string"
+          },
+          "GeoCoordinates": {
+            "title": "GeoCoordinates",
+            "description": "GeoCoordinates",
+            "type": "string"
+          },
+          "MeterUniqueIdentifier": {
+            "title": "MeterUniqueIdentifier",
+            "description": "cryptographic scheme used to sign the certificate",
+            "type": "string"
+          },
+          "SerialModel": {
+            "title": "SerialModel",
+            "description": "SerialModel",
+            "type": "string"
+          },
+          "MeterEndOfLifeEventRegistraion": {
+            "title": "MeterEndOfLifeEventRegistraion",
+            "description": "MeterEndOfLifeEventRegistraion",
+            "type": "string"
+          },
+          "ProductionDate": {
+            "title": "ProductionDate",
+            "description": "ProductionDate",
+            "type": "string"
+          },
+          "MeterSoftwareVersion": {
+            "title": "MeterSoftwareVersion",
+            "description": "MeterSoftwareVersion",
+            "type": "string"
+          },
+          "ConformanceToStandards": {
+            "title": "ConformanceToStandards",
+            "description": "ConformanceToStandards",
+            "type": "string"
+          },
+          "MeterAdminID": {
+            "title": "MeterAdminID",
+            "description": "Meter Admin ID",
+            "type": "string"
+          },
+          "MeterCurrentRating": {
+            "title": "MeterCurrentRating",
+            "description": "MeterCurrentRating",
+            "type": "string"
+          },
+          "MeterForm": {
+            "title": "MeterForm",
+            "description": "MeterForm",
+            "type": "string"
+          },
+          "MeterRecords": {
+            "title": "MeterRecords",
+            "description": "MeterRecords",
+            "type": "string"
+          },
+          "RemoteDisconnectCapability": {
+            "title": "RemoteDisconnectCapability",
+            "description": "Reason why the AC was invoked",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
       "Organization": {
         "title": "Organization",
         "description": "An organization such as a corporation, firm, club, etc.",
@@ -2330,6 +3669,72 @@
           "contactPoint": {
             "title": "Contact Point",
             "description": "Points of contact for this organization"
+          }
+        },
+        "additionalProperties": false
+      },
+      "P2PChargingCommunication": {
+        "title": "EVGI P2PChargingCommunication",
+        "description": "EVGI: P2PChargingCommunication",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "DateTime": {
+            "title": "DateTime",
+            "description": "Date Time"
+          },
+          "EnergyExchange": {
+            "title": "Energy Exchange",
+            "description": "Energy Exchange"
+          },
+          "RecipientBuyerUserID": {
+            "title": "RecipientBuyerUserID",
+            "description": "Recipient or Buyer UserID",
+            "type": "string"
+          },
+          "RecipientBuyerVehicleID": {
+            "title": "RecipientBuyerVehicleID",
+            "description": "RecipientBuyerVehicleID",
+            "type": "string"
+          },
+          "SellerUserID": {
+            "title": "SellerUserID",
+            "description": "SellerUserID",
+            "type": "string"
+          },
+          "TransactionGeocoordinates": {
+            "title": "TransactionGeocoordinates",
+            "description": "Transaction Geocoordinates",
+            "type": "string"
+          },
+          "Cost": {
+            "title": "Cost",
+            "description": "Cost",
+            "type": "string"
+          },
+          "SellerVehicleID": {
+            "title": "SellerVehicleID",
+            "description": "Seller Vehicle ID",
+            "type": "string"
+          },
+          "EnergySource": {
+            "title": "EnergySource",
+            "description": "Energy Source",
+            "type": "string"
           }
         },
         "additionalProperties": false
@@ -3067,6 +4472,51 @@
         },
         "additionalProperties": false
       },
+      "ServiceProvider": {
+        "title": "ServiceProvider",
+        "description": "EVGI: Common structure that wraps EID. ECs are extensible for addtional fileds",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "LegalName": {
+            "title": "Legal Name",
+            "description": "Legally registered name of the entity providing services"
+          },
+          "Address": {
+            "title": "Address",
+            "description": "Legally registered address of said legal entity",
+            "type": "string"
+          },
+          "PhoneNumber": {
+            "title": "Phone Number",
+            "description": "Contact phone number for entity",
+            "type": "string"
+          },
+          "Email": {
+            "title": "Email",
+            "description": "Contact Email for entity",
+            "type": "string"
+          },
+          "EntityInfo": {
+            "title": "EntityInfo"
+          }
+        },
+        "additionalProperties": false
+      },
       "StripeCustomerCredential": {
         "title": "StripeCustomerCredential",
         "description": "Stripe Customer Credential (verifiable leiCode Credential)",
@@ -3103,6 +4553,57 @@
           },
           "expirationDate": {
             "title": "ExpirationDate",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TimeDependentSmartEnergyTariffs": {
+        "title": "EVGI TimeDependentSmartEnergyTariffs",
+        "description": "EVGI: TimeDependentSmartEnergyTariffs",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "Date": {
+            "title": "Date",
+            "description": "Date"
+          },
+          "SOC": {
+            "title": "Model",
+            "description": "Model"
+          },
+          "TimeOfDay": {
+            "title": "TimeOfDay",
+            "description": "TimeOfDay",
+            "type": "string"
+          },
+          "Amount": {
+            "title": "Amount",
+            "description": "Amount",
+            "type": "string"
+          },
+          "CarbonIntensity": {
+            "title": "CarbonIntensity",
+            "description": "cryptographic scheme used to sign the certificate",
+            "type": "string"
+          },
+          "PaymentCurrencyType": {
+            "title": "PaymentCurrencyType",
+            "description": "SerialModel",
             "type": "string"
           }
         },
@@ -3173,6 +4674,36 @@
         },
         "additionalProperties": false
       },
+      "TrustAnchor": {
+        "title": "Trust Anchor",
+        "description": "EVGI: Human readable identifier for Trust Anchor",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "EntityInfo": {
+            "title": "EntityInfo"
+          },
+          "identifier": {
+            "title": "identifier",
+            "description": "Name of root entity"
+          }
+        },
+        "additionalProperties": false
+      },
       "UniqueVehicleIdentifier": {
         "title": "UniqueVehicleIdentifier",
         "description": "Unique Vehicle Identifier as defined in VID I.",
@@ -3196,6 +4727,87 @@
           "uvi": {
             "title": "uvi",
             "description": "64 character alphanumeric string.",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "User": {
+        "title": "User",
+        "description": "EVGI: User Info. Must be distibuted through data host a d permission system.",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "EntityInfo": {
+            "title": "EntityInfo"
+          },
+          "PermissionedURI": {
+            "title": "Permissioned URI",
+            "description": "The Permissioned URI is the URI of the Data Host where permissioned personal informaiton is stored"
+          },
+          "PermissionedEID": {
+            "title": "Permissioned EID",
+            "description": "The Permissioned ID is the EID of the Data Host that is stroing premissioned perosnal info",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserEntityID": {
+        "title": "User Entity ID",
+        "description": "EVGI: EVGI Entity Extension includes metadata about payment parameters",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "EntityUserID": {
+            "title": "EntityUserID",
+            "description": "Id of entity or user"
+          },
+          "Address": {
+            "title": "Address",
+            "description": "The address on this entity or user"
+          },
+          "Email": {
+            "title": "Email",
+            "description": "Email",
+            "type": "string"
+          },
+          "Name": {
+            "title": "Name",
+            "description": "Name",
+            "type": "string"
+          },
+          "PhoneNumber": {
+            "title": "PhoneNumber",
+            "description": "Phone Number",
             "type": "string"
           }
         },
@@ -4314,6 +5926,143 @@
           "uvi": {
             "title": "uvi",
             "description": "the unique vehicle identifier for the vehicle"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VehicleSpec": {
+        "title": "VehicleSpec",
+        "description": "Vehicle Specs for the vehicle",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "uuid": {
+            "title": "uuid",
+            "description": "uuid v4",
+            "type": "string"
+          },
+          "OEM": {
+            "title": "OEM",
+            "description": "OEM of the car"
+          },
+          "MODEL": {
+            "title": "MODEL",
+            "description": "Model of the vehicle",
+            "type": "string"
+          },
+          "typeRating": {
+            "title": "typeRating",
+            "description": "CoC type rating. M1-M3, N1-N3,etc ",
+            "type": "string"
+          },
+          "fuelType": {
+            "title": "fuelType",
+            "description": "fuel type of vehicle, petrol or diesel",
+            "type": "string"
+          },
+          "weight": {
+            "title": "weight",
+            "description": "weight of vehicle in kg",
+            "type": "string"
+          },
+          "power": {
+            "title": "power",
+            "description": "power of vehicle in kw.",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VehicleToGridCommunication": {
+        "title": "EVGI VehicleToGridCommunication",
+        "description": "EVGI: VehicleToGridCommunication",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "DateTime": {
+            "title": "DateTime",
+            "description": "Date Time"
+          },
+          "EnergyExchange": {
+            "title": "Energy Exchange",
+            "description": "Energy Exchange"
+          },
+          "RecipientBuyerUserID": {
+            "title": "RecipientBuyerUserID",
+            "description": "Recipient or Buyer UserID",
+            "type": "string"
+          },
+          "RecipientBuyerVehicleID": {
+            "title": "RecipientBuyerVehicleID",
+            "description": "RecipientBuyerVehicleID",
+            "type": "string"
+          },
+          "SellerUserID": {
+            "title": "SellerUserID",
+            "description": "SellerUserID",
+            "type": "string"
+          },
+          "UtilityIdentifier": {
+            "title": "UtilityIdentifier",
+            "description": "SerialModel",
+            "type": "string"
+          },
+          "VehicleGeocoordinates": {
+            "title": "VehicleGeocoordinates",
+            "description": "Vehicle Geocoordinates",
+            "type": "string"
+          },
+          "Cost": {
+            "title": "Cost",
+            "description": "Cost",
+            "type": "string"
+          },
+          "SellerVehicleID": {
+            "title": "SellerVehicleID",
+            "description": "Seller Vehicle ID",
+            "type": "string"
+          },
+          "DateOfLastChargeDischarge": {
+            "title": "DateOfLastChargeDischarge",
+            "type": "string"
+          },
+          "EnergyAvaliable": {
+            "title": "EnergyAvaliable",
+            "description": "Energy Avaliable",
+            "type": "string"
+          },
+          "EnergySource": {
+            "title": "EnergySource",
+            "description": "Energy Source",
+            "type": "string"
           }
         },
         "additionalProperties": false

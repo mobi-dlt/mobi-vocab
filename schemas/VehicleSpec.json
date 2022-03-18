@@ -1,0 +1,66 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VehicleSpec.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"VehicleSpec\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#VehicleSpec\"}",
+    "title": "VehicleSpec",
+    "description": "Vehicle Specs for the vehicle",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "uuid": {
+            "$comment": "{\"term\": \"uuid\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "uuid",
+            "description": "uuid v4",
+            "type": "string"
+        },
+        "OEM": {
+            "$comment": "{\"term\": \"OEM\", \"@id\": \"https://schema.org/manufacturer\"}",
+            "title": "OEM",
+            "description": "OEM of the car"
+        },
+        "MODEL": {
+            "$comment": "{\"term\": \"MODEL\", \"@id\": \"https://schema.org/model\"}",
+            "title": "MODEL",
+            "description": "Model of the vehicle",
+            "type": "string"
+        },
+        "typeRating": {
+            "$comment": "{\"term\": \"typeRating\", \"@id\": \"https://schema.org/Rating\"}",
+            "title": "typeRating",
+            "description": "CoC type rating. M1-M3, N1-N3,etc ",
+            "type": "string"
+        },
+        "fuelType": {
+            "$comment": "{\"term\": \"fuelType\", \"@id\": \"https://schema.org/fuelType\"}",
+            "title": "fuelType",
+            "description": "fuel type of vehicle, petrol or diesel",
+            "type": "string"
+        },
+        "weight": {
+            "$comment": "{\"term\": \"weight\", \"@id\": \"https://schema.org/weight\"}",
+            "title": "weight",
+            "description": "weight of vehicle in kg",
+            "type": "string"
+        },
+        "power": {
+            "$comment": "{\"term\": \"power\", \"@id\": \"https://schema.org/enginePower\"}",
+            "title": "power",
+            "description": "power of vehicle in kw.",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}

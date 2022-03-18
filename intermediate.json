@@ -1,4 +1,256 @@
 {
+  "https://dlt.mobi/mobility-schema/schemas#AccessCertificate": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/AccessCertificate.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "AccessCertificate",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#AccessCertificate"
+    },
+    "title": "AccessCertificate",
+    "description": "EVGI: Access Certificate act as the main key to entry for accessing",
+    "classProperties": {
+      "https://schema.org/codeValue": {
+        "$comment": {
+          "term": "UIUD",
+          "@id": "https://schema.org/codeValue"
+        },
+        "title": "UIUD",
+        "description": "A unique ID generated through the hash of the rest of the informaiton in certiciate"
+      },
+      "https://schema.org/url": {
+        "$comment": {
+          "term": "URI",
+          "@id": "https://schema.org/url"
+        },
+        "title": "URI",
+        "description": "URI of the information the AC grants access to"
+      },
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "IssuerEID",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "IssuerEID",
+        "description": "The EID of the entity issuing the AC"
+      },
+      "https://schema.org/Text": {
+        "$comment": {
+          "term": "RootAuthEID",
+          "@id": "https://schema.org/Text"
+        },
+        "title": "RootAuthEID",
+        "description": "Pmerission groups"
+      },
+      "https://schema.org/Date": {
+        "$comment": {
+          "term": "Expiration",
+          "@id": "https://schema.org/Date"
+        },
+        "title": "Expiration",
+        "description": "Timestamp that this certificate expires on"
+      },
+      "https://schema.org/algorithm": {
+        "$comment": {
+          "term": "SignAlgo",
+          "@id": "https://schema.org/algorithm"
+        },
+        "title": "Signature Algorithm",
+        "description": "cryptographic scheme used to sign the certificate"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/AccessCertificate.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"AccessCertificate\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#AccessCertificate\"}",
+      "title": "AccessCertificate",
+      "description": "EVGI: Access Certificate act as the main key to entry for accessing",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "UIUD": {
+          "$comment": "{\"term\": \"UIUD\", \"@id\": \"https://schema.org/codeValue\"}",
+          "title": "UIUD",
+          "description": "A unique ID generated through the hash of the rest of the informaiton in certiciate"
+        },
+        "URI": {
+          "$comment": "{\"term\": \"URI\", \"@id\": \"https://schema.org/url\"}",
+          "title": "URI",
+          "description": "URI of the information the AC grants access to"
+        },
+        "IssuerEID": {
+          "$comment": "{\"term\": \"IssuerEID\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "IssuerEID",
+          "description": "The EID of the entity issuing the AC",
+          "type": "string"
+        },
+        "RootAuthEID": {
+          "$comment": "{\"term\": \"RootAuthEID\", \"@id\": \"https://schema.org/Text\"}",
+          "title": "RootAuthEID",
+          "description": "Pmerission groups",
+          "type": "string"
+        },
+        "Expiration": {
+          "$comment": "{\"term\": \"Expiration\", \"@id\": \"https://schema.org/Date\"}",
+          "title": "Expiration",
+          "description": "Timestamp that this certificate expires on",
+          "type": "string"
+        },
+        "SignAlgo": {
+          "$comment": "{\"term\": \"SignAlgo\", \"@id\": \"https://schema.org/algorithm\"}",
+          "title": "Signature Algorithm",
+          "description": "cryptographic scheme used to sign the certificate",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#AssetRegistry": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/AssetRegistry.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "AssetRegistry",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#AssetRegistry"
+    },
+    "title": "EVGI AssetRegistry",
+    "description": "EVGI: AssetRegistry",
+    "classProperties": {
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "AssetID",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "AssetID",
+        "description": "Asset ID"
+      },
+      "https://schema.org/Number": {
+        "$comment": {
+          "term": "OwnerID",
+          "@id": "https://schema.org/Number"
+        },
+        "title": "OwnerID",
+        "description": "OwnerID"
+      },
+      "https://schema.org/DefinedTerm": {
+        "$comment": {
+          "term": "Classification",
+          "@id": "https://schema.org/DefinedTerm"
+        },
+        "title": "Classification",
+        "description": "Classification"
+      },
+      "https://schema.org/Place": {
+        "$comment": {
+          "term": "VehicleDesignation",
+          "@id": "https://schema.org/Place"
+        },
+        "title": "VehicleDesignation",
+        "description": "VehicleDesignation"
+      },
+      "https://https://schema.org/url": {
+        "$comment": {
+          "term": "SystemID",
+          "@id": "https://https://schema.org/url"
+        },
+        "title": "SystemID",
+        "description": "SystemID"
+      },
+      "https://schema.org/Organization": {
+        "$comment": {
+          "term": "OrganizationFEIN",
+          "@id": "https://schema.org/Organization"
+        },
+        "title": "OrganizationFEIN",
+        "description": "OrganizationFEIN"
+      },
+      "https://schema.org/Text": {
+        "$comment": {
+          "term": "EPACompanyID",
+          "@id": "https://schema.org/Text"
+        },
+        "title": "EPACompanyID",
+        "description": "EPA Company ID"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/AssetRegistry.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"AssetRegistry\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#AssetRegistry\"}",
+      "title": "EVGI AssetRegistry",
+      "description": "EVGI: AssetRegistry",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "AssetID": {
+          "$comment": "{\"term\": \"AssetID\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "AssetID",
+          "description": "Asset ID"
+        },
+        "OwnerID": {
+          "$comment": "{\"term\": \"OwnerID\", \"@id\": \"https://schema.org/Number\"}",
+          "title": "OwnerID",
+          "description": "OwnerID"
+        },
+        "Classification": {
+          "$comment": "{\"term\": \"Classification\", \"@id\": \"https://schema.org/DefinedTerm\"}",
+          "title": "Classification",
+          "description": "Classification",
+          "type": "string"
+        },
+        "VehicleDesignation": {
+          "$comment": "{\"term\": \"VehicleDesignation\", \"@id\": \"https://schema.org/Place\"}",
+          "title": "VehicleDesignation",
+          "description": "VehicleDesignation",
+          "type": "string"
+        },
+        "SystemID": {
+          "$comment": "{\"term\": \"SystemID\", \"@id\": \"https://https://schema.org/url\"}",
+          "title": "SystemID",
+          "description": "SystemID",
+          "type": "string"
+        },
+        "OrganizationFEIN": {
+          "$comment": "{\"term\": \"OrganizationFEIN\", \"@id\": \"https://schema.org/Organization\"}",
+          "title": "OrganizationFEIN",
+          "description": "OrganizationFEIN",
+          "type": "string"
+        },
+        "EPACompanyID": {
+          "$comment": "{\"term\": \"EPACompanyID\", \"@id\": \"https://schema.org/Text\"}",
+          "title": "EPACompanyID",
+          "description": "EPA Company ID",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
   "https://dlt.mobi/mobility-schema#BatteryID": {
     "$id": "https://dlt.mobi/mobility-schema/schemas/BatteryID.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
@@ -241,6 +493,125 @@
       "examples": []
     }
   },
+  "https://dlt.mobi/mobility-schema/schemas#BlockList": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/BlockList.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "BlockList",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#BlockList"
+    },
+    "title": "Block List",
+    "description": "EVGI: Block List",
+    "classProperties": {
+      "https://schema.org/codeValue": {
+        "$comment": {
+          "term": "UIUD",
+          "@id": "https://schema.org/codeValue"
+        },
+        "title": "UIUD",
+        "description": "Unqiue Block List ID generated through the hash of informaiton in the block list informaiton"
+      },
+      "https://schema.org/url": {
+        "$comment": {
+          "term": "URI",
+          "@id": "https://schema.org/url"
+        },
+        "title": "URI",
+        "description": "URI of the information the entity is being block-listed for"
+      },
+      "https://schema.org/Person": {
+        "$comment": {
+          "term": "IssuerEID",
+          "@id": "https://schema.org/Person"
+        },
+        "title": "IssuerEID",
+        "description": "The EID of the owner fo this data"
+      },
+      "https://schema.org/Time": {
+        "$comment": {
+          "term": "BREID",
+          "@id": "https://schema.org/Time"
+        },
+        "title": "BREID",
+        "description": "Block List target's EID, or the EID that is barred from accessing URI"
+      },
+      "https://schema.org/algorithm": {
+        "$comment": {
+          "term": "SignAlgo",
+          "@id": "https://schema.org/algorithm"
+        },
+        "title": "Signature Algorithm",
+        "description": "cryptographic scheme used to sign the certificate"
+      },
+      "https://schema.org/Text": {
+        "$comment": {
+          "term": "Reason",
+          "@id": "https://schema.org/Text"
+        },
+        "title": "Reason",
+        "description": "Reason why the AC was invoked"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/BlockList.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"BlockList\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#BlockList\"}",
+      "title": "Block List",
+      "description": "EVGI: Block List",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "UIUD": {
+          "$comment": "{\"term\": \"UIUD\", \"@id\": \"https://schema.org/codeValue\"}",
+          "title": "UIUD",
+          "description": "Unqiue Block List ID generated through the hash of informaiton in the block list informaiton"
+        },
+        "URI": {
+          "$comment": "{\"term\": \"URI\", \"@id\": \"https://schema.org/url\"}",
+          "title": "URI",
+          "description": "URI of the information the entity is being block-listed for"
+        },
+        "IssuerEID": {
+          "$comment": "{\"term\": \"IssuerEID\", \"@id\": \"https://schema.org/Person\"}",
+          "title": "IssuerEID",
+          "description": "The EID of the owner fo this data",
+          "type": "string"
+        },
+        "BREID": {
+          "$comment": "{\"term\": \"BREID\", \"@id\": \"https://schema.org/Time\"}",
+          "title": "BREID",
+          "description": "Block List target's EID, or the EID that is barred from accessing URI",
+          "type": "string"
+        },
+        "SignAlgo": {
+          "$comment": "{\"term\": \"SignAlgo\", \"@id\": \"https://schema.org/algorithm\"}",
+          "title": "Signature Algorithm",
+          "description": "cryptographic scheme used to sign the certificate",
+          "type": "string"
+        },
+        "Reason": {
+          "$comment": "{\"term\": \"Reason\", \"@id\": \"https://schema.org/Text\"}",
+          "title": "Reason",
+          "description": "Reason why the AC was invoked",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
   "https://schema.org/Brand": {
     "$id": "https://dlt.mobi/mobility-schema/schemas/Brand.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
@@ -299,6 +670,606 @@
           "$comment": "{\"term\": \"url\", \"@id\": \"https://schema.org/url\"}",
           "title": "URL",
           "description": "URL of the entity.",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#CarbonOffset": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/CarbonOffset.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "CarbonOffset",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#CarbonOffset"
+    },
+    "title": "EVGI CarbonOffset",
+    "description": "EVGI: Carbon Offset",
+    "classProperties": {
+      "https://schema.org/QuantitativeValue": {
+        "$comment": {
+          "term": "CarbonIntensity",
+          "@id": "https://schema.org/QuantitativeValue"
+        },
+        "title": "CarbonIntensity",
+        "description": "Carbon Intensity"
+      },
+      "https://schema.org/Text": {
+        "$comment": {
+          "term": "CarbonIntensitySource",
+          "@id": "https://schema.org/Text"
+        },
+        "title": "CarbonIntensitySource",
+        "description": "CarbonIntensitySource"
+      },
+      "https://schema.org/startTime": {
+        "$comment": {
+          "term": "ChargeStartTime",
+          "@id": "https://schema.org/startTime"
+        },
+        "title": "ChargeStartTime",
+        "description": "RCharge Start Time"
+      },
+      "https://schema.org/endTime": {
+        "$comment": {
+          "term": "ChargeEndTime",
+          "@id": "https://schema.org/endTime"
+        },
+        "title": "ChargeEndTime",
+        "description": "ChargeEndTime"
+      },
+      "https://schema.org/url": {
+        "$comment": {
+          "term": "InfrastructureOwnerEntityID",
+          "@id": "https://schema.org/url"
+        },
+        "title": "InfrastructureOwnerEntityID",
+        "description": "InfrastructureOwnerEntityID"
+      },
+      "https://https://schema.org/Person": {
+        "$comment": {
+          "term": "ChargingDataSource",
+          "@id": "https://https://schema.org/Person"
+        },
+        "title": "ChargingDataSource",
+        "description": "ChargingDataSource"
+      },
+      "https://schema.org/accountId": {
+        "$comment": {
+          "term": "CreditOwnerAccount",
+          "@id": "https://schema.org/accountId"
+        },
+        "title": "CreditOwnerAccount",
+        "description": "CreditOwnerAccount"
+      },
+      "https://schema.org/Energy": {
+        "$comment": {
+          "term": "EnergyConsumed",
+          "@id": "https://schema.org/Energy"
+        },
+        "title": "EnergyConsumed",
+        "description": "EnergyConsumed"
+      },
+      "https://schema.org/GeoCoordinates": {
+        "$comment": {
+          "term": "ChargeSessionGeolocation",
+          "@id": "https://schema.org/GeoCoordinates"
+        },
+        "title": "ChargeSessionGeolocation",
+        "description": "ChargeSessionGeolocation"
+      },
+      "https://schema.org/DateTime": {
+        "$comment": {
+          "term": "TranscationDateTime",
+          "@id": "https://schema.org/DateTime"
+        },
+        "title": "TranscationDateTime",
+        "description": "TranscationDateTime"
+      },
+      "https://dlt.mobi/mobility-schema/schemas#VID": {
+        "$comment": {
+          "term": "VID",
+          "@id": "https://dlt.mobi/mobility-schema/schemas#VID"
+        },
+        "title": "VID"
+      },
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "ChargerID",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "ChargerID",
+        "description": "ChargerID"
+      },
+      "https://schema.org/price": {
+        "$comment": {
+          "term": "ChargeRate",
+          "@id": "https://schema.org/price"
+        },
+        "title": "ChargeRate",
+        "description": "Charge Rate"
+      },
+      "https://schema.org/taxIS": {
+        "$comment": {
+          "term": "OrganizationTaxID",
+          "@id": "https://schema.org/taxIS"
+        },
+        "title": "OrganizationTaxID",
+        "description": "Organization Tax ID"
+      },
+      "https://schema.org/Name": {
+        "$comment": {
+          "term": "ResidentialIncrementalVSNonResidential",
+          "@id": "https://schema.org/Name"
+        },
+        "title": "ResidentialIncrementalVSNonResidential",
+        "description": "Residential Incremental vs NonResidential"
+      },
+      "https://schema.org/location": {
+        "$comment": {
+          "term": "DesignationOfVehicle",
+          "@id": "https://schema.org/location"
+        },
+        "title": "Designation Of Vehicle",
+        "description": "Designation Of Vehicle"
+      },
+      "https://schema.org/Number": {
+        "$comment": {
+          "term": "EnergyEconomyRatio",
+          "@id": "https://schema.org/Number"
+        },
+        "title": "Energy Economy Ratio",
+        "description": "Energy Economy Ratio"
+      },
+      "https://schema.org/Organization": {
+        "$comment": {
+          "term": "EPACompanyID",
+          "@id": "https://schema.org/Organization"
+        },
+        "title": "EPACompanyID",
+        "description": "EPACompanyID"
+      },
+      "https://schema.org/SoftwareApplication": {
+        "$comment": {
+          "term": "SystemID",
+          "@id": "https://schema.org/SoftwareApplication"
+        },
+        "title": "System ID",
+        "description": "System ID"
+      },
+      "https://schema.org/PaymentChargeSpecification": {
+        "$comment": {
+          "term": "TransactionNumber",
+          "@id": "https://schema.org/PaymentChargeSpecification"
+        },
+        "title": "Transaction Number",
+        "description": "Transaction Number, specific to credit system"
+      },
+      "https://schema.org/PaymentService": {
+        "$comment": {
+          "term": "TransactionType",
+          "@id": "https://schema.org/PaymentService"
+        },
+        "title": "Transaction Type",
+        "description": "Transaction Type, specific to credit system"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/CarbonOffset.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"CarbonOffset\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#CarbonOffset\"}",
+      "title": "EVGI CarbonOffset",
+      "description": "EVGI: Carbon Offset",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "CarbonIntensity": {
+          "$comment": "{\"term\": \"CarbonIntensity\", \"@id\": \"https://schema.org/QuantitativeValue\"}",
+          "title": "CarbonIntensity",
+          "description": "Carbon Intensity"
+        },
+        "CarbonIntensitySource": {
+          "$comment": "{\"term\": \"CarbonIntensitySource\", \"@id\": \"https://schema.org/Text\"}",
+          "title": "CarbonIntensitySource",
+          "description": "CarbonIntensitySource"
+        },
+        "ChargeStartTime": {
+          "$comment": "{\"term\": \"ChargeStartTime\", \"@id\": \"https://schema.org/startTime\"}",
+          "title": "ChargeStartTime",
+          "description": "RCharge Start Time",
+          "type": "string"
+        },
+        "ChargeEndTime": {
+          "$comment": "{\"term\": \"ChargeEndTime\", \"@id\": \"https://schema.org/endTime\"}",
+          "title": "ChargeEndTime",
+          "description": "ChargeEndTime",
+          "type": "string"
+        },
+        "InfrastructureOwnerEntityID": {
+          "$comment": "{\"term\": \"InfrastructureOwnerEntityID\", \"@id\": \"https://schema.org/url\"}",
+          "title": "InfrastructureOwnerEntityID",
+          "description": "InfrastructureOwnerEntityID",
+          "type": "string"
+        },
+        "ChargingDataSource": {
+          "$comment": "{\"term\": \"ChargingDataSource\", \"@id\": \"https://https://schema.org/Person\"}",
+          "title": "ChargingDataSource",
+          "description": "ChargingDataSource",
+          "type": "string"
+        },
+        "CreditOwnerAccount": {
+          "$comment": "{\"term\": \"CreditOwnerAccount\", \"@id\": \"https://schema.org/accountId\"}",
+          "title": "CreditOwnerAccount",
+          "description": "CreditOwnerAccount",
+          "type": "string"
+        },
+        "EnergyConsumed": {
+          "$comment": "{\"term\": \"EnergyConsumed\", \"@id\": \"https://schema.org/Energy\"}",
+          "title": "EnergyConsumed",
+          "description": "EnergyConsumed",
+          "type": "string"
+        },
+        "ChargeSessionGeolocation": {
+          "$comment": "{\"term\": \"ChargeSessionGeolocation\", \"@id\": \"https://schema.org/GeoCoordinates\"}",
+          "title": "ChargeSessionGeolocation",
+          "description": "ChargeSessionGeolocation",
+          "type": "string"
+        },
+        "TranscationDateTime": {
+          "$comment": "{\"term\": \"TranscationDateTime\", \"@id\": \"https://schema.org/DateTime\"}",
+          "title": "TranscationDateTime",
+          "description": "TranscationDateTime",
+          "type": "string"
+        },
+        "VID": {
+          "$comment": "{\"term\": \"VID\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#VID\"}",
+          "title": "VID",
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/VID.json"
+        },
+        "ChargerID": {
+          "$comment": "{\"term\": \"ChargerID\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "ChargerID",
+          "description": "ChargerID",
+          "type": "string"
+        },
+        "ChargeRate": {
+          "$comment": "{\"term\": \"ChargeRate\", \"@id\": \"https://schema.org/price\"}",
+          "title": "ChargeRate",
+          "description": "Charge Rate",
+          "type": "string"
+        },
+        "OrganizationTaxID": {
+          "$comment": "{\"term\": \"OrganizationTaxID\", \"@id\": \"https://schema.org/taxIS\"}",
+          "title": "OrganizationTaxID",
+          "description": "Organization Tax ID",
+          "type": "string"
+        },
+        "ResidentialIncrementalVSNonResidential": {
+          "$comment": "{\"term\": \"ResidentialIncrementalVSNonResidential\", \"@id\": \"https://schema.org/Name\"}",
+          "title": "ResidentialIncrementalVSNonResidential",
+          "description": "Residential Incremental vs NonResidential",
+          "type": "string"
+        },
+        "DesignationOfVehicle": {
+          "$comment": "{\"term\": \"DesignationOfVehicle\", \"@id\": \"https://schema.org/location\"}",
+          "title": "Designation Of Vehicle",
+          "description": "Designation Of Vehicle",
+          "type": "string"
+        },
+        "EnergyEconomyRatio": {
+          "$comment": "{\"term\": \"EnergyEconomyRatio\", \"@id\": \"https://schema.org/Number\"}",
+          "title": "Energy Economy Ratio",
+          "description": "Energy Economy Ratio",
+          "type": "string"
+        },
+        "EPACompanyID": {
+          "$comment": "{\"term\": \"EPACompanyID\", \"@id\": \"https://schema.org/Organization\"}",
+          "title": "EPACompanyID",
+          "description": "EPACompanyID",
+          "type": "string"
+        },
+        "SystemID": {
+          "$comment": "{\"term\": \"SystemID\", \"@id\": \"https://schema.org/SoftwareApplication\"}",
+          "title": "System ID",
+          "description": "System ID",
+          "type": "string"
+        },
+        "TransactionNumber": {
+          "$comment": "{\"term\": \"TransactionNumber\", \"@id\": \"https://schema.org/PaymentChargeSpecification\"}",
+          "title": "Transaction Number",
+          "description": "Transaction Number, specific to credit system",
+          "type": "string"
+        },
+        "TransactionType": {
+          "$comment": "{\"term\": \"TransactionType\", \"@id\": \"https://schema.org/PaymentService\"}",
+          "title": "Transaction Type",
+          "description": "Transaction Type, specific to credit system",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#ChargerIdentity": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/ChargerIdentity.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "ChargerIdentity",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#ChargerIdentity"
+    },
+    "title": "EVGI ChargerIdentity",
+    "description": "EVGI: ChargerIdentity",
+    "classProperties": {
+      "https://schema.org/manufacturer": {
+        "$comment": {
+          "term": "Make",
+          "@id": "https://schema.org/manufacturer"
+        },
+        "title": "Make",
+        "description": "Make"
+      },
+      "https://schema.org/model": {
+        "$comment": {
+          "term": "Model",
+          "@id": "https://schema.org/model"
+        },
+        "title": "Model",
+        "description": "Model"
+      },
+      "https://schema.org/boolean": {
+        "$comment": {
+          "term": "ChargerAdapterStandard",
+          "@id": "https://schema.org/boolean"
+        },
+        "title": "Charger Adapter/Standard",
+        "description": "Charger Adapter/Standard"
+      },
+      "https://schema.org/addiontalProperty": {
+        "$comment": {
+          "term": "ACDCType",
+          "@id": "https://schema.org/addiontalProperty"
+        },
+        "title": "ACDC Type",
+        "description": "AC/DC Type"
+      },
+      "https://schema.org/Property": {
+        "$comment": {
+          "term": "UniBiDirectional",
+          "@id": "https://schema.org/Property"
+        },
+        "title": "UniBiDirectional",
+        "description": "Uni or Bi Directional"
+      },
+      "https://schema.org/PaymentChargeSpecification": {
+        "$comment": {
+          "term": "ChargeRate",
+          "@id": "https://schema.org/PaymentChargeSpecification"
+        },
+        "title": "ChargeRate",
+        "description": "ChargeRate"
+      },
+      "https://schema.org/version": {
+        "$comment": {
+          "term": "ChargerSoftwareVersion",
+          "@id": "https://schema.org/version"
+        },
+        "title": "ChargerSoftwareVersion",
+        "description": "ChargerSoftwareVersion"
+      },
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "ChargerUniqueIdentifier",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "ChargerUniqueIdentifier",
+        "description": "ChargerUniqueIdentifier"
+      },
+      "https://schema.org/url": {
+        "$comment": {
+          "term": "ChargerStationIdentifier",
+          "@id": "https://schema.org/url"
+        },
+        "title": "ChargerStationIdentifier",
+        "description": "Charger Station Identifier"
+      },
+      "https://schema.org/GeoCoordinates": {
+        "$comment": {
+          "term": "GeoCoordinates",
+          "@id": "https://schema.org/GeoCoordinates"
+        },
+        "title": "GeoCoordinates",
+        "description": "GeoCoordinates"
+      },
+      "https://schema.org/Number": {
+        "$comment": {
+          "term": "Voltage",
+          "@id": "https://schema.org/Number"
+        },
+        "title": "Voltage",
+        "description": "Voltage"
+      },
+      "https://schema.org/price": {
+        "$comment": {
+          "term": "Cost",
+          "@id": "https://schema.org/price"
+        },
+        "title": "Cost",
+        "description": "Cost"
+      },
+      "https://schema.org/availability": {
+        "$comment": {
+          "term": "Availability",
+          "@id": "https://schema.org/availability"
+        },
+        "title": "Availability",
+        "description": "Availability"
+      },
+      "https://schema.org/Date": {
+        "$comment": {
+          "term": "ProductionDate",
+          "@id": "https://schema.org/Date"
+        },
+        "title": "ProductionDate",
+        "description": "ProductionDate"
+      },
+      "https://schema.org/Rating": {
+        "$comment": {
+          "term": "ChargeTransmissionType",
+          "@id": "https://schema.org/Rating"
+        },
+        "title": "ChargeTransmissionType",
+        "description": "ChargeTransmissionType"
+      },
+      "https://schema.org/Text": {
+        "$comment": {
+          "term": "WirelessChargingType",
+          "@id": "https://schema.org/Text"
+        },
+        "title": "WirelessChargingType",
+        "description": "WirelessChargingType"
+      },
+      "https://schema.org/Documentation": {
+        "$comment": {
+          "term": "ChargingStructureType",
+          "@id": "https://schema.org/Documentation"
+        },
+        "title": "ChargingStructureType",
+        "description": "ChargingStructureType"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/ChargerIdentity.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"ChargerIdentity\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#ChargerIdentity\"}",
+      "title": "EVGI ChargerIdentity",
+      "description": "EVGI: ChargerIdentity",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "Make": {
+          "$comment": "{\"term\": \"Make\", \"@id\": \"https://schema.org/manufacturer\"}",
+          "title": "Make",
+          "description": "Make"
+        },
+        "Model": {
+          "$comment": "{\"term\": \"Model\", \"@id\": \"https://schema.org/model\"}",
+          "title": "Model",
+          "description": "Model"
+        },
+        "ChargerAdapterStandard": {
+          "$comment": "{\"term\": \"ChargerAdapterStandard\", \"@id\": \"https://schema.org/boolean\"}",
+          "title": "Charger Adapter/Standard",
+          "description": "Charger Adapter/Standard",
+          "type": "string"
+        },
+        "ACDCType": {
+          "$comment": "{\"term\": \"ACDCType\", \"@id\": \"https://schema.org/addiontalProperty\"}",
+          "title": "ACDC Type",
+          "description": "AC/DC Type",
+          "type": "string"
+        },
+        "UniBiDirectional": {
+          "$comment": "{\"term\": \"UniBiDirectional\", \"@id\": \"https://schema.org/Property\"}",
+          "title": "UniBiDirectional",
+          "description": "Uni or Bi Directional",
+          "type": "string"
+        },
+        "ChargeRate": {
+          "$comment": "{\"term\": \"ChargeRate\", \"@id\": \"https://schema.org/PaymentChargeSpecification\"}",
+          "title": "ChargeRate",
+          "description": "ChargeRate",
+          "type": "string"
+        },
+        "ChargerSoftwareVersion": {
+          "$comment": "{\"term\": \"ChargerSoftwareVersion\", \"@id\": \"https://schema.org/version\"}",
+          "title": "ChargerSoftwareVersion",
+          "description": "ChargerSoftwareVersion",
+          "type": "string"
+        },
+        "ChargerUniqueIdentifier": {
+          "$comment": "{\"term\": \"ChargerUniqueIdentifier\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "ChargerUniqueIdentifier",
+          "description": "ChargerUniqueIdentifier",
+          "type": "string"
+        },
+        "ChargerStationIdentifier": {
+          "$comment": "{\"term\": \"ChargerStationIdentifier\", \"@id\": \"https://schema.org/url\"}",
+          "title": "ChargerStationIdentifier",
+          "description": "Charger Station Identifier",
+          "type": "string"
+        },
+        "GeoCoordinates": {
+          "$comment": "{\"term\": \"GeoCoordinates\", \"@id\": \"https://schema.org/GeoCoordinates\"}",
+          "title": "GeoCoordinates",
+          "description": "GeoCoordinates",
+          "type": "string"
+        },
+        "Voltage": {
+          "$comment": "{\"term\": \"Voltage\", \"@id\": \"https://schema.org/Number\"}",
+          "title": "Voltage",
+          "description": "Voltage",
+          "type": "string"
+        },
+        "Cost": {
+          "$comment": "{\"term\": \"Cost\", \"@id\": \"https://schema.org/price\"}",
+          "title": "Cost",
+          "description": "Cost",
+          "type": "string"
+        },
+        "Availability": {
+          "$comment": "{\"term\": \"Availability\", \"@id\": \"https://schema.org/availability\"}",
+          "title": "Availability",
+          "description": "Availability",
+          "type": "string"
+        },
+        "ProductionDate": {
+          "$comment": "{\"term\": \"ProductionDate\", \"@id\": \"https://schema.org/Date\"}",
+          "title": "ProductionDate",
+          "description": "ProductionDate",
+          "type": "string"
+        },
+        "ChargeTransmissionType": {
+          "$comment": "{\"term\": \"ChargeTransmissionType\", \"@id\": \"https://schema.org/Rating\"}",
+          "title": "ChargeTransmissionType",
+          "description": "ChargeTransmissionType",
+          "type": "string"
+        },
+        "WirelessChargingType": {
+          "$comment": "{\"term\": \"WirelessChargingType\", \"@id\": \"https://schema.org/Text\"}",
+          "title": "WirelessChargingType",
+          "description": "WirelessChargingType",
+          "type": "string"
+        },
+        "ChargingStructureType": {
+          "$comment": "{\"term\": \"ChargingStructureType\", \"@id\": \"https://schema.org/Documentation\"}",
+          "title": "ChargingStructureType",
+          "description": "ChargingStructureType",
           "type": "string"
         }
       },
@@ -506,6 +1477,125 @@
       "examples": []
     }
   },
+  "https://dlt.mobi/mobility-schema/schemas#ControlAcceptance": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/ControlAcceptance.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "ControlAcceptance",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#ControlAcceptance"
+    },
+    "title": "EVGI ControlAcceptance",
+    "description": "EVGI: ControlAcceptance",
+    "classProperties": {
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "SellerID",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "SellerID",
+        "description": "Seller ID"
+      },
+      "https://schema.org/Number": {
+        "$comment": {
+          "term": "BuyerID",
+          "@id": "https://schema.org/Number"
+        },
+        "title": "Buyer ID",
+        "description": "Buyer ID"
+      },
+      "https://schema.org/ExchangeRate": {
+        "$comment": {
+          "term": "ExchangeRate",
+          "@id": "https://schema.org/ExchangeRate"
+        },
+        "title": "ExchangeRate",
+        "description": "ExchangeRate"
+      },
+      "https://schema.org/Text": {
+        "$comment": {
+          "term": "SuccessCriteria",
+          "@id": "https://schema.org/Text"
+        },
+        "title": "SuccessCriteria",
+        "description": "SuccessCriteria"
+      },
+      "https://https://schema.org/url": {
+        "$comment": {
+          "term": "SettlementURI",
+          "@id": "https://https://schema.org/url"
+        },
+        "title": "SettlementURI",
+        "description": "SettlementURI"
+      },
+      "https://schema.org/Name": {
+        "$comment": {
+          "term": "PaymentPlatform",
+          "@id": "https://schema.org/Name"
+        },
+        "title": "PaymentPlatform",
+        "description": "PaymentPlatform"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/ControlAcceptance.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"ControlAcceptance\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#ControlAcceptance\"}",
+      "title": "EVGI ControlAcceptance",
+      "description": "EVGI: ControlAcceptance",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "SellerID": {
+          "$comment": "{\"term\": \"SellerID\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "SellerID",
+          "description": "Seller ID"
+        },
+        "BuyerID": {
+          "$comment": "{\"term\": \"BuyerID\", \"@id\": \"https://schema.org/Number\"}",
+          "title": "Buyer ID",
+          "description": "Buyer ID"
+        },
+        "ExchangeRate": {
+          "$comment": "{\"term\": \"ExchangeRate\", \"@id\": \"https://schema.org/ExchangeRate\"}",
+          "title": "ExchangeRate",
+          "description": "ExchangeRate",
+          "type": "string"
+        },
+        "SuccessCriteria": {
+          "$comment": "{\"term\": \"SuccessCriteria\", \"@id\": \"https://schema.org/Text\"}",
+          "title": "SuccessCriteria",
+          "description": "SuccessCriteria",
+          "type": "string"
+        },
+        "SettlementURI": {
+          "$comment": "{\"term\": \"SettlementURI\", \"@id\": \"https://https://schema.org/url\"}",
+          "title": "SettlementURI",
+          "description": "SettlementURI",
+          "type": "string"
+        },
+        "PaymentPlatform": {
+          "$comment": "{\"term\": \"PaymentPlatform\", \"@id\": \"https://schema.org/Name\"}",
+          "title": "PaymentPlatform",
+          "description": "PaymentPlatform",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
   "https://dlt.mobi/mobility-schema#Customer": {
     "$id": "https://dlt.mobi/mobility-schema/schemas/Customer.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
@@ -607,6 +1697,242 @@
         }
       },
       "additionalProperties": false
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#DataHost": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/DataHost.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "DataHost",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#DataHost"
+    },
+    "title": "Data Host",
+    "description": "EVGI: Data Host that ingest and expose data",
+    "classProperties": {
+      "https://dlt.mobi/mobility-schema/schemas#EC": {
+        "$comment": {
+          "term": "EntityInfo",
+          "@id": "https://dlt.mobi/mobility-schema/schemas#EC"
+        },
+        "title": "EntityInfo"
+      },
+      "https://schema.org/Name": {
+        "$comment": {
+          "term": "Endpoint",
+          "@id": "https://schema.org/Name"
+        },
+        "title": "Endpoint",
+        "description": "The root URI that this entity distributes data from"
+      },
+      "https://schema.org/address": {
+        "$comment": {
+          "term": "HostType",
+          "@id": "https://schema.org/address"
+        },
+        "title": "Host Type",
+        "description": "They types of data that this entity distributes"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/DataHost.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"DataHost\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#DataHost\"}",
+      "title": "Data Host",
+      "description": "EVGI: Data Host that ingest and expose data",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "EntityInfo": {
+          "$comment": "{\"term\": \"EntityInfo\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#EC\"}",
+          "title": "EntityInfo",
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/EC.json"
+        },
+        "Endpoint": {
+          "$comment": "{\"term\": \"Endpoint\", \"@id\": \"https://schema.org/Name\"}",
+          "title": "Endpoint",
+          "description": "The root URI that this entity distributes data from"
+        },
+        "HostType": {
+          "$comment": "{\"term\": \"HostType\", \"@id\": \"https://schema.org/address\"}",
+          "title": "Host Type",
+          "description": "They types of data that this entity distributes",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#DataHostBootstrappingCertificate": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/DataHostBootstrappingCertificate.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "DataHostBootstrappingCertificate",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#DataHostBootstrappingCertificate"
+    },
+    "title": "Data Host BootstrappingCertificate",
+    "description": "EVGI: Data Host Bootstrapping Certificate",
+    "classProperties": {
+      "https://schema.org/codeValue": {
+        "$comment": {
+          "term": "UIUD",
+          "@id": "https://schema.org/codeValue"
+        },
+        "title": "UIUD",
+        "description": "A unique ID generated through the hash of the rest of the informaiton in certiciate"
+      },
+      "https://schema.org/url": {
+        "$comment": {
+          "term": "WebURI",
+          "@id": "https://schema.org/url"
+        },
+        "title": "WebURI",
+        "description": "WebURI to tie to a receiverEID"
+      },
+      "https://schema.org/Name": {
+        "$comment": {
+          "term": "DataStructure",
+          "@id": "https://schema.org/Name"
+        },
+        "title": "DataStructure",
+        "description": "A string specifying the structure of the data."
+      },
+      "https://schema.org/Number": {
+        "$comment": {
+          "term": "CommitFrequencyT",
+          "@id": "https://schema.org/Number"
+        },
+        "title": "CommitFrequencyT",
+        "description": "Frequency of commitment to chain in time in milliseconds"
+      },
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "ReceiverEID",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "ReceiverEID",
+        "description": "The EID of the data host receiving these permissions"
+      },
+      "https://schema.org/Text": {
+        "$comment": {
+          "term": "RootAuthEID",
+          "@id": "https://schema.org/Text"
+        },
+        "title": "RootAuthEID",
+        "description": "Pmerission groups"
+      },
+      "https://schema.org/Person": {
+        "$comment": {
+          "term": "OwnerEID",
+          "@id": "https://schema.org/Person"
+        },
+        "title": "OwnerEID",
+        "description": "The EID of the owner fo this data"
+      },
+      "https://dlt.mobi/boolean": {
+        "$comment": {
+          "term": "RootAuthSig",
+          "@id": "https://dlt.mobi/boolean"
+        },
+        "title": "RootAuthSig",
+        "description": "singatuer from the trust anchor"
+      },
+      "https://schema.org/algorithm": {
+        "$comment": {
+          "term": "SignAlgo",
+          "@id": "https://schema.org/algorithm"
+        },
+        "title": "Signature Algorithm",
+        "description": "cryptographic scheme used to sign the certificate"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/DataHostBootstrappingCertificate.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"DataHostBootstrappingCertificate\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#DataHostBootstrappingCertificate\"}",
+      "title": "Data Host BootstrappingCertificate",
+      "description": "EVGI: Data Host Bootstrapping Certificate",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "UIUD": {
+          "$comment": "{\"term\": \"UIUD\", \"@id\": \"https://schema.org/codeValue\"}",
+          "title": "UIUD",
+          "description": "A unique ID generated through the hash of the rest of the informaiton in certiciate"
+        },
+        "WebURI": {
+          "$comment": "{\"term\": \"WebURI\", \"@id\": \"https://schema.org/url\"}",
+          "title": "WebURI",
+          "description": "WebURI to tie to a receiverEID"
+        },
+        "DataStructure": {
+          "$comment": "{\"term\": \"DataStructure\", \"@id\": \"https://schema.org/Name\"}",
+          "title": "DataStructure",
+          "description": "A string specifying the structure of the data."
+        },
+        "CommitFrequencyT": {
+          "$comment": "{\"term\": \"CommitFrequencyT\", \"@id\": \"https://schema.org/Number\"}",
+          "title": "CommitFrequencyT",
+          "description": "Frequency of commitment to chain in time in milliseconds",
+          "type": "string"
+        },
+        "ReceiverEID": {
+          "$comment": "{\"term\": \"ReceiverEID\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "ReceiverEID",
+          "description": "The EID of the data host receiving these permissions",
+          "type": "string"
+        },
+        "RootAuthEID": {
+          "$comment": "{\"term\": \"RootAuthEID\", \"@id\": \"https://schema.org/Text\"}",
+          "title": "RootAuthEID",
+          "description": "Pmerission groups",
+          "type": "string"
+        },
+        "OwnerEID": {
+          "$comment": "{\"term\": \"OwnerEID\", \"@id\": \"https://schema.org/Person\"}",
+          "title": "OwnerEID",
+          "description": "The EID of the owner fo this data",
+          "type": "string"
+        },
+        "RootAuthSig": {
+          "$comment": "{\"term\": \"RootAuthSig\", \"@id\": \"https://dlt.mobi/boolean\"}",
+          "title": "RootAuthSig",
+          "description": "singatuer from the trust anchor",
+          "type": "string"
+        },
+        "SignAlgo": {
+          "$comment": "{\"term\": \"SignAlgo\", \"@id\": \"https://schema.org/algorithm\"}",
+          "title": "Signature Algorithm",
+          "description": "cryptographic scheme used to sign the certificate",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
     }
   },
   "https://w3id.org/traceability#DocumentVerificationEvidence": {
@@ -795,6 +2121,406 @@
         "expirationDate": {
           "$comment": "{\"term\": \"expirationDate\", \"@id\": \"https://schema.org/expires\"}",
           "title": "ExpirationDate",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#EC": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/EC.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "EC",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#EC"
+    },
+    "title": "EC",
+    "description": "EVGI: Common structure that wraps EID. ECs are extensible for addtional fileds",
+    "classProperties": {
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "EID",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "EID",
+        "description": "Self pointer to EID"
+      },
+      "https://schema.org/Number": {
+        "$comment": {
+          "term": "EntityType",
+          "@id": "https://schema.org/Number"
+        },
+        "title": "EntityType",
+        "description": "Self pointer to EID"
+      },
+      "https://schema.org/Text": {
+        "$comment": {
+          "term": "PubKey",
+          "@id": "https://schema.org/Text"
+        },
+        "title": "PubKey",
+        "description": "Publick key used to communicate with this EID"
+      },
+      "https://schema.org/url": {
+        "$comment": {
+          "term": "RevURI",
+          "@id": "https://schema.org/url"
+        },
+        "title": "Revocation URI",
+        "description": "Revocation URI used for keeping track of all revocation certificate"
+      },
+      "https://schema.org/itemList": {
+        "$comment": {
+          "term": "ALURI",
+          "@id": "https://schema.org/itemList"
+        },
+        "title": "Allow List URI",
+        "description": "Allow List URI used for keeping track of all Allow List certificate"
+      },
+      "https://schema.org/LinkRole": {
+        "$comment": {
+          "term": "BLURI",
+          "@id": "https://schema.org/LinkRole"
+        },
+        "title": "BLocked List URI",
+        "description": "Blocked List URI used for keeping track of all Blcoked List certificate"
+      },
+      "https://schema.org/algorithm": {
+        "$comment": {
+          "term": "SignAlgo",
+          "@id": "https://schema.org/algorithm"
+        },
+        "title": "Signature Algorithm",
+        "description": "cryptographic scheme used to sign the certificate"
+      },
+      "https://schema.org/character": {
+        "$comment": {
+          "term": "HashAlgo",
+          "@id": "https://schema.org/character"
+        },
+        "title": "Hash Algorithm",
+        "description": "cryptographic scheme used to hash the certificate"
+      },
+      "https://schema.org/Time": {
+        "$comment": {
+          "term": "Expiration",
+          "@id": "https://schema.org/Time"
+        },
+        "title": "Expiration",
+        "description": "timestamp when the certificate expires"
+      },
+      "https://schema.org/PropertyValue": {
+        "$comment": {
+          "term": "IssuerSig",
+          "@id": "https://schema.org/PropertyValue"
+        },
+        "title": "Issuer Signature",
+        "description": "Signature on the hash of rest of the certificate"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/EC.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"EC\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#EC\"}",
+      "title": "EC",
+      "description": "EVGI: Common structure that wraps EID. ECs are extensible for addtional fileds",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "EID": {
+          "$comment": "{\"term\": \"EID\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "EID",
+          "description": "Self pointer to EID"
+        },
+        "EntityType": {
+          "$comment": "{\"term\": \"EntityType\", \"@id\": \"https://schema.org/Number\"}",
+          "title": "EntityType",
+          "description": "Self pointer to EID"
+        },
+        "PubKey": {
+          "$comment": "{\"term\": \"PubKey\", \"@id\": \"https://schema.org/Text\"}",
+          "title": "PubKey",
+          "description": "Publick key used to communicate with this EID",
+          "type": "string"
+        },
+        "RevURI": {
+          "$comment": "{\"term\": \"RevURI\", \"@id\": \"https://schema.org/url\"}",
+          "title": "Revocation URI",
+          "description": "Revocation URI used for keeping track of all revocation certificate",
+          "type": "string"
+        },
+        "ALURI": {
+          "$comment": "{\"term\": \"ALURI\", \"@id\": \"https://schema.org/itemList\"}",
+          "title": "Allow List URI",
+          "description": "Allow List URI used for keeping track of all Allow List certificate",
+          "type": "string"
+        },
+        "BLURI": {
+          "$comment": "{\"term\": \"BLURI\", \"@id\": \"https://schema.org/LinkRole\"}",
+          "title": "BLocked List URI",
+          "description": "Blocked List URI used for keeping track of all Blcoked List certificate",
+          "type": "string"
+        },
+        "SignAlgo": {
+          "$comment": "{\"term\": \"SignAlgo\", \"@id\": \"https://schema.org/algorithm\"}",
+          "title": "Signature Algorithm",
+          "description": "cryptographic scheme used to sign the certificate",
+          "type": "string"
+        },
+        "HashAlgo": {
+          "$comment": "{\"term\": \"HashAlgo\", \"@id\": \"https://schema.org/character\"}",
+          "title": "Hash Algorithm",
+          "description": "cryptographic scheme used to hash the certificate",
+          "type": "string"
+        },
+        "Expiration": {
+          "$comment": "{\"term\": \"Expiration\", \"@id\": \"https://schema.org/Time\"}",
+          "title": "Expiration",
+          "description": "timestamp when the certificate expires",
+          "type": "string"
+        },
+        "IssuerSig": {
+          "$comment": "{\"term\": \"IssuerSig\", \"@id\": \"https://schema.org/PropertyValue\"}",
+          "title": "Issuer Signature",
+          "description": "Signature on the hash of rest of the certificate",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#EVGIEntityExtension": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/EVGIEntityExtension.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "EVGIEntityExtension",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#EVGIEntityExtension"
+    },
+    "title": "EVGI Entity Extension",
+    "description": "EVGI: EVGI Entity Extension includes metadata about payment parameters",
+    "classProperties": {
+      "https://schema.org/codeValue": {
+        "$comment": {
+          "term": "Address",
+          "@id": "https://schema.org/codeValue"
+        },
+        "title": "Address",
+        "description": "The address on this entity on given platform/ledger"
+      },
+      "https://schema.org/url": {
+        "$comment": {
+          "term": "URI",
+          "@id": "https://schema.org/url"
+        },
+        "title": "URI",
+        "description": "URI of the information the entity is being block-listed for"
+      },
+      "https://schema.org/Person": {
+        "$comment": {
+          "term": "IssuerEID",
+          "@id": "https://schema.org/Person"
+        },
+        "title": "IssuerEID",
+        "description": "The EID of the owner fo this data"
+      },
+      "https://schema.org/Time": {
+        "$comment": {
+          "term": "BREID",
+          "@id": "https://schema.org/Time"
+        },
+        "title": "BREID",
+        "description": "Block List target's EID, or the EID that is barred from accessing URI"
+      },
+      "https://schema.org/algorithm": {
+        "$comment": {
+          "term": "SignAlgo",
+          "@id": "https://schema.org/algorithm"
+        },
+        "title": "Signature Algorithm",
+        "description": "cryptographic scheme used to sign the certificate"
+      },
+      "https://schema.org/Text": {
+        "$comment": {
+          "term": "Reason",
+          "@id": "https://schema.org/Text"
+        },
+        "title": "Reason",
+        "description": "Reason why the AC was invoked"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/EVGIEntityExtension.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"EVGIEntityExtension\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#EVGIEntityExtension\"}",
+      "title": "EVGI Entity Extension",
+      "description": "EVGI: EVGI Entity Extension includes metadata about payment parameters",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "Address": {
+          "$comment": "{\"term\": \"Address\", \"@id\": \"https://schema.org/codeValue\"}",
+          "title": "Address",
+          "description": "The address on this entity on given platform/ledger"
+        },
+        "URI": {
+          "$comment": "{\"term\": \"URI\", \"@id\": \"https://schema.org/url\"}",
+          "title": "URI",
+          "description": "URI of the information the entity is being block-listed for"
+        },
+        "IssuerEID": {
+          "$comment": "{\"term\": \"IssuerEID\", \"@id\": \"https://schema.org/Person\"}",
+          "title": "IssuerEID",
+          "description": "The EID of the owner fo this data",
+          "type": "string"
+        },
+        "BREID": {
+          "$comment": "{\"term\": \"BREID\", \"@id\": \"https://schema.org/Time\"}",
+          "title": "BREID",
+          "description": "Block List target's EID, or the EID that is barred from accessing URI",
+          "type": "string"
+        },
+        "SignAlgo": {
+          "$comment": "{\"term\": \"SignAlgo\", \"@id\": \"https://schema.org/algorithm\"}",
+          "title": "Signature Algorithm",
+          "description": "cryptographic scheme used to sign the certificate",
+          "type": "string"
+        },
+        "Reason": {
+          "$comment": "{\"term\": \"Reason\", \"@id\": \"https://schema.org/Text\"}",
+          "title": "Reason",
+          "description": "Reason why the AC was invoked",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#EmissionMeasurement": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/EmissionMeasurement.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "EmissionMeasurement",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#EmissionMeasurement"
+    },
+    "title": "EmissionMeasurement",
+    "description": "Emission Measurement",
+    "classProperties": {
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "uuid",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "uuid",
+        "description": "uuid v4"
+      },
+      "https://schema.org/fuelConsumption": {
+        "$comment": {
+          "term": "totalFuelConsumed",
+          "@id": "https://schema.org/fuelConsumption"
+        },
+        "title": "totalFuelConsumed",
+        "description": "total Fuel Consumed by the vehicle in kg"
+      },
+      "https://schema.org/milageFromOdometer": {
+        "$comment": {
+          "term": "totalDistanceTraveled",
+          "@id": "https://schema.org/milageFromOdometer"
+        },
+        "title": "totalDistanceTraveled",
+        "description": "lifetime distrance traveled in km"
+      },
+      "https://schema.org/DateTime": {
+        "$comment": {
+          "term": "Begin_DateTime",
+          "@id": "https://schema.org/DateTime"
+        },
+        "title": "Begin_DateTime",
+        "description": "Begining DateTime of the trip"
+      },
+      "https://schema.org/Time": {
+        "$comment": {
+          "term": "End_DateTime",
+          "@id": "https://schema.org/Time"
+        },
+        "title": "End_DateTime",
+        "description": "End_DateTime of the trip"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/EmissionMeasurement.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"EmissionMeasurement\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#EmissionMeasurement\"}",
+      "title": "EmissionMeasurement",
+      "description": "Emission Measurement",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "uuid": {
+          "$comment": "{\"term\": \"uuid\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "uuid",
+          "description": "uuid v4",
+          "type": "string"
+        },
+        "totalFuelConsumed": {
+          "$comment": "{\"term\": \"totalFuelConsumed\", \"@id\": \"https://schema.org/fuelConsumption\"}",
+          "title": "totalFuelConsumed",
+          "description": "total Fuel Consumed by the vehicle in kg"
+        },
+        "totalDistanceTraveled": {
+          "$comment": "{\"term\": \"totalDistanceTraveled\", \"@id\": \"https://schema.org/milageFromOdometer\"}",
+          "title": "totalDistanceTraveled",
+          "description": "lifetime distrance traveled in km",
+          "type": "string"
+        },
+        "Begin_DateTime": {
+          "$comment": "{\"term\": \"Begin_DateTime\", \"@id\": \"https://schema.org/DateTime\"}",
+          "title": "Begin_DateTime",
+          "description": "Begining DateTime of the trip",
+          "type": "string"
+        },
+        "End_DateTime": {
+          "$comment": "{\"term\": \"End_DateTime\", \"@id\": \"https://schema.org/Time\"}",
+          "title": "End_DateTime",
+          "description": "End_DateTime of the trip",
           "type": "string"
         }
       },
@@ -1168,6 +2894,126 @@
           "$comment": "{\"term\": \"locationDescription\", \"@id\": \"https://schema.org/description\"}",
           "title": "locationDescription",
           "description": "Description of location such as \"Free Standing Residential Home\" \nor may be a URI that points to a more detailed description such as an address registry. Date and Time based on IETF RFC 3339.",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#GroupPermissionChangeCertificate": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/GroupPermissionChangeCertificate.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "GroupPermissionChangeCertificate",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#GroupPermissionChangeCertificate"
+    },
+    "title": "GroupPermissionChangeCertificate",
+    "description": "EVGI: GroupPermissionChangeCertificate",
+    "classProperties": {
+      "https://schema.org/url": {
+        "$comment": {
+          "term": "URI",
+          "@id": "https://schema.org/url"
+        },
+        "title": "URI",
+        "description": "URL of the information that should be modified"
+      },
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "OwnerEID",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "OwnerEID",
+        "description": "The EID of the data owner"
+      },
+      "https://schema.org/Name": {
+        "$comment": {
+          "term": "Group",
+          "@id": "https://schema.org/Name"
+        },
+        "title": "Group",
+        "description": "Pmerission groups"
+      },
+      "https://schema.org/Text": {
+        "$comment": {
+          "term": "Read",
+          "@id": "https://schema.org/Text"
+        },
+        "title": "Read",
+        "description": "New write permission"
+      },
+      "https://dlt.mobi/boolean": {
+        "$comment": {
+          "term": "Write",
+          "@id": "https://dlt.mobi/boolean"
+        },
+        "title": "Write",
+        "description": "New Read Permission"
+      },
+      "https://schema.org/algorithm": {
+        "$comment": {
+          "term": "SignAlgo",
+          "@id": "https://schema.org/algorithm"
+        },
+        "title": "Signature Algorithm",
+        "description": "cryptographic scheme used to sign the certificate"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/GroupPermissionChangeCertificate.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"GroupPermissionChangeCertificate\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#GroupPermissionChangeCertificate\"}",
+      "title": "GroupPermissionChangeCertificate",
+      "description": "EVGI: GroupPermissionChangeCertificate",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "URI": {
+          "$comment": "{\"term\": \"URI\", \"@id\": \"https://schema.org/url\"}",
+          "title": "URI",
+          "description": "URL of the information that should be modified"
+        },
+        "OwnerEID": {
+          "$comment": "{\"term\": \"OwnerEID\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "OwnerEID",
+          "description": "The EID of the data owner",
+          "type": "string"
+        },
+        "Group": {
+          "$comment": "{\"term\": \"Group\", \"@id\": \"https://schema.org/Name\"}",
+          "title": "Group",
+          "description": "Pmerission groups",
+          "type": "string"
+        },
+        "Read": {
+          "$comment": "{\"term\": \"Read\", \"@id\": \"https://schema.org/Text\"}",
+          "title": "Read",
+          "description": "New write permission",
+          "type": "string"
+        },
+        "Write": {
+          "$comment": "{\"term\": \"Write\", \"@id\": \"https://dlt.mobi/boolean\"}",
+          "title": "Write",
+          "description": "New Read Permission",
+          "type": "string"
+        },
+        "SignAlgo": {
+          "$comment": "{\"term\": \"SignAlgo\", \"@id\": \"https://schema.org/algorithm\"}",
+          "title": "Signature Algorithm",
+          "description": "cryptographic scheme used to sign the certificate",
           "type": "string"
         }
       },
@@ -2353,6 +4199,251 @@
       "examples": []
     }
   },
+  "https://dlt.mobi/mobility-schema/schemas#Meter": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/Meter.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "Meter",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#Meter"
+    },
+    "title": "EVGI Meter",
+    "description": "EVGI: meter",
+    "classProperties": {
+      "https://schema.org/Name": {
+        "$comment": {
+          "term": "Make",
+          "@id": "https://schema.org/Name"
+        },
+        "title": "Make",
+        "description": "Make"
+      },
+      "https://schema.org/model": {
+        "$comment": {
+          "term": "Model",
+          "@id": "https://schema.org/model"
+        },
+        "title": "Model",
+        "description": "Model"
+      },
+      "https://schema.org/PaymentChargeSpecification": {
+        "$comment": {
+          "term": "ChargeRate",
+          "@id": "https://schema.org/PaymentChargeSpecification"
+        },
+        "title": "ChargeRate",
+        "description": "ChargeRate"
+      },
+      "https://schema.org/GeoCoordinates": {
+        "$comment": {
+          "term": "GeoCoordinates",
+          "@id": "https://schema.org/GeoCoordinates"
+        },
+        "title": "GeoCoordinates",
+        "description": "GeoCoordinates"
+      },
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "MeterUniqueIdentifier",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "MeterUniqueIdentifier",
+        "description": "cryptographic scheme used to sign the certificate"
+      },
+      "https://schema.org/serialNumber": {
+        "$comment": {
+          "term": "SerialModel",
+          "@id": "https://schema.org/serialNumber"
+        },
+        "title": "SerialModel",
+        "description": "SerialModel"
+      },
+      "https://schema.org/Number": {
+        "$comment": {
+          "term": "MeterEndOfLifeEventRegistraion",
+          "@id": "https://schema.org/Number"
+        },
+        "title": "MeterEndOfLifeEventRegistraion",
+        "description": "MeterEndOfLifeEventRegistraion"
+      },
+      "https://schema.org/Date": {
+        "$comment": {
+          "term": "ProductionDate",
+          "@id": "https://schema.org/Date"
+        },
+        "title": "ProductionDate",
+        "description": "ProductionDate"
+      },
+      "https://schema.org/version": {
+        "$comment": {
+          "term": "MeterSoftwareVersion",
+          "@id": "https://schema.org/version"
+        },
+        "title": "MeterSoftwareVersion",
+        "description": "MeterSoftwareVersion"
+      },
+      "https://schema.org/boolean": {
+        "$comment": {
+          "term": "ConformanceToStandards",
+          "@id": "https://schema.org/boolean"
+        },
+        "title": "ConformanceToStandards",
+        "description": "ConformanceToStandards"
+      },
+      "https://schema.org/url": {
+        "$comment": {
+          "term": "MeterAdminID",
+          "@id": "https://schema.org/url"
+        },
+        "title": "MeterAdminID",
+        "description": "Meter Admin ID"
+      },
+      "https://schema.org/Rating": {
+        "$comment": {
+          "term": "MeterCurrentRating",
+          "@id": "https://schema.org/Rating"
+        },
+        "title": "MeterCurrentRating",
+        "description": "MeterCurrentRating"
+      },
+      "https://schema.org/Text": {
+        "$comment": {
+          "term": "MeterForm",
+          "@id": "https://schema.org/Text"
+        },
+        "title": "MeterForm",
+        "description": "MeterForm"
+      },
+      "https://schema.org/Documentation": {
+        "$comment": {
+          "term": "MeterRecords",
+          "@id": "https://schema.org/Documentation"
+        },
+        "title": "MeterRecords",
+        "description": "MeterRecords"
+      },
+      "https://schema.org/application": {
+        "$comment": {
+          "term": "RemoteDisconnectCapability",
+          "@id": "https://schema.org/application"
+        },
+        "title": "RemoteDisconnectCapability",
+        "description": "Reason why the AC was invoked"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/Meter.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"Meter\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#Meter\"}",
+      "title": "EVGI Meter",
+      "description": "EVGI: meter",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "Make": {
+          "$comment": "{\"term\": \"Make\", \"@id\": \"https://schema.org/Name\"}",
+          "title": "Make",
+          "description": "Make"
+        },
+        "Model": {
+          "$comment": "{\"term\": \"Model\", \"@id\": \"https://schema.org/model\"}",
+          "title": "Model",
+          "description": "Model"
+        },
+        "ChargeRate": {
+          "$comment": "{\"term\": \"ChargeRate\", \"@id\": \"https://schema.org/PaymentChargeSpecification\"}",
+          "title": "ChargeRate",
+          "description": "ChargeRate",
+          "type": "string"
+        },
+        "GeoCoordinates": {
+          "$comment": "{\"term\": \"GeoCoordinates\", \"@id\": \"https://schema.org/GeoCoordinates\"}",
+          "title": "GeoCoordinates",
+          "description": "GeoCoordinates",
+          "type": "string"
+        },
+        "MeterUniqueIdentifier": {
+          "$comment": "{\"term\": \"MeterUniqueIdentifier\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "MeterUniqueIdentifier",
+          "description": "cryptographic scheme used to sign the certificate",
+          "type": "string"
+        },
+        "SerialModel": {
+          "$comment": "{\"term\": \"SerialModel\", \"@id\": \"https://schema.org/serialNumber\"}",
+          "title": "SerialModel",
+          "description": "SerialModel",
+          "type": "string"
+        },
+        "MeterEndOfLifeEventRegistraion": {
+          "$comment": "{\"term\": \"MeterEndOfLifeEventRegistraion\", \"@id\": \"https://schema.org/Number\"}",
+          "title": "MeterEndOfLifeEventRegistraion",
+          "description": "MeterEndOfLifeEventRegistraion",
+          "type": "string"
+        },
+        "ProductionDate": {
+          "$comment": "{\"term\": \"ProductionDate\", \"@id\": \"https://schema.org/Date\"}",
+          "title": "ProductionDate",
+          "description": "ProductionDate",
+          "type": "string"
+        },
+        "MeterSoftwareVersion": {
+          "$comment": "{\"term\": \"MeterSoftwareVersion\", \"@id\": \"https://schema.org/version\"}",
+          "title": "MeterSoftwareVersion",
+          "description": "MeterSoftwareVersion",
+          "type": "string"
+        },
+        "ConformanceToStandards": {
+          "$comment": "{\"term\": \"ConformanceToStandards\", \"@id\": \"https://schema.org/boolean\"}",
+          "title": "ConformanceToStandards",
+          "description": "ConformanceToStandards",
+          "type": "string"
+        },
+        "MeterAdminID": {
+          "$comment": "{\"term\": \"MeterAdminID\", \"@id\": \"https://schema.org/url\"}",
+          "title": "MeterAdminID",
+          "description": "Meter Admin ID",
+          "type": "string"
+        },
+        "MeterCurrentRating": {
+          "$comment": "{\"term\": \"MeterCurrentRating\", \"@id\": \"https://schema.org/Rating\"}",
+          "title": "MeterCurrentRating",
+          "description": "MeterCurrentRating",
+          "type": "string"
+        },
+        "MeterForm": {
+          "$comment": "{\"term\": \"MeterForm\", \"@id\": \"https://schema.org/Text\"}",
+          "title": "MeterForm",
+          "description": "MeterForm",
+          "type": "string"
+        },
+        "MeterRecords": {
+          "$comment": "{\"term\": \"MeterRecords\", \"@id\": \"https://schema.org/Documentation\"}",
+          "title": "MeterRecords",
+          "description": "MeterRecords",
+          "type": "string"
+        },
+        "RemoteDisconnectCapability": {
+          "$comment": "{\"term\": \"RemoteDisconnectCapability\", \"@id\": \"https://schema.org/application\"}",
+          "title": "RemoteDisconnectCapability",
+          "description": "Reason why the AC was invoked",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
   "https://schema.org/Organization": {
     "$id": "https://dlt.mobi/mobility-schema/schemas/Organization.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
@@ -2538,6 +4629,167 @@
           "title": "Contact Point",
           "description": "Points of contact for this organization",
           "$ref": "https://dlt.mobi/mobility-schema/schemas/ContactPoint.json"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#P2PChargingCommunication": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/P2PChargingCommunication.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "P2PChargingCommunication",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#P2PChargingCommunication"
+    },
+    "title": "EVGI P2PChargingCommunication",
+    "description": "EVGI: P2PChargingCommunication",
+    "classProperties": {
+      "https://schema.org/DateTime": {
+        "$comment": {
+          "term": "DateTime",
+          "@id": "https://schema.org/DateTime"
+        },
+        "title": "DateTime",
+        "description": "Date Time"
+      },
+      "https://schema.org/Number": {
+        "$comment": {
+          "term": "EnergyExchange",
+          "@id": "https://schema.org/Number"
+        },
+        "title": "Energy Exchange",
+        "description": "Energy Exchange"
+      },
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "RecipientBuyerUserID",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "RecipientBuyerUserID",
+        "description": "Recipient or Buyer UserID"
+      },
+      "https://schema.org/url": {
+        "$comment": {
+          "term": "RecipientBuyerVehicleID",
+          "@id": "https://schema.org/url"
+        },
+        "title": "RecipientBuyerVehicleID",
+        "description": "RecipientBuyerVehicleID"
+      },
+      "https://https://schema.org/Person": {
+        "$comment": {
+          "term": "SellerUserID",
+          "@id": "https://https://schema.org/Person"
+        },
+        "title": "SellerUserID",
+        "description": "SellerUserID"
+      },
+      "https://schema.org/GeoCoordinates": {
+        "$comment": {
+          "term": "TransactionGeocoordinates",
+          "@id": "https://schema.org/GeoCoordinates"
+        },
+        "title": "TransactionGeocoordinates",
+        "description": "Transaction Geocoordinates"
+      },
+      "https://schema.org/price": {
+        "$comment": {
+          "term": "Cost",
+          "@id": "https://schema.org/price"
+        },
+        "title": "Cost",
+        "description": "Cost"
+      },
+      "https://schema.org/Vehicle": {
+        "$comment": {
+          "term": "SellerVehicleID",
+          "@id": "https://schema.org/Vehicle"
+        },
+        "title": "SellerVehicleID",
+        "description": "Seller Vehicle ID"
+      },
+      "https://schema.org/Name": {
+        "$comment": {
+          "term": "EnergySource",
+          "@id": "https://schema.org/Name"
+        },
+        "title": "EnergySource",
+        "description": "Energy Source"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/P2PChargingCommunication.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"P2PChargingCommunication\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#P2PChargingCommunication\"}",
+      "title": "EVGI P2PChargingCommunication",
+      "description": "EVGI: P2PChargingCommunication",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "DateTime": {
+          "$comment": "{\"term\": \"DateTime\", \"@id\": \"https://schema.org/DateTime\"}",
+          "title": "DateTime",
+          "description": "Date Time"
+        },
+        "EnergyExchange": {
+          "$comment": "{\"term\": \"EnergyExchange\", \"@id\": \"https://schema.org/Number\"}",
+          "title": "Energy Exchange",
+          "description": "Energy Exchange"
+        },
+        "RecipientBuyerUserID": {
+          "$comment": "{\"term\": \"RecipientBuyerUserID\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "RecipientBuyerUserID",
+          "description": "Recipient or Buyer UserID",
+          "type": "string"
+        },
+        "RecipientBuyerVehicleID": {
+          "$comment": "{\"term\": \"RecipientBuyerVehicleID\", \"@id\": \"https://schema.org/url\"}",
+          "title": "RecipientBuyerVehicleID",
+          "description": "RecipientBuyerVehicleID",
+          "type": "string"
+        },
+        "SellerUserID": {
+          "$comment": "{\"term\": \"SellerUserID\", \"@id\": \"https://https://schema.org/Person\"}",
+          "title": "SellerUserID",
+          "description": "SellerUserID",
+          "type": "string"
+        },
+        "TransactionGeocoordinates": {
+          "$comment": "{\"term\": \"TransactionGeocoordinates\", \"@id\": \"https://schema.org/GeoCoordinates\"}",
+          "title": "TransactionGeocoordinates",
+          "description": "Transaction Geocoordinates",
+          "type": "string"
+        },
+        "Cost": {
+          "$comment": "{\"term\": \"Cost\", \"@id\": \"https://schema.org/price\"}",
+          "title": "Cost",
+          "description": "Cost",
+          "type": "string"
+        },
+        "SellerVehicleID": {
+          "$comment": "{\"term\": \"SellerVehicleID\", \"@id\": \"https://schema.org/Vehicle\"}",
+          "title": "SellerVehicleID",
+          "description": "Seller Vehicle ID",
+          "type": "string"
+        },
+        "EnergySource": {
+          "$comment": "{\"term\": \"EnergySource\", \"@id\": \"https://schema.org/Name\"}",
+          "title": "EnergySource",
+          "description": "Energy Source",
+          "type": "string"
         }
       },
       "additionalProperties": false,
@@ -4203,6 +6455,110 @@
       "additionalProperties": false
     }
   },
+  "https://dlt.mobi/mobility-schema/schemas#ServiceProvider": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/ServiceProvider.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "ServiceProvider",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#ServiceProvider"
+    },
+    "title": "ServiceProvider",
+    "description": "EVGI: Common structure that wraps EID. ECs are extensible for addtional fileds",
+    "classProperties": {
+      "https://schema.org/Name": {
+        "$comment": {
+          "term": "LegalName",
+          "@id": "https://schema.org/Name"
+        },
+        "title": "Legal Name",
+        "description": "Legally registered name of the entity providing services"
+      },
+      "https://schema.org/address": {
+        "$comment": {
+          "term": "Address",
+          "@id": "https://schema.org/address"
+        },
+        "title": "Address",
+        "description": "Legally registered address of said legal entity"
+      },
+      "https://schema.org/Number": {
+        "$comment": {
+          "term": "PhoneNumber",
+          "@id": "https://schema.org/Number"
+        },
+        "title": "Phone Number",
+        "description": "Contact phone number for entity"
+      },
+      "https://schema.org/email": {
+        "$comment": {
+          "term": "Email",
+          "@id": "https://schema.org/email"
+        },
+        "title": "Email",
+        "description": "Contact Email for entity"
+      },
+      "https://dlt.mobi/mobility-schema/schemas#EC": {
+        "$comment": {
+          "term": "EntityInfo",
+          "@id": "https://dlt.mobi/mobility-schema/schemas#EC"
+        },
+        "title": "EntityInfo"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/ServiceProvider.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"ServiceProvider\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#ServiceProvider\"}",
+      "title": "ServiceProvider",
+      "description": "EVGI: Common structure that wraps EID. ECs are extensible for addtional fileds",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "LegalName": {
+          "$comment": "{\"term\": \"LegalName\", \"@id\": \"https://schema.org/Name\"}",
+          "title": "Legal Name",
+          "description": "Legally registered name of the entity providing services"
+        },
+        "Address": {
+          "$comment": "{\"term\": \"Address\", \"@id\": \"https://schema.org/address\"}",
+          "title": "Address",
+          "description": "Legally registered address of said legal entity",
+          "type": "string"
+        },
+        "PhoneNumber": {
+          "$comment": "{\"term\": \"PhoneNumber\", \"@id\": \"https://schema.org/Number\"}",
+          "title": "Phone Number",
+          "description": "Contact phone number for entity",
+          "type": "string"
+        },
+        "Email": {
+          "$comment": "{\"term\": \"Email\", \"@id\": \"https://schema.org/email\"}",
+          "title": "Email",
+          "description": "Contact Email for entity",
+          "type": "string"
+        },
+        "EntityInfo": {
+          "$comment": "{\"term\": \"EntityInfo\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#EC\"}",
+          "title": "EntityInfo",
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/EC.json"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
   "https://dlt.mobi/mobility-schema#StripeCustomerCredential": {
     "$id": "https://dlt.mobi/mobility-schema/schemas/StripeCustomerCredential.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
@@ -4285,6 +6641,125 @@
         "expirationDate": {
           "$comment": "{\"term\": \"expirationDate\", \"@id\": \"https://schema.org/expires\"}",
           "title": "ExpirationDate",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#TimeDependentSmartEnergyTariffs": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/TimeDependentSmartEnergyTariffs.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "TimeDependentSmartEnergyTariffs",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#TimeDependentSmartEnergyTariffs"
+    },
+    "title": "EVGI TimeDependentSmartEnergyTariffs",
+    "description": "EVGI: TimeDependentSmartEnergyTariffs",
+    "classProperties": {
+      "https://schema.org/Date": {
+        "$comment": {
+          "term": "Date",
+          "@id": "https://schema.org/Date"
+        },
+        "title": "Date",
+        "description": "Date"
+      },
+      "https://schema.org/Number": {
+        "$comment": {
+          "term": "SOC",
+          "@id": "https://schema.org/Number"
+        },
+        "title": "Model",
+        "description": "Model"
+      },
+      "https://schema.org/Time": {
+        "$comment": {
+          "term": "TimeOfDay",
+          "@id": "https://schema.org/Time"
+        },
+        "title": "TimeOfDay",
+        "description": "TimeOfDay"
+      },
+      "https://schema.org/QuantitativeValue": {
+        "$comment": {
+          "term": "Amount",
+          "@id": "https://schema.org/QuantitativeValue"
+        },
+        "title": "Amount",
+        "description": "Amount"
+      },
+      "https://intensity": {
+        "$comment": {
+          "term": "CarbonIntensity",
+          "@id": "https://intensity"
+        },
+        "title": "CarbonIntensity",
+        "description": "cryptographic scheme used to sign the certificate"
+      },
+      "https://schema.org/Text": {
+        "$comment": {
+          "term": "PaymentCurrencyType",
+          "@id": "https://schema.org/Text"
+        },
+        "title": "PaymentCurrencyType",
+        "description": "SerialModel"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/TimeDependentSmartEnergyTariffs.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"TimeDependentSmartEnergyTariffs\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#TimeDependentSmartEnergyTariffs\"}",
+      "title": "EVGI TimeDependentSmartEnergyTariffs",
+      "description": "EVGI: TimeDependentSmartEnergyTariffs",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "Date": {
+          "$comment": "{\"term\": \"Date\", \"@id\": \"https://schema.org/Date\"}",
+          "title": "Date",
+          "description": "Date"
+        },
+        "SOC": {
+          "$comment": "{\"term\": \"SOC\", \"@id\": \"https://schema.org/Number\"}",
+          "title": "Model",
+          "description": "Model"
+        },
+        "TimeOfDay": {
+          "$comment": "{\"term\": \"TimeOfDay\", \"@id\": \"https://schema.org/Time\"}",
+          "title": "TimeOfDay",
+          "description": "TimeOfDay",
+          "type": "string"
+        },
+        "Amount": {
+          "$comment": "{\"term\": \"Amount\", \"@id\": \"https://schema.org/QuantitativeValue\"}",
+          "title": "Amount",
+          "description": "Amount",
+          "type": "string"
+        },
+        "CarbonIntensity": {
+          "$comment": "{\"term\": \"CarbonIntensity\", \"@id\": \"https://intensity\"}",
+          "title": "CarbonIntensity",
+          "description": "cryptographic scheme used to sign the certificate",
+          "type": "string"
+        },
+        "PaymentCurrencyType": {
+          "$comment": "{\"term\": \"PaymentCurrencyType\", \"@id\": \"https://schema.org/Text\"}",
+          "title": "PaymentCurrencyType",
+          "description": "SerialModel",
           "type": "string"
         }
       },
@@ -4434,6 +6909,68 @@
       "additionalProperties": false
     }
   },
+  "https://dlt.mobi/mobility-schema/schemas#TrustAnchor": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/TrustAnchor.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "TrustAnchor",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#TrustAnchor"
+    },
+    "title": "Trust Anchor",
+    "description": "EVGI: Human readable identifier for Trust Anchor",
+    "classProperties": {
+      "https://dlt.mobi/mobility-schema/schemas#EC": {
+        "$comment": {
+          "term": "EntityInfo",
+          "@id": "https://dlt.mobi/mobility-schema/schemas#EC"
+        },
+        "title": "EntityInfo"
+      },
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "identifier",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "identifier",
+        "description": "Name of root entity"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/TrustAnchor.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"TrustAnchor\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#TrustAnchor\"}",
+      "title": "Trust Anchor",
+      "description": "EVGI: Human readable identifier for Trust Anchor",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "EntityInfo": {
+          "$comment": "{\"term\": \"EntityInfo\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#EC\"}",
+          "title": "EntityInfo",
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/EC.json"
+        },
+        "identifier": {
+          "$comment": "{\"term\": \"identifier\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "identifier",
+          "description": "Name of root entity"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
   "https://dlt.mobi/mobility-schema#UniqueVehicleIdentifier": {
     "$id": "https://dlt.mobi/mobility-schema/schemas/UniqueVehicleIdentifier.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
@@ -4478,6 +7015,187 @@
           "$comment": "{\"term\": \"uvi\", \"@id\": \"https://schema.org/identifier\"}",
           "title": "uvi",
           "description": "64 character alphanumeric string.",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#User": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/User.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "User",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#User"
+    },
+    "title": "User",
+    "description": "EVGI: User Info. Must be distibuted through data host a d permission system.",
+    "classProperties": {
+      "https://dlt.mobi/mobility-schema/schemas#EC": {
+        "$comment": {
+          "term": "EntityInfo",
+          "@id": "https://dlt.mobi/mobility-schema/schemas#EC"
+        },
+        "title": "EntityInfo"
+      },
+      "https://schema.org/url": {
+        "$comment": {
+          "term": "PermissionedURI",
+          "@id": "https://schema.org/url"
+        },
+        "title": "Permissioned URI",
+        "description": "The Permissioned URI is the URI of the Data Host where permissioned personal informaiton is stored"
+      },
+      "https://schema.org/address": {
+        "$comment": {
+          "term": "PermissionedEID",
+          "@id": "https://schema.org/address"
+        },
+        "title": "Permissioned EID",
+        "description": "The Permissioned ID is the EID of the Data Host that is stroing premissioned perosnal info"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/User.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"User\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#User\"}",
+      "title": "User",
+      "description": "EVGI: User Info. Must be distibuted through data host a d permission system.",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "EntityInfo": {
+          "$comment": "{\"term\": \"EntityInfo\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#EC\"}",
+          "title": "EntityInfo",
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/EC.json"
+        },
+        "PermissionedURI": {
+          "$comment": "{\"term\": \"PermissionedURI\", \"@id\": \"https://schema.org/url\"}",
+          "title": "Permissioned URI",
+          "description": "The Permissioned URI is the URI of the Data Host where permissioned personal informaiton is stored"
+        },
+        "PermissionedEID": {
+          "$comment": "{\"term\": \"PermissionedEID\", \"@id\": \"https://schema.org/address\"}",
+          "title": "Permissioned EID",
+          "description": "The Permissioned ID is the EID of the Data Host that is stroing premissioned perosnal info",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#UserEntityID": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/UserEntityID.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "UserEntityID",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#UserEntityID"
+    },
+    "title": "User Entity ID",
+    "description": "EVGI: EVGI Entity Extension includes metadata about payment parameters",
+    "classProperties": {
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "EntityUserID",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "EntityUserID",
+        "description": "Id of entity or user"
+      },
+      "https://schema.org/address": {
+        "$comment": {
+          "term": "Address",
+          "@id": "https://schema.org/address"
+        },
+        "title": "Address",
+        "description": "The address on this entity or user"
+      },
+      "https://schema.org/Time": {
+        "$comment": {
+          "term": "Email",
+          "@id": "https://schema.org/Time"
+        },
+        "title": "Email",
+        "description": "Email"
+      },
+      "https://schema.org/Text": {
+        "$comment": {
+          "term": "Name",
+          "@id": "https://schema.org/Text"
+        },
+        "title": "Name",
+        "description": "Name"
+      },
+      "https://schema.org/Number": {
+        "$comment": {
+          "term": "PhoneNumber",
+          "@id": "https://schema.org/Number"
+        },
+        "title": "PhoneNumber",
+        "description": "Phone Number"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/UserEntityID.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"UserEntityID\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#UserEntityID\"}",
+      "title": "User Entity ID",
+      "description": "EVGI: EVGI Entity Extension includes metadata about payment parameters",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "EntityUserID": {
+          "$comment": "{\"term\": \"EntityUserID\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "EntityUserID",
+          "description": "Id of entity or user"
+        },
+        "Address": {
+          "$comment": "{\"term\": \"Address\", \"@id\": \"https://schema.org/address\"}",
+          "title": "Address",
+          "description": "The address on this entity or user"
+        },
+        "Email": {
+          "$comment": "{\"term\": \"Email\", \"@id\": \"https://schema.org/Time\"}",
+          "title": "Email",
+          "description": "Email",
+          "type": "string"
+        },
+        "Name": {
+          "$comment": "{\"term\": \"Name\", \"@id\": \"https://schema.org/Text\"}",
+          "title": "Name",
+          "description": "Name",
+          "type": "string"
+        },
+        "PhoneNumber": {
+          "$comment": "{\"term\": \"PhoneNumber\", \"@id\": \"https://schema.org/Number\"}",
+          "title": "PhoneNumber",
+          "description": "Phone Number",
           "type": "string"
         }
       },
@@ -7326,6 +10044,341 @@
           "$comment": "{\"term\": \"uvi\", \"@id\": \"https://schema.org/url\"}",
           "title": "uvi",
           "description": "the unique vehicle identifier for the vehicle"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#VehicleSpec": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VehicleSpec.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "VehicleSpec",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#VehicleSpec"
+    },
+    "title": "VehicleSpec",
+    "description": "Vehicle Specs for the vehicle",
+    "classProperties": {
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "uuid",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "uuid",
+        "description": "uuid v4"
+      },
+      "https://schema.org/manufacturer": {
+        "$comment": {
+          "term": "OEM",
+          "@id": "https://schema.org/manufacturer"
+        },
+        "title": "OEM",
+        "description": "OEM of the car"
+      },
+      "https://schema.org/model": {
+        "$comment": {
+          "term": "MODEL",
+          "@id": "https://schema.org/model"
+        },
+        "title": "MODEL",
+        "description": "Model of the vehicle"
+      },
+      "https://schema.org/Rating": {
+        "$comment": {
+          "term": "typeRating",
+          "@id": "https://schema.org/Rating"
+        },
+        "title": "typeRating",
+        "description": "CoC type rating. M1-M3, N1-N3,etc "
+      },
+      "https://schema.org/fuelType": {
+        "$comment": {
+          "term": "fuelType",
+          "@id": "https://schema.org/fuelType"
+        },
+        "title": "fuelType",
+        "description": "fuel type of vehicle, petrol or diesel"
+      },
+      "https://schema.org/weight": {
+        "$comment": {
+          "term": "weight",
+          "@id": "https://schema.org/weight"
+        },
+        "title": "weight",
+        "description": "weight of vehicle in kg"
+      },
+      "https://schema.org/enginePower": {
+        "$comment": {
+          "term": "power",
+          "@id": "https://schema.org/enginePower"
+        },
+        "title": "power",
+        "description": "power of vehicle in kw."
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/VehicleSpec.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"VehicleSpec\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#VehicleSpec\"}",
+      "title": "VehicleSpec",
+      "description": "Vehicle Specs for the vehicle",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "uuid": {
+          "$comment": "{\"term\": \"uuid\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "uuid",
+          "description": "uuid v4",
+          "type": "string"
+        },
+        "OEM": {
+          "$comment": "{\"term\": \"OEM\", \"@id\": \"https://schema.org/manufacturer\"}",
+          "title": "OEM",
+          "description": "OEM of the car"
+        },
+        "MODEL": {
+          "$comment": "{\"term\": \"MODEL\", \"@id\": \"https://schema.org/model\"}",
+          "title": "MODEL",
+          "description": "Model of the vehicle",
+          "type": "string"
+        },
+        "typeRating": {
+          "$comment": "{\"term\": \"typeRating\", \"@id\": \"https://schema.org/Rating\"}",
+          "title": "typeRating",
+          "description": "CoC type rating. M1-M3, N1-N3,etc ",
+          "type": "string"
+        },
+        "fuelType": {
+          "$comment": "{\"term\": \"fuelType\", \"@id\": \"https://schema.org/fuelType\"}",
+          "title": "fuelType",
+          "description": "fuel type of vehicle, petrol or diesel",
+          "type": "string"
+        },
+        "weight": {
+          "$comment": "{\"term\": \"weight\", \"@id\": \"https://schema.org/weight\"}",
+          "title": "weight",
+          "description": "weight of vehicle in kg",
+          "type": "string"
+        },
+        "power": {
+          "$comment": "{\"term\": \"power\", \"@id\": \"https://schema.org/enginePower\"}",
+          "title": "power",
+          "description": "power of vehicle in kw.",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#VehicleToGridCommunication": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VehicleToGridCommunication.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "VehicleToGridCommunication",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#VehicleToGridCommunication"
+    },
+    "title": "EVGI VehicleToGridCommunication",
+    "description": "EVGI: VehicleToGridCommunication",
+    "classProperties": {
+      "https://schema.org/DateTime": {
+        "$comment": {
+          "term": "DateTime",
+          "@id": "https://schema.org/DateTime"
+        },
+        "title": "DateTime",
+        "description": "Date Time"
+      },
+      "https://schema.org/Number": {
+        "$comment": {
+          "term": "EnergyExchange",
+          "@id": "https://schema.org/Number"
+        },
+        "title": "Energy Exchange",
+        "description": "Energy Exchange"
+      },
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "RecipientBuyerUserID",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "RecipientBuyerUserID",
+        "description": "Recipient or Buyer UserID"
+      },
+      "https://schema.org/url": {
+        "$comment": {
+          "term": "RecipientBuyerVehicleID",
+          "@id": "https://schema.org/url"
+        },
+        "title": "RecipientBuyerVehicleID",
+        "description": "RecipientBuyerVehicleID"
+      },
+      "https://https://schema.org/Person": {
+        "$comment": {
+          "term": "SellerUserID",
+          "@id": "https://https://schema.org/Person"
+        },
+        "title": "SellerUserID",
+        "description": "SellerUserID"
+      },
+      "https://schema.org/Text": {
+        "$comment": {
+          "term": "UtilityIdentifier",
+          "@id": "https://schema.org/Text"
+        },
+        "title": "UtilityIdentifier",
+        "description": "SerialModel"
+      },
+      "https://schema.org/GeoCoordinates": {
+        "$comment": {
+          "term": "VehicleGeocoordinates",
+          "@id": "https://schema.org/GeoCoordinates"
+        },
+        "title": "VehicleGeocoordinates",
+        "description": "Vehicle Geocoordinates"
+      },
+      "https://schema.org/price": {
+        "$comment": {
+          "term": "Cost",
+          "@id": "https://schema.org/price"
+        },
+        "title": "Cost",
+        "description": "Cost"
+      },
+      "https://schema.org/Vehicle": {
+        "$comment": {
+          "term": "SellerVehicleID",
+          "@id": "https://schema.org/Vehicle"
+        },
+        "title": "SellerVehicleID",
+        "description": "Seller Vehicle ID"
+      },
+      "https://schema.org/Date": {
+        "$comment": {
+          "term": "DateOfLastChargeDischarge",
+          "@id": "https://schema.org/Date"
+        },
+        "title": "DateOfLastChargeDischarge"
+      },
+      "https://schema.org/QuantitativeValue": {
+        "$comment": {
+          "term": "EnergyAvaliable",
+          "@id": "https://schema.org/QuantitativeValue"
+        },
+        "title": "EnergyAvaliable",
+        "description": "Energy Avaliable"
+      },
+      "https://schema.org/Name": {
+        "$comment": {
+          "term": "EnergySource",
+          "@id": "https://schema.org/Name"
+        },
+        "title": "EnergySource",
+        "description": "Energy Source"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/VehicleToGridCommunication.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"VehicleToGridCommunication\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#VehicleToGridCommunication\"}",
+      "title": "EVGI VehicleToGridCommunication",
+      "description": "EVGI: VehicleToGridCommunication",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "DateTime": {
+          "$comment": "{\"term\": \"DateTime\", \"@id\": \"https://schema.org/DateTime\"}",
+          "title": "DateTime",
+          "description": "Date Time"
+        },
+        "EnergyExchange": {
+          "$comment": "{\"term\": \"EnergyExchange\", \"@id\": \"https://schema.org/Number\"}",
+          "title": "Energy Exchange",
+          "description": "Energy Exchange"
+        },
+        "RecipientBuyerUserID": {
+          "$comment": "{\"term\": \"RecipientBuyerUserID\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "RecipientBuyerUserID",
+          "description": "Recipient or Buyer UserID",
+          "type": "string"
+        },
+        "RecipientBuyerVehicleID": {
+          "$comment": "{\"term\": \"RecipientBuyerVehicleID\", \"@id\": \"https://schema.org/url\"}",
+          "title": "RecipientBuyerVehicleID",
+          "description": "RecipientBuyerVehicleID",
+          "type": "string"
+        },
+        "SellerUserID": {
+          "$comment": "{\"term\": \"SellerUserID\", \"@id\": \"https://https://schema.org/Person\"}",
+          "title": "SellerUserID",
+          "description": "SellerUserID",
+          "type": "string"
+        },
+        "UtilityIdentifier": {
+          "$comment": "{\"term\": \"UtilityIdentifier\", \"@id\": \"https://schema.org/Text\"}",
+          "title": "UtilityIdentifier",
+          "description": "SerialModel",
+          "type": "string"
+        },
+        "VehicleGeocoordinates": {
+          "$comment": "{\"term\": \"VehicleGeocoordinates\", \"@id\": \"https://schema.org/GeoCoordinates\"}",
+          "title": "VehicleGeocoordinates",
+          "description": "Vehicle Geocoordinates",
+          "type": "string"
+        },
+        "Cost": {
+          "$comment": "{\"term\": \"Cost\", \"@id\": \"https://schema.org/price\"}",
+          "title": "Cost",
+          "description": "Cost",
+          "type": "string"
+        },
+        "SellerVehicleID": {
+          "$comment": "{\"term\": \"SellerVehicleID\", \"@id\": \"https://schema.org/Vehicle\"}",
+          "title": "SellerVehicleID",
+          "description": "Seller Vehicle ID",
+          "type": "string"
+        },
+        "DateOfLastChargeDischarge": {
+          "$comment": "{\"term\": \"DateOfLastChargeDischarge\", \"@id\": \"https://schema.org/Date\"}",
+          "title": "DateOfLastChargeDischarge",
+          "type": "string"
+        },
+        "EnergyAvaliable": {
+          "$comment": "{\"term\": \"EnergyAvaliable\", \"@id\": \"https://schema.org/QuantitativeValue\"}",
+          "title": "EnergyAvaliable",
+          "description": "Energy Avaliable",
+          "type": "string"
+        },
+        "EnergySource": {
+          "$comment": "{\"term\": \"EnergySource\", \"@id\": \"https://schema.org/Name\"}",
+          "title": "EnergySource",
+          "description": "Energy Source",
+          "type": "string"
         }
       },
       "additionalProperties": false,

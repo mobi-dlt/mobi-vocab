@@ -13,6 +13,55 @@
     "relatedLink": {
       "@id": "https://dlt.mobi/mobility-schema#LinkRole"
     },
+    "AccessCertificate": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#AccessCertificate",
+      "@context": {
+        "UIUD": {
+          "@id": "https://schema.org/codeValue"
+        },
+        "URI": {
+          "@id": "https://schema.org/url"
+        },
+        "IssuerEID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "RootAuthEID": {
+          "@id": "https://schema.org/Text"
+        },
+        "Expiration": {
+          "@id": "https://schema.org/Date"
+        },
+        "SignAlgo": {
+          "@id": "https://schema.org/algorithm"
+        }
+      }
+    },
+    "AssetRegistry": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#AssetRegistry",
+      "@context": {
+        "AssetID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "OwnerID": {
+          "@id": "https://schema.org/Number"
+        },
+        "Classification": {
+          "@id": "https://schema.org/DefinedTerm"
+        },
+        "VehicleDesignation": {
+          "@id": "https://schema.org/Place"
+        },
+        "SystemID": {
+          "@id": "https://https://schema.org/url"
+        },
+        "OrganizationFEIN": {
+          "@id": "https://schema.org/Organization"
+        },
+        "EPACompanyID": {
+          "@id": "https://schema.org/Text"
+        }
+      }
+    },
     "BatteryID": {
       "@id": "https://dlt.mobi/mobility-schema#BatteryID",
       "@context": {
@@ -59,6 +108,29 @@
         }
       }
     },
+    "BlockList": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#BlockList",
+      "@context": {
+        "UIUD": {
+          "@id": "https://schema.org/codeValue"
+        },
+        "URI": {
+          "@id": "https://schema.org/url"
+        },
+        "IssuerEID": {
+          "@id": "https://schema.org/Person"
+        },
+        "BREID": {
+          "@id": "https://schema.org/Time"
+        },
+        "SignAlgo": {
+          "@id": "https://schema.org/algorithm"
+        },
+        "Reason": {
+          "@id": "https://schema.org/Text"
+        }
+      }
+    },
     "Brand": {
       "@id": "https://schema.org/Brand",
       "@context": {
@@ -67,6 +139,130 @@
         },
         "url": {
           "@id": "https://schema.org/url"
+        }
+      }
+    },
+    "CarbonOffset": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#CarbonOffset",
+      "@context": {
+        "CarbonIntensity": {
+          "@id": "https://schema.org/QuantitativeValue"
+        },
+        "CarbonIntensitySource": {
+          "@id": "https://schema.org/Text"
+        },
+        "ChargeStartTime": {
+          "@id": "https://schema.org/startTime"
+        },
+        "ChargeEndTime": {
+          "@id": "https://schema.org/endTime"
+        },
+        "InfrastructureOwnerEntityID": {
+          "@id": "https://schema.org/url"
+        },
+        "ChargingDataSource": {
+          "@id": "https://https://schema.org/Person"
+        },
+        "CreditOwnerAccount": {
+          "@id": "https://schema.org/accountId"
+        },
+        "EnergyConsumed": {
+          "@id": "https://schema.org/Energy"
+        },
+        "ChargeSessionGeolocation": {
+          "@id": "https://schema.org/GeoCoordinates"
+        },
+        "TranscationDateTime": {
+          "@id": "https://schema.org/DateTime"
+        },
+        "VID": {
+          "@id": "https://dlt.mobi/mobility-schema/schemas#VID"
+        },
+        "ChargerID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "ChargeRate": {
+          "@id": "https://schema.org/price"
+        },
+        "OrganizationTaxID": {
+          "@id": "https://schema.org/taxIS"
+        },
+        "ResidentialIncrementalVSNonResidential": {
+          "@id": "https://schema.org/Name"
+        },
+        "DesignationOfVehicle": {
+          "@id": "https://schema.org/location"
+        },
+        "EnergyEconomyRatio": {
+          "@id": "https://schema.org/Number"
+        },
+        "EPACompanyID": {
+          "@id": "https://schema.org/Organization"
+        },
+        "SystemID": {
+          "@id": "https://schema.org/SoftwareApplication"
+        },
+        "TransactionNumber": {
+          "@id": "https://schema.org/PaymentChargeSpecification"
+        },
+        "TransactionType": {
+          "@id": "https://schema.org/PaymentService"
+        }
+      }
+    },
+    "ChargerIdentity": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#ChargerIdentity",
+      "@context": {
+        "Make": {
+          "@id": "https://schema.org/manufacturer"
+        },
+        "Model": {
+          "@id": "https://schema.org/model"
+        },
+        "ChargerAdapterStandard": {
+          "@id": "https://schema.org/boolean"
+        },
+        "ACDCType": {
+          "@id": "https://schema.org/addiontalProperty"
+        },
+        "UniBiDirectional": {
+          "@id": "https://schema.org/Property"
+        },
+        "ChargeRate": {
+          "@id": "https://schema.org/PaymentChargeSpecification"
+        },
+        "ChargerSoftwareVersion": {
+          "@id": "https://schema.org/version"
+        },
+        "ChargerUniqueIdentifier": {
+          "@id": "https://schema.org/identifier"
+        },
+        "ChargerStationIdentifier": {
+          "@id": "https://schema.org/url"
+        },
+        "GeoCoordinates": {
+          "@id": "https://schema.org/GeoCoordinates"
+        },
+        "Voltage": {
+          "@id": "https://schema.org/Number"
+        },
+        "Cost": {
+          "@id": "https://schema.org/price"
+        },
+        "Availability": {
+          "@id": "https://schema.org/availability"
+        },
+        "ProductionDate": {
+          "@id": "https://schema.org/Date"
+        },
+        "ChargeTransmissionType": {
+          "@id": "https://schema.org/Rating"
+        },
+        "WirelessChargingType": {
+          "@id": "https://schema.org/Text"
+        },
+        "ChargingStructureType": {
+          "@id": "https://schema.org/Documentation"
         }
       }
     },
@@ -107,6 +303,29 @@
         }
       }
     },
+    "ControlAcceptance": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#ControlAcceptance",
+      "@context": {
+        "SellerID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "BuyerID": {
+          "@id": "https://schema.org/Number"
+        },
+        "ExchangeRate": {
+          "@id": "https://schema.org/ExchangeRate"
+        },
+        "SuccessCriteria": {
+          "@id": "https://schema.org/Text"
+        },
+        "SettlementURI": {
+          "@id": "https://https://schema.org/url"
+        },
+        "PaymentPlatform": {
+          "@id": "https://schema.org/Name"
+        }
+      }
+    },
     "Customer": {
       "@id": "https://dlt.mobi/mobility-schema#Customer",
       "@context": {
@@ -121,6 +340,52 @@
         },
         "email": {
           "@id": "https://schema.org/email"
+        }
+      }
+    },
+    "DataHost": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#DataHost",
+      "@context": {
+        "EntityInfo": {
+          "@id": "https://dlt.mobi/mobility-schema/schemas#EC"
+        },
+        "Endpoint": {
+          "@id": "https://schema.org/Name"
+        },
+        "HostType": {
+          "@id": "https://schema.org/address"
+        }
+      }
+    },
+    "DataHostBootstrappingCertificate": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#DataHostBootstrappingCertificate",
+      "@context": {
+        "UIUD": {
+          "@id": "https://schema.org/codeValue"
+        },
+        "WebURI": {
+          "@id": "https://schema.org/url"
+        },
+        "DataStructure": {
+          "@id": "https://schema.org/Name"
+        },
+        "CommitFrequencyT": {
+          "@id": "https://schema.org/Number"
+        },
+        "ReceiverEID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "RootAuthEID": {
+          "@id": "https://schema.org/Text"
+        },
+        "OwnerEID": {
+          "@id": "https://schema.org/Person"
+        },
+        "RootAuthSig": {
+          "@id": "https://dlt.mobi/boolean"
+        },
+        "SignAlgo": {
+          "@id": "https://schema.org/algorithm"
         }
       }
     },
@@ -158,6 +423,84 @@
         },
         "expirationDate": {
           "@id": "https://schema.org/expires"
+        }
+      }
+    },
+    "EC": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#EC",
+      "@context": {
+        "EID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "EntityType": {
+          "@id": "https://schema.org/Number"
+        },
+        "PubKey": {
+          "@id": "https://schema.org/Text"
+        },
+        "RevURI": {
+          "@id": "https://schema.org/url"
+        },
+        "ALURI": {
+          "@id": "https://schema.org/itemList"
+        },
+        "BLURI": {
+          "@id": "https://schema.org/LinkRole"
+        },
+        "SignAlgo": {
+          "@id": "https://schema.org/algorithm"
+        },
+        "HashAlgo": {
+          "@id": "https://schema.org/character"
+        },
+        "Expiration": {
+          "@id": "https://schema.org/Time"
+        },
+        "IssuerSig": {
+          "@id": "https://schema.org/PropertyValue"
+        }
+      }
+    },
+    "EVGIEntityExtension": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#EVGIEntityExtension",
+      "@context": {
+        "Address": {
+          "@id": "https://schema.org/codeValue"
+        },
+        "URI": {
+          "@id": "https://schema.org/url"
+        },
+        "IssuerEID": {
+          "@id": "https://schema.org/Person"
+        },
+        "BREID": {
+          "@id": "https://schema.org/Time"
+        },
+        "SignAlgo": {
+          "@id": "https://schema.org/algorithm"
+        },
+        "Reason": {
+          "@id": "https://schema.org/Text"
+        }
+      }
+    },
+    "EmissionMeasurement": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#EmissionMeasurement",
+      "@context": {
+        "uuid": {
+          "@id": "https://schema.org/identifier"
+        },
+        "totalFuelConsumed": {
+          "@id": "https://schema.org/fuelConsumption"
+        },
+        "totalDistanceTraveled": {
+          "@id": "https://schema.org/milageFromOdometer"
+        },
+        "Begin_DateTime": {
+          "@id": "https://schema.org/DateTime"
+        },
+        "End_DateTime": {
+          "@id": "https://schema.org/Time"
         }
       }
     },
@@ -225,6 +568,29 @@
         },
         "locationDescription": {
           "@id": "https://schema.org/description"
+        }
+      }
+    },
+    "GroupPermissionChangeCertificate": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#GroupPermissionChangeCertificate",
+      "@context": {
+        "URI": {
+          "@id": "https://schema.org/url"
+        },
+        "OwnerEID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "Group": {
+          "@id": "https://schema.org/Name"
+        },
+        "Read": {
+          "@id": "https://schema.org/Text"
+        },
+        "Write": {
+          "@id": "https://dlt.mobi/boolean"
+        },
+        "SignAlgo": {
+          "@id": "https://schema.org/algorithm"
         }
       }
     },
@@ -455,6 +821,56 @@
         }
       }
     },
+    "Meter": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#Meter",
+      "@context": {
+        "Make": {
+          "@id": "https://schema.org/Name"
+        },
+        "Model": {
+          "@id": "https://schema.org/model"
+        },
+        "ChargeRate": {
+          "@id": "https://schema.org/PaymentChargeSpecification"
+        },
+        "GeoCoordinates": {
+          "@id": "https://schema.org/GeoCoordinates"
+        },
+        "MeterUniqueIdentifier": {
+          "@id": "https://schema.org/identifier"
+        },
+        "SerialModel": {
+          "@id": "https://schema.org/serialNumber"
+        },
+        "MeterEndOfLifeEventRegistraion": {
+          "@id": "https://schema.org/Number"
+        },
+        "ProductionDate": {
+          "@id": "https://schema.org/Date"
+        },
+        "MeterSoftwareVersion": {
+          "@id": "https://schema.org/version"
+        },
+        "ConformanceToStandards": {
+          "@id": "https://schema.org/boolean"
+        },
+        "MeterAdminID": {
+          "@id": "https://schema.org/url"
+        },
+        "MeterCurrentRating": {
+          "@id": "https://schema.org/Rating"
+        },
+        "MeterForm": {
+          "@id": "https://schema.org/Text"
+        },
+        "MeterRecords": {
+          "@id": "https://schema.org/Documentation"
+        },
+        "RemoteDisconnectCapability": {
+          "@id": "https://schema.org/application"
+        }
+      }
+    },
     "Organization": {
       "@id": "https://schema.org/Organization",
       "@context": {
@@ -490,6 +906,38 @@
         },
         "contactPoint": {
           "@id": "https://schema.org/ContactPoint"
+        }
+      }
+    },
+    "P2PChargingCommunication": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#P2PChargingCommunication",
+      "@context": {
+        "DateTime": {
+          "@id": "https://schema.org/DateTime"
+        },
+        "EnergyExchange": {
+          "@id": "https://schema.org/Number"
+        },
+        "RecipientBuyerUserID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "RecipientBuyerVehicleID": {
+          "@id": "https://schema.org/url"
+        },
+        "SellerUserID": {
+          "@id": "https://https://schema.org/Person"
+        },
+        "TransactionGeocoordinates": {
+          "@id": "https://schema.org/GeoCoordinates"
+        },
+        "Cost": {
+          "@id": "https://schema.org/price"
+        },
+        "SellerVehicleID": {
+          "@id": "https://schema.org/Vehicle"
+        },
+        "EnergySource": {
+          "@id": "https://schema.org/Name"
         }
       }
     },
@@ -798,6 +1246,26 @@
         }
       }
     },
+    "ServiceProvider": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#ServiceProvider",
+      "@context": {
+        "LegalName": {
+          "@id": "https://schema.org/Name"
+        },
+        "Address": {
+          "@id": "https://schema.org/address"
+        },
+        "PhoneNumber": {
+          "@id": "https://schema.org/Number"
+        },
+        "Email": {
+          "@id": "https://schema.org/email"
+        },
+        "EntityInfo": {
+          "@id": "https://dlt.mobi/mobility-schema/schemas#EC"
+        }
+      }
+    },
     "StripeCustomerCredential": {
       "@id": "https://dlt.mobi/mobility-schema#StripeCustomerCredential",
       "@context": {
@@ -812,6 +1280,29 @@
         },
         "expirationDate": {
           "@id": "https://schema.org/expires"
+        }
+      }
+    },
+    "TimeDependentSmartEnergyTariffs": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#TimeDependentSmartEnergyTariffs",
+      "@context": {
+        "Date": {
+          "@id": "https://schema.org/Date"
+        },
+        "SOC": {
+          "@id": "https://schema.org/Number"
+        },
+        "TimeOfDay": {
+          "@id": "https://schema.org/Time"
+        },
+        "Amount": {
+          "@id": "https://schema.org/QuantitativeValue"
+        },
+        "CarbonIntensity": {
+          "@id": "https://intensity"
+        },
+        "PaymentCurrencyType": {
+          "@id": "https://schema.org/Text"
         }
       }
     },
@@ -844,11 +1335,56 @@
         }
       }
     },
+    "TrustAnchor": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#TrustAnchor",
+      "@context": {
+        "EntityInfo": {
+          "@id": "https://dlt.mobi/mobility-schema/schemas#EC"
+        },
+        "identifier": {
+          "@id": "https://schema.org/identifier"
+        }
+      }
+    },
     "UniqueVehicleIdentifier": {
       "@id": "https://dlt.mobi/mobility-schema#UniqueVehicleIdentifier",
       "@context": {
         "uvi": {
           "@id": "https://schema.org/identifier"
+        }
+      }
+    },
+    "User": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#User",
+      "@context": {
+        "EntityInfo": {
+          "@id": "https://dlt.mobi/mobility-schema/schemas#EC"
+        },
+        "PermissionedURI": {
+          "@id": "https://schema.org/url"
+        },
+        "PermissionedEID": {
+          "@id": "https://schema.org/address"
+        }
+      }
+    },
+    "UserEntityID": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#UserEntityID",
+      "@context": {
+        "EntityUserID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "Address": {
+          "@id": "https://schema.org/address"
+        },
+        "Email": {
+          "@id": "https://schema.org/Time"
+        },
+        "Name": {
+          "@id": "https://schema.org/Text"
+        },
+        "PhoneNumber": {
+          "@id": "https://schema.org/Number"
         }
       }
     },
@@ -1429,6 +1965,73 @@
         },
         "uvi": {
           "@id": "https://schema.org/url"
+        }
+      }
+    },
+    "VehicleSpec": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#VehicleSpec",
+      "@context": {
+        "uuid": {
+          "@id": "https://schema.org/identifier"
+        },
+        "OEM": {
+          "@id": "https://schema.org/manufacturer"
+        },
+        "MODEL": {
+          "@id": "https://schema.org/model"
+        },
+        "typeRating": {
+          "@id": "https://schema.org/Rating"
+        },
+        "fuelType": {
+          "@id": "https://schema.org/fuelType"
+        },
+        "weight": {
+          "@id": "https://schema.org/weight"
+        },
+        "power": {
+          "@id": "https://schema.org/enginePower"
+        }
+      }
+    },
+    "VehicleToGridCommunication": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#VehicleToGridCommunication",
+      "@context": {
+        "DateTime": {
+          "@id": "https://schema.org/DateTime"
+        },
+        "EnergyExchange": {
+          "@id": "https://schema.org/Number"
+        },
+        "RecipientBuyerUserID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "RecipientBuyerVehicleID": {
+          "@id": "https://schema.org/url"
+        },
+        "SellerUserID": {
+          "@id": "https://https://schema.org/Person"
+        },
+        "UtilityIdentifier": {
+          "@id": "https://schema.org/Text"
+        },
+        "VehicleGeocoordinates": {
+          "@id": "https://schema.org/GeoCoordinates"
+        },
+        "Cost": {
+          "@id": "https://schema.org/price"
+        },
+        "SellerVehicleID": {
+          "@id": "https://schema.org/Vehicle"
+        },
+        "DateOfLastChargeDischarge": {
+          "@id": "https://schema.org/Date"
+        },
+        "EnergyAvaliable": {
+          "@id": "https://schema.org/QuantitativeValue"
+        },
+        "EnergySource": {
+          "@id": "https://schema.org/Name"
         }
       }
     },
