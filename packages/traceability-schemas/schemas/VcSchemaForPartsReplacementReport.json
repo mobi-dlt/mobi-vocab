@@ -1,0 +1,145 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForPartsReplacementReport.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"VcSchemaForPartsReplacementReport\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#VcSchemaForPartsReplacementReport\"}",
+    "title": "VcSchemaForPartsReplacementReport",
+    "description": "Attributes necessary to construct verifiable credential for insurance claims and policies",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "dateTime": {
+            "$comment": "{\"term\": \"dateTime\", \"@id\": \"https://schema.org/DateTime\"}",
+            "title": "dateTime",
+            "description": "the time and date of the accident/damage/event",
+            "type": "string"
+        },
+        "serviceProviderEntityId": {
+            "$comment": "{\"term\": \"serviceProviderEntityId\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "serviceProviderEntityId",
+            "description": "the driver's full name",
+            "type": "string"
+        },
+        "geolocation": {
+            "$comment": "{\"term\": \"geolocation\", \"@id\": \"https://schema.org/location\"}",
+            "title": "geolocation",
+            "description": "the vehicle's location at time of accident",
+            "type": "string"
+        },
+        "estimateNumber": {
+            "$comment": "{\"term\": \"estimateNumber\", \"@id\": \"https://schema.org/amount\"}",
+            "title": "estimateNumber",
+            "description": "the estimated cost of the repair",
+            "type": "string"
+        },
+        "invoiceNumber": {
+            "$comment": "{\"term\": \"invoiceNumber\", \"@id\": \"https://schema.org/accountId\"}",
+            "title": "invoiceNumber",
+            "description": "the financial account or wallet information",
+            "type": "string"
+        },
+        "partType": {
+            "$comment": "{\"term\": \"partType\", \"@id\": \"https://schema.org/alternateName\"}",
+            "title": "partType",
+            "description": "the type of part involved in the replacement",
+            "type": "string"
+        },
+        "oldPartNumber": {
+            "$comment": "{\"term\": \"oldPartNumber\", \"@id\": \"https://schema.org/productId\"}",
+            "title": "oldPartNumber",
+            "description": "the name of the insurance company",
+            "type": "string"
+        },
+        "oldPartSerialNumber": {
+            "$comment": "{\"term\": \"oldPartSerialNumber\", \"@id\": \"https://schema.org/serialNumber\"}",
+            "title": "oldPartSerialNumber",
+            "description": "the serial number associated with the old part",
+            "type": "string"
+        },
+        "oldPartManufacturer": {
+            "$comment": "{\"term\": \"oldPartManufacturer\", \"@id\": \"https://schema.org/manufacturer\"}",
+            "title": "oldPartManufacturer",
+            "description": "the old part's manufacturer ",
+            "type": "string"
+        }, 
+        "oldPartCondition": {
+            "$comment": "{\"term\": \"oldPartCondition\", \"@id\": \"https://schema.org/itemCondition\"}",
+            "title": "oldPartCondition",
+            "description": "counterpart's insurance policy number",
+            "type": "string"
+        },
+        "finalPartNumber": {
+            "$comment": "{\"term\": \"finalPartNumber\", \"@id\": \"https://schema.org/item\"}",
+            "title": "finalPartNumber",
+            "description": "the part number of the new part.",
+            "type": "string"
+        },
+        "finalPartSerialNumber": {
+            "$comment": "{\"term\": \"finalPartSerialNumber\", \"@id\": \"https://schema.org/description\"}",
+            "title": "finalPartSerialNumber",
+            "description": "the serial number of the replacement part",
+            "type": "string"
+        },
+        "finalPartManufacturer": {
+            "$comment": "{\"term\": \"finalPartManufacturer\", \"@id\": \"https://schema.org/Organization\"}",
+            "title": "finalPartManufacturer",
+            "description": "the manufacturer of the new part",
+            "type": "string"
+        },
+        "finalPartCondition": {
+            "$comment": "{\"term\": \"finalPartCondition\", \"@id\": \"https://schema.org/category\"}",
+            "title": "finalPartCondition",
+            "description": "the condition of the new part installed into the vehicle",
+            "type": "string"
+        },
+        "partRepairedOrReplaced": {
+            "$comment": "{\"term\": \"partRepairedOrReplaced\", \"@id\": \"https://schema.org/status\"}",
+            "title": "partRepairedOrReplaced",
+            "description": "One of two strings: REPAIRED or REPLACED",
+            "type": "string"
+        },
+        "aftermarketLikeNewPart": {
+            "$comment": "{\"term\": \"aftermarketLikeNewPart\", \"@id\": \"https://schema.org/text\"}",
+            "title": "aftermarketLikeNewPart",
+            "description": "aftermarket part whose condition is like new",
+            "type": "string"
+        },
+        "reasonForReplacement": {
+            "$comment": "{\"term\": \"reasonForReplacement\", \"@id\": \"https://schema.org/review\"}",
+            "title": "reasonForReplacement",
+            "description": "the number of the police report associated with accident",
+            "type": "string"
+        },
+        "oldSoftwareVersion": {
+            "$comment": "{\"term\": \"oldSoftwareVersion\", \"@id\": \"https://schema.org/version\"}",
+            "title": "oldSoftwareVersion",
+            "description": "previous software version",
+            "type": "string"
+        },
+        "newSoftwareVersion": {
+            "$comment": "{\"term\": \"newSoftwareVersion\", \"@id\": \"https://schema.org/softwareVersion\"}",
+            "title": "newSoftwareVersion",
+            "description": "new software version",
+            "type": "string"
+        },
+        "jurisdictionSpecificRequirement": {
+            "$comment": "{\"term\": \"jurisdictionSpecificRequirement\", \"@id\": \"https://schema.org/additionalProperty\"}",
+            "title": "jurisdictionSpecificRequirement",
+            "description": "any metadata not captured by previous attributes",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}

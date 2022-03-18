@@ -6,6 +6,9 @@ const getGeoCoordinates = () => {
     type: 'GeoCoordinates',
     latitude: faker.address.latitude(),
     longitude: faker.address.longitude(),
+    elevation: '5000 ft',
+    timestamp: faker.date.past(),
+    locationDescription: 'geo coordinates',
   };
   return example;
 };

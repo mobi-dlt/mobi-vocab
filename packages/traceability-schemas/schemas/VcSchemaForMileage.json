@@ -1,0 +1,67 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForMileage.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"VcSchemaForMileage\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas/#VcSchemaForMileage\"}",
+    "title": "VcSchemaForMileage",
+    "description": "Attributes necessary to construct verifiable credential for mileage",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "odometerReading": {
+            "$comment": "{\"term\": \"odometerReading\", \"@id\": \"https://schema.org/mileageFromOdometer\"}",
+            "title": "odometerReading",
+            "description": "Type of maintenance as defined in ISO 18542",
+            "type": "string"
+        },
+        "unit": {
+            "$comment": "{\"term\": \"unit\", \"@id\": \"https://schema.org/odometerReading\"}",
+            "title": "unit",
+            "description": "unit",
+            "type": "string"
+        },
+        "dateTime": {
+            "$comment": "{\"term\": \"dateTime\", \"@id\": \"https://schema.org/DateTime\"}",
+            "title": "dateTime",
+            "description": "the time and date of the accident/damage/event",
+            "type": "string"
+        },
+        "reportingAgencySource": {
+            "$comment": "{\"term\": \"reportingAgencySource\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "reportingAgencySource",
+            "description": "the reporting agency source",
+            "type": "string"
+        },
+        "technicalSource": {
+            "$comment": "{\"term\": \"technicalSource\", \"@id\": \"https://schema.org/description\"}",
+            "title": "technicalSource",
+            "description": "the technical source of the information",
+            "type": "string"
+        },
+        "trigger": {
+            "$comment": "{\"term\": \"trigger\", \"@id\": \"https://schema.org/text\"}",
+            "title": "trigger",
+            "description": "trigger for reporting",
+            "type": "string"
+        },
+        "jurisdictionSpecificRequirement": {
+            "$comment": "{\"term\": \"jurisdictionSpecificRequirement\", \"@id\": \"https://schema.org/additionalProperty\"}",
+            "title": "jurisdictionSpecificRequirement",
+            "description": "any metadata not captured by previous attributes",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}
