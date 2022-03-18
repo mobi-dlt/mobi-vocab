@@ -1,0 +1,96 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "VID",
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "manufacturer": {
+      "type": "Person",
+      "firstName": "Mathew",
+      "lastName": "Ledner",
+      "email": "Cyrus_Farrell57@example.com",
+      "phoneNumber": "555-147-1245",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Schimmel, Gerlach and Bartoletti",
+        "description": "Versatile reciprocal hardware",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "2208 Myrtice Pike",
+          "addressLocality": "Alexandrostad",
+          "addressRegion": "North Carolina",
+          "postalCode": "52181-7572",
+          "addressCountry": "Mauritania"
+        },
+        "email": "Fannie11@example.org",
+        "phoneNumber": "555-944-3216",
+        "faxNumber": "555-836-4811"
+      },
+      "jobTitle": "Future Marketing Planner"
+    },
+    "make": "Ford",
+    "model": "Mach_E",
+    "vin": "JTERU5JR7M5861170"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "VID",
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "manufacturer": {
+      "type": "Person",
+      "firstName": "Trenton",
+      "lastName": "Krajcik",
+      "email": "Hadley65@example.org",
+      "phoneNumber": "555-641-1293",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Gutmann Inc",
+        "description": "Upgradable 24/7 attitude",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "35210 Herzog Street",
+          "addressLocality": "Port Romaine",
+          "addressRegion": "New Hampshire",
+          "postalCode": "13185",
+          "addressCountry": "Somalia"
+        },
+        "email": "Toy.Blick53@example.net",
+        "phoneNumber": "555-785-4461",
+        "faxNumber": "555-803-5132"
+      },
+      "jobTitle": "Dynamic Communications Strategist"
+    },
+    "make": "Ford",
+    "model": "Mach_E",
+    "vin": "JTERU5JR7M5861170"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "VID",
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "manufacturer": {
+      "type": "Organization",
+      "name": "Okuneva - Gottlieb",
+      "description": "Centralized composite Graphic Interface",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "63256 Robb Knoll",
+        "addressLocality": "Lake Emmanuellestad",
+        "addressRegion": "Michigan",
+        "postalCode": "82914",
+        "addressCountry": "Guatemala"
+      },
+      "email": "Cheyenne2@example.org",
+      "phoneNumber": "555-775-4718",
+      "faxNumber": "555-578-7082"
+    },
+    "make": "Ford",
+    "model": "Mach_E",
+    "vin": "JTERU5JR7M5861170"
+  }
+]

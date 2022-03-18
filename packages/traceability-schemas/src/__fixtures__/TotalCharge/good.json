@@ -1,0 +1,44 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "TotalCharge",
+    "totalPrepaid": 4673.25,
+    "totalCollect": 1557.75,
+    "sourceCurrency": "PEN",
+    "destinationCurrency": "GTQ",
+    "currencyConversionRate": 5,
+    "ccChargesDestinationCurrency": "PEN",
+    "chargesDestination": 441,
+    "totalCollectCharge": 110.25
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "TotalCharge",
+    "totalPrepaid": 7386.75,
+    "totalCollect": 2462.25,
+    "sourceCurrency": "LVL",
+    "destinationCurrency": "VEF",
+    "currencyConversionRate": 5,
+    "ccChargesDestinationCurrency": "LVL",
+    "chargesDestination": 194,
+    "totalCollectCharge": 48.5
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "TotalCharge",
+    "totalPrepaid": 4467,
+    "totalCollect": 1489,
+    "sourceCurrency": "BYN",
+    "destinationCurrency": "PEN",
+    "currencyConversionRate": 1,
+    "ccChargesDestinationCurrency": "BYN",
+    "chargesDestination": 280,
+    "totalCollectCharge": 70
+  }
+]

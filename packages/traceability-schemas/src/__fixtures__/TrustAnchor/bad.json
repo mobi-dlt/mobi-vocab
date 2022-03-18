@@ -1,0 +1,30 @@
+[
+  {
+    "microchip": "reboot",
+    "card": "transmit",
+    "bandwidth": "input"
+  },
+  {
+    "bus": "calculate"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "EntityInfo": {
+      "type": "EC",
+      "EntityType": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+      "PubKey": "pubkey",
+      "RevURI": "sampleuri",
+      "ALURI": "sampleuri",
+      "BLURI": "blocked uri",
+      "SignAlgo": "algo",
+      "HashAlgo": "algo",
+      "Expiration": "10-19-2021",
+      "IssuerSig": "sig"
+    },
+    "identifier": "Trust Anchor Name",
+    "interface": "program",
+    "circuit": "input"
+  }
+]

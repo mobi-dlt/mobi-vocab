@@ -1,0 +1,49 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "language": "ar",
+    "addressLines": [
+      "Cartwright - Fahey",
+      "15506 Yost Curve"
+    ],
+    "addressNumber": "467",
+    "addressNumberWithinBuilding": "1",
+    "city": "Brodyland",
+    "country": "Kazakhstan",
+    "postalCode": "13179",
+    "microchip": "bypass",
+    "monitor": "synthesize",
+    "panel": "index",
+    "program": "program"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "LEIaddress",
+    "language": "zh_CN",
+    "addressNumber": "490",
+    "addressNumberWithinBuilding": "10",
+    "mailRouting": "570 Pete Courts, 96629-6836",
+    "city": "Kirstinland",
+    "application": "transmit",
+    "bandwidth": "program",
+    "port": "input"
+  },
+  {
+    "addressLines": [
+      "Runolfsdottir - Hansen",
+      "787 Stroman Harbors"
+    ],
+    "addressNumberWithinBuilding": "9",
+    "mailRouting": "312 Abraham Neck, 36363",
+    "city": "Maureenbury",
+    "country": "Tuvalu",
+    "postalCode": "54525",
+    "microchip": "synthesize",
+    "alarm": "calculate",
+    "application": "connect"
+  }
+]

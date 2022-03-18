@@ -1,0 +1,56 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "LEIaddress",
+    "language": "ar",
+    "addressLines": [
+      "Cartwright - Fahey",
+      "15506 Yost Curve"
+    ],
+    "addressNumber": "467",
+    "addressNumberWithinBuilding": "1",
+    "mailRouting": "9600 Nikolaus Villages, 85425-5436",
+    "city": "Brodyland",
+    "region": "Bedfordshire",
+    "country": "Kazakhstan",
+    "postalCode": "13179"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "LEIaddress",
+    "language": "zh_CN",
+    "addressLines": [
+      "Gaylord LLC",
+      "6042 Santiago Plains"
+    ],
+    "addressNumber": "490",
+    "addressNumberWithinBuilding": "10",
+    "mailRouting": "570 Pete Courts, 96629-6836",
+    "city": "Kirstinland",
+    "region": "Cambridgeshire",
+    "country": "Northern Mariana Islands",
+    "postalCode": "61960"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "LEIaddress",
+    "language": "ko",
+    "addressLines": [
+      "Runolfsdottir - Hansen",
+      "787 Stroman Harbors"
+    ],
+    "addressNumber": "220",
+    "addressNumberWithinBuilding": "9",
+    "mailRouting": "312 Abraham Neck, 36363",
+    "city": "Maureenbury",
+    "region": "Buckinghamshire",
+    "country": "Tuvalu",
+    "postalCode": "54525"
+  }
+]

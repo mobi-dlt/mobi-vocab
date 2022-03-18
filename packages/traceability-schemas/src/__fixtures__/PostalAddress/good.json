@@ -1,0 +1,38 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "PostalAddress",
+    "organizationName": "Daniel, West and Carroll",
+    "streetAddress": "41692 Sharon Rue",
+    "addressLocality": "East Olinstad",
+    "addressRegion": "New York",
+    "postalCode": "36046-0359",
+    "addressCountry": "Egypt"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "PostalAddress",
+    "organizationName": "O'Reilly, Brakus and Kuphal",
+    "streetAddress": "74308 Volkman Shoals",
+    "addressLocality": "Kerlukehaven",
+    "addressRegion": "Illinois",
+    "postalCode": "45740-9526",
+    "addressCountry": "Malta"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "PostalAddress",
+    "organizationName": "Barrows Inc",
+    "streetAddress": "2020 Angie Forge",
+    "addressLocality": "South Herman",
+    "addressRegion": "Oregon",
+    "postalCode": "65650",
+    "addressCountry": "Guyana"
+  }
+]

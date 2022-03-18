@@ -1,5 +1,5 @@
 {
-    "$id": "https://dlt.mobi/mobility-schema/schemas/schemas/ServiceProvider.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/ServiceProvider.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": "{\"term\": \"ServiceProvider\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#ServiceProvider\"}",
     "title": "ServiceProvider",
@@ -46,7 +46,7 @@
         "EntityInfo": {
             "$comment": "{\"term\": \"EntityInfo\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#EC\"}",
             "title": "EntityInfo",
-            "$ref": "https://dlt.mobi/mobility-schema/schemas/schemas/EC.json"
+            "$ref": "https://dlt.mobi/mobility-schema/schemas/EC.json"
         }
         
        

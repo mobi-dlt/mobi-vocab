@@ -1,0 +1,43 @@
+[
+  {
+    "protocol": "generate",
+    "driver": "generate",
+    "alarm": "transmit",
+    "microchip": "calculate"
+  },
+  {
+    "type": "CarbonOffset",
+    "ChargeStartTime": "ChargeStartTime",
+    "ChargeEndTime": "ChargeEndTime",
+    "CreditOwnerAccount": "CreditOwnerAccount",
+    "ChargerID": " ChargerID",
+    "ChargeRate": "ChargeRate",
+    "EPACompanyID": "EPACompanyID",
+    "SystemID": "SystemID",
+    "port": "back up"
+  },
+  {
+    "type": "CarbonOffset",
+    "CarbonIntensity": "CarbonIntensity",
+    "ChargeStartTime": "ChargeStartTime",
+    "ChargeEndTime": "ChargeEndTime",
+    "InfrastructureOwnerEntityID": "InfrastructureOwnerEntityID",
+    "ChargingDataSource": "ChargingDataSource",
+    "CreditOwnerAccount": "CreditOwnerAccount",
+    "EnergyConsumed": "EnergyConsumed",
+    "TranscationDateTime": "TranscationDateTime",
+    "ChargerID": " ChargerID",
+    "ChargeRate": "ChargeRate",
+    "OrganizationTaxID": "OrganizationTaxID",
+    "ResidentialIncrementalVSNonResidential": "ResidentialIncrementalVSNonResidential",
+    "DesignationOfVehicle": "DesignationOfVehicle",
+    "EPACompanyID": "EPACompanyID",
+    "SystemID": "SystemID",
+    "TransactionNumber": "TransactionNumber",
+    "TransactionType": "TransactionType",
+    "sensor": "navigate",
+    "microchip": "connect",
+    "system": "calculate",
+    "interface": "back up"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "chargeCollect": 700,
+    "chargePrepaid": 967,
+    "program": "navigate",
+    "bus": "synthesize",
+    "transmitter": "transmit"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "chargeCollect": 446,
+    "chargePrepaid": 948,
+    "application": "calculate",
+    "port": "connect"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "chargeAndPaymentType",
+    "chargeCollect": 991,
+    "microchip": "calculate",
+    "sensor": "synthesize",
+    "system": "hack"
+  }
+]

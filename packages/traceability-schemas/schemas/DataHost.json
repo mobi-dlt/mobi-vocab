@@ -1,5 +1,5 @@
 {
-    "$id": "https://dlt.mobi/mobility-schema/schemas/schemas/DataHost.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/DataHost.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": "{\"term\": \"DataHost\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#DataHost\"}",
     "title": "Data Host",
@@ -22,7 +22,7 @@
         "EntityInfo": {
             "$comment": "{\"term\": \"EntityInfo\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#EC\"}",
             "title": "EntityInfo",
-            "$ref": "https://dlt.mobi/mobility-schema/schemas/schemas/EC.json"
+            "$ref": "https://dlt.mobi/mobility-schema/schemas/EC.json"
         },
         "Endpoint": {
             "$comment": "{\"term\": \"Endpoint\", \"@id\": \"https://schema.org/Name\"}",

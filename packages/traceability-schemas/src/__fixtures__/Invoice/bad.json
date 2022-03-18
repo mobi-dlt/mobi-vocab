@@ -1,0 +1,24 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "application": "program",
+    "feed": "transmit"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "microchip": "generate",
+    "bandwidth": "back up",
+    "port": "parse"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "identifier": "IN-5708",
+    "capacitor": "back up"
+  }
+]

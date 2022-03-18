@@ -1,0 +1,30 @@
+[
+  {
+    "system": "override",
+    "monitor": "override"
+  },
+  {
+    "bandwidth": "override",
+    "monitor": "connect",
+    "firewall": "hack",
+    "port": "synthesize"
+  },
+  {
+    "EntityInfo": {
+      "type": "EC",
+      "EntityType": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+      "PubKey": "pubkey",
+      "RevURI": "sampleuri",
+      "ALURI": "sampleuri",
+      "BLURI": "blocked uri",
+      "SignAlgo": "algo",
+      "HashAlgo": "algo",
+      "Expiration": "10-19-2021",
+      "IssuerSig": "sig"
+    },
+    "PermissionedURI": "uri",
+    "monitor": "index",
+    "alarm": "hack",
+    "pixel": "hack"
+  }
+]

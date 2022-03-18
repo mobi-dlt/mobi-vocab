@@ -1,0 +1,34 @@
+[
+  {
+    "type": "TimeDependentSmartEnergyTariffs",
+    "Date": "date",
+    "TimeOfDay": "TimeOfDay",
+    "Amount": "Amount",
+    "CarbonIntensity": "arbonIntensity",
+    "feed": "back up",
+    "capacitor": "calculate"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "TimeDependentSmartEnergyTariffs",
+    "Date": "date",
+    "CarbonIntensity": "arbonIntensity",
+    "PaymentCurrencyType": "PaymentCurrencyType",
+    "microchip": "copy",
+    "card": "program",
+    "pixel": "parse"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "TimeOfDay": "TimeOfDay",
+    "CarbonIntensity": "arbonIntensity",
+    "port": "navigate",
+    "matrix": "connect",
+    "driver": "synthesize",
+    "monitor": "generate"
+  }
+]

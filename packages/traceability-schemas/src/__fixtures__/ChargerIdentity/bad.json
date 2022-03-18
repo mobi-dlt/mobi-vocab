@@ -1,0 +1,33 @@
+[
+  {
+    "Make": "charger manufac",
+    "Model": "model",
+    "ACDCType": "AC",
+    "UniBiDirectional": "Uni",
+    "ChargerStationIdentifier": "stationIdentifier",
+    "Cost": "Cost",
+    "ProductionDate": "ProductionDate",
+    "alarm": "synthesize",
+    "panel": "calculate",
+    "protocol": "reboot"
+  },
+  {
+    "Make": "charger manufac",
+    "Model": "model",
+    "ACDCType": "AC",
+    "UniBiDirectional": "Uni",
+    "Availability": "Yes",
+    "ChargeTransmissionType": "Wired",
+    "transmitter": "reboot"
+  },
+  {
+    "ChargerAdapterStandard": "CHAdeMO",
+    "ChargerSoftwareVersion": "ChargerSoftwareVersion",
+    "ChargerUniqueIdentifier": "ChargerUniqueIdentifier",
+    "Voltage": "200",
+    "Cost": "Cost",
+    "Availability": "Yes",
+    "WirelessChargingType": "NA",
+    "driver": "bypass"
+  }
+]

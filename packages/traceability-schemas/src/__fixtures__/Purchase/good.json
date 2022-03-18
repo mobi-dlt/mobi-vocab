@@ -1,0 +1,82 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": [
+      "Purchase"
+    ],
+    "customer": {
+      "type": "Organization",
+      "name": "Mertz - Bechtelar",
+      "description": "Reactive 4th generation application",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "484 Victor Squares",
+        "addressLocality": "Leuschkefurt",
+        "addressRegion": "Missouri",
+        "postalCode": "48155-8269",
+        "addressCountry": "Belarus"
+      },
+      "email": "Darian_Boehm61@example.com",
+      "phoneNumber": "555-624-7665",
+      "faxNumber": "555-633-1854"
+    }
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": [
+      "Purchase"
+    ],
+    "customer": {
+      "type": "Organization",
+      "name": "Ortiz, Stehr and Toy",
+      "description": "Upgradable disintermediate architecture",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "288 Coleman Creek",
+        "addressLocality": "East Staceychester",
+        "addressRegion": "New York",
+        "postalCode": "96498-7013",
+        "addressCountry": "Guadeloupe"
+      },
+      "email": "Germaine41@example.com",
+      "phoneNumber": "555-160-4918",
+      "faxNumber": "555-977-4563"
+    }
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": [
+      "Purchase"
+    ],
+    "customer": {
+      "type": "Person",
+      "firstName": "Oren",
+      "lastName": "Heathcote",
+      "email": "Samanta27@example.org",
+      "phoneNumber": "555-908-2322",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Gerhold, Hickle and Hermiston",
+        "description": "Grass-roots national encryption",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "14159 Cassidy Way",
+          "addressLocality": "Buckridgeview",
+          "addressRegion": "Alabama",
+          "postalCode": "17236",
+          "addressCountry": "French Polynesia"
+        },
+        "email": "Wendell80@example.org",
+        "phoneNumber": "555-297-3092",
+        "faxNumber": "555-118-2167"
+      },
+      "jobTitle": "Senior Security Analyst"
+    }
+  }
+]

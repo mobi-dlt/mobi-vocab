@@ -80,7 +80,7 @@
         "VID": {
             "$comment": "{\"term\": \"VID\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#VID\"}",
             "title": "VID",
-            "$ref": "https://dlt.mobi/mobility-schema/schemas/schemas/VID.json"
+            "$ref": "https://dlt.mobi/mobility-schema/schemas/VID.json"
         },
         "ChargerID": {
             "$comment": "{\"term\": \"ChargerID\", \"@id\": \"https://schema.org/identifier\"}",

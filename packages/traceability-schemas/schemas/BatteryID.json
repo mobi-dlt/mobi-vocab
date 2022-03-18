@@ -1,5 +1,5 @@
 {
-    "$id": "https://dlt.mobi/mobility-schema/schemas/schemas/BatteryID.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/BatteryID.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": "{\"term\": \"BatteryID\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#BatteryID\"}",
     "title": "BatteryID",
@@ -23,7 +23,7 @@
             "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#VID\"}",
             "title": "vid",
             "description": "vehicle identity",
-            "$ref": "https://dlt.mobi/mobility-schema/schemas/schemas/VID.json"
+            "$ref": "https://dlt.mobi/mobility-schema/schemas/VID.json"
         },
 
         "batteryid": {

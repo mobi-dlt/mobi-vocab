@@ -1,0 +1,44 @@
+[
+  {
+    "microchip": "generate",
+    "protocol": "parse",
+    "card": "program"
+  },
+  {
+    "type": "BatteryID",
+    "sensor": "navigate",
+    "bandwidth": "parse",
+    "monitor": "program"
+  },
+  {
+    "type": "BatteryID",
+    "vid": {
+      "type": "VID",
+      "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+      "manufacturer": {
+        "type": "Organization",
+        "name": "Doyle, Fay and Weissnat",
+        "description": "Centralized methodical encoding",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "40574 Kessler Court",
+          "addressLocality": "East Alexandreaside",
+          "addressRegion": "New York",
+          "postalCode": "35569",
+          "addressCountry": "Burkina Faso"
+        },
+        "email": "Caroline_Thompson80@example.net",
+        "phoneNumber": "555-324-6439",
+        "faxNumber": "555-469-5858"
+      },
+      "make": "Ford",
+      "model": "Mach_E",
+      "vin": "JTERU5JR7M5861170"
+    },
+    "serialNumber": "2345H152031173270027",
+    "system": "transmit",
+    "program": "override",
+    "interface": "reboot",
+    "circuit": "generate"
+  }
+]

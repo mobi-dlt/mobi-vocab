@@ -1,0 +1,33 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "HashAlgo": "algo",
+    "circuit": "quantify",
+    "application": "parse",
+    "panel": "input"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "EC",
+    "PubKey": "pubkey",
+    "RevURI": "sampleuri",
+    "ALURI": "sampleuri",
+    "HashAlgo": "algo",
+    "IssuerSig": "sig",
+    "driver": "override"
+  },
+  {
+    "type": "EC",
+    "PubKey": "pubkey",
+    "ALURI": "sampleuri",
+    "Expiration": "10-19-2021",
+    "firewall": "bypass",
+    "interface": "program",
+    "system": "hack",
+    "pixel": "index"
+  }
+]

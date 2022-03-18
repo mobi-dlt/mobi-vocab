@@ -1,5 +1,5 @@
 {
-    "$id": "https://dlt.mobi/mobility-schema/schemas/schemas/LEIregistration.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/LEIregistration.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": "{\"term\": \"LEIregistration\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#LEIregistration\"}",
     "title": "LEIregistration",
@@ -63,7 +63,7 @@
                 "title": "validationAuthority",
                 "type": "array",
                 "items": {
-                "$ref": "https://dlt.mobi/mobility-schema/schemas/schemas/LEIauthority.json"
+                "$ref": "https://dlt.mobi/mobility-schema/schemas/LEIauthority.json"
                 }
             }
 		},

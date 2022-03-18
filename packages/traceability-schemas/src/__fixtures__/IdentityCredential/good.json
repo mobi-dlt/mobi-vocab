@@ -1,0 +1,50 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "IdentityCredential",
+    "legalName": "Matt Shi",
+    "licenseNumber": "Y5327288",
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000002",
+      "otherValidationAuthorityID": "VM7BZGCQ",
+      "validationAuthorityEntityID": "6VSFN1H5J0PN8BZJZHN2"
+    },
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "IdentityCredential",
+    "legalName": "Matt Shi",
+    "licenseNumber": "Y5327288",
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000001",
+      "otherValidationAuthorityID": "KLF1QEHL",
+      "validationAuthorityEntityID": "VLWSFN9ZLAWC7DMGMUQ8"
+    },
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "IdentityCredential",
+    "legalName": "Matt Shi",
+    "licenseNumber": "Y5327288",
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000661",
+      "otherValidationAuthorityID": "NEBYE9UN",
+      "validationAuthorityEntityID": "0BLRL4EY8G88V2F6BIGC"
+    },
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11"
+  }
+]

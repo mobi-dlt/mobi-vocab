@@ -1,5 +1,5 @@
 {
-    "$id": "https://dlt.mobi/mobility-schema/schemas/schemas/Purchase.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/Purchase.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": "{\"term\": \"Purchase\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#Purchase\"}",
     "title": "Purchase",
@@ -23,13 +23,13 @@
             "$comment": "{\"term\": \"customer\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#Entity?v4\"}",
             "title": "Customer",
             "description": "The buying party of a purchase",
-            "$ref": "https://dlt.mobi/mobility-schema/schemas/schemas/Entity.json"
+            "$ref": "https://dlt.mobi/mobility-schema/schemas/Entity.json"
         },
         "invoice": {
             "$comment": "{\"term\": \"invoice\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#Invoice\"}",
             "title": "Invoice",
             "description": "The invoice associated with a purchase",
-            "$ref": "https://dlt.mobi/mobility-schema/schemas/schemas/Invoice.json"
+            "$ref": "https://dlt.mobi/mobility-schema/schemas/Invoice.json"
         },
         "purchaseOrder": {
             "$comment": "{\"term\": \"purchaseOrder\", \"@id\": \"https://schema.org/identifier\"}",

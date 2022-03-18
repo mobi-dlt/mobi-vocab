@@ -1,5 +1,5 @@
 {
-    "$id": "https://dlt.mobi/mobility-schema/schemas/schemas/Customer.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/Customer.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": "{\"term\": \"Customer\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#Customer\"}",
     "title": "Customer",
@@ -38,7 +38,7 @@
         "address": {
             "$comment": "{\"term\": \"address\", \"@id\": \"https://schema.org/PostalAddress\"}",
             "title": "Address of the Customer",
-            "$ref": "https://dlt.mobi/mobility-schema/schemas/schemas/PostalAddress.json"
+            "$ref": "https://dlt.mobi/mobility-schema/schemas/PostalAddress.json"
         },
         "telephone": {
             "$comment": "{\"term\": \"telephone\", \"@id\": \"https://schema.org/telephone\"}",

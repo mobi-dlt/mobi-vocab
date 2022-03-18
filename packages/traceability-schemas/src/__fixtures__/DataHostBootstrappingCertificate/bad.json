@@ -1,0 +1,24 @@
+[
+  {
+    "DataStructure": "sampleuri",
+    "ReceiverEID": "sampleuri",
+    "OwnerEID": "sampleuri",
+    "SignAlgo": "algo",
+    "circuit": "navigate"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "DataHostBootstrappingCertificate",
+    "OwnerEID": "sampleuri",
+    "SignAlgo": "algo",
+    "pixel": "generate"
+  },
+  {
+    "RootAuthSig": "sig",
+    "SignAlgo": "algo",
+    "array": "reboot",
+    "alarm": "quantify"
+  }
+]

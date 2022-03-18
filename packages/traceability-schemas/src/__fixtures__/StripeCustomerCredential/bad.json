@@ -1,0 +1,38 @@
+[
+  {
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11",
+    "program": "reboot",
+    "capacitor": "back up"
+  },
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": [
+      "StripeCustomerCredential",
+      "VerifiableCredential"
+    ],
+    "holder": "did:mobi:f436e12ec21ebfdb1f712ebc3h",
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11",
+    "port": "generate"
+  },
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": [
+      "StripeCustomerCredential",
+      "VerifiableCredential"
+    ],
+    "holder": "did:mobi:f436e12ec21ebfdb1f712ebc3h",
+    "customerID": "customer123",
+    "expirationDate": "2022-07-11",
+    "system": "navigate",
+    "bandwidth": "input",
+    "port": "compress"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": [
+      "StripeCustomerCredential",
+      "VerifiableCredential"
+    ],
+    "holder": "did:mobi:f436e12ec21ebfdb1f712ebc3h",
+    "customerID": "customer123",
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11"
+  },
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": [
+      "StripeCustomerCredential",
+      "VerifiableCredential"
+    ],
+    "holder": "did:mobi:f436e12ec21ebfdb1f712ebc3h",
+    "customerID": "customer123",
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11"
+  },
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": [
+      "StripeCustomerCredential",
+      "VerifiableCredential"
+    ],
+    "holder": "did:mobi:f436e12ec21ebfdb1f712ebc3h",
+    "customerID": "customer123",
+    "issuanceDate": "2021-03-09",
+    "expirationDate": "2022-07-11"
+  }
+]

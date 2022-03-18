@@ -1,5 +1,5 @@
 {
-    "$id": "https://dlt.mobi/mobility-schema/schemas/schemas/User.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/User.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": "{\"term\": \"User\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#User\"}",
     "title": "User",
@@ -22,7 +22,7 @@
         "EntityInfo": {
             "$comment": "{\"term\": \"EntityInfo\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#EC\"}",
             "title": "EntityInfo",
-            "$ref": "https://dlt.mobi/mobility-schema/schemas/schemas/EC.json"
+            "$ref": "https://dlt.mobi/mobility-schema/schemas/EC.json"
         },
         "PermissionedURI": {
             "$comment": "{\"term\": \"PermissionedURI\", \"@id\": \"https://schema.org/url\"}",

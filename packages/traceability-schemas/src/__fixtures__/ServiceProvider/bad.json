@@ -1,0 +1,62 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "ServiceProvider",
+    "EntityInfo": {
+      "type": "EC",
+      "EntityType": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+      "PubKey": "pubkey",
+      "RevURI": "sampleuri",
+      "ALURI": "sampleuri",
+      "BLURI": "blocked uri",
+      "SignAlgo": "algo",
+      "HashAlgo": "algo",
+      "Expiration": "10-19-2021",
+      "IssuerSig": "sig"
+    },
+    "PhoneNumber": "312-888-0766",
+    "Email": "hi@dlt.mobi",
+    "hard drive": "generate",
+    "sensor": "program",
+    "alarm": "index"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "ServiceProvider",
+    "EntityInfo": {
+      "type": "EC",
+      "EntityType": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+      "PubKey": "pubkey",
+      "RevURI": "sampleuri",
+      "ALURI": "sampleuri",
+      "BLURI": "blocked uri",
+      "SignAlgo": "algo",
+      "HashAlgo": "algo",
+      "Expiration": "10-19-2021",
+      "IssuerSig": "sig"
+    },
+    "Address": "entity address",
+    "PhoneNumber": "312-888-0766",
+    "array": "input",
+    "alarm": "copy",
+    "panel": "hack",
+    "hard drive": "program"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "LegalName": "mobi",
+    "Address": "entity address",
+    "PhoneNumber": "312-888-0766",
+    "Email": "hi@dlt.mobi",
+    "program": "connect",
+    "microchip": "index",
+    "transmitter": "reboot",
+    "port": "quantify"
+  }
+]

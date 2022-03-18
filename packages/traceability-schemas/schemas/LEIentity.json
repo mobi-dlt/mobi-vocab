@@ -1,5 +1,5 @@
 {
-    "$id": "https://dlt.mobi/mobility-schema/schemas/schemas/LEIentity.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/LEIentity.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": "{\"term\": \"LEIentity\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#LEIentity\"}",
     "title": "LEIentity",
@@ -61,17 +61,17 @@
             "legalAddress": {
                 "$comment": "{\"term\": \"legalAddress\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#LEIaddress\"}",
                 "title": "LegalAddress",
-                "$ref": "https://dlt.mobi/mobility-schema/schemas/schemas/LEIaddress.json"
+                "$ref": "https://dlt.mobi/mobility-schema/schemas/LEIaddress.json"
             },
             "headquartersAddress": {
                 "$comment": "{\"term\": \"headquartersAddress\", \"@id\": \"https://schema.org/PostalAddress\"}",
                 "title": "HeadquartersAddress",
-                "$ref": "https://dlt.mobi/mobility-schema/schemas/schemas/LEIaddress.json"
+                "$ref": "https://dlt.mobi/mobility-schema/schemas/LEIaddress.json"
             },
             "registrationAuthority": {
                 "$comment": "{\"term\": \"registrationAuthority\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#LEIauthority\"}",
                 "title": "RegistrationAuthority",
-                "$ref": "https://dlt.mobi/mobility-schema/schemas/schemas/LEIauthority.json"
+                "$ref": "https://dlt.mobi/mobility-schema/schemas/LEIauthority.json"
             },
             "legalJurisdiction": {
                 "$comment": "{\"term\": \"legalJurisdiction\", \"@id\": \"https://schema.org/countryOfOrigin\"}",
@@ -91,7 +91,7 @@
             "associatedEntity": {
                 "$comment": "{\"term\": \"associatedEntity\", \"@id\": \"https://schema.org/Organization\"}",
                 "title": "AssociatedEntity",
-                "$ref": "https://dlt.mobi/mobility-schema/schemas/schemas/Organization.json"
+                "$ref": "https://dlt.mobi/mobility-schema/schemas/Organization.json"
             },
             "status": {
                 "$comment": "{\"term\": \"status\", \"@id\": \"https://schema.org/status\"}",
@@ -111,14 +111,14 @@
             "successorEntity": {
                 "$comment": "{\"term\": \"successorEntity\", \"@id\": \"https://schema.org/Corporation\"}",
                 "title": "SuccessorEntity",
-                "$ref": "https://dlt.mobi/mobility-schema/schemas/schemas/Organization.json"
+                "$ref": "https://dlt.mobi/mobility-schema/schemas/Organization.json"
             },
             "otherAddresses": {
                 "$comment": "{\"term\": \"otherAddresses\", \"@id\": \"https://schema.org/Place\"}",
                 "title": "OtherAddresses",
                 "type": "array",
                 "items": {
-                "$ref": "https://dlt.mobi/mobility-schema/schemas/schemas/LEIaddress.json"
+                "$ref": "https://dlt.mobi/mobility-schema/schemas/LEIaddress.json"
                 }
             }
     },

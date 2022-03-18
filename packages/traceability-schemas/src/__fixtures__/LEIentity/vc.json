@@ -1,0 +1,88 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://dlt.mobi/mobility-schema/schemas"
+  ],
+  "id": "http://example.org/credentials/",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuanceDate": "2021-02-04T20:29:37+00:00",
+  "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
+  "credentialSubject": {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "LEIentity",
+    "legalName": "Stracke, Kozey and Emmerich",
+    "legalNameLanguage": "fr",
+    "otherNames": [
+      "McGlynn - Cremin",
+      "Feil LLC"
+    ],
+    "transliteratedOtherNames": [
+      "McGlynn - Cremin",
+      "Feil LLC"
+    ],
+    "legalAddress": {
+      "type": "LEIaddress",
+      "language": "de_AT",
+      "addressLines": [
+        "Bailey and Sons",
+        "6223 Andre Point"
+      ],
+      "addressNumber": "304",
+      "addressNumberWithinBuilding": "3",
+      "mailRouting": "1921 Mariam Pine, 44477",
+      "city": "Aftonshire",
+      "region": "Bedfordshire",
+      "country": "Nicaragua",
+      "postalCode": "18167"
+    },
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "en_ZA",
+      "addressLines": [
+        "Ullrich - Goodwin",
+        "8514 Farrell Haven"
+      ],
+      "addressNumber": "133",
+      "addressNumberWithinBuilding": "1",
+      "mailRouting": "3604 Annamarie Motorway, 80265-2856",
+      "city": "Kaceyberg",
+      "region": "Avon",
+      "country": "Samoa",
+      "postalCode": "43160"
+    },
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000661",
+      "otherValidationAuthorityID": "ZDNDKZQG",
+      "validationAuthorityEntityID": "GC2KK3YY6MOR76JE3FGT"
+    },
+    "legalJurisdiction": "Borders",
+    "entityCategory": "Grocery",
+    "legalForm": "CORPORATION",
+    "associatedEntity": {
+      "type": "Organization",
+      "leiCode": "WRCK89SA9QTUFOOT3RM5",
+      "name": "O'Reilly Group"
+    },
+    "status": "IN PROGRESS",
+    "expirationDate": "2022-07-11",
+    "expirationReason": "grow plug-and-play niches",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "84EZ50ZQXRJ8UOI3M93S",
+      "name": "Stracke, Champlin and Mohr"
+    },
+    "otherAddresses": []
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2019-12-11T03:50:55Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..PBeLv1ohzinlPv_sHEAXTLFOKURKrWyvrfEIUcOjRTcMFocZdFJ5C5EmM_4ZPidJ87RfI20qIAkt7IXhlNShCg",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
+  }
+}

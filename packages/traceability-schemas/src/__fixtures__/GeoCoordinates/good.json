@@ -1,0 +1,26 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "GeoCoordinates",
+    "latitude": "87.5993",
+    "longitude": "25.5256"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "GeoCoordinates",
+    "latitude": "-27.7170",
+    "longitude": "21.4735"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "GeoCoordinates",
+    "latitude": "58.4126",
+    "longitude": "-151.7118"
+  }
+]

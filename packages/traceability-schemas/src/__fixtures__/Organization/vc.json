@@ -1,0 +1,38 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://dlt.mobi/mobility-schema/schemas"
+  ],
+  "id": "http://example.org/credentials/",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuanceDate": "2021-02-04T20:29:37+00:00",
+  "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
+  "credentialSubject": {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "Organization",
+    "name": "Klocko, Jaskolski and Kihn",
+    "description": "Stand-alone methodical process improvement",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "9047 McKenzie Trace",
+      "addressLocality": "West Jennyfer",
+      "addressRegion": "Iowa",
+      "postalCode": "25743-6594",
+      "addressCountry": "Guinea"
+    },
+    "email": "Kiel.Schoen20@example.com",
+    "phoneNumber": "555-619-7531",
+    "faxNumber": "555-879-9050"
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2019-12-11T03:50:55Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..NYjlYIC00jSAo-K28ATWTwHKYM0q_3NXi0c9Wo4aJsBob1oO76urIUueetuu7uhxuLlHU1EpOINs-Pm_9pT9Dg",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
+  }
+}

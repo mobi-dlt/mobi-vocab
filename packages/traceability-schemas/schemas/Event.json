@@ -1,5 +1,5 @@
 {
-    "$id": "https://dlt.mobi/mobility-schema/schemas/schemas/Event.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/Event.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": "{\"term\": \"Event\", \"@id\": \"https://schema.org/Event\"}",
     "title": "Organization",
@@ -37,14 +37,14 @@
             "description": "The organization performing the activity.",
             "type": "array",
             "items": {
-                "$ref": "https://dlt.mobi/mobility-schema/schemas/schemas/Entity.json"
+                "$ref": "https://dlt.mobi/mobility-schema/schemas/Entity.json"
             }
         },
         "place": {
             "$comment": "{\"term\": \"place\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#place\"}",
             "title": "Event Location",
             "description": "The location where the event took place.",
-            "$ref": "https://dlt.mobi/mobility-schema/schemas/schemas/Place.json"
+            "$ref": "https://dlt.mobi/mobility-schema/schemas/Place.json"
         },
         "eventTime": {
             "$comment": "{\"term\": \"eventTime\", \"@id\": \"https://schema.org/DateTime#v2\"}",
@@ -58,7 +58,7 @@
             "description": "The products referenced by the event.",
             "type": "array",
             "items": {
-                "$ref": "https://dlt.mobi/mobility-schema/schemas/schemas/Product.json"
+                "$ref": "https://dlt.mobi/mobility-schema/schemas/Product.json"
             }
         }
     },

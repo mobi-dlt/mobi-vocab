@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://dlt.mobi/mobility-schema/schemas"
+  ],
+  "id": "http://example.org/credentials/",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuanceDate": "2021-02-04T20:29:37+00:00",
+  "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
+  "credentialSubject": {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "ControlAcceptance",
+    "SellerID": "did:mobi:e436e12ec21ebfeb1f712ebc3f",
+    "BuyerID": "BuyerID",
+    "ExchangeRate": "ExchangeRate",
+    "SuccessCriteria": "SuccessCriteria",
+    "SettlementURI": "SettlementURI",
+    "PaymentPlatform": "PaymentPlatformPaymentPlatform"
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2019-12-11T03:50:55Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..EuFKmAYMU3C4L8gFzpOkRJfldn5eNVa0IktxVPeUUjdVX5Rbng1-QekFCN7mHWttMzHaDOPtzbm4XQGwU6ToAA",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
+  }
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "Person",
+    "firstName": "Delmer",
+    "lastName": "Dare",
+    "email": "Jessica.Cummerata@example.com",
+    "phoneNumber": "555-921-2267",
+    "worksFor": {
+      "type": "Organization",
+      "name": "Konopelski - Heidenreich",
+      "description": "Multi-tiered optimal synergy",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "383 McLaughlin Motorway",
+        "addressLocality": "Graycebury",
+        "addressRegion": "Arizona",
+        "postalCode": "32870-6313",
+        "addressCountry": "Iraq"
+      },
+      "email": "Kylie45@example.com",
+      "phoneNumber": "555-583-8771",
+      "faxNumber": "555-927-9306"
+    },
+    "jobTitle": "Chief Paradigm Coordinator"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "Person",
+    "firstName": "Chloe",
+    "lastName": "Harvey",
+    "email": "Archibald.West27@example.net",
+    "phoneNumber": "555-239-1926",
+    "worksFor": {
+      "type": "Organization",
+      "name": "Ratke, Kling and Legros",
+      "description": "Open-source intangible help-desk",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "52530 Herta Keys",
+        "addressLocality": "Lake Stanborough",
+        "addressRegion": "Hawaii",
+        "postalCode": "16034",
+        "addressCountry": "Sri Lanka"
+      },
+      "email": "Gregorio_Kuphal@example.com",
+      "phoneNumber": "555-608-6287",
+      "faxNumber": "555-159-3646"
+    },
+    "jobTitle": "Future Interactions Technician"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "Person",
+    "firstName": "Kristopher",
+    "lastName": "Nolan",
+    "email": "Mckayla_Trantow62@example.com",
+    "phoneNumber": "555-263-8887",
+    "worksFor": {
+      "type": "Organization",
+      "name": "Hane Group",
+      "description": "Cloned 24/7 migration",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "51375 Mackenzie Estate",
+        "addressLocality": "Davionchester",
+        "addressRegion": "California",
+        "postalCode": "29768-8893",
+        "addressCountry": "United States of America"
+      },
+      "email": "Mya.Durgan12@example.org",
+      "phoneNumber": "555-701-2269",
+      "faxNumber": "555-284-4657"
+    },
+    "jobTitle": "National Tactics Engineer"
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://dlt.mobi/mobility-schema/schemas"
+  ],
+  "id": "http://example.org/credentials/",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuanceDate": "2021-02-04T20:29:37+00:00",
+  "issuer": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
+  "credentialSubject": {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "type": "BatterySOH",
+    "batteryid": {
+      "type": "BatteryID",
+      "vid": {
+        "type": "VID",
+        "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+        "manufacturer": {
+          "type": "Person",
+          "firstName": "Mauricio",
+          "lastName": "Kuphal",
+          "email": "Elise99@example.net",
+          "phoneNumber": "555-322-3266",
+          "worksFor": {
+            "type": "Organization",
+            "name": "Cummings, Hand and Erdman",
+            "description": "Open-architected leading edge orchestration",
+            "address": {
+              "type": "PostalAddress",
+              "streetAddress": "91226 Schumm Lane",
+              "addressLocality": "Port Ellsworth",
+              "addressRegion": "Alabama",
+              "postalCode": "55442",
+              "addressCountry": "Papua New Guinea"
+            },
+            "email": "Frank.Bergnaum96@example.com",
+            "phoneNumber": "555-207-3424",
+            "faxNumber": "555-403-3197"
+          },
+          "jobTitle": "Lead Functionality Orchestrator"
+        },
+        "make": "Ford",
+        "model": "Mach_E",
+        "vin": "JTERU5JR7M5861170"
+      },
+      "batteryid": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+      "serialNumber": "2345H152031173270027"
+    },
+    "previousSOHVal": "95",
+    "previousSOHTimeStamp": "2020-5-17",
+    "newSOHVal": "94",
+    "newSOHTimeStamp": "2020-10-17",
+    "chargeCycles": "30",
+    "maxCapacity": "87",
+    "impedance": "70",
+    "batteryAge": "1.2"
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2019-12-11T03:50:55Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..npNpcZPHuoy1ETD2ruEBkySAjFiCt5sco16ZBgbkKs191xF2tbFl5DzCO3ENfKSH_n0IcsYRufKu_Nj7dUrSAQ",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
+  }
+}

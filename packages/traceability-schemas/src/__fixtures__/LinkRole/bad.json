@@ -1,0 +1,27 @@
+[
+  {
+    "type": "LinkRole",
+    "target": "https://example.com/related/link/123",
+    "linkRelationship": "alternate",
+    "interface": "index",
+    "panel": "index",
+    "driver": "copy",
+    "application": "hack"
+  },
+  {
+    "target": "https://example.com/related/link/123",
+    "linkRelationship": "alternate",
+    "circuit": "program"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema/schemas"
+    ],
+    "target": "https://example.com/related/link/123",
+    "linkRelationship": "alternate",
+    "array": "copy",
+    "sensor": "program",
+    "system": "quantify",
+    "matrix": "transmit"
+  }
+]
