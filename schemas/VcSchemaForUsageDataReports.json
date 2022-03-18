@@ -1,0 +1,145 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForUsageDataReports.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"VcSchemaForUsageDataReports\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#VcSchemaForUsageDataReports\"}",
+    "title": "VcSchemaForUsageDataReports",
+    "description": "Attributes necessary to construct verifiable credential for usage based data reports",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "infraOwnerEntityId": {
+            "$comment": "{\"term\": \"infraOwnerEntityId\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "infraOwnerEntityId",
+            "description": "the time and date of the accident/damage/event",
+            "type": "string"
+        },
+        "dateTime": {
+            "$comment": "{\"term\": \"dateTime\", \"@id\": \"https://schema.org/DateTime\"}",
+            "title": "dateTime",
+            "description": "the time and date of the accident/damage/event",
+            "type": "string"
+        },
+        "energyConsumed": {
+            "$comment": "{\"term\": \"energyConsumed\", \"@id\": \"https://schema.org/amount\"}",
+            "title": "energyConsumed",
+            "description": "the amount of energy consumed",
+            "type": "string"
+        },
+        "chargerId": {
+            "$comment": "{\"term\": \"chargerId\", \"@id\": \"https://schema.org/accountId\"}",
+            "title": "chargerId",
+            "description": "the ID of the charger",
+            "type": "string"
+        },
+        "chargeStartTime": {
+            "$comment": "{\"term\": \"chargeStartTime\", \"@id\": \"https://schema.org/startTime\"}",
+            "title": "chargeStartTime",
+            "description": "the start time of the charging session",
+            "type": "string"
+        },
+        "chargeEndTime": {
+            "$comment": "{\"term\": \"chargeEndTime\", \"@id\": \"https://schema.org/availabilityEnds\"}",
+            "title": "chargeEndTime",
+            "description": "the end time of the charging session",
+            "type": "string"
+        },
+        "meterId": {
+            "$comment": "{\"term\": \"meterId\", \"@id\": \"https://schema.org/productId\"}",
+            "title": "meterId",
+            "description": "the ID of the meter",
+            "type": "string"
+        },
+        "chargingDataSource": {
+            "$comment": "{\"term\": \"chargingDataSource\", \"@id\": \"https://schema.org/text\"}",
+            "title": "chargingDataSource",
+            "description": "the source of the charging data, such as the meter, the vehicle telematics, the charger, etc.",
+            "type": "string"
+        },
+        "chargerGeolocation": {
+            "$comment": "{\"term\": \"chargerGeolocation\", \"@id\": \"https://schema.org/location\"}",
+            "title": "chargerGeolocation",
+            "description": "the charger's location",
+            "type": "string"
+        },
+        "fuelStationId": {
+            "$comment": "{\"term\": \"fuelStationId\", \"@id\": \"https://schema.org/merchant\"}",
+            "title": "fuelStationId",
+            "description": "the entity ID of the fuel station ",
+            "type": "string"
+        },
+        "fuelType": {
+            "$comment": "{\"term\": \"fuelType\", \"@id\": \"https://schema.org/fuelType\"}",
+            "title": "fuelType",
+            "description": "the type of fuel",
+            "type": "string"
+        },
+        "fuelVolumeConsumed": {
+            "$comment": "{\"term\": \"fuelVolumeConsumed\", \"@id\": \"https://schema.org/item\"}",
+            "title": "fuelVolumeConsumed",
+            "description": "the amount of fuel consumed.",
+            "type": "string"
+        },
+        "fuelEventDataSource": {
+            "$comment": "{\"term\": \"fuelEventDataSource\", \"@id\": \"https://schema.org/description\"}",
+            "title": "fuelEventDataSource",
+            "description": "the data source for the fuel event data",
+            "type": "string"
+        },
+        "fuelEventGeolocation": {
+            "$comment": "{\"term\": \"fuelEventGeolocation\", \"@id\": \"https://schema.org/serviceLocation\"}",
+            "title": "fuelEventGeolocation",
+            "description": "geolocation of the fueling event",
+            "type": "string"
+        },
+        "parkingAtHome": {
+            "$comment": "{\"term\": \"parkingAtHome\", \"@id\": \"https://schema.org/homeLocation\"}",
+            "title": "parkingAtHome",
+            "description": "parking at home",
+            "type": "string"
+        },
+        "parkingAtWork": {
+            "$comment": "{\"term\": \"parkingAtWork\", \"@id\": \"https://schema.org/workLocation\"}",
+            "title": "parkingAtWork",
+            "description": "parking at work",
+            "type": "string"
+        },
+        "parkingEventDateTime": {
+            "$comment": "{\"term\": \"parkingEventDateTime\", \"@id\": \"https://schema.org/startDate\"}",
+            "title": "parkingEventDateTime",
+            "description": "aftermarket part whose condition is like new",
+            "type": "string"
+        },
+        "parkingEventGeolocation": {
+            "$comment": "{\"term\": \"parkingEventGeolocation\", \"@id\": \"https://schema.org/geo\"}",
+            "title": "parkingEventGeolocation",
+            "description": "the number of the police report associated with accident",
+            "type": "string"
+        },
+        "parkingEventType": {
+            "$comment": "{\"term\": \"parkingEventType\", \"@id\": \"https://schema.org/additionalType\"}",
+            "title": "parkingEventType",
+            "description": "the type of parking event",
+            "type": "string"
+        },
+        "jurisdictionSpecificRequirement": {
+            "$comment": "{\"term\": \"jurisdictionSpecificRequirement\", \"@id\": \"https://schema.org/additionalProperty\"}",
+            "title": "jurisdictionSpecificRequirement",
+            "description": "any metadata not captured by previous attributes",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}

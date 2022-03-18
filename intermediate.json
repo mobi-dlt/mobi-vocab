@@ -1080,7 +1080,7 @@
           "@id": "https://schema.org/latitude"
         },
         "title": "Latitude",
-        "description": "Angular distance North or South from the earth's equator measured through 90 degrees."
+        "description": "Angular distance North or South from the earth's equator measured through 90 degrees. Latitude of location based on ISO 6709"
       },
       "https://schema.org/longitude": {
         "$comment": {
@@ -1088,7 +1088,31 @@
           "@id": "https://schema.org/longitude"
         },
         "title": "Longitude",
-        "description": "The arc or portion of the earth's equator intersected between the meridian of a given place and the prime meridian and expressed in degrees."
+        "description": "The arc or portion of the earth's equator intersected between the meridian of a given place and the prime meridian and expressed in degrees. Longitude of location based on ISO 6709"
+      },
+      "https://schema.org/elevation": {
+        "$comment": {
+          "term": "elevation",
+          "@id": "https://schema.org/elevation"
+        },
+        "title": "elevation",
+        "description": "Elevation of coordinate."
+      },
+      "https://schema.org/dateCreated": {
+        "$comment": {
+          "term": "timestamp",
+          "@id": "https://schema.org/dateCreated"
+        },
+        "title": "timestamp",
+        "description": "Date and Time based on IETF RFC 3339."
+      },
+      "https://schema.org/description": {
+        "$comment": {
+          "term": "locationDescription",
+          "@id": "https://schema.org/description"
+        },
+        "title": "locationDescription",
+        "description": "Description of location such as \"Free Standing Residential Home\" \nor may be a URI that points to a more detailed description such as an address registry. Date and Time based on IETF RFC 3339."
       }
     },
     "schema": {
@@ -1098,6 +1122,10 @@
       "title": "Geographic Coordinates",
       "description": "The geographic coordinates of a place or event.",
       "type": "object",
+      "required": [
+        "latitude",
+        "longitude"
+      ],
       "properties": {
         "@context": {
           "type": "array"
@@ -1115,20 +1143,34 @@
         "latitude": {
           "$comment": "{\"term\": \"latitude\", \"@id\": \"https://schema.org/latitude\"}",
           "title": "Latitude",
-          "description": "Angular distance North or South from the earth's equator measured through 90 degrees.",
+          "description": "Angular distance North or South from the earth's equator measured through 90 degrees. Latitude of location based on ISO 6709",
           "type": "string"
         },
         "longitude": {
           "$comment": "{\"term\": \"longitude\", \"@id\": \"https://schema.org/longitude\"}",
           "title": "Longitude",
-          "description": "The arc or portion of the earth's equator intersected between the meridian of a given place and the prime meridian and expressed in degrees.",
+          "description": "The arc or portion of the earth's equator intersected between the meridian of a given place and the prime meridian and expressed in degrees. Longitude of location based on ISO 6709",
+          "type": "string"
+        },
+        "elevation": {
+          "$comment": "{\"term\": \"elevation\", \"@id\": \"https://schema.org/elevation\"}",
+          "title": "elevation",
+          "description": "Elevation of coordinate.",
+          "type": "string"
+        },
+        "timestamp": {
+          "$comment": "{\"term\": \"timestamp\", \"@id\": \"https://schema.org/dateCreated\"}",
+          "title": "timestamp",
+          "description": "Date and Time based on IETF RFC 3339.",
+          "type": "string"
+        },
+        "locationDescription": {
+          "$comment": "{\"term\": \"locationDescription\", \"@id\": \"https://schema.org/description\"}",
+          "title": "locationDescription",
+          "description": "Description of location such as \"Free Standing Residential Home\" \nor may be a URI that points to a more detailed description such as an address registry. Date and Time based on IETF RFC 3339.",
           "type": "string"
         }
       },
-      "required": [
-        "latitude",
-        "longitude"
-      ],
       "additionalProperties": false,
       "examples": []
     }
@@ -4543,6 +4585,2461 @@
           "$comment": "{\"term\": \"vin\", \"@id\": \"https://schema.org/vehicleIdentificationNumber\"}",
           "title": "vin",
           "description": "vin number.",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#VcSchemaForAccidentDamageAndTheftReports": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForAccidentDamageAndTheftReports.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "VcSchemaForAccidentDamageAndTheftReports",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#VcSchemaForAccidentDamageAndTheftReports"
+    },
+    "title": "VcSchemaForAccidentDamageAndTheftReports",
+    "description": "Attributes necessary to construct verifiable credential for accident, damage, and theft reports",
+    "classProperties": {
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "eventId",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "maintenanceType",
+        "description": "Type of maintenance as defined in ISO 18542"
+      },
+      "https://dlt.mobi/mobility-schema#VID": {
+        "$comment": {
+          "term": "vid",
+          "@id": "https://dlt.mobi/mobility-schema#VID"
+        },
+        "title": "vid",
+        "description": "MOBI VID"
+      },
+      "https://schema.org/propertyID": {
+        "$comment": {
+          "term": "reportID",
+          "@id": "https://schema.org/propertyID"
+        },
+        "title": "dateOfTx",
+        "description": "unique identifier for the accident/damage/event"
+      },
+      "https://schema.org/definedTerm": {
+        "$comment": {
+          "term": "insuranceClaimNumber",
+          "@id": "https://schema.org/definedTerm"
+        },
+        "title": "transactionID",
+        "description": "the number for the insurance claim"
+      },
+      "https://schema.org/orderNumber": {
+        "$comment": {
+          "term": "repairOrderNumber",
+          "@id": "https://schema.org/orderNumber"
+        },
+        "title": "repairOrderNumber",
+        "description": "order number for the repair"
+      },
+      "https://schema.org/additionalProperty": {
+        "$comment": {
+          "term": "driverID",
+          "@id": "https://schema.org/additionalProperty"
+        },
+        "title": "driverID",
+        "description": "unique identifier for the driver"
+      },
+      "https://schema.org/location": {
+        "$comment": {
+          "term": "geolocation",
+          "@id": "https://schema.org/location"
+        },
+        "title": "geolocation",
+        "description": "the vehicle's location at time of accident"
+      },
+      "https://schema.org/DateTime": {
+        "$comment": {
+          "term": "dateTime",
+          "@id": "https://schema.org/DateTime"
+        },
+        "title": "dateTime",
+        "description": "the time and date of the accident/damage/event"
+      },
+      "https://schema.org/description": {
+        "$comment": {
+          "term": "eventDescription",
+          "@id": "https://schema.org/description"
+        },
+        "title": "processorID",
+        "description": "identifier for the transaction processor"
+      },
+      "https://schema.org/text": {
+        "$comment": {
+          "term": "jurisdictionSpecificRequirement",
+          "@id": "https://schema.org/text"
+        },
+        "title": "jurisdictionSpecificRequirement",
+        "description": "any metadata not captured by previous attributes"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForAccidentDamageAndTheftReports.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"VcSchemaForAccidentDamageAndTheftReports\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#VcSchemaForAccidentDamageAndTheftReports\"}",
+      "title": "VcSchemaForAccidentDamageAndTheftReports",
+      "description": "Attributes necessary to construct verifiable credential for accident, damage, and theft reports",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "eventId": {
+          "$comment": "{\"term\": \"eventId\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "maintenanceType",
+          "description": "Type of maintenance as defined in ISO 18542",
+          "type": "string"
+        },
+        "vid": {
+          "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility-schema#VID\"}",
+          "title": "vid",
+          "description": "MOBI VID"
+        },
+        "reportID": {
+          "$comment": "{\"term\": \"reportID\", \"@id\": \"https://schema.org/propertyID\"}",
+          "title": "dateOfTx",
+          "description": "unique identifier for the accident/damage/event",
+          "type": "string"
+        },
+        "insuranceClaimNumber": {
+          "$comment": "{\"term\": \"insuranceClaimNumber\", \"@id\": \"https://schema.org/definedTerm\"}",
+          "title": "transactionID",
+          "description": "the number for the insurance claim",
+          "type": "string"
+        },
+        "repairOrderNumber": {
+          "$comment": "{\"term\": \"repairOrderNumber\", \"@id\": \"https://schema.org/orderNumber\"}",
+          "title": "repairOrderNumber",
+          "description": "order number for the repair",
+          "type": "string"
+        },
+        "driverID": {
+          "$comment": "{\"term\": \"driverID\", \"@id\": \"https://schema.org/additionalProperty\"}",
+          "title": "driverID",
+          "description": "unique identifier for the driver",
+          "type": "string"
+        },
+        "geolocation": {
+          "$comment": "{\"term\": \"geolocation\", \"@id\": \"https://schema.org/location\"}",
+          "title": "geolocation",
+          "description": "the vehicle's location at time of accident",
+          "type": "string"
+        },
+        "dateTime": {
+          "$comment": "{\"term\": \"dateTime\", \"@id\": \"https://schema.org/DateTime\"}",
+          "title": "dateTime",
+          "description": "the time and date of the accident/damage/event",
+          "type": "string"
+        },
+        "eventDescription": {
+          "$comment": "{\"term\": \"eventDescription\", \"@id\": \"https://schema.org/description\"}",
+          "title": "processorID",
+          "description": "identifier for the transaction processor",
+          "type": "string"
+        },
+        "jurisdictionSpecificRequirement": {
+          "$comment": "{\"term\": \"jurisdictionSpecificRequirement\", \"@id\": \"https://schema.org/text\"}",
+          "title": "jurisdictionSpecificRequirement",
+          "description": "any metadata not captured by previous attributes",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#VcSchemaForEndOfLifeDocuments": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForEndOfLifeDocuments.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "VcSchemaForEndOfLifeDocuments",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#VcSchemaForEndOfLifeDocuments"
+    },
+    "title": "VcSchemaForEndOfLifeDocuments",
+    "description": "Attributes necessary to construct verifiable credential for end of life documents",
+    "classProperties": {
+      "https://schema.org/additionalType": {
+        "$comment": {
+          "term": "endOfLifeDispositionType",
+          "@id": "https://schema.org/additionalType"
+        },
+        "title": "endOfLifeDispositionType",
+        "description": "the type of end of life disposition"
+      },
+      "https://dlt.mobi/mobility-schema#VID": {
+        "$comment": {
+          "term": "vid",
+          "@id": "https://dlt.mobi/mobility-schema#VID"
+        },
+        "title": "vid",
+        "description": "Logo of the entity."
+      },
+      "https://schema.org/description": {
+        "$comment": {
+          "term": "reason",
+          "@id": "https://schema.org/description"
+        },
+        "title": "reason",
+        "description": "reason for the vehicle's end of life"
+      },
+      "https://schema.org/DateTime": {
+        "$comment": {
+          "term": "eventDateTime",
+          "@id": "https://schema.org/DateTime"
+        },
+        "title": "eventDateTime",
+        "description": "date and time of the event associated with vehicle's end of life"
+      },
+      "https://schema.org/brand": {
+        "$comment": {
+          "term": "dispositionGeolocation",
+          "@id": "https://schema.org/brand"
+        },
+        "title": "dispositionGeolocation",
+        "description": "the geolocation of the disposition"
+      },
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "prevOwnerId",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "chargeEndTime",
+        "description": "the ID of the previous owner(s)"
+      },
+      "https://schema.org/text": {
+        "$comment": {
+          "term": "newOwnerId",
+          "@id": "https://schema.org/text"
+        },
+        "title": "newOwnerId",
+        "description": "the Id of the new owner(s)"
+      },
+      "https://schema.org/PropertyValue": {
+        "$comment": {
+          "term": "titleNumber",
+          "@id": "https://schema.org/PropertyValue"
+        },
+        "title": "titleNumber",
+        "description": "the identifying number for the title"
+      },
+      "https://schema.org/legalName": {
+        "$comment": {
+          "term": "titleAuthority",
+          "@id": "https://schema.org/legalName"
+        },
+        "title": "titleAuthority",
+        "description": "the authority that issued that title"
+      },
+      "https://schema.org/productId": {
+        "$comment": {
+          "term": "wasteCert",
+          "@id": "https://schema.org/productId"
+        },
+        "title": "wasteCert",
+        "description": "the waste certificates"
+      },
+      "https://schema.org/additionalProperty": {
+        "$comment": {
+          "term": "jurisdictionSpecificRequirement",
+          "@id": "https://schema.org/additionalProperty"
+        },
+        "title": "jurisdictionSpecificRequirement",
+        "description": "any metadata not captured by previous attributes"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForEndOfLifeDocuments.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"VcSchemaForEndOfLifeDocuments\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#VcSchemaForEndOfLifeDocuments\"}",
+      "title": "VcSchemaForEndOfLifeDocuments",
+      "description": "Attributes necessary to construct verifiable credential for end of life documents",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "endOfLifeDispositionType": {
+          "$comment": "{\"term\": \"endOfLifeDispositionType\", \"@id\": \"https://schema.org/additionalType\"}",
+          "title": "endOfLifeDispositionType",
+          "description": "the type of end of life disposition",
+          "type": "string"
+        },
+        "vid": {
+          "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility-schema#VID\"}",
+          "title": "vid",
+          "description": "Logo of the entity."
+        },
+        "reason": {
+          "$comment": "{\"term\": \"reason\", \"@id\": \"https://schema.org/description\"}",
+          "title": "reason",
+          "description": "reason for the vehicle's end of life",
+          "type": "string"
+        },
+        "eventDateTime": {
+          "$comment": "{\"term\": \"eventDateTime\", \"@id\": \"https://schema.org/DateTime\"}",
+          "title": "eventDateTime",
+          "description": "date and time of the event associated with vehicle's end of life",
+          "type": "string"
+        },
+        "dispositionGeolocation": {
+          "$comment": "{\"term\": \"dispositionGeolocation\", \"@id\": \"https://schema.org/brand\"}",
+          "title": "dispositionGeolocation",
+          "description": "the geolocation of the disposition",
+          "type": "string"
+        },
+        "prevOwnerId": {
+          "$comment": "{\"term\": \"prevOwnerId\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "chargeEndTime",
+          "description": "the ID of the previous owner(s)",
+          "type": "string"
+        },
+        "newOwnerId": {
+          "$comment": "{\"term\": \"newOwnerId\", \"@id\": \"https://schema.org/text\"}",
+          "title": "newOwnerId",
+          "description": "the Id of the new owner(s)",
+          "type": "string"
+        },
+        "titleNumber": {
+          "$comment": "{\"term\": \"titleNumber\", \"@id\": \"https://schema.org/PropertyValue\"}",
+          "title": "titleNumber",
+          "description": "the identifying number for the title",
+          "type": "string"
+        },
+        "titleAuthority": {
+          "$comment": "{\"term\": \"titleAuthority\", \"@id\": \"https://schema.org/legalName\"}",
+          "title": "titleAuthority",
+          "description": "the authority that issued that title",
+          "type": "string"
+        },
+        "wasteCert": {
+          "$comment": "{\"term\": \"wasteCert\", \"@id\": \"https://schema.org/productId\"}",
+          "title": "wasteCert",
+          "description": "the waste certificates",
+          "type": "string"
+        },
+        "jurisdictionSpecificRequirement": {
+          "$comment": "{\"term\": \"jurisdictionSpecificRequirement\", \"@id\": \"https://schema.org/additionalProperty\"}",
+          "title": "jurisdictionSpecificRequirement",
+          "description": "any metadata not captured by previous attributes",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#VcSchemaForInspectionsReport": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForInspectionsReport.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "VcSchemaForInspectionsReport",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#VcSchemaForInspectionsReport"
+    },
+    "title": "VcSchemaForInspectionsReport",
+    "description": "Attributes necessary to construct verifiable credential for inspections report",
+    "classProperties": {
+      "https://schema.org/DateTime": {
+        "$comment": {
+          "term": "dateTime",
+          "@id": "https://schema.org/DateTime"
+        },
+        "title": "dateTime",
+        "description": "the time and date"
+      },
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "serviceProviderEntityId",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "serviceProviderEntityId",
+        "description": "the entity ID associated with the service provider"
+      },
+      "https://schema.org/name": {
+        "$comment": {
+          "term": "serviceProviderName",
+          "@id": "https://schema.org/name"
+        },
+        "title": "serviceProviderName",
+        "description": "the name of the service provider"
+      },
+      "https://schema.org/text": {
+        "$comment": {
+          "term": "serviceInspectorId",
+          "@id": "https://schema.org/text"
+        },
+        "title": "serviceInspectorId",
+        "description": "the decentralized identifier (DID) associated with the service inspector "
+      },
+      "https://schema.org/additionalType": {
+        "$comment": {
+          "term": "inspectionType",
+          "@id": "https://schema.org/additionalType"
+        },
+        "title": "inspectionType",
+        "description": "the type of inspection that took place"
+      },
+      "https://schema.org/location": {
+        "$comment": {
+          "term": "inspectionGeolocation",
+          "@id": "https://schema.org/location"
+        },
+        "title": "inspectionGeolocation",
+        "description": "the geolocation where inspection took place"
+      },
+      "https://schema.org/Vehicle": {
+        "$comment": {
+          "term": "vehicleType",
+          "@id": "https://schema.org/Vehicle"
+        },
+        "title": "vehicleType",
+        "description": "the type of vehicle being inspected"
+      },
+      "https://schema.org/description": {
+        "$comment": {
+          "term": "requestedAction",
+          "@id": "https://schema.org/description"
+        },
+        "title": "requestedAction",
+        "description": "the requested action associated with the inspection"
+      },
+      "https://schema.org/vehicleIdentificationNumber": {
+        "$comment": {
+          "term": "vin",
+          "@id": "https://schema.org/vehicleIdentificationNumber"
+        },
+        "title": "vin",
+        "description": "vin number."
+      },
+      "https://schema.org/result": {
+        "$comment": {
+          "term": "inspectionOutcome",
+          "@id": "https://schema.org/result"
+        },
+        "title": "inspectionOutcome",
+        "description": "the outcome of the inspection"
+      },
+      "https://schema.org/propertyId": {
+        "$comment": {
+          "term": "inspectionCertId",
+          "@id": "https://schema.org/propertyId"
+        },
+        "title": "inspectionCertId",
+        "description": "the outcome of the inspection"
+      },
+      "https://schema.org/mainEntity": {
+        "$comment": {
+          "term": "certIssuer",
+          "@id": "https://schema.org/mainEntity"
+        },
+        "title": "certIssuer",
+        "description": "the issuer of the certificate"
+      },
+      "https://schema.org/endDate": {
+        "$comment": {
+          "term": "certExpDate",
+          "@id": "https://schema.org/endDate"
+        },
+        "title": "certExpDate",
+        "description": "the expiry date for the certificate"
+      },
+      "https://schema.org/Observation": {
+        "$comment": {
+          "term": "inspectionDetails",
+          "@id": "https://schema.org/Observation"
+        },
+        "title": "inspectionDetails",
+        "description": "the details of the inspection"
+      },
+      "https://schema.org/Comment": {
+        "$comment": {
+          "term": "inspectionComment",
+          "@id": "https://schema.org/Comment"
+        },
+        "title": "inspectionComment",
+        "description": "the comments from the inspector(s)"
+      },
+      "https://schema.org/additionalProperty": {
+        "$comment": {
+          "term": "jurisdictionSpecificRequirement",
+          "@id": "https://schema.org/additionalProperty"
+        },
+        "title": "jurisdictionSpecificRequirement",
+        "description": "any metadata not captured by previous attributes"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForInspectionsReport.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"VcSchemaForInspectionsReport\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#VcSchemaForInspectionsReport\"}",
+      "title": "VcSchemaForInspectionsReport",
+      "description": "Attributes necessary to construct verifiable credential for inspections report",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "dateTime": {
+          "$comment": "{\"term\": \"dateTime\", \"@id\": \"https://schema.org/DateTime\"}",
+          "title": "dateTime",
+          "description": "the time and date",
+          "type": "string"
+        },
+        "serviceProviderEntityId": {
+          "$comment": "{\"term\": \"serviceProviderEntityId\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "serviceProviderEntityId",
+          "description": "the entity ID associated with the service provider",
+          "type": "string"
+        },
+        "serviceProviderName": {
+          "$comment": "{\"term\": \"serviceProviderName\", \"@id\": \"https://schema.org/name\"}",
+          "title": "serviceProviderName",
+          "description": "the name of the service provider",
+          "type": "string"
+        },
+        "serviceInspectorId": {
+          "$comment": "{\"term\": \"serviceInspectorId\", \"@id\": \"https://schema.org/text\"}",
+          "title": "serviceInspectorId",
+          "description": "the decentralized identifier (DID) associated with the service inspector ",
+          "type": "string"
+        },
+        "inspectionType": {
+          "$comment": "{\"term\": \"inspectionType\", \"@id\": \"https://schema.org/additionalType\"}",
+          "title": "inspectionType",
+          "description": "the type of inspection that took place",
+          "type": "string"
+        },
+        "inspectionGeolocation": {
+          "$comment": "{\"term\": \"inspectionGeolocation\", \"@id\": \"https://schema.org/location\"}",
+          "title": "inspectionGeolocation",
+          "description": "the geolocation where inspection took place",
+          "type": "string"
+        },
+        "vehicleType": {
+          "$comment": "{\"term\": \"vehicleType\", \"@id\": \"https://schema.org/Vehicle\"}",
+          "title": "vehicleType",
+          "description": "the type of vehicle being inspected",
+          "type": "string"
+        },
+        "requestedAction": {
+          "$comment": "{\"term\": \"requestedAction\", \"@id\": \"https://schema.org/description\"}",
+          "title": "requestedAction",
+          "description": "the requested action associated with the inspection",
+          "type": "string"
+        },
+        "vin": {
+          "$comment": "{\"term\": \"vin\", \"@id\": \"https://schema.org/vehicleIdentificationNumber\"}",
+          "title": "vin",
+          "description": "vin number.",
+          "type": "string"
+        },
+        "inspectionOutcome": {
+          "$comment": "{\"term\": \"inspectionOutcome\", \"@id\": \"https://schema.org/result\"}",
+          "title": "inspectionOutcome",
+          "description": "the outcome of the inspection",
+          "type": "string"
+        },
+        "inspectionCertId": {
+          "$comment": "{\"term\": \"inspectionCertId\", \"@id\": \"https://schema.org/propertyId\"}",
+          "title": "inspectionCertId",
+          "description": "the outcome of the inspection",
+          "type": "string"
+        },
+        "certIssuer": {
+          "$comment": "{\"term\": \"certIssuer\", \"@id\": \"https://schema.org/mainEntity\"}",
+          "title": "certIssuer",
+          "description": "the issuer of the certificate",
+          "type": "string"
+        },
+        "certExpDate": {
+          "$comment": "{\"term\": \"certExpDate\", \"@id\": \"https://schema.org/endDate\"}",
+          "title": "certExpDate",
+          "description": "the expiry date for the certificate",
+          "type": "string"
+        },
+        "inspectionDetails": {
+          "$comment": "{\"term\": \"inspectionDetails\", \"@id\": \"https://schema.org/Observation\"}",
+          "title": "inspectionDetails",
+          "description": "the details of the inspection",
+          "type": "string"
+        },
+        "inspectionComment": {
+          "$comment": "{\"term\": \"inspectionComment\", \"@id\": \"https://schema.org/Comment\"}",
+          "title": "inspectionComment",
+          "description": "the comments from the inspector(s)",
+          "type": "string"
+        },
+        "jurisdictionSpecificRequirement": {
+          "$comment": "{\"term\": \"jurisdictionSpecificRequirement\", \"@id\": \"https://schema.org/additionalProperty\"}",
+          "title": "jurisdictionSpecificRequirement",
+          "description": "any metadata not captured by previous attributes",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#VcSchemaForInsuranceClaimsAndPolicies": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForInsuranceClaimsAndPolicies.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "VcSchemaForInsuranceClaimsAndPolicies",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#VcSchemaForInsuranceClaimsAndPolicies"
+    },
+    "title": "VcSchemaForInsuranceClaimsAndPolicies",
+    "description": "Attributes necessary to construct verifiable credential for insurance claims and policies",
+    "classProperties": {
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "driverId",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "driverId",
+        "description": "unique identifier for the driver"
+      },
+      "https://schema.org/name": {
+        "$comment": {
+          "term": "driverName",
+          "@id": "https://schema.org/name"
+        },
+        "title": "driverName",
+        "description": "the driver's full name"
+      },
+      "https://schema.org/PostalAddress": {
+        "$comment": {
+          "term": "driverPostalAddress",
+          "@id": "https://schema.org/PostalAddress"
+        },
+        "title": "driverPostalAddress",
+        "description": "the driver's postal address"
+      },
+      "https://schema.org/Occupation": {
+        "$comment": {
+          "term": "driverOccupation",
+          "@id": "https://schema.org/Occupation"
+        },
+        "title": "driverOccupation",
+        "description": "the driver's occupation"
+      },
+      "https://schema.org/accountId": {
+        "$comment": {
+          "term": "financialAccount",
+          "@id": "https://schema.org/accountId"
+        },
+        "title": "financialAccount",
+        "description": "the financial account or wallet information"
+      },
+      "https://schema.org/propertyId": {
+        "$comment": {
+          "term": "insuranceClaimNumber",
+          "@id": "https://schema.org/propertyId"
+        },
+        "title": "insuranceClaimNumber",
+        "description": "the identification number associated with the insurance claim"
+      },
+      "https://schema.org/InsuranceAgency": {
+        "$comment": {
+          "term": "insuranceCompany",
+          "@id": "https://schema.org/InsuranceAgency"
+        },
+        "title": "insuranceCompany",
+        "description": "the name of the insurance company"
+      },
+      "https://schema.org/productId": {
+        "$comment": {
+          "term": "insurancePolicyNumber",
+          "@id": "https://schema.org/productId"
+        },
+        "title": "insurancePolicyNumber",
+        "description": "the identification number associated with the insurance policy"
+      },
+      "https://schema.org/Number": {
+        "$comment": {
+          "term": "counterpartInsurancePolicyNumber",
+          "@id": "https://schema.org/Number"
+        },
+        "title": "counterpartInsurancePolicyNumber",
+        "description": "counterpart's insurance policy number"
+      },
+      "https://schema.org/Organization": {
+        "$comment": {
+          "term": "counterpartInsuranceCompany",
+          "@id": "https://schema.org/Organization"
+        },
+        "title": "counterpartInsuranceCompany",
+        "description": "name of the counterpart's insurance company"
+      },
+      "https://schema.org/serviceType": {
+        "$comment": {
+          "term": "insuranceType",
+          "@id": "https://schema.org/serviceType"
+        },
+        "title": "insuranceType",
+        "description": "the type of insurance held by the driver"
+      },
+      "https://dlt.mobi/mobility-schema#VID": {
+        "$comment": {
+          "term": "vid",
+          "@id": "https://dlt.mobi/mobility-schema#VID"
+        },
+        "title": "vid",
+        "description": "MOBI VID of the vehicle."
+      },
+      "https://schema.org/DateTime": {
+        "$comment": {
+          "term": "dateTime",
+          "@id": "https://schema.org/DateTime"
+        },
+        "title": "dateTime",
+        "description": "the time and date of the accident/damage/event"
+      },
+      "https://schema.org/location": {
+        "$comment": {
+          "term": "geolocation",
+          "@id": "https://schema.org/location"
+        },
+        "title": "geolocation",
+        "description": "the vehicle's location at time of accident"
+      },
+      "https://schema.org/participant": {
+        "$comment": {
+          "term": "participantType",
+          "@id": "https://schema.org/participant"
+        },
+        "title": "participantType",
+        "description": "the type of participant"
+      },
+      "https://schema.org/Quantity": {
+        "$comment": {
+          "term": "numberOfParticipants",
+          "@id": "https://schema.org/Quantity"
+        },
+        "title": "numberOfParticipants",
+        "description": "the number of participants"
+      },
+      "https://schema.org/description": {
+        "$comment": {
+          "term": "otherParticipantInformation",
+          "@id": "https://schema.org/description"
+        },
+        "title": "otherParticipantInformation",
+        "description": "the information, like EID, VID, or policy information associated with other participants"
+      },
+      "https://schema.org/category": {
+        "$comment": {
+          "term": "claimType",
+          "@id": "https://schema.org/category"
+        },
+        "title": "claimType",
+        "description": "the type of claim"
+      },
+      "https://schema.org/text": {
+        "$comment": {
+          "term": "textualDescription",
+          "@id": "https://schema.org/text"
+        },
+        "title": "textualDescription",
+        "description": "text description"
+      },
+      "https://schema.org/reportNumber": {
+        "$comment": {
+          "term": "policeReportNumber",
+          "@id": "https://schema.org/reportNumber"
+        },
+        "title": "policeReportNumber",
+        "description": "the number of the police report associated with accident"
+      },
+      "https://schema.org/amount": {
+        "$comment": {
+          "term": "damageValue",
+          "@id": "https://schema.org/amount"
+        },
+        "title": "damageValue",
+        "description": "the cost of the damage"
+      },
+      "https://schema.org/Duration": {
+        "$comment": {
+          "term": "repairDurationInDays",
+          "@id": "https://schema.org/Duration"
+        },
+        "title": "repairDurationInDays",
+        "description": "the number of days required to complete the repair"
+      },
+      "https://schema.org/Vehicle": {
+        "$comment": {
+          "term": "otherVehicleId",
+          "@id": "https://schema.org/Vehicle"
+        },
+        "title": "otherVehicleId",
+        "description": "Logo of the entity."
+      },
+      "https://schema.org/LocalBusiness": {
+        "$comment": {
+          "term": "repairFacilityId",
+          "@id": "https://schema.org/LocalBusiness"
+        },
+        "title": "repairFacilityId",
+        "description": "the ID of the repair facility"
+      },
+      "https://schema.org/about": {
+        "$comment": {
+          "term": "fault",
+          "@id": "https://schema.org/about"
+        },
+        "title": "fault",
+        "description": "overview of the fault outcomes of the accident"
+      },
+      "https://schema.org/ProptertyValue": {
+        "$comment": {
+          "term": "carrier",
+          "@id": "https://schema.org/ProptertyValue"
+        },
+        "title": "carrier",
+        "description": "carrier associated with the policy"
+      },
+      "https://schema.org/FinancialProduct": {
+        "$comment": {
+          "term": "policyNumber",
+          "@id": "https://schema.org/FinancialProduct"
+        },
+        "title": "policyNumber",
+        "description": "the policy identifying number"
+      },
+      "https://schema.org/startDate": {
+        "$comment": {
+          "term": "effectiveDate",
+          "@id": "https://schema.org/startDate"
+        },
+        "title": "effectiveDate",
+        "description": "the policy identifying number"
+      },
+      "https://schema.org/additionalProperty": {
+        "$comment": {
+          "term": "jurisdictionSpecificRequirement",
+          "@id": "https://schema.org/additionalProperty"
+        },
+        "title": "jurisdictionSpecificRequirement",
+        "description": "any metadata not captured by previous attributes"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForInsuranceClaimsAndPolicies.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"VcSchemaForInsuranceClaimsAndPolicies\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#VcSchemaForInsuranceClaimsAndPolicies\"}",
+      "title": "VcSchemaForInsuranceClaimsAndPolicies",
+      "description": "Attributes necessary to construct verifiable credential for insurance claims and policies",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "driverId": {
+          "$comment": "{\"term\": \"driverId\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "driverId",
+          "description": "unique identifier for the driver",
+          "type": "string"
+        },
+        "driverName": {
+          "$comment": "{\"term\": \"driverName\", \"@id\": \"https://schema.org/name\"}",
+          "title": "driverName",
+          "description": "the driver's full name",
+          "type": "string"
+        },
+        "driverPostalAddress": {
+          "$comment": "{\"term\": \"driverPostalAddress\", \"@id\": \"https://schema.org/PostalAddress\"}",
+          "title": "driverPostalAddress",
+          "description": "the driver's postal address",
+          "type": "string"
+        },
+        "driverOccupation": {
+          "$comment": "{\"term\": \"driverOccupation\", \"@id\": \"https://schema.org/Occupation\"}",
+          "title": "driverOccupation",
+          "description": "the driver's occupation",
+          "type": "string"
+        },
+        "financialAccount": {
+          "$comment": "{\"term\": \"financialAccount\", \"@id\": \"https://schema.org/accountId\"}",
+          "title": "financialAccount",
+          "description": "the financial account or wallet information",
+          "type": "string"
+        },
+        "insuranceClaimNumber": {
+          "$comment": "{\"term\": \"insuranceClaimNumber\", \"@id\": \"https://schema.org/propertyId\"}",
+          "title": "insuranceClaimNumber",
+          "description": "the identification number associated with the insurance claim",
+          "type": "string"
+        },
+        "insuranceCompany": {
+          "$comment": "{\"term\": \"insuranceCompany\", \"@id\": \"https://schema.org/InsuranceAgency\"}",
+          "title": "insuranceCompany",
+          "description": "the name of the insurance company",
+          "type": "string"
+        },
+        "insurancePolicyNumber": {
+          "$comment": "{\"term\": \"insurancePolicyNumber\", \"@id\": \"https://schema.org/productId\"}",
+          "title": "insurancePolicyNumber",
+          "description": "the identification number associated with the insurance policy",
+          "type": "string"
+        },
+        "counterpartInsurancePolicyNumber": {
+          "$comment": "{\"term\": \"counterpartInsurancePolicyNumber\", \"@id\": \"https://schema.org/Number\"}",
+          "title": "counterpartInsurancePolicyNumber",
+          "description": "counterpart's insurance policy number",
+          "type": "string"
+        },
+        "counterpartInsuranceCompany": {
+          "$comment": "{\"term\": \"counterpartInsuranceCompany\", \"@id\": \"https://schema.org/Organization\"}",
+          "title": "counterpartInsuranceCompany",
+          "description": "name of the counterpart's insurance company",
+          "type": "string"
+        },
+        "insuranceType": {
+          "$comment": "{\"term\": \"insuranceType\", \"@id\": \"https://schema.org/serviceType\"}",
+          "title": "insuranceType",
+          "description": "the type of insurance held by the driver",
+          "type": "string"
+        },
+        "vid": {
+          "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility-schema#VID\"}",
+          "title": "vid",
+          "description": "MOBI VID of the vehicle."
+        },
+        "dateTime": {
+          "$comment": "{\"term\": \"dateTime\", \"@id\": \"https://schema.org/DateTime\"}",
+          "title": "dateTime",
+          "description": "the time and date of the accident/damage/event",
+          "type": "string"
+        },
+        "geolocation": {
+          "$comment": "{\"term\": \"geolocation\", \"@id\": \"https://schema.org/location\"}",
+          "title": "geolocation",
+          "description": "the vehicle's location at time of accident",
+          "type": "string"
+        },
+        "participantType": {
+          "$comment": "{\"term\": \"participantType\", \"@id\": \"https://schema.org/participant\"}",
+          "title": "participantType",
+          "description": "the type of participant",
+          "type": "string"
+        },
+        "numberOfParticipants": {
+          "$comment": "{\"term\": \"numberOfParticipants\", \"@id\": \"https://schema.org/Quantity\"}",
+          "title": "numberOfParticipants",
+          "description": "the number of participants",
+          "type": "string"
+        },
+        "otherParticipantInformation": {
+          "$comment": "{\"term\": \"otherParticipantInformation\", \"@id\": \"https://schema.org/description\"}",
+          "title": "otherParticipantInformation",
+          "description": "the information, like EID, VID, or policy information associated with other participants",
+          "type": "string"
+        },
+        "claimType": {
+          "$comment": "{\"term\": \"claimType\", \"@id\": \"https://schema.org/category\"}",
+          "title": "claimType",
+          "description": "the type of claim",
+          "type": "string"
+        },
+        "textualDescription": {
+          "$comment": "{\"term\": \"textualDescription\", \"@id\": \"https://schema.org/text\"}",
+          "title": "textualDescription",
+          "description": "text description",
+          "type": "string"
+        },
+        "policeReportNumber": {
+          "$comment": "{\"term\": \"policeReportNumber\", \"@id\": \"https://schema.org/reportNumber\"}",
+          "title": "policeReportNumber",
+          "description": "the number of the police report associated with accident",
+          "type": "string"
+        },
+        "damageValue": {
+          "$comment": "{\"term\": \"damageValue\", \"@id\": \"https://schema.org/amount\"}",
+          "title": "damageValue",
+          "description": "the cost of the damage",
+          "type": "integer"
+        },
+        "repairDurationInDays": {
+          "$comment": "{\"term\": \"repairDurationInDays\", \"@id\": \"https://schema.org/Duration\"}",
+          "title": "repairDurationInDays",
+          "description": "the number of days required to complete the repair",
+          "type": "integer"
+        },
+        "otherVehicleId": {
+          "$comment": "{\"term\": \"otherVehicleId\", \"@id\": \"https://schema.org/Vehicle\"}",
+          "title": "otherVehicleId",
+          "description": "Logo of the entity."
+        },
+        "repairFacilityId": {
+          "$comment": "{\"term\": \"repairFacilityId\", \"@id\": \"https://schema.org/LocalBusiness\"}",
+          "title": "repairFacilityId",
+          "description": "the ID of the repair facility",
+          "type": "integer"
+        },
+        "fault": {
+          "$comment": "{\"term\": \"fault\", \"@id\": \"https://schema.org/about\"}",
+          "title": "fault",
+          "description": "overview of the fault outcomes of the accident",
+          "type": "string"
+        },
+        "carrier": {
+          "$comment": "{\"term\": \"carrier\", \"@id\": \"https://schema.org/ProptertyValue\"}",
+          "title": "carrier",
+          "description": "carrier associated with the policy",
+          "type": "string"
+        },
+        "policyNumber": {
+          "$comment": "{\"term\": \"policyNumber\", \"@id\": \"https://schema.org/FinancialProduct\"}",
+          "title": "policyNumber",
+          "description": "the policy identifying number",
+          "type": "string"
+        },
+        "effectiveDate": {
+          "$comment": "{\"term\": \"effectiveDate\", \"@id\": \"https://schema.org/startDate\"}",
+          "title": "effectiveDate",
+          "description": "the policy identifying number",
+          "type": "string"
+        },
+        "jurisdictionSpecificRequirement": {
+          "$comment": "{\"term\": \"jurisdictionSpecificRequirement\", \"@id\": \"https://schema.org/additionalProperty\"}",
+          "title": "jurisdictionSpecificRequirement",
+          "description": "any metadata not captured by previous attributes",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas/#VcSchemaForMileage": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForMileage.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "VcSchemaForMileage",
+      "@id": "https://dlt.mobi/mobility-schema/schemas/#VcSchemaForMileage"
+    },
+    "title": "VcSchemaForMileage",
+    "description": "Attributes necessary to construct verifiable credential for mileage",
+    "classProperties": {
+      "https://schema.org/mileageFromOdometer": {
+        "$comment": {
+          "term": "odometerReading",
+          "@id": "https://schema.org/mileageFromOdometer"
+        },
+        "title": "odometerReading",
+        "description": "Type of maintenance as defined in ISO 18542"
+      },
+      "https://schema.org/odometerReading": {
+        "$comment": {
+          "term": "unit",
+          "@id": "https://schema.org/odometerReading"
+        },
+        "title": "unit",
+        "description": "unit"
+      },
+      "https://schema.org/DateTime": {
+        "$comment": {
+          "term": "dateTime",
+          "@id": "https://schema.org/DateTime"
+        },
+        "title": "dateTime",
+        "description": "the time and date of the accident/damage/event"
+      },
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "reportingAgencySource",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "reportingAgencySource",
+        "description": "the reporting agency source"
+      },
+      "https://schema.org/description": {
+        "$comment": {
+          "term": "technicalSource",
+          "@id": "https://schema.org/description"
+        },
+        "title": "technicalSource",
+        "description": "the technical source of the information"
+      },
+      "https://schema.org/text": {
+        "$comment": {
+          "term": "trigger",
+          "@id": "https://schema.org/text"
+        },
+        "title": "trigger",
+        "description": "trigger for reporting"
+      },
+      "https://schema.org/additionalProperty": {
+        "$comment": {
+          "term": "jurisdictionSpecificRequirement",
+          "@id": "https://schema.org/additionalProperty"
+        },
+        "title": "jurisdictionSpecificRequirement",
+        "description": "any metadata not captured by previous attributes"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForMileage.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"VcSchemaForMileage\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas/#VcSchemaForMileage\"}",
+      "title": "VcSchemaForMileage",
+      "description": "Attributes necessary to construct verifiable credential for mileage",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "odometerReading": {
+          "$comment": "{\"term\": \"odometerReading\", \"@id\": \"https://schema.org/mileageFromOdometer\"}",
+          "title": "odometerReading",
+          "description": "Type of maintenance as defined in ISO 18542",
+          "type": "string"
+        },
+        "unit": {
+          "$comment": "{\"term\": \"unit\", \"@id\": \"https://schema.org/odometerReading\"}",
+          "title": "unit",
+          "description": "unit",
+          "type": "string"
+        },
+        "dateTime": {
+          "$comment": "{\"term\": \"dateTime\", \"@id\": \"https://schema.org/DateTime\"}",
+          "title": "dateTime",
+          "description": "the time and date of the accident/damage/event",
+          "type": "string"
+        },
+        "reportingAgencySource": {
+          "$comment": "{\"term\": \"reportingAgencySource\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "reportingAgencySource",
+          "description": "the reporting agency source",
+          "type": "string"
+        },
+        "technicalSource": {
+          "$comment": "{\"term\": \"technicalSource\", \"@id\": \"https://schema.org/description\"}",
+          "title": "technicalSource",
+          "description": "the technical source of the information",
+          "type": "string"
+        },
+        "trigger": {
+          "$comment": "{\"term\": \"trigger\", \"@id\": \"https://schema.org/text\"}",
+          "title": "trigger",
+          "description": "trigger for reporting",
+          "type": "string"
+        },
+        "jurisdictionSpecificRequirement": {
+          "$comment": "{\"term\": \"jurisdictionSpecificRequirement\", \"@id\": \"https://schema.org/additionalProperty\"}",
+          "title": "jurisdictionSpecificRequirement",
+          "description": "any metadata not captured by previous attributes",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#VcSchemaForOwnersTitlesAndBordersDocs": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForOwnersTitlesAndBordersDocs.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "VcSchemaForOwnersTitlesAndBordersDocs",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#VcSchemaForOwnersTitlesAndBordersDocs"
+    },
+    "title": "VcSchemaForOwnersTitlesAndBordersDocs",
+    "description": "Attributes necessary to construct verifiable credential for Owners, Title, and Borders Documents",
+    "classProperties": {
+      "https://schema.org/serviceType": {
+        "$comment": {
+          "term": "titleType",
+          "@id": "https://schema.org/serviceType"
+        },
+        "title": "titleType",
+        "description": "the type of title"
+      },
+      "https://schema.org/status": {
+        "$comment": {
+          "term": "status",
+          "@id": "https://schema.org/status"
+        },
+        "title": "status",
+        "description": "the status of the vehicle"
+      },
+      "https://schema.org/brand": {
+        "$comment": {
+          "term": "brands",
+          "@id": "https://schema.org/brand"
+        },
+        "title": "brands",
+        "description": "the brands"
+      },
+      "https://schema.org/jurisdiction": {
+        "$comment": {
+          "term": "titleJurisdiction",
+          "@id": "https://schema.org/jurisdiction"
+        },
+        "title": "titleJurisdiction",
+        "description": "the current title jurisdiction"
+      },
+      "https://schema.org/title": {
+        "$comment": {
+          "term": "prevTitleJurisdiction",
+          "@id": "https://schema.org/title"
+        },
+        "title": "prevTitleJurisdiction",
+        "description": "the previous title jurisdiction"
+      },
+      "https://schema.org/acquiredFrom": {
+        "$comment": {
+          "term": "prevOwners",
+          "@id": "https://schema.org/acquiredFrom"
+        },
+        "title": "prevOwners",
+        "description": "the previous owners of the vehicle"
+      },
+      "https://dlt.mobi/mobility-schema#VID": {
+        "$comment": {
+          "term": "vid",
+          "@id": "https://dlt.mobi/mobility-schema#VID"
+        },
+        "title": "vid",
+        "description": "Logo of the entity."
+      },
+      "https://schema.org/accountId": {
+        "$comment": {
+          "term": "lienId",
+          "@id": "https://schema.org/accountId"
+        },
+        "title": "lienId",
+        "description": "the identifier for the lien"
+      },
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "lenderId",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "lenderId",
+        "description": "the identifier for the lender who owns the lien"
+      },
+      "https://schema.org/funder": {
+        "$comment": {
+          "term": "lienHolderName",
+          "@id": "https://schema.org/funder"
+        },
+        "title": "lienHolderName",
+        "description": "the name of the lien holder"
+      },
+      "https://schema.org/streetAddress": {
+        "$comment": {
+          "term": "lienHolderAddress",
+          "@id": "https://schema.org/streetAddress"
+        },
+        "title": "lienHolderAddress",
+        "description": "the address of the lien holder"
+      },
+      "https://schema.org/PropertyValue": {
+        "$comment": {
+          "term": "titleNumber",
+          "@id": "https://schema.org/PropertyValue"
+        },
+        "title": "titleNumber",
+        "description": "the identifying number for the title"
+      },
+      "https://schema.org/dateVehicleFirstRegistered": {
+        "$comment": {
+          "term": "issueDate",
+          "@id": "https://schema.org/dateVehicleFirstRegistered"
+        },
+        "title": "issueDate",
+        "description": "date of registration issuance"
+      },
+      "https://schema.org/dateCreated": {
+        "$comment": {
+          "term": "effectiveDate",
+          "@id": "https://schema.org/dateCreated"
+        },
+        "title": "effectiveDate",
+        "description": "date that registration becomes effective"
+      },
+      "https://schema.org/City": {
+        "$comment": {
+          "term": "city",
+          "@id": "https://schema.org/City"
+        },
+        "title": "city",
+        "description": "the city associated with the title or other documentation"
+      },
+      "https://schema.org/addressRegion": {
+        "$comment": {
+          "term": "county",
+          "@id": "https://schema.org/addressRegion"
+        },
+        "title": "county",
+        "description": "the county associated with the title or other documentation"
+      },
+      "https://schema.org/State": {
+        "$comment": {
+          "term": "state",
+          "@id": "https://schema.org/State"
+        },
+        "title": "state",
+        "description": "the state associated with the title or other documentation"
+      },
+      "https://schema.org/Country": {
+        "$comment": {
+          "term": "country",
+          "@id": "https://schema.org/Country"
+        },
+        "title": "country",
+        "description": "the country associated with the title or other documentation"
+      },
+      "https://schema.org/mileageFromOdometer": {
+        "$comment": {
+          "term": "odometerReading",
+          "@id": "https://schema.org/mileageFromOdometer"
+        },
+        "title": "odometerReading",
+        "description": "the mileage as read from the vehicle's odometer"
+      },
+      "https://schema.org/legislationJurisdiction": {
+        "$comment": {
+          "term": "jurisdictionSpecificRequirement",
+          "@id": "https://schema.org/legislationJurisdiction"
+        },
+        "title": "jurisdictionSpecificRequirement",
+        "description": "any metadata not captured by previous attributes"
+      },
+      "https://schema.org/workLocation": {
+        "$comment": {
+          "term": "geolocation",
+          "@id": "https://schema.org/workLocation"
+        },
+        "title": "geolocation",
+        "description": "the vehicle's location"
+      },
+      "https://schema.org/DateTime": {
+        "$comment": {
+          "term": "dateTime",
+          "@id": "https://schema.org/DateTime"
+        },
+        "title": "dateTime",
+        "description": "the time and date of the accident/damage/event"
+      },
+      "https://schema.org/PaymentService": {
+        "$comment": {
+          "term": "transactionType",
+          "@id": "https://schema.org/PaymentService"
+        },
+        "title": "transactionType",
+        "description": "the type of transaction"
+      },
+      "https://schema.org/termsOfService": {
+        "$comment": {
+          "term": "transactionContract",
+          "@id": "https://schema.org/termsOfService"
+        },
+        "title": "transactionContract",
+        "description": "the contract associated with the transaction"
+      },
+      "https://schema.org/qualifications": {
+        "$comment": {
+          "term": "titleEvidence",
+          "@id": "https://schema.org/qualifications"
+        },
+        "title": "titleEvidence",
+        "description": "the supporting evidence for title"
+      },
+      "https://schema.org/sponsor": {
+        "$comment": {
+          "term": "newOwnerName",
+          "@id": "https://schema.org/sponsor"
+        },
+        "title": "newOwnerName",
+        "description": "the name of the vehicle's new owner"
+      },
+      "https://schema.org/billingAddress": {
+        "$comment": {
+          "term": "newOwnerAddress",
+          "@id": "https://schema.org/billingAddress"
+        },
+        "title": "newOwnerAddress",
+        "description": "the new owner's address"
+      },
+      "https://schema.org/publicAccess": {
+        "$comment": {
+          "term": "lienExistence",
+          "@id": "https://schema.org/publicAccess"
+        },
+        "title": "lienExistence",
+        "description": "an indicator field showing whether or not a lien on the vehicle exists "
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForOwnersTitlesAndBordersDocs.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"VcSchemaForOwnersTitlesAndBordersDocs\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#VcSchemaForOwnersTitlesAndBordersDocs\"}",
+      "title": "VcSchemaForOwnersTitlesAndBordersDocs",
+      "description": "Attributes necessary to construct verifiable credential for Owners, Title, and Borders Documents",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "titleType": {
+          "$comment": "{\"term\": \"titleType\", \"@id\": \"https://schema.org/serviceType\"}",
+          "title": "titleType",
+          "description": "the type of title",
+          "type": "string"
+        },
+        "status": {
+          "$comment": "{\"term\": \"status\", \"@id\": \"https://schema.org/status\"}",
+          "title": "status",
+          "description": "the status of the vehicle",
+          "type": "string"
+        },
+        "brands": {
+          "$comment": "{\"term\": \"brands\", \"@id\": \"https://schema.org/brand\"}",
+          "title": "brands",
+          "description": "the brands",
+          "type": "string"
+        },
+        "titleJurisdiction": {
+          "$comment": "{\"term\": \"titleJurisdiction\", \"@id\": \"https://schema.org/jurisdiction\"}",
+          "title": "titleJurisdiction",
+          "description": "the current title jurisdiction",
+          "type": "string"
+        },
+        "prevTitleJurisdiction": {
+          "$comment": "{\"term\": \"prevTitleJurisdiction\", \"@id\": \"https://schema.org/title\"}",
+          "title": "prevTitleJurisdiction",
+          "description": "the previous title jurisdiction",
+          "type": "string"
+        },
+        "prevOwners": {
+          "$comment": "{\"term\": \"prevOwners\", \"@id\": \"https://schema.org/acquiredFrom\"}",
+          "title": "prevOwners",
+          "description": "the previous owners of the vehicle",
+          "type": "string"
+        },
+        "vid": {
+          "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility-schema#VID\"}",
+          "title": "vid",
+          "description": "Logo of the entity."
+        },
+        "lienId": {
+          "$comment": "{\"term\": \"lienId\", \"@id\": \"https://schema.org/accountId\"}",
+          "title": "lienId",
+          "description": "the identifier for the lien",
+          "type": "string"
+        },
+        "lenderId": {
+          "$comment": "{\"term\": \"lenderId\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "lenderId",
+          "description": "the identifier for the lender who owns the lien",
+          "type": "string"
+        },
+        "lienHolderName": {
+          "$comment": "{\"term\": \"lienHolderName\", \"@id\": \"https://schema.org/funder\"}",
+          "title": "lienHolderName",
+          "description": "the name of the lien holder",
+          "type": "string"
+        },
+        "lienHolderAddress": {
+          "$comment": "{\"term\": \"lienHolderAddress\", \"@id\": \"https://schema.org/streetAddress\"}",
+          "title": "lienHolderAddress",
+          "description": "the address of the lien holder",
+          "type": "string"
+        },
+        "titleNumber": {
+          "$comment": "{\"term\": \"titleNumber\", \"@id\": \"https://schema.org/PropertyValue\"}",
+          "title": "titleNumber",
+          "description": "the identifying number for the title",
+          "type": "string"
+        },
+        "issueDate": {
+          "$comment": "{\"term\": \"issueDate\", \"@id\": \"https://schema.org/dateVehicleFirstRegistered\"}",
+          "title": "issueDate",
+          "description": "date of registration issuance",
+          "type": "string"
+        },
+        "effectiveDate": {
+          "$comment": "{\"term\": \"effectiveDate\", \"@id\": \"https://schema.org/dateCreated\"}",
+          "title": "effectiveDate",
+          "description": "date that registration becomes effective",
+          "type": "string"
+        },
+        "city": {
+          "$comment": "{\"term\": \"city\", \"@id\": \"https://schema.org/City\"}",
+          "title": "city",
+          "description": "the city associated with the title or other documentation",
+          "type": "string"
+        },
+        "county": {
+          "$comment": "{\"term\": \"county\", \"@id\": \"https://schema.org/addressRegion\"}",
+          "title": "county",
+          "description": "the county associated with the title or other documentation",
+          "type": "string"
+        },
+        "state": {
+          "$comment": "{\"term\": \"state\", \"@id\": \"https://schema.org/State\"}",
+          "title": "state",
+          "description": "the state associated with the title or other documentation",
+          "type": "string"
+        },
+        "country": {
+          "$comment": "{\"term\": \"country\", \"@id\": \"https://schema.org/Country\"}",
+          "title": "country",
+          "description": "the country associated with the title or other documentation",
+          "type": "string"
+        },
+        "odometerReading": {
+          "$comment": "{\"term\": \"odometerReading\", \"@id\": \"https://schema.org/mileageFromOdometer\"}",
+          "title": "odometerReading",
+          "description": "the mileage as read from the vehicle's odometer",
+          "type": "string"
+        },
+        "jurisdictionSpecificRequirement": {
+          "$comment": "{\"term\": \"jurisdictionSpecificRequirement\", \"@id\": \"https://schema.org/legislationJurisdiction\"}",
+          "title": "jurisdictionSpecificRequirement",
+          "description": "any metadata not captured by previous attributes",
+          "type": "string"
+        },
+        "geolocation": {
+          "$comment": "{\"term\": \"geolocation\", \"@id\": \"https://schema.org/workLocation\"}",
+          "title": "geolocation",
+          "description": "the vehicle's location",
+          "type": "string"
+        },
+        "dateTime": {
+          "$comment": "{\"term\": \"dateTime\", \"@id\": \"https://schema.org/DateTime\"}",
+          "title": "dateTime",
+          "description": "the time and date of the accident/damage/event",
+          "type": "string"
+        },
+        "transactionType": {
+          "$comment": "{\"term\": \"transactionType\", \"@id\": \"https://schema.org/PaymentService\"}",
+          "title": "transactionType",
+          "description": "the type of transaction",
+          "type": "string"
+        },
+        "transactionContract": {
+          "$comment": "{\"term\": \"transactionContract\", \"@id\": \"https://schema.org/termsOfService\"}",
+          "title": "transactionContract",
+          "description": "the contract associated with the transaction",
+          "type": "string"
+        },
+        "titleEvidence": {
+          "$comment": "{\"term\": \"titleEvidence\", \"@id\": \"https://schema.org/qualifications\"}",
+          "title": "titleEvidence",
+          "description": "the supporting evidence for title",
+          "type": "string"
+        },
+        "newOwnerName": {
+          "$comment": "{\"term\": \"newOwnerName\", \"@id\": \"https://schema.org/sponsor\"}",
+          "title": "newOwnerName",
+          "description": "the name of the vehicle's new owner",
+          "type": "string"
+        },
+        "newOwnerAddress": {
+          "$comment": "{\"term\": \"newOwnerAddress\", \"@id\": \"https://schema.org/billingAddress\"}",
+          "title": "newOwnerAddress",
+          "description": "the new owner's address",
+          "type": "string"
+        },
+        "lienExistence": {
+          "$comment": "{\"term\": \"lienExistence\", \"@id\": \"https://schema.org/publicAccess\"}",
+          "title": "lienExistence",
+          "description": "an indicator field showing whether or not a lien on the vehicle exists ",
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#VcSchemaForPartsReplacementReport": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForPartsReplacementReport.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "VcSchemaForPartsReplacementReport",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#VcSchemaForPartsReplacementReport"
+    },
+    "title": "VcSchemaForPartsReplacementReport",
+    "description": "Attributes necessary to construct verifiable credential for insurance claims and policies",
+    "classProperties": {
+      "https://schema.org/DateTime": {
+        "$comment": {
+          "term": "dateTime",
+          "@id": "https://schema.org/DateTime"
+        },
+        "title": "dateTime",
+        "description": "the time and date of the accident/damage/event"
+      },
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "serviceProviderEntityId",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "serviceProviderEntityId",
+        "description": "the driver's full name"
+      },
+      "https://schema.org/location": {
+        "$comment": {
+          "term": "geolocation",
+          "@id": "https://schema.org/location"
+        },
+        "title": "geolocation",
+        "description": "the vehicle's location at time of accident"
+      },
+      "https://schema.org/amount": {
+        "$comment": {
+          "term": "estimateNumber",
+          "@id": "https://schema.org/amount"
+        },
+        "title": "estimateNumber",
+        "description": "the estimated cost of the repair"
+      },
+      "https://schema.org/accountId": {
+        "$comment": {
+          "term": "invoiceNumber",
+          "@id": "https://schema.org/accountId"
+        },
+        "title": "invoiceNumber",
+        "description": "the financial account or wallet information"
+      },
+      "https://schema.org/alternateName": {
+        "$comment": {
+          "term": "partType",
+          "@id": "https://schema.org/alternateName"
+        },
+        "title": "partType",
+        "description": "the type of part involved in the replacement"
+      },
+      "https://schema.org/productId": {
+        "$comment": {
+          "term": "oldPartNumber",
+          "@id": "https://schema.org/productId"
+        },
+        "title": "oldPartNumber",
+        "description": "the name of the insurance company"
+      },
+      "https://schema.org/serialNumber": {
+        "$comment": {
+          "term": "oldPartSerialNumber",
+          "@id": "https://schema.org/serialNumber"
+        },
+        "title": "oldPartSerialNumber",
+        "description": "the serial number associated with the old part"
+      },
+      "https://schema.org/manufacturer": {
+        "$comment": {
+          "term": "oldPartManufacturer",
+          "@id": "https://schema.org/manufacturer"
+        },
+        "title": "oldPartManufacturer",
+        "description": "the old part's manufacturer "
+      },
+      "https://schema.org/itemCondition": {
+        "$comment": {
+          "term": "oldPartCondition",
+          "@id": "https://schema.org/itemCondition"
+        },
+        "title": "oldPartCondition",
+        "description": "counterpart's insurance policy number"
+      },
+      "https://schema.org/item": {
+        "$comment": {
+          "term": "finalPartNumber",
+          "@id": "https://schema.org/item"
+        },
+        "title": "finalPartNumber",
+        "description": "the part number of the new part."
+      },
+      "https://schema.org/description": {
+        "$comment": {
+          "term": "finalPartSerialNumber",
+          "@id": "https://schema.org/description"
+        },
+        "title": "finalPartSerialNumber",
+        "description": "the serial number of the replacement part"
+      },
+      "https://schema.org/Organization": {
+        "$comment": {
+          "term": "finalPartManufacturer",
+          "@id": "https://schema.org/Organization"
+        },
+        "title": "finalPartManufacturer",
+        "description": "the manufacturer of the new part"
+      },
+      "https://schema.org/category": {
+        "$comment": {
+          "term": "finalPartCondition",
+          "@id": "https://schema.org/category"
+        },
+        "title": "finalPartCondition",
+        "description": "the condition of the new part installed into the vehicle"
+      },
+      "https://schema.org/status": {
+        "$comment": {
+          "term": "partRepairedOrReplaced",
+          "@id": "https://schema.org/status"
+        },
+        "title": "partRepairedOrReplaced",
+        "description": "One of two strings: REPAIRED or REPLACED"
+      },
+      "https://schema.org/text": {
+        "$comment": {
+          "term": "aftermarketLikeNewPart",
+          "@id": "https://schema.org/text"
+        },
+        "title": "aftermarketLikeNewPart",
+        "description": "aftermarket part whose condition is like new"
+      },
+      "https://schema.org/review": {
+        "$comment": {
+          "term": "reasonForReplacement",
+          "@id": "https://schema.org/review"
+        },
+        "title": "reasonForReplacement",
+        "description": "the number of the police report associated with accident"
+      },
+      "https://schema.org/version": {
+        "$comment": {
+          "term": "oldSoftwareVersion",
+          "@id": "https://schema.org/version"
+        },
+        "title": "oldSoftwareVersion",
+        "description": "previous software version"
+      },
+      "https://schema.org/softwareVersion": {
+        "$comment": {
+          "term": "newSoftwareVersion",
+          "@id": "https://schema.org/softwareVersion"
+        },
+        "title": "newSoftwareVersion",
+        "description": "new software version"
+      },
+      "https://schema.org/additionalProperty": {
+        "$comment": {
+          "term": "jurisdictionSpecificRequirement",
+          "@id": "https://schema.org/additionalProperty"
+        },
+        "title": "jurisdictionSpecificRequirement",
+        "description": "any metadata not captured by previous attributes"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForPartsReplacementReport.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"VcSchemaForPartsReplacementReport\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#VcSchemaForPartsReplacementReport\"}",
+      "title": "VcSchemaForPartsReplacementReport",
+      "description": "Attributes necessary to construct verifiable credential for insurance claims and policies",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "dateTime": {
+          "$comment": "{\"term\": \"dateTime\", \"@id\": \"https://schema.org/DateTime\"}",
+          "title": "dateTime",
+          "description": "the time and date of the accident/damage/event",
+          "type": "string"
+        },
+        "serviceProviderEntityId": {
+          "$comment": "{\"term\": \"serviceProviderEntityId\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "serviceProviderEntityId",
+          "description": "the driver's full name",
+          "type": "string"
+        },
+        "geolocation": {
+          "$comment": "{\"term\": \"geolocation\", \"@id\": \"https://schema.org/location\"}",
+          "title": "geolocation",
+          "description": "the vehicle's location at time of accident",
+          "type": "string"
+        },
+        "estimateNumber": {
+          "$comment": "{\"term\": \"estimateNumber\", \"@id\": \"https://schema.org/amount\"}",
+          "title": "estimateNumber",
+          "description": "the estimated cost of the repair",
+          "type": "string"
+        },
+        "invoiceNumber": {
+          "$comment": "{\"term\": \"invoiceNumber\", \"@id\": \"https://schema.org/accountId\"}",
+          "title": "invoiceNumber",
+          "description": "the financial account or wallet information",
+          "type": "string"
+        },
+        "partType": {
+          "$comment": "{\"term\": \"partType\", \"@id\": \"https://schema.org/alternateName\"}",
+          "title": "partType",
+          "description": "the type of part involved in the replacement",
+          "type": "string"
+        },
+        "oldPartNumber": {
+          "$comment": "{\"term\": \"oldPartNumber\", \"@id\": \"https://schema.org/productId\"}",
+          "title": "oldPartNumber",
+          "description": "the name of the insurance company",
+          "type": "string"
+        },
+        "oldPartSerialNumber": {
+          "$comment": "{\"term\": \"oldPartSerialNumber\", \"@id\": \"https://schema.org/serialNumber\"}",
+          "title": "oldPartSerialNumber",
+          "description": "the serial number associated with the old part",
+          "type": "string"
+        },
+        "oldPartManufacturer": {
+          "$comment": "{\"term\": \"oldPartManufacturer\", \"@id\": \"https://schema.org/manufacturer\"}",
+          "title": "oldPartManufacturer",
+          "description": "the old part's manufacturer ",
+          "type": "string"
+        },
+        "oldPartCondition": {
+          "$comment": "{\"term\": \"oldPartCondition\", \"@id\": \"https://schema.org/itemCondition\"}",
+          "title": "oldPartCondition",
+          "description": "counterpart's insurance policy number",
+          "type": "string"
+        },
+        "finalPartNumber": {
+          "$comment": "{\"term\": \"finalPartNumber\", \"@id\": \"https://schema.org/item\"}",
+          "title": "finalPartNumber",
+          "description": "the part number of the new part.",
+          "type": "string"
+        },
+        "finalPartSerialNumber": {
+          "$comment": "{\"term\": \"finalPartSerialNumber\", \"@id\": \"https://schema.org/description\"}",
+          "title": "finalPartSerialNumber",
+          "description": "the serial number of the replacement part",
+          "type": "string"
+        },
+        "finalPartManufacturer": {
+          "$comment": "{\"term\": \"finalPartManufacturer\", \"@id\": \"https://schema.org/Organization\"}",
+          "title": "finalPartManufacturer",
+          "description": "the manufacturer of the new part",
+          "type": "string"
+        },
+        "finalPartCondition": {
+          "$comment": "{\"term\": \"finalPartCondition\", \"@id\": \"https://schema.org/category\"}",
+          "title": "finalPartCondition",
+          "description": "the condition of the new part installed into the vehicle",
+          "type": "string"
+        },
+        "partRepairedOrReplaced": {
+          "$comment": "{\"term\": \"partRepairedOrReplaced\", \"@id\": \"https://schema.org/status\"}",
+          "title": "partRepairedOrReplaced",
+          "description": "One of two strings: REPAIRED or REPLACED",
+          "type": "string"
+        },
+        "aftermarketLikeNewPart": {
+          "$comment": "{\"term\": \"aftermarketLikeNewPart\", \"@id\": \"https://schema.org/text\"}",
+          "title": "aftermarketLikeNewPart",
+          "description": "aftermarket part whose condition is like new",
+          "type": "string"
+        },
+        "reasonForReplacement": {
+          "$comment": "{\"term\": \"reasonForReplacement\", \"@id\": \"https://schema.org/review\"}",
+          "title": "reasonForReplacement",
+          "description": "the number of the police report associated with accident",
+          "type": "string"
+        },
+        "oldSoftwareVersion": {
+          "$comment": "{\"term\": \"oldSoftwareVersion\", \"@id\": \"https://schema.org/version\"}",
+          "title": "oldSoftwareVersion",
+          "description": "previous software version",
+          "type": "string"
+        },
+        "newSoftwareVersion": {
+          "$comment": "{\"term\": \"newSoftwareVersion\", \"@id\": \"https://schema.org/softwareVersion\"}",
+          "title": "newSoftwareVersion",
+          "description": "new software version",
+          "type": "string"
+        },
+        "jurisdictionSpecificRequirement": {
+          "$comment": "{\"term\": \"jurisdictionSpecificRequirement\", \"@id\": \"https://schema.org/additionalProperty\"}",
+          "title": "jurisdictionSpecificRequirement",
+          "description": "any metadata not captured by previous attributes",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#VcSchemaForPaymentsAndTxReceipts": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForPaymentsAndTxReceipts.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "VcSchemaForPaymentsAndTxReceipts",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#VcSchemaForPaymentsAndTxReceipts"
+    },
+    "title": "VcSchemaForPaymentsAndTxReceipts",
+    "description": "Attributes necessary to construct verifiable credential for payments and transaction receipts",
+    "classProperties": {
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "eventId",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "eventId",
+        "description": "Type of maintenance as defined in ISO 18542"
+      },
+      "https://dlt.mobi/mobility-schema#VID": {
+        "$comment": {
+          "term": "vid",
+          "@id": "https://dlt.mobi/mobility-schema#VID"
+        },
+        "title": "vid",
+        "description": "Logo of the entity."
+      },
+      "https://schema.org/Date": {
+        "$comment": {
+          "term": "dateOfTx",
+          "@id": "https://schema.org/Date"
+        },
+        "title": "dateOfTx",
+        "description": "date of transaction"
+      },
+      "https://schema.org/propertyId": {
+        "$comment": {
+          "term": "transactionId",
+          "@id": "https://schema.org/propertyId"
+        },
+        "title": "transactionId",
+        "description": "transaction ID"
+      },
+      "https://schema.org/PaymentChargeSpecification": {
+        "$comment": {
+          "term": "transactionType",
+          "@id": "https://schema.org/PaymentChargeSpecification"
+        },
+        "title": "transactionType",
+        "description": "type of transaction"
+      },
+      "https://schema.org/productID": {
+        "$comment": {
+          "term": "merchantId",
+          "@id": "https://schema.org/productID"
+        },
+        "title": "merchantId",
+        "description": "unique identifier for the merchant"
+      },
+      "https://schema.org/location": {
+        "$comment": {
+          "term": "geolocation",
+          "@id": "https://schema.org/location"
+        },
+        "title": "geolocation",
+        "description": "the vehicle's location at time of tx"
+      },
+      "https://schema.org/amount": {
+        "$comment": {
+          "term": "transactionAmount",
+          "@id": "https://schema.org/amount"
+        },
+        "title": "transactionAmount",
+        "description": "quantity of money being transacted"
+      },
+      "https://schema.org/accountId": {
+        "$comment": {
+          "term": "processorId",
+          "@id": "https://schema.org/accountId"
+        },
+        "title": "processorId",
+        "description": "identifier for the transaction processor"
+      },
+      "https://schema.org/text": {
+        "$comment": {
+          "term": "otherAncillaryData",
+          "@id": "https://schema.org/text"
+        },
+        "title": "otherAncillaryData",
+        "description": "any metadata not captured by previous attributes"
+      },
+      "https://schema.org/description": {
+        "$comment": {
+          "term": "otherInfo",
+          "@id": "https://schema.org/description"
+        },
+        "title": "otherInfo",
+        "description": "any remaining contextual information"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForPaymentsAndTxReceipts.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"VcSchemaForPaymentsAndTxReceipts\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#VcSchemaForPaymentsAndTxReceipts\"}",
+      "title": "VcSchemaForPaymentsAndTxReceipts",
+      "description": "Attributes necessary to construct verifiable credential for payments and transaction receipts",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "eventId": {
+          "$comment": "{\"term\": \"eventId\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "eventId",
+          "description": "Type of maintenance as defined in ISO 18542",
+          "type": "string"
+        },
+        "vid": {
+          "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility-schema#VID\"}",
+          "title": "vid",
+          "description": "Logo of the entity."
+        },
+        "dateOfTx": {
+          "$comment": "{\"term\": \"dateOfTx\", \"@id\": \"https://schema.org/Date\"}",
+          "title": "dateOfTx",
+          "description": "date of transaction",
+          "type": "string"
+        },
+        "transactionId": {
+          "$comment": "{\"term\": \"transactionId\", \"@id\": \"https://schema.org/propertyId\"}",
+          "title": "transactionId",
+          "description": "transaction ID",
+          "type": "string"
+        },
+        "transactionType": {
+          "$comment": "{\"term\": \"transactionType\", \"@id\": \"https://schema.org/PaymentChargeSpecification\"}",
+          "title": "transactionType",
+          "description": "type of transaction",
+          "type": "string"
+        },
+        "merchantId": {
+          "$comment": "{\"term\": \"merchantId\", \"@id\": \"https://schema.org/productID\"}",
+          "title": "merchantId",
+          "description": "unique identifier for the merchant",
+          "type": "string"
+        },
+        "geolocation": {
+          "$comment": "{\"term\": \"geolocation\", \"@id\": \"https://schema.org/location\"}",
+          "title": "geolocation",
+          "description": "the vehicle's location at time of tx",
+          "type": "string"
+        },
+        "transactionAmount": {
+          "$comment": "{\"term\": \"transactionAmount\", \"@id\": \"https://schema.org/amount\"}",
+          "title": "transactionAmount",
+          "description": "quantity of money being transacted",
+          "type": "string"
+        },
+        "processorId": {
+          "$comment": "{\"term\": \"processorId\", \"@id\": \"https://schema.org/accountId\"}",
+          "title": "processorId",
+          "description": "identifier for the transaction processor",
+          "type": "string"
+        },
+        "otherAncillaryData": {
+          "$comment": "{\"term\": \"otherAncillaryData\", \"@id\": \"https://schema.org/text\"}",
+          "title": "otherAncillaryData",
+          "description": "any metadata not captured by previous attributes",
+          "type": "string"
+        },
+        "otherInfo": {
+          "$comment": "{\"term\": \"otherInfo\", \"@id\": \"https://schema.org/description\"}",
+          "title": "otherInfo",
+          "description": "any remaining contextual information",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "examples": []
+    }
+  },
+  "https://dlt.mobi/mobility-schema/schemas#VcSchemaForUsageDataReports": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForUsageDataReports.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": {
+      "term": "VcSchemaForUsageDataReports",
+      "@id": "https://dlt.mobi/mobility-schema/schemas#VcSchemaForUsageDataReports"
+    },
+    "title": "VcSchemaForUsageDataReports",
+    "description": "Attributes necessary to construct verifiable credential for usage based data reports",
+    "classProperties": {
+      "https://schema.org/identifier": {
+        "$comment": {
+          "term": "infraOwnerEntityId",
+          "@id": "https://schema.org/identifier"
+        },
+        "title": "infraOwnerEntityId",
+        "description": "the time and date of the accident/damage/event"
+      },
+      "https://schema.org/DateTime": {
+        "$comment": {
+          "term": "dateTime",
+          "@id": "https://schema.org/DateTime"
+        },
+        "title": "dateTime",
+        "description": "the time and date of the accident/damage/event"
+      },
+      "https://schema.org/amount": {
+        "$comment": {
+          "term": "energyConsumed",
+          "@id": "https://schema.org/amount"
+        },
+        "title": "energyConsumed",
+        "description": "the amount of energy consumed"
+      },
+      "https://schema.org/accountId": {
+        "$comment": {
+          "term": "chargerId",
+          "@id": "https://schema.org/accountId"
+        },
+        "title": "chargerId",
+        "description": "the ID of the charger"
+      },
+      "https://schema.org/startTime": {
+        "$comment": {
+          "term": "chargeStartTime",
+          "@id": "https://schema.org/startTime"
+        },
+        "title": "chargeStartTime",
+        "description": "the start time of the charging session"
+      },
+      "https://schema.org/availabilityEnds": {
+        "$comment": {
+          "term": "chargeEndTime",
+          "@id": "https://schema.org/availabilityEnds"
+        },
+        "title": "chargeEndTime",
+        "description": "the end time of the charging session"
+      },
+      "https://schema.org/productId": {
+        "$comment": {
+          "term": "meterId",
+          "@id": "https://schema.org/productId"
+        },
+        "title": "meterId",
+        "description": "the ID of the meter"
+      },
+      "https://schema.org/text": {
+        "$comment": {
+          "term": "chargingDataSource",
+          "@id": "https://schema.org/text"
+        },
+        "title": "chargingDataSource",
+        "description": "the source of the charging data, such as the meter, the vehicle telematics, the charger, etc."
+      },
+      "https://schema.org/location": {
+        "$comment": {
+          "term": "chargerGeolocation",
+          "@id": "https://schema.org/location"
+        },
+        "title": "chargerGeolocation",
+        "description": "the charger's location"
+      },
+      "https://schema.org/merchant": {
+        "$comment": {
+          "term": "fuelStationId",
+          "@id": "https://schema.org/merchant"
+        },
+        "title": "fuelStationId",
+        "description": "the entity ID of the fuel station "
+      },
+      "https://schema.org/fuelType": {
+        "$comment": {
+          "term": "fuelType",
+          "@id": "https://schema.org/fuelType"
+        },
+        "title": "fuelType",
+        "description": "the type of fuel"
+      },
+      "https://schema.org/item": {
+        "$comment": {
+          "term": "fuelVolumeConsumed",
+          "@id": "https://schema.org/item"
+        },
+        "title": "fuelVolumeConsumed",
+        "description": "the amount of fuel consumed."
+      },
+      "https://schema.org/description": {
+        "$comment": {
+          "term": "fuelEventDataSource",
+          "@id": "https://schema.org/description"
+        },
+        "title": "fuelEventDataSource",
+        "description": "the data source for the fuel event data"
+      },
+      "https://schema.org/serviceLocation": {
+        "$comment": {
+          "term": "fuelEventGeolocation",
+          "@id": "https://schema.org/serviceLocation"
+        },
+        "title": "fuelEventGeolocation",
+        "description": "geolocation of the fueling event"
+      },
+      "https://schema.org/homeLocation": {
+        "$comment": {
+          "term": "parkingAtHome",
+          "@id": "https://schema.org/homeLocation"
+        },
+        "title": "parkingAtHome",
+        "description": "parking at home"
+      },
+      "https://schema.org/workLocation": {
+        "$comment": {
+          "term": "parkingAtWork",
+          "@id": "https://schema.org/workLocation"
+        },
+        "title": "parkingAtWork",
+        "description": "parking at work"
+      },
+      "https://schema.org/startDate": {
+        "$comment": {
+          "term": "parkingEventDateTime",
+          "@id": "https://schema.org/startDate"
+        },
+        "title": "parkingEventDateTime",
+        "description": "aftermarket part whose condition is like new"
+      },
+      "https://schema.org/geo": {
+        "$comment": {
+          "term": "parkingEventGeolocation",
+          "@id": "https://schema.org/geo"
+        },
+        "title": "parkingEventGeolocation",
+        "description": "the number of the police report associated with accident"
+      },
+      "https://schema.org/additionalType": {
+        "$comment": {
+          "term": "parkingEventType",
+          "@id": "https://schema.org/additionalType"
+        },
+        "title": "parkingEventType",
+        "description": "the type of parking event"
+      },
+      "https://schema.org/additionalProperty": {
+        "$comment": {
+          "term": "jurisdictionSpecificRequirement",
+          "@id": "https://schema.org/additionalProperty"
+        },
+        "title": "jurisdictionSpecificRequirement",
+        "description": "any metadata not captured by previous attributes"
+      }
+    },
+    "schema": {
+      "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForUsageDataReports.json",
+      "$schema": "https://json-schema.org/draft-07/schema#",
+      "$comment": "{\"term\": \"VcSchemaForUsageDataReports\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#VcSchemaForUsageDataReports\"}",
+      "title": "VcSchemaForUsageDataReports",
+      "description": "Attributes necessary to construct verifiable credential for usage based data reports",
+      "type": "object",
+      "properties": {
+        "@context": {
+          "type": "array"
+        },
+        "type": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array"
+            }
+          ]
+        },
+        "infraOwnerEntityId": {
+          "$comment": "{\"term\": \"infraOwnerEntityId\", \"@id\": \"https://schema.org/identifier\"}",
+          "title": "infraOwnerEntityId",
+          "description": "the time and date of the accident/damage/event",
+          "type": "string"
+        },
+        "dateTime": {
+          "$comment": "{\"term\": \"dateTime\", \"@id\": \"https://schema.org/DateTime\"}",
+          "title": "dateTime",
+          "description": "the time and date of the accident/damage/event",
+          "type": "string"
+        },
+        "energyConsumed": {
+          "$comment": "{\"term\": \"energyConsumed\", \"@id\": \"https://schema.org/amount\"}",
+          "title": "energyConsumed",
+          "description": "the amount of energy consumed",
+          "type": "string"
+        },
+        "chargerId": {
+          "$comment": "{\"term\": \"chargerId\", \"@id\": \"https://schema.org/accountId\"}",
+          "title": "chargerId",
+          "description": "the ID of the charger",
+          "type": "string"
+        },
+        "chargeStartTime": {
+          "$comment": "{\"term\": \"chargeStartTime\", \"@id\": \"https://schema.org/startTime\"}",
+          "title": "chargeStartTime",
+          "description": "the start time of the charging session",
+          "type": "string"
+        },
+        "chargeEndTime": {
+          "$comment": "{\"term\": \"chargeEndTime\", \"@id\": \"https://schema.org/availabilityEnds\"}",
+          "title": "chargeEndTime",
+          "description": "the end time of the charging session",
+          "type": "string"
+        },
+        "meterId": {
+          "$comment": "{\"term\": \"meterId\", \"@id\": \"https://schema.org/productId\"}",
+          "title": "meterId",
+          "description": "the ID of the meter",
+          "type": "string"
+        },
+        "chargingDataSource": {
+          "$comment": "{\"term\": \"chargingDataSource\", \"@id\": \"https://schema.org/text\"}",
+          "title": "chargingDataSource",
+          "description": "the source of the charging data, such as the meter, the vehicle telematics, the charger, etc.",
+          "type": "string"
+        },
+        "chargerGeolocation": {
+          "$comment": "{\"term\": \"chargerGeolocation\", \"@id\": \"https://schema.org/location\"}",
+          "title": "chargerGeolocation",
+          "description": "the charger's location",
+          "type": "string"
+        },
+        "fuelStationId": {
+          "$comment": "{\"term\": \"fuelStationId\", \"@id\": \"https://schema.org/merchant\"}",
+          "title": "fuelStationId",
+          "description": "the entity ID of the fuel station ",
+          "type": "string"
+        },
+        "fuelType": {
+          "$comment": "{\"term\": \"fuelType\", \"@id\": \"https://schema.org/fuelType\"}",
+          "title": "fuelType",
+          "description": "the type of fuel",
+          "type": "string"
+        },
+        "fuelVolumeConsumed": {
+          "$comment": "{\"term\": \"fuelVolumeConsumed\", \"@id\": \"https://schema.org/item\"}",
+          "title": "fuelVolumeConsumed",
+          "description": "the amount of fuel consumed.",
+          "type": "string"
+        },
+        "fuelEventDataSource": {
+          "$comment": "{\"term\": \"fuelEventDataSource\", \"@id\": \"https://schema.org/description\"}",
+          "title": "fuelEventDataSource",
+          "description": "the data source for the fuel event data",
+          "type": "string"
+        },
+        "fuelEventGeolocation": {
+          "$comment": "{\"term\": \"fuelEventGeolocation\", \"@id\": \"https://schema.org/serviceLocation\"}",
+          "title": "fuelEventGeolocation",
+          "description": "geolocation of the fueling event",
+          "type": "string"
+        },
+        "parkingAtHome": {
+          "$comment": "{\"term\": \"parkingAtHome\", \"@id\": \"https://schema.org/homeLocation\"}",
+          "title": "parkingAtHome",
+          "description": "parking at home",
+          "type": "string"
+        },
+        "parkingAtWork": {
+          "$comment": "{\"term\": \"parkingAtWork\", \"@id\": \"https://schema.org/workLocation\"}",
+          "title": "parkingAtWork",
+          "description": "parking at work",
+          "type": "string"
+        },
+        "parkingEventDateTime": {
+          "$comment": "{\"term\": \"parkingEventDateTime\", \"@id\": \"https://schema.org/startDate\"}",
+          "title": "parkingEventDateTime",
+          "description": "aftermarket part whose condition is like new",
+          "type": "string"
+        },
+        "parkingEventGeolocation": {
+          "$comment": "{\"term\": \"parkingEventGeolocation\", \"@id\": \"https://schema.org/geo\"}",
+          "title": "parkingEventGeolocation",
+          "description": "the number of the police report associated with accident",
+          "type": "string"
+        },
+        "parkingEventType": {
+          "$comment": "{\"term\": \"parkingEventType\", \"@id\": \"https://schema.org/additionalType\"}",
+          "title": "parkingEventType",
+          "description": "the type of parking event",
+          "type": "string"
+        },
+        "jurisdictionSpecificRequirement": {
+          "$comment": "{\"term\": \"jurisdictionSpecificRequirement\", \"@id\": \"https://schema.org/additionalProperty\"}",
+          "title": "jurisdictionSpecificRequirement",
+          "description": "any metadata not captured by previous attributes",
           "type": "string"
         }
       },

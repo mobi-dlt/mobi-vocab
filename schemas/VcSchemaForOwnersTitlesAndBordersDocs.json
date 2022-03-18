@@ -1,0 +1,192 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VcSchemaForOwnersTitlesAndBordersDocs.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"VcSchemaForOwnersTitlesAndBordersDocs\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#VcSchemaForOwnersTitlesAndBordersDocs\"}",
+    "title": "VcSchemaForOwnersTitlesAndBordersDocs",
+    "description": "Attributes necessary to construct verifiable credential for Owners, Title, and Borders Documents",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "titleType": {
+            "$comment": "{\"term\": \"titleType\", \"@id\": \"https://schema.org/serviceType\"}",
+            "title": "titleType",
+            "description": "the type of title",
+            "type": "string"
+        },
+        "status": {
+            "$comment": "{\"term\": \"status\", \"@id\": \"https://schema.org/status\"}",
+            "title": "status",
+            "description": "the status of the vehicle",
+            "type": "string"
+        },
+        "brands": {
+            "$comment": "{\"term\": \"brands\", \"@id\": \"https://schema.org/brand\"}",
+            "title": "brands",
+            "description": "the brands",
+            "type": "string"
+        },
+        "titleJurisdiction": {
+            "$comment": "{\"term\": \"titleJurisdiction\", \"@id\": \"https://schema.org/jurisdiction\"}",
+            "title": "titleJurisdiction",
+            "description": "the current title jurisdiction",
+            "type": "string"
+        },
+        "prevTitleJurisdiction": {
+            "$comment": "{\"term\": \"prevTitleJurisdiction\", \"@id\": \"https://schema.org/title\"}",
+            "title": "prevTitleJurisdiction",
+            "description": "the previous title jurisdiction",
+            "type": "string"
+        },
+        "prevOwners": {
+            "$comment": "{\"term\": \"prevOwners\", \"@id\": \"https://schema.org/acquiredFrom\"}",
+            "title": "prevOwners",
+            "description": "the previous owners of the vehicle",
+            "type": "string"
+        },
+        "vid": {
+            "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility-schema#VID\"}",
+            "title": "vid",
+            "description": "Logo of the entity."
+        },
+        "lienId": {
+            "$comment": "{\"term\": \"lienId\", \"@id\": \"https://schema.org/accountId\"}",
+            "title": "lienId",
+            "description": "the identifier for the lien",
+            "type": "string"
+        },
+        "lenderId": {
+            "$comment": "{\"term\": \"lenderId\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "lenderId",
+            "description": "the identifier for the lender who owns the lien",
+            "type": "string"
+        },
+        "lienHolderName": {
+            "$comment": "{\"term\": \"lienHolderName\", \"@id\": \"https://schema.org/funder\"}",
+            "title": "lienHolderName",
+            "description": "the name of the lien holder",
+            "type": "string"
+        },
+        "lienHolderAddress": {
+            "$comment": "{\"term\": \"lienHolderAddress\", \"@id\": \"https://schema.org/streetAddress\"}",
+            "title": "lienHolderAddress",
+            "description": "the address of the lien holder",
+            "type": "string"
+        },
+        "titleNumber": {
+            "$comment": "{\"term\": \"titleNumber\", \"@id\": \"https://schema.org/PropertyValue\"}",
+            "title": "titleNumber",
+            "description": "the identifying number for the title",
+            "type": "string"
+        },
+        "issueDate": {
+            "$comment": "{\"term\": \"issueDate\", \"@id\": \"https://schema.org/dateVehicleFirstRegistered\"}",
+            "title": "issueDate",
+            "description": "date of registration issuance",
+            "type": "string"
+        },
+        "effectiveDate": {
+            "$comment": "{\"term\": \"effectiveDate\", \"@id\": \"https://schema.org/dateCreated\"}",
+            "title": "effectiveDate",
+            "description": "date that registration becomes effective",
+            "type": "string"
+        },
+        "city": {
+            "$comment": "{\"term\": \"city\", \"@id\": \"https://schema.org/City\"}",
+            "title": "city",
+            "description": "the city associated with the title or other documentation",
+            "type": "string"
+        },
+        "county": {
+            "$comment": "{\"term\": \"county\", \"@id\": \"https://schema.org/addressRegion\"}",
+            "title": "county",
+            "description": "the county associated with the title or other documentation",
+            "type": "string"
+        },
+        "state": {
+            "$comment": "{\"term\": \"state\", \"@id\": \"https://schema.org/State\"}",
+            "title": "state",
+            "description": "the state associated with the title or other documentation",
+            "type": "string"
+        },
+        "country": {
+            "$comment": "{\"term\": \"country\", \"@id\": \"https://schema.org/Country\"}",
+            "title": "country",
+            "description": "the country associated with the title or other documentation",
+            "type": "string"
+        },
+        "odometerReading": {
+            "$comment": "{\"term\": \"odometerReading\", \"@id\": \"https://schema.org/mileageFromOdometer\"}",
+            "title": "odometerReading",
+            "description": "the mileage as read from the vehicle's odometer",
+            "type": "string"
+        },
+        "jurisdictionSpecificRequirement": {
+            "$comment": "{\"term\": \"jurisdictionSpecificRequirement\", \"@id\": \"https://schema.org/legislationJurisdiction\"}",
+            "title": "jurisdictionSpecificRequirement",
+            "description": "any metadata not captured by previous attributes",
+            "type": "string"
+        },
+        "geolocation": {
+            "$comment": "{\"term\": \"geolocation\", \"@id\": \"https://schema.org/workLocation\"}",
+            "title": "geolocation",
+            "description": "the vehicle's location",
+            "type": "string"
+        },
+        "dateTime": {
+            "$comment": "{\"term\": \"dateTime\", \"@id\": \"https://schema.org/DateTime\"}",
+            "title": "dateTime",
+            "description": "the time and date of the accident/damage/event",
+            "type": "string"
+        },
+        "transactionType": {
+            "$comment": "{\"term\": \"transactionType\", \"@id\": \"https://schema.org/PaymentService\"}",
+            "title": "transactionType",
+            "description": "the type of transaction",
+            "type": "string"
+        },
+        "transactionContract": {
+            "$comment": "{\"term\": \"transactionContract\", \"@id\": \"https://schema.org/termsOfService\"}",
+            "title": "transactionContract",
+            "description": "the contract associated with the transaction",
+            "type": "string"
+        },
+        "titleEvidence": {
+            "$comment": "{\"term\": \"titleEvidence\", \"@id\": \"https://schema.org/qualifications\"}",
+            "title": "titleEvidence",
+            "description": "the supporting evidence for title",
+            "type": "string"
+        },
+        "newOwnerName": {
+            "$comment": "{\"term\": \"newOwnerName\", \"@id\": \"https://schema.org/sponsor\"}",
+            "title": "newOwnerName",
+            "description": "the name of the vehicle's new owner",
+            "type": "string"
+        },
+        "newOwnerAddress": {
+            "$comment": "{\"term\": \"newOwnerAddress\", \"@id\": \"https://schema.org/billingAddress\"}",
+            "title": "newOwnerAddress",
+            "description": "the new owner's address",
+            "type": "string"
+        },
+        "lienExistence": {
+            "$comment": "{\"term\": \"lienExistence\", \"@id\": \"https://schema.org/publicAccess\"}",
+            "title": "lienExistence",
+            "description": "an indicator field showing whether or not a lien on the vehicle exists ",
+            "type": "boolean"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}

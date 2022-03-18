@@ -934,6 +934,213 @@
         }
       }
     },
+    "/VcSchemaForAccidentDamageAndTheftReports": {
+      "get": {
+        "description": "VcSchemaForAccidentDamageAndTheftReports",
+        "responses": {
+          "200": {
+            "description": "A list of all VcSchemaForAccidentDamageAndTheftReports objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VcSchemaForAccidentDamageAndTheftReports"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/VcSchemaForEndOfLifeDocuments": {
+      "get": {
+        "description": "VcSchemaForEndOfLifeDocuments",
+        "responses": {
+          "200": {
+            "description": "A list of all VcSchemaForEndOfLifeDocuments objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VcSchemaForEndOfLifeDocuments"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/VcSchemaForInspectionsReport": {
+      "get": {
+        "description": "VcSchemaForInspectionsReport",
+        "responses": {
+          "200": {
+            "description": "A list of all VcSchemaForInspectionsReport objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VcSchemaForInspectionsReport"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/VcSchemaForInsuranceClaimsAndPolicies": {
+      "get": {
+        "description": "VcSchemaForInsuranceClaimsAndPolicies",
+        "responses": {
+          "200": {
+            "description": "A list of all VcSchemaForInsuranceClaimsAndPolicies objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VcSchemaForInsuranceClaimsAndPolicies"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/VcSchemaForMileage": {
+      "get": {
+        "description": "VcSchemaForMileage",
+        "responses": {
+          "200": {
+            "description": "A list of all VcSchemaForMileage objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VcSchemaForMileage"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/VcSchemaForOwnersTitlesAndBordersDocs": {
+      "get": {
+        "description": "VcSchemaForOwnersTitlesAndBordersDocs",
+        "responses": {
+          "200": {
+            "description": "A list of all VcSchemaForOwnersTitlesAndBordersDocs objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VcSchemaForOwnersTitlesAndBordersDocs"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/VcSchemaForPartsReplacementReport": {
+      "get": {
+        "description": "VcSchemaForPartsReplacementReport",
+        "responses": {
+          "200": {
+            "description": "A list of all VcSchemaForPartsReplacementReport objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VcSchemaForPartsReplacementReport"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/VcSchemaForPaymentsAndTxReceipts": {
+      "get": {
+        "description": "VcSchemaForPaymentsAndTxReceipts",
+        "responses": {
+          "200": {
+            "description": "A list of all VcSchemaForPaymentsAndTxReceipts objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VcSchemaForPaymentsAndTxReceipts"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/VcSchemaForUsageDataReports": {
+      "get": {
+        "description": "VcSchemaForUsageDataReports",
+        "responses": {
+          "200": {
+            "description": "A list of all VcSchemaForUsageDataReports objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VcSchemaForUsageDataReports"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
     "/VehicleBirthCertificate": {
       "get": {
         "description": "VehicleBirthCertificate",
@@ -1468,6 +1675,10 @@
         "title": "Geographic Coordinates",
         "description": "The geographic coordinates of a place or event.",
         "type": "object",
+        "required": [
+          "latitude",
+          "longitude"
+        ],
         "properties": {
           "@context": {
             "type": "array",
@@ -1486,19 +1697,30 @@
           },
           "latitude": {
             "title": "Latitude",
-            "description": "Angular distance North or South from the earth's equator measured through 90 degrees.",
+            "description": "Angular distance North or South from the earth's equator measured through 90 degrees. Latitude of location based on ISO 6709",
             "type": "string"
           },
           "longitude": {
             "title": "Longitude",
-            "description": "The arc or portion of the earth's equator intersected between the meridian of a given place and the prime meridian and expressed in degrees.",
+            "description": "The arc or portion of the earth's equator intersected between the meridian of a given place and the prime meridian and expressed in degrees. Longitude of location based on ISO 6709",
+            "type": "string"
+          },
+          "elevation": {
+            "title": "elevation",
+            "description": "Elevation of coordinate.",
+            "type": "string"
+          },
+          "timestamp": {
+            "title": "timestamp",
+            "description": "Date and Time based on IETF RFC 3339.",
+            "type": "string"
+          },
+          "locationDescription": {
+            "title": "locationDescription",
+            "description": "Description of location such as \"Free Standing Residential Home\" \nor may be a URI that points to a more detailed description such as an address registry. Date and Time based on IETF RFC 3339.",
             "type": "string"
           }
         },
-        "required": [
-          "latitude",
-          "longitude"
-        ],
         "additionalProperties": false
       },
       "IdentityCredential": {
@@ -3021,6 +3243,967 @@
           "vin": {
             "title": "vin",
             "description": "vin number.",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VcSchemaForAccidentDamageAndTheftReports": {
+        "title": "VcSchemaForAccidentDamageAndTheftReports",
+        "description": "Attributes necessary to construct verifiable credential for accident, damage, and theft reports",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "eventId": {
+            "title": "maintenanceType",
+            "description": "Type of maintenance as defined in ISO 18542",
+            "type": "string"
+          },
+          "vid": {
+            "title": "vid",
+            "description": "MOBI VID"
+          },
+          "reportID": {
+            "title": "dateOfTx",
+            "description": "unique identifier for the accident/damage/event",
+            "type": "string"
+          },
+          "insuranceClaimNumber": {
+            "title": "transactionID",
+            "description": "the number for the insurance claim",
+            "type": "string"
+          },
+          "repairOrderNumber": {
+            "title": "repairOrderNumber",
+            "description": "order number for the repair",
+            "type": "string"
+          },
+          "driverID": {
+            "title": "driverID",
+            "description": "unique identifier for the driver",
+            "type": "string"
+          },
+          "geolocation": {
+            "title": "geolocation",
+            "description": "the vehicle's location at time of accident",
+            "type": "string"
+          },
+          "dateTime": {
+            "title": "dateTime",
+            "description": "the time and date of the accident/damage/event",
+            "type": "string"
+          },
+          "eventDescription": {
+            "title": "processorID",
+            "description": "identifier for the transaction processor",
+            "type": "string"
+          },
+          "jurisdictionSpecificRequirement": {
+            "title": "jurisdictionSpecificRequirement",
+            "description": "any metadata not captured by previous attributes",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VcSchemaForEndOfLifeDocuments": {
+        "title": "VcSchemaForEndOfLifeDocuments",
+        "description": "Attributes necessary to construct verifiable credential for end of life documents",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "endOfLifeDispositionType": {
+            "title": "endOfLifeDispositionType",
+            "description": "the type of end of life disposition",
+            "type": "string"
+          },
+          "vid": {
+            "title": "vid",
+            "description": "Logo of the entity."
+          },
+          "reason": {
+            "title": "reason",
+            "description": "reason for the vehicle's end of life",
+            "type": "string"
+          },
+          "eventDateTime": {
+            "title": "eventDateTime",
+            "description": "date and time of the event associated with vehicle's end of life",
+            "type": "string"
+          },
+          "dispositionGeolocation": {
+            "title": "dispositionGeolocation",
+            "description": "the geolocation of the disposition",
+            "type": "string"
+          },
+          "prevOwnerId": {
+            "title": "chargeEndTime",
+            "description": "the ID of the previous owner(s)",
+            "type": "string"
+          },
+          "newOwnerId": {
+            "title": "newOwnerId",
+            "description": "the Id of the new owner(s)",
+            "type": "string"
+          },
+          "titleNumber": {
+            "title": "titleNumber",
+            "description": "the identifying number for the title",
+            "type": "string"
+          },
+          "titleAuthority": {
+            "title": "titleAuthority",
+            "description": "the authority that issued that title",
+            "type": "string"
+          },
+          "wasteCert": {
+            "title": "wasteCert",
+            "description": "the waste certificates",
+            "type": "string"
+          },
+          "jurisdictionSpecificRequirement": {
+            "title": "jurisdictionSpecificRequirement",
+            "description": "any metadata not captured by previous attributes",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VcSchemaForInspectionsReport": {
+        "title": "VcSchemaForInspectionsReport",
+        "description": "Attributes necessary to construct verifiable credential for inspections report",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "dateTime": {
+            "title": "dateTime",
+            "description": "the time and date",
+            "type": "string"
+          },
+          "serviceProviderEntityId": {
+            "title": "serviceProviderEntityId",
+            "description": "the entity ID associated with the service provider",
+            "type": "string"
+          },
+          "serviceProviderName": {
+            "title": "serviceProviderName",
+            "description": "the name of the service provider",
+            "type": "string"
+          },
+          "serviceInspectorId": {
+            "title": "serviceInspectorId",
+            "description": "the decentralized identifier (DID) associated with the service inspector ",
+            "type": "string"
+          },
+          "inspectionType": {
+            "title": "inspectionType",
+            "description": "the type of inspection that took place",
+            "type": "string"
+          },
+          "inspectionGeolocation": {
+            "title": "inspectionGeolocation",
+            "description": "the geolocation where inspection took place",
+            "type": "string"
+          },
+          "vehicleType": {
+            "title": "vehicleType",
+            "description": "the type of vehicle being inspected",
+            "type": "string"
+          },
+          "requestedAction": {
+            "title": "requestedAction",
+            "description": "the requested action associated with the inspection",
+            "type": "string"
+          },
+          "vin": {
+            "title": "vin",
+            "description": "vin number.",
+            "type": "string"
+          },
+          "inspectionOutcome": {
+            "title": "inspectionOutcome",
+            "description": "the outcome of the inspection",
+            "type": "string"
+          },
+          "inspectionCertId": {
+            "title": "inspectionCertId",
+            "description": "the outcome of the inspection",
+            "type": "string"
+          },
+          "certIssuer": {
+            "title": "certIssuer",
+            "description": "the issuer of the certificate",
+            "type": "string"
+          },
+          "certExpDate": {
+            "title": "certExpDate",
+            "description": "the expiry date for the certificate",
+            "type": "string"
+          },
+          "inspectionDetails": {
+            "title": "inspectionDetails",
+            "description": "the details of the inspection",
+            "type": "string"
+          },
+          "inspectionComment": {
+            "title": "inspectionComment",
+            "description": "the comments from the inspector(s)",
+            "type": "string"
+          },
+          "jurisdictionSpecificRequirement": {
+            "title": "jurisdictionSpecificRequirement",
+            "description": "any metadata not captured by previous attributes",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VcSchemaForInsuranceClaimsAndPolicies": {
+        "title": "VcSchemaForInsuranceClaimsAndPolicies",
+        "description": "Attributes necessary to construct verifiable credential for insurance claims and policies",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "driverId": {
+            "title": "driverId",
+            "description": "unique identifier for the driver",
+            "type": "string"
+          },
+          "driverName": {
+            "title": "driverName",
+            "description": "the driver's full name",
+            "type": "string"
+          },
+          "driverPostalAddress": {
+            "title": "driverPostalAddress",
+            "description": "the driver's postal address",
+            "type": "string"
+          },
+          "driverOccupation": {
+            "title": "driverOccupation",
+            "description": "the driver's occupation",
+            "type": "string"
+          },
+          "financialAccount": {
+            "title": "financialAccount",
+            "description": "the financial account or wallet information",
+            "type": "string"
+          },
+          "insuranceClaimNumber": {
+            "title": "insuranceClaimNumber",
+            "description": "the identification number associated with the insurance claim",
+            "type": "string"
+          },
+          "insuranceCompany": {
+            "title": "insuranceCompany",
+            "description": "the name of the insurance company",
+            "type": "string"
+          },
+          "insurancePolicyNumber": {
+            "title": "insurancePolicyNumber",
+            "description": "the identification number associated with the insurance policy",
+            "type": "string"
+          },
+          "counterpartInsurancePolicyNumber": {
+            "title": "counterpartInsurancePolicyNumber",
+            "description": "counterpart's insurance policy number",
+            "type": "string"
+          },
+          "counterpartInsuranceCompany": {
+            "title": "counterpartInsuranceCompany",
+            "description": "name of the counterpart's insurance company",
+            "type": "string"
+          },
+          "insuranceType": {
+            "title": "insuranceType",
+            "description": "the type of insurance held by the driver",
+            "type": "string"
+          },
+          "vid": {
+            "title": "vid",
+            "description": "MOBI VID of the vehicle."
+          },
+          "dateTime": {
+            "title": "dateTime",
+            "description": "the time and date of the accident/damage/event",
+            "type": "string"
+          },
+          "geolocation": {
+            "title": "geolocation",
+            "description": "the vehicle's location at time of accident",
+            "type": "string"
+          },
+          "participantType": {
+            "title": "participantType",
+            "description": "the type of participant",
+            "type": "string"
+          },
+          "numberOfParticipants": {
+            "title": "numberOfParticipants",
+            "description": "the number of participants",
+            "type": "string"
+          },
+          "otherParticipantInformation": {
+            "title": "otherParticipantInformation",
+            "description": "the information, like EID, VID, or policy information associated with other participants",
+            "type": "string"
+          },
+          "claimType": {
+            "title": "claimType",
+            "description": "the type of claim",
+            "type": "string"
+          },
+          "textualDescription": {
+            "title": "textualDescription",
+            "description": "text description",
+            "type": "string"
+          },
+          "policeReportNumber": {
+            "title": "policeReportNumber",
+            "description": "the number of the police report associated with accident",
+            "type": "string"
+          },
+          "damageValue": {
+            "title": "damageValue",
+            "description": "the cost of the damage",
+            "type": "integer"
+          },
+          "repairDurationInDays": {
+            "title": "repairDurationInDays",
+            "description": "the number of days required to complete the repair",
+            "type": "integer"
+          },
+          "otherVehicleId": {
+            "title": "otherVehicleId",
+            "description": "Logo of the entity."
+          },
+          "repairFacilityId": {
+            "title": "repairFacilityId",
+            "description": "the ID of the repair facility",
+            "type": "integer"
+          },
+          "fault": {
+            "title": "fault",
+            "description": "overview of the fault outcomes of the accident",
+            "type": "string"
+          },
+          "carrier": {
+            "title": "carrier",
+            "description": "carrier associated with the policy",
+            "type": "string"
+          },
+          "policyNumber": {
+            "title": "policyNumber",
+            "description": "the policy identifying number",
+            "type": "string"
+          },
+          "effectiveDate": {
+            "title": "effectiveDate",
+            "description": "the policy identifying number",
+            "type": "string"
+          },
+          "jurisdictionSpecificRequirement": {
+            "title": "jurisdictionSpecificRequirement",
+            "description": "any metadata not captured by previous attributes",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VcSchemaForMileage": {
+        "title": "VcSchemaForMileage",
+        "description": "Attributes necessary to construct verifiable credential for mileage",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "odometerReading": {
+            "title": "odometerReading",
+            "description": "Type of maintenance as defined in ISO 18542",
+            "type": "string"
+          },
+          "unit": {
+            "title": "unit",
+            "description": "unit",
+            "type": "string"
+          },
+          "dateTime": {
+            "title": "dateTime",
+            "description": "the time and date of the accident/damage/event",
+            "type": "string"
+          },
+          "reportingAgencySource": {
+            "title": "reportingAgencySource",
+            "description": "the reporting agency source",
+            "type": "string"
+          },
+          "technicalSource": {
+            "title": "technicalSource",
+            "description": "the technical source of the information",
+            "type": "string"
+          },
+          "trigger": {
+            "title": "trigger",
+            "description": "trigger for reporting",
+            "type": "string"
+          },
+          "jurisdictionSpecificRequirement": {
+            "title": "jurisdictionSpecificRequirement",
+            "description": "any metadata not captured by previous attributes",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VcSchemaForOwnersTitlesAndBordersDocs": {
+        "title": "VcSchemaForOwnersTitlesAndBordersDocs",
+        "description": "Attributes necessary to construct verifiable credential for Owners, Title, and Borders Documents",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "titleType": {
+            "title": "titleType",
+            "description": "the type of title",
+            "type": "string"
+          },
+          "status": {
+            "title": "status",
+            "description": "the status of the vehicle",
+            "type": "string"
+          },
+          "brands": {
+            "title": "brands",
+            "description": "the brands",
+            "type": "string"
+          },
+          "titleJurisdiction": {
+            "title": "titleJurisdiction",
+            "description": "the current title jurisdiction",
+            "type": "string"
+          },
+          "prevTitleJurisdiction": {
+            "title": "prevTitleJurisdiction",
+            "description": "the previous title jurisdiction",
+            "type": "string"
+          },
+          "prevOwners": {
+            "title": "prevOwners",
+            "description": "the previous owners of the vehicle",
+            "type": "string"
+          },
+          "vid": {
+            "title": "vid",
+            "description": "Logo of the entity."
+          },
+          "lienId": {
+            "title": "lienId",
+            "description": "the identifier for the lien",
+            "type": "string"
+          },
+          "lenderId": {
+            "title": "lenderId",
+            "description": "the identifier for the lender who owns the lien",
+            "type": "string"
+          },
+          "lienHolderName": {
+            "title": "lienHolderName",
+            "description": "the name of the lien holder",
+            "type": "string"
+          },
+          "lienHolderAddress": {
+            "title": "lienHolderAddress",
+            "description": "the address of the lien holder",
+            "type": "string"
+          },
+          "titleNumber": {
+            "title": "titleNumber",
+            "description": "the identifying number for the title",
+            "type": "string"
+          },
+          "issueDate": {
+            "title": "issueDate",
+            "description": "date of registration issuance",
+            "type": "string"
+          },
+          "effectiveDate": {
+            "title": "effectiveDate",
+            "description": "date that registration becomes effective",
+            "type": "string"
+          },
+          "city": {
+            "title": "city",
+            "description": "the city associated with the title or other documentation",
+            "type": "string"
+          },
+          "county": {
+            "title": "county",
+            "description": "the county associated with the title or other documentation",
+            "type": "string"
+          },
+          "state": {
+            "title": "state",
+            "description": "the state associated with the title or other documentation",
+            "type": "string"
+          },
+          "country": {
+            "title": "country",
+            "description": "the country associated with the title or other documentation",
+            "type": "string"
+          },
+          "odometerReading": {
+            "title": "odometerReading",
+            "description": "the mileage as read from the vehicle's odometer",
+            "type": "string"
+          },
+          "jurisdictionSpecificRequirement": {
+            "title": "jurisdictionSpecificRequirement",
+            "description": "any metadata not captured by previous attributes",
+            "type": "string"
+          },
+          "geolocation": {
+            "title": "geolocation",
+            "description": "the vehicle's location",
+            "type": "string"
+          },
+          "dateTime": {
+            "title": "dateTime",
+            "description": "the time and date of the accident/damage/event",
+            "type": "string"
+          },
+          "transactionType": {
+            "title": "transactionType",
+            "description": "the type of transaction",
+            "type": "string"
+          },
+          "transactionContract": {
+            "title": "transactionContract",
+            "description": "the contract associated with the transaction",
+            "type": "string"
+          },
+          "titleEvidence": {
+            "title": "titleEvidence",
+            "description": "the supporting evidence for title",
+            "type": "string"
+          },
+          "newOwnerName": {
+            "title": "newOwnerName",
+            "description": "the name of the vehicle's new owner",
+            "type": "string"
+          },
+          "newOwnerAddress": {
+            "title": "newOwnerAddress",
+            "description": "the new owner's address",
+            "type": "string"
+          },
+          "lienExistence": {
+            "title": "lienExistence",
+            "description": "an indicator field showing whether or not a lien on the vehicle exists ",
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VcSchemaForPartsReplacementReport": {
+        "title": "VcSchemaForPartsReplacementReport",
+        "description": "Attributes necessary to construct verifiable credential for insurance claims and policies",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "dateTime": {
+            "title": "dateTime",
+            "description": "the time and date of the accident/damage/event",
+            "type": "string"
+          },
+          "serviceProviderEntityId": {
+            "title": "serviceProviderEntityId",
+            "description": "the driver's full name",
+            "type": "string"
+          },
+          "geolocation": {
+            "title": "geolocation",
+            "description": "the vehicle's location at time of accident",
+            "type": "string"
+          },
+          "estimateNumber": {
+            "title": "estimateNumber",
+            "description": "the estimated cost of the repair",
+            "type": "string"
+          },
+          "invoiceNumber": {
+            "title": "invoiceNumber",
+            "description": "the financial account or wallet information",
+            "type": "string"
+          },
+          "partType": {
+            "title": "partType",
+            "description": "the type of part involved in the replacement",
+            "type": "string"
+          },
+          "oldPartNumber": {
+            "title": "oldPartNumber",
+            "description": "the name of the insurance company",
+            "type": "string"
+          },
+          "oldPartSerialNumber": {
+            "title": "oldPartSerialNumber",
+            "description": "the serial number associated with the old part",
+            "type": "string"
+          },
+          "oldPartManufacturer": {
+            "title": "oldPartManufacturer",
+            "description": "the old part's manufacturer ",
+            "type": "string"
+          },
+          "oldPartCondition": {
+            "title": "oldPartCondition",
+            "description": "counterpart's insurance policy number",
+            "type": "string"
+          },
+          "finalPartNumber": {
+            "title": "finalPartNumber",
+            "description": "the part number of the new part.",
+            "type": "string"
+          },
+          "finalPartSerialNumber": {
+            "title": "finalPartSerialNumber",
+            "description": "the serial number of the replacement part",
+            "type": "string"
+          },
+          "finalPartManufacturer": {
+            "title": "finalPartManufacturer",
+            "description": "the manufacturer of the new part",
+            "type": "string"
+          },
+          "finalPartCondition": {
+            "title": "finalPartCondition",
+            "description": "the condition of the new part installed into the vehicle",
+            "type": "string"
+          },
+          "partRepairedOrReplaced": {
+            "title": "partRepairedOrReplaced",
+            "description": "One of two strings: REPAIRED or REPLACED",
+            "type": "string"
+          },
+          "aftermarketLikeNewPart": {
+            "title": "aftermarketLikeNewPart",
+            "description": "aftermarket part whose condition is like new",
+            "type": "string"
+          },
+          "reasonForReplacement": {
+            "title": "reasonForReplacement",
+            "description": "the number of the police report associated with accident",
+            "type": "string"
+          },
+          "oldSoftwareVersion": {
+            "title": "oldSoftwareVersion",
+            "description": "previous software version",
+            "type": "string"
+          },
+          "newSoftwareVersion": {
+            "title": "newSoftwareVersion",
+            "description": "new software version",
+            "type": "string"
+          },
+          "jurisdictionSpecificRequirement": {
+            "title": "jurisdictionSpecificRequirement",
+            "description": "any metadata not captured by previous attributes",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VcSchemaForPaymentsAndTxReceipts": {
+        "title": "VcSchemaForPaymentsAndTxReceipts",
+        "description": "Attributes necessary to construct verifiable credential for payments and transaction receipts",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "eventId": {
+            "title": "eventId",
+            "description": "Type of maintenance as defined in ISO 18542",
+            "type": "string"
+          },
+          "vid": {
+            "title": "vid",
+            "description": "Logo of the entity."
+          },
+          "dateOfTx": {
+            "title": "dateOfTx",
+            "description": "date of transaction",
+            "type": "string"
+          },
+          "transactionId": {
+            "title": "transactionId",
+            "description": "transaction ID",
+            "type": "string"
+          },
+          "transactionType": {
+            "title": "transactionType",
+            "description": "type of transaction",
+            "type": "string"
+          },
+          "merchantId": {
+            "title": "merchantId",
+            "description": "unique identifier for the merchant",
+            "type": "string"
+          },
+          "geolocation": {
+            "title": "geolocation",
+            "description": "the vehicle's location at time of tx",
+            "type": "string"
+          },
+          "transactionAmount": {
+            "title": "transactionAmount",
+            "description": "quantity of money being transacted",
+            "type": "string"
+          },
+          "processorId": {
+            "title": "processorId",
+            "description": "identifier for the transaction processor",
+            "type": "string"
+          },
+          "otherAncillaryData": {
+            "title": "otherAncillaryData",
+            "description": "any metadata not captured by previous attributes",
+            "type": "string"
+          },
+          "otherInfo": {
+            "title": "otherInfo",
+            "description": "any remaining contextual information",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VcSchemaForUsageDataReports": {
+        "title": "VcSchemaForUsageDataReports",
+        "description": "Attributes necessary to construct verifiable credential for usage based data reports",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "infraOwnerEntityId": {
+            "title": "infraOwnerEntityId",
+            "description": "the time and date of the accident/damage/event",
+            "type": "string"
+          },
+          "dateTime": {
+            "title": "dateTime",
+            "description": "the time and date of the accident/damage/event",
+            "type": "string"
+          },
+          "energyConsumed": {
+            "title": "energyConsumed",
+            "description": "the amount of energy consumed",
+            "type": "string"
+          },
+          "chargerId": {
+            "title": "chargerId",
+            "description": "the ID of the charger",
+            "type": "string"
+          },
+          "chargeStartTime": {
+            "title": "chargeStartTime",
+            "description": "the start time of the charging session",
+            "type": "string"
+          },
+          "chargeEndTime": {
+            "title": "chargeEndTime",
+            "description": "the end time of the charging session",
+            "type": "string"
+          },
+          "meterId": {
+            "title": "meterId",
+            "description": "the ID of the meter",
+            "type": "string"
+          },
+          "chargingDataSource": {
+            "title": "chargingDataSource",
+            "description": "the source of the charging data, such as the meter, the vehicle telematics, the charger, etc.",
+            "type": "string"
+          },
+          "chargerGeolocation": {
+            "title": "chargerGeolocation",
+            "description": "the charger's location",
+            "type": "string"
+          },
+          "fuelStationId": {
+            "title": "fuelStationId",
+            "description": "the entity ID of the fuel station ",
+            "type": "string"
+          },
+          "fuelType": {
+            "title": "fuelType",
+            "description": "the type of fuel",
+            "type": "string"
+          },
+          "fuelVolumeConsumed": {
+            "title": "fuelVolumeConsumed",
+            "description": "the amount of fuel consumed.",
+            "type": "string"
+          },
+          "fuelEventDataSource": {
+            "title": "fuelEventDataSource",
+            "description": "the data source for the fuel event data",
+            "type": "string"
+          },
+          "fuelEventGeolocation": {
+            "title": "fuelEventGeolocation",
+            "description": "geolocation of the fueling event",
+            "type": "string"
+          },
+          "parkingAtHome": {
+            "title": "parkingAtHome",
+            "description": "parking at home",
+            "type": "string"
+          },
+          "parkingAtWork": {
+            "title": "parkingAtWork",
+            "description": "parking at work",
+            "type": "string"
+          },
+          "parkingEventDateTime": {
+            "title": "parkingEventDateTime",
+            "description": "aftermarket part whose condition is like new",
+            "type": "string"
+          },
+          "parkingEventGeolocation": {
+            "title": "parkingEventGeolocation",
+            "description": "the number of the police report associated with accident",
+            "type": "string"
+          },
+          "parkingEventType": {
+            "title": "parkingEventType",
+            "description": "the type of parking event",
+            "type": "string"
+          },
+          "jurisdictionSpecificRequirement": {
+            "title": "jurisdictionSpecificRequirement",
+            "description": "any metadata not captured by previous attributes",
             "type": "string"
           }
         },
