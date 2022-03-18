@@ -1,15 +1,15 @@
 {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/Entity.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/Entity.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"Entity\", \"@id\": \"https://dlt.mobi/mobility-schmea#Entity\"}",
+    "$comment": "{\"term\": \"Entity\", \"@id\": \"https://dlt.mobi/mobility-schema#Entity\"}",
     "title": "Entity",
     "description": "A person or organization.",
     "anyOf": [
         {
-            "$ref": "https://dlt.mobi/mobility-schmea/schemas/Person.json"
+            "$ref": "https://dlt.mobi/mobility-schema/schemas/Person.json"
         },
         {
-            "$ref": "https://dlt.mobi/mobility-schmea/schemas/Organization.json"
+            "$ref": "https://dlt.mobi/mobility-schema/schemas/Organization.json"
         }
     ],
     "examples": []

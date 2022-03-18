@@ -1,18 +1,18 @@
 {
-  "https://dlt.mobi/mobility-schmea#BatteryID": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/BatteryID.json",
+  "https://dlt.mobi/mobility-schema#BatteryID": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/BatteryID.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "BatteryID",
-      "@id": "https://dlt.mobi/mobility-schmea#BatteryID"
+      "@id": "https://dlt.mobi/mobility-schema#BatteryID"
     },
     "title": "BatteryID",
     "description": "VID information for vehicle.",
     "classProperties": {
-      "https://dlt.mobi/mobility-schmea#VID": {
+      "https://dlt.mobi/mobility-schema#VID": {
         "$comment": {
           "term": "vid",
-          "@id": "https://dlt.mobi/mobility-schmea#VID"
+          "@id": "https://dlt.mobi/mobility-schema#VID"
         },
         "title": "vid",
         "description": "vehicle identity"
@@ -35,9 +35,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/BatteryID.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/BatteryID.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"BatteryID\", \"@id\": \"https://dlt.mobi/mobility-schmea#BatteryID\"}",
+      "$comment": "{\"term\": \"BatteryID\", \"@id\": \"https://dlt.mobi/mobility-schema#BatteryID\"}",
       "title": "BatteryID",
       "description": "VID information for vehicle.",
       "type": "object",
@@ -56,10 +56,10 @@
           ]
         },
         "vid": {
-          "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility-schmea#VID\"}",
+          "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility-schema#VID\"}",
           "title": "vid",
           "description": "vehicle identity",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/VID.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/VID.json"
         },
         "batteryid": {
           "$comment": "{\"term\": \"batteryid\", \"@id\": \"https://schema.org/identifier\"}",
@@ -78,20 +78,20 @@
       "examples": []
     }
   },
-  "https://dlt.mobi/mobility-schmea#BatterySOH": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/BatterySOH.json",
+  "https://dlt.mobi/mobility-schema#BatterySOH": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/BatterySOH.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "BatterySOH",
-      "@id": "https://dlt.mobi/mobility-schmea#BatterySOH"
+      "@id": "https://dlt.mobi/mobility-schema#BatterySOH"
     },
     "title": "BatterySOH",
     "description": "Battery SOH information for vehicle.",
     "classProperties": {
-      "https://dlt.mobi/mobility-schmea#BatteryID": {
+      "https://dlt.mobi/mobility-schema#BatteryID": {
         "$comment": {
           "term": "batteryid",
-          "@id": "https://dlt.mobi/mobility-schmea#BatteryID"
+          "@id": "https://dlt.mobi/mobility-schema#BatteryID"
         },
         "title": "batteryid",
         "description": "Battery ID number"
@@ -128,10 +128,10 @@
         "title": "newSOHTimeStamp",
         "description": "previous SOH TimeStamp"
       },
-      "https://dlt.mobi/mobility-schmea#QuantitativeValue": {
+      "https://dlt.mobi/mobility-schema#QuantitativeValue": {
         "$comment": {
           "term": "chargeCycles",
-          "@id": "https://dlt.mobi/mobility-schmea#QuantitativeValue"
+          "@id": "https://dlt.mobi/mobility-schema#QuantitativeValue"
         },
         "title": "chargeCycles",
         "description": "charge Cycles"
@@ -162,9 +162,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/BatterySOH.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/BatterySOH.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"BatterySOH\", \"@id\": \"https://dlt.mobi/mobility-schmea#BatterySOH\"}",
+      "$comment": "{\"term\": \"BatterySOH\", \"@id\": \"https://dlt.mobi/mobility-schema#BatterySOH\"}",
       "title": "BatterySOH",
       "description": "Battery SOH information for vehicle.",
       "type": "object",
@@ -183,10 +183,10 @@
           ]
         },
         "batteryid": {
-          "$comment": "{\"term\": \"batteryid\", \"@id\": \"https://dlt.mobi/mobility-schmea#BatteryID\"}",
+          "$comment": "{\"term\": \"batteryid\", \"@id\": \"https://dlt.mobi/mobility-schema#BatteryID\"}",
           "title": "batteryid",
           "description": "Battery ID number",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/BatteryID.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/BatteryID.json"
         },
         "previousSOHVal": {
           "$comment": "{\"term\": \"previousSOHVal\", \"@id\": \"https://schema.org/value\"}",
@@ -213,7 +213,7 @@
           "type": "string"
         },
         "chargeCycles": {
-          "$comment": "{\"term\": \"chargeCycles\", \"@id\": \"https://dlt.mobi/mobility-schmea#QuantitativeValue\"}",
+          "$comment": "{\"term\": \"chargeCycles\", \"@id\": \"https://dlt.mobi/mobility-schema#QuantitativeValue\"}",
           "title": "chargeCycles",
           "description": "charge Cycles",
           "type": "string"
@@ -242,7 +242,7 @@
     }
   },
   "https://schema.org/Brand": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/Brand.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/Brand.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "Brand",
@@ -269,7 +269,7 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/Brand.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/Brand.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
       "$comment": "{\"term\": \"Brand\", \"@id\": \"https://schema.org/Brand\"}",
       "title": "Brand",
@@ -306,12 +306,12 @@
       "examples": []
     }
   },
-  "https://dlt.mobi/mobility-schmea#CitopiaMemberShipCredential": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/CitopiaMemberShipCredential.json",
+  "https://dlt.mobi/mobility-schema#CitopiaMemberShipCredential": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/CitopiaMemberShipCredential.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "CitopiaMembershipCredential",
-      "@id": "https://dlt.mobi/mobility-schmea#CitopiaMemberShipCredential"
+      "@id": "https://dlt.mobi/mobility-schema#CitopiaMemberShipCredential"
     },
     "title": "Citopia MemberShip Credential",
     "description": "A CitopiaMemberShip Credential",
@@ -332,10 +332,10 @@
         "title": "identifier",
         "description": "identifier of user"
       },
-      "https://schema.org/https://dlt.mobi/mobility-schmea#Member": {
+      "https://schema.org/https://dlt.mobi/mobility-schema#Member": {
         "$comment": {
           "term": "member",
-          "@id": "https://schema.org/https://dlt.mobi/mobility-schmea#Member"
+          "@id": "https://schema.org/https://dlt.mobi/mobility-schema#Member"
         },
         "title": "member",
         "description": "identifier of user"
@@ -358,9 +358,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/CitopiaMemberShipCredential.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/CitopiaMemberShipCredential.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"CitopiaMembershipCredential\", \"@id\": \"https://dlt.mobi/mobility-schmea#CitopiaMemberShipCredential\"}",
+      "$comment": "{\"term\": \"CitopiaMembershipCredential\", \"@id\": \"https://dlt.mobi/mobility-schema#CitopiaMemberShipCredential\"}",
       "title": "Citopia MemberShip Credential",
       "description": "A CitopiaMemberShip Credential",
       "type": "object",
@@ -391,10 +391,10 @@
           "type": "string"
         },
         "member": {
-          "$comment": "{\"term\": \"member\", \"@id\": \"https://schema.org/https://dlt.mobi/mobility-schmea#Member\"}",
+          "$comment": "{\"term\": \"member\", \"@id\": \"https://schema.org/https://dlt.mobi/mobility-schema#Member\"}",
           "title": "member",
           "description": "identifier of user",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/Member.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/Member.json"
         },
         "issuanceDate": {
           "$comment": "{\"term\": \"issuanceDate\", \"@id\": \"https://schema.org/Date\"}",
@@ -414,7 +414,7 @@
     }
   },
   "https://schema.org/ContactPoint": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/ContactPoint.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/ContactPoint.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "ContactPoint",
@@ -457,7 +457,7 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/ContactPoint.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/ContactPoint.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
       "$comment": "{\"term\": \"ContactPoint\", \"@id\": \"https://schema.org/ContactPoint\"}",
       "title": "Contact Point",
@@ -487,7 +487,7 @@
           "$comment": "{\"term\": \"address\", \"@id\": \"https://schema.org/PostalAddress\"}",
           "title": "Postal Address",
           "description": "The postal address for an organization or place.",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/PostalAddress.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/PostalAddress.json"
         },
         "email": {
           "$comment": "{\"term\": \"email\", \"@id\": \"https://schema.org/email\"}",
@@ -506,12 +506,12 @@
       "examples": []
     }
   },
-  "https://dlt.mobi/mobility-schmea#Customer": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/Customer.json",
+  "https://dlt.mobi/mobility-schema#Customer": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/Customer.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "Customer",
-      "@id": "https://dlt.mobi/mobility-schmea#Customer"
+      "@id": "https://dlt.mobi/mobility-schema#Customer"
     },
     "title": "Customer",
     "description": "Customer record based on Customer from schema.org",
@@ -546,9 +546,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/Customer.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/Customer.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"Customer\", \"@id\": \"https://dlt.mobi/mobility-schmea#Customer\"}",
+      "$comment": "{\"term\": \"Customer\", \"@id\": \"https://dlt.mobi/mobility-schema#Customer\"}",
       "title": "Customer",
       "description": "Customer record based on Customer from schema.org",
       "type": "object",
@@ -585,7 +585,7 @@
         "address": {
           "$comment": "{\"term\": \"address\", \"@id\": \"https://schema.org/PostalAddress\"}",
           "title": "Address of the Customer",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/PostalAddress.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/PostalAddress.json"
         },
         "telephone": {
           "$comment": "{\"term\": \"telephone\", \"@id\": \"https://schema.org/telephone\"}",
@@ -700,12 +700,12 @@
       "additionalProperties": false
     }
   },
-  "https://dlt.mobi/mobility-schmea#DriverLicense": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/DriverLicense.json",
+  "https://dlt.mobi/mobility-schema#DriverLicense": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/DriverLicense.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "DriverLicense",
-      "@id": "https://dlt.mobi/mobility-schmea#DriverLicense"
+      "@id": "https://dlt.mobi/mobility-schema#DriverLicense"
     },
     "title": "DriverLicense",
     "description": "Driver License user use to register",
@@ -724,10 +724,10 @@
         },
         "title": "licenseNumber"
       },
-      "https://dlt.mobi/mobility-schmea#LEIauthority": {
+      "https://dlt.mobi/mobility-schema#LEIauthority": {
         "$comment": {
           "term": "registrationAuthority",
-          "@id": "https://dlt.mobi/mobility-schmea#LEIauthority"
+          "@id": "https://dlt.mobi/mobility-schema#LEIauthority"
         },
         "title": "RegistrationAuthority"
       },
@@ -747,9 +747,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/DriverLicense.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/DriverLicense.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"DriverLicense\", \"@id\": \"https://dlt.mobi/mobility-schmea#DriverLicense\"}",
+      "$comment": "{\"term\": \"DriverLicense\", \"@id\": \"https://dlt.mobi/mobility-schema#DriverLicense\"}",
       "title": "DriverLicense",
       "description": "Driver License user use to register",
       "type": "object",
@@ -783,9 +783,9 @@
           "type": "string"
         },
         "registrationAuthority": {
-          "$comment": "{\"term\": \"registrationAuthority\", \"@id\": \"https://dlt.mobi/mobility-schmea#LEIauthority\"}",
+          "$comment": "{\"term\": \"registrationAuthority\", \"@id\": \"https://dlt.mobi/mobility-schema#LEIauthority\"}",
           "title": "RegistrationAuthority",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/LEIauthority.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/LEIauthority.json"
         },
         "issuanceDate": {
           "$comment": "{\"term\": \"issuanceDate\", \"@id\": \"https://schema.org/Date\"}",
@@ -802,39 +802,39 @@
       "examples": []
     }
   },
-  "https://dlt.mobi/mobility-schmea#Entity": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/Entity.json",
+  "https://dlt.mobi/mobility-schema#Entity": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/Entity.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "Entity",
-      "@id": "https://dlt.mobi/mobility-schmea#Entity"
+      "@id": "https://dlt.mobi/mobility-schema#Entity"
     },
     "title": "Entity",
     "description": "A person or organization.",
     "classProperties": {},
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/Entity.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/Entity.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"Entity\", \"@id\": \"https://dlt.mobi/mobility-schmea#Entity\"}",
+      "$comment": "{\"term\": \"Entity\", \"@id\": \"https://dlt.mobi/mobility-schema#Entity\"}",
       "title": "Entity",
       "description": "A person or organization.",
       "anyOf": [
         {
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/Person.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/Person.json"
         },
         {
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/Organization.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/Organization.json"
         }
       ],
       "examples": []
     }
   },
-  "https://dlt.mobi/mobility-schmea#EntityCertificate": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/EntityCertificate.json",
+  "https://dlt.mobi/mobility-schema#EntityCertificate": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/EntityCertificate.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "EntityCertificate",
-      "@id": "https://dlt.mobi/mobility-schmea#EntityCertificate"
+      "@id": "https://dlt.mobi/mobility-schema#EntityCertificate"
     },
     "title": "EntityCertificate",
     "description": "Entity Certificate as defined in VID I",
@@ -881,9 +881,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/EntityCertificate.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/EntityCertificate.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"EntityCertificate\", \"@id\": \"https://dlt.mobi/mobility-schmea#EntityCertificate\"}",
+      "$comment": "{\"term\": \"EntityCertificate\", \"@id\": \"https://dlt.mobi/mobility-schema#EntityCertificate\"}",
       "title": "EntityCertificate",
       "description": "Entity Certificate as defined in VID I",
       "type": "object",
@@ -937,7 +937,7 @@
     }
   },
   "https://schema.org/Event": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/Event.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/Event.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "Event",
@@ -962,19 +962,19 @@
         "title": "Event Identifier",
         "description": "The Identifier of the Event."
       },
-      "https://dlt.mobi/mobility-schmea#Organization": {
+      "https://dlt.mobi/mobility-schema#Organization": {
         "$comment": {
           "term": "actor",
-          "@id": "https://dlt.mobi/mobility-schmea#Organization",
+          "@id": "https://dlt.mobi/mobility-schema#Organization",
           "@type": "https://schema.org/ItemList"
         },
         "title": "Actor",
         "description": "The organization performing the activity."
       },
-      "https://dlt.mobi/mobility-schmea#place": {
+      "https://dlt.mobi/mobility-schema#place": {
         "$comment": {
           "term": "place",
-          "@id": "https://dlt.mobi/mobility-schmea#place"
+          "@id": "https://dlt.mobi/mobility-schema#place"
         },
         "title": "Event Location",
         "description": "The location where the event took place."
@@ -997,7 +997,7 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/Event.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/Event.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
       "$comment": "{\"term\": \"Event\", \"@id\": \"https://schema.org/Event\"}",
       "title": "Organization",
@@ -1030,19 +1030,19 @@
           "type": "string"
         },
         "actor": {
-          "$comment": "{\"term\": \"actor\", \"@id\": \"https://dlt.mobi/mobility-schmea#Organization\", \"@type\": \"https://schema.org/ItemList\"}",
+          "$comment": "{\"term\": \"actor\", \"@id\": \"https://dlt.mobi/mobility-schema#Organization\", \"@type\": \"https://schema.org/ItemList\"}",
           "title": "Actor",
           "description": "The organization performing the activity.",
           "type": "array",
           "items": {
-            "$ref": "https://dlt.mobi/mobility-schmea/schemas/Entity.json"
+            "$ref": "https://dlt.mobi/mobility-schema/schemas/Entity.json"
           }
         },
         "place": {
-          "$comment": "{\"term\": \"place\", \"@id\": \"https://dlt.mobi/mobility-schmea#place\"}",
+          "$comment": "{\"term\": \"place\", \"@id\": \"https://dlt.mobi/mobility-schema#place\"}",
           "title": "Event Location",
           "description": "The location where the event took place.",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/Place.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/Place.json"
         },
         "eventTime": {
           "$comment": "{\"term\": \"eventTime\", \"@id\": \"https://schema.org/DateTime#v2\"}",
@@ -1056,7 +1056,7 @@
           "description": "The products referenced by the event.",
           "type": "array",
           "items": {
-            "$ref": "https://dlt.mobi/mobility-schmea/schemas/Product.json"
+            "$ref": "https://dlt.mobi/mobility-schema/schemas/Product.json"
           }
         }
       },
@@ -1065,7 +1065,7 @@
     }
   },
   "https://schema.org/GeoCoordinates": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/GeoCoordinates.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/GeoCoordinates.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "GeoCoordinates",
@@ -1092,7 +1092,7 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/GeoCoordinates.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/GeoCoordinates.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
       "$comment": "{\"term\": \"GeoCoordinates\", \"@id\": \"https://schema.org/GeoCoordinates\"}",
       "title": "Geographic Coordinates",
@@ -1133,12 +1133,12 @@
       "examples": []
     }
   },
-  "https://dlt.mobi/mobility-schmea#IdentityCredential": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/IdentityCredential.json",
+  "https://dlt.mobi/mobility-schema#IdentityCredential": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/IdentityCredential.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "IdentityCredential",
-      "@id": "https://dlt.mobi/mobility-schmea#IdentityCredential"
+      "@id": "https://dlt.mobi/mobility-schema#IdentityCredential"
     },
     "title": "IdentityCredential",
     "description": "IdentityCredential",
@@ -1157,10 +1157,10 @@
         },
         "title": "licenseNumber"
       },
-      "https://dlt.mobi/mobility-schmea#LEIauthority": {
+      "https://dlt.mobi/mobility-schema#LEIauthority": {
         "$comment": {
           "term": "registrationAuthority",
-          "@id": "https://dlt.mobi/mobility-schmea#LEIauthority"
+          "@id": "https://dlt.mobi/mobility-schema#LEIauthority"
         },
         "title": "RegistrationAuthority"
       },
@@ -1180,9 +1180,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/IdentityCredential.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/IdentityCredential.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"IdentityCredential\", \"@id\": \"https://dlt.mobi/mobility-schmea#IdentityCredential\"}",
+      "$comment": "{\"term\": \"IdentityCredential\", \"@id\": \"https://dlt.mobi/mobility-schema#IdentityCredential\"}",
       "title": "IdentityCredential",
       "description": "IdentityCredential",
       "type": "object",
@@ -1216,9 +1216,9 @@
           "type": "string"
         },
         "registrationAuthority": {
-          "$comment": "{\"term\": \"registrationAuthority\", \"@id\": \"https://dlt.mobi/mobility-schmea#LEIauthority\"}",
+          "$comment": "{\"term\": \"registrationAuthority\", \"@id\": \"https://dlt.mobi/mobility-schema#LEIauthority\"}",
           "title": "RegistrationAuthority",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/LEIauthority.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/LEIauthority.json"
         },
         "issuanceDate": {
           "$comment": "{\"term\": \"issuanceDate\", \"@id\": \"https://schema.org/Date\"}",
@@ -1236,7 +1236,7 @@
     }
   },
   "https://schema.org/Invoice": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/Invoice.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/Invoice.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "Invoice",
@@ -1311,7 +1311,7 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/Invoice.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/Invoice.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
       "$comment": "{\"term\": \"Invoice\", \"@id\": \"https://schema.org/Invoice\"}",
       "title": "Invoice",
@@ -1341,7 +1341,7 @@
           "$comment": "{\"term\": \"portOfEntry\", \"@id\": \"https://schema.org/address\"}",
           "title": "Port Of Entry",
           "description": "Port where the purchased goods will enter first.",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/PostalAddress.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/PostalAddress.json"
         },
         "purchaseDate": {
           "$comment": "{\"term\": \"purchaseDate\", \"@id\": \"https://schema.org/paymentDueDate\"}",
@@ -1353,7 +1353,7 @@
           "$comment": "{\"term\": \"totalPaymentDue\", \"@id\": \"https://schema.org/totalPaymentDue\"}",
           "title": "Total Payment Due",
           "description": "The total amount due.",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/PriceSpecification.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/PriceSpecification.json"
         },
         "destinationCountry": {
           "$comment": "{\"term\": \"destinationCountry\", \"@id\": \"https://schema.org/addressCountry\"}",
@@ -1367,32 +1367,32 @@
           "description": "Identifiers for a property.",
           "type": "array",
           "items": {
-            "$ref": "https://dlt.mobi/mobility-schmea/schemas/Product.json"
+            "$ref": "https://dlt.mobi/mobility-schema/schemas/Product.json"
           }
         },
         "customer": {
           "$comment": "{\"term\": \"customer\", \"@id\": \"https://schema.org/customer\"}",
           "title": "Customer",
           "description": "Party placing the order or paying the invoice.",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/Organization.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/Organization.json"
         },
         "provider": {
           "$comment": "{\"term\": \"provider\", \"@id\": \"https://schema.org/provider\"}",
           "title": "Provider",
           "description": "The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller.",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/Organization.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/Organization.json"
         }
       },
       "additionalProperties": false,
       "examples": []
     }
   },
-  "https://dlt.mobi/mobility-schmea#LEIaddress": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/LEIaddress.json",
+  "https://dlt.mobi/mobility-schema#LEIaddress": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/LEIaddress.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "LEIaddress",
-      "@id": "https://dlt.mobi/mobility-schmea#LEIaddress"
+      "@id": "https://dlt.mobi/mobility-schema#LEIaddress"
     },
     "title": "LEIaddress",
     "description": "GLEIF LEI Redord Level 1 Schema for LEI Address",
@@ -1462,9 +1462,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/LEIaddress.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/LEIaddress.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"LEIaddress\", \"@id\": \"https://dlt.mobi/mobility-schmea#LEIaddress\"}",
+      "$comment": "{\"term\": \"LEIaddress\", \"@id\": \"https://dlt.mobi/mobility-schema#LEIaddress\"}",
       "title": "LEIaddress",
       "description": "GLEIF LEI Redord Level 1 Schema for LEI Address",
       "type": "object",
@@ -1543,12 +1543,12 @@
       "examples": []
     }
   },
-  "https://dlt.mobi/mobility-schmea#LEIauthority": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/LEIauthority.json",
+  "https://dlt.mobi/mobility-schema#LEIauthority": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/LEIauthority.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "LEIauthority",
-      "@id": "https://dlt.mobi/mobility-schmea#LEIauthority"
+      "@id": "https://dlt.mobi/mobility-schema#LEIauthority"
     },
     "title": "LEIauthority",
     "description": "GLEIF LEI Redord Level 1 Schema for LEI Authority",
@@ -1576,9 +1576,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/LEIauthority.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/LEIauthority.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"LEIauthority\", \"@id\": \"https://dlt.mobi/mobility-schmea#LEIauthority\"}",
+      "$comment": "{\"term\": \"LEIauthority\", \"@id\": \"https://dlt.mobi/mobility-schema#LEIauthority\"}",
       "title": "LEIauthority",
       "description": "GLEIF LEI Redord Level 1 Schema for LEI Authority",
       "type": "object",
@@ -1621,12 +1621,12 @@
       "examples": []
     }
   },
-  "https://dlt.mobi/mobility-schmea#LEIentity": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/LEIentity.json",
+  "https://dlt.mobi/mobility-schema#LEIentity": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/LEIentity.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "LEIentity",
-      "@id": "https://dlt.mobi/mobility-schmea#LEIentity"
+      "@id": "https://dlt.mobi/mobility-schema#LEIentity"
     },
     "title": "LEIentity",
     "description": "GLEIF LEI Redord Level 1 Schema for LEI Entity",
@@ -1659,10 +1659,10 @@
         },
         "title": "Transliteratedothernames"
       },
-      "https://dlt.mobi/mobility-schmea#LEIaddress": {
+      "https://dlt.mobi/mobility-schema#LEIaddress": {
         "$comment": {
           "term": "legalAddress",
-          "@id": "https://dlt.mobi/mobility-schmea#LEIaddress"
+          "@id": "https://dlt.mobi/mobility-schema#LEIaddress"
         },
         "title": "LegalAddress"
       },
@@ -1673,10 +1673,10 @@
         },
         "title": "HeadquartersAddress"
       },
-      "https://dlt.mobi/mobility-schmea#LEIauthority": {
+      "https://dlt.mobi/mobility-schema#LEIauthority": {
         "$comment": {
           "term": "registrationAuthority",
-          "@id": "https://dlt.mobi/mobility-schmea#LEIauthority"
+          "@id": "https://dlt.mobi/mobility-schema#LEIauthority"
         },
         "title": "RegistrationAuthority"
       },
@@ -1745,9 +1745,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/LEIentity.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/LEIentity.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"LEIentity\", \"@id\": \"https://dlt.mobi/mobility-schmea#LEIentity\"}",
+      "$comment": "{\"term\": \"LEIentity\", \"@id\": \"https://dlt.mobi/mobility-schema#LEIentity\"}",
       "title": "LEIentity",
       "description": "GLEIF LEI Redord Level 1 Schema for LEI Entity",
       "type": "object",
@@ -1805,19 +1805,19 @@
           "default": []
         },
         "legalAddress": {
-          "$comment": "{\"term\": \"legalAddress\", \"@id\": \"https://dlt.mobi/mobility-schmea#LEIaddress\"}",
+          "$comment": "{\"term\": \"legalAddress\", \"@id\": \"https://dlt.mobi/mobility-schema#LEIaddress\"}",
           "title": "LegalAddress",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/LEIaddress.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/LEIaddress.json"
         },
         "headquartersAddress": {
           "$comment": "{\"term\": \"headquartersAddress\", \"@id\": \"https://schema.org/PostalAddress\"}",
           "title": "HeadquartersAddress",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/LEIaddress.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/LEIaddress.json"
         },
         "registrationAuthority": {
-          "$comment": "{\"term\": \"registrationAuthority\", \"@id\": \"https://dlt.mobi/mobility-schmea#LEIauthority\"}",
+          "$comment": "{\"term\": \"registrationAuthority\", \"@id\": \"https://dlt.mobi/mobility-schema#LEIauthority\"}",
           "title": "RegistrationAuthority",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/LEIauthority.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/LEIauthority.json"
         },
         "legalJurisdiction": {
           "$comment": "{\"term\": \"legalJurisdiction\", \"@id\": \"https://schema.org/countryOfOrigin\"}",
@@ -1837,7 +1837,7 @@
         "associatedEntity": {
           "$comment": "{\"term\": \"associatedEntity\", \"@id\": \"https://schema.org/Organization\"}",
           "title": "AssociatedEntity",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/Organization.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/Organization.json"
         },
         "status": {
           "$comment": "{\"term\": \"status\", \"@id\": \"https://schema.org/status\"}",
@@ -1857,14 +1857,14 @@
         "successorEntity": {
           "$comment": "{\"term\": \"successorEntity\", \"@id\": \"https://schema.org/Corporation\"}",
           "title": "SuccessorEntity",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/Organization.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/Organization.json"
         },
         "otherAddresses": {
           "$comment": "{\"term\": \"otherAddresses\", \"@id\": \"https://schema.org/Place\"}",
           "title": "OtherAddresses",
           "type": "array",
           "items": {
-            "$ref": "https://dlt.mobi/mobility-schmea/schemas/LEIaddress.json"
+            "$ref": "https://dlt.mobi/mobility-schema/schemas/LEIaddress.json"
           }
         }
       },
@@ -1872,12 +1872,12 @@
       "examples": []
     }
   },
-  "https://dlt.mobi/mobility-schmea#LEIevidenceDocument": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/LEIevidenceDocument.json",
+  "https://dlt.mobi/mobility-schema#LEIevidenceDocument": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/LEIevidenceDocument.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "LEIevidenceDocument",
-      "@id": "https://dlt.mobi/mobility-schmea#LEIevidenceDocument"
+      "@id": "https://dlt.mobi/mobility-schema#LEIevidenceDocument"
     },
     "title": "LEIevidenceDocument",
     "description": "GLEIF LEI Redord Level 1 Schema",
@@ -1889,17 +1889,17 @@
         },
         "title": "Lei"
       },
-      "https://dlt.mobi/mobility-schmea#LEIentity": {
+      "https://dlt.mobi/mobility-schema#LEIentity": {
         "$comment": {
           "term": "entity",
-          "@id": "https://dlt.mobi/mobility-schmea#LEIentity"
+          "@id": "https://dlt.mobi/mobility-schema#LEIentity"
         },
         "title": "LEIentity"
       },
-      "https://dlt.mobi/mobility-schmea#LEIregistration": {
+      "https://dlt.mobi/mobility-schema#LEIregistration": {
         "$comment": {
           "term": "registration",
-          "@id": "https://dlt.mobi/mobility-schmea#LEIregistration"
+          "@id": "https://dlt.mobi/mobility-schema#LEIregistration"
         },
         "title": "LEIregistration"
       },
@@ -1913,9 +1913,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/LEIevidenceDocument.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/LEIevidenceDocument.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"LEIevidenceDocument\", \"@id\": \"https://dlt.mobi/mobility-schmea#LEIevidenceDocument\"}",
+      "$comment": "{\"term\": \"LEIevidenceDocument\", \"@id\": \"https://dlt.mobi/mobility-schema#LEIevidenceDocument\"}",
       "title": "LEIevidenceDocument",
       "description": "GLEIF LEI Redord Level 1 Schema",
       "type": "object",
@@ -1945,14 +1945,14 @@
           "type": "string"
         },
         "entity": {
-          "$comment": "{\"term\": \"entity\", \"@id\": \"https://dlt.mobi/mobility-schmea#LEIentity\"}",
+          "$comment": "{\"term\": \"entity\", \"@id\": \"https://dlt.mobi/mobility-schema#LEIentity\"}",
           "title": "LEIentity",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/LEIentity.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/LEIentity.json"
         },
         "registration": {
-          "$comment": "{\"term\": \"registration\", \"@id\": \"https://dlt.mobi/mobility-schmea#LEIregistration\"}",
+          "$comment": "{\"term\": \"registration\", \"@id\": \"https://dlt.mobi/mobility-schema#LEIregistration\"}",
           "title": "LEIregistration",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/LEIregistration.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/LEIregistration.json"
         },
         "bic": {
           "$comment": "{\"term\": \"bic\", \"@id\": \"https://www.iso.org/obp/ui/#iso:std:60390:en\"}",
@@ -1965,12 +1965,12 @@
       "examples": []
     }
   },
-  "https://dlt.mobi/mobility-schmea#LEIregistration": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/LEIregistration.json",
+  "https://dlt.mobi/mobility-schema#LEIregistration": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/LEIregistration.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "LEIregistration",
-      "@id": "https://dlt.mobi/mobility-schmea#LEIregistration"
+      "@id": "https://dlt.mobi/mobility-schema#LEIregistration"
     },
     "title": "LEIregistration",
     "description": "GLEIF LEI Redord Level 1 Schema for LEI Registration",
@@ -2017,18 +2017,18 @@
         },
         "title": "validationSources"
       },
-      "https://dlt.mobi/mobility-schmea#LEIauthority": {
+      "https://dlt.mobi/mobility-schema#LEIauthority": {
         "$comment": {
           "term": "validationAuthority",
-          "@id": "https://dlt.mobi/mobility-schmea#LEIauthority"
+          "@id": "https://dlt.mobi/mobility-schema#LEIauthority"
         },
         "title": "validationAuthority"
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/LEIregistration.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/LEIregistration.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"LEIregistration\", \"@id\": \"https://dlt.mobi/mobility-schmea#LEIregistration\"}",
+      "$comment": "{\"term\": \"LEIregistration\", \"@id\": \"https://dlt.mobi/mobility-schema#LEIregistration\"}",
       "title": "LEIregistration",
       "description": "GLEIF LEI Redord Level 1 Schema for LEI Registration",
       "type": "object",
@@ -2086,11 +2086,11 @@
           "type": "string"
         },
         "validationAuthority": {
-          "$comment": "{\"term\": \"validationAuthority\", \"@id\": \"https://dlt.mobi/mobility-schmea#LEIauthority\"}",
+          "$comment": "{\"term\": \"validationAuthority\", \"@id\": \"https://dlt.mobi/mobility-schema#LEIauthority\"}",
           "title": "validationAuthority",
           "type": "array",
           "items": {
-            "$ref": "https://dlt.mobi/mobility-schmea/schemas/LEIauthority.json"
+            "$ref": "https://dlt.mobi/mobility-schema/schemas/LEIauthority.json"
           }
         }
       },
@@ -2098,12 +2098,12 @@
       "examples": []
     }
   },
-  "https://dlt.mobi/mobility-schmea#LegalEntityIdentifierCredential": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/LegalEntityIdentifierCredential.json",
+  "https://dlt.mobi/mobility-schema#LegalEntityIdentifierCredential": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/LegalEntityIdentifierCredential.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "LegalEntityIdentifierCredential",
-      "@id": "https://dlt.mobi/mobility-schmea#LegalEntityIdentifierCredential"
+      "@id": "https://dlt.mobi/mobility-schema#LegalEntityIdentifierCredential"
     },
     "title": "LegalEntityIdentifierCredential",
     "description": "GLEIF verifiable Legal Entity Identifier Credential (verifiable leiCode Credential)",
@@ -2126,9 +2126,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/LegalEntityIdentifierCredential.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/LegalEntityIdentifierCredential.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"LegalEntityIdentifierCredential\", \"@id\": \"https://dlt.mobi/mobility-schmea#LegalEntityIdentifierCredential\"}",
+      "$comment": "{\"term\": \"LegalEntityIdentifierCredential\", \"@id\": \"https://dlt.mobi/mobility-schema#LegalEntityIdentifierCredential\"}",
       "title": "LegalEntityIdentifierCredential",
       "description": "GLEIF verifiable Legal Entity Identifier Credential (verifiable leiCode Credential)",
       "type": "object",
@@ -2168,7 +2168,7 @@
     }
   },
   "https://schema.org/LinkRole": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/LinkRole.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/LinkRole.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "LinkRole",
@@ -2195,7 +2195,7 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/LinkRole.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/LinkRole.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
       "$comment": "{\"term\": \"LinkRole\", \"@id\": \"https://schema.org/LinkRole\"}",
       "title": "Link Role",
@@ -2232,12 +2232,12 @@
       "examples": []
     }
   },
-  "https://dlt.mobi/mobility-schmea#Member": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/Member.json",
+  "https://dlt.mobi/mobility-schema#Member": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/Member.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "Member",
-      "@id": "https://dlt.mobi/mobility-schmea#Member"
+      "@id": "https://dlt.mobi/mobility-schema#Member"
     },
     "title": "Member",
     "description": "A member",
@@ -2268,9 +2268,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/Member.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/Member.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"Member\", \"@id\": \"https://dlt.mobi/mobility-schmea#Member\"}",
+      "$comment": "{\"term\": \"Member\", \"@id\": \"https://dlt.mobi/mobility-schema#Member\"}",
       "title": "Member",
       "description": "A member",
       "type": "object",
@@ -2312,7 +2312,7 @@
     }
   },
   "https://schema.org/Organization": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/Organization.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/Organization.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "Organization",
@@ -2411,7 +2411,7 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/Organization.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/Organization.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
       "$comment": "{\"term\": \"Organization\", \"@id\": \"https://schema.org/Organization\"}",
       "title": "Organization",
@@ -2465,7 +2465,7 @@
           "$comment": "{\"term\": \"address\", \"@id\": \"https://schema.org/PostalAddress\"}",
           "title": "Postal Address",
           "description": "The postal address for an organization or place.",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/PostalAddress.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/PostalAddress.json"
         },
         "email": {
           "$comment": "{\"term\": \"email\", \"@id\": \"https://schema.org/email\"}",
@@ -2489,41 +2489,41 @@
           "$comment": "{\"term\": \"brand\", \"@id\": \"https://schema.org/Brand\"}",
           "title": "Brand",
           "description": "Branding for this organization",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/Brand.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/Brand.json"
         },
         "contactPoint": {
           "$comment": "{\"term\": \"contactPoint\", \"@id\": \"https://schema.org/ContactPoint\"}",
           "title": "Contact Point",
           "description": "Points of contact for this organization",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/ContactPoint.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/ContactPoint.json"
         }
       },
       "additionalProperties": false,
       "examples": []
     }
   },
-  "https://dlt.mobi/mobility-schmea#Permissions": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/Permissions.json",
+  "https://dlt.mobi/mobility-schema#Permissions": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/Permissions.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "Permissions",
-      "@id": "https://dlt.mobi/mobility-schmea#Permissions"
+      "@id": "https://dlt.mobi/mobility-schema#Permissions"
     },
     "title": "Permissions",
     "description": "Permissions subject",
     "classProperties": {
-      "https://dlt.mobi/mobility-schmea#VID": {
+      "https://dlt.mobi/mobility-schema#VID": {
         "$comment": {
           "term": "vid",
-          "@id": "https://dlt.mobi/mobility-schmea#VID"
+          "@id": "https://dlt.mobi/mobility-schema#VID"
         },
         "title": "vid",
         "description": "vid"
       },
-      "https://dlt.mobi/mobility-schmea#BatteryID": {
+      "https://dlt.mobi/mobility-schema#BatteryID": {
         "$comment": {
           "term": "batteryid",
-          "@id": "https://dlt.mobi/mobility-schmea#BatteryID"
+          "@id": "https://dlt.mobi/mobility-schema#BatteryID"
         },
         "title": "batteryid",
         "description": "Battery ID."
@@ -2554,9 +2554,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/Permissions.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/Permissions.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"Permissions\", \"@id\": \"https://dlt.mobi/mobility-schmea#Permissions\"}",
+      "$comment": "{\"term\": \"Permissions\", \"@id\": \"https://dlt.mobi/mobility-schema#Permissions\"}",
       "title": "Permissions",
       "description": "Permissions subject",
       "type": "object",
@@ -2575,13 +2575,13 @@
           ]
         },
         "vid": {
-          "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility-schmea#VID\"}",
+          "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility-schema#VID\"}",
           "title": "vid",
           "description": "vid",
           "type": "string"
         },
         "batteryid": {
-          "$comment": "{\"term\": \"batteryid\", \"@id\": \"https://dlt.mobi/mobility-schmea#BatteryID\"}",
+          "$comment": "{\"term\": \"batteryid\", \"@id\": \"https://dlt.mobi/mobility-schema#BatteryID\"}",
           "title": "batteryid",
           "description": "Battery ID.",
           "type": "string"
@@ -2609,20 +2609,20 @@
       "examples": []
     }
   },
-  "https://dlt.mobi/mobility-schmea#PermissionsCredential": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/PermissionsCredential.json",
+  "https://dlt.mobi/mobility-schema#PermissionsCredential": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/PermissionsCredential.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "PermissionsCredential",
-      "@id": "https://dlt.mobi/mobility-schmea#PermissionsCredential"
+      "@id": "https://dlt.mobi/mobility-schema#PermissionsCredential"
     },
     "title": "Permissions Credential",
     "description": "Permissions subject",
     "classProperties": {
-      "https://dlt.mobi/mobility-schmea#Permissions": {
+      "https://dlt.mobi/mobility-schema#Permissions": {
         "$comment": {
           "term": "permission",
-          "@id": "https://dlt.mobi/mobility-schmea#Permissions"
+          "@id": "https://dlt.mobi/mobility-schema#Permissions"
         },
         "title": "vid",
         "description": "vehicle identity"
@@ -2651,9 +2651,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/PermissionsCredential.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/PermissionsCredential.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"PermissionsCredential\", \"@id\": \"https://dlt.mobi/mobility-schmea#PermissionsCredential\"}",
+      "$comment": "{\"term\": \"PermissionsCredential\", \"@id\": \"https://dlt.mobi/mobility-schema#PermissionsCredential\"}",
       "title": "Permissions Credential",
       "description": "Permissions subject",
       "type": "object",
@@ -2672,10 +2672,10 @@
           ]
         },
         "permission": {
-          "$comment": "{\"term\": \"permission\", \"@id\": \"https://dlt.mobi/mobility-schmea#Permissions\"}",
+          "$comment": "{\"term\": \"permission\", \"@id\": \"https://dlt.mobi/mobility-schema#Permissions\"}",
           "title": "vid",
           "description": "vehicle identity",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/Permissions.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/Permissions.json"
         },
         "holder": {
           "$comment": "{\"term\": \"holder\", \"@id\": \"https://schema.org/identifier\"}",
@@ -2699,7 +2699,7 @@
     }
   },
   "https://schema.org/Person": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/Person.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/Person.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "Person",
@@ -2758,7 +2758,7 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/Person.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/Person.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
       "$comment": "{\"term\": \"Person\", \"@id\": \"https://schema.org/Person\"}",
       "title": "Person",
@@ -2806,7 +2806,7 @@
           "$comment": "{\"term\": \"worksFor\", \"@id\": \"https://schema.org/worksFor\"}",
           "title": "Works For",
           "description": "Company which employs the person.",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/Organization.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/Organization.json"
         },
         "jobTitle": {
           "$comment": "{\"term\": \"jobTitle\", \"@id\": \"https://schema.org/jobTitle\"}",
@@ -2820,7 +2820,7 @@
     }
   },
   "https://schema.org/Place": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/Place.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/Place.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "Place",
@@ -2855,7 +2855,7 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/Place.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/Place.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
       "$comment": "{\"term\": \"Place\", \"@id\": \"https://schema.org/Place\"}",
       "title": "Place",
@@ -2887,13 +2887,13 @@
           "$comment": "{\"term\": \"geo\", \"@id\": \"https://schema.org/GeoCoordinates\"}",
           "title": "Geographic Coordinates",
           "description": "Links to information about geocoordinates for a place.",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/GeoCoordinates.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/GeoCoordinates.json"
         },
         "address": {
           "$comment": "{\"term\": \"address\", \"@id\": \"https://schema.org/PostalAddress\"}",
           "title": "Postal Address",
           "description": "The postal address for an organization or place.",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/PostalAddress.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/PostalAddress.json"
         }
       },
       "additionalProperties": false,
@@ -2901,7 +2901,7 @@
     }
   },
   "https://schema.org/PostalAddress": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/PostalAddress.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/PostalAddress.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "PostalAddress",
@@ -2984,7 +2984,7 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/PostalAddress.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/PostalAddress.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
       "$comment": "{\"term\": \"PostalAddress\", \"@id\": \"https://schema.org/PostalAddress\"}",
       "title": "Postal Address",
@@ -3064,7 +3064,7 @@
     }
   },
   "https://schema.org/PriceSpecification": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/PriceSpecification.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/PriceSpecification.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "PriceSpecification",
@@ -3091,7 +3091,7 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/PriceSpecification.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/PriceSpecification.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
       "$comment": "{\"term\": \"PriceSpecification\", \"@id\": \"https://schema.org/PriceSpecification\"}",
       "title": "PriceSpecification",
@@ -3128,12 +3128,12 @@
       "examples": []
     }
   },
-  "https://dlt.mobi/mobility-schmea#PrivacyPolicy": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/PrivacyPolicy.json",
+  "https://dlt.mobi/mobility-schema#PrivacyPolicy": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/PrivacyPolicy.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "PrivacyPolicy",
-      "@id": "https://dlt.mobi/mobility-schmea#PrivacyPolicy"
+      "@id": "https://dlt.mobi/mobility-schema#PrivacyPolicy"
     },
     "title": "PrivacyPolicy",
     "description": "Driver License user use to register",
@@ -3169,9 +3169,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/PrivacyPolicy.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/PrivacyPolicy.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"PrivacyPolicy\", \"@id\": \"https://dlt.mobi/mobility-schmea#PrivacyPolicy\"}",
+      "$comment": "{\"term\": \"PrivacyPolicy\", \"@id\": \"https://dlt.mobi/mobility-schema#PrivacyPolicy\"}",
       "title": "PrivacyPolicy",
       "description": "Driver License user use to register",
       "type": "object",
@@ -3216,7 +3216,7 @@
     }
   },
   "https://schema.org/Product": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/Product.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/Product.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "Product",
@@ -3331,7 +3331,7 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/Product.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/Product.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
       "$comment": "{\"term\": \"Product\", \"@id\": \"https://schema.org/Product\"}",
       "title": "Product",
@@ -3355,7 +3355,7 @@
           "$comment": "{\"term\": \"manufacturer\", \"@id\": \"https://schema.org/manufacturer\"}",
           "title": "Manufacturer",
           "description": "The entity manufacturing the product.",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/Entity.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/Entity.json"
         },
         "name": {
           "$comment": "{\"term\": \"name\", \"@id\": \"https://schema.org/name\"}",
@@ -3379,31 +3379,31 @@
           "$comment": "{\"term\": \"sizeOrAmount\", \"@id\": \"https://schema.org/size\"}",
           "title": "Size or Amount",
           "description": "The size or amount of the product",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/QuantitativeValue.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/QuantitativeValue.json"
         },
         "weight": {
           "$comment": "{\"term\": \"weight\", \"@id\": \"https://schema.org/weight\"}",
           "title": "Weight",
           "description": "Weight of the product.",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/QuantitativeValue.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/QuantitativeValue.json"
         },
         "depth": {
           "$comment": "{\"term\": \"depth\", \"@id\": \"https://schema.org/depth\"}",
           "title": "Depth",
           "description": "The depth of the item.",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/QuantitativeValue.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/QuantitativeValue.json"
         },
         "width": {
           "$comment": "{\"term\": \"width\", \"@id\": \"https://schema.org/width\"}",
           "title": "Width",
           "description": "The width of the item.",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/QuantitativeValue.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/QuantitativeValue.json"
         },
         "height": {
           "$comment": "{\"term\": \"height\", \"@id\": \"https://schema.org/height\"}",
           "title": "Height",
           "description": "The height of the item.",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/QuantitativeValue.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/QuantitativeValue.json"
         },
         "quantity": {
           "$comment": "{\"term\": \"quantity\", \"@id\": \"https://www.gs1.org/voc/netContent\"}",
@@ -3421,7 +3421,7 @@
           "$comment": "{\"term\": \"priceSpecification\", \"@id\": \"https://schema.org/priceSpecification\"}",
           "title": "Price Specification",
           "description": "One or more detailed price specifications, indicating the unit price and delivery or payment charges.",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/PriceSpecification.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/PriceSpecification.json"
         },
         "sku": {
           "$comment": "{\"term\": \"sku\", \"@id\": \"https://schema.org/sku\"}",
@@ -3434,12 +3434,12 @@
       "examples": []
     }
   },
-  "https://dlt.mobi/mobility-schmea#ProductRegistrationEvidenceDocument": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/ProductRegistrationEvidenceDocument.json",
+  "https://dlt.mobi/mobility-schema#ProductRegistrationEvidenceDocument": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/ProductRegistrationEvidenceDocument.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "ProductRegistrationEvidenceDocument",
-      "@id": "https://dlt.mobi/mobility-schmea#ProductRegistrationEvidenceDocument"
+      "@id": "https://dlt.mobi/mobility-schema#ProductRegistrationEvidenceDocument"
     },
     "title": "Product Registration Evidence Document",
     "description": "Evidence data for a registered eCommerce Product",
@@ -3602,9 +3602,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/ProductRegistrationEvidenceDocument.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/ProductRegistrationEvidenceDocument.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"ProductRegistrationEvidenceDocument\", \"@id\": \"https://dlt.mobi/mobility-schmea#ProductRegistrationEvidenceDocument\"}",
+      "$comment": "{\"term\": \"ProductRegistrationEvidenceDocument\", \"@id\": \"https://dlt.mobi/mobility-schema#ProductRegistrationEvidenceDocument\"}",
       "title": "Product Registration Evidence Document",
       "description": "Evidence data for a registered eCommerce Product",
       "type": "object",
@@ -3845,28 +3845,28 @@
       "additionalProperties": false
     }
   },
-  "https://dlt.mobi/mobility-schmea#Purchase": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/Purchase.json",
+  "https://dlt.mobi/mobility-schema#Purchase": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/Purchase.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "Purchase",
-      "@id": "https://dlt.mobi/mobility-schmea#Purchase"
+      "@id": "https://dlt.mobi/mobility-schema#Purchase"
     },
     "title": "Purchase",
     "description": "A purchase of a Product",
     "classProperties": {
-      "https://dlt.mobi/mobility-schmea#Entity?v4": {
+      "https://dlt.mobi/mobility-schema#Entity?v4": {
         "$comment": {
           "term": "customer",
-          "@id": "https://dlt.mobi/mobility-schmea#Entity?v4"
+          "@id": "https://dlt.mobi/mobility-schema#Entity?v4"
         },
         "title": "Customer",
         "description": "The buying party of a purchase"
       },
-      "https://dlt.mobi/mobility-schmea#Invoice": {
+      "https://dlt.mobi/mobility-schema#Invoice": {
         "$comment": {
           "term": "invoice",
-          "@id": "https://dlt.mobi/mobility-schmea#Invoice"
+          "@id": "https://dlt.mobi/mobility-schema#Invoice"
         },
         "title": "Invoice",
         "description": "The invoice associated with a purchase"
@@ -3881,9 +3881,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/Purchase.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/Purchase.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"Purchase\", \"@id\": \"https://dlt.mobi/mobility-schmea#Purchase\"}",
+      "$comment": "{\"term\": \"Purchase\", \"@id\": \"https://dlt.mobi/mobility-schema#Purchase\"}",
       "title": "Purchase",
       "description": "A purchase of a Product",
       "type": "object",
@@ -3902,16 +3902,16 @@
           ]
         },
         "customer": {
-          "$comment": "{\"term\": \"customer\", \"@id\": \"https://dlt.mobi/mobility-schmea#Entity?v4\"}",
+          "$comment": "{\"term\": \"customer\", \"@id\": \"https://dlt.mobi/mobility-schema#Entity?v4\"}",
           "title": "Customer",
           "description": "The buying party of a purchase",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/Entity.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/Entity.json"
         },
         "invoice": {
-          "$comment": "{\"term\": \"invoice\", \"@id\": \"https://dlt.mobi/mobility-schmea#Invoice\"}",
+          "$comment": "{\"term\": \"invoice\", \"@id\": \"https://dlt.mobi/mobility-schema#Invoice\"}",
           "title": "Invoice",
           "description": "The invoice associated with a purchase",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/Invoice.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/Invoice.json"
         },
         "purchaseOrder": {
           "$comment": "{\"term\": \"purchaseOrder\", \"@id\": \"https://schema.org/identifier\"}",
@@ -3925,7 +3925,7 @@
     }
   },
   "https://schema.org/QuantitativeValue": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/QuantitativeValue.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/QuantitativeValue.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "QuantitativeValue",
@@ -3952,7 +3952,7 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/QuantitativeValue.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/QuantitativeValue.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
       "$comment": "{\"term\": \"QuantitativeValue\", \"@id\": \"https://schema.org/QuantitativeValue\"}",
       "title": "Quantitative Value",
@@ -3989,12 +3989,12 @@
       "examples": []
     }
   },
-  "https://dlt.mobi/mobility-schmea#RevocationCertificate": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/RevocationCertificate.json",
+  "https://dlt.mobi/mobility-schema#RevocationCertificate": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/RevocationCertificate.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "RevocationCertificate",
-      "@id": "https://dlt.mobi/mobility-schmea#RevocationCertificate"
+      "@id": "https://dlt.mobi/mobility-schema#RevocationCertificate"
     },
     "title": "RevocationCertificate",
     "description": "Revocation Certificate as defined in VID I.",
@@ -4041,9 +4041,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/RevocationCertificate.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/RevocationCertificate.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"RevocationCertificate\", \"@id\": \"https://dlt.mobi/mobility-schmea#RevocationCertificate\"}",
+      "$comment": "{\"term\": \"RevocationCertificate\", \"@id\": \"https://dlt.mobi/mobility-schema#RevocationCertificate\"}",
       "title": "RevocationCertificate",
       "description": "Revocation Certificate as defined in VID I.",
       "type": "object",
@@ -4161,12 +4161,12 @@
       "additionalProperties": false
     }
   },
-  "https://dlt.mobi/mobility-schmea#StripeCustomerCredential": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/StripeCustomerCredential.json",
+  "https://dlt.mobi/mobility-schema#StripeCustomerCredential": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/StripeCustomerCredential.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "StripeCustomerCredential",
-      "@id": "https://dlt.mobi/mobility-schmea#StripeCustomerCredential"
+      "@id": "https://dlt.mobi/mobility-schema#StripeCustomerCredential"
     },
     "title": "StripeCustomerCredential",
     "description": "Stripe Customer Credential (verifiable leiCode Credential)",
@@ -4203,9 +4203,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/StripeCustomerCredential.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/StripeCustomerCredential.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"StripeCustomerCredential\", \"@id\": \"https://dlt.mobi/mobility-schmea#StripeCustomerCredential\"}",
+      "$comment": "{\"term\": \"StripeCustomerCredential\", \"@id\": \"https://dlt.mobi/mobility-schema#StripeCustomerCredential\"}",
       "title": "StripeCustomerCredential",
       "description": "Stripe Customer Credential (verifiable leiCode Credential)",
       "type": "object",
@@ -4250,12 +4250,12 @@
       "examples": []
     }
   },
-  "https://dlt.mobi/mobility-schmea#TotalCharge": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/TotalCharge.json",
+  "https://dlt.mobi/mobility-schema#TotalCharge": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/TotalCharge.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "TotalCharge",
-      "@id": "https://dlt.mobi/mobility-schmea#TotalCharge"
+      "@id": "https://dlt.mobi/mobility-schema#TotalCharge"
     },
     "title": "TotalCharge",
     "description": "TotalCharge definition based on IATA electronic Air Way Bill https://blanker.org/files/air-waybill-2.xls",
@@ -4318,9 +4318,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/TotalCharge.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/TotalCharge.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"TotalCharge\", \"@id\": \"https://dlt.mobi/mobility-schmea#TotalCharge\"}",
+      "$comment": "{\"term\": \"TotalCharge\", \"@id\": \"https://dlt.mobi/mobility-schema#TotalCharge\"}",
       "title": "TotalCharge",
       "description": "TotalCharge definition based on IATA electronic Air Way Bill https://blanker.org/files/air-waybill-2.xls",
       "type": "object",
@@ -4392,12 +4392,12 @@
       "additionalProperties": false
     }
   },
-  "https://dlt.mobi/mobility-schmea#UniqueVehicleIdentifier": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/UniqueVehicleIdentifier.json",
+  "https://dlt.mobi/mobility-schema#UniqueVehicleIdentifier": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/UniqueVehicleIdentifier.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "UniqueVehicleIdentifier",
-      "@id": "https://dlt.mobi/mobility-schmea#UniqueVehicleIdentifier"
+      "@id": "https://dlt.mobi/mobility-schema#UniqueVehicleIdentifier"
     },
     "title": "UniqueVehicleIdentifier",
     "description": "Unique Vehicle Identifier as defined in VID I.",
@@ -4412,9 +4412,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/UniqueVehicleIdentifier.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/UniqueVehicleIdentifier.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"UniqueVehicleIdentifier\", \"@id\": \"https://dlt.mobi/mobility-schmea#UniqueVehicleIdentifier\"}",
+      "$comment": "{\"term\": \"UniqueVehicleIdentifier\", \"@id\": \"https://dlt.mobi/mobility-schema#UniqueVehicleIdentifier\"}",
       "title": "UniqueVehicleIdentifier",
       "description": "Unique Vehicle Identifier as defined in VID I.",
       "type": "object",
@@ -4443,12 +4443,12 @@
       "examples": []
     }
   },
-  "https://dlt.mobi/mobility-schmea#VID": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/VID.json",
+  "https://dlt.mobi/mobility-schema#VID": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VID.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "VID",
-      "@id": "https://dlt.mobi/mobility-schmea#VID"
+      "@id": "https://dlt.mobi/mobility-schema#VID"
     },
     "title": "VID",
     "description": "VID information for vehicle.",
@@ -4495,9 +4495,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/VID.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/VID.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"VID\", \"@id\": \"https://dlt.mobi/mobility-schmea#VID\"}",
+      "$comment": "{\"term\": \"VID\", \"@id\": \"https://dlt.mobi/mobility-schema#VID\"}",
       "title": "VID",
       "description": "VID information for vehicle.",
       "type": "object",
@@ -4525,7 +4525,7 @@
           "$comment": "{\"term\": \"manufacturer\", \"@id\": \"https://schema.org/manufacturer\"}",
           "title": "Manufacturer",
           "description": "The entity manufacturing the vehicle.",
-          "$ref": "https://dlt.mobi/mobility-schmea/schemas/Entity.json"
+          "$ref": "https://dlt.mobi/mobility-schema/schemas/Entity.json"
         },
         "make": {
           "$comment": "{\"term\": \"make\", \"@id\": \"https://schema.org/make\"}",
@@ -4550,12 +4550,12 @@
       "examples": []
     }
   },
-  "https://dlt.mobi/mobility-schmea#VehicleBirthCertificate": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/VehicleBirthCertificate.json",
+  "https://dlt.mobi/mobility-schema#VehicleBirthCertificate": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VehicleBirthCertificate.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "VehicleBirthCertificate",
-      "@id": "https://dlt.mobi/mobility-schmea#VehicleBirthCertificate"
+      "@id": "https://dlt.mobi/mobility-schema#VehicleBirthCertificate"
     },
     "title": "Vehicle Birth Certificate",
     "description": "Vehicle Birth Certificate as defined by VID I Standard.",
@@ -4656,10 +4656,10 @@
         "title": "plantCode",
         "description": "The 11th character of the VIN, designating the assembly plant where the vehicle was built"
       },
-      "https://dlt.mobi/mobility-schmea#Text": {
+      "https://dlt.mobi/mobility-schema#Text": {
         "$comment": {
           "term": "previousVBC",
-          "@id": "https://dlt.mobi/mobility-schmea#Text"
+          "@id": "https://dlt.mobi/mobility-schema#Text"
         },
         "title": "previousVBC",
         "description": "The URI to any previous VBC"
@@ -4706,9 +4706,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/VehicleBirthCertificate.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/VehicleBirthCertificate.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"VehicleBirthCertificate\", \"@id\": \"https://dlt.mobi/mobility-schmea#VehicleBirthCertificate\"}",
+      "$comment": "{\"term\": \"VehicleBirthCertificate\", \"@id\": \"https://dlt.mobi/mobility-schema#VehicleBirthCertificate\"}",
       "title": "Vehicle Birth Certificate",
       "description": "Vehicle Birth Certificate as defined by VID I Standard.",
       "type": "object",
@@ -4798,7 +4798,7 @@
           "type": "string"
         },
         "previousVBC": {
-          "$comment": "{\"term\": \"previousVBC\", \"@id\": \"https://dlt.mobi/mobility-schmea#Text\"}",
+          "$comment": "{\"term\": \"previousVBC\", \"@id\": \"https://dlt.mobi/mobility-schema#Text\"}",
           "title": "previousVBC",
           "description": "The URI to any previous VBC"
         },
@@ -4835,12 +4835,12 @@
       "examples": []
     }
   },
-  "https://dlt.mobi/mobility-schmea#chargeAndPaymentType": {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/chargeAndPaymentType.json",
+  "https://dlt.mobi/mobility-schema#chargeAndPaymentType": {
+    "$id": "https://dlt.mobi/mobility-schema/schemas/chargeAndPaymentType.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": {
       "term": "chargeAndPaymentType",
-      "@id": "https://dlt.mobi/mobility-schmea#chargeAndPaymentType"
+      "@id": "https://dlt.mobi/mobility-schema#chargeAndPaymentType"
     },
     "title": "chargeAndPaymentType",
     "classProperties": {
@@ -4860,9 +4860,9 @@
       }
     },
     "schema": {
-      "$id": "https://dlt.mobi/mobility-schmea/schemas/chargeAndPaymentType.json",
+      "$id": "https://dlt.mobi/mobility-schema/schemas/chargeAndPaymentType.json",
       "$schema": "https://json-schema.org/draft-07/schema#",
-      "$comment": "{\"term\": \"chargeAndPaymentType\", \"@id\": \"https://dlt.mobi/mobility-schmea#chargeAndPaymentType\"}",
+      "$comment": "{\"term\": \"chargeAndPaymentType\", \"@id\": \"https://dlt.mobi/mobility-schema#chargeAndPaymentType\"}",
       "title": "chargeAndPaymentType",
       "type": "object",
       "required": [
