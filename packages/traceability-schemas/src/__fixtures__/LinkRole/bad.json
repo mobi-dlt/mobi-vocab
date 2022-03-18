@@ -4,14 +4,23 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "LinkRole",
-    "circuit": "reboot",
-    "port": "override"
+    "transmitter": "calculate",
+    "card": "index"
   },
   {
-    "microchip": "navigate"
+    "monitor": "generate",
+    "card": "parse",
+    "matrix": "index",
+    "sensor": "parse"
   },
   {
-    "system": "transmit",
-    "pixel": "parse"
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": "LinkRole",
+    "linkRelationship": "alternate",
+    "alarm": "copy",
+    "panel": "parse",
+    "circuit": "parse"
   }
 ]

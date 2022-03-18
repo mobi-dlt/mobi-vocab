@@ -1,24 +1,28 @@
 [
   {
     "userLocation": "true",
+    "batteryid": "true",
     "dataSharingForRewards": "true",
-    "program": "navigate"
+    "sensor": "parse",
+    "alarm": "compress",
+    "capacitor": "compress",
+    "pixel": "connect"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
-    "type": "Permissions",
-    "vid": "true",
-    "dataSharingForRewards": "true",
-    "circuit": "reboot",
-    "feed": "synthesize"
+    "vehicleLocation": "true",
+    "transmitter": "synthesize",
+    "driver": "program",
+    "alarm": "back up",
+    "protocol": "synthesize"
   },
   {
-    "type": "Permissions",
-    "system": "index",
-    "feed": "bypass",
-    "port": "generate",
-    "card": "program"
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "bus": "quantify",
+    "circuit": "input"
   }
 ]

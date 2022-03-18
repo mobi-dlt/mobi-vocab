@@ -1,29 +1,30 @@
 [
   {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
     "type": "EntityCertificate",
     "entityIdentifier": "testing",
+    "publicKey": "testing... parth",
     "signature": "testing... signature",
     "sigAlgId": "testing.....",
     "validityPeriod": "testing.....",
-    "firewall": "connect"
+    "system": "navigate",
+    "firewall": "index",
+    "program": "bypass",
+    "port": "input"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
+    "entityIdentifier": "testing",
     "publicKey": "testing... parth",
+    "sigAlgId": "testing.....",
+    "validityPeriod": "testing.....",
+    "bus": "override",
+    "bandwidth": "copy"
+  },
+  {
+    "type": "EntityCertificate",
     "signature": "testing... signature",
     "sigAlgId": "testing.....",
-    "firewall": "copy"
-  },
-  {
-    "publicKey": "testing... parth",
-    "sigAlgId": "testing.....",
-    "feed": "bypass",
-    "firewall": "program",
-    "panel": "reboot"
+    "sensor": "synthesize",
+    "array": "transmit",
+    "alarm": "connect"
   }
 ]

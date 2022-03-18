@@ -1,22 +1,24 @@
 [
   {
-    "firewall": "calculate",
-    "sensor": "parse",
-    "interface": "program",
-    "panel": "quantify"
-  },
-  {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
-    "type": "chargeAndPaymentType",
-    "hard drive": "input"
+    "chargeCollect": 778,
+    "chargePrepaid": 71,
+    "protocol": "index",
+    "matrix": "index"
   },
   {
-    "type": "chargeAndPaymentType",
-    "chargePrepaid": 104,
-    "driver": "bypass",
-    "system": "compress",
-    "bandwidth": "reboot"
+    "interface": "transmit",
+    "protocol": "index",
+    "program": "override"
+  },
+  {
+    "chargeCollect": 237,
+    "chargePrepaid": 480,
+    "bandwidth": "bypass",
+    "microchip": "index",
+    "panel": "generate",
+    "matrix": "parse"
   }
 ]

@@ -1,25 +1,23 @@
 [
   {
-    "monitor": "calculate",
-    "card": "hack",
-    "matrix": "program"
+    "type": "Member",
+    "firstName": "Hester",
+    "program": "bypass",
+    "interface": "input",
+    "matrix": "override",
+    "array": "program"
   },
   {
-    "firstName": "Wilhelm",
-    "email": "Carrie68@example.com",
-    "transmitter": "reboot",
-    "program": "bypass",
-    "interface": "input"
+    "array": "compress",
+    "sensor": "transmit"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "Member",
-    "firstName": "Waylon",
-    "email": "Ryan_Gulgowski54@example.com",
-    "card": "parse",
-    "sensor": "copy",
-    "transmitter": "calculate"
+    "firstName": "Rhianna",
+    "lastName": "Thompson",
+    "bandwidth": "synthesize"
   }
 ]

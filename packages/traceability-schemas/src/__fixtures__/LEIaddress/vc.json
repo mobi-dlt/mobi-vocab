@@ -14,25 +14,23 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "LEIaddress",
-    "language": "zh_TW",
+    "language": "de",
     "addressLines": [
-      "Treutel Group",
-      "505 Ryley Turnpike"
+      "Stark, Berge and Kunze",
+      "853 Karina Prairie"
     ],
-    "addressNumber": "312",
-    "addressNumberWithinBuilding": "3",
-    "mailRouting": "48322 Towne Crescent, 98808",
-    "city": "New Toney",
-    "region": "Bedfordshire",
-    "country": "Democratic People's Republic of Korea",
-    "postalCode": "70242-3026"
+    "addressNumber": "259",
+    "addressNumberWithinBuilding": "6",
+    "mailRouting": "8278 Sanford Mount, 28181-7382",
+    "city": "Todfurt",
+    "region": "Berkshire",
+    "country": "Thailand",
+    "postalCode": "66711"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Q99YM4-oQHqvnhrb4Azdxb0LAF_CJytR1_9cga0SA8-xEx-GQPg_Y1ylCVN3JCsrUpg0wXB1RHw4nTABrmvFAA",
-
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Rzqwxsowaq6NF-M-oqWnf-NWJCEpsdp-PPTJy55gJQNmpYZyi1q-juj82JM7LprQg-J3OKSVyutWP0Rj1CG2AQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

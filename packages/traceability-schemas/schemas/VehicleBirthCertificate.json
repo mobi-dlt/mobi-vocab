@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/VehicleBirthCertificate.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/VehicleBirthCertificate.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"VehicleBirthCertificate\", \"@id\": \"https://dlt.mobi/mobility-schmea#VehicleBirthCertificate\"}",
+    "$comment": "{\"term\": \"VehicleBirthCertificate\", \"@id\": \"https://dlt.mobi/mobility-schema#VehicleBirthCertificate\"}",
     "title": "Vehicle Birth Certificate",
     "description": "Vehicle Birth Certificate as defined by VID I Standard.",
     "type": "object",
@@ -91,7 +91,7 @@
             "type": "string"
         },
         "previousVBC": {
-            "$comment": "{\"term\": \"previousVBC\", \"@id\": \"https://dlt.mobi/mobility-schmea#Text\"}",
+            "$comment": "{\"term\": \"previousVBC\", \"@id\": \"https://dlt.mobi/mobility-schema#Text\"}",
             "title": "previousVBC",
             "description": "The URI to any previous VBC"
         },

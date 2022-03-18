@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/UniqueVehicleIdentifier.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/UniqueVehicleIdentifier.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"UniqueVehicleIdentifier\", \"@id\": \"https://dlt.mobi/mobility-schmea#UniqueVehicleIdentifier\"}",
+    "$comment": "{\"term\": \"UniqueVehicleIdentifier\", \"@id\": \"https://dlt.mobi/mobility-schema#UniqueVehicleIdentifier\"}",
     "title": "UniqueVehicleIdentifier",
     "description": "Unique Vehicle Identifier as defined in VID I.",
     "type": "object",
