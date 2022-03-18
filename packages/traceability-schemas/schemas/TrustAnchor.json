@@ -1,0 +1,36 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/TrustAnchor.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"TrustAnchor\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#TrustAnchor\"}",
+    "title": "Trust Anchor",
+    "description": "EVGI: Human readable identifier for Trust Anchor",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "EntityInfo": {
+            "$comment": "{\"term\": \"EntityInfo\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#EC\"}",
+            "title": "EntityInfo",
+            "$ref": "https://dlt.mobi/mobility-schema/schemas/EC.json"
+        },
+        "identifier": {
+            "$comment": "{\"term\": \"identifier\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "identifier",
+            "description": "Name of root entity"
+        }
+       
+    },
+    "additionalProperties": false,
+    "examples": []
+}

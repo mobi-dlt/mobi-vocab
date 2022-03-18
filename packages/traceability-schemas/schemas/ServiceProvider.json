@@ -1,0 +1,56 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/ServiceProvider.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"ServiceProvider\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#ServiceProvider\"}",
+    "title": "ServiceProvider",
+    "description": "EVGI: Common structure that wraps EID. ECs are extensible for addtional fileds",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        
+        "LegalName": {
+            "$comment": "{\"term\": \"LegalName\", \"@id\": \"https://schema.org/Name\"}",
+            "title": "Legal Name",
+            "description": "Legally registered name of the entity providing services"
+        },
+        "Address": {
+            "$comment": "{\"term\": \"Address\", \"@id\": \"https://schema.org/address\"}",
+            "title": "Address",
+            "description": "Legally registered address of said legal entity",
+            "type":"string"
+        },
+        "PhoneNumber": {
+            "$comment": "{\"term\": \"PhoneNumber\", \"@id\": \"https://schema.org/Number\"}",
+            "title": "Phone Number",
+            "description": "Contact phone number for entity",
+            "type":"string"
+        },
+        "Email": {
+            "$comment": "{\"term\": \"Email\", \"@id\": \"https://schema.org/email\"}",
+            "title": "Email",
+            "description": "Contact Email for entity",
+            "type":"string"
+        },
+        "EntityInfo": {
+            "$comment": "{\"term\": \"EntityInfo\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#EC\"}",
+            "title": "EntityInfo",
+            "$ref": "https://dlt.mobi/mobility-schema/schemas/EC.json"
+        }
+        
+       
+    },
+    "additionalProperties": false,
+    "examples": []
+}

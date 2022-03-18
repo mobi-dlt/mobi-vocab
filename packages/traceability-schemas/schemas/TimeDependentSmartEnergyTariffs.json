@@ -1,0 +1,60 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/TimeDependentSmartEnergyTariffs.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"TimeDependentSmartEnergyTariffs\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#TimeDependentSmartEnergyTariffs\"}",
+    "title": "EVGI TimeDependentSmartEnergyTariffs",
+    "description": "EVGI: TimeDependentSmartEnergyTariffs",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "Date": {
+            "$comment": "{\"term\": \"Date\", \"@id\": \"https://schema.org/Date\"}",
+            "title": "Date",
+            "description": "Date"
+        },
+        "SOC": {
+            "$comment": "{\"term\": \"SOC\", \"@id\": \"https://schema.org/Number\"}",
+            "title": "Model",
+            "description": "Model"
+        },
+        "TimeOfDay": {
+            "$comment": "{\"term\": \"TimeOfDay\", \"@id\": \"https://schema.org/Time\"}",
+            "title": "TimeOfDay",
+            "description": "TimeOfDay",
+            "type":"string"
+        },
+        "Amount": {
+            "$comment": "{\"term\": \"Amount\", \"@id\": \"https://schema.org/QuantitativeValue\"}",
+            "title": "Amount",
+            "description": "Amount",
+            "type":"string"
+        },
+        "CarbonIntensity": {
+            "$comment": "{\"term\": \"CarbonIntensity\", \"@id\": \"https://intensity\"}",
+            "title": "CarbonIntensity",
+            "description": "cryptographic scheme used to sign the certificate",
+            "type":"string"
+        },
+        "PaymentCurrencyType": {
+            "$comment": "{\"term\": \"PaymentCurrencyType\", \"@id\": \"https://schema.org/Text\"}",
+            "title": "PaymentCurrencyType",
+            "description": "SerialModel",
+            "type":"string"
+        }
+      
+    },
+    "additionalProperties": false,
+    "examples": []
+}

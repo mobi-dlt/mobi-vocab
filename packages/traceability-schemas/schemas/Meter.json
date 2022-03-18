@@ -1,0 +1,114 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/Meter.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"Meter\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#Meter\"}",
+    "title": "EVGI Meter",
+    "description": "EVGI: meter",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "Make": {
+            "$comment": "{\"term\": \"Make\", \"@id\": \"https://schema.org/Name\"}",
+            "title": "Make",
+            "description": "Make"
+        },
+        "Model": {
+            "$comment": "{\"term\": \"Model\", \"@id\": \"https://schema.org/model\"}",
+            "title": "Model",
+            "description": "Model"
+        },
+        "ChargeRate": {
+            "$comment": "{\"term\": \"ChargeRate\", \"@id\": \"https://schema.org/PaymentChargeSpecification\"}",
+            "title": "ChargeRate",
+            "description": "ChargeRate",
+            "type":"string"
+        },
+        "GeoCoordinates": {
+            "$comment": "{\"term\": \"GeoCoordinates\", \"@id\": \"https://schema.org/GeoCoordinates\"}",
+            "title": "GeoCoordinates",
+            "description": "GeoCoordinates",
+            "type":"string"
+        },
+        "MeterUniqueIdentifier": {
+            "$comment": "{\"term\": \"MeterUniqueIdentifier\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "MeterUniqueIdentifier",
+            "description": "cryptographic scheme used to sign the certificate",
+            "type":"string"
+        },
+        "SerialModel": {
+            "$comment": "{\"term\": \"SerialModel\", \"@id\": \"https://schema.org/serialNumber\"}",
+            "title": "SerialModel",
+            "description": "SerialModel",
+            "type":"string"
+        }, 
+        "MeterEndOfLifeEventRegistraion": {
+            "$comment": "{\"term\": \"MeterEndOfLifeEventRegistraion\", \"@id\": \"https://schema.org/Number\"}",
+            "title": "MeterEndOfLifeEventRegistraion",
+            "description": "MeterEndOfLifeEventRegistraion",
+            "type":"string"
+        },
+        "ProductionDate": {
+            "$comment": "{\"term\": \"ProductionDate\", \"@id\": \"https://schema.org/Date\"}",
+            "title": "ProductionDate",
+            "description": "ProductionDate",
+            "type":"string"
+        },
+        "MeterSoftwareVersion": {
+            "$comment": "{\"term\": \"MeterSoftwareVersion\", \"@id\": \"https://schema.org/version\"}",
+            "title": "MeterSoftwareVersion",
+            "description": "MeterSoftwareVersion",
+            "type":"string"
+        },
+        "ConformanceToStandards": {
+            "$comment": "{\"term\": \"ConformanceToStandards\", \"@id\": \"https://schema.org/boolean\"}",
+            "title": "ConformanceToStandards",
+            "description": "ConformanceToStandards",
+            "type":"string"
+        },
+        "MeterAdminID": {
+            "$comment": "{\"term\": \"MeterAdminID\", \"@id\": \"https://schema.org/url\"}",
+            "title": "MeterAdminID",
+            "description": "Meter Admin ID",
+            "type":"string"
+        },
+        "MeterCurrentRating": {
+            "$comment": "{\"term\": \"MeterCurrentRating\", \"@id\": \"https://schema.org/Rating\"}",
+            "title": "MeterCurrentRating",
+            "description": "MeterCurrentRating",
+            "type":"string"
+        },
+        "MeterForm": {
+            "$comment": "{\"term\": \"MeterForm\", \"@id\": \"https://schema.org/Text\"}",
+            "title": "MeterForm",
+            "description": "MeterForm",
+            "type":"string"
+        },
+        "MeterRecords": {
+            "$comment": "{\"term\": \"MeterRecords\", \"@id\": \"https://schema.org/Documentation\"}",
+            "title": "MeterRecords",
+            "description": "MeterRecords",
+            "type":"string"
+        },
+        "RemoteDisconnectCapability": {
+            "$comment": "{\"term\": \"RemoteDisconnectCapability\", \"@id\": \"https://schema.org/application\"}",
+            "title": "RemoteDisconnectCapability",
+            "description": "Reason why the AC was invoked",
+            "type":"string"
+        }
+       
+    },
+    "additionalProperties": false,
+    "examples": []
+}
