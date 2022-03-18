@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/BlockList.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/BlockList.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"BlockList\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#BlockList\"}",
+    "$comment": "{\"term\": \"BlockList\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#BlockList\"}",
     "title": "Block List",
     "description": "EVGI: Block List",
     "type": "object",

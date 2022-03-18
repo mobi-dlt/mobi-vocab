@@ -11,7 +11,7 @@ const getPermissionsCredential = () => {
   delete permissionSetting['@context'];
 
   const example = {
-    '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
+    '@context': ['https://dlt.mobi/mobility-schema/schemas'],
     type: 'PermissionsCredential',
     permission: permissionSetting,
     holder: 'did:mobinet:123456789abcdefghi',

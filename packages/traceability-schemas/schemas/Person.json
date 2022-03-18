@@ -1,5 +1,5 @@
 {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/schemas/Person.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/schemas/Person.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
     "$comment": "{\"term\": \"Person\", \"@id\": \"https://schema.org/Person\"}",
     "title": "Person",
@@ -47,7 +47,7 @@
             "$comment": "{\"term\": \"worksFor\", \"@id\": \"https://schema.org/worksFor\"}",
             "title": "Works For",
             "description": "Company which employs the person.",
-            "$ref": "https://dlt.mobi/mobility-schmea/schemas/schemas/Organization.json"
+            "$ref": "https://dlt.mobi/mobility-schema/schemas/schemas/Organization.json"
         },
         "jobTitle": {
             "$comment": "{\"term\": \"jobTitle\", \"@id\": \"https://schema.org/jobTitle\"}",

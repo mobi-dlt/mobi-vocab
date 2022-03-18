@@ -102,7 +102,7 @@ For example see:
 These attributes are then used to deterministically build a JSON-LD context 
 hosted at:
 
-[https://dlt.mobi/mobility-schmea/schemas](https://dlt.mobi/mobility-schmea/schemas)
+[https://dlt.mobi/mobility-schema/schemas](https://dlt.mobi/mobility-schema/schemas)
 
 This context can then be used to produce verifiable credentials for supply chain
 traceability, for example:

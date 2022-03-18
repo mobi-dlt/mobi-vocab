@@ -7,7 +7,7 @@ const getLEIevidenceDocument = () => {
   const lei = faker.random.alphaNumeric(20).toUpperCase();
 
   const example = {
-    '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
+    '@context': ['https://dlt.mobi/mobility-schema/schemas'],
     type: 'LEIevidenceDocument',
     lei,
     entity: getLEIentity(),

@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/AssetRegistry.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/AssetRegistry.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"AssetRegistry\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#AssetRegistry\"}",
+    "$comment": "{\"term\": \"AssetRegistry\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#AssetRegistry\"}",
     "title": "EVGI AssetRegistry",
     "description": "EVGI: AssetRegistry",
     "type": "object",

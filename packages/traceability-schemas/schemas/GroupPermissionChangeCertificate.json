@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/GroupPermissionChangeCertificate.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/GroupPermissionChangeCertificate.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"GroupPermissionChangeCertificate\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#GroupPermissionChangeCertificate\"}",
+    "$comment": "{\"term\": \"GroupPermissionChangeCertificate\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#GroupPermissionChangeCertificate\"}",
     "title": "GroupPermissionChangeCertificate",
     "description": "EVGI: GroupPermissionChangeCertificate",
     "type": "object",

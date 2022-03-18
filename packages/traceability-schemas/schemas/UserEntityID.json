@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/UserEntityID.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/UserEntityID.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"UserEntityID\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#UserEntityID\"}",
+    "$comment": "{\"term\": \"UserEntityID\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#UserEntityID\"}",
     "title": "User Entity ID",
     "description": "EVGI: EVGI Entity Extension includes metadata about payment parameters",
     "type": "object",

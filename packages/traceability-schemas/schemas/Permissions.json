@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/schemas/Permissions.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/schemas/Permissions.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"Permissions\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#Permissions\"}",
+    "$comment": "{\"term\": \"Permissions\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#Permissions\"}",
     "title": "Permissions",
     "description": "Permissions subject",
     "type": "object",
@@ -20,13 +20,13 @@
             ]
         },
         "vid": {
-            "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#VID\"}",
+            "$comment": "{\"term\": \"vid\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#VID\"}",
             "title": "vid",
             "description": "vid",
             "type": "string"
         },
         "batteryid": {
-            "$comment": "{\"term\": \"batteryid\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#BatteryID\"}",
+            "$comment": "{\"term\": \"batteryid\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#BatteryID\"}",
             "title": "batteryid",
             "description": "Battery ID.",
             "type": "string"

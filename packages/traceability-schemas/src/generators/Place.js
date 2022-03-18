@@ -9,7 +9,7 @@ const getPlace = () => {
   const address = getPostalAddress();
   delete address['@context'];
   const example = {
-    '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
+    '@context': ['https://dlt.mobi/mobility-schema/schemas'],
     type: 'Place',
     globalLocationNumber,
     geo,

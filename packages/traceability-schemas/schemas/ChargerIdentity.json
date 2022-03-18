@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/ChargerIdentity.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/ChargerIdentity.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"ChargerIdentity\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#ChargerIdentity\"}",
+    "$comment": "{\"term\": \"ChargerIdentity\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#ChargerIdentity\"}",
     "title": "EVGI ChargerIdentity",
     "description": "EVGI: ChargerIdentity",
     "type": "object",

@@ -112,8 +112,8 @@ const getVocabFromIntermediate = (intermediate) => {
 
   <p>
     You may view the latest json-ld vocabulary at: <br />
-    <a href="https://dlt.mobi/mobility-schmea/schemas">
-      https://dlt.mobi/mobility-schmea/schemas
+    <a href="https://dlt.mobi/mobility-schema/schemas">
+      https://dlt.mobi/mobility-schema/schemas
     </a>
   </p>
 

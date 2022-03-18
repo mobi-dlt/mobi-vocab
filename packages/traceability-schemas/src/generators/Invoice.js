@@ -2,7 +2,7 @@ const faker = require('faker');
 
 const getInvoice = () => {
   const example = {
-    '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
+    '@context': ['https://dlt.mobi/mobility-schema/schemas'],
     type: 'Invoice',
     identifier: `IN-${faker.random.number()}`,
 

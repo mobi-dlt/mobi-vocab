@@ -1,6 +1,6 @@
 const getP2PChargingCommunication = () => {
     const example = {
-        '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
+        '@context': ['https://dlt.mobi/mobility-schema/schemas'],
         type: 'P2PChargingCommunication',
         DateTime: 'did:mobi:e436e12ec21ebfeb1f712ebc3f',
         EnergyExchange: 'uri',

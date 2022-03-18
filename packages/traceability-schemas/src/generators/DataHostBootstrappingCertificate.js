@@ -4,7 +4,7 @@ const { getVID } = require('./VID');
 
 const getDataHostBootstrappingCertificate = () => {
     const example = {
-        '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
+        '@context': ['https://dlt.mobi/mobility-schema/schemas'],
         type: 'DataHostBootstrappingCertificate',
         UIUD: 'did:mobi:e436e12ec21ebfeb1f712ebc3f',
         WebURI: 'pubkey',

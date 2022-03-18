@@ -5,7 +5,7 @@ faker.seed(42);
 const getMember = () => {
   // Get organization
   const example = {
-    '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
+    '@context': ['https://dlt.mobi/mobility-schema/schemas'],
     type: 'Member',
     firstName: faker.name.firstName(),
     lastName: faker.name.lastName(),

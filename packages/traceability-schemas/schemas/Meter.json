@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/Meter.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/Meter.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"Meter\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#Meter\"}",
+    "$comment": "{\"term\": \"Meter\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#Meter\"}",
     "title": "EVGI Meter",
     "description": "EVGI: meter",
     "type": "object",

@@ -16,7 +16,7 @@ const getOrganization = () => {
   const fax = `555-${faker.random.number({ min: 100, max: 999 })}-${faker.random.number({ min: 1000, max: 9999 })}`;
 
   const example = {
-    '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
+    '@context': ['https://dlt.mobi/mobility-schema/schemas'],
     type: 'Organization',
     name: faker.company.companyName(),
     description: faker.company.catchPhrase(),

@@ -1,6 +1,6 @@
 const getChargerIdentity = () => {
     const example = {
-        '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
+        '@context': ['https://dlt.mobi/mobility-schema/schemas'],
         type: 'ChargerIdentity',
         Make: 'charger manufac',
         Model: 'model',

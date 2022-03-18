@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/schemas/LEIaddress.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/schemas/LEIaddress.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"LEIaddress\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#LEIaddress\"}",
+    "$comment": "{\"term\": \"LEIaddress\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#LEIaddress\"}",
     "title": "LEIaddress",
     "description": "GLEIF LEI Redord Level 1 Schema for LEI Address",
 	"type": "object",

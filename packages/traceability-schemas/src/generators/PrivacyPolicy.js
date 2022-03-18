@@ -13,7 +13,7 @@ const getPrivacyPolicy = () => {
   const example = {
     '@context': [
         'https://www.w3.org/2018/credentials/v1',
-        'https://dlt.mobi/mobility-schmea/schemas',
+        'https://dlt.mobi/mobility-schema/schemas',
       ],
     type: 'PrivacyPolicy',
     issuanceDate: today,

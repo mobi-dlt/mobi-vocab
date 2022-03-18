@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/P2PChargingCommunication.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/P2PChargingCommunication.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"P2PChargingCommunication\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#P2PChargingCommunication\"}",
+    "$comment": "{\"term\": \"P2PChargingCommunication\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#P2PChargingCommunication\"}",
     "title": "EVGI P2PChargingCommunication",
     "description": "EVGI: P2PChargingCommunication",
     "type": "object",

@@ -1,7 +1,7 @@
 const context = require('jsonld/lib/context');
 const jsonldLib = require('jsonld/lib');
 
-const ctxIri = 'https://dlt.mobi/mobility-schmea/schemas';
+const ctxIri = 'https://dlt.mobi/mobility-schema/schemas';
 const ctxName = 'mobility-v1.jsonld';
 
 describe('Loading generated json-ld context(s)', () => {

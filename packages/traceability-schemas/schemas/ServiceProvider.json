@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/schemas/ServiceProvider.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/schemas/ServiceProvider.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"ServiceProvider\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#ServiceProvider\"}",
+    "$comment": "{\"term\": \"ServiceProvider\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#ServiceProvider\"}",
     "title": "ServiceProvider",
     "description": "EVGI: Common structure that wraps EID. ECs are extensible for addtional fileds",
     "type": "object",
@@ -44,9 +44,9 @@
             "type":"string"
         },
         "EntityInfo": {
-            "$comment": "{\"term\": \"EntityInfo\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#EC\"}",
+            "$comment": "{\"term\": \"EntityInfo\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#EC\"}",
             "title": "EntityInfo",
-            "$ref": "https://dlt.mobi/mobility-schmea/schemas/schemas/EC.json"
+            "$ref": "https://dlt.mobi/mobility-schema/schemas/schemas/EC.json"
         }
         
        

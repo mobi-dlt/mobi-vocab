@@ -1,7 +1,7 @@
 {
   "ISO 148": {
     "@context": [
-      "https://dlt.mobi/mobility-schmea/schemas"
+      "https://dlt.mobi/mobility-schema/schemas"
     ],
     "type": "MechanicalProperty",
     "identifier": "ISO 148",
@@ -10,7 +10,7 @@
   },
   "ISO 180": {
     "@context": [
-      "https://dlt.mobi/mobility-schmea/schemas"
+      "https://dlt.mobi/mobility-schema/schemas"
     ],
     "type": "MechanicalProperty",
     "identifier": "ISO 180",
@@ -19,7 +19,7 @@
   },
   "ISO 3738": {
     "@context": [
-      "https://dlt.mobi/mobility-schmea/schemas"
+      "https://dlt.mobi/mobility-schema/schemas"
     ],
     "type": "MechanicalProperty",
     "identifier": "ISO 3738",
@@ -28,7 +28,7 @@
   },
   "ISO 1352": {
     "@context": [
-      "https://dlt.mobi/mobility-schmea/schemas"
+      "https://dlt.mobi/mobility-schema/schemas"
     ],
     "type": "MechanicalProperty",
     "identifier": "ISO 1352",

@@ -19,7 +19,7 @@ const getTotalCharge = () => {
   const totalCollectCharge = 0.25 * chargesDestination;
 
   const example = {
-    '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
+    '@context': ['https://dlt.mobi/mobility-schema/schemas'],
     type: 'TotalCharge',
     totalPrepaid,
     totalCollect,

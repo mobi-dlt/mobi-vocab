@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/TimeDependentSmartEnergyTariffs.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/TimeDependentSmartEnergyTariffs.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"TimeDependentSmartEnergyTariffs\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#TimeDependentSmartEnergyTariffs\"}",
+    "$comment": "{\"term\": \"TimeDependentSmartEnergyTariffs\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#TimeDependentSmartEnergyTariffs\"}",
     "title": "EVGI TimeDependentSmartEnergyTariffs",
     "description": "EVGI: TimeDependentSmartEnergyTariffs",
     "type": "object",

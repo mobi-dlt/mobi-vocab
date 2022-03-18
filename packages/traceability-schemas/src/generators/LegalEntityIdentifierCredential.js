@@ -2,7 +2,7 @@ const faker = require('faker');
 
 const getLegalEntityIdentifierCredential = () => {
   const example = {
-    '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
+    '@context': ['https://dlt.mobi/mobility-schema/schemas'],
     type: 'LegalEntityIdentifierCredential',
     leiCode: faker.random.alphaNumeric(20).toUpperCase(),
     certificateName: 'US Legal Entity Certificate',

@@ -1,7 +1,7 @@
 {
-    "$id": "https://dlt.mobi/mobility-schmea/schemas/DataHostBootstrappingCertificate.json",
+    "$id": "https://dlt.mobi/mobility-schema/schemas/DataHostBootstrappingCertificate.json",
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "$comment": "{\"term\": \"DataHostBootstrappingCertificate\", \"@id\": \"https://dlt.mobi/mobility-schmea/schemas#DataHostBootstrappingCertificate\"}",
+    "$comment": "{\"term\": \"DataHostBootstrappingCertificate\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#DataHostBootstrappingCertificate\"}",
     "title": "Data Host BootstrappingCertificate",
     "description": "EVGI: Data Host Bootstrapping Certificate",
     "type": "object",

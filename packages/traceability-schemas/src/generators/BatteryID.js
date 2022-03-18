@@ -7,7 +7,7 @@ const getBatteryID = () => {
     delete vidNumber['@context'];
 
     const example = {
-        '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
+        '@context': ['https://dlt.mobi/mobility-schema/schemas'],
         type: 'BatteryID',
         vid: vidNumber,
         batteryid: 'did:mobi:e436e12ec21ebfeb1f712ebc3g',

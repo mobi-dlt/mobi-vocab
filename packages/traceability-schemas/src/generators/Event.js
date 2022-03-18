@@ -17,7 +17,7 @@ const getEvent = () => {
     delete products[1]['@context'];
 
     const example = {
-        '@context': ['https://dlt.mobi/mobility-schmea/schemas'],
+        '@context': ['https://dlt.mobi/mobility-schema/schemas'],
         type: 'Event',
         eventType,
         eventId,
