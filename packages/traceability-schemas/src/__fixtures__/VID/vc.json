@@ -16,20 +16,28 @@
     "type": "VID",
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "manufacturer": {
-      "type": "Organization",
-      "name": "Zulauf, Turner and Hansen",
-      "description": "Upgradable optimizing projection",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "0867 Treutel Haven",
-        "addressLocality": "Port Jordanborough",
-        "addressRegion": "Oregon",
-        "postalCode": "49680-8728",
-        "addressCountry": "Micronesia"
+      "type": "Person",
+      "firstName": "Jarret",
+      "lastName": "Hahn",
+      "email": "Delta_Crooks@example.com",
+      "phoneNumber": "555-129-9433",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Watsica Inc",
+        "description": "Cross-group national task-force",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "80352 Skiles Dam",
+          "addressLocality": "West Jaylan",
+          "addressRegion": "Virginia",
+          "postalCode": "52131-8587",
+          "addressCountry": "Holy See (Vatican City State)"
+        },
+        "email": "Mark_Jones@example.org",
+        "phoneNumber": "555-803-5132",
+        "faxNumber": "555-348-3729"
       },
-      "email": "Margot99@example.net",
-      "phoneNumber": "555-736-1605",
-      "faxNumber": "555-970-1854"
+      "jobTitle": "Investor Usability Director"
     },
     "make": "Ford",
     "model": "Mach_E",
@@ -38,7 +46,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..yT-stBLmVCWEsjAunRhOP6a04-mprxAWVx2VXC-t4eaWpwhoj4newbpoeyP3ubyQAn-g2SBpiASKryVxz9HvAA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..yoKI0rIW6E3LEZQWx5i6cVhU_h00JpDjXQqOS5CaJ3gEBeWy3lCVNFbO36GdAjICPgPVG2XMuQo4G5ZSN3ThBg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

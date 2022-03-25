@@ -14,14 +14,14 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "Member",
-    "firstName": "Hester",
-    "lastName": "O'Kon",
-    "email": "Breana_Anderson9@example.org"
+    "firstName": "Eva",
+    "lastName": "Rutherford",
+    "email": "Wilhelmine_Cremin@example.com"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..oQYemK_yOy_QBBXn22X6eBYC-XfhSa8cukpyvTm3nEVpFd_hftSbIflXZ6rBhvhDlt4Naej5mCiqKRKTlwhgCw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Et9zRaHFRmQvHaI8AFlmoNmUY1bTwwORgvTfv2WLXBviIWjAWnOwP_BFZbUs6GiaWmtrplMFBH_VdCVWZMrtDg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

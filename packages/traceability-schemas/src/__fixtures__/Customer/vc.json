@@ -14,22 +14,22 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "Customer",
-    "name": "Vince Bode",
+    "name": "Aleen Jenkins",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "0716 Nienow View",
-      "addressLocality": "Larsonmouth",
-      "addressRegion": "North Carolina",
-      "postalCode": "46740-2531",
-      "addressCountry": "Saint Lucia"
+      "streetAddress": "9885 Koss Street",
+      "addressLocality": "West Brettburgh",
+      "addressRegion": "Alabama",
+      "postalCode": "08685",
+      "addressCountry": "Zimbabwe"
     },
-    "telephone": "555-122-2659",
-    "email": "Hilario.Predovic5@example.net"
+    "telephone": "555-140-2483",
+    "email": "Orion_Schroeder@example.com"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..XFKmWcqovts4eckgA7qZMulAAeh_BJGXcG-_ZlLW8AiTDEX-wB8NdWfK6Oi3KDlL2mL4m-YcP1jGTrtJOQLwBA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..dC_AynlIAdk9X7zPlTEIehjr8fXMQ6GbRkRPxvIWPRrrXzuZUF1BbYImA16Gye6MTFgd74El5MY41Ye_BUwPBQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

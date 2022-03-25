@@ -15,39 +15,47 @@
     ],
     "type": "Product",
     "manufacturer": {
-      "type": "Organization",
-      "name": "Kertzmann Inc",
-      "description": "Team-oriented 24 hour analyzer",
-      "address": {
-        "type": "PostalAddress",
-        "streetAddress": "5022 Alia Landing",
-        "addressLocality": "North Karson",
-        "addressRegion": "Rhode Island",
-        "postalCode": "05405-3079",
-        "addressCountry": "Congo"
+      "type": "Person",
+      "firstName": "Lelia",
+      "lastName": "Kunze",
+      "email": "Torrance.Hauck@example.org",
+      "phoneNumber": "555-203-7269",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Kutch and Sons",
+        "description": "Inverse intermediate strategy",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "2232 Kian Shoals",
+          "addressLocality": "Woodrowmouth",
+          "addressRegion": "Massachusetts",
+          "postalCode": "74856",
+          "addressCountry": "Paraguay"
+        },
+        "email": "Lonie_Bahringer@example.com",
+        "phoneNumber": "555-470-7319",
+        "faxNumber": "555-778-2545"
       },
-      "email": "Claud22@example.net",
-      "phoneNumber": "555-303-2832",
-      "faxNumber": "555-373-1090"
+      "jobTitle": "Principal Quality Analyst"
     },
-    "name": "Practical Fresh Cheese",
-    "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+    "name": "Unbranded Metal Mouse",
+    "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
     "sizeOrAmount": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "6634"
+      "value": "1151"
     },
     "weight": {
       "type": "QuantitativeValue",
       "unitCode": "hg/ha",
-      "value": "7422"
+      "value": "7651"
     },
-    "sku": "609634918910"
+    "sku": "507809982544"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..-6w3bJdHa97sjJ-hyK-aAlb6_h-aBR2f20uopLpSgABjZLihOXGQ6U3uZ9HZA43Tpi95AJ8K6ZhRVbc2p76aCQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..87GXXYkqnF-BTJH4Rr6cd__wUPInz3tYfhQOh8QoFwfkK_gzDIEgazRwgA62CHuLWr-IEfDn_JLty0W1bqBxBw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

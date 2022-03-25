@@ -1,18 +1,25 @@
 [
   {
+    "type": "PrivacyPolicy",
     "issuanceDate": "2021-03-09",
-    "bandwidth": "compress",
-    "system": "compress",
-    "driver": "index",
-    "sensor": "reboot"
+    "expirationDate": "2022-07-11",
+    "holder": "did:mobinet:123456789abcdefghi",
+    "privacyPolicyAccepted": "true",
+    "firewall": "bypass"
   },
   {
-    "panel": "program"
+    "type": "PrivacyPolicy",
+    "issuanceDate": "2021-03-09",
+    "holder": "did:mobinet:123456789abcdefghi",
+    "array": "override",
+    "firewall": "program",
+    "transmitter": "synthesize"
   },
   {
-    "bus": "back up",
-    "card": "input",
-    "feed": "input",
-    "application": "navigate"
+    "type": "PrivacyPolicy",
+    "issuanceDate": "2021-03-09",
+    "holder": "did:mobinet:123456789abcdefghi",
+    "privacyPolicyAccepted": "true",
+    "pixel": "copy"
   }
 ]

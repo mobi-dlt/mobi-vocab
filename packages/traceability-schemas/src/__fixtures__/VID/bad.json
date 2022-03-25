@@ -1,22 +1,52 @@
 [
   {
+    "type": "VID",
+    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+    "manufacturer": {
+      "type": "Person",
+      "firstName": "Jarret",
+      "lastName": "Hahn",
+      "email": "Delta_Crooks@example.com",
+      "phoneNumber": "555-129-9433",
+      "worksFor": {
+        "type": "Organization",
+        "name": "Watsica Inc",
+        "description": "Cross-group national task-force",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "80352 Skiles Dam",
+          "addressLocality": "West Jaylan",
+          "addressRegion": "Virginia",
+          "postalCode": "52131-8587",
+          "addressCountry": "Holy See (Vatican City State)"
+        },
+        "email": "Mark_Jones@example.org",
+        "phoneNumber": "555-803-5132",
+        "faxNumber": "555-348-3729"
+      },
+      "jobTitle": "Investor Usability Director"
+    },
+    "system": "compress"
+  },
+  {
+    "type": "VID",
+    "make": "Ford",
+    "vin": "JTERU5JR7M5861170",
+    "monitor": "compress",
+    "capacitor": "copy",
+    "program": "program",
+    "circuit": "back up"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": "VID",
     "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
     "model": "Mach_E",
     "vin": "JTERU5JR7M5861170",
-    "card": "hack",
-    "matrix": "back up"
-  },
-  {
-    "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-    "vin": "JTERU5JR7M5861170",
-    "bus": "reboot",
-    "interface": "reboot",
-    "array": "navigate"
-  },
-  {
-    "vin": "JTERU5JR7M5861170",
-    "protocol": "connect",
-    "hard drive": "synthesize",
-    "system": "program"
+    "port": "copy",
+    "circuit": "quantify",
+    "program": "copy"
   }
 ]

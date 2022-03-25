@@ -14,32 +14,32 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "Person",
-    "firstName": "Jarrett",
-    "lastName": "Rutherford",
-    "email": "Josie_Hackett55@example.net",
-    "phoneNumber": "555-548-5682",
+    "firstName": "Jessica",
+    "lastName": "Cummerata",
+    "email": "Alexis36@example.com",
+    "phoneNumber": "555-258-6198",
     "worksFor": {
       "type": "Organization",
-      "name": "Thiel LLC",
-      "description": "Reverse-engineered mobile alliance",
+      "name": "Rippin - VonRueden",
+      "description": "Multi-channelled maximized contingency",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "685 Zena Wells",
-        "addressLocality": "Luettgenstad",
-        "addressRegion": "Rhode Island",
-        "postalCode": "97832-2421",
-        "addressCountry": "Egypt"
+        "streetAddress": "6330 DuBuque Shoal",
+        "addressLocality": "Schaefertown",
+        "addressRegion": "New Mexico",
+        "postalCode": "13458",
+        "addressCountry": "Turks and Caicos Islands"
       },
-      "email": "Domenick67@example.com",
-      "phoneNumber": "555-958-3472",
-      "faxNumber": "555-645-2865"
+      "email": "Izabella24@example.org",
+      "phoneNumber": "555-930-4117",
+      "faxNumber": "555-519-4122"
     },
-    "jobTitle": "Principal Infrastructure Executive"
+    "jobTitle": "Forward Intranet Engineer"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..0HBZg1BhqHI17Z7Dqy8-RRAdi5jJt0m-G3y0QofNzPa8uCtLJJkoqZXILpAZifqGRVZybC0Ww9OC7U2nwQXeCw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..6kfmvwfsjxxAc8qCuLUl3klR1lMZ6M7QGA9RnSM_7P5ufZBwZXeEzzCYPddIy4Ww8JJ20KeivF4PQ2Pf1ycoDQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

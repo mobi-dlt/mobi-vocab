@@ -1,44 +1,35 @@
 [
   {
-    "firewall": "reboot",
-    "pixel": "compress"
-  },
-  {
-    "globalLocationNumber": "1089314752378",
-    "geo": {
-      "type": "GeoCoordinates",
-      "latitude": "-6.4629",
-      "longitude": "135.9530"
-    },
-    "address": {
-      "type": "PostalAddress",
-      "organizationName": "Bauch, Leannon and Jacobi",
-      "streetAddress": "734 Rutherford Springs",
-      "addressLocality": "South Brendenshire",
-      "addressRegion": "Texas",
-      "postalCode": "50073",
-      "addressCountry": "Singapore"
-    },
-    "system": "back up",
-    "card": "copy"
+    "globalLocationNumber": "6591632941495",
+    "application": "input",
+    "pixel": "bypass"
   },
   {
     "type": "Place",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "43.0248",
-      "longitude": "6.4658"
+      "latitude": "-31.4543",
+      "longitude": "-80.5251",
+      "elevation": "5000 ft",
+      "timestamp": "2021-04-16T09:28:42.805Z",
+      "locationDescription": "geo coordinates"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Heidenreich LLC",
-      "streetAddress": "5052 Katelin Prairie",
-      "addressLocality": "Thielhaven",
-      "addressRegion": "North Dakota",
-      "postalCode": "58876",
-      "addressCountry": "Sao Tome and Principe"
+      "organizationName": "Volkman - Wuckert",
+      "streetAddress": "04591 Katarina Course",
+      "addressLocality": "Port Gudrunmouth",
+      "addressRegion": "Oregon",
+      "postalCode": "75423",
+      "addressCountry": "Macao"
     },
-    "panel": "copy",
-    "circuit": "bypass"
+    "microchip": "generate",
+    "sensor": "input",
+    "port": "calculate"
+  },
+  {
+    "feed": "quantify",
+    "pixel": "copy",
+    "firewall": "compress"
   }
 ]

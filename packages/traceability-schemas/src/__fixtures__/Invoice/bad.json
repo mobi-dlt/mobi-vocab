@@ -1,27 +1,15 @@
 [
   {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "type": "Invoice",
-    "alarm": "reboot",
-    "hard drive": "input"
+    "identifier": "IN-20584",
+    "matrix": "bypass",
+    "bandwidth": "generate"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "identifier": "IN-8698",
-    "array": "back up",
-    "port": "synthesize"
+    "program": "connect"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "identifier": "IN-72342",
-    "protocol": "parse",
-    "program": "bypass",
-    "feed": "reboot"
+    "pixel": "back up",
+    "feed": "hack",
+    "interface": "parse"
   }
 ]

@@ -1,28 +1,26 @@
 [
   {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
+    "type": "RevocationCertificate",
     "identifier": "testing...",
     "revokeHeader": "testing...",
-    "issuer": "testing...",
-    "program": "hack",
-    "array": "calculate",
-    "bandwidth": "quantify"
+    "signature": "testing...",
+    "bandwidth": "copy",
+    "feed": "connect"
   },
   {
-    "revokeHeader": "testing...",
-    "signature": "testing...",
+    "type": "RevocationCertificate",
+    "identifier": "testing...",
+    "issuer": "testing...",
     "sigAlgId": "testing...",
-    "protocol": "compress"
+    "microchip": "generate",
+    "capacitor": "transmit",
+    "hard drive": "input"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
-    "issuer": "testing...",
     "signature": "testing...",
-    "sigAlgId": "testing...",
-    "monitor": "parse"
+    "matrix": "generate"
   }
 ]

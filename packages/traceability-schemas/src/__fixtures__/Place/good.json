@@ -4,20 +4,23 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "Place",
-    "globalLocationNumber": "4556178713977",
+    "globalLocationNumber": "6591632941495",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "38.3773",
-      "longitude": "-11.4645"
+      "latitude": "-29.8710",
+      "longitude": "-25.0055",
+      "elevation": "5000 ft",
+      "timestamp": "2021-07-01T12:34:53.413Z",
+      "locationDescription": "geo coordinates"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Mayert Group",
-      "streetAddress": "20360 Sauer Stream",
-      "addressLocality": "Karinaburgh",
-      "addressRegion": "California",
-      "postalCode": "60239-3807",
-      "addressCountry": "British Indian Ocean Territory (Chagos Archipelago)"
+      "organizationName": "Jakubowski, Moen and Bernhard",
+      "streetAddress": "73204 Marianne Hill",
+      "addressLocality": "North Anahi",
+      "addressRegion": "Hawaii",
+      "postalCode": "39967",
+      "addressCountry": "Oman"
     }
   },
   {
@@ -25,20 +28,23 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "Place",
-    "globalLocationNumber": "1089314752378",
+    "globalLocationNumber": "9913256350069",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "-6.4629",
-      "longitude": "135.9530"
+      "latitude": "-31.4543",
+      "longitude": "-80.5251",
+      "elevation": "5000 ft",
+      "timestamp": "2021-04-16T09:28:42.805Z",
+      "locationDescription": "geo coordinates"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Bauch, Leannon and Jacobi",
-      "streetAddress": "734 Rutherford Springs",
-      "addressLocality": "South Brendenshire",
-      "addressRegion": "Texas",
-      "postalCode": "50073",
-      "addressCountry": "Singapore"
+      "organizationName": "Volkman - Wuckert",
+      "streetAddress": "04591 Katarina Course",
+      "addressLocality": "Port Gudrunmouth",
+      "addressRegion": "Oregon",
+      "postalCode": "75423",
+      "addressCountry": "Macao"
     }
   },
   {
@@ -46,20 +52,23 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "Place",
-    "globalLocationNumber": "4076233795828",
+    "globalLocationNumber": "3587155594648",
     "geo": {
       "type": "GeoCoordinates",
-      "latitude": "43.0248",
-      "longitude": "6.4658"
+      "latitude": "28.2161",
+      "longitude": "68.3204",
+      "elevation": "5000 ft",
+      "timestamp": "2021-04-06T10:38:17.466Z",
+      "locationDescription": "geo coordinates"
     },
     "address": {
       "type": "PostalAddress",
-      "organizationName": "Heidenreich LLC",
-      "streetAddress": "5052 Katelin Prairie",
-      "addressLocality": "Thielhaven",
-      "addressRegion": "North Dakota",
-      "postalCode": "58876",
-      "addressCountry": "Sao Tome and Principe"
+      "organizationName": "Mitchell LLC",
+      "streetAddress": "10990 Bosco Green",
+      "addressLocality": "Lavonview",
+      "addressRegion": "New York",
+      "postalCode": "65260",
+      "addressCountry": "Philippines"
     }
   }
 ]

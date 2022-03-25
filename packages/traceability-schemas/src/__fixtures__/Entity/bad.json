@@ -1,40 +1,50 @@
 [
   {
-    "pixel": "calculate",
-    "feed": "transmit",
-    "program": "reboot",
-    "panel": "calculate"
+    "email": "Alexis36@example.com",
+    "jobTitle": "Forward Intranet Engineer",
+    "matrix": "connect",
+    "panel": "quantify",
+    "interface": "program",
+    "bandwidth": "generate"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
-    "jobTitle": "Corporate Markets Liaison",
-    "bus": "connect",
-    "firewall": "synthesize",
-    "matrix": "override",
-    "pixel": "override"
+    "type": "Organization",
+    "description": "Operative grid-enabled infrastructure",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "3037 Schmidt Lane",
+      "addressLocality": "Hellerville",
+      "addressRegion": "Mississippi",
+      "postalCode": "60348",
+      "addressCountry": "Mauritius"
+    },
+    "email": "Jerrold.Macejkovic10@example.com",
+    "phoneNumber": "555-628-1591",
+    "capacitor": "input"
   },
   {
+    "type": "Person",
+    "email": "Rae.Simonis94@example.net",
+    "phoneNumber": "555-318-9898",
     "worksFor": {
       "type": "Organization",
-      "name": "Crona, Waelchi and Hodkiewicz",
-      "description": "Business-focused 24 hour definition",
+      "name": "Schmidt - Marks",
+      "description": "Devolved tangible moderator",
       "address": {
         "type": "PostalAddress",
-        "streetAddress": "2310 Blaze Club",
-        "addressLocality": "Jailynborough",
-        "addressRegion": "Hawaii",
-        "postalCode": "31536-3007",
-        "addressCountry": "Lao People's Democratic Republic"
+        "streetAddress": "5480 Spencer Wall",
+        "addressLocality": "Sandrafurt",
+        "addressRegion": "Massachusetts",
+        "postalCode": "52221",
+        "addressCountry": "Oman"
       },
-      "email": "Rachel_Boehm18@example.net",
-      "phoneNumber": "555-665-7190",
-      "faxNumber": "555-173-5604"
+      "email": "Davion80@example.com",
+      "phoneNumber": "555-554-1177",
+      "faxNumber": "555-635-1936"
     },
-    "jobTitle": "Regional Operations Architect",
-    "feed": "reboot",
-    "bus": "generate",
-    "monitor": "generate"
+    "alarm": "bypass"
   }
 ]

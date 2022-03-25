@@ -4,205 +4,205 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "LEIentity",
-    "legalName": "Block, Herzog and Hyatt",
-    "legalNameLanguage": "de",
+    "legalName": "Metz LLC",
+    "legalNameLanguage": "ko",
     "otherNames": [
-      "Lesch - Bogisich",
-      "Heller, Boehm and Bartoletti"
+      "Beer - Kunze",
+      "Yundt and Sons"
     ],
     "transliteratedOtherNames": [
-      "Lesch - Bogisich",
-      "Heller, Boehm and Bartoletti"
+      "Beer - Kunze",
+      "Yundt and Sons"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "en",
+      "language": "fa",
       "addressLines": [
-        "Mante, Douglas and Pollich",
-        "16196 Sonya Coves"
+        "Keebler - Kilback",
+        "318 Modesta Course"
       ],
-      "addressNumber": "411",
-      "addressNumberWithinBuilding": "3",
-      "mailRouting": "59606 Quitzon Mountains, 89768-7368",
-      "city": "North Magnus",
+      "addressNumber": "347",
+      "addressNumberWithinBuilding": "1",
+      "mailRouting": "5927 Bogan Cliff, 85143-3233",
+      "city": "Anselview",
       "region": "Buckinghamshire",
-      "country": "Paraguay",
-      "postalCode": "55587-4460"
+      "country": "Puerto Rico",
+      "postalCode": "80680-2652"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "hy",
+      "language": "sv",
       "addressLines": [
-        "Reynolds and Sons",
-        "61486 Wolf Fields"
+        "O'Conner - Parisian",
+        "16093 Lynch Prairie"
       ],
-      "addressNumber": "31",
-      "addressNumberWithinBuilding": "6",
-      "mailRouting": "3718 Okuneva Square, 41507",
-      "city": "Danteborough",
-      "region": "Buckinghamshire",
-      "country": "Belarus",
-      "postalCode": "59460-1462"
-    },
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000003",
-      "otherValidationAuthorityID": "2F179UG6",
-      "validationAuthorityEntityID": "VYQEQUFMCQDRZI1JVIKL"
-    },
-    "legalJurisdiction": "Bedfordshire",
-    "entityCategory": "Grocery",
-    "legalForm": "LLC",
-    "associatedEntity": {
-      "type": "Organization",
-      "leiCode": "Q3583ZK50HHM7PCKR0XB",
-      "name": "Kuhlman - Moen"
-    },
-    "status": "IN PROGRESS",
-    "expirationDate": "2022-07-11",
-    "expirationReason": "engage customized schemas",
-    "successorEntity": {
-      "type": "Organization",
-      "leiCode": "FN9ZLAWC7DMGMUQ84RPE",
-      "name": "Mills, Daugherty and Nader"
-    },
-    "otherAddresses": []
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "type": "LEIentity",
-    "legalName": "Tillman Inc",
-    "legalNameLanguage": "it",
-    "otherNames": [
-      "Hyatt Group",
-      "Kling Inc"
-    ],
-    "transliteratedOtherNames": [
-      "Hyatt Group",
-      "Kling Inc"
-    ],
-    "legalAddress": {
-      "type": "LEIaddress",
-      "language": "en_AU",
-      "addressLines": [
-        "Leannon and Sons",
-        "4256 Denis Village"
-      ],
-      "addressNumber": "415",
-      "addressNumberWithinBuilding": "2",
-      "mailRouting": "31306 Ondricka Rue, 47878-4588",
-      "city": "Constantinmouth",
-      "region": "Buckinghamshire",
-      "country": "Greenland",
-      "postalCode": "02901"
-    },
-    "headquartersAddress": {
-      "type": "LEIaddress",
-      "language": "hy",
-      "addressLines": [
-        "Wehner Inc",
-        "1903 Kurt Course"
-      ],
-      "addressNumber": "62",
-      "addressNumberWithinBuilding": "3",
-      "mailRouting": "61394 Abigale Vista, 93698",
-      "city": "Jackberg",
-      "region": "Borders",
-      "country": "Argentina",
-      "postalCode": "54365-1101"
-    },
-    "registrationAuthority": {
-      "type": "LEIauthority",
-      "validationAuthorityID": "RA000003",
-      "otherValidationAuthorityID": "B5PX7QO5",
-      "validationAuthorityEntityID": "Y63QO5F8VY69ONUZYDO0"
-    },
-    "legalJurisdiction": "Berkshire",
-    "entityCategory": "Grocery",
-    "legalForm": "LLC",
-    "associatedEntity": {
-      "type": "Organization",
-      "leiCode": "LIKCNL35NEBYE9UN0BLR",
-      "name": "Stroman, Stracke and Marks"
-    },
-    "status": "IN PROGRESS",
-    "expirationDate": "2022-07-11",
-    "expirationReason": "utilize leading-edge experiences",
-    "successorEntity": {
-      "type": "Organization",
-      "leiCode": "SOXOL7XNTEONK3CN5ZL1",
-      "name": "Wolff Group"
-    },
-    "otherAddresses": []
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "type": "LEIentity",
-    "legalName": "Powlowski - Hoeger",
-    "legalNameLanguage": "az",
-    "otherNames": [
-      "Hane LLC",
-      "Monahan - Hyatt"
-    ],
-    "transliteratedOtherNames": [
-      "Hane LLC",
-      "Monahan - Hyatt"
-    ],
-    "legalAddress": {
-      "type": "LEIaddress",
-      "language": "hr",
-      "addressLines": [
-        "Metz - Ferry",
-        "05616 Noble Port"
-      ],
-      "addressNumber": "223",
-      "addressNumberWithinBuilding": "3",
-      "mailRouting": "5358 Roselyn Villages, 90831",
-      "city": "East Grayce",
-      "region": "Berkshire",
-      "country": "Malta",
-      "postalCode": "52546-3758"
-    },
-    "headquartersAddress": {
-      "type": "LEIaddress",
-      "language": "pl",
-      "addressLines": [
-        "Rau, Wilkinson and Lebsack",
-        "86089 Tillman Forest"
-      ],
-      "addressNumber": "98",
+      "addressNumber": "163",
       "addressNumberWithinBuilding": "5",
-      "mailRouting": "0194 Bradtke Inlet, 46252",
-      "city": "Eloisaside",
+      "mailRouting": "744 McClure Hill, 09916-6721",
+      "city": "Haleighton",
+      "region": "Bedfordshire",
+      "country": "Malaysia",
+      "postalCode": "48703"
+    },
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000005",
+      "otherValidationAuthorityID": "ANZSHXD8",
+      "validationAuthorityEntityID": "4EZ50ZQXRJ8UOI3M93SR"
+    },
+    "legalJurisdiction": "Buckinghamshire",
+    "entityCategory": "Grocery",
+    "legalForm": "LLC",
+    "associatedEntity": {
+      "type": "Organization",
+      "leiCode": "8QVVH7J360BN8L7JM89E",
+      "name": "Lakin, Sauer and Cronin"
+    },
+    "status": "REJECTED",
+    "expirationDate": "2022-07-11",
+    "expirationReason": "streamline vertical infrastructures",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "A89CCD3CX8JIATEAGXLV",
+      "name": "Crooks - VonRueden"
+    },
+    "otherAddresses": []
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": "LEIentity",
+    "legalName": "Treutel - Runolfsdottir",
+    "legalNameLanguage": "en",
+    "otherNames": [
+      "Stoltenberg - Haley",
+      "Moen, Kuhlman and Conn"
+    ],
+    "transliteratedOtherNames": [
+      "Stoltenberg - Haley",
+      "Moen, Kuhlman and Conn"
+    ],
+    "legalAddress": {
+      "type": "LEIaddress",
+      "language": "en_AU_ocker",
+      "addressLines": [
+        "Kuvalis Group",
+        "1040 Feeney Mills"
+      ],
+      "addressNumber": "74",
+      "addressNumberWithinBuilding": "7",
+      "mailRouting": "057 Kemmer Vista, 39584-2186",
+      "city": "East Ahmedstad",
       "region": "Buckinghamshire",
-      "country": "Andorra",
-      "postalCode": "55530-6773"
+      "country": "Iceland",
+      "postalCode": "63130-5714"
+    },
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "en_BORK",
+      "addressLines": [
+        "Kuhic Group",
+        "94211 Sawayn Circles"
+      ],
+      "addressNumber": "310",
+      "addressNumberWithinBuilding": "7",
+      "mailRouting": "21166 Johanna Centers, 92826-2316",
+      "city": "Juliannehaven",
+      "region": "Avon",
+      "country": "Saint Lucia",
+      "postalCode": "71784"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
       "validationAuthorityID": "RA000004",
-      "otherValidationAuthorityID": "9ZET4I64",
-      "validationAuthorityEntityID": "OU6SI6PA3SK69XYFH3TT"
+      "otherValidationAuthorityID": "GN7CDIEH",
+      "validationAuthorityEntityID": "T6QDRY08E4HF0S9KRO46"
     },
-    "legalJurisdiction": "Berkshire",
-    "entityCategory": "Industrial",
+    "legalJurisdiction": "Buckinghamshire",
+    "entityCategory": "Jewelery",
     "legalForm": "CORPORATION",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "ERBXOFTWRVSBFVTD4AJN",
-      "name": "Nader - Bruen"
+      "leiCode": "S7AT2BE065P8CYZKNXTK",
+      "name": "Anderson Group"
+    },
+    "status": "REQUESTED",
+    "expirationDate": "2022-07-11",
+    "expirationReason": "benchmark holistic channels",
+    "successorEntity": {
+      "type": "Organization",
+      "leiCode": "S2Y1HD39JNGHU935H45V",
+      "name": "Frami LLC"
+    },
+    "otherAddresses": []
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": "LEIentity",
+    "legalName": "Langworth, Kihn and Parisian",
+    "legalNameLanguage": "sv",
+    "otherNames": [
+      "Klein LLC",
+      "Corwin, Braun and Rippin"
+    ],
+    "transliteratedOtherNames": [
+      "Klein LLC",
+      "Corwin, Braun and Rippin"
+    ],
+    "legalAddress": {
+      "type": "LEIaddress",
+      "language": "ar",
+      "addressLines": [
+        "Bogan LLC",
+        "10095 Hermann Rue"
+      ],
+      "addressNumber": "37",
+      "addressNumberWithinBuilding": "9",
+      "mailRouting": "2939 Maia Springs, 13140-5687",
+      "city": "East Henrytown",
+      "region": "Borders",
+      "country": "Portugal",
+      "postalCode": "05982"
+    },
+    "headquartersAddress": {
+      "type": "LEIaddress",
+      "language": "pt_BR",
+      "addressLines": [
+        "Farrell, Muller and Wolf",
+        "26270 Justice Port"
+      ],
+      "addressNumber": "103",
+      "addressNumberWithinBuilding": "1",
+      "mailRouting": "0893 Greenholt Squares, 91645",
+      "city": "Rogahnport",
+      "region": "Buckinghamshire",
+      "country": "Holy See (Vatican City State)",
+      "postalCode": "66110-3195"
+    },
+    "registrationAuthority": {
+      "type": "LEIauthority",
+      "validationAuthorityID": "RA000005",
+      "otherValidationAuthorityID": "83DDFJFD",
+      "validationAuthorityEntityID": "M5X98X4O7HV0NZAOTBVV"
+    },
+    "legalJurisdiction": "Avon",
+    "entityCategory": "Industrial",
+    "legalForm": "LLC",
+    "associatedEntity": {
+      "type": "Organization",
+      "leiCode": "29AUX19WSGTMHNDWGM8M",
+      "name": "Funk - Nicolas"
     },
     "status": "IN PROGRESS",
     "expirationDate": "2022-07-11",
-    "expirationReason": "implement seamless systems",
+    "expirationReason": "architect bleeding-edge blockchains",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "TIVL8S7NL6ECUWWRCK89",
-      "name": "Gutkowski, Goodwin and Reynolds"
+      "leiCode": "UQQKR6N16BJRZ9XJ1Q53",
+      "name": "Pfannerstill LLC"
     },
     "otherAddresses": []
   }

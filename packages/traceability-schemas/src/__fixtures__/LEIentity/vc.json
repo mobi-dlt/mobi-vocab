@@ -14,74 +14,74 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "LEIentity",
-    "legalName": "Block, Herzog and Hyatt",
-    "legalNameLanguage": "de",
+    "legalName": "Metz LLC",
+    "legalNameLanguage": "ko",
     "otherNames": [
-      "Lesch - Bogisich",
-      "Heller, Boehm and Bartoletti"
+      "Beer - Kunze",
+      "Yundt and Sons"
     ],
     "transliteratedOtherNames": [
-      "Lesch - Bogisich",
-      "Heller, Boehm and Bartoletti"
+      "Beer - Kunze",
+      "Yundt and Sons"
     ],
     "legalAddress": {
       "type": "LEIaddress",
-      "language": "en",
+      "language": "fa",
       "addressLines": [
-        "Mante, Douglas and Pollich",
-        "16196 Sonya Coves"
+        "Keebler - Kilback",
+        "318 Modesta Course"
       ],
-      "addressNumber": "411",
-      "addressNumberWithinBuilding": "3",
-      "mailRouting": "59606 Quitzon Mountains, 89768-7368",
-      "city": "North Magnus",
+      "addressNumber": "347",
+      "addressNumberWithinBuilding": "1",
+      "mailRouting": "5927 Bogan Cliff, 85143-3233",
+      "city": "Anselview",
       "region": "Buckinghamshire",
-      "country": "Paraguay",
-      "postalCode": "55587-4460"
+      "country": "Puerto Rico",
+      "postalCode": "80680-2652"
     },
     "headquartersAddress": {
       "type": "LEIaddress",
-      "language": "hy",
+      "language": "sv",
       "addressLines": [
-        "Reynolds and Sons",
-        "61486 Wolf Fields"
+        "O'Conner - Parisian",
+        "16093 Lynch Prairie"
       ],
-      "addressNumber": "31",
-      "addressNumberWithinBuilding": "6",
-      "mailRouting": "3718 Okuneva Square, 41507",
-      "city": "Danteborough",
-      "region": "Buckinghamshire",
-      "country": "Belarus",
-      "postalCode": "59460-1462"
+      "addressNumber": "163",
+      "addressNumberWithinBuilding": "5",
+      "mailRouting": "744 McClure Hill, 09916-6721",
+      "city": "Haleighton",
+      "region": "Bedfordshire",
+      "country": "Malaysia",
+      "postalCode": "48703"
     },
     "registrationAuthority": {
       "type": "LEIauthority",
-      "validationAuthorityID": "RA000003",
-      "otherValidationAuthorityID": "2F179UG6",
-      "validationAuthorityEntityID": "VYQEQUFMCQDRZI1JVIKL"
+      "validationAuthorityID": "RA000005",
+      "otherValidationAuthorityID": "ANZSHXD8",
+      "validationAuthorityEntityID": "4EZ50ZQXRJ8UOI3M93SR"
     },
-    "legalJurisdiction": "Bedfordshire",
+    "legalJurisdiction": "Buckinghamshire",
     "entityCategory": "Grocery",
     "legalForm": "LLC",
     "associatedEntity": {
       "type": "Organization",
-      "leiCode": "Q3583ZK50HHM7PCKR0XB",
-      "name": "Kuhlman - Moen"
+      "leiCode": "8QVVH7J360BN8L7JM89E",
+      "name": "Lakin, Sauer and Cronin"
     },
-    "status": "IN PROGRESS",
+    "status": "REJECTED",
     "expirationDate": "2022-07-11",
-    "expirationReason": "engage customized schemas",
+    "expirationReason": "streamline vertical infrastructures",
     "successorEntity": {
       "type": "Organization",
-      "leiCode": "FN9ZLAWC7DMGMUQ84RPE",
-      "name": "Mills, Daugherty and Nader"
+      "leiCode": "A89CCD3CX8JIATEAGXLV",
+      "name": "Crooks - VonRueden"
     },
     "otherAddresses": []
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..HPAgVNVvatVkqLkDfXhN31ymWT4WBHDMYZCxRNs7rAsnpdYImGTybDQpZvVPQVswr9XgB9XTBMuej5SK8OcQBQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..HPf8RBY7PEmnvx6tQc14zss38n3jK10fE3XkjJTWZrT4Vnz7sDtMWWWPXrU9eDypvFoTZC7XQdfcGfd_FQykDQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

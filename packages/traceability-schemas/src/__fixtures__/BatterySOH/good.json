@@ -11,77 +11,27 @@
         "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
         "manufacturer": {
           "type": "Person",
-          "firstName": "Caroline",
-          "lastName": "Thompson",
-          "email": "Lindsey63@example.net",
-          "phoneNumber": "555-360-7253",
+          "firstName": "Mauricio",
+          "lastName": "Kuphal",
+          "email": "Elise99@example.net",
+          "phoneNumber": "555-322-3266",
           "worksFor": {
             "type": "Organization",
-            "name": "Conn, Friesen and Mitchell",
-            "description": "Inverse interactive pricing structure",
+            "name": "Cummings, Hand and Erdman",
+            "description": "Open-architected leading edge orchestration",
             "address": {
               "type": "PostalAddress",
-              "streetAddress": "97877 Russel Park",
-              "addressLocality": "South Aliza",
-              "addressRegion": "Nebraska",
-              "postalCode": "41041-2086",
-              "addressCountry": "Kuwait"
+              "streetAddress": "91226 Schumm Lane",
+              "addressLocality": "Port Ellsworth",
+              "addressRegion": "Alabama",
+              "postalCode": "55442",
+              "addressCountry": "Papua New Guinea"
             },
-            "email": "Danyka59@example.org",
-            "phoneNumber": "555-382-6069",
-            "faxNumber": "555-557-7259"
+            "email": "Frank.Bergnaum96@example.com",
+            "phoneNumber": "555-207-3424",
+            "faxNumber": "555-403-3197"
           },
-          "jobTitle": "Direct Accountability Architect"
-        },
-        "make": "Ford",
-        "model": "Mach_E",
-        "vin": "JTERU5JR7M5861170"
-      },
-      "batteryid": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
-      "serialNumber": "2345H152031173270027"
-    },
-    "previousSOHVal": "95",
-    "previousSOHTimeStamp": "2020-5-17",
-    "newSOHVal": "94",
-    "newSOHTimeStamp": "2020-10-17",
-    "chargeCycles": "30",
-    "maxCapacity": "87",
-    "impedance": "70",
-    "batteryAge": "1.2"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "type": "BatterySOH",
-    "batteryid": {
-      "type": "BatteryID",
-      "vid": {
-        "type": "VID",
-        "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
-        "manufacturer": {
-          "type": "Person",
-          "firstName": "Jimmy",
-          "lastName": "Jenkins",
-          "email": "Alexanne_Gottlieb@example.org",
-          "phoneNumber": "555-648-9789",
-          "worksFor": {
-            "type": "Organization",
-            "name": "Franecki, Funk and Predovic",
-            "description": "Networked next generation encryption",
-            "address": {
-              "type": "PostalAddress",
-              "streetAddress": "15544 Blanca Fields",
-              "addressLocality": "West Deion",
-              "addressRegion": "West Virginia",
-              "postalCode": "32557",
-              "addressCountry": "India"
-            },
-            "email": "Eddie26@example.org",
-            "phoneNumber": "555-427-1584",
-            "faxNumber": "555-974-3285"
-          },
-          "jobTitle": "Investor Integration Developer"
+          "jobTitle": "Lead Functionality Orchestrator"
         },
         "make": "Ford",
         "model": "Mach_E",
@@ -124,6 +74,48 @@
           "email": "Tristin.Pollich@example.org",
           "phoneNumber": "555-709-2982",
           "faxNumber": "555-114-7400"
+        },
+        "make": "Ford",
+        "model": "Mach_E",
+        "vin": "JTERU5JR7M5861170"
+      },
+      "batteryid": "did:mobi:e436e12ec21ebfeb1f712ebc3g",
+      "serialNumber": "2345H152031173270027"
+    },
+    "previousSOHVal": "95",
+    "previousSOHTimeStamp": "2020-5-17",
+    "newSOHVal": "94",
+    "newSOHTimeStamp": "2020-10-17",
+    "chargeCycles": "30",
+    "maxCapacity": "87",
+    "impedance": "70",
+    "batteryAge": "1.2"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": "BatterySOH",
+    "batteryid": {
+      "type": "BatteryID",
+      "vid": {
+        "type": "VID",
+        "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
+        "manufacturer": {
+          "type": "Organization",
+          "name": "Torphy, Nitzsche and Stark",
+          "description": "Cloned user-facing capacity",
+          "address": {
+            "type": "PostalAddress",
+            "streetAddress": "1895 Devin Motorway",
+            "addressLocality": "Port Augustashire",
+            "addressRegion": "Vermont",
+            "postalCode": "98613-2377",
+            "addressCountry": "Suriname"
+          },
+          "email": "Stanford_Ortiz@example.net",
+          "phoneNumber": "555-907-8706",
+          "faxNumber": "555-898-4640"
         },
         "make": "Ford",
         "model": "Mach_E",

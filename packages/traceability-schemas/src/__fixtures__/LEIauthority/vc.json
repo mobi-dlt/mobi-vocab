@@ -14,14 +14,14 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "LEIauthority",
-    "validationAuthorityID": "RA000661",
-    "otherValidationAuthorityID": "8N49VYY5",
-    "validationAuthorityEntityID": "1FQXWFUMYER9FZBEBWQ8"
+    "validationAuthorityID": "RA000004",
+    "otherValidationAuthorityID": "QPPYI0T7",
+    "validationAuthorityEntityID": "F0WN2WY8NXD27XHC735H"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..4GiTGeRzmsY_4xshGm0xOoSwWy5X7v3PjmwGR_lnzXL4zmSgcWduGaZ-GEqU2AiFb78I6RirFZRgQDCwLEM0CQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..PWCxQ0-qUKIGnMDTwTDVn01JQF-V2YnlGBsdH5fTuyO0DOBYGBuzzNfI5jxRZ4NzdeMt11xAKY_UCKcTyZrGAg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

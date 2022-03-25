@@ -1,23 +1,33 @@
 [
   {
-    "holder": "Matt Shi",
-    "circuit": "synthesize",
-    "pixel": "quantify",
-    "driver": "navigate",
-    "bandwidth": "reboot"
+    "issuanceDate": "2020-05-17",
+    "bandwidth": "synthesize",
+    "feed": "navigate"
+  },
+  {
+    "matrix": "input",
+    "interface": "hack",
+    "array": "compress"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "CitopiaMembershipCredential",
-    "identifier": "did:mobinet:123456789abcdefghi",
-    "microchip": "synthesize"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "firewall": "navigate"
+    "holder": "Matt Shi",
+    "member": {
+      "@context": [
+        "https://dlt.mobi/mobility-schema"
+      ],
+      "type": "Member",
+      "firstName": "Oran",
+      "lastName": "McClure",
+      "email": "Sandra_Waters@example.com"
+    },
+    "expirationDate": "2021-5-29",
+    "monitor": "input",
+    "program": "bypass",
+    "interface": "reboot",
+    "firewall": "generate"
   }
 ]

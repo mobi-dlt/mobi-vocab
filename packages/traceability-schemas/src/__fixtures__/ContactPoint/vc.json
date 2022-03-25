@@ -14,22 +14,22 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "ContactPoint",
-    "name": "Baumbach - Dare",
+    "name": "Lueilwitz LLC",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "59934 London Tunnel",
-      "addressLocality": "Lake Federico",
-      "addressRegion": "Montana",
-      "postalCode": "56481-2742",
-      "addressCountry": "Mexico"
+      "streetAddress": "28030 Susana Branch",
+      "addressLocality": "Boscoborough",
+      "addressRegion": "Kansas",
+      "postalCode": "96945-4604",
+      "addressCountry": "Benin"
     },
-    "email": "Tristian.Kovacek91@example.net",
-    "phoneNumber": "555-121-7916"
+    "email": "Nia_West78@example.org",
+    "phoneNumber": "555-363-6421"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..F_wqAKWeWbM8vNclZINCCumunH7ClVtFKMhumP6XV9QY_sezByIEUKYZYZIycSeWSM_i2vftOL4tEP9tVjUgCw",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..6hQbdvowCtCHAhOyqYiTD1lPniUpBgO9DHTAeuptoFUOQa2vnUkBXIG-lTg3SPbVIohIUixSbp5PvI0444JZBw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

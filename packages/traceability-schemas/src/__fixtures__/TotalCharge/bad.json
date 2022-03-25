@@ -1,40 +1,26 @@
 [
   {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "totalPrepaid": 4416.75,
-    "totalCollect": 1472.25,
-    "sourceCurrency": "HUF",
-    "currencyConversionRate": 1,
-    "ccChargesDestinationCurrency": "HUF",
-    "totalCollectCharge": 80.25,
-    "bus": "reboot",
-    "monitor": "generate"
+    "totalCollect": 855.25,
+    "destinationCurrency": "BRL",
+    "currencyConversionRate": 3,
+    "ccChargesDestinationCurrency": "DZD",
+    "chargesDestination": 969,
+    "protocol": "calculate",
+    "circuit": "input"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "totalPrepaid": 4188,
-    "currencyConversionRate": 3,
-    "system": "compress",
-    "hard drive": "synthesize",
-    "firewall": "compress",
-    "alarm": "reboot"
+    "alarm": "compress",
+    "interface": "program",
+    "circuit": "navigate"
   },
   {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "totalPrepaid": 1693.5,
-    "totalCollect": 564.5,
-    "destinationCurrency": "MZN",
-    "currencyConversionRate": 3,
-    "ccChargesDestinationCurrency": "QAR",
-    "totalCollectCharge": 82.75,
-    "port": "override",
-    "alarm": "quantify",
-    "transmitter": "compress"
+    "type": "TotalCharge",
+    "totalPrepaid": 6819.75,
+    "sourceCurrency": "TZS",
+    "destinationCurrency": "RON",
+    "ccChargesDestinationCurrency": "TZS",
+    "chargesDestination": 302,
+    "totalCollectCharge": 75.5,
+    "microchip": "reboot"
   }
 ]

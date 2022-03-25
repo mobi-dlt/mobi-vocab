@@ -1,13 +1,32 @@
 [
   {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://dlt.mobi/mobility-schema"
+    ],
     "type": [
       "StripeCustomerCredential",
       "VerifiableCredential"
     ],
-    "issuanceDate": "2021-03-09",
-    "interface": "navigate",
-    "sensor": "connect",
-    "driver": "bypass"
+    "customerID": "customer123",
+    "microchip": "synthesize",
+    "driver": "input"
+  },
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": [
+      "StripeCustomerCredential",
+      "VerifiableCredential"
+    ],
+    "holder": "did:mobi:f436e12ec21ebfdb1f712ebc3h",
+    "customerID": "customer123",
+    "expirationDate": "2022-07-11",
+    "panel": "calculate",
+    "application": "override",
+    "program": "quantify"
   },
   {
     "type": [
@@ -15,11 +34,9 @@
       "VerifiableCredential"
     ],
     "customerID": "customer123",
-    "program": "transmit",
-    "alarm": "program"
-  },
-  {
-    "interface": "synthesize",
-    "monitor": "compress"
+    "issuanceDate": "2021-03-09",
+    "monitor": "generate",
+    "feed": "navigate",
+    "pixel": "index"
   }
 ]

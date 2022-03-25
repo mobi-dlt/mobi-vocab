@@ -19,8 +19,8 @@
     "registrationAuthority": {
       "type": "LEIauthority",
       "validationAuthorityID": "RA000001",
-      "otherValidationAuthorityID": "T8YWZLRC",
-      "validationAuthorityEntityID": "DP3HRDKPF8WB4FH90EGK"
+      "otherValidationAuthorityID": "XPKJKHAU",
+      "validationAuthorityEntityID": "R76YBPF7IQ8J4PLRA3KI"
     },
     "issuanceDate": "2021-03-09",
     "expirationDate": "2022-07-11"
@@ -28,7 +28,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..mZaJdc7wKJPQz2cZoC_Zu2-oRTh1qXiIVmPSpHufVoNqTILoWlheEslDaJV41PLglVMnYLzpRVWontupsdZHDA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Iaf6yQfy-FFUpyshWjU0-oUuzTOygeAGzrAuF0QCZk_MEvmy-DopfeM3maGy0Cw1q9_HYoNI2-iPMpZdN1F7DQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -21,27 +21,27 @@
         "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
         "manufacturer": {
           "type": "Person",
-          "firstName": "Caroline",
-          "lastName": "Thompson",
-          "email": "Lindsey63@example.net",
-          "phoneNumber": "555-360-7253",
+          "firstName": "Mauricio",
+          "lastName": "Kuphal",
+          "email": "Elise99@example.net",
+          "phoneNumber": "555-322-3266",
           "worksFor": {
             "type": "Organization",
-            "name": "Conn, Friesen and Mitchell",
-            "description": "Inverse interactive pricing structure",
+            "name": "Cummings, Hand and Erdman",
+            "description": "Open-architected leading edge orchestration",
             "address": {
               "type": "PostalAddress",
-              "streetAddress": "97877 Russel Park",
-              "addressLocality": "South Aliza",
-              "addressRegion": "Nebraska",
-              "postalCode": "41041-2086",
-              "addressCountry": "Kuwait"
+              "streetAddress": "91226 Schumm Lane",
+              "addressLocality": "Port Ellsworth",
+              "addressRegion": "Alabama",
+              "postalCode": "55442",
+              "addressCountry": "Papua New Guinea"
             },
-            "email": "Danyka59@example.org",
-            "phoneNumber": "555-382-6069",
-            "faxNumber": "555-557-7259"
+            "email": "Frank.Bergnaum96@example.com",
+            "phoneNumber": "555-207-3424",
+            "faxNumber": "555-403-3197"
           },
-          "jobTitle": "Direct Accountability Architect"
+          "jobTitle": "Lead Functionality Orchestrator"
         },
         "make": "Ford",
         "model": "Mach_E",
@@ -62,7 +62,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..fKePAQP-5ZhAED0ouLYsKyuK2_hYt-kRdoXQCJspLv-M5Fie83hhrKC-SaPQqGk49Nvd26pLlxUrKU11gc4EAQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..4QnyWgSoKWRuzST9IQpZUeJHYT-ZLDnTQPn7YGJzJDarvhVFRnE2GWcY1xApUkFhh640otcd-H_rciWx777wCQ",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

@@ -1,27 +1,25 @@
 [
   {
-    "panel": "reboot",
-    "pixel": "program",
-    "application": "copy"
-  },
-  {
-    "organizationName": "Gorczany - Corkery",
-    "streetAddress": "856 Cruickshank Underpass",
-    "postalCode": "99327",
-    "panel": "reboot",
-    "driver": "connect",
-    "alarm": "compress"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
     "type": "PostalAddress",
-    "organizationName": "Bayer - Collier",
-    "streetAddress": "9357 Kutch Forest",
-    "addressRegion": "Arkansas",
-    "postalCode": "29874-5514",
-    "addressCountry": "Kenya",
-    "bus": "connect"
+    "organizationName": "Metz Inc",
+    "postalCode": "80275-6736",
+    "addressCountry": "Australia",
+    "port": "generate",
+    "system": "reboot",
+    "capacitor": "override",
+    "interface": "input"
+  },
+  {
+    "organizationName": "Morissette, Dickens and Ritchie",
+    "postalCode": "70984-8284",
+    "alarm": "synthesize",
+    "program": "synthesize",
+    "monitor": "override"
+  },
+  {
+    "organizationName": "O'Keefe Inc",
+    "addressCountry": "Isle of Man",
+    "capacitor": "copy",
+    "bus": "program"
   }
 ]

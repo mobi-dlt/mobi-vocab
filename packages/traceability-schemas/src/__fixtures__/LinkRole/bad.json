@@ -1,26 +1,23 @@
 [
   {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "type": "LinkRole",
-    "transmitter": "calculate",
-    "card": "index"
-  },
-  {
-    "monitor": "generate",
-    "card": "parse",
-    "matrix": "index",
-    "sensor": "parse"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "type": "LinkRole",
+    "target": "https://example.com/related/link/123",
     "linkRelationship": "alternate",
-    "alarm": "copy",
-    "panel": "parse",
-    "circuit": "parse"
+    "circuit": "program"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "target": "https://example.com/related/link/123",
+    "linkRelationship": "alternate",
+    "array": "copy",
+    "sensor": "program",
+    "system": "quantify",
+    "matrix": "transmit"
+  },
+  {
+    "target": "https://example.com/related/link/123",
+    "matrix": "hack",
+    "interface": "parse"
   }
 ]

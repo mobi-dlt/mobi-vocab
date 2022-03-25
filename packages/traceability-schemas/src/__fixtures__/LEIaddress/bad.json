@@ -1,42 +1,33 @@
 [
   {
-    "addressNumber": "259",
-    "program": "input",
-    "circuit": "hack"
+    "addressLines": [
+      "Pfannerstill, Abshire and Auer",
+      "542 Jeffery Motorway"
+    ],
+    "mailRouting": "6511 Hackett Burg, 79276",
+    "city": "Port Citlalliton",
+    "transmitter": "program",
+    "bus": "quantify",
+    "application": "back up"
+  },
+  {
+    "bandwidth": "copy",
+    "hard drive": "calculate"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
-    "type": "LEIaddress",
-    "language": "az",
     "addressLines": [
-      "Lynch, Sipes and Roob",
-      "06395 Gerlach Point"
+      "Hane LLC",
+      "335 David Lock"
     ],
-    "addressNumber": "4",
-    "addressNumberWithinBuilding": "2",
-    "mailRouting": "6058 Breitenberg Spur, 70549",
-    "city": "Heaneybury",
-    "region": "Bedfordshire",
-    "country": "Liechtenstein",
-    "panel": "synthesize",
-    "application": "bypass"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
-    "language": "nl",
-    "addressLines": [
-      "Krajcik - Hegmann",
-      "899 Isabel Ranch"
-    ],
-    "addressNumber": "38",
-    "mailRouting": "615 Bailey Shores, 08334",
-    "postalCode": "04124-9941",
-    "card": "override",
-    "bus": "bypass",
-    "application": "synthesize"
+    "addressNumberWithinBuilding": "6",
+    "region": "Borders",
+    "country": "Guinea-Bissau",
+    "postalCode": "95849-0831",
+    "sensor": "quantify",
+    "interface": "input",
+    "hard drive": "transmit"
   }
 ]

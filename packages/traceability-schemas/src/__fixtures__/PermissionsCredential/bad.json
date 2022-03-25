@@ -3,19 +3,13 @@
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
-    "permission": {
-      "type": "Permissions",
-      "userLocation": "true",
-      "vehicleLocation": "true",
-      "vid": "true",
-      "batteryid": "true",
-      "dataSharingForRewards": "true"
-    },
-    "holder": "did:mobinet:123456789abcdefghi",
     "expirationDate": "2022-07-11",
-    "microchip": "override",
-    "protocol": "generate",
-    "array": "synthesize"
+    "pixel": "back up",
+    "protocol": "override",
+    "matrix": "back up"
+  },
+  {
+    "panel": "program"
   },
   {
     "type": "PermissionsCredential",
@@ -29,27 +23,6 @@
     },
     "holder": "did:mobinet:123456789abcdefghi",
     "issuanceDate": "2021-03-09",
-    "expirationDate": "2022-07-11",
-    "driver": "index",
-    "alarm": "program",
-    "card": "reboot",
-    "program": "bypass"
-  },
-  {
-    "type": "PermissionsCredential",
-    "permission": {
-      "type": "Permissions",
-      "userLocation": "true",
-      "vehicleLocation": "true",
-      "vid": "true",
-      "batteryid": "true",
-      "dataSharingForRewards": "true"
-    },
-    "holder": "did:mobinet:123456789abcdefghi",
-    "issuanceDate": "2021-03-09",
-    "expirationDate": "2022-07-11",
-    "interface": "synthesize",
-    "card": "override",
-    "program": "program"
+    "monitor": "override"
   }
 ]

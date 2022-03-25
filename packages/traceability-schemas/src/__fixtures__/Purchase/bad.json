@@ -3,21 +3,39 @@
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
-    "alarm": "synthesize"
-  },
-  {
-    "@context": [
-      "https://dlt.mobi/mobility-schema"
-    ],
     "type": [
       "Purchase"
     ],
-    "capacitor": "calculate"
+    "pixel": "quantify",
+    "matrix": "calculate",
+    "sensor": "reboot"
   },
   {
-    "firewall": "navigate",
-    "microchip": "generate",
-    "bus": "transmit",
-    "feed": "program"
+    "type": [
+      "Purchase"
+    ],
+    "customer": {
+      "type": "Organization",
+      "name": "Kessler Inc",
+      "description": "Open-source zero administration website",
+      "address": {
+        "type": "PostalAddress",
+        "streetAddress": "0493 Royal Stravenue",
+        "addressLocality": "Wehnerburgh",
+        "addressRegion": "California",
+        "postalCode": "37042-1244",
+        "addressCountry": "Austria"
+      },
+      "email": "Cassidy43@example.net",
+      "phoneNumber": "555-341-9481",
+      "faxNumber": "555-190-1673"
+    },
+    "transmitter": "override"
+  },
+  {
+    "card": "index",
+    "transmitter": "synthesize",
+    "protocol": "copy",
+    "system": "navigate"
   }
 ]

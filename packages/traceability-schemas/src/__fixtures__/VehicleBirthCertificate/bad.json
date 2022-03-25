@@ -1,26 +1,39 @@
 [
   {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": "VehicleBirthCertificate",
+    "certURI": "dOQKyOs1nUfj5svRato3bCM1XUOpGpxeBnLZDHiLUswgkHh55lyIuZmpTBGG4ixr",
+    "colorOemCode": "Bl",
+    "countryOfOrigin": "United States of America",
+    "productionDate": "01/01/2021",
+    "engineCode": "None",
+    "engineSerialNumber": "DJ51279",
     "fuelType": "unleaded gasoline",
-    "interface": "program",
-    "panel": "quantify",
-    "hard drive": "program",
-    "port": "calculate"
-  },
-  {
+    "issuer": "did:mobi:c276e14rc81ebfeb1f782ebd6e",
     "manufacturer": "Ford",
-    "feed": "calculate",
-    "pixel": "override",
-    "firewall": "program",
-    "matrix": "program"
+    "model": "Taurus",
+    "plantCode": "H",
+    "previousVBC": "0LmbSknoaLjkVnPkFQt5N3LxJydTOKS9o4ITgEjo9IqYnMh7gPPLZJ5U0zEXlJ5j",
+    "sigAlg": "ECDSA",
+    "transmissionSerialNumber": "6F00001",
+    "trimType": "SE",
+    "vin": "JTERU5JR7M5861170",
+    "matrix": "override",
+    "feed": "synthesize"
   },
   {
     "certURI": "dOQKyOs1nUfj5svRato3bCM1XUOpGpxeBnLZDHiLUswgkHh55lyIuZmpTBGG4ixr",
-    "engineSerialNumber": "DJ51279",
-    "issuer": "did:mobi:c276e14rc81ebfeb1f782ebd6e",
+    "productionDate": "01/01/2021",
+    "fuelType": "unleaded gasoline",
+    "sigAlg": "ECDSA",
+    "matrix": "synthesize",
+    "alarm": "index"
+  },
+  {
     "manufacturer": "Ford",
-    "modelYear": "2015",
-    "plantCode": "H",
-    "pixel": "connect",
-    "capacitor": "program"
+    "array": "bypass",
+    "firewall": "hack"
   }
 ]

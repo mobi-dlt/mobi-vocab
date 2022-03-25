@@ -14,23 +14,23 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "LEIaddress",
-    "language": "de",
+    "language": "fr_CH",
     "addressLines": [
-      "Stark, Berge and Kunze",
-      "853 Karina Prairie"
+      "Pfannerstill, Abshire and Auer",
+      "542 Jeffery Motorway"
     ],
-    "addressNumber": "259",
-    "addressNumberWithinBuilding": "6",
-    "mailRouting": "8278 Sanford Mount, 28181-7382",
-    "city": "Todfurt",
-    "region": "Berkshire",
-    "country": "Thailand",
-    "postalCode": "66711"
+    "addressNumber": "320",
+    "addressNumberWithinBuilding": "10",
+    "mailRouting": "6511 Hackett Burg, 79276",
+    "city": "Port Citlalliton",
+    "region": "Bedfordshire",
+    "country": "Uruguay",
+    "postalCode": "61428-9126"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Rzqwxsowaq6NF-M-oqWnf-NWJCEpsdp-PPTJy55gJQNmpYZyi1q-juj82JM7LprQg-J3OKSVyutWP0Rj1CG2AQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..JlY1XP6MXNAMeNs7JX-LJ4MAB4ZJb1SmsniCCX029eeUTBLclE1Tb-GwV_JRkBEBUu_a2t-Hjv403LIry0eBCw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

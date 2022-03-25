@@ -14,24 +14,24 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "type": "Organization",
-    "name": "Padberg, Breitenberg and Hane",
-    "description": "Fully-configurable needs-based ability",
+    "name": "Mayert - Reinger",
+    "description": "Synergistic tertiary utilisation",
     "address": {
       "type": "PostalAddress",
-      "streetAddress": "374 Lesly Extension",
-      "addressLocality": "Howellstad",
-      "addressRegion": "New Hampshire",
-      "postalCode": "78848",
-      "addressCountry": "Virgin Islands, U.S."
+      "streetAddress": "99194 Augustus Mission",
+      "addressLocality": "Lake Salma",
+      "addressRegion": "Missouri",
+      "postalCode": "33425-2574",
+      "addressCountry": "Honduras"
     },
-    "email": "Marion85@example.org",
-    "phoneNumber": "555-328-6707",
-    "faxNumber": "555-128-2136"
+    "email": "Gwendolyn_Kihn76@example.com",
+    "phoneNumber": "555-645-5601",
+    "faxNumber": "555-926-5430"
   },
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Vr8I6ynhCt4SsuzID7Fe-CycMPvjlLw601_55iBuVQj_dPi9_qtbZfu-D5iEGKB0jak_ueebVf23Tu9POc34BA",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..YeJCj9uxzKI9vX62WGwOEIOxOrryfks_X-j6mT-fUTlvn7LQx5dLNfxMIvNB8F9ZePoYG0dDppHTz4Qq5OcUCg",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

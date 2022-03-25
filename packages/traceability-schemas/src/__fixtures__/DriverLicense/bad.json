@@ -1,19 +1,23 @@
 [
   {
+    "panel": "generate",
+    "protocol": "generate"
+  },
+  {
+    "licenseNumber": "Y5327288",
+    "circuit": "navigate",
+    "card": "program",
+    "pixel": "index"
+  },
+  {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
     "legalName": "Matt Shi",
-    "feed": "quantify",
-    "program": "parse",
-    "interface": "navigate"
-  },
-  {
-    "type": "DriverLicense",
-    "issuanceDate": "2021-03-09",
+    "licenseNumber": "Y5327288",
     "expirationDate": "2022-07-11",
-    "microchip": "calculate"
-  },
-  {
-    "bus": "bypass",
-    "sensor": "back up",
-    "interface": "hack"
+    "panel": "back up",
+    "microchip": "quantify",
+    "monitor": "input"
   }
 ]

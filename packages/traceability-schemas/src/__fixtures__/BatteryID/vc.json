@@ -18,28 +18,20 @@
       "type": "VID",
       "vid": "did:mobi:c276e12ec21ebfeb1f712ebc6f",
       "manufacturer": {
-        "type": "Person",
-        "firstName": "Greg",
-        "lastName": "Conn",
-        "email": "Elaina.Wiza@example.org",
-        "phoneNumber": "555-572-6506",
-        "worksFor": {
-          "type": "Organization",
-          "name": "Zemlak Inc",
-          "description": "Polarised disintermediate methodology",
-          "address": {
-            "type": "PostalAddress",
-            "streetAddress": "551 Bradtke Lock",
-            "addressLocality": "South Sammieborough",
-            "addressRegion": "New Mexico",
-            "postalCode": "76009",
-            "addressCountry": "Qatar"
-          },
-          "email": "Adaline29@example.com",
-          "phoneNumber": "555-849-9446",
-          "faxNumber": "555-291-1007"
+        "type": "Organization",
+        "name": "Mante - Denesik",
+        "description": "Assimilated well-modulated software",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "00262 Bonita Loaf",
+          "addressLocality": "Jermeyfort",
+          "addressRegion": "Alaska",
+          "postalCode": "93216",
+          "addressCountry": "Saint Lucia"
         },
-        "jobTitle": "Central Security Consultant"
+        "email": "Isom_Weimann@example.net",
+        "phoneNumber": "555-380-4826",
+        "faxNumber": "555-568-2871"
       },
       "make": "Ford",
       "model": "Mach_E",
@@ -51,7 +43,7 @@
   "proof": {
     "type": "Ed25519Signature2018",
     "created": "2019-12-11T03:50:55Z",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..6r7xPJlCaXuMK5y9qCjb_53ogF56hyPpL4hy781GZw5_yMYSqZbwUZ8aTvnGTgw46j5ro97zBAnVtheP16xmBQ",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..rejhICkik6rF0OnOM6wd-jbS46Ea4M2evvlOKCpSiOUiCSYpSlWg9isMbNWYQzsgsneTklwdHe7I5r6OOz8ECw",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U#z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U"
   }

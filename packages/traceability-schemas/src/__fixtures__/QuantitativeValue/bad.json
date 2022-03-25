@@ -1,16 +1,28 @@
 [
   {
-    "pixel": "copy"
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "matrix": "input",
+    "alarm": "program",
+    "microchip": "copy"
   },
   {
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "type": "QuantitativeValue",
     "unitCode": "hg/ha",
-    "interface": "compress",
-    "sensor": "hack",
-    "system": "hack"
+    "matrix": "input",
+    "circuit": "reboot",
+    "array": "back up"
   },
   {
-    "card": "hack",
-    "firewall": "bypass",
-    "array": "back up"
+    "@context": [
+      "https://dlt.mobi/mobility-schema"
+    ],
+    "unitCode": "hg/ha",
+    "sensor": "synthesize",
+    "bus": "calculate"
   }
 ]

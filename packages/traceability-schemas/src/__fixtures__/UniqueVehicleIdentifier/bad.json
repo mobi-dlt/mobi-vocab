@@ -4,21 +4,23 @@
       "https://dlt.mobi/mobility-schema"
     ],
     "uvi": "testing...",
-    "transmitter": "transmit",
-    "application": "parse",
-    "microchip": "transmit"
+    "capacitor": "bypass",
+    "transmitter": "program",
+    "hard drive": "generate"
   },
   {
     "@context": [
       "https://dlt.mobi/mobility-schema"
     ],
-    "type": "UniqueVehicleIdentifier",
-    "monitor": "navigate",
-    "panel": "index",
-    "program": "back up"
+    "interface": "quantify",
+    "card": "reboot"
   },
   {
+    "type": "UniqueVehicleIdentifier",
     "uvi": "testing...",
-    "interface": "program"
+    "port": "transmit",
+    "application": "bypass",
+    "bandwidth": "quantify",
+    "protocol": "connect"
   }
 ]
