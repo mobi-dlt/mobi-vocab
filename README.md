@@ -40,10 +40,10 @@ need [`Node.js`](https://nodejs.org/en/) and [`git`](https://git-scm.com/).
 
 After you have the dependencies, the first-time setup is as follows:
 
-1. checkout this repository —
+1. clone this repository —
 
    ```
-   $ git checkout https://github.com/mobi-dlt/mobi-vocab.git
+   $ git clone https://github.com/mobi-dlts/mobi-vocab.git
    ```
 
 2. Once the repository is checked out, run `npm install` in the created
