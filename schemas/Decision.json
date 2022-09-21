@@ -1,0 +1,85 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/Decision.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"Decision\", \"@id\": \"https://dlt.mobi/mobility-schema#Decision\"}",
+    "title": "Decision",
+    "description": "Attributes relating to final decision",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "decision": {
+            "$comment": "{\"term\": \"decision\", \"@id\": \"https://schema.org/text\"}",
+            "title": "decision",
+            "description": "The adjusted credit score",
+            "type": "string"
+        },
+        "decisionEngineOrProcess": {
+            "$comment": "{\"term\": \"decisionEngineOrProcess\", \"@id\": \"https://schema.org/description\"}",
+            "title": "decisionEngineOrProcess",
+            "description": "the engine or process underlying the decision",
+            "type": "string"
+        },
+        "decisionSequence": {
+            "$comment": "{\"term\": \"decisionSequence\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "decisionSequence",
+            "description": "decision sequence",
+            "type": "string"
+        },
+        "decisionAutomatedOrManual": {
+            "$comment": "{\"term\": \"decisionAutomatedOrManual\", \"@id\": \"https://schema.org/about\"}",
+            "title": "decisionAutomatedOrManual",
+            "description": "designating whether the decision was made automatically or manually",
+            "type": "string"
+        },
+        "decisionTimestamp": {
+            "$comment": "{\"term\": \"decisionTimestamp\", \"@id\": \"https://schema.org/dateCreated\"}",
+            "title": "decisionTimestamp",
+            "description": "Timestamp of when the decision was made",
+            "type": "string"
+        },
+        "decisionAnalystID": {
+            "$comment": "{\"term\": \"decisionAnalystID\", \"@id\": \"https://schema.org/employee\"}",
+            "title": "decisionAnalystID",
+            "description": "the ID of the analyst behind the decision",
+            "type": "string"
+        },
+        "decisionAnalystName": {
+            "$comment": "{\"term\": \"decisionAnalystName\", \"@id\": \"https://schema.org/name\"}",
+            "title": "decisionAnalystName",
+            "description": "the full name of the analyst behind the decision",
+            "type": "string"
+        },
+        "decisionComments": {
+            "$comment": "{\"term\": \"decisionComments\", \"@id\": \"https://schema.org/additionalProperty\"}",
+            "title": "decisionComments",
+            "description": "all comments on the decision",
+            "type": "string"
+        },
+        "conditionalAcceptanceCriteria": {
+            "$comment": "{\"term\": \"conditionalAcceptanceCriteria\", \"@id\": \"https://schema.org/additionalType\"}",
+            "title": "conditionalAcceptanceCriteria",
+            "description": "the conditional acceptance criteria",
+            "type": "string"
+        },
+        "conditionedOrRejectedReason": {
+            "$comment": "{\"term\": \"conditionedOrRejectedReason\", \"@id\": \"https://schema.org/disambiguatingDescription\"}",
+            "title": "conditionedOrRejectedReason",
+            "description": "the conditioned/rejected reason",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}

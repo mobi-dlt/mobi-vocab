@@ -36,6 +36,59 @@
         }
       }
     },
+    "ApplicantInfoFromBureau": {
+      "@id": "https://dlt.mobi/mobility-schema#ApplicantInfoFromBureau",
+      "@context": {
+        "familyName": {
+          "@id": "https://schema.org/familyName"
+        },
+        "givenName": {
+          "@id": "https://schema.org/givenName"
+        },
+        "middleInitial": {
+          "@id": "https://schema.org/additionalName"
+        },
+        "nameIdentificationNumber": {
+          "@id": "https://schema.org/identifier"
+        },
+        "addressLineOne": {
+          "@id": "https://schema.org/streetAddress"
+        },
+        "addressLineTwo": {
+          "@id": "https://schema.org/address"
+        },
+        "city": {
+          "@id": "https://schema.org/addressLocality"
+        },
+        "stateOrRegion": {
+          "@id": "https://schema.org/addressRegion"
+        },
+        "postalCode": {
+          "@id": "https://schema.org/postalCode"
+        },
+        "countryCode": {
+          "@id": "https://schema.org/addressCountry"
+        },
+        "residenceType": {
+          "@id": "https://schema.org/text"
+        },
+        "citizenId": {
+          "@id": "https://schema.org/taxID"
+        },
+        "birthDate": {
+          "@id": "https://schema.org/birthDate"
+        },
+        "birthCity": {
+          "@id": "https://schema.org/City"
+        },
+        "birthCountry": {
+          "@id": "https://schema.org/Country"
+        },
+        "spouseName": {
+          "@id": "https://schema.org/spouse"
+        }
+      }
+    },
     "AssetRegistry": {
       "@id": "https://dlt.mobi/mobility-schema/schemas#AssetRegistry",
       "@context": {
@@ -139,6 +192,26 @@
         },
         "url": {
           "@id": "https://schema.org/url"
+        }
+      }
+    },
+    "CalculatedInformation": {
+      "@id": "https://dlt.mobi/mobility-schema#CalculatedInformation",
+      "@context": {
+        "adjustedCreditScore": {
+          "@id": "https://schema.org/ratingValue"
+        },
+        "debtToIncomeRatio": {
+          "@id": "https://schema.org/value"
+        },
+        "paymentToIncomeRatio": {
+          "@id": "https://schema.org/text"
+        },
+        "loanToValueRatio": {
+          "@id": "https://schema.org/description"
+        },
+        "tierNumber": {
+          "@id": "https://schema.org/additionalType"
         }
       }
     },
@@ -326,6 +399,41 @@
         }
       }
     },
+    "CreditBureauInfoAndScore": {
+      "@id": "https://dlt.mobi/mobility-schema#CreditBureauInfoAndScore",
+      "@context": {
+        "creditBureau": {
+          "@id": "https://schema.org/name"
+        },
+        "creditPullSequenceNumber": {
+          "@id": "https://schema.org/text"
+        },
+        "equifaxIdentifier": {
+          "@id": "https://schema.org/identifier"
+        },
+        "experianIdentifier": {
+          "@id": "https://schema.org/description"
+        },
+        "transUnionIdentifier": {
+          "@id": "https://schema.org/faxNumber"
+        },
+        "obligorCreditScore": {
+          "@id": "https://schema.org/ratingValue"
+        },
+        "creditScoreModelType": {
+          "@id": "https://schema.org/textValue"
+        },
+        "creditPullDate": {
+          "@id": "https://schema.org/startDate"
+        },
+        "previousCreditInquiryName": {
+          "@id": "https://schema.org/alternateName"
+        },
+        "previousCreditInquiryDate": {
+          "@id": "https://schema.org/DateTime"
+        }
+      }
+    },
     "Customer": {
       "@id": "https://dlt.mobi/mobility-schema#Customer",
       "@context": {
@@ -386,6 +494,41 @@
         },
         "SignAlgo": {
           "@id": "https://schema.org/algorithm"
+        }
+      }
+    },
+    "Decision": {
+      "@id": "https://dlt.mobi/mobility-schema#Decision",
+      "@context": {
+        "decision": {
+          "@id": "https://schema.org/text"
+        },
+        "decisionEngineOrProcess": {
+          "@id": "https://schema.org/description"
+        },
+        "decisionSequence": {
+          "@id": "https://schema.org/identifier"
+        },
+        "decisionAutomatedOrManual": {
+          "@id": "https://schema.org/about"
+        },
+        "decisionTimestamp": {
+          "@id": "https://schema.org/dateCreated"
+        },
+        "decisionAnalystID": {
+          "@id": "https://schema.org/employee"
+        },
+        "decisionAnalystName": {
+          "@id": "https://schema.org/name"
+        },
+        "decisionComments": {
+          "@id": "https://schema.org/additionalProperty"
+        },
+        "conditionalAcceptanceCriteria": {
+          "@id": "https://schema.org/additionalType"
+        },
+        "conditionedOrRejectedReason": {
+          "@id": "https://schema.org/disambiguatingDescription"
         }
       }
     },
@@ -941,6 +1084,14 @@
         }
       }
     },
+    "PaymentMethod": {
+      "@id": "https://dlt.mobi/mobility-schema#PaymentMethod",
+      "@context": {
+        "paymentMethod": {
+          "@id": "https://schema.org/paymentMethod"
+        }
+      }
+    },
     "Permissions": {
       "@id": "https://dlt.mobi/mobility-schema#Permissions",
       "@context": {
@@ -1190,6 +1341,23 @@
         }
       }
     },
+    "PublicRecords": {
+      "@id": "https://dlt.mobi/mobility-schema#PublicRecords",
+      "@context": {
+        "bankruptcyIndicator": {
+          "@id": "https://schema.org/familyName"
+        },
+        "bankruptcyDate": {
+          "@id": "https://schema.org/Date"
+        },
+        "bankruptcyType": {
+          "@id": "https://schema.org/description"
+        },
+        "additionalNotices": {
+          "@id": "https://schema.org/text"
+        }
+      }
+    },
     "Purchase": {
       "@id": "https://dlt.mobi/mobility-schema#Purchase",
       "@context": {
@@ -1332,6 +1500,115 @@
         },
         "totalCollectCharge": {
           "@id": "https://schema.org/estimatedCost"
+        }
+      }
+    },
+    "TradelineAccountHistory": {
+      "@id": "https://dlt.mobi/mobility-schema#TradelineAccountHistory",
+      "@context": {
+        "tradelineSequenceNumber": {
+          "@id": "https://schema.org/identifier"
+        },
+        "accountHistoryYearAndMonth": {
+          "@id": "https://schema.org/dateModified"
+        },
+        "delinquencyStatus": {
+          "@id": "https://schema.org/text"
+        }
+      }
+    },
+    "Tradelines": {
+      "@id": "https://dlt.mobi/mobility-schema#Tradelines",
+      "@context": {
+        "tradelineSequenceNumber": {
+          "@id": "https://schema.org/identifier"
+        },
+        "lenderName": {
+          "@id": "https://schema.org/name"
+        },
+        "lenderAddress": {
+          "@id": "https://schema.org/streetAddress"
+        },
+        "lenderCity": {
+          "@id": "https://schema.org/addressLocality"
+        },
+        "lenderState": {
+          "@id": "https://schema.org/addressRegion"
+        },
+        "lenderCountry": {
+          "@id": "https://schema.org/addressCountry"
+        },
+        "lenderPostalCode": {
+          "@id": "https://schema.org/postalCode"
+        },
+        "lenderPhoneNumber": {
+          "@id": "https://schema.org/telephone"
+        },
+        "partialAccountNumber": {
+          "@id": "https://schema.org/text"
+        },
+        "accountTypeDigitizedCode": {
+          "@id": "https://schema.org/additionalType"
+        },
+        "accountType": {
+          "@id": "https://schema.org/bankAccountType"
+        },
+        "accountOpenDate": {
+          "@id": "https://schema.org/startDate"
+        },
+        "lastActivityDate": {
+          "@id": "https://schema.org/dateModified"
+        },
+        "currentBalance": {
+          "@id": "https://schema.org/amount"
+        },
+        "creditLimitorLoanAmount": {
+          "@id": "https://schema.org/value"
+        },
+        "billingDate": {
+          "@id": "https://schema.org/paymentDueDate"
+        },
+        "lastPaymentAmount": {
+          "@id": "https://schema.org/loanPaymentAmount"
+        },
+        "systemCurrency": {
+          "@id": "https://schema.org/currency"
+        },
+        "termDuration": {
+          "@id": "https://schema.org/loanTerm"
+        },
+        "termFrequencyDigitizedCode": {
+          "@id": "https://schema.org/additionalProperty"
+        },
+        "termFrequency": {
+          "@id": "https://schema.org/termsOfService"
+        },
+        "monthlyPayment": {
+          "@id": "https://schema.org/description"
+        },
+        "currentAccountStatusDigitzedCode": {
+          "@id": "https://schema.org/category"
+        },
+        "currentAccountStatus": {
+          "@id": "https://schema.org/about"
+        },
+        "lastStatusUpdateDate": {
+          "@id": "https://schema.org/sdDatePublished"
+        },
+        "firstReportDate": {
+          "@id": "https://schema.org/dateCreated"
+        },
+        "firstDeliquencyDate": {
+          "@id": "https://schema.org/dateIssued"
+        },
+        "responsibility": {
+          "@id": "https://schema.org/abstract"
+        },
+        "pastDueAmount": {
+          "@id": "https://schema.org/monthlyMinimumRepaymentAmount"
+        },
+        "originalChargeOffAmount": {
+          "@id": "https://schema.org/amountOfThisGood"
         }
       }
     },

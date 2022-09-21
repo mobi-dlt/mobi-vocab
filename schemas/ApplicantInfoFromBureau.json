@@ -1,0 +1,119 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/ApplicantInfoFromBureau.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"ApplicantInfoFromBureau\", \"@id\": \"https://dlt.mobi/mobility-schema#ApplicantInfoFromBureau\"}",
+    "title": "Applicant Info From Bureau",
+    "description": "Information about an applicant that is received from a credit bureau",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "familyName": {
+            "$comment": "{\"term\": \"familyName\", \"@id\": \"https://schema.org/familyName\"}",
+            "title": "familyName",
+            "description": "Last Name/Surname/Family Name of the applicant",
+            "type": "string"
+        },
+        "givenName": {
+            "$comment": "{\"term\": \"givenName\", \"@id\": \"https://schema.org/givenName\"}",
+            "title": "givenName",
+            "description": "First Name/Given Name of the applicant",
+            "type": "string"
+        },
+        "middleInitial": {
+            "$comment": "{\"term\": \"middleInitial\", \"@id\": \"https://schema.org/additionalName\"}",
+            "title": "middleInitial",
+            "description": "Middle initial of the applicant",
+            "type": "string"
+        },
+        "nameIdentificationNumber": {
+            "$comment": "{\"term\": \"nameIdentificationNumber\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "nameIdentificationNumber",
+            "description": "Name identification number of the applicant",
+            "type": "string"
+        },
+        "addressLineOne": {
+            "$comment": "{\"term\": \"addressLineOne\", \"@id\": \"https://schema.org/streetAddress\"}",
+            "title": "addressLineOne",
+            "description": "Line one of the applicant's address",
+            "type": "string"
+        },
+        "addressLineTwo": {
+            "$comment": "{\"term\": \"addressLineTwo\", \"@id\": \"https://schema.org/address\"}",
+            "title": "addressLineTwo",
+            "description": "Line two of the applicant's address",
+            "type": "string"
+        },
+        "city": {
+            "$comment": "{\"term\": \"city\", \"@id\": \"https://schema.org/addressLocality\"}",
+            "title": "city",
+            "description": "the city that the applicant resides in",
+            "type": "string"
+        },
+        "stateOrRegion": {
+            "$comment": "{\"term\": \"stateOrRegion\", \"@id\": \"https://schema.org/addressRegion\"}",
+            "title": "stateOrRegion",
+            "description": "the state or region that the applicant resides in",
+            "type": "string"
+        },
+        "postalCode": {
+            "$comment": "{\"term\": \"postalCode\", \"@id\": \"https://schema.org/postalCode\"}",
+            "title": "postalCode",
+            "description": "the applicant's postal code/zip code",
+            "type": "string"
+        },
+        "countryCode": {
+            "$comment": "{\"term\": \"countryCode\", \"@id\": \"https://schema.org/addressCountry\"}",
+            "title": "countryCode",
+            "description": "the applicant's country code"
+        },
+        "residenceType": {
+            "$comment": "{\"term\": \"residenceType\", \"@id\": \"https://schema.org/text\"}",
+            "title": "residenceType",
+            "description": "the type of residence that the applicant resides in",
+            "type": "string"
+        },
+        "citizenId": {
+            "$comment": "{\"term\": \"citizenId\", \"@id\": \"https://schema.org/taxID\"}",
+            "title": "citizenId",
+            "description": "the tax/fiscal ID of the applicant"
+        },
+        "birthDate": {
+            "$comment": "{\"term\": \"birthDate\", \"@id\": \"https://schema.org/birthDate\"}",
+            "title": "birthDate",
+            "description": "the applicant's date of birth",
+            "type": "string"
+        },
+        "birthCity": {
+            "$comment": "{\"term\": \"birthCity\", \"@id\": \"https://schema.org/City\"}",
+            "title": "birthCity",
+            "description": "the city that the applicant was born in",
+            "type": "string"
+        },
+        "birthCountry": {
+            "$comment": "{\"term\": \"birthCountry\", \"@id\": \"https://schema.org/Country\"}",
+            "title": "birthCountry",
+            "description": "the country that the applicant was born in",
+            "type": "string"
+        },
+        "spouseName": {
+            "$comment": "{\"term\": \"spouseName\", \"@id\": \"https://schema.org/spouse\"}",
+            "title": "spouseName",
+            "description": "the name of the applicant's spouse",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}

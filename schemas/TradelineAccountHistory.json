@@ -1,0 +1,44 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/TradelineAccountHistory.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"TradelineAccountHistory\", \"@id\": \"https://dlt.mobi/mobility-schema#TradelineAccountHistory\"}",
+    "title": "TradelineAccountHistory",
+    "description": "Tradeline account history",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "tradelineSequenceNumber": {
+            "$comment": "{\"term\": \"tradelineSequenceNumber\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "tradelineSequenceNumber",
+            "description": "the tradeline sequence number",
+            "type": "string"
+        },
+        "accountHistoryYearAndMonth": {
+            "$comment": "{\"term\": \"accountHistoryYearAndMonth\", \"@id\": \"https://schema.org/dateModified\"}",
+            "title": "accountHistoryYearAndMonth",
+            "description": "account History Year And Month",
+            "type": "string"
+        },
+        "delinquencyStatus": {
+            "$comment": "{\"term\": \"delinquencyStatus\", \"@id\": \"https://schema.org/text\"}",
+            "title": "delinquencyStatus",
+            "description": "delinquency status boolean",
+            "type": "string"
+        }
+
+    },
+    "additionalProperties": false,
+    "examples": []
+}

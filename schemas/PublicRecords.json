@@ -1,0 +1,49 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/PublicRecords.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"PublicRecords\", \"@id\": \"https://dlt.mobi/mobility-schema#PublicRecords\"}",
+    "title": "Public Records",
+    "description": "Information about an applicant that is received from public records",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "bankruptcyIndicator": {
+            "$comment": "{\"term\": \"bankruptcyIndicator\", \"@id\": \"https://schema.org/familyName\"}",
+            "title": "bankruptcyIndicator",
+            "description": "indicator of whether or not an applicant has declared bankruptcy",
+            "type": "string"
+        },
+        "bankruptcyDate": {
+            "$comment": "{\"term\": \"bankruptcyDate\", \"@id\": \"https://schema.org/Date\"}",
+            "title": "bankruptcyDate",
+            "description": "the date of a declared bankruptcy",
+            "type": "string"
+        },
+        "bankruptcyType": {
+            "$comment": "{\"term\": \"bankruptcyType\", \"@id\": \"https://schema.org/description\"}",
+            "title": "bankruptcyType",
+            "description": "the type of a declared bankruptcy",
+            "type": "string"
+        },
+        "additionalNotices": {
+            "$comment": "{\"term\": \"additionalNotices\", \"@id\": \"https://schema.org/text\"}",
+            "title": "additionalNotices",
+            "description": "any additional notices provided in the records",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}

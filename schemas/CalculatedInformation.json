@@ -1,0 +1,55 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/CalculatedInformation.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"CalculatedInformation\", \"@id\": \"https://dlt.mobi/mobility-schema#CalculatedInformation\"}",
+    "title": "Calculated Information",
+    "description": "Information that is calculated",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "adjustedCreditScore": {
+            "$comment": "{\"term\": \"adjustedCreditScore\", \"@id\": \"https://schema.org/ratingValue\"}",
+            "title": "adjustedCreditScore",
+            "description": "The adjusted credit score",
+            "type": "string"
+        },
+        "debtToIncomeRatio": {
+            "$comment": "{\"term\": \"debtToIncomeRatio\", \"@id\": \"https://schema.org/value\"}",
+            "title": "debtToIncomeRatio",
+            "description": "the debt-to-income ratio (DTI)",
+            "type": "string"
+        },
+        "paymentToIncomeRatio": {
+            "$comment": "{\"term\": \"paymentToIncomeRatio\", \"@id\": \"https://schema.org/text\"}",
+            "title": "paymentToIncomeRatio",
+            "description": "the payment-to-income (PTI) ratio",
+            "type": "string"
+        },
+        "loanToValueRatio": {
+            "$comment": "{\"term\": \"loanToValueRatio\", \"@id\": \"https://schema.org/description\"}",
+            "title": "loanToValueRatio",
+            "description": "the loan-to-value (LTV) ratio",
+            "type": "string"
+        },
+        "tierNumber": {
+            "$comment": "{\"term\": \"tierNumber\", \"@id\": \"https://schema.org/additionalType\"}",
+            "title": "tierNumber",
+            "description": "Line one of the applicant's address",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}

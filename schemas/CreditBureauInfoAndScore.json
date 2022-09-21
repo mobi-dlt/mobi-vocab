@@ -1,0 +1,84 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/CreditBureauInfoAndScore.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"CreditBureauInfoAndScore\", \"@id\": \"https://dlt.mobi/mobility-schema#CreditBureauInfoAndScore\"}",
+    "title": "Credit Bureau Info And Score",
+    "description": "Credit Bureau Information And Score Schema as defined by FSSC Technical Specifications",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "creditBureau": {
+            "$comment": "{\"term\": \"creditBureau\", \"@id\": \"https://schema.org/name\"}",
+            "title": "creditBureau",
+            "description": "Name of the Credit Bureau where the information or score is being sourced from",
+            "type": "string"
+        },
+        "creditPullSequenceNumber": {
+            "$comment": "{\"term\": \"creditPullSequenceNumber\", \"@id\": \"https://schema.org/text\"}",
+            "title": "creditPullSequenceNumber",
+            "description": "The credit pull sequence number",
+            "type": "string"
+        },
+        "equifaxIdentifier": {
+            "$comment": "{\"term\": \"equifaxIdentifier\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "equifaxIdentifier",
+            "description": "the Equifax Identifier for the subject of the credit evaluation",
+            "type": "string"
+        },
+        "experianIdentifier": {
+            "$comment": "{\"term\": \"experianIdentifier\", \"@id\": \"https://schema.org/description\"}",
+            "title": "experianIdentifier",
+            "description": "the Experian Identifier for the subject of the credit evaluation",
+            "type": "string"
+        },
+        "transUnionIdentifier": {
+            "$comment": "{\"term\": \"transUnionIdentifier\", \"@id\": \"https://schema.org/faxNumber\"}",
+            "title": "transUnionIdentifier",
+            "description": "the Trans Union Identifier for the subject of the credit evaluation",
+            "type": "string"
+        },
+        "obligorCreditScore": {
+            "$comment": "{\"term\": \"obligorCreditScore\", \"@id\": \"https://schema.org/ratingValue\"}",
+            "title": "obligorCreditScore",
+            "description": "the obligor's credit score",
+            "type": "string"
+        },
+        "creditScoreModelType": {
+            "$comment": "{\"term\": \"creditScoreModelType\", \"@id\": \"https://schema.org/textValue\"}",
+            "title": "creditScoreModelType",
+            "description": "the type of credist score model used to determine obligor credit score",
+            "type": "string"
+        },
+        "creditPullDate": {
+            "$comment": "{\"term\": \"creditPullDate\", \"@id\": \"https://schema.org/startDate\"}",
+            "title": "creditPullDate",
+            "description": "the date when the credit score was pulled",
+            "type": "string"
+        },
+        "previousCreditInquiryName": {
+            "$comment": "{\"term\": \"previousCreditInquiryName\", \"@id\": \"https://schema.org/alternateName\"}",
+            "title": "previousCreditInquiryName",
+            "description": "The name of the entity who made the previous credit inquiry"
+        },
+        "previousCreditInquiryDate": {
+            "$comment": "{\"term\": \"previousCreditInquiryDate\", \"@id\": \"https://schema.org/DateTime\"}",
+            "title": "previousCreditInquiryDate",
+            "description": "the date of the previous credit inquiry",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}

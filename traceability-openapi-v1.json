@@ -37,6 +37,29 @@
         }
       }
     },
+    "/ApplicantInfoFromBureau": {
+      "get": {
+        "description": "ApplicantInfoFromBureau",
+        "responses": {
+          "200": {
+            "description": "A list of all ApplicantInfoFromBureau objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ApplicantInfoFromBureau"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
     "/AssetRegistry": {
       "get": {
         "description": "AssetRegistry",
@@ -141,6 +164,29 @@
                   "type": "array",
                   "items": {
                     "$ref": "#/components/schemas/Brand"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/CalculatedInformation": {
+      "get": {
+        "description": "CalculatedInformation",
+        "responses": {
+          "200": {
+            "description": "A list of all CalculatedInformation objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CalculatedInformation"
                   }
                 }
               }
@@ -267,6 +313,29 @@
         }
       }
     },
+    "/CreditBureauInfoAndScore": {
+      "get": {
+        "description": "CreditBureauInfoAndScore",
+        "responses": {
+          "200": {
+            "description": "A list of all CreditBureauInfoAndScore objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CreditBureauInfoAndScore"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
     "/Customer": {
       "get": {
         "description": "Customer",
@@ -325,6 +394,29 @@
                   "type": "array",
                   "items": {
                     "$ref": "#/components/schemas/DataHostBootstrappingCertificate"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/Decision": {
+      "get": {
+        "description": "Decision",
+        "responses": {
+          "200": {
+            "description": "A list of all Decision objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Decision"
                   }
                 }
               }
@@ -865,6 +957,29 @@
         }
       }
     },
+    "/PaymentMethod": {
+      "get": {
+        "description": "PaymentMethod",
+        "responses": {
+          "200": {
+            "description": "A list of all PaymentMethod objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PaymentMethod"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
     "/Permissions": {
       "get": {
         "description": "Permissions",
@@ -1072,6 +1187,29 @@
         }
       }
     },
+    "/PublicRecords": {
+      "get": {
+        "description": "PublicRecords",
+        "responses": {
+          "200": {
+            "description": "A list of all PublicRecords objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PublicRecords"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
     "/Purchase": {
       "get": {
         "description": "Purchase",
@@ -1245,6 +1383,52 @@
                   "type": "array",
                   "items": {
                     "$ref": "#/components/schemas/TotalCharge"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/TradelineAccountHistory": {
+      "get": {
+        "description": "TradelineAccountHistory",
+        "responses": {
+          "200": {
+            "description": "A list of all TradelineAccountHistory objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TradelineAccountHistory"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server error"
+          }
+        }
+      }
+    },
+    "/Tradelines": {
+      "get": {
+        "description": "Tradelines",
+        "responses": {
+          "200": {
+            "description": "A list of all Tradelines objects from the system that the user has access to",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Tradelines"
                   }
                 }
               }
@@ -1724,6 +1908,107 @@
         },
         "additionalProperties": false
       },
+      "ApplicantInfoFromBureau": {
+        "title": "Applicant Info From Bureau",
+        "description": "Information about an applicant that is received from a credit bureau",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "familyName": {
+            "title": "familyName",
+            "description": "Last Name/Surname/Family Name of the applicant",
+            "type": "string"
+          },
+          "givenName": {
+            "title": "givenName",
+            "description": "First Name/Given Name of the applicant",
+            "type": "string"
+          },
+          "middleInitial": {
+            "title": "middleInitial",
+            "description": "Middle initial of the applicant",
+            "type": "string"
+          },
+          "nameIdentificationNumber": {
+            "title": "nameIdentificationNumber",
+            "description": "Name identification number of the applicant",
+            "type": "string"
+          },
+          "addressLineOne": {
+            "title": "addressLineOne",
+            "description": "Line one of the applicant's address",
+            "type": "string"
+          },
+          "addressLineTwo": {
+            "title": "addressLineTwo",
+            "description": "Line two of the applicant's address",
+            "type": "string"
+          },
+          "city": {
+            "title": "city",
+            "description": "the city that the applicant resides in",
+            "type": "string"
+          },
+          "stateOrRegion": {
+            "title": "stateOrRegion",
+            "description": "the state or region that the applicant resides in",
+            "type": "string"
+          },
+          "postalCode": {
+            "title": "postalCode",
+            "description": "the applicant's postal code/zip code",
+            "type": "string"
+          },
+          "countryCode": {
+            "title": "countryCode",
+            "description": "the applicant's country code"
+          },
+          "residenceType": {
+            "title": "residenceType",
+            "description": "the type of residence that the applicant resides in",
+            "type": "string"
+          },
+          "citizenId": {
+            "title": "citizenId",
+            "description": "the tax/fiscal ID of the applicant"
+          },
+          "birthDate": {
+            "title": "birthDate",
+            "description": "the applicant's date of birth",
+            "type": "string"
+          },
+          "birthCity": {
+            "title": "birthCity",
+            "description": "the city that the applicant was born in",
+            "type": "string"
+          },
+          "birthCountry": {
+            "title": "birthCountry",
+            "description": "the country that the applicant was born in",
+            "type": "string"
+          },
+          "spouseName": {
+            "title": "spouseName",
+            "description": "the name of the applicant's spouse",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
       "AssetRegistry": {
         "title": "EVGI AssetRegistry",
         "description": "EVGI: AssetRegistry",
@@ -1963,6 +2248,54 @@
           "url": {
             "title": "URL",
             "description": "URL of the entity.",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CalculatedInformation": {
+        "title": "Calculated Information",
+        "description": "Information that is calculated",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "adjustedCreditScore": {
+            "title": "adjustedCreditScore",
+            "description": "The adjusted credit score",
+            "type": "string"
+          },
+          "debtToIncomeRatio": {
+            "title": "debtToIncomeRatio",
+            "description": "the debt-to-income ratio (DTI)",
+            "type": "string"
+          },
+          "paymentToIncomeRatio": {
+            "title": "paymentToIncomeRatio",
+            "description": "the payment-to-income (PTI) ratio",
+            "type": "string"
+          },
+          "loanToValueRatio": {
+            "title": "loanToValueRatio",
+            "description": "the loan-to-value (LTV) ratio",
+            "type": "string"
+          },
+          "tierNumber": {
+            "title": "tierNumber",
+            "description": "Line one of the applicant's address",
             "type": "string"
           }
         },
@@ -2338,6 +2671,78 @@
         },
         "additionalProperties": false
       },
+      "CreditBureauInfoAndScore": {
+        "title": "Credit Bureau Info And Score",
+        "description": "Credit Bureau Information And Score Schema as defined by FSSC Technical Specifications",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "creditBureau": {
+            "title": "creditBureau",
+            "description": "Name of the Credit Bureau where the information or score is being sourced from",
+            "type": "string"
+          },
+          "creditPullSequenceNumber": {
+            "title": "creditPullSequenceNumber",
+            "description": "The credit pull sequence number",
+            "type": "string"
+          },
+          "equifaxIdentifier": {
+            "title": "equifaxIdentifier",
+            "description": "the Equifax Identifier for the subject of the credit evaluation",
+            "type": "string"
+          },
+          "experianIdentifier": {
+            "title": "experianIdentifier",
+            "description": "the Experian Identifier for the subject of the credit evaluation",
+            "type": "string"
+          },
+          "transUnionIdentifier": {
+            "title": "transUnionIdentifier",
+            "description": "the Trans Union Identifier for the subject of the credit evaluation",
+            "type": "string"
+          },
+          "obligorCreditScore": {
+            "title": "obligorCreditScore",
+            "description": "the obligor's credit score",
+            "type": "string"
+          },
+          "creditScoreModelType": {
+            "title": "creditScoreModelType",
+            "description": "the type of credist score model used to determine obligor credit score",
+            "type": "string"
+          },
+          "creditPullDate": {
+            "title": "creditPullDate",
+            "description": "the date when the credit score was pulled",
+            "type": "string"
+          },
+          "previousCreditInquiryName": {
+            "title": "previousCreditInquiryName",
+            "description": "The name of the entity who made the previous credit inquiry"
+          },
+          "previousCreditInquiryDate": {
+            "title": "previousCreditInquiryDate",
+            "description": "the date of the previous credit inquiry",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
       "Customer": {
         "title": "Customer",
         "description": "Customer record based on Customer from schema.org",
@@ -2484,6 +2889,79 @@
           "SignAlgo": {
             "title": "Signature Algorithm",
             "description": "cryptographic scheme used to sign the certificate",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Decision": {
+        "title": "Decision",
+        "description": "Attributes relating to final decision",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "decision": {
+            "title": "decision",
+            "description": "The adjusted credit score",
+            "type": "string"
+          },
+          "decisionEngineOrProcess": {
+            "title": "decisionEngineOrProcess",
+            "description": "the engine or process underlying the decision",
+            "type": "string"
+          },
+          "decisionSequence": {
+            "title": "decisionSequence",
+            "description": "decision sequence",
+            "type": "string"
+          },
+          "decisionAutomatedOrManual": {
+            "title": "decisionAutomatedOrManual",
+            "description": "designating whether the decision was made automatically or manually",
+            "type": "string"
+          },
+          "decisionTimestamp": {
+            "title": "decisionTimestamp",
+            "description": "Timestamp of when the decision was made",
+            "type": "string"
+          },
+          "decisionAnalystID": {
+            "title": "decisionAnalystID",
+            "description": "the ID of the analyst behind the decision",
+            "type": "string"
+          },
+          "decisionAnalystName": {
+            "title": "decisionAnalystName",
+            "description": "the full name of the analyst behind the decision",
+            "type": "string"
+          },
+          "decisionComments": {
+            "title": "decisionComments",
+            "description": "all comments on the decision",
+            "type": "string"
+          },
+          "conditionalAcceptanceCriteria": {
+            "title": "conditionalAcceptanceCriteria",
+            "description": "the conditional acceptance criteria",
+            "type": "string"
+          },
+          "conditionedOrRejectedReason": {
+            "title": "conditionedOrRejectedReason",
+            "description": "the conditioned/rejected reason",
             "type": "string"
           }
         },
@@ -3739,6 +4217,34 @@
         },
         "additionalProperties": false
       },
+      "PaymentMethod": {
+        "title": "PaymentMethod",
+        "description": "the payment method",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "paymentMethod": {
+            "title": "paymentMethod",
+            "description": "the payment method",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
       "Permissions": {
         "title": "Permissions",
         "description": "Permissions subject",
@@ -4319,6 +4825,49 @@
         },
         "additionalProperties": false
       },
+      "PublicRecords": {
+        "title": "Public Records",
+        "description": "Information about an applicant that is received from public records",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "bankruptcyIndicator": {
+            "title": "bankruptcyIndicator",
+            "description": "indicator of whether or not an applicant has declared bankruptcy",
+            "type": "string"
+          },
+          "bankruptcyDate": {
+            "title": "bankruptcyDate",
+            "description": "the date of a declared bankruptcy",
+            "type": "string"
+          },
+          "bankruptcyType": {
+            "title": "bankruptcyType",
+            "description": "the type of a declared bankruptcy",
+            "type": "string"
+          },
+          "additionalNotices": {
+            "title": "additionalNotices",
+            "description": "any additional notices provided in the records",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
       "Purchase": {
         "title": "Purchase",
         "description": "A purchase of a Product",
@@ -4670,6 +5219,215 @@
           "totalCollectCharge": {
             "title": "totalCollectCharge",
             "type": "number"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TradelineAccountHistory": {
+        "title": "TradelineAccountHistory",
+        "description": "Tradeline account history",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "tradelineSequenceNumber": {
+            "title": "tradelineSequenceNumber",
+            "description": "the tradeline sequence number",
+            "type": "string"
+          },
+          "accountHistoryYearAndMonth": {
+            "title": "accountHistoryYearAndMonth",
+            "description": "account History Year And Month",
+            "type": "string"
+          },
+          "delinquencyStatus": {
+            "title": "delinquencyStatus",
+            "description": "delinquency status boolean",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Tradelines": {
+        "title": "Tradelines",
+        "description": "Information about tradelines",
+        "type": "object",
+        "properties": {
+          "@context": {
+            "type": "array",
+            "items": {}
+          },
+          "type": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {}
+              }
+            ]
+          },
+          "tradelineSequenceNumber": {
+            "title": "familyName",
+            "description": "Last Name/Surname/Family Name of the applicant",
+            "type": "string"
+          },
+          "lenderName": {
+            "title": "lenderName",
+            "description": "Company name of the lender",
+            "type": "string"
+          },
+          "lenderAddress": {
+            "title": "lenderAddress",
+            "description": "Lender street address",
+            "type": "string"
+          },
+          "lenderCity": {
+            "title": "lenderCity",
+            "description": "the city where the lender is based",
+            "type": "string"
+          },
+          "lenderState": {
+            "title": "lenderState",
+            "description": "the state or region that the applicant resides in",
+            "type": "string"
+          },
+          "lenderCountry": {
+            "title": "lenderCountry",
+            "description": "the lender's country code"
+          },
+          "lenderPostalCode": {
+            "title": "lenderPostalCode",
+            "description": "the lender's postal code/zip code",
+            "type": "string"
+          },
+          "lenderPhoneNumber": {
+            "title": "lenderPhoneNumber",
+            "description": "Lender's phone number",
+            "type": "string"
+          },
+          "partialAccountNumber": {
+            "title": "partialAccountNumber",
+            "description": "A partial account number",
+            "type": "string"
+          },
+          "accountTypeDigitizedCode": {
+            "title": "accountTypeDigitizedCode",
+            "description": "the digitized code for the account type",
+            "type": "string"
+          },
+          "accountType": {
+            "title": "accountType",
+            "description": "the type of account",
+            "type": "string"
+          },
+          "accountOpenDate": {
+            "title": "accountOpenDate",
+            "description": "the date the account was opened"
+          },
+          "lastActivityDate": {
+            "title": "lastActivityDate",
+            "description": "the date of the last account activity",
+            "type": "string"
+          },
+          "currentBalance": {
+            "title": "currentBalance",
+            "description": "the account's current balance",
+            "type": "string"
+          },
+          "creditLimitorLoanAmount": {
+            "title": "creditLimitorLoanAmount",
+            "description": "the credit limit or total loan amount",
+            "type": "string"
+          },
+          "billingDate": {
+            "title": "billingDate",
+            "description": "the billing date",
+            "type": "string"
+          },
+          "lastPaymentAmount": {
+            "title": "lastPaymentAmount",
+            "description": "the amount of money sent in the last payment",
+            "type": "string"
+          },
+          "systemCurrency": {
+            "title": "systemCurrency",
+            "description": "the amount of money sent in the last payment",
+            "type": "string"
+          },
+          "termDuration": {
+            "title": "termDuration",
+            "description": "the duration of the loan or credit agreement",
+            "type": "string"
+          },
+          "termFrequencyDigitizedCode": {
+            "title": "termFrequencyDigitizedCode",
+            "description": "the digitized code for the loan term frequency",
+            "type": "string"
+          },
+          "termFrequency": {
+            "title": "termFrequency",
+            "description": "the loan term frequency",
+            "type": "string"
+          },
+          "monthlyPayment": {
+            "title": "monthlyPayment",
+            "description": "the monthly payment amount",
+            "type": "string"
+          },
+          "currentAccountStatusDigitzedCode": {
+            "title": "currentAccountStatusDigitzedCode",
+            "description": "the current account status digitized code",
+            "type": "string"
+          },
+          "currentAccountStatus": {
+            "title": "currentAccountStatus",
+            "description": "the current account status",
+            "type": "string"
+          },
+          "lastStatusUpdateDate": {
+            "title": "lastStatusUpdateDate",
+            "description": "the date of the last status update",
+            "type": "string"
+          },
+          "firstReportDate": {
+            "title": "firstReportDate",
+            "description": "the date of the creation of the first report",
+            "type": "string"
+          },
+          "firstDeliquencyDate": {
+            "title": "firstDeliquencyDate",
+            "description": "the date of the first delinquency",
+            "type": "string"
+          },
+          "responsibility": {
+            "title": "responsibility",
+            "description": "the date of the first delinquency",
+            "type": "string"
+          },
+          "pastDueAmount": {
+            "title": "pastDueAmount",
+            "description": "the amount that is past due",
+            "type": "string"
+          },
+          "originalChargeOffAmount": {
+            "title": "originalChargeOffAmount",
+            "description": "the original charge off amount",
+            "type": "string"
           }
         },
         "additionalProperties": false
