@@ -1,0 +1,203 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/Tradelines.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"Tradelines\", \"@id\": \"https://dlt.mobi/mobility-schema#Tradelines\"}",
+    "title": "Tradelines",
+    "description": "Information about tradelines",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "tradelineSequenceNumber": {
+            "$comment": "{\"term\": \"tradelineSequenceNumber\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "familyName",
+            "description": "Last Name/Surname/Family Name of the applicant",
+            "type": "string"
+        },
+        "lenderName": {
+            "$comment": "{\"term\": \"lenderName\", \"@id\": \"https://schema.org/name\"}",
+            "title": "lenderName",
+            "description": "Company name of the lender",
+            "type": "string"
+        },
+        "lenderAddress": {
+            "$comment": "{\"term\": \"lenderAddress\", \"@id\": \"https://schema.org/streetAddress\"}",
+            "title": "lenderAddress",
+            "description": "Lender street address",
+            "type": "string"
+        },
+        "lenderCity": {
+            "$comment": "{\"term\": \"lenderCity\", \"@id\": \"https://schema.org/addressLocality\"}",
+            "title": "lenderCity",
+            "description": "the city where the lender is based",
+            "type": "string"
+        },
+        "lenderState": {
+            "$comment": "{\"term\": \"lenderState\", \"@id\": \"https://schema.org/addressRegion\"}",
+            "title": "lenderState",
+            "description": "the state or region that the applicant resides in",
+            "type": "string"
+        },
+        "lenderCountry": {
+            "$comment": "{\"term\": \"lenderCountry\", \"@id\": \"https://schema.org/addressCountry\"}",
+            "title": "lenderCountry",
+            "description": "the lender's country code"
+        },
+        "lenderPostalCode": {
+            "$comment": "{\"term\": \"lenderPostalCode\", \"@id\": \"https://schema.org/postalCode\"}",
+            "title": "lenderPostalCode",
+            "description": "the lender's postal code/zip code",
+            "type": "string"
+        },
+        "lenderPhoneNumber": {
+            "$comment": "{\"term\": \"lenderPhoneNumber\", \"@id\": \"https://schema.org/telephone\"}",
+            "title": "lenderPhoneNumber",
+            "description": "Lender's phone number",
+            "type": "string"
+        },
+        "partialAccountNumber": {
+            "$comment": "{\"term\": \"partialAccountNumber\", \"@id\": \"https://schema.org/text\"}",
+            "title": "partialAccountNumber",
+            "description": "A partial account number",
+            "type": "string"
+        },
+        "accountTypeDigitizedCode": {
+            "$comment": "{\"term\": \"accountTypeDigitizedCode\", \"@id\": \"https://schema.org/additionalType\"}",
+            "title": "accountTypeDigitizedCode",
+            "description": "the digitized code for the account type",
+            "type": "string"
+        },
+        "accountType": {
+            "$comment": "{\"term\": \"accountType\", \"@id\": \"https://schema.org/bankAccountType\"}",
+            "title": "accountType",
+            "description": "the type of account",
+            "type": "string"
+        },
+        "accountOpenDate": {
+            "$comment": "{\"term\": \"accountOpenDate\", \"@id\": \"https://schema.org/startDate\"}",
+            "title": "accountOpenDate",
+            "description": "the date the account was opened"
+        },
+        "lastActivityDate": {
+            "$comment": "{\"term\": \"lastActivityDate\", \"@id\": \"https://schema.org/dateModified\"}",
+            "title": "lastActivityDate",
+            "description": "the date of the last account activity",
+            "type": "string"
+        },
+        "currentBalance": {
+            "$comment": "{\"term\": \"currentBalance\", \"@id\": \"https://schema.org/amount\"}",
+            "title": "currentBalance",
+            "description": "the account's current balance",
+            "type": "string"
+        },
+        "creditLimitorLoanAmount": {
+            "$comment": "{\"term\": \"creditLimitorLoanAmount\", \"@id\": \"https://schema.org/value\"}",
+            "title": "creditLimitorLoanAmount",
+            "description": "the credit limit or total loan amount",
+            "type": "string"
+        },
+        "billingDate": {
+            "$comment": "{\"term\": \"billingDate\", \"@id\": \"https://schema.org/paymentDueDate\"}",
+            "title": "billingDate",
+            "description": "the billing date",
+            "type": "string"
+        },
+        "lastPaymentAmount": {
+            "$comment": "{\"term\": \"lastPaymentAmount\", \"@id\": \"https://schema.org/loanPaymentAmount\"}",
+            "title": "lastPaymentAmount",
+            "description": "the amount of money sent in the last payment",
+            "type": "string"
+        },
+        "systemCurrency": {
+            "$comment": "{\"term\": \"systemCurrency\", \"@id\": \"https://schema.org/currency\"}",
+            "title": "systemCurrency",
+            "description": "the amount of money sent in the last payment",
+            "type": "string"
+        },
+        "termDuration": {
+            "$comment": "{\"term\": \"termDuration\", \"@id\": \"https://schema.org/loanTerm\"}",
+            "title": "termDuration",
+            "description": "the duration of the loan or credit agreement",
+            "type": "string"
+        },
+        "termFrequencyDigitizedCode": {
+            "$comment": "{\"term\": \"termFrequencyDigitizedCode\", \"@id\": \"https://schema.org/additionalProperty\"}",
+            "title": "termFrequencyDigitizedCode",
+            "description": "the digitized code for the loan term frequency",
+            "type": "string"
+        },
+        "termFrequency": {
+            "$comment": "{\"term\": \"termFrequency\", \"@id\": \"https://schema.org/termsOfService\"}",
+            "title": "termFrequency",
+            "description": "the loan term frequency",
+            "type": "string"
+        },
+        "monthlyPayment": {
+            "$comment": "{\"term\": \"monthlyPayment\", \"@id\": \"https://schema.org/description\"}",
+            "title": "monthlyPayment",
+            "description": "the monthly payment amount",
+            "type": "string"
+        },
+        "currentAccountStatusDigitzedCode": {
+            "$comment": "{\"term\": \"currentAccountStatusDigitzedCode\", \"@id\": \"https://schema.org/category\"}",
+            "title": "currentAccountStatusDigitzedCode",
+            "description": "the current account status digitized code",
+            "type": "string"
+        },
+        "currentAccountStatus": {
+            "$comment": "{\"term\": \"currentAccountStatus\", \"@id\": \"https://schema.org/about\"}",
+            "title": "currentAccountStatus",
+            "description": "the current account status",
+            "type": "string"
+        },
+        "lastStatusUpdateDate": {
+            "$comment": "{\"term\": \"lastStatusUpdateDate\", \"@id\": \"https://schema.org/sdDatePublished\"}",
+            "title": "lastStatusUpdateDate",
+            "description": "the date of the last status update",
+            "type": "string"
+        },
+        "firstReportDate": {
+            "$comment": "{\"term\": \"firstReportDate\", \"@id\": \"https://schema.org/dateCreated\"}",
+            "title": "firstReportDate",
+            "description": "the date of the creation of the first report",
+            "type": "string"
+        },
+        "firstDeliquencyDate": {
+            "$comment": "{\"term\": \"firstDeliquencyDate\", \"@id\": \"https://schema.org/dateIssued\"}",
+            "title": "firstDeliquencyDate",
+            "description": "the date of the first delinquency",
+            "type": "string"
+        },
+        "responsibility": {
+            "$comment": "{\"term\": \"responsibility\", \"@id\": \"https://schema.org/abstract\"}",
+            "title": "responsibility",
+            "description": "the date of the first delinquency",
+            "type": "string"
+        },
+        "pastDueAmount": {
+            "$comment": "{\"term\": \"pastDueAmount\", \"@id\": \"https://schema.org/monthlyMinimumRepaymentAmount\"}",
+            "title": "pastDueAmount",
+            "description": "the amount that is past due",
+            "type": "string"
+        },
+        "originalChargeOffAmount": {
+            "$comment": "{\"term\": \"originalChargeOffAmount\", \"@id\": \"https://schema.org/amountOfThisGood\"}",
+            "title": "originalChargeOffAmount",
+            "description": "the original charge off amount",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "examples": []
+}
