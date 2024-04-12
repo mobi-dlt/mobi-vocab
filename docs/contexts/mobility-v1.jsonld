@@ -62,6 +62,62 @@
         }
       }
     },
+    "BBC": {
+      "@id": "https://dlt.mobi/mobility-schema#BBC",
+      "@context": {
+        "batteryId": {
+          "@id": "https://schema.org/identifier"
+        },
+        "packUniqueId": {
+          "@id": "https://schema.org/accountId"
+        },
+        "manufacturersId": {
+          "@id": "https://schema.org/Text"
+        },
+        "manufacturingDate": {
+          "@id": "https://schema.org/Date"
+        },
+        "manufacturingLocation": {
+          "@id": "https://schema.org/PostalAddress"
+        },
+        "intendedUse": {
+          "@id": "https://schema.org/description"
+        },
+        "packWeight": {
+          "@id": "https://schema.org/QuantitativeValue"
+        },
+        "lifeCycleStatus": {
+          "@id": "https://schema.org/status"
+        },
+        "cellType": {
+          "@id": "https://schema.org/additionalType"
+        },
+        "cellManufacturerId": {
+          "@id": "https://schema.org/value"
+        },
+        "mobileOrStationary": {
+          "@id": "https://schema.org/serviceType"
+        },
+        "bmsSoftwareVersion": {
+          "@id": "https://schema.org/version"
+        },
+        "finalQualityTestDate": {
+          "@id": "https://schema.org/startDate"
+        },
+        "finalQualityTesterName": {
+          "@id": "https://schema.org/name"
+        },
+        "packSerialNumber": {
+          "@id": "https://schema.org/serialNumber"
+        },
+        "oemPartNumber": {
+          "@id": "https://schema.org/Number"
+        },
+        "packDimensions": {
+          "@id": "https://schema.org/size"
+        }
+      }
+    },
     "BatteryID": {
       "@id": "https://dlt.mobi/mobility-schema#BatteryID",
       "@context": {
@@ -611,6 +667,62 @@
         },
         "expirationDate": {
           "@id": "https://schema.org/expires"
+        }
+      }
+    },
+    "InfraSensorSchema": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas/InfraSensorSchema.json",
+      "@context": {
+        "sensorType": {
+          "@id": "https://schema.org/additionalType"
+        },
+        "sensorName": {
+          "@id": "https://schema.org/name"
+        },
+        "primaryOutput": {
+          "@id": "https://schema.org/measuredValue"
+        },
+        "secondaryOutput": {
+          "@id": "https://schema.org/result"
+        },
+        "dateTime": {
+          "@id": "https://schema.org/DateTime"
+        },
+        "ownerEntityId": {
+          "@id": "https://schema.org/propertyId"
+        },
+        "sensorUse": {
+          "@id": "https://schema.org/additionalProperty"
+        },
+        "sensorId": {
+          "@id": "https://schema.org/identifier"
+        },
+        "sensorGeolocation": {
+          "@id": "https://schema.org/location"
+        },
+        "sensorManufacturer": {
+          "@id": "https://schema.org/manufacturer"
+        },
+        "sensorPartNumber": {
+          "@id": "https://schema.org/productId"
+        },
+        "sensorHardwareVersion": {
+          "@id": "https://schema.org/version"
+        },
+        "sensorSoftwareVersion": {
+          "@id": "https://schema.org/softwareVersion"
+        },
+        "sensorHealthCodes": {
+          "@id": "https://schema.org/text"
+        },
+        "certIssueDateTime": {
+          "@id": "https://schema.org/startDate"
+        },
+        "issuerSig": {
+          "@id": "https://schema.org/description"
+        },
+        "sigAlg": {
+          "@id": "https://schema.org/url"
         }
       }
     },
@@ -1243,6 +1355,94 @@
         },
         "revocationListCredential": {
           "@id": "https://schema.org/LinkRole"
+        }
+      }
+    },
+    "SensorIdentityBirthCertificate": {
+      "@id": "https://dlt.mobi/mobility-schema#SensorIdentityBirthCertificate",
+      "@context": {
+        "certURI": {
+          "@id": "https://schema.org/identifier"
+        },
+        "sensorID": {
+          "@id": "https://schema.org/text"
+        },
+        "sensorType": {
+          "@id": "https://schema.org/additionalType"
+        },
+        "sensorTechnology": {
+          "@id": "https://schema.org/description"
+        },
+        "sensorName": {
+          "@id": "https://schema.org/name"
+        },
+        "manufactureDateTime": {
+          "@id": "https://schema.org/dateCreated"
+        },
+        "systemID": {
+          "@id": "https://schema.org/alternateName"
+        },
+        "sensorManufacturer": {
+          "@id": "https://schema.org/manufacturer"
+        },
+        "sensorPartNumber": {
+          "@id": "https://schema.org/productID"
+        },
+        "hardwareVersion": {
+          "@id": "https://schema.org/version"
+        },
+        "softwareVersion": {
+          "@id": "https://schema.org/additionalProperty"
+        },
+        "performanceCharacteristics": {
+          "@id": "https://schema.org/https://schema.org/QuantitativeValue"
+        },
+        "issuer": {
+          "@id": "https://schema.org/mainEntity"
+        },
+        "certIssueDateTime": {
+          "@id": "https://schema.org/dateIssued"
+        },
+        "sigAlg": {
+          "@id": "https://schema.org/algorithm"
+        },
+        "hashAlg": {
+          "@id": "https://schema.org/sha256"
+        },
+        "issuerSig": {
+          "@id": "https://schema.org/disambiguatingDescription"
+        }
+      }
+    },
+    "SensorOwnershipCertificate": {
+      "@id": "https://dlt.mobi/mobility-schema#SensorOwnershipCertificate",
+      "@context": {
+        "certURI": {
+          "@id": "https://schema.org/identifier"
+        },
+        "expiration": {
+          "@id": "https://schema.org/expires"
+        },
+        "sensorID": {
+          "@id": "https://schema.org/text"
+        },
+        "eid": {
+          "@id": "https://schema.org/additionalProperty"
+        },
+        "issuer": {
+          "@id": "https://schema.org/mainEntity"
+        },
+        "certIssueDateTime": {
+          "@id": "https://schema.org/dateIssued"
+        },
+        "sigAlg": {
+          "@id": "https://schema.org/algorithm"
+        },
+        "hashAlg": {
+          "@id": "https://schema.org/sha256"
+        },
+        "issuerSig": {
+          "@id": "https://schema.org/disambiguatingDescription"
         }
       }
     },
@@ -1964,6 +2164,62 @@
           "@id": "https://schema.org/vehicleIdentificationNumber"
         },
         "uvi": {
+          "@id": "https://schema.org/url"
+        }
+      }
+    },
+    "VehicleSensorSchema": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas/VehicleSensorSchema.json",
+      "@context": {
+        "sensorType": {
+          "@id": "https://schema.org/additionalType"
+        },
+        "sensorName": {
+          "@id": "https://schema.org/name"
+        },
+        "primaryOutput": {
+          "@id": "https://schema.org/measuredValue"
+        },
+        "secondaryOutput": {
+          "@id": "https://schema.org/result"
+        },
+        "dateTime": {
+          "@id": "https://schema.org/DateTime"
+        },
+        "vid": {
+          "@id": "https://dlt.mobi/mobility-schema#VID"
+        },
+        "sensorUse": {
+          "@id": "https://schema.org/additionalProperty"
+        },
+        "sensorId": {
+          "@id": "https://schema.org/identifier"
+        },
+        "sensorGeolocation": {
+          "@id": "https://schema.org/location"
+        },
+        "sensorManufacturer": {
+          "@id": "https://schema.org/manufacturer"
+        },
+        "sensorPartNumber": {
+          "@id": "https://schema.org/productId"
+        },
+        "sensorHardwareVersion": {
+          "@id": "https://schema.org/version"
+        },
+        "sensorSoftwareVersion": {
+          "@id": "https://schema.org/softwareVersion"
+        },
+        "sensorHealthCodes": {
+          "@id": "https://schema.org/text"
+        },
+        "certIssueDateTime": {
+          "@id": "https://schema.org/startDate"
+        },
+        "issuerSig": {
+          "@id": "https://schema.org/description"
+        },
+        "sigAlg": {
           "@id": "https://schema.org/url"
         }
       }
