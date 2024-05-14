@@ -36,6 +36,59 @@
         }
       }
     },
+    "ApplicantInfoFromBureau": {
+      "@id": "https://dlt.mobi/mobility-schema#ApplicantInfoFromBureau",
+      "@context": {
+        "familyName": {
+          "@id": "https://schema.org/familyName"
+        },
+        "givenName": {
+          "@id": "https://schema.org/givenName"
+        },
+        "middleInitial": {
+          "@id": "https://schema.org/additionalName"
+        },
+        "nameIdentificationNumber": {
+          "@id": "https://schema.org/identifier"
+        },
+        "addressLineOne": {
+          "@id": "https://schema.org/streetAddress"
+        },
+        "addressLineTwo": {
+          "@id": "https://schema.org/address"
+        },
+        "city": {
+          "@id": "https://schema.org/addressLocality"
+        },
+        "stateOrRegion": {
+          "@id": "https://schema.org/addressRegion"
+        },
+        "postalCode": {
+          "@id": "https://schema.org/postalCode"
+        },
+        "countryCode": {
+          "@id": "https://schema.org/addressCountry"
+        },
+        "residenceType": {
+          "@id": "https://schema.org/text"
+        },
+        "citizenId": {
+          "@id": "https://schema.org/taxID"
+        },
+        "birthDate": {
+          "@id": "https://schema.org/birthDate"
+        },
+        "birthCity": {
+          "@id": "https://schema.org/City"
+        },
+        "birthCountry": {
+          "@id": "https://schema.org/Country"
+        },
+        "spouseName": {
+          "@id": "https://schema.org/spouse"
+        }
+      }
+    },
     "AssetRegistry": {
       "@id": "https://dlt.mobi/mobility-schema/schemas#AssetRegistry",
       "@context": {
@@ -59,62 +112,6 @@
         },
         "EPACompanyID": {
           "@id": "https://schema.org/Text"
-        }
-      }
-    },
-    "BBC": {
-      "@id": "https://dlt.mobi/mobility-schema#BBC",
-      "@context": {
-        "batteryId": {
-          "@id": "https://schema.org/identifier"
-        },
-        "packUniqueId": {
-          "@id": "https://schema.org/accountId"
-        },
-        "manufacturersId": {
-          "@id": "https://schema.org/Text"
-        },
-        "manufacturingDate": {
-          "@id": "https://schema.org/Date"
-        },
-        "manufacturingLocation": {
-          "@id": "https://schema.org/PostalAddress"
-        },
-        "intendedUse": {
-          "@id": "https://schema.org/description"
-        },
-        "packWeight": {
-          "@id": "https://schema.org/QuantitativeValue"
-        },
-        "lifeCycleStatus": {
-          "@id": "https://schema.org/status"
-        },
-        "cellType": {
-          "@id": "https://schema.org/additionalType"
-        },
-        "cellManufacturerId": {
-          "@id": "https://schema.org/value"
-        },
-        "mobileOrStationary": {
-          "@id": "https://schema.org/serviceType"
-        },
-        "bmsSoftwareVersion": {
-          "@id": "https://schema.org/version"
-        },
-        "finalQualityTestDate": {
-          "@id": "https://schema.org/startDate"
-        },
-        "finalQualityTesterName": {
-          "@id": "https://schema.org/name"
-        },
-        "packSerialNumber": {
-          "@id": "https://schema.org/serialNumber"
-        },
-        "oemPartNumber": {
-          "@id": "https://schema.org/Number"
-        },
-        "packDimensions": {
-          "@id": "https://schema.org/size"
         }
       }
     },
@@ -195,6 +192,26 @@
         },
         "url": {
           "@id": "https://schema.org/url"
+        }
+      }
+    },
+    "CalculatedInformation": {
+      "@id": "https://dlt.mobi/mobility-schema#CalculatedInformation",
+      "@context": {
+        "adjustedCreditScore": {
+          "@id": "https://schema.org/ratingValue"
+        },
+        "debtToIncomeRatio": {
+          "@id": "https://schema.org/value"
+        },
+        "paymentToIncomeRatio": {
+          "@id": "https://schema.org/text"
+        },
+        "loanToValueRatio": {
+          "@id": "https://schema.org/description"
+        },
+        "tierNumber": {
+          "@id": "https://schema.org/additionalType"
         }
       }
     },
@@ -342,6 +359,29 @@
         }
       }
     },
+    "CompLabelCert": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#CompLabelCert",
+      "@context": {
+        "euConformityDeclarationDocument": {
+          "@id": "https://schema.org/codeValue"
+        },
+        "euConformityDeclarationID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "euComplianceTestResultsReport": {
+          "@id": "https://schema.org/url"
+        },
+        "separateCollectionSymbol": {
+          "@id": "https://schema.org/Text"
+        },
+        "labelsSymbolsMeaning": {
+          "@id": "https://schema.org/Comment"
+        },
+        "cadmiumLeadSymbols": {
+          "@id": "https://schema.org/recordLabel"
+        }
+      }
+    },
     "ContactPoint": {
       "@id": "https://schema.org/ContactPoint",
       "@context": {
@@ -379,6 +419,41 @@
         },
         "PaymentPlatform": {
           "@id": "https://schema.org/Name"
+        }
+      }
+    },
+    "CreditBureauInfoAndScore": {
+      "@id": "https://dlt.mobi/mobility-schema#CreditBureauInfoAndScore",
+      "@context": {
+        "creditBureau": {
+          "@id": "https://schema.org/name"
+        },
+        "creditPullSequenceNumber": {
+          "@id": "https://schema.org/text"
+        },
+        "equifaxIdentifier": {
+          "@id": "https://schema.org/identifier"
+        },
+        "experianIdentifier": {
+          "@id": "https://schema.org/description"
+        },
+        "transUnionIdentifier": {
+          "@id": "https://schema.org/faxNumber"
+        },
+        "obligorCreditScore": {
+          "@id": "https://schema.org/ratingValue"
+        },
+        "creditScoreModelType": {
+          "@id": "https://schema.org/textValue"
+        },
+        "creditPullDate": {
+          "@id": "https://schema.org/startDate"
+        },
+        "previousCreditInquiryName": {
+          "@id": "https://schema.org/alternateName"
+        },
+        "previousCreditInquiryDate": {
+          "@id": "https://schema.org/DateTime"
         }
       }
     },
@@ -442,6 +517,41 @@
         },
         "SignAlgo": {
           "@id": "https://schema.org/algorithm"
+        }
+      }
+    },
+    "Decision": {
+      "@id": "https://dlt.mobi/mobility-schema#Decision",
+      "@context": {
+        "decision": {
+          "@id": "https://schema.org/text"
+        },
+        "decisionEngineOrProcess": {
+          "@id": "https://schema.org/description"
+        },
+        "decisionSequence": {
+          "@id": "https://schema.org/identifier"
+        },
+        "decisionAutomatedOrManual": {
+          "@id": "https://schema.org/about"
+        },
+        "decisionTimestamp": {
+          "@id": "https://schema.org/dateCreated"
+        },
+        "decisionAnalystID": {
+          "@id": "https://schema.org/employee"
+        },
+        "decisionAnalystName": {
+          "@id": "https://schema.org/name"
+        },
+        "decisionComments": {
+          "@id": "https://schema.org/additionalProperty"
+        },
+        "conditionalAcceptanceCriteria": {
+          "@id": "https://schema.org/additionalType"
+        },
+        "conditionedOrRejectedReason": {
+          "@id": "https://schema.org/disambiguatingDescription"
         }
       }
     },
@@ -667,62 +777,6 @@
         },
         "expirationDate": {
           "@id": "https://schema.org/expires"
-        }
-      }
-    },
-    "InfraSensorSchema": {
-      "@id": "https://dlt.mobi/mobility-schema/schemas/InfraSensorSchema.json",
-      "@context": {
-        "sensorType": {
-          "@id": "https://schema.org/additionalType"
-        },
-        "sensorName": {
-          "@id": "https://schema.org/name"
-        },
-        "primaryOutput": {
-          "@id": "https://schema.org/measuredValue"
-        },
-        "secondaryOutput": {
-          "@id": "https://schema.org/result"
-        },
-        "dateTime": {
-          "@id": "https://schema.org/DateTime"
-        },
-        "ownerEntityId": {
-          "@id": "https://schema.org/propertyId"
-        },
-        "sensorUse": {
-          "@id": "https://schema.org/additionalProperty"
-        },
-        "sensorId": {
-          "@id": "https://schema.org/identifier"
-        },
-        "sensorGeolocation": {
-          "@id": "https://schema.org/location"
-        },
-        "sensorManufacturer": {
-          "@id": "https://schema.org/manufacturer"
-        },
-        "sensorPartNumber": {
-          "@id": "https://schema.org/productId"
-        },
-        "sensorHardwareVersion": {
-          "@id": "https://schema.org/version"
-        },
-        "sensorSoftwareVersion": {
-          "@id": "https://schema.org/softwareVersion"
-        },
-        "sensorHealthCodes": {
-          "@id": "https://schema.org/text"
-        },
-        "certIssueDateTime": {
-          "@id": "https://schema.org/startDate"
-        },
-        "issuerSig": {
-          "@id": "https://schema.org/description"
-        },
-        "sigAlg": {
-          "@id": "https://schema.org/url"
         }
       }
     },
@@ -1053,6 +1107,14 @@
         }
       }
     },
+    "PaymentMethod": {
+      "@id": "https://dlt.mobi/mobility-schema#PaymentMethod",
+      "@context": {
+        "paymentMethod": {
+          "@id": "https://schema.org/paymentMethod"
+        }
+      }
+    },
     "Permissions": {
       "@id": "https://dlt.mobi/mobility-schema#Permissions",
       "@context": {
@@ -1302,6 +1364,23 @@
         }
       }
     },
+    "PublicRecords": {
+      "@id": "https://dlt.mobi/mobility-schema#PublicRecords",
+      "@context": {
+        "bankruptcyIndicator": {
+          "@id": "https://schema.org/familyName"
+        },
+        "bankruptcyDate": {
+          "@id": "https://schema.org/Date"
+        },
+        "bankruptcyType": {
+          "@id": "https://schema.org/description"
+        },
+        "additionalNotices": {
+          "@id": "https://schema.org/text"
+        }
+      }
+    },
     "Purchase": {
       "@id": "https://dlt.mobi/mobility-schema#Purchase",
       "@context": {
@@ -1355,94 +1434,6 @@
         },
         "revocationListCredential": {
           "@id": "https://schema.org/LinkRole"
-        }
-      }
-    },
-    "SensorIdentityBirthCertificate": {
-      "@id": "https://dlt.mobi/mobility-schema#SensorIdentityBirthCertificate",
-      "@context": {
-        "certURI": {
-          "@id": "https://schema.org/identifier"
-        },
-        "sensorID": {
-          "@id": "https://schema.org/text"
-        },
-        "sensorType": {
-          "@id": "https://schema.org/additionalType"
-        },
-        "sensorTechnology": {
-          "@id": "https://schema.org/description"
-        },
-        "sensorName": {
-          "@id": "https://schema.org/name"
-        },
-        "manufactureDateTime": {
-          "@id": "https://schema.org/dateCreated"
-        },
-        "systemID": {
-          "@id": "https://schema.org/alternateName"
-        },
-        "sensorManufacturer": {
-          "@id": "https://schema.org/manufacturer"
-        },
-        "sensorPartNumber": {
-          "@id": "https://schema.org/productID"
-        },
-        "hardwareVersion": {
-          "@id": "https://schema.org/version"
-        },
-        "softwareVersion": {
-          "@id": "https://schema.org/additionalProperty"
-        },
-        "performanceCharacteristics": {
-          "@id": "https://schema.org/https://schema.org/QuantitativeValue"
-        },
-        "issuer": {
-          "@id": "https://schema.org/mainEntity"
-        },
-        "certIssueDateTime": {
-          "@id": "https://schema.org/dateIssued"
-        },
-        "sigAlg": {
-          "@id": "https://schema.org/algorithm"
-        },
-        "hashAlg": {
-          "@id": "https://schema.org/sha256"
-        },
-        "issuerSig": {
-          "@id": "https://schema.org/disambiguatingDescription"
-        }
-      }
-    },
-    "SensorOwnershipCertificate": {
-      "@id": "https://dlt.mobi/mobility-schema#SensorOwnershipCertificate",
-      "@context": {
-        "certURI": {
-          "@id": "https://schema.org/identifier"
-        },
-        "expiration": {
-          "@id": "https://schema.org/expires"
-        },
-        "sensorID": {
-          "@id": "https://schema.org/text"
-        },
-        "eid": {
-          "@id": "https://schema.org/additionalProperty"
-        },
-        "issuer": {
-          "@id": "https://schema.org/mainEntity"
-        },
-        "certIssueDateTime": {
-          "@id": "https://schema.org/dateIssued"
-        },
-        "sigAlg": {
-          "@id": "https://schema.org/algorithm"
-        },
-        "hashAlg": {
-          "@id": "https://schema.org/sha256"
-        },
-        "issuerSig": {
-          "@id": "https://schema.org/disambiguatingDescription"
         }
       }
     },
@@ -1532,6 +1523,115 @@
         },
         "totalCollectCharge": {
           "@id": "https://schema.org/estimatedCost"
+        }
+      }
+    },
+    "TradelineAccountHistory": {
+      "@id": "https://dlt.mobi/mobility-schema#TradelineAccountHistory",
+      "@context": {
+        "tradelineSequenceNumber": {
+          "@id": "https://schema.org/identifier"
+        },
+        "accountHistoryYearAndMonth": {
+          "@id": "https://schema.org/dateModified"
+        },
+        "delinquencyStatus": {
+          "@id": "https://schema.org/text"
+        }
+      }
+    },
+    "Tradelines": {
+      "@id": "https://dlt.mobi/mobility-schema#Tradelines",
+      "@context": {
+        "tradelineSequenceNumber": {
+          "@id": "https://schema.org/identifier"
+        },
+        "lenderName": {
+          "@id": "https://schema.org/name"
+        },
+        "lenderAddress": {
+          "@id": "https://schema.org/streetAddress"
+        },
+        "lenderCity": {
+          "@id": "https://schema.org/addressLocality"
+        },
+        "lenderState": {
+          "@id": "https://schema.org/addressRegion"
+        },
+        "lenderCountry": {
+          "@id": "https://schema.org/addressCountry"
+        },
+        "lenderPostalCode": {
+          "@id": "https://schema.org/postalCode"
+        },
+        "lenderPhoneNumber": {
+          "@id": "https://schema.org/telephone"
+        },
+        "partialAccountNumber": {
+          "@id": "https://schema.org/text"
+        },
+        "accountTypeDigitizedCode": {
+          "@id": "https://schema.org/additionalType"
+        },
+        "accountType": {
+          "@id": "https://schema.org/bankAccountType"
+        },
+        "accountOpenDate": {
+          "@id": "https://schema.org/startDate"
+        },
+        "lastActivityDate": {
+          "@id": "https://schema.org/dateModified"
+        },
+        "currentBalance": {
+          "@id": "https://schema.org/amount"
+        },
+        "creditLimitorLoanAmount": {
+          "@id": "https://schema.org/value"
+        },
+        "billingDate": {
+          "@id": "https://schema.org/paymentDueDate"
+        },
+        "lastPaymentAmount": {
+          "@id": "https://schema.org/loanPaymentAmount"
+        },
+        "systemCurrency": {
+          "@id": "https://schema.org/currency"
+        },
+        "termDuration": {
+          "@id": "https://schema.org/loanTerm"
+        },
+        "termFrequencyDigitizedCode": {
+          "@id": "https://schema.org/additionalProperty"
+        },
+        "termFrequency": {
+          "@id": "https://schema.org/termsOfService"
+        },
+        "monthlyPayment": {
+          "@id": "https://schema.org/description"
+        },
+        "currentAccountStatusDigitzedCode": {
+          "@id": "https://schema.org/category"
+        },
+        "currentAccountStatus": {
+          "@id": "https://schema.org/about"
+        },
+        "lastStatusUpdateDate": {
+          "@id": "https://schema.org/sdDatePublished"
+        },
+        "firstReportDate": {
+          "@id": "https://schema.org/dateCreated"
+        },
+        "firstDeliquencyDate": {
+          "@id": "https://schema.org/dateIssued"
+        },
+        "responsibility": {
+          "@id": "https://schema.org/abstract"
+        },
+        "pastDueAmount": {
+          "@id": "https://schema.org/monthlyMinimumRepaymentAmount"
+        },
+        "originalChargeOffAmount": {
+          "@id": "https://schema.org/amountOfThisGood"
         }
       }
     },
@@ -2164,62 +2264,6 @@
           "@id": "https://schema.org/vehicleIdentificationNumber"
         },
         "uvi": {
-          "@id": "https://schema.org/url"
-        }
-      }
-    },
-    "VehicleSensorSchema": {
-      "@id": "https://dlt.mobi/mobility-schema/schemas/VehicleSensorSchema.json",
-      "@context": {
-        "sensorType": {
-          "@id": "https://schema.org/additionalType"
-        },
-        "sensorName": {
-          "@id": "https://schema.org/name"
-        },
-        "primaryOutput": {
-          "@id": "https://schema.org/measuredValue"
-        },
-        "secondaryOutput": {
-          "@id": "https://schema.org/result"
-        },
-        "dateTime": {
-          "@id": "https://schema.org/DateTime"
-        },
-        "vid": {
-          "@id": "https://dlt.mobi/mobility-schema#VID"
-        },
-        "sensorUse": {
-          "@id": "https://schema.org/additionalProperty"
-        },
-        "sensorId": {
-          "@id": "https://schema.org/identifier"
-        },
-        "sensorGeolocation": {
-          "@id": "https://schema.org/location"
-        },
-        "sensorManufacturer": {
-          "@id": "https://schema.org/manufacturer"
-        },
-        "sensorPartNumber": {
-          "@id": "https://schema.org/productId"
-        },
-        "sensorHardwareVersion": {
-          "@id": "https://schema.org/version"
-        },
-        "sensorSoftwareVersion": {
-          "@id": "https://schema.org/softwareVersion"
-        },
-        "sensorHealthCodes": {
-          "@id": "https://schema.org/text"
-        },
-        "certIssueDateTime": {
-          "@id": "https://schema.org/startDate"
-        },
-        "issuerSig": {
-          "@id": "https://schema.org/description"
-        },
-        "sigAlg": {
           "@id": "https://schema.org/url"
         }
       }

@@ -1,0 +1,61 @@
+{
+    "$id": "https://dlt.mobi/mobility-schema/schemas/CompLabelCert.json",
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$comment": "{\"term\": \"CompLabelCert\", \"@id\": \"https://dlt.mobi/mobility-schema/schemas#CompLabelCert\"}",
+    "title": "CompLabelCert",
+    "description": "BBC: Compliance Label Certificate",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "type": "array"
+        },
+        "type": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array"
+                }
+            ]
+        },
+        "euConformityDeclarationDocument": {
+            "$comment": "{\"term\": \"euConformityDeclarationDocument\", \"@id\": \"https://schema.org/codeValue\"}",
+            "title": "euConformityDeclarationDocument",
+            "description": "URI of the EU declaration of conformity signed by responsible economic operators to declare compliance with the regulatory requirements in the context of the market conformity assessment procedure and assume full responsibility."
+        },
+    
+        "euConformityDeclarationID": {
+            "$comment": "{\"term\": \"euConformityDeclarationID\", \"@id\": \"https://schema.org/identifier\"}",
+            "title": "euConformityDeclarationID",
+            "description": "Identification number of the EU declaration of conformity of the battery, linked to the Battery Carbon Footprint Declaration.",
+            "type":"string"
+        },
+        "euComplianceTestResultsReport": {
+            "$comment": "{\"term\": \"euComplianceTestResultsReport\", \"@id\": \"https://schema.org/url\"}",
+            "title": "euComplianceTestResultsReport",
+            "description": "URI to the results of tests reports proving compliance in the market conformity assessment procedure with the requirements as per the technical documentation."
+        },
+        "separateCollectionSymbol": {
+            "$comment": "{\"term\": \"separateCollectionSymbol\", \"@id\": \"https://schema.org/Text\"}",
+            "title": "separateCollectionSymbol",
+            "description": "URI to the separate collection' or 'WEEE label' indicating that a product should not be discarded as unsorted waste but must be sent to separate collection facilities for recovery and recycling. ",
+            "type":"string"
+        },
+        "labelsSymbolsMeaning": {
+            "$comment": "{\"term\": \"labelsSymbolsMeaning\", \"@id\": \"https://schema.org/Comment\"}",
+            "title": "labelsSymbolsMeaning",
+            "description": "Explanation of the meaning of all symbols and labels. ",
+            "type":"string"
+        },
+        "cadmiumLeadSymbols": {
+            "$comment": "{\"term\": \"cadmiumLeadSymbols\", \"@id\": \"https://schema.org/recordLabel\"}",
+            "title": "cadmiumLeadSymbols",
+            "description": "Image of Cadmium and lead symbols indicating the metal is contained in the battery above a defined threshold. ",
+            "type":"string"
+        }
+       
+    },
+    "additionalProperties": false,
+    "examples": []
+}
