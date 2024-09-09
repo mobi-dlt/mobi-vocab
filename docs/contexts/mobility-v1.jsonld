@@ -36,6 +36,29 @@
         }
       }
     },
+    "AssetOwnership": {
+      "@id": "https://dlt.mobi/mobility-schema#AssetOwnership",
+      "@context": {
+        "previousOwner": {
+          "@id": "https://dlt.mobi/mobility-schema#Entity"
+        },
+        "currentOwner": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#currentOwner"
+        },
+        "assetInformation": {
+          "@id": "https://dlt.mobi/mobility-schema#Product"
+        },
+        "jurisdiction": {
+          "@id": "https://dlt.mobi/mobility-schema/schemas/LinkRole.json"
+        },
+        "regulatoryRequirements": {
+          "@id": "https://dlt.mobi/mobility-schema#regulatoryRequirements"
+        },
+        "jurisdictionRequirements": {
+          "@id": "https://dlt.mobi/mobility-schema#jurisdictionRequirements"
+        }
+      }
+    },
     "AssetRegistry": {
       "@id": "https://dlt.mobi/mobility-schema/schemas#AssetRegistry",
       "@context": {
@@ -198,6 +221,32 @@
         }
       }
     },
+    "CarbonFootprint": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#CarbonFootprint",
+      "@context": {
+        "carbonFootprint": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#carbonFootprint"
+        },
+        "carbonFootprintShareRawMaterial": {
+          "@id": "https://schema.org/Number"
+        },
+        "carbonFootprintShareMainProduction": {
+          "@id": "https://schema.org/value"
+        },
+        "carbonFootprintShareDistribution": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#carbonFootprintShareDistribution"
+        },
+        "carbonFootprintShareEndOfLifeRecycling": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#carbonFootprintShareEndOfLifeRecycling"
+        },
+        "carbonFootprintPerformanceClassDoc": {
+          "@id": "https://schema.org/url"
+        },
+        "publicVerCarbonFootprintStudy": {
+          "@id": "https://schema.org/contentUrl"
+        }
+      }
+    },
     "CarbonOffset": {
       "@id": "https://dlt.mobi/mobility-schema/schemas#CarbonOffset",
       "@context": {
@@ -322,6 +371,71 @@
         }
       }
     },
+    "CircularityAndResourceEfficiency": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#CircularityAndResourceEfficiency",
+      "@context": {
+        "manualBatteryRemoval": {
+          "@id": "https://schema.org/contentUrl"
+        },
+        "manualBatteryDisassemblyDismantling": {
+          "@id": "https://schema.org/url"
+        },
+        "postalAddressSparePartsSources": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#postalAddressSparePartsSources"
+        },
+        "emailsSparePartsSources": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#emailsSparePartsSources"
+        },
+        "sparePartsSources": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#sparePartsSources"
+        },
+        "componentsPartNumbers": {
+          "@id": "https://schema.org/recordLabel"
+        },
+        "extinguishingAgent": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#extinguishingAgent"
+        },
+        "safetyMeasuresInstructions": {
+          "@id": "https://schema.org/documentation"
+        },
+        "preConsumerRecycledNickelShare": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#preConsumerRecycledNickelShare"
+        },
+        "preConsumerRecycledCobaltShare": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#preConsumerRecycledCobaltShare"
+        },
+        "preConsumerRecycledLithiumShare": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#preConsumerRecycledLithiumShare"
+        },
+        "preConsumerRecycledLeadShare": {
+          "@id": "https://schema.org/Number"
+        },
+        "postConsumerRecycledNickelShare": {
+          "@id": "https://schema.org/value"
+        },
+        "postConsumerRecycledCobaltShare": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#postConsumerRecycledCobaltShare"
+        },
+        "postConsumerRecycledLithiumShare": {
+          "@id": "https://schema.org/ratingValue"
+        },
+        "postConsumerRecycledLeadShare": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#postConsumerRecycledLeadShare"
+        },
+        "renewableContentShare": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#renewableContentShare"
+        },
+        "roleEndUsersContributingWastePrevention": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#roleEndUsersContributingWastePrevention"
+        },
+        "roleEndUsersContributingCollectionWasteBatteries": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#roleEndUsersContributingCollectionWasteBatteries"
+        },
+        "infoCollectionTakebackReuseRepurposingRecycling": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#infoCollectionTakebackReuseRepurposingRecycling"
+        }
+      }
+    },
     "CitopiaMembershipCredential": {
       "@id": "https://dlt.mobi/mobility-schema#CitopiaMemberShipCredential",
       "@context": {
@@ -339,6 +453,29 @@
         },
         "expirationDate": {
           "@id": "https://schema.org/expires"
+        }
+      }
+    },
+    "CompLabelCert": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#CompLabelCert",
+      "@context": {
+        "euConformityDeclarationDocument": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#euConformityDeclarationDocument"
+        },
+        "euConformityDeclarationID": {
+          "@id": "https://schema.org/identifier"
+        },
+        "euComplianceTestResultsReport": {
+          "@id": "https://schema.org/url"
+        },
+        "separateCollectionSymbol": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#separateCollectionSymbol"
+        },
+        "labelsSymbolsMeaning": {
+          "@id": "https://schema.org/Comment"
+        },
+        "cadmiumLeadSymbols": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#cadmiumLeadSymbols"
         }
       }
     },
@@ -442,6 +579,23 @@
         },
         "SignAlgo": {
           "@id": "https://schema.org/algorithm"
+        }
+      }
+    },
+    "DataRepositoryCARB": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#DataRepositoryCARB",
+      "@context": {
+        "numberOfCells": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#numberOfCells"
+        },
+        "hazardousSubstancesNames": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#hazardousSubstancesNames"
+        },
+        "safetyOrRecallInfo": {
+          "@id": "https://schema.org/url"
+        },
+        "safeDisposalInformation": {
+          "@id": "https://schema.org/contentUrl"
         }
       }
     },
@@ -755,6 +909,17 @@
         }
       }
     },
+    "JurisdictionRequirements": {
+      "@id": "https://dlt.mobi/mobility-schema#JurisdictionRequirements",
+      "@context": {
+        "jurisdictionRequirementsRef": {
+          "@id": "https://schema.org/identifier"
+        },
+        "jurisdictionDescription": {
+          "@id": "https://schema.org/text"
+        }
+      }
+    },
     "LEIaddress": {
       "@id": "https://dlt.mobi/mobility-schema#LEIaddress",
       "@context": {
@@ -919,6 +1084,44 @@
         }
       }
     },
+    "MaterialsAndComposition": {
+      "@id": "https://dlt.mobi/mobility-schema#MaterialsAndComposition",
+      "@context": {
+        "criticalRawMaterials": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#criticalRawMaterials"
+        },
+        "batteryChemistry": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#batteryChemistry"
+        },
+        "cathodeAnodeElectrolyteNames": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#cathodeAnodeElectrolyteNames"
+        },
+        "relatedIDsCathodeAnodeElectrolytes": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#relatedIDsCathodeAnodeElectrolytes"
+        },
+        "weightCathodeAnodeElectrolytes": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#weightCathodeAnodeElectrolytes"
+        },
+        "hazardousSubstancesNames": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#hazardousSubstancesNames"
+        },
+        "hazardSubstancesClasses": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#hazardSubstancesClasses"
+        },
+        "relatedIDHazardousSubstances": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#relatedIDHazardousSubstances"
+        },
+        "locationHazardousSubstances": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#locationHazardousSubstances"
+        },
+        "concentrationRangeHazardousSubstances": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#concentrationRangeHazardousSubstances"
+        },
+        "substancesImpactDescriptions": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#substancesImpactDescriptions"
+        }
+      }
+    },
     "Member": {
       "@id": "https://dlt.mobi/mobility-schema#Member",
       "@context": {
@@ -1050,6 +1253,101 @@
         },
         "EnergySource": {
           "@id": "https://schema.org/Name"
+        }
+      }
+    },
+    "PerformanceAndDurability": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#PerformanceAndDurability",
+      "@context": {
+        "certifiedUsableBatteryEnergy": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#certifiedUsableBatteryEnergy"
+        },
+        "initialSelfDischargingRate": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#initialSelfDischargingRate"
+        },
+        "ratedCapacity": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#ratedCapacity"
+        },
+        "nominalVoltage": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#nominalVoltage"
+        },
+        "minimumVoltage": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#minimumVoltage"
+        },
+        "maximumVoltage": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#maximumVoltage"
+        },
+        "originalPowerCapability": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#originalPowerCapability"
+        },
+        "maxPermittedBatteryPower": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#maxPermittedBatteryPower"
+        },
+        "ratioNominalAllowedPower": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#ratioNominalAllowedPower"
+        },
+        "initialRoundTripEnergyEfficiency": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#initialRoundTripEnergyEfficiency"
+        },
+        "roundTripEnergyEfficiency50pCycleLife": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#roundTripEnergyEfficiency50pCycleLife"
+        },
+        "initialInternalResistanceCellLevel": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#initialInternalResistanceCellLevel"
+        },
+        "maxInitialInternalResistancePackLevel": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#maxInitialInternalResistancePackLevel"
+        },
+        "maxInitialInternalResistanceModuleLevel": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#maxInitialInternalResistanceModuleLevel"
+        },
+        "expectedLifetime": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#expectedLifetime"
+        },
+        "cycleLifeReferenceTest": {
+          "@id": "https://schema.org/positiveNotes"
+        },
+        "cRateRelevantCycleLifeTest": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#cRateRelevantCycleLifeTest"
+        },
+        "thresholdCapacityExhaustion": {
+          "@id": "https://schema.org/position"
+        },
+        "soceExhaustionThreshold": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#soceExhaustionThreshold"
+        },
+        "batteryWarrantyPeriod": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#batteryWarrantyPeriod"
+        },
+        "batteryPuttingIntoServiceDate": {
+          "@id": "https://schema.org/Date"
+        },
+        "idleStateTemperatureRangeLB": {
+          "@id": "https://schema.org/Integer"
+        },
+        "idleStateTemperatureRangeUB": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#idleStateTemperatureRangeUB"
+        },
+        "totalEnergy": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#totalEnergy"
+        },
+        "maxChargeRate": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#maxChargeRate"
+        },
+        "maxDischargeRate": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#maxDischargeRate"
+        },
+        "operationalTempUB": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#operationalTempUB"
+        },
+        "operationalTempLB": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#operationalTempLB"
+        },
+        "materialSource": {
+          "@id": "https://schema.org/Text"
+        },
+        "storageHumidity": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#storageHumidity"
         }
       }
     },
@@ -1228,6 +1526,9 @@
         },
         "sku": {
           "@id": "https://schema.org/sku"
+        },
+        "gtin": {
+          "@id": "https://schema.org/gtin"
         }
       }
     },
@@ -1324,6 +1625,40 @@
         },
         "value": {
           "@id": "https://schema.org/value"
+        }
+      }
+    },
+    "RegulatoryRequirements": {
+      "@id": "https://dlt.mobi/mobility-schema#RegulatoryRequirements",
+      "@context": {
+        "regulatoryRequirementsRef": {
+          "@id": "https://schema.org/identifier"
+        },
+        "regulatoryDescription": {
+          "@id": "https://schema.org/text"
+        }
+      }
+    },
+    "RequiredLabelInfoCARB": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#RequiredLabelInfoCARB",
+      "@context": {
+        "manufacturersId": {
+          "@id": "https://schema.org/identifier"
+        },
+        "manufacturingDate": {
+          "@id": "https://schema.org/Date"
+        },
+        "minimumVoltage": {
+          "@id": "https://schema.org/minValue"
+        },
+        "ratedCapacity": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#ratedCapacity"
+        },
+        "packUniqueId": {
+          "@id": "https://schema.org/Number"
+        },
+        "manualBatteryDisassemblyDismantling": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#manualBatteryDisassemblyDismantling"
         }
       }
     },
@@ -1480,6 +1815,23 @@
         },
         "expirationDate": {
           "@id": "https://schema.org/expires"
+        }
+      }
+    },
+    "SupplyChainDueDiligence": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#SupplyChainDueDiligence",
+      "@context": {
+        "dueDiligenceReport": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#dueDiligenceReport"
+        },
+        "thirdPartySupplyChainAssurances": {
+          "@id": "https://schema.org/contentUrl"
+        },
+        "euTaxonomyDisclosureStatement": {
+          "@id": "https://schema.org/url"
+        },
+        "sustainabilityReport": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#sustainabilityReport"
         }
       }
     },
@@ -2164,7 +2516,7 @@
           "@id": "https://schema.org/vehicleIdentificationNumber"
         },
         "uvi": {
-          "@id": "https://schema.org/url"
+          "@id": "https://schema.org/accountId"
         }
       }
     },
@@ -2288,6 +2640,20 @@
         },
         "EnergySource": {
           "@id": "https://schema.org/Name"
+        }
+      }
+    },
+    "ZEVCertification": {
+      "@id": "https://dlt.mobi/mobility-schema/schemas#ZEVCertification",
+      "@context": {
+        "certifiedUsableBatteryEnergy": {
+          "@id": "https://mobi-dlts.github.io/custom_terms_vocab/terms_vocab.jsonld#certifiedUsableBatteryEnergy"
+        },
+        "batterySOH": {
+          "@id": "https://schema.org/value"
+        },
+        "safetyMeasuresInstructions": {
+          "@id": "https://schema.org/url"
         }
       }
     },
